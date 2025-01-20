@@ -19,7 +19,7 @@ By integrating multiple topic modeling techniques and an LLM-based evaluation pi
 The `src/topic_models/` directory contains scripts for different topic modeling techniques:
 - **`lda.py`:** Latent Dirichlet Allocation (LDA)
 - **`prodlda.py`:** Product of Experts LDA (ProdLDA)
-- **`combinedtm.py`:** Combined Topic Model (CombinedTM)
+- **`combinedtm.py`:** Contextualized Topic Model (CombinedTM)
 - **`bertopic.py`:** BERTopic
 
 You can find detailed instructions in the **tutorial Jupyter notebook**, which walks through the entire topic modeling process, from data preparation to extracting and interpreting topic distributions.
