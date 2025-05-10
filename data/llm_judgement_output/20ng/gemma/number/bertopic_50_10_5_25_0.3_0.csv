@@ -1,0 +1,53 @@
+ID	Topic words	Coherence	Repetitive	Readability	Number of Outliers	Outliers	Number of Same Concept Pairs	Same Concept Pairs	Number of Non-words	Non-words
+0	use work problem need file program run dos bit write	2.0	2.0	3.0	2	bit dos	3	"[(""'use'"", ""'write'""), (""'program'"", ""'run'""), (""'dos'"", ""'file'"")]"	0	
+1	game team year score pick toronto cup van average shot	2.2	2.0	3.0	3	'year' 'average' 'shot'	3	"[(""'team'"", ""'toronto'""), (""'team'"", ""'van'""), (""'year'"", ""'average'"")]"	0	
+2	car engine ride tire drive speed rear gear auto transmission	3.0	2.0	3.0	0		2	"[(""'engine'"", ""'transmission'""), (""'tire'"", ""'rear'"")]"	1	in the context of cars
+3	space nasa orbit moon mission satellite solar flight astronomy planet	3.0	2.0	3.0	1	'astronomy'	3	"[(""'space'"", ""'planet'""), (""'nasa'"", ""'mission'""), (""'orbit'"", ""'satellite'"")]"	0	
+4	msg patient doctor disease health treatment medicine symptom headache hospital	3.0	2.0	3.0	0		3	"[(""'patient'"", ""'doctor'""), (""'patient'"", ""'hospital'""), (""'disease'"", ""'hospital'"")]"	0	
+5	sale ground circuit stereo radio receiver input box game sony	2.0	2.0	3.0	2	'game' 'sony'	3	"[(""'stereo'"", ""'radio'""), (""'stereo'"", ""'receiver'""), (""'sony'"", ""'radio'"")]"	0	
+6	key clipper chip algorithm security encrypt phone scheme block patent	3.0	2.0	3.0	2	phone patent	3	"[(""'chip'"", ""'clipper'""), (""'algorithm'"", ""'scheme'""), (""'encrypt'"", ""'block'"")]"	0	
+7	israel jews jewish nazi war peace palestinians gaza jerusalem zionist	3.0	2.0	3.0	0		1	"[(""'israel'"", ""'jerusalem'"")]"	0	
+8	motherboard bus ram card upgrade mac simms processor cpu coprocessor	3.0	2.0	3.0	2	'mac' 'simms'	2	"[(""'processor'"", ""'cpu'""), (""'processor'"", ""'coprocessor'"")]"	0	
+9	god church bible faith catholic christians matthew pope judas revelation	3.0	1.8	3.0	2	judas pope	4	"[(""'god'"", ""'christians'""), (""'church'"", ""'catholic'""), (""'matthew'"", ""'bible'""), (""'pope'"", ""'catholic'"")]"	0	
+10	image colormap program animation bitmap graphics jpeg pixel pixmap convert	3.0	2.0	3.0	0		4	"[(""'image'"", ""'bitmap'""), (""'image'"", ""'pixmap'""), (""'graphics'"", ""'bitmap'""), (""'graphics'"", ""'pixmap'"")]"	1	pixmap**: While a valid term
+11	scsi disk controller floppy tape boot mac cable quadra rom	2.0	2.0	3.0	1	'mac'	2	"[(""'disk'"", ""'floppy'""), (""'mac'"", ""'quadra'"")]"	0	
+12	gun crime law amendment section state license military arm citizen	3.0	2.0	3.0	1	military	3	"[(""'gun'"", ""'arm'""), (""'law'"", ""'citizen'""), (""'law'"", ""'state'"")]"	0	
+13	morality objective atheists political christian human subjective hudson definition absolute	2.0	2.0	3.0	2	hudson definition	2	"[(""'morality'"", ""'objective'""), (""'christian'"", ""'absolute'"")]"	0	
+14	apartment fbi tell building kill shout neighbor door time afraid	2.0	2.0	3.0	0		2	"[(""'apartment'"", ""'building'""), (""'neighbor'"", ""'building'"")]"	0	
+15	turkish turks genocide soviet muslim massacre population history greeks republic	2.4	2.0	2.0	0		3	"[(""'turkish'"", ""'turks'""), (""'turkish'"", ""'muslim'""), (""'greeks'"", ""'turks'"")]"	1	'soviet' - While a valid word
+16	printer deskjet scanner bubblejet driver laserwriter laserjet printing cartridge inkjet	3.0	2.0	3.0	0		4	"[(""'printer'"", ""'laserjet'""), (""'printer'"", ""'laserwriter'""), (""'deskjet'"", ""'bubblejet'""), (""'cartridge'"", ""'inkjet'"")]"	0	
+17	homosexual homosexuality percentage study abortion heterosexual abstinence church rape immoral	2.0	2.0	2.4	0		3	"[(""'homosexual'"", ""'homosexuality'""), (""'homosexual'"", ""'heterosexual'""), (""'homosexuality'"", ""'heterosexual'"")]"	0	
+18	monitor screen centris adapter mac viewsonic resolution spec vram cable	3.0	2.0	3.0	2	mac spec	2	"[(""'monitor'"", ""'screen'""), (""'mac'"", ""'centris'"")]"	0	
+19	list mail request address grand junk access update car mailbox	2.0	2.0	3.0	2	'car' 'mailbox'	2	"[(""'mail'"", ""'mailbox'""), (""'address'"", ""'mailbox'"")]"	0	
+20	card driver ati video winmark windows speedstar svga vram genoa	2.0	2.0	3.0	1	genoa	4	"[(""'ati'"", ""'driver'""), (""'ati'"", ""'vram'""), (""'windows'"", ""'winmark'""), (""'windows'"", ""'svga'"")]"	0	
+21	court cooper judge cop justice prosecution jury federal testimony lawyer	3.0	2.0	3.0	1	cop	2	"[(""'judge'"", ""'justice'""), (""'lawyer'"", ""'prosecution'"")]"	0	
+22	modem fax mac cable chipset send hardware connect gateway supply	2.0	2.0	3.0	0		3	"[(""'modem'"", ""'gateway'""), (""'modem'"", ""'cable'""), (""'mac'"", ""'hardware'"")]"	0	
+23	windows unix application comp mac program gui version toolkit compile	3.0	2.0	3.0	0		3	"[(""'windows'"", ""'mac'""), (""'application'"", ""'program'""), (""'comp'"", ""'compile'"")]"	0	
+24	allocation windows disk swap error ram crash sys fault mathcad	2.0	2.0	3.0	1	'mathcad'	3	"[(""'windows'"", ""'sys'""), (""'disk'"", ""'swap'""), (""'ram'"", ""'sys'"")]"	0	
+25	atheist exist god atheism religion belief universe faith premise agnostic	3.0	2.0	3.0	0		4	"[(""'atheist'"", ""'atheism'""), (""'god'"", ""'religion'""), (""'god'"", ""'faith'""), (""'belief'"", ""'religion'"")]"	1	premise**: While a valid word
+26	polygon sphere intersection outline ellipse algorithm circle delaunay triangulation perpendicular	3.0	2.0	3.0	2	algorithm perpendicular	1	"[(""'circle'"", ""'ellipse'"")]"	0	
+27	mouse driver button windows apple cursor modem logitech fix hardware	2.0	2.0	3.0	2	'apple' 'modem'	2	"[(""'mouse'"", ""'cursor'""), (""'logitech'"", ""'mouse'"")]"	0	
+28	newsreader norman email tip forsale nixon author article need cview	2.0	2.0	3.0	0		2	"[(""'newsreader'"", ""'cview'""), (""'norman'"", ""'nixon'"")]"	0	
+29	islam islamic religion atheism genocide bobby koran argument quran sexist	2.0	2.0	2.8	1	'bobby'	3	"[(""'islam'"", ""'islamic'""), (""'islam'"", ""'koran'""), (""'islam'"", ""'quran'"")]"	0	
+30	compile doug error sunos font ipx patch icon spss cpp	2.0	2.0	3.0	0		1	"[(""'cpp'"", ""'compile'"")]"	0	
+31	ftp site file zip upload download gateway package assembler tutorial	3.0	2.0	3.0	1	tutorial	4	"[(""'ftp'"", ""'site'""), (""'file'"", ""'package'""), (""'file'"", ""'zip'""), (""'download'"", ""'upload'"")]"	0	
+32	font truetype text display xview print bold printer char mac	3.0	2.0	3.0	1	'mac'	4	"[(""'font'"", ""'text'""), (""'font'"", ""'bold'""), (""'font'"", ""'print'""), (""'text'"", ""'char'"")]"	0	
+33	arrogance truth christians absolute belief faith scripture interpretation evangelical blindly	2.4	2.0	3.0	0		3	"[(""'faith'"", ""'belief'""), (""'scripture'"", ""'faith'""), (""'scripture'"", ""'belief'"")]"	0	
+34	rushdie islam islamic muslim fatwa book secular mohammed religion qur	3.0	2.0	3.0	2	'secular' 'qur'	1	"[(""'islam'"", ""'muslim'"")]"	0	
+35	telephone hook ring need yellow device led wire lift machine	2.0	2.0	3.0	2	'yellow' 'led'	2	"[(""'telephone'"", ""'device'""), (""'hook'"", ""'lift'"")]"	0	
+36	mormon mormons jews temple church christian belief doctrine joseph religion	3.0	2.0	3.0	0		7	"[(""'mormon'"", ""'mormons'""), (""'mormon'"", ""'church'""), (""'mormon'"", ""'religion'""), (""'jews'"", ""'religion'""), (""'temple'"", ""'church'""), (""'christian'"", ""'religion'""), (""'belief'"", ""'"")]"	0	
+37	motif widget toolkit interviews interface bug platform ftp mail application	2.0	2.0	3.0	2	'interviews' 'bug'	2	"[(""'widget'"", ""'application'""), (""'toolkit'"", ""'application'"")]"	0	
+38	science methodology scientific theory study psychology scientist russell evolution experiment	3.0	2.0	3.0	0		7	"[(""'science'"", ""'scientific'""), (""'science'"", ""'methodology'""), (""'science'"", ""'theory'""), (""'science'"", ""'study'""), (""'science'"", ""'experiment'""), (""'psychology'"", ""'scientist'""), (""'evolution'"", ""'study'"")]"	0	
+39	drug cocaine people crack thug crime survey illegal pot student	2.6	2.0	2.0	2	student survey	4	"[(""'drug'"", ""'cocaine'""), (""'drug'"", ""'pot'""), (""'cocaine'"", ""'crack'""), (""'thug'"", ""'crime'"")]"	0	
+40	president job secretary work think summer package congress community education	2.0	2.0	3.0	2	'summer' 'package'	3	"[(""'president'"", ""'secretary'""), (""'job'"", ""'work'""), (""'education'"", ""'community'"")]"	0	
+41	split newsgroup aspect article alt ieee read crossposte forum sci	2.0	2.0	3.0	2	alt read	2	"[(""'newsgroup'"", ""'forum'""), (""'article'"", ""'newsgroup'"")]"	0	
+42	nuclear fossil heat river technology stage build contamination cylinder oil	2.0	2.0	3.0	2	'river' 'cylinder'	2	"[(""'nuclear'"", ""'oil'""), (""'fossil'"", ""'oil'"")]"	0	
+43	des key corporate chip bit hardware crack program smart secure	3.0	2.0	3.0	0		3	"[(""'chip'"", ""'bit'""), (""'smart'"", ""'secure'""), (""'corporate'"", ""'key'"")]"	0	
+44	libertarian employment govt liberty subject majority state limited lobby constitution	2.0	2.0	3.0	2	subject majority	3	"[(""'libertarian'"", ""'liberty'""), (""'govt'"", ""'state'""), (""'limited'"", ""'liberty'"")]"	0	
+45	helmet impact bat ride shell damage size surface activity piece	2.0	2.0	3.0	0		3	"[(""'helmet'"", ""'shell'""), (""'helmet'"", ""'piece'""), (""'bat'"", ""'piece'"")]"	0	
+46	sabbath paul worship christian sunday church gentiles scripture jewish change	2.8	2.0	3.0	2	sunday church	2	"[(""'sabbath'"", ""'sunday'""), (""'christian'"", ""'church'"")]"	1	'gentiles' - While a valid word
+47	government code trust fractal company japanese swiss liberty capitalist communist	2.0	2.0	3.0	3	'fractal' 'japanese' 'swiss'	2	"[(""'government'"", ""'company'""), (""'japanese'"", ""'swiss'"")]"	0	
+48	jewish greenberg player roger steve era art ron list mike	2.0	2.0	2.0	2	'art' 'list'	2	"[(""'jewish'"", ""'ron'""), (""'roger'"", ""'steve'"")]"	0	
+49	window expose event position handler button widget thickframe border rectangle	3.0	2.0	3.0	4	'expose' 'handler' 'border' 'rectangle'	3	"[(""'window'"", ""'widget'""), (""'window'"", ""'thickframe'""), (""'button'"", ""'handler'"")]"	0	
+50	summer room hotel kitchen vacation sale victoria roommate plenty housing	2.0	2.0	3.0	2	'sale' 'victoria'	3	"[(""'room'"", ""'hotel'""), (""'room'"", ""'roommate'""), (""'room'"", ""'housing'"")]"	0	
+51	voice modem dsp compression cheap clipper software phone hardware data	2.0	2.0	3.0	1	'clipper'	2	"[(""'voice'"", ""'phone'""), (""'hardware'"", ""'software'"")]"	0	

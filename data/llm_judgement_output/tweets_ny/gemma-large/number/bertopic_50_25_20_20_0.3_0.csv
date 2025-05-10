@@ -1,0 +1,54 @@
+ID	Topic words	Coherence	Repetitive	Readability	Number of Outliers	Outliers	Number of Same Concept Pairs	Same Concept Pairs	Number of Non-words	Non-words
+0	learn yoga wanna live fit shape quit job promise fat	2.0	2.0	2.0	5	ˈwanna quit job promise fat	1	"[(""'fat'"", ""'shape'"")]"	0	
+1	dot dick joke nut dramatic phat bmv type liberal repeat	1.0	2.0	1.8	4	ˈliberal ˈtype ˈrepeat ˈdramatic	1	"[(""'bmv'"", ""'type'"")]"	0	
+2	drink coffee alcohol soda coke whiskey starbucks detox addiction latte	2.0	2.0	3.0	2	ˈdetox ˈaddiction	1	"[(""'coke'"", ""'soda'"")]"	0	
+3	tweet twitter instagram facebook gossip socialmedia unfollow phone platform addicted	3.0	1.0	3.0	0		2	"[(""'tweet'"", ""'twitter'""), (""'socialmedia'"", ""'platform'"")]"	0	
+4	food pizza chicken taco chipotle meal breakfast recipe gluten mcdonald	3.0	2.0	3.0	0		1	"[(""'food'"", ""'meal'"")]"	1	'chipotle' - While a valid word
+5	workout fitness join treadmill fitbit gymlife golf motivation runchat fitnessmotivation	3.0	2.0	3.0	1	golf	1	"[(""'fitness'"", ""'fitnessmotivation'"")]"	0	
+6	music listen concert dance mixtape band soundtrack sing musician drum	3.0	2.0	3.0	1	🥁 **drum	1	"[(""'music'"", ""'soundtrack'"")]"	0	
+7	blog netflix mondayblog podcast rachelclarkgiveaway blogge blogging simpson facebook friends	2.0	1.0	2.0	3	'simpson' 'facebook' 'friends'	2	"[(""'blog'"", ""'blogging'""), (""'blog'"", ""'blogge'"")]"	1	it's a very specific
+8	success plan goals step obstacle task achievable realistic hesitation streak	3.0	2.0	3.0	2	ˈhesitation ˈstreak	2	"[(""'goals'"", ""'step'""), (""'achievable'"", ""'realistic'"")]"	0	
+9	sleep nap morning noon sunrise hibernate routine habit snooze evening	3.0	2.0	3.0	3	hibernate routine habit	1	"[(""'sleep'"", ""'nap'"")]"	0	
+10	gainz diet fat pretzel loseweight healthy tweak dropthebabyweight twinkie shed	2.0	2.0	2.0	1	pretzel	2	"[(""'loseweight'"", ""'shed'""), (""'gainz'"", ""'fat'"")]"	1	"'gainz'**: Non-standard spelling of ""gains"""
+11	god pray jesus prayer faith bible bless miracle church hug	3.0	1.0	3.0	0		2	"[(""'pray'"", ""'prayer'""), (""'god'"", ""'jesus'"")]"	0	
+12	christmas clean room organize apartment stuff folder gift roommate loveyourlife	2.0	2.0	3.0	2	ˈfolder ˈloveyourlife	1	"[(""'room'"", ""'apartment'"")]"	0	
+13	january newyearnewme calendar newyearseve birthday cyclical sunday jesusyear jules gregorian	3.0	2.0	3.0	0		1	"[(""'calendar'"", ""'gregorian'"")]"	0	
+14	game watch laker hockey playoff yankees cheer favorite fuel teamless	2.0	2.0	3.0	2	'fuel' 'teamless'	1	"[(""'game'"", ""'playoff'"")]"	0	
+15	selfie portrait evar ordinarylife foley shatter disposable editing nude jim	2.0	2.0	2.0	4	'evar' 'foley' 'shatter' 'jim'	1	"[(""'evar'"", ""'selfie'"")]"	0	
+16	thank pretty bath sexymonday nana enjoy cute beautiful grateful heart	2.0	2.0	2.0	0		1	"[(""'cute'"", ""'beautiful'"")]"	0	
+17	chapter publisher challenge thrones amreade novel bible cupid newauthor godslovechat	2.0	2.0	2.0	4	'cupid' 'godslovechat' 'amreade' 'newauthor'	1	"[(""'novel'"", ""'chapter'"")]"	1	amreade:** Likely a typo or a very specific
+18	pack shoe sock sneaker fashion legging dress wardrobe underwear sweat	3.0	2.0	3.0	0		2	"[(""'sock'"", ""'underwear'""), (""'shoe'"", ""'sneaker'"")]"	1	in the context of this list (which appears to be clothing/fashion related)
+19	hard lie honest truth govenment fascist secret propaganda confession adventuresinchemistry	2.0	2.0	2.0	0		2	"[(""'hard'"", ""'truth'""), (""'lie'"", ""'honest'"")]"	0	
+20	forgive mistake forget blame excuse apology forgiveness regret guilty unpette	3.0	1.0	3.0	1	'unpette'	2	"[(""'forgive'"", ""'forgiveness'""), (""'regret'"", ""'guilty'"")]"	0	
+21	family father mom resolutions sheep taxpayer mombiz sonoma hangry bournemouth	2.0	2.0	3.0	0		2	"[(""'father'"", ""'mom'""), (""'mom'"", ""'mombiz'"")]"	1	"mombiz**: While understandable as a portmanteau of ""mom"" and ""business"""
+22	travel adventure boat vacation trip flight ride york iceland hike	3.0	2.0	3.0	0		1	"[(""'trip'"", ""'vacation'"")]"	0	
+23	friend friendship sister needafriend london dwl friendzone sweetie pony relationships	2.0	1.0	3.0	0		2	"[(""'friend'"", ""'friendship'""), (""'friend'"", ""'needafriend'"")]"	0	
+24	bitch dick feminist motherfucker timb rapper bitchez badder hate rape	2.0	1.0	1.0	3	'feminist' 'hate' 'rape'	1	"[(""'bitch'"", ""'bitchez'"")]"	0	
+25	meet justin humble battle chicago marry plato singlelife natasha datingadvice	2.0	2.0	3.0	2	ˈplato ˈchicago	2	"[(""'meet'"", ""'datingadvice'""), (""'marry'"", ""'singlelife'"")]"	0	
+26	chuck jack blair cjohnson lou waldorf beyonc buck irish wwkkd	2.0	2.0	2.0	0		2	"[(""'chuck'"", ""'cjohnson'""), (""'jack'"", ""'waldorf'"")]"	0	
+27	degree graduate internship recruit teacher career gradua recommendation greensboro engineer	3.0	2.0	3.0	0		2	"[(""'degree'"", ""'graduate'""), (""'gradua'"", ""'graduate'"")]"	0	
+28	spend debt budget finance account wallet student archive bank goodwill	3.0	2.0	3.0	0		2	"[(""'account'"", ""'wallet'""), (""'bank'"", ""'finance'"")]"	0	
+29	perf nutshell troll fuckboi heckle commas don license driver bullshit	2.0	2.0	2.0	0		1	"[(""'driver'"", ""'license'"")]"	0	
+30	cosplay strokin title terminator genisys goddess cosby checkoutmyvine pancake batwoman	1.0	2.0	2.0	0		1	"[(""'cosby'"", ""'cosplay'"")]"	0	
+31	club smoke cigarettes stank pete factz hun partying cancer dope	2.0	1.0	2.0	0		2	"[(""'pete'"", ""'dope'""), (""'cigarettes'"", ""'smoke'"")]"	1	'stank'**: While slang
+32	hair shave eyebrow beard eyeliner haircut effort mustache lara trim	3.0	1.6	3.0	2	ˈeffortˈ ˈlaraˈ	2	"[(""'hair'"", ""'haircut'""), (""'shave'"", ""'trim'"")]"	0	
+33	follow boyrusher insurgent goingstrong frankie fuckboy coach stuck flip rule	2.0	2.0	2.0	3	'coach' 'flip' 'rule'	1	"[(""'follow'"", ""'goingstrong'"")]"	0	
+34	run mile marathon runnerspace racing wyoming marathontraine marathontraining educator iowa	3.0	1.0	3.0	0		1	"[(""'marathontraine'"", ""'marathontraining'"")]"	1	"'marathontraine'**: Likely a typo or incomplete word. Should be 'marathontraining'.
+* **'runnerspace'**: While a known website"
+35	worry fear anxiety stress cookie panic pandora claustrophobic caution happyheart	2.0	1.0	3.0	0		2	"[(""'worry'"", ""'anxiety'""), (""'fear'"", ""'panic'"")]"	0	
+36	write memory pen writing memo mathchat javascript ink erase undergrad	2.0	2.0	3.0	3	'mathchat' 'javascript' 'undergrad'	2	"[(""'write'"", ""'writing'""), (""'memo'"", ""'memory'"")]"	0	
+37	focused stress thoughtless stillquiethour endoftheyear stillness greatness happier comfort vision	2.0	2.0	3.0	3	'thoughtless' 'greatness' 'endoftheyear'	1	"[(""'happier'"", ""'comfort'"")]"	0	
+38	change anarchy ariel realworld ooc general justice collective mike wave	2.0	2.0	2.0	4	'ariel' 'realworld' 'mike' 'wave'	1	"[(""'ooc'"", ""'general'"")]"	1	ariel**: While a name
+39	hashtag hashtagoftheweek smoking organize hashtagofthe hammer medical sew recycle broad	2.0	2.0	2.0	3	'hammer' 'sew' 'broad'	2	"[(""'hashtag'"", ""'hashtagoftheweek'""), (""'hashtag'"", ""'hashtagofthe'"")]"	1	'hashtagoftheweek'**: While understandable
+40	happiness positivity pessimistic immortality affect unhappy constructive emotion patient motivate	2.0	2.0	3.0	1	ˈpessimistic	2	"[(""'happiness'"", ""'positivity'""), (""'unhappy'"", ""'pessimistic'"")]"	0	
+41	smile ride stress symptom frown quitsmoke wink obstacle period motivated	2.0	2.0	3.0	4	ˈperiodˈ ˈobstacleˈ ˈquitsmokeˈ ˈmotivatedˈ	2	"[(""'smile'"", ""'wink'""), (""'frown'"", ""'smile'"")]"	0	
+42	car wheel turbo vehicle passenger porsche newdriver lexus wrangler frog	2.0	2.0	3.0	1	🐸 **frog	1	"[(""'car'"", ""'vehicle'"")]"	0	
+43	weed smoke quit smokin cig smokefree smokeweed firework cannabis tobacco	2.0	1.0	2.0	0		2	"[(""'smokin'"", ""'smoke'""), (""'smokeweed'"", ""'weed'"")]"	0	
+44	hate hater ugly reason cat losin adorable grumpy disneyland nyr	2.0	2.0	2.0	3	'reason' 'disneyland' 'nyr'	1	"[(""'hate'"", ""'hater'"")]"	0	
+45	complete cat absolutely lyfe shb flawless accent british content ready	2.0	2.0	2.0	1	ˈliːf	2	"[(""'absolutely'"", ""'flawless'""), (""'ready'"", ""'complete'"")]"	0	
+46	girlfriend wife bae impregnate marriage speciman starbswiththegirl virginity slutty wedding	2.0	1.0	2.0	0		2	"[(""'girlfriend'"", ""'wife'""), (""'marriage'"", ""'wedding'"")]"	0	
+47	healthy health insurance plaindealer healthyteeth uccessful legit physique giant cholesterol	2.0	1.2	2.2	0		1	"[(""'healthy'"", ""'health'"")]"	0	
+48	live connected active teachit lovelife rank livelifehappy liveit leslie prosper	2.0	1.6	2.0	1	rank	2	"[(""'live'"", ""'livelifehappy'""), (""'live'"", ""'liveit'"")]"	0	
+49	break reality watch vain destroyallcliche afternoon musical lost coast addiction	2.0	2.0	3.0	2	'afternoon' 'coast'	1	"[(""'reality'"", ""'destroyallcliche'"")]"	1	destroyallcliche** - This appears to be a single
+50	procrastinate procrastination late procrastinating deadline hour sketch dreamer rush workhard	2.0	1.0	3.0	2	sketch workhard	2	"[(""'procrastinate'"", ""'procrastination'""), (""'procrastinate'"", ""'procrastinating'"")]"	0	
+51	care community service volunteer organization contribute generous society compassion family	3.0	2.0	3.0	1	organization	1	"[(""'compassion'"", ""'care'"")]"	0	

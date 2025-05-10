@@ -1,0 +1,3799 @@
+{
+  "0": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'cup', 'watch', 'adams' ]",
+        "watch, adams ]",
+        "'adams', 'quebec', 'chicago', 'vancouver' ]\n\nThese words are cities, whereas the other words in the list are related to sports.",
+        "'cup', 'watch', 'adams' ]",
+        "'cup', 'watch' ]\n\nThese two words are not directly related to the sports theme. 'Cup' is a general object, and 'watch' can refer to time-keeping device or observing something."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'team'",
+            "'fan'"
+          ],
+          [
+            "'toronto'",
+            "'chicago'"
+          ],
+          [
+            "'quebec'",
+            "'vancouver'"
+          ],
+          [
+            "'cup'",
+            "'adams'"
+          ]
+        ]
+      },
+      "raw": "('team', 'fan'), ('toronto', 'chicago'), ('quebec', 'vancouver'), ('cup', 'adams') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'adams'"
+      },
+      "raw": [
+        "'adams', 'quebec', 'vancouver' ]\n\nReasons:\n- 'adams' is likely a last name and not a topic word.\n- 'quebec' is a city name but could be misspelled or more context",
+        "'adams' ] and [  'quebec' ] and [  'vancouver' ] because they are names of cities/places that have more than one word and may be considered as a single token, however, in this case,",
+        "'toronto', 'chicago', 'vancouver' ] \nReason: These are city names which might be misspelled or incomplete.",
+        "'adams', 'vancouver', 'quebec' ].\n\n- 'adams' is a name and not a topic word. \n- 'vancouver' and 'quebec' are place names that are not directly related to sports.",
+        "'adams' ] as it's a surname and not a topic word, and 'quebec' and 'vancouver' as they are not related to the topic of sports."
+      ]
+    }
+  },
+  "1": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'use', 'time', 'like', 'good', 'mean' ]",
+        "'right', 'good' ]",
+        "'use', 'time', 'problem' ]",
+        "'question', 'problem', 'state' ]",
+        "'use', 'like', 'good', 'mean' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "use",
+            "right"
+          ]
+        ]
+      },
+      "raw": "use,right], [time,state]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'use' ,  'like'  ]",
+        "'time'  ].\n\nReason: 'time' is often used as a word with multiple meanings (e.g., 'time' as a noun or a verb). However, in the given context, it is ambiguous.",
+        "'right', 'thing', 'state' ]\n\n*   'right': This word may be a typo or a colloquialism, but it's not clear what you mean. Consider using 'right' as in 'proper' or 'correct",
+        "'like', 'mean' ].\n'like' is a very common word, but in this context, it could be considered unclear or too informal for a general topic. 'mean' is a valid word, but in this context, it could",
+        "'time' , 'right' , 'like' , 'good' , 'mean' , 'thing' , 'state' ]"
+      ]
+    }
+  },
+  "2": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'christians'"
+      },
+      "raw": [
+        "'christians'  ]",
+        "'question', 'claim' ]",
+        "'christians', 'idea', 'true' ]",
+        "'christians', 'believe', 'god', 'true' ]",
+        "'christians', 'true' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'believe'",
+            "'belief'"
+          ],
+          [
+            "'god'",
+            "'christians'"
+          ],
+          [
+            "'idea'",
+            "'truth'"
+          ]
+        ]
+      },
+      "raw": "('believe', 'belief'), ('god', 'christians'), ('idea', 'truth') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'christians'"
+      },
+      "raw": [
+        "'christians' ] - 'christians' is an ambiguous or unclear abbreviation (it could refer to people who follow Christianity, but in the context of the given list, it's unclear if it's referring to people, the Christian faith, or",
+        "\"believe\", \"believe\" ]\n\n* \"believe\" is a valid word in English, however, in this context, it appears twice which may indicate a typo.",
+        "'believe', 'christians', 'exist' ].\n\nThe word 'believe' is a valid English word but is likely a typo or a misspelling of the more common word 'believe' (without the extra 'e'",
+        "'believe', 'christians', 'idea' ]\n\n* \"believe\" is a valid word, but in the context of the list, it seems to be a duplicate of \"believe\" is not present in the original list, however",
+        "'christians' ]"
+      ]
+    }
+  },
+  "3": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 4,
+        "words": "'numner' 'recommene' 'mtd' 'itor'"
+      },
+      "raw": [
+        "'numner', 'recommene', 'toasterhead', 'bequidistant', 'mtd', 'itor'  ]",
+        "'numner', 'recommene', 'mtd', 'itor' ]",
+        "'numner', 'mtd', 'itor' ]",
+        "'numner', 'recommene', 'bequidistant', 'itor', 'mtd'  ]",
+        "'numner', 'recommene', 'bequidistant', 'itor', 'mtd', 'toasterhead' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'crystalize'",
+            "'crystallize'"
+          ],
+          [
+            "'recommene'",
+            "'recommend'"
+          ],
+          [
+            "'bequidistant'",
+            "'bequidistant'"
+          ],
+          [
+            "'svhs'",
+            "'SVHS'"
+          ],
+          [
+            "'matting'",
+            "'matting'"
+          ]
+        ]
+      },
+      "raw": "('crystalize', 'crystallize'), ('recommene', 'recommend'), ('bequidistant', 'bequidistant'), ('svhs', 'SVHS'), ('matting', 'matting'), ('itor',"
+    },
+    "non_words": {
+      "processed": {
+        "num": 6,
+        "words": "'numner' 'recommene' 'toasterhead' 'bequidistant' 'mtd' 'itor'"
+      },
+      "raw": [
+        "'numner', 'recommene', 'toasterhead', 'bequidistant', 'mtd', 'itor' ]",
+        "'numner', 'recommene', 'bequidistant', 'itor', 'mtd', 'toasterhead' ]\n\nReasons:\n* 'numner': likely a typo for 'number'\n* 'recommene': likely",
+        "'numner', 'recommene', 'toasterhead', 'bequidistant', 'mtd', 'itor' ]\n\nThese words appear to be typos or unclear abbreviations.",
+        "'numner', 'recommene', 'bequidistant', 'mtd', 'itor' ]\n\nReasons: \n\n- 'numner' is a typo of the word 'number'\n- 'recommene' is a typo",
+        "'numner',  'matting',  'recommene',  'toasterhead',  'bequidistant',  'itor',  'mtd' ]"
+      ]
+    }
+  },
+  "4": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "kent,  easter  ]",
+        "'kent', 'easter', 'translator' ]",
+        "kent, easter ]\n\nReasoning skill: Identifying Inconsistent Data\n\nThis requires the ability to analyze the topic model and identify words that do not fit with the general theme of the other words. The topic model appears to be related to health and",
+        "'easter', 'kent' ]",
+        "'kent', 'easter', 'translator' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'disease'",
+            "'response'"
+          ]
+        ]
+      },
+      "raw": "'disease', 'response' ], [ 'newsgroup', 'forum' ], [ 'kent', 'easter' ], [ 'patient', 'translator' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'easter' 'kent'"
+      },
+      "raw": [
+        "'easter' ]\n\nReason: 'easter' is a noun referring to a holiday, not a topic related to the others, which seem to be related to medical topics.",
+        "'easter', 'kent' ] \n\n- 'easter' is not a valid topic word in this context as it is a holiday or celebration.\n- 'kent' seems to be a proper noun (a county in England) and",
+        "'easter', 'kent' ]\n\nReasons: \n1. 'easter' is not relevant to the topic and seems like a typo or a non-technical term.\n2. 'kent' is a surname and a proper noun",
+        "'kent',  'easter' ]\n\nReason:\n- 'kent' is a proper noun (a place name) and is not a topic word in this context.\n- 'easter' can be a topic word, but it's",
+        "'kent', 'easter', 'translator' ]\n\n* 'kent' is likely a proper noun and not a topic word, and 'kent' is not a word in general English language.\n* 'easter' is a common"
+      ]
+    }
+  },
+  "5": {
+    "coherence": {
+      "processed": 1.4,
+      "raw": [
+        "3",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'numner' 'zipws' 'recommene'"
+      },
+      "raw": [
+        "'numner', 'zipws', 'carlsbad', 'recommene', 'archiver' ]\n\nThe other words 'mtd', 'anthology', 'bequidistant', 'specualtion', 'matting' appear",
+        "'numner', 'zipws', 'mtd', 'bequidistant', 'specualtion', 'carlsbad', 'recommene', 'archiver' ]",
+        "'numner', 'mtd', 'recommene', 'zipws' ]",
+        "'numner', 'zipws', 'matting', 'recommene', 'archiver' ]",
+        "'numner', 'zipws', 'mtd', 'carlsbad', 'matting' ]\n\nThese words don't appear to share a clear semantic connection with the other words in the list."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'numner'",
+            "'mtd'"
+          ],
+          [
+            "'zipws'",
+            "'archiver'"
+          ],
+          [
+            "'bequidistant'",
+            "'specualtion'"
+          ],
+          [
+            "'carlsbad'",
+            "'matting'"
+          ]
+        ]
+      },
+      "raw": "('numner', 'mtd'), ('zipws', 'archiver'), ('bequidistant', 'specualtion'), ('carlsbad', 'matting') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 4,
+        "words": "'zipws' 'specualtion' 'recommene' 'bequidistant'"
+      },
+      "raw": [
+        "'numner',  'zipws',  'specualtion',  'recommene'  ]\n\n- 'numner' seems to be a typo and should be 'number'.\n- 'zipws' appears to be a typo and",
+        "'numner', 'zipws', 'specualtion', 'recommene', 'bequidistant' ].\n\nReasons:\n*   'numner' appears to be a typo of 'number'.\n*   'zipws'",
+        "'zipws', 'mtd', 'bequidistant', 'specualtion', 'recommene', 'carlsbad', 'archiver' ]\n\nReasons:\n- 'zipws' is a typo, should be 'zip",
+        "'zipws', 'specualtion', 'bequidistant', 'recommene', 'matting' ] \n\nHere's a brief explanation for each:\n\n1. 'zipws': This appears to be a typo, likely a miss",
+        "'numner', 'zipws', 'bequidistant', 'specualtion', 'recommene', 'matting' ].\n\n* 'numner' likely a typo for 'number'\n* 'zipws' likely a typo"
+      ]
+    }
+  },
+  "6": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'svhs' 'numner' 'cdq'"
+      },
+      "raw": [
+        "'svhs', 'toasterhead', 'numner', 'cdq' ]",
+        "'svhs', 'matting', 'numner', 'cdq', 'itor' ]",
+        "'numner', 'cdq', 'itor', 'svhs'  ]",
+        "'svhs', 'numner', 'itor', 'cdq', 'toasterhead' ]",
+        "'matting', 'toasterhead', 'numner', 'cdq' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "'svhs, matting', 'numner, cdq', 'crystalize, disemination', 'toasterhead, corpusoreal', 'anthology, toasterhead', 'corporal, corpusoreal' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 3,
+        "words": "'numner' 'cdq' 'itor'"
+      },
+      "raw": [
+        "'numner', 'cdq', 'itor' ]\n\n*   'numner' is likely a typo and should be 'number'.\n*   'cdq' is unclear and possibly an abbreviation, but it does not appear to be a valid",
+        "'matting',  'numner',  'itor',  'cdq', 'toasterhead'  ]",
+        "'numner', 'cdq', 'itor' ] \n\nReasons:\n- 'numner' appears to be a typo and should be 'number'.\n- 'cdq' is an unclear abbreviation and possibly a typo or a shortened form of",
+        "'matting', 'numner', 'itor', 'cdq', 'toasterhead'  ]\n\n- 'matting' seems to be a typo, possibly 'matting' was intended.\n- 'numner' seems to be a",
+        "'numner', 'itor', 'cdq', 'toasterhead' ]\n\n*   'numner' is likely a typo and should be 'number'\n*   'itor' is a possible typo, unclear abbreviation or a very rare word"
+      ]
+    }
+  },
+  "7": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'numner' 'inb' 'baraff'"
+      },
+      "raw": [
+        "'numner', 'probablity', 'inb', 'baraff' ]\n\nExplanation:\n- 'numner' and 'probablity' seem to refer to abstract mathematical concepts, but 'numner' is likely a typo for '",
+        "'numner', 'inb', 'baraff' ]",
+        "'inb', 'baraff', 'dresden' ]\n\nReasoning:\nThe topic word set seems to be related to the theme of 'probability' and 'doubt'. The words 'numner', 'sceptic', 'syn",
+        "'numner', 'inb', 'baraff' ]",
+        "'numner', 'probablity', 'baraff' ]\n\nThese words appear to be typos or misspellings of 'number', 'probability', and 'barbaric', respectively, which are not semantically related to the other words"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'numner'",
+            "'probablity'"
+          ],
+          [
+            "'syn'",
+            "'corporeal'"
+          ]
+        ]
+      },
+      "raw": "('numner', 'probablity'), ('syn', 'corporeal') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 3,
+        "words": "'numner' 'inb' 'baraff'"
+      },
+      "raw": [
+        "'numner',  'inb',  'baraff'  ]\n\nThese words are likely typos or broken strings.",
+        "'numner', 'inb', 'baraff' ].\n\nThese are typos or broken strings.",
+        "'inb', 'baraff', 'numner' ]",
+        "'numner', 'inb', 'baraff' ].\nReason: These words appear to be typos or broken strings.",
+        "'numner', 'inb', 'baraff' ]\n\n*   'numner' is a typo of 'number'\n*   'inb' is likely a typo of 'in' or 'ib', but appears to be a miss"
+      ]
+    }
+  },
+  "8": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'look', 'like' ]",
+        "'like', 'want', 'think', 'tell' ]",
+        "'time', 'want', 'come', 'look' ]",
+        "'time', 'come' ]\n\nThese words do not fit the theme of thinking, communication, or desire, which is the theme of the other words in the list.",
+        "'like', 'look', 'want' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'time'",
+            "'thing'"
+          ]
+        ]
+      },
+      "raw": "('time', 'thing')"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'like',  'time' ]",
+        "'know', 'time' ]",
+        "'look' ] because it is a verb, but 'look' is a homograph that can also be a noun, and its meaning might be ambiguous without context.",
+        "'like' ]\n\nReason: 'like' is a common word, but its use as a token may indicate a possible typo or misuse of a word, as it's not typically used as a standalone word in a list of topics.",
+        "]\n\nThe list of topic words is clean and does not contain any obvious typos, broken strings, or extremely rare, unclear abbreviations. All words are valid."
+      ]
+    }
+  },
+  "9": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'sale', 'offer' ]",
+        "'appreciate', 'meg', 'upgrade' ]\n\nThe words that semantically belong to the same conceptual theme are: [ 'sale', 'offer', 'monitor', 'card', 'printer', 'screen', 'video' ]",
+        "'sale', 'offer', 'appreciate', 'upgrade' ]\n\nThe rest of the words seem to be related to computer hardware or electronics, whereas 'sale', 'offer', 'appreciate', and 'upgrade' are more related to",
+        "'sale', 'offer', 'appreciate' ]\n\nThe other words seem to relate to computer hardware or monitors.",
+        "appreciate, meg ]\n\nThese words do not fit with the rest of the topic, which appears to be related to electronics (monitors, printers, screens, etc.) and shopping (sale, offer, upgrade)."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'sale'",
+            "'offer'"
+          ],
+          [
+            "'meg'",
+            "'video'"
+          ]
+        ]
+      },
+      "raw": "('sale', 'offer'), ('meg', 'video') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'meg'"
+      },
+      "raw": [
+        "'meg' ]",
+        "'meg' ] \n\nReason: 'meg' is unclear and possibly a typo or abbreviation.",
+        "'meg', 'appreciate'  ].\n\n*   'meg' is a common prefix for megapixel, megabit, etc. but on its own, it's unclear what it refers to.\n*   'appreciate' is",
+        "'meg'  ]",
+        "'meg' ]"
+      ]
+    }
+  },
+  "10": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "3",
+        "2",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'ini'"
+      },
+      "raw": [
+        "'pointer', 'ini', 'utility', 'fix' ]",
+        "'ini', 'anybody', 'fix' ]",
+        "'advance', 'pointer' ]",
+        "'ini', 'advance' ]",
+        "'ini', 'advance' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'appreciate'",
+            "'thank'"
+          ],
+          [
+            "'greatly'",
+            "'advance'"
+          ],
+          [
+            "'suggestion'",
+            "'pointer'"
+          ],
+          [
+            "'fix'",
+            "'utility'"
+          ]
+        ]
+      },
+      "raw": "('appreciate', 'thank'), ('greatly', 'advance'), ('suggestion', 'pointer'), ('fix', 'utility') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'ini'"
+      },
+      "raw": [
+        "'ini' ]",
+        "'ini', 'advance' ]\n\n*   'ini' is a common programming prefix but not a valid English word.\n*   'advance' is not a word in the provided list, although 'advance' is a valid word, the original word",
+        "'ini', 'advance', 'anybody', 'greatly', 'suggestion', 'utility' ] with reasons:\n- 'ini' is a common programming prefix and unlikely to be used in normal language; \n- 'advance' is a",
+        "'ini', 'anybody', 'suggestion', 'utility', 'advance'  ].\n\n- 'ini' is a programming keyword, not a common word. It may be a typo or a programming-related token.\n- 'anybody'",
+        "'ini' ]\n\nReason: 'ini' is a common prefix for initialization in programming, but in the context of the provided list, it seems out of place."
+      ]
+    }
+  },
+  "11": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "1",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'player' 'van' 'stevens'"
+      },
+      "raw": [
+        "'shipping', 'player', 'van' ]",
+        "'van', 'stevens', 'player' ]",
+        "'player', 'stevens', 'van' ]",
+        "'van', 'stevens' ]\nThese two words do not belong to the theme of sale or offer as the others do.",
+        "'van', 'stevens', 'player' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'sale'",
+            "'sell'"
+          ],
+          [
+            "'new'",
+            "'new'"
+          ]
+        ]
+      },
+      "raw": "('sale', 'sell'), ('new', 'new') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'stevens' 'van'"
+      },
+      "raw": [
+        "'stevens', 'van' ].\n  - 'stevens' is a name, not a valid topic word.\n  - 'van' is a noun, but it's unclear how it relates to the topic of sales or offers",
+        "'stevens' ] - unclear abbreviation.\n\nThe valid tokens are: ['sale', 'new', 'offer', 'sell', 'price', 'win', 'shipping', 'player', 'van']",
+        "'van', 'stevens' ].\n\n*   'van' is a word, but it doesn't fit the context of the topic (sale, price, shipping) and seems like a typo or a non-relevant word.\n*",
+        "'van', 'stevens' ].\n\nvan is a common noun, not a word that would be associated with a topic like sale or offer. \nstevens is a name.",
+        "'van' ] as it is a common noun but may be out of context here, and [ 'stevens' ] as it could be a surname but doesn't match the topic context of the rest of the list."
+      ]
+    }
+  },
+  "12": {
+    "coherence": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'mtd' 'itor'"
+      },
+      "raw": [
+        "'matting', 'crystalize', 'bequidistant', 'dispell', 'mtd', 'itor' ]\n\nThe other words appear to be related to 'number', which is a numerical concept. The words that don't belong",
+        "'numner', 'mtd', 'itor', 'toasterhead' ]",
+        "'mtd', 'itor', 'carlsbad', 'toasterhead' ]",
+        "'mtd', 'itor', 'numner', 'toasterhead' ]",
+        "mtd,  bequidistant,  toasterhead,  itor ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "numner",
+            "mtd"
+          ]
+        ]
+      },
+      "raw": "numner, mtd], [anthology, itor]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'mtd' 'itor'"
+      },
+      "raw": [
+        "'numner', 'mtd', 'itor', 'bequidistant' ]\n\n* 'numner' is likely a typo and should be 'number'\n* 'mtd' is a likely abbreviation, but its meaning is unclear\n*",
+        "'numner', 'mtd', 'bequidistant', 'itor' ]\n\n* 'numner' is likely a typo for 'number'.\n* 'mtd' is an abbreviation that is unclear.\n* 'bequidistant'",
+        "'mtd', 'itor', 'toasterhead' ].\n\nReasons:\n- 'mtd': This is likely a typo or short form, but it does not have a clear meaning or is not a recognized word.\n- 'itor':",
+        "'mtd', 'itor', 'bequidistant', 'toasterhead' ]\n\nReasons: \n- 'mtd' is likely a typo for 'muted' or 'matted'\n- 'itor' is unclear, possibly",
+        "'numner', 'mtd', 'itor', 'toasterhead', 'carlsbad' ].\n\nThese words can be considered malformed or unclear due to the following reasons:\n\n*   'numner' seems to be a typo of the"
+      ]
+    }
+  },
+  "13": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'pay' 'year'"
+      },
+      "raw": [
+        "'people', 'program', 'cost', 'pay'  ]",
+        "'year', 'think', 'pay', 'care' ]",
+        "'year', 'talk' ]",
+        "'year', 'think', 'want', 'work', 'talk', 'cost', 'pay' ]\n\nThese words seem to have different semantic themes.",
+        "'year', 'want', 'cost', 'pay' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "year",
+            "pay"
+          ]
+        ]
+      },
+      "raw": "(year, pay) ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "\"program\" ].\n\nReason: The word \"program\" is a common term, but the word could be \"programs\" if referring to multiple programs.",
+        "'year' ]",
+        "'talk', 'pay', 'care', 'program' ]\n\n- 'talk' is a common word, but 'talk' can be a verb or a noun, but in this context, it seems like a typo or incomplete word, so it",
+        "] \n\n* 'work' is a common word but it may be considered as a misspelling of 'work' instead of 'work'",
+        "'think', 'pay' ]\n\n* 'think' is a valid word, but it is very common, and its usage may be different from its dictionary definition. However, in this context, I assume it is a typo for \"think\" is"
+      ]
+    }
+  },
+  "14": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "2",
+        "1",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'year' 'francisco'"
+      },
+      "raw": [
+        "'new', 'san', 'year', 'francisco' ]",
+        "'new', 'year', 'san', 'francisco' ]",
+        "'francisco', 'year' ]",
+        "'new', 'year', 'francisco' ]\n\nThese words appear to be more related to a specific time or location (new year, year, francisco) rather than the broader theme of government, law enforcement, or politics. The other",
+        "'francisco' ]\n\nThe other words are associated with the theme of government, law enforcement, and politics."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'government'",
+            "'state'"
+          ]
+        ]
+      },
+      "raw": "('government', 'state') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'san'"
+      },
+      "raw": [
+        "'san', 'francisco' ]\n\nReasons:\n* 'san' is likely a typo or a broken string. It might be 'san' as an abbreviation, but without context, it's unclear.\n* 'francisco' is",
+        "'san' ] \n\nReason: The word 'san' is a common abbreviation for 'San' which usually appears at the beginning of city names, but in this context, it is a standalone word which seems to be a typo or an extremely rare",
+        "'san', 'francisco' ]\n\n*   'san': This word is likely a typo or a fragment. The most probable correct word is 'San', which is an abbreviation for 'San Francisco', but 'san' is not a valid",
+        "'san', 'police' ].\n\nExplanation:\n* 'san' is likely a typo or abbreviation for a more specific word, such as 'San Francisco', which is not a standalone word in the list.\n* 'police' is an",
+        "'san' ]\n\nReason: 'san' is a very short and unclear abbreviation, and it's unlikely to be a valid word in this context."
+      ]
+    }
+  },
+  "15": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "3",
+        "1",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'dos' 'mov'"
+      },
+      "raw": [
+        "'dos', 'mov' ]",
+        "'mov', 'dos' ]",
+        "dos, mov ]",
+        "'dos', 'mov' ]",
+        "'dos', 'mov' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'dos'",
+            "'use'"
+          ],
+          [
+            "'mean'",
+            "'think'"
+          ]
+        ]
+      },
+      "raw": "('dos', 'use'), ('mean', 'think') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'mov'"
+      },
+      "raw": [
+        "'dos', 'mov' ]\n\nReason: 'dos' and 'mov' appear to be incomplete or misspelled words.",
+        "'dos', 'mov' ]\n\n- 'dos' is likely a typo or a broken string, as it may be a part of a word or an abbreviation.\n- 'mov' is likely a typo or a broken string, as it may be",
+        "'mov' ]",
+        "'dos', 'mov' ]\n\nThese words appear to be typos or extremely rare abbreviations. 'dos' could be a typo for 'does', while 'mov' could be a typo for 'move'.",
+        "'mov' ]\n\nReason: 'mov' is likely a typo or a partial word and does not appear in standard English language."
+      ]
+    }
+  },
+  "16": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'clipper' 'public'"
+      },
+      "raw": [
+        "'clipper', 'public', 'number' ]",
+        "'key', 'clipper', 'public' ]",
+        "'key', 'chip', 'bit', 'clipper' ]",
+        "'number', 'public' ]",
+        "'number', 'public', 'chip', 'clipper' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'key'",
+            "'public'"
+          ],
+          [
+            "'chip'",
+            "'clipper'"
+          ]
+        ]
+      },
+      "raw": "('key', 'public'), ('chip', 'clipper')"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'clipper' 'chip'"
+      },
+      "raw": [
+        "'clipper',  'encrypt',  'public' ].\n- 'clipper' is likely a typo or a word related to 'clip' rather than 'clipper', which is a type of shear or device. \n- 'encrypt",
+        "'chip', 'clipper', 'encrypt', 'algorithm' ]",
+        "'clipper', 'chip' ]\n\n* 'chip' is a common word, but it might be considered a typo or a shortened form of 'chipper'. However, in the context of the given list, it's possible that 'chip'",
+        "'chip' ]",
+        "'chip', 'clipper', 'encrypt' ]\n\n- \"chip\" might be a typo for \"chipper\"\n- \"clipper\" is not a common word in the context of the topic of cryptography\n- \"encrypt\" is not a"
+      ]
+    }
+  },
+  "17": {
+    "coherence": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 4,
+        "words": "'svhs' 'cdq' 'welbon' 'toasterhead'"
+      },
+      "raw": [
+        "'svhs', 'matting', 'cdq', 'itor', 'welbon', 'toasterhead' ]",
+        "'cdq', 'svhs', 'itor', 'welbon', 'toasterhead' ]",
+        "'svhs', 'toasterhead', 'cdq', 'welbon' ]",
+        "'cdq', 'welbon', 'itor', 'orientiation' ]",
+        "'svhs', 'matting', 'toasterhead', 'cdq', 'welbon' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'svhs'",
+            "'cdq'"
+          ]
+        ]
+      },
+      "raw": "'svhs', 'cdq' ], [ 'matting', 'orientiation' ], [ 'crystalize', 'disemination' ], [ 'toasterhead', 'welbon' ], [ 'itor' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 4,
+        "words": "'matting' 'itor' 'cdq' 'welbon'"
+      },
+      "raw": [
+        "'matting', 'itor', 'cdq', 'welbon' ]\n\n'welbon' appears to be a typo or misspelling of the word 'welcome'.\n'cdq' is an abbreviation, but its meaning is unclear.\n'",
+        "'matting', 'toasterhead', 'itor', 'cdq', 'welbon', 'crystalize' ]\n\n- 'matting' appears to be a typo of the word 'mating'.\n- 'toasterhead' seems",
+        "'matting',  'crystalize',  'itor',  'cdq',  'welbon',  'disemination',  'orientiation', 'sceptic' ]",
+        "'itor', 'cdq', 'welbon' ]\n\n* 'itor': likely a typo, unclear what it's supposed to be\n* 'cdq': unclear abbreviation or acronym\n* 'welbon': likely a typo, unclear what it",
+        "'matting', 'toasterhead', 'itor', 'cdq', 'orientiation', 'welbon' ]\n\n*   'matting': Possible typo for 'matting' is not a word, but 'matting' is a"
+      ]
+    }
+  },
+  "18": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "1",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'luck'"
+      },
+      "raw": [
+        "'luck', 'somebody', 'btw', 'expensive' ]",
+        "'luck', 'somebody', 'btw' ]",
+        "'luck', 'clean', 'btw', 'hot' ]\n\nThe remaining words seem to form a theme related to places (chicago, toronto, shop), an action (rear), and a quantity (somebody, expensive).",
+        "'luck', 'clean', 'hot' ]",
+        "'clean', 'luck' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'clean'",
+            "'hot'"
+          ],
+          [
+            "'chicago'",
+            "'toronto'"
+          ],
+          [
+            "'rear'",
+            "'expensive'"
+          ]
+        ]
+      },
+      "raw": "('clean', 'hot'), ('chicago', 'toronto'), ('rear', 'expensive') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'btw'"
+      },
+      "raw": [
+        "'btw' ] \nReason: 'btw' is an abbreviation for \"by the way\" and can be considered unclear without context, and also appears to be informal.",
+        "'btw' ] - a common abbreviation, but unclear in this context, 'btw' is an abbreviation of \"by the way\"",
+        "'btw' ]\n\n'btw' is an extremely rare, unclear abbreviation.",
+        "'btw', 'rear', 'somebody' ].\n\n* 'btw' is a common abbreviation, but it is unclear how it's being used in this context. \n* 'rear' is a valid word, but it's a",
+        "'btw', 'shop' ].\n\n* 'btw' is an abbreviation for 'by the way', but it is extremely rare and unclear in this context, and more often used in informal text.\n* 'shop' is a valid word"
+      ]
+    }
+  },
+  "19": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'like' 'need'"
+      },
+      "raw": [
+        "'use', 'like', 'available', 'need' ]",
+        "'like', 'need', 'mail' ]",
+        "'use', 'need', 'like', 'available' ]",
+        "'like', 'need', 'support' ]",
+        "'like', 'available', 'mail', 'need' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'file'",
+            "'program'"
+          ],
+          [
+            "'use'",
+            "'run'"
+          ]
+        ]
+      },
+      "raw": "('file', 'program'), ('use', 'run') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'ftp'"
+      },
+      "raw": [
+        "'ftp', 'mail' ].\n\n- 'ftp' is an abbreviation that is unclear without context. It could refer to File Transfer Protocol.\n- 'mail' is an abbreviation that could refer to either an email or mail, and is quite ambiguous",
+        "'ftp' ] \nReason: 'ftp' is an abbreviation for File Transfer Protocol, which is a protocol, not a word in the context of the list.",
+        "'ftp' ] (it is a protocol, not a word)\n \nThe list of valid words is: [ 'use', 'file', 'run', 'program', 'support', 'like', 'available', 'need', 'mail'",
+        "'ftp', 'mail' ] with the reason that they are abbreviations and may be considered unclear or incomplete without additional context.",
+        "'ftp', 'mail' ].\n\n'ftp' is a protocol and likely represents the File Transfer Protocol, but it is not a word in the context of the list which appears to be about general topics or activities. It is an acronym and does"
+      ]
+    }
+  },
+  "20": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'day'"
+      },
+      "raw": [
+        "'man', 'day', 'thing' ]",
+        "'day', 'thing', 'come', 'world' ]",
+        "'man', 'day' ]",
+        "'day', 'come' ]\n\nThe other words appear to belong to a theme related to Christianity and the concept of God.",
+        "'man', 'day', 'thing', 'world', 'come' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'god'",
+            "'jesus'"
+          ],
+          [
+            "'god'",
+            "'christ'"
+          ]
+        ]
+      },
+      "raw": "('god', 'jesus'), ('god', 'christ') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'jesus' 'christ'"
+      },
+      "raw": [
+        "'jesus', 'christ' ]\n\n* 'jesus' is a valid word, but I assume you meant to say that 'jesus' is a name and may not be applicable in this context. \n* 'christ' is a valid",
+        "'jesus', 'christ' ]\n\nReasons:\n1. 'jesus' and 'christ' are names of specific individuals and can be considered as proper nouns. However, they are being used in a context where a general or neutral term is",
+        "'man', 'come' ]\n\nExplanation:\n* 'man' is a common word, but in this context, it could be considered a malformed token because it's a very common word and there's no obvious typo or abbreviation. However, in a",
+        "'jesus', 'christ', 'church' ].\n\nReason: These words are proper nouns or names of specific entities and may be considered sensitive or sacred in certain contexts.",
+        "'jesus', 'christ' ]. These are proper nouns that are names of specific religious figures. While they are real and valid in certain contexts, they are not \"topic words\" in the sense that they are not common, general terms that would"
+      ]
+    }
+  },
+  "21": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "3",
+        "2",
+        "1",
+        "3",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'good', 'way', 'like' ]\n\nThese words are not strongly related to a specific theme.",
+        "'time', 'year', 'problem', 'cause', 'result', 'help' ]\n\nThese words relate to abstract concepts like time, temporal duration, causality, and effect, which are different from the more concrete and subjective concepts of 'good",
+        "'time', 'year' ]",
+        "'time', 'year' ]\n\nThe rest of the words are related to the theme of 'problem-solving' and the process of analyzing a problem to find the root cause and its result.",
+        "'good', 'help' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'time'",
+            "'year'"
+          ],
+          [
+            "'way'",
+            "'cause'"
+          ],
+          [
+            "'think'",
+            "'help'"
+          ],
+          [
+            "'good'",
+            "'problem'"
+          ]
+        ]
+      },
+      "raw": "('time', 'year'), ('way', 'cause'), ('think', 'help'), ('good', 'problem') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "]",
+        "'problem' 'result' ]\n\n*   'problem' is a valid word, but it is not necessarily an invalid token.\n*   'result' is a valid word, but it is not necessarily an invalid token.\n*   'cause'",
+        "'cause', 'help' ].\n- 'cause' is an abbreviation for a word, and may be unclear without context. \n- 'help' is a valid word, but it's not extremely rare; however, it is not malformed or",
+        "'problem', 'cause' ]\n\n- 'problem' is an extremely rare or unclear abbreviation (it's a common word with a specific meaning, but it could be a typo for 'problems')\n- 'cause' is an extremely rare or unclear abbreviation",
+        "]"
+      ]
+    }
+  },
+  "22": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "1",
+        "2",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'delete' 'apply'"
+      },
+      "raw": [
+        "'concentrate', 'delete', 'apply', 'counterexample' ]",
+        "'concentrate', 'delete', 'apply', 'counterexample' ]",
+        "'concentrate', 'delete', 'apply' ]\n\nThe other words seem to relate to various aspects of human behavior and cognition, whereas 'concentrate', 'delete', and 'apply' are more general action verbs that don't share a",
+        "'apply', 'atheists', 'delete', 'fbi', 'ignorant' ]\n\nThe topic appears to be related to cognitive or mental processes, possibly psychology or neuroscience, given the words 'behavior', 'concentrate', and '",
+        "concentrate, apply, delete, counterexample, brain, fbi ]\n\nThese words seem to have different themes and do not fit with the other words in the list, which appear to be related to religion or anti-religion, specifically atheism."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'sexual'",
+            "'behavior'"
+          ],
+          [
+            "'atheists'",
+            "'ignorant'"
+          ]
+        ]
+      },
+      "raw": "('sexual', 'behavior'), ('atheists', 'ignorant') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'delete', 'fbi' ]\n\n* 'delete' is a verb, not a topic word, and may be considered a command.\n* 'fbi' is an abbreviation that is not a word.",
+        "'atheists' ] because 'atheists' is a plural form and the list appears to be a collection of individual topic words, whereas 'atheist' would be the singular form to match the other singular topic words.",
+        "'atheists', 'fbi', 'counterexample' ]\n\n- 'atheists': likely a typo for 'atheists' is not a typo, but it's an unclear plural form; 'atheist' is the standard singular form; however",
+        "'atheists' (unclear abbreviation), 'fbi' (acronym without clear expansion or context), 'concentrate' (typo: 'concentrate' should be 'concentrate' or 'concentrate' is",
+        "'atheists', 'fbi' ] \n\nReasons:\n- 'atheists' is a valid word, but in this context, it might be a typo and the intended word could be 'atheist', which is a single entity. However"
+      ]
+    }
+  },
+  "23": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'toasterhead' 'welbon'"
+      },
+      "raw": [
+        "'matting', 'toasterhead' ]\n\nThese words do not seem to have any apparent connection to the other words in the list, which appear to be related to crystals, specifically crystal structures or formations.",
+        "'matting', 'svhs', 'mtd', 'carlsbad', 'welbon', 'toasterhead', 'dispell' ]",
+        "'numner', 'matting', 'mtd', 'welbon', 'toasterhead' ]",
+        "'numner', 'svhs', 'mtd', 'crystalize', 'welbon', 'toasterhead' ]\n\nThese words appear to be related to technology or product names rather than a conceptual theme.",
+        "'crystalize', 'carlsbad', 'welbon', 'toasterhead'  ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 6,
+        "word_pairs": [
+          [
+            "'numner'",
+            "'mtd'"
+          ],
+          [
+            "'matting'",
+            "'mtd'"
+          ],
+          [
+            "'matting'",
+            "'matting'"
+          ],
+          [
+            "'matting'",
+            "'mtd'"
+          ],
+          [
+            "'svhs'",
+            "'welbon'"
+          ],
+          [
+            "'svhs'",
+            "'toasterhead'"
+          ]
+        ]
+      },
+      "raw": "('numner', 'mtd'), ('matting', 'mtd'), ('matting', 'matting'), ('matting', 'mtd'), ('svhs', 'welbon'), ('svhs', 'toasterhead'), ('"
+    },
+    "non_words": {
+      "processed": {
+        "num": 4,
+        "words": "'numner' 'mtd' 'welbon' 'toasterhead'"
+      },
+      "raw": [
+        "'numner', 'svhs', 'mtd', 'welbon', 'toasterhead' ]\n\n* 'numner' appears to be a typo of the word 'number'.\n* 'svhs' is an abbreviation, but its meaning",
+        "'numner', 'mtd', 'welbon', 'toasterhead', 'crystalize' ].\n\n- 'numner' is a typo for the word 'number'.\n- 'mtd' is a unclear abbreviation, possibly for",
+        "'numner', 'svhs', 'mtd', 'welbon', 'toasterhead' ] with reasons of 'typo', 'abbreviation', 'abbreviation', 'unclear abbreviation', and 'unclear token' respectively.",
+        "'numner', 'svhs', 'mtd', 'antecdent', 'welbon', 'toasterhead' ]\n\nReasons:\n\n- 'numner' is a typo of 'number'.\n- 'svhs' is likely an",
+        "'matting', 'mtd', 'welbon', 'toasterhead' ]\n\nReasons:\n* 'matting' is likely a typo and should be 'mattress' or 'matting' is not a common word in English"
+      ]
+    }
+  },
+  "24": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'big' 'helmet' 'light'"
+      },
+      "raw": [
+        "'big', 'helmet', 'light', 'mile', 'hit' ]",
+        "'big', 'helmet', 'light', 'hit' ]",
+        "big, helmet, light ]",
+        "'big', 'light', 'helmet' ]",
+        "'big', 'buy', 'helmet', 'light', 'hit' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'car'",
+            "'ride'"
+          ],
+          [
+            "'mile'",
+            "'hit'"
+          ]
+        ]
+      },
+      "raw": "('car', 'ride'), ('mile', 'hit') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'mile' 'helmet'"
+      },
+      "raw": [
+        "'mile', 'big', 'helmet', 'light', 'buy', 'turn', 'hit' ]",
+        "'mile', 'helmet', 'light' ]\n\n* 'mile' is unclear and may be an abbreviation of 'miles'.\n* 'helmet' is not related to the other topic words which are mostly about driving or vehicles.\n* '",
+        "'mile', 'helmet' ] \n\nReasons:\n1. 'mile' - This word is not directly related to the topic of cars. It's more related to distance measurement. \n2. 'helmet' - Although 'helmet",
+        "'mile', 'big', 'light' ].\n\n- 'mile' is a valid word, but 'mile' can be 'miles' (plural form)\n- 'big' is a valid word, but 'big' is a common",
+        "'mile', 'helmet' ]\n\n* 'mile' is likely a typo and should be 'mileage' or 'miles'.\n* 'helmet' is not exactly a topic word related to the context of the list."
+      ]
+    }
+  },
+  "25": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "printer, display, mail  ]",
+        "'advance', 'sale', 'appreciate', 'mail' ]",
+        "'advance', 'interested', 'appreciate' ]\n\nThe other words are closely related to printing or computer monitors.",
+        "'sale', 'printer', 'monitor', 'display', 'print' ]\nThese words are related to physical devices or actions associated with them, whereas the other words are related to expressing gratitude or politeness.",
+        "'advance', 'printer', 'monitor', 'display'  ]\n\nThese words are related to electronic devices, whereas the other words seem to be related to the act of thanking and expressing gratitude."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'thank'",
+            "'appreciate'"
+          ],
+          [
+            "'sale'",
+            "'print'"
+          ]
+        ]
+      },
+      "raw": "('thank', 'appreciate'), ('sale', 'print') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'advance'"
+      },
+      "raw": [
+        "'advance', 'interested' ]",
+        "'advance' (it's a verb, not a topic word), 'printer' (it's a noun but a common object), 'display' (it's a noun but a common object), 'print' (it's a verb, not",
+        "'advance', 'monitor', 'display' ] because they are more than one word in the list.",
+        "'advance', 'appreciate', 'interested' ]\n\n- 'advance' is a valid word, but the context in the provided list suggests it might be used in the phrase 'in advance', which is a common idiomatic expression.\n- '",
+        "'advance', 'display', 'interested' ]"
+      ]
+    }
+  },
+  "26": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'good' 'bad'"
+      },
+      "raw": [
+        "'good', 'bad' ]",
+        "'good', 'bad' ]",
+        "'good', 'bad' ]",
+        "'good', 'bad' ]",
+        "'year', 'good', 'bad' ]\n\nThe other words appear to be related to sports, specifically team sports, with words like 'team', 'game', 'play', 'player', 'point', and 'run' all having clear connections"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'team'",
+            "'play'"
+          ]
+        ]
+      },
+      "raw": "'team', 'play' ], [ 'year', 'second' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'second' ]\n\nReason: Although 'second' is a valid English word, it is quite uncommon to refer to a 'second' in the context of a game or sports, and the word seems out of place in a list of sports-related topic",
+        "'play' , 'second' ]\n\nReason for 'play': This token may be a typo. The likely correct spelling is 'playoff' or 'playoffs', but 'play' is a valid English word, albeit somewhat uncommon in this context",
+        "'year', 'point' ]\n\n- 'year' is not a valid word related to the given context, it's a common word but out of place in this context\n- 'point' is a valid word but in this context it may be",
+        "'bad' - unclear abbreviation, 'second' - unclear abbreviation, 'point' - unclear abbreviation, 'year' - unclear abbreviation, 'game' - unclear abbreviation, 'play' - unclear abbreviation, 'run' - unclear abbreviation  ]",
+        "'year', 'point', 'second', 'run'  ]"
+      ]
+    }
+  },
+  "27": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'use' 'set' 'include'"
+      },
+      "raw": [
+        "use, include, file, program ]\n\nThese words are less closely related to the theme of 'windows' and 'graphic', and are more related to general actions, actions that involve objects, or general objects in general, which are not central to the",
+        "'use', 'set', 'include', 'file', 'program' ]",
+        "'use', 'set', 'include' ]",
+        "'set', 'use', 'include', 'program' ]\n\nThese words can belong to a variety of themes, including general English language and activities (e.g., 'set' can be a noun or verb, 'use' can be a verb",
+        "'use', 'set', 'include', 'program', 'file' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'window'",
+            "'windows'"
+          ]
+        ]
+      },
+      "raw": "('window', 'windows') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'windows' 'graphic'"
+      },
+      "raw": [
+        "'set' -> unclear abbreviation, 'use' -> unclear abbreviation, 'software' -> unclear abbreviation, 'program' -> unclear abbreviation, 'include' -> unclear abbreviation  ]\n\nThe words with typos are: [  'windows' -> should",
+        "'windows', 'graphic' ]\n\nReasons:\n- 'windows' is likely a typo of 'window'\n- 'graphic' is unclear abbreviation.",
+        "'graphic', 'windows' ]\n\n*   'graphic': This word is a valid English word, but in the context of the list, it seems to be used as an adjective to describe a type of image or picture, which might be a misuse",
+        "'software', 'windows', 'graphic' ].\n\nReason: 'software', 'windows', and 'graphic' are not typos or broken strings, but they are not present in the original list as provided.",
+        "'windows', 'graphic' ]\n\n- 'windows' is likely a typo or a misspelling of the word 'window' as it appears in the list multiple times.\n- 'graphic' is an unclear abbreviation. While 'graphic' is a"
+      ]
+    }
+  },
+  "28": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "1",
+        "1",
+        "3",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'ulman' 'abord' 'svhs'"
+      },
+      "raw": [
+        "'numner', 'ulman', 'abord', 'svhs' ].\n\nThe other words seem to relate to abstract concepts, whereas 'numner' might relate to a numerical value, 'ulman' doesn't form a valid word",
+        "'ulman', 'abord', 'svhs' ]",
+        "numner, ulman, abord, svhs, tierra ]",
+        "'numner', 'ulman', 'abord', 'svhs', 'tierra' ]",
+        "'numner', 'ulman', 'abord', 'tierra', 'svhs' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'numner'",
+            "'ulman'"
+          ],
+          [
+            "'revisited'",
+            "'abord'"
+          ]
+        ]
+      },
+      "raw": "('numner', 'ulman'), ('revisited', 'abord') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 4,
+        "words": "'numner' 'ulman' 'abord' 'svhs'"
+      },
+      "raw": [
+        "'numner', 'ulman', 'interection', 'abord', 'svhs', 'tierra' ]\n\nReasons:\n- 'numner' seems to be a typo for 'number'.\n- 'ulman' seems to",
+        "'numner', 'ulman', 'abord', 'interection', 'svhs', 'tierra' ]\n\n* 'numner' seems to be a typo and should be 'number'.\n* 'ulman' is unclear and possibly",
+        "'numner', 'ulman', 'abord', 'tierra', 'svhs' ]\n\n*   'numner': likely a typo for 'number'\n*   'ulman': unclear, possibly a typo or rare word\n*",
+        "'numner', 'ulman', 'abord', 'interection', 'svhs' ]\n\nThese tokens are either typos or unclear abbreviations.",
+        "'numner', 'ulman', 'abord', 'svhs' ]\n\nReasons:\n- 'numner' appears to be a typo of 'number'\n- 'ulman' seems to be a misspelling of 'human'"
+      ]
+    }
+  },
+  "29": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'use'"
+      },
+      "raw": [
+        "'problem', 'use' ]",
+        "'run', 'use' ]",
+        "'problem', 'drive', 'card', 'run', 'use' ]",
+        "run, use ]",
+        "'drive', 'run', 'use' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'drive'",
+            "'hard'"
+          ],
+          [
+            "'disk'",
+            "'floppy'"
+          ],
+          [
+            "'ram'",
+            "'card'"
+          ]
+        ]
+      },
+      "raw": "('drive', 'hard'), ('disk', 'floppy'), ('ram', 'card') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'card', 'disk', 'ram', 'floppy', 'hard', 'motherboard' ]\n\nThese tokens can be considered malformed because they are likely product names or technical terms that don't fit the context of the task.",
+        "'floppy'  'disk'  'drive'  'ram'  'motherboard'  'problem'  'run'  'use' ]",
+        "'problem', 'floppy' ]\n\n- 'problem' might be spelled 'problems' and 'floppy' is an outdated and unclear term in the context of modern computers.",
+        "\"drive\", \"problem\", \"disk\", \"card\", \"hard\", \"ram\", \"floppy\", \"motherboard\", \"run\", \"use\" ].\n\nThe reasons for this are:\n- \"drive\" - contains a typo (extra",
+        "\"disk\", \"card\", \"ram\", \"floppy\" ]\n\n*   \"disk\": This token is a shortened form of \"diskette\", a type of removable storage media. It's not an abbreviation, but rather a colloquialism"
+      ]
+    }
+  },
+  "30": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'turkish'"
+      },
+      "raw": [
+        "'turkish', 'massacre' ]",
+        "'way', 'long', 'close', 'come' ]",
+        "'turkish'  ]",
+        "'people', 'child', 'turkish' ]",
+        "'turkish', 'child' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'people'",
+            "'man'"
+          ],
+          [
+            "'people'",
+            "'child'"
+          ],
+          [
+            "'child'",
+            "'man'"
+          ]
+        ]
+      },
+      "raw": "('people', 'man'), ('people', 'child'), ('child', 'man') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'kill'"
+      },
+      "raw": [
+        "'kill', 'massacre' ]\n\n* 'kill' is an extremely common word, but its use as a singular noun referring to the act of killing someone is uncommon, often implying a more neutral or even euphemistic tone.\n* 'mass",
+        "'kill' , 'close' , 'come' ].\n\n- 'kill': This is a valid word, but the context of the list suggests it might be a typo and the intended word is 'killings', a more specific word for the",
+        "'kill' ]\n\nReason: The word 'kill' is a verb and not a topic, and it's also a very common word, not an invalid one. However, in the context of the list, it seems out of place among the other",
+        "'kill', 'massacre' ]\n\n* 'kill' is a valid word, but its presence in this context is unusual, as it typically has a different connotation.\n* 'massacre' is a valid word, but its presence in this",
+        "'kill', 'massacre' ]\n\n- 'kill' is a valid word, but in the context of the list, it seems out of place. However, it is not technically invalid.\n- 'massacre' is a valid word but it"
+      ]
+    }
+  },
+  "31": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "thank, appreciate, advance, help  ]\n\nThese words belong to a theme of gratitude or support, while the other words in the list are related to technology and graphical user interfaces.",
+        "'thank', 'help', 'appreciate' ]",
+        "thank, advance, appreciate  ]\n\nThese words belong to the theme of gratitude and appreciation, which is different from the theme of computer software and windows.",
+        "'help', 'appreciate' ]",
+        "'thank', 'appreciate', 'help' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'window'",
+            "'windows'"
+          ]
+        ]
+      },
+      "raw": "('window', 'windows') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'appreciate'"
+      },
+      "raw": [
+        "'advance', 'application', 'appreciate', 'graphic', 'help' ]\n\nReasons:\n- 'advance' is a valid word but in the context of the other words, it might be a typo for 'advanced'.\n- 'application",
+        "'advance', 'appreciate' ]",
+        "'thank', 'appreciate' ].\n\n- 'thank' might be a typo or informal term, while 'appreciate' is a less common usage compared to the more common 'appreciation'.\n- 'windows' is not malformed",
+        "'thank', 'windows', 'advance', 'application', 'appreciate' ].\n\nReasons:\n- 'thank' is a common word, but it is not a topic word. Topic words are supposed to be about a specific topic,",
+        "'help' (too general and common, could be a verb or noun), 'windows' (it's likely a typo for 'window' since 'windows' is a different word)]"
+      ]
+    }
+  },
+  "32": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'uhhh', 'alunatic', 'myronreuger' ]",
+        "'uhhh', 'numner', 'alunatic', 'myronreuger' ]",
+        "uhhh, numner, mtd, carlsbad, dispell, myronreuger, reasoable, alunatic  ]",
+        "uhhh, carlsbad, myronreuger ]",
+        "'uhhh', 'numner', 'myronreuger' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'numner'",
+            "'mtd'"
+          ],
+          [
+            "'carlsbad'",
+            "'myronreuger'"
+          ],
+          [
+            "'dispell'",
+            "'revisited'"
+          ]
+        ]
+      },
+      "raw": "( 'numner', 'mtd' ), ( 'carlsbad', 'myronreuger' ), ( 'dispell', 'revisited' ) ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 4,
+        "words": "'numner' 'mtd' 'alunatic' 'myronreuger'"
+      },
+      "raw": [
+        "'numner', 'mtd', 'alunatic', 'myronreuger' ]\n\n- 'numner' is a typo of the word \"number\".\n- 'mtd' is likely a typo or an abbreviation that is unclear.",
+        "'numner', 'mtd', 'alunatic', 'myronreuger' ].\n\nReasons:\n- 'numner' is a typo of the word 'number'.\n- 'mtd' is a unclear abbreviation that is not",
+        "'numner', 'mtd', 'alunatic', 'myronreuger', 'reasoable' ]\n\n- 'numner' is a typo of the word 'number'.\n- 'mtd' is a possible typo of the",
+        "'numner', 'mtd', 'alunatic', 'myronreuger' ]\n\nReasons:\n- 'numner' is a typo or a broken string, likely intended to be 'number'.\n- 'mtd' is an",
+        "'numner', 'mtd', 'alunatic', 'myronreuger' ]\n\n- 'numner' appears to be a typo for \"number\".\n- 'mtd' is an abbreviation, but it's unclear what it represents"
+      ]
+    }
+  },
+  "33": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'color'"
+      },
+      "raw": [
+        "'color', 'bus', 'problem' ]",
+        "'card', 'color', 'drive', 'mac', 'mouse' ]\n\nThese words are related to computer hardware, while the other words in the list are more related to digital media (video) or peripherals (bus, monitor).",
+        "'color', 'card' ]",
+        "'color', 'mac', 'problem' ]",
+        "'color', 'mac' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'video'",
+            "'drive'"
+          ],
+          [
+            "'bus'",
+            "'mouse'"
+          ]
+        ]
+      },
+      "raw": "('video', 'drive'), ('bus', 'mouse') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'card', 'mac', 'mouse' ]\n\nThese words are either extremely rare or unclear abbreviations, and/or might be interpreted as typos or broken strings.",
+        "'card', 'video', 'bus', 'drive', 'mac' ] \n\nReasons:\n- 'card' and 'drive' might be typos or abbreviations. 'card' could be 'cardboard' or 'cardboard box",
+        "'bus' (unclear abbreviation, could be \"business\" or \"bus\" as a vehicle) ,  'drive' (could be \"hard drive\", \"DVD drive\", \"drives\" (plural), etc.) ,  'mac",
+        "\"video\", \"memory\", \"mac\", \"bus\", \"drive\" ].\n\n- \"video\" is a valid word, but in the context of computer hardware, \"video\" is often used as an abbreviation for \"video card,\" which is",
+        "'mac',  'drive' ].\n\n*   'mac' is a common brand name, but it is a shortened form of 'macintosh' or 'macbook', and is used as a proper noun, it is not a typical standalone"
+      ]
+    }
+  },
+  "34": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "3",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'numner' 'svhs'"
+      },
+      "raw": [
+        "'numner', 'probablity', 'svhs' ]\n\nThe other words can be grouped into a theme of words related to the concept of \"Crystal formation\" or \"Crystallization\"",
+        "'svhs', 'crystalize', 'toasterhead' ]",
+        "'numner', 'svhs', 'jaggie', 'toasterhead' ].\n\nThese words appear to be unrelated to the other words in the set, which seem to be related to abstract concepts and emotions (e.g., infirm",
+        "'numner', 'svhs', 'matting', 'toasterhead', 'probablity' ]",
+        "'numner', 'probablity' ]\n\nThe rest of the words seem to be related to unclear or obscure concepts or words that have unusual spellings."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'(numner",
+            "number"
+          ]
+        ]
+      },
+      "raw": "'(numner, number)', '(matting, matting)', '(probablity, probability)' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 4,
+        "words": "'numner' 'dispell' 'jaggie' 'probablity'"
+      },
+      "raw": [
+        "'numner', 'dispell', 'jaggie', 'probablity' ] \nReasons: 'numner' is likely a typo of 'number', 'dispell' is a misspelling of 'dispel', '",
+        "'numner', 'toasterhead', 'probablity' ].\n- \"numner\" is a typo and \"number\" would be the correct word.\n- \"toasterhead\" is likely a made-up word and is not recognized",
+        "'numner', 'matting', 'dispell', 'probablity', 'jaggie' ] \nReasons: \n- 'numner' likely contains a typo, should be 'number' \n- 'matting' is",
+        "'numner', 'svhs', 'matting', 'dispell', 'jaggie', 'probablity' ]\n\nReasons:\n- 'numner': seems to be a typo, likely meant to be 'number'\n- '",
+        "'numner', 'matting', 'dispell', 'jaggie', 'crystalize', 'toasterhead', 'probablity' ]\n\n- 'numner' is a misspelling of 'number'.\n- 'mat"
+      ]
+    }
+  },
+  "35": {
+    "coherence": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'zipws', 'carlsbad', 'jaggie', 'myronreuger' ]",
+        "'numner', 'mtd', 'zipws', 'specualtion' ].\n\nThe others are:  ['probablity', 'dispell', 'carlsbad', 'recommene', 'myronreuger', '",
+        "'carlsbad', 'myronreuger', 'jaggie' ]",
+        "'numner', 'probablity', 'specualtion' ]",
+        "'numner', 'mtd', 'zipws', 'carlsbad', 'jaggie', 'myronreuger' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'numner'",
+            "'mtd'"
+          ],
+          [
+            "'probablity'",
+            "'specualtion'"
+          ],
+          [
+            "'recommene'",
+            "'probablity'"
+          ],
+          [
+            "'carlsbad'",
+            "'jaggie'"
+          ]
+        ]
+      },
+      "raw": "('numner', 'mtd'), ('probablity', 'specualtion'), ('recommene', 'probablity'), ('carlsbad', 'jaggie') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 7,
+        "words": "'probablity' 'dispell' 'zipws' 'recommene' 'myronreuger' 'specualtion' 'numner'"
+      },
+      "raw": [
+        "'probablity', 'dispell', 'zipws', 'recommene', 'myronreuger', 'specualtion' ]\n\nReasons:\n1. 'probablity': typo for 'probability'\n2. 'dispell",
+        "'numner', 'probablity', 'dispell', 'zipws', 'recommene', 'specualtion' ] because they contain typos or misspelled words.",
+        "'numner', 'probablity', 'dispell', 'zipws', 'recommene', 'myronreuger', 'specualtion' ] with the following reasons:\n- 'numner' is a typo of the word",
+        "'numner', 'probablity', 'dispell', 'zipws', 'recommene', 'myronreuger', 'jaggie', 'specualtion' ]\n\nReasons for each:\n- 'numner' is",
+        "'numner', 'probablity', 'dispell', 'zipws', 'recommene', 'myronreuger', 'specualtion', 'jaggie' ]\n\nReasons:\n- 'numner': typo, '"
+      ]
+    }
+  },
+  "36": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "3",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "chz, evz, mnk, mmw, nkh, urmw, kir, mkw ]",
+        "'max',  'mmw',  'air',  'evz', 'nkh', 'urmw', 'mnk' ]",
+        "'air', 'nkh' , 'kir' ]",
+        "'air' ]",
+        "chz, evz  ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "'max,mmw', 'chz,urmw', 'air,kir', 'mkw,mnw' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 7,
+        "words": "'chz' 'mmw' 'mkw' 'nkh' 'urmw' 'mnk' 'evz'"
+      },
+      "raw": [
+        "'chz', 'mmw', 'mkw', 'nkh', 'urmw', 'mnk', 'evz' ].\nReasons: These words do not form recognizable English words or common abbreviations.",
+        "'chz', 'mmw', 'mkw', 'nkh', 'urmw', 'mnk', 'evz' ]\n\nReasons:\n- 'chz' appears to be a typo of 'chz' is not a",
+        "'mmw',  'mkw',  'nkh',  'urmw',  'mnk',  'evz'  ] \nReasons:\n1. 'mmw', 'mkw', 'mnk', '",
+        "'chz',  'mmw',  'mkw',  'nkh',  'urmw',  'mnk',  'evz',  'kir'  ]\n\nReasons: The above words do not appear in",
+        "'chz',  'mmw',  'mkw',  'nkh',  'urmw',  'mnk',  'evz' ] with reasons: \n- 'chz' is not a valid word and"
+      ]
+    }
+  },
+  "37": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'send'"
+      },
+      "raw": [
+        "'available', 'send' ]",
+        "available, datum, send ]",
+        "'available', 'send' ]",
+        "'post', 'send', 'mail' ]",
+        "'post', 'available', 'send', 'datum' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'space'",
+            "'post'"
+          ],
+          [
+            "'space'",
+            "'mail'"
+          ],
+          [
+            "'space'",
+            "'orbit'"
+          ],
+          [
+            "'nasa'",
+            "'ames'"
+          ],
+          [
+            "'nasa'",
+            "'jpl'"
+          ]
+        ]
+      },
+      "raw": "('space', 'post'), ('space', 'mail'), ('space', 'orbit'), ('nasa', 'ames'), ('nasa', 'jpl') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'datum'"
+      },
+      "raw": [
+        "'datum' ] because it is not clear what kind of abbreviation it is or what it represents; [ 'post' ] is likely a typo for 'post' should be a different word in this context; 'jpl' is a rare or",
+        "'datum' ] because 'datum' is not a standard abbreviation for a word related to space or a clear term in this context.",
+        "'datum', 'ames' ]\n\nReasons:\n- 'datum' is a rare or unclear abbreviation and may be a typographical error for 'data' or another word. \n- 'ames' appears to be an abbreviation that may be a typo",
+        "'datum' ]",
+        "'datum' ]\n\ndatum is an uncommon and unclear abbreviation in this context."
+      ]
+    }
+  },
+  "38": {
+    "coherence": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.8,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'svhs' 'toasterhead'"
+      },
+      "raw": [
+        "'svhs', 'matting', 'crystalize', 'specualtion', 'itor', 'mtd', 'toasterhead' ]",
+        "'numner', 'svhs', 'mtd', 'itor', 'toasterhead', 'matting' ]",
+        "'toasterhead' ]",
+        "'toasterhead', 'svhs' ]",
+        "'svhs', 'matting', 'specualtion', 'mtd', 'itor', 'toasterhead' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'numner'",
+            "'number'"
+          ],
+          [
+            "'probability'",
+            "'probablity'"
+          ]
+        ]
+      },
+      "raw": "('numner', 'number'), ('probability', 'probablity') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 5,
+        "words": "'numner' 'matting' 'specualtion' 'mtd' 'itor'"
+      },
+      "raw": [
+        "'numner', 'svhs', 'matting', 'specualtion', 'toasterhead', 'mtd', 'itor' ]\n\nReasons: 'numner' is likely a typo of 'number'. 'svhs' is",
+        "'numner', 'matting', 'specualtion', 'toasterhead', 'itor', 'mtd' ]",
+        "'numner', 'svhs', 'matting', 'specualtion', 'itor', 'mtd', 'crystalize', 'toasterhead' ]\n\nReasons:\n- 'numner' is a typo of the word '",
+        "'numner', 'svhs', 'probablity', 'matting', 'specualtion', 'mtd', 'itor' ]\n\n- 'numner': likely a typo of 'number'\n- 'svhs': likely an abbreviation",
+        "'probablity', 'specualtion', 'mtd', 'itor' ]"
+      ]
+    }
+  },
+  "39": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'svhs' 'numner' 'cdq'"
+      },
+      "raw": [
+        "'svhs', 'numner', 'matting', 'cdq', 'toasterhead' ]",
+        "'svhs', 'numner', 'cdq', 'toasterhead' ]",
+        "'svhs', 'numner', 'cdq', 'toasterhead' ]",
+        "'svhs', 'numner', 'cdq', 'itor' ]",
+        "'numner', 'cdq', 'itor'  ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'svhs'",
+            "'cdq'"
+          ]
+        ]
+      },
+      "raw": "'svhs', 'cdq' ], [ 'matting', 'orientiation' ], [ 'numner', 'disemination' ], [ 'crystalize', 'revisited' ], [ 'itor', 'toasterhead'"
+    },
+    "non_words": {
+      "processed": {
+        "num": 6,
+        "words": "'numner' 'matting' 'toasterhead' 'cdq' 'disemination' 'orientiation'"
+      },
+      "raw": [
+        "'numner', 'matting', 'crystalize', 'toasterhead', 'itor', 'cdq', 'disemination', 'orientiation' ]\n\nReasons:\n- 'numner': typo, should be 'number'",
+        "'numner', 'matting', 'toasterhead', 'cdq', 'disemination', 'orientiation' ]",
+        "'numner', 'matting', 'toasterhead', 'cdq', 'disemination', 'orientiation' ]",
+        "'numner', 'matting', 'toasterhead', 'cdq', 'disemination', 'orientiation' ].\n\nReasons for each:\n\n- 'numner': likely a typo for the word \"number\"\n- 'mat",
+        "'numner', 'matting', 'toasterhead', 'cdq', 'disemination', 'orientiation'  ]\n\n* 'numner' seems to be a typo of 'number'.\n* 'matting' is a typo"
+      ]
+    }
+  },
+  "40": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'clipper'"
+      },
+      "raw": [
+        "'clipper', 'car', 'phone' ]",
+        "'clipper', 'car', 'phone' ]",
+        "'chip', 'clipper', 'drive', 'bit', 'buy' ]",
+        "'chip', 'fast', 'speed', 'drive', 'bit' ] are related to technology or hardware, while [ 'clipper', 'phone' ] can be related to technology but more specifically to mobile devices. However, the most sem",
+        "'chip', 'fast', 'clipper', 'bit', 'car', 'phone' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'chip'",
+            "'bit'"
+          ],
+          [
+            "'speed'",
+            "'fast'"
+          ],
+          [
+            "'drive'",
+            "'car'"
+          ],
+          [
+            "'clipper'",
+            "'chip'"
+          ]
+        ]
+      },
+      "raw": "('chip', 'bit'), ('speed', 'fast'), ('drive', 'car'), ('clipper', 'chip') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'scsi' 'clipper'"
+      },
+      "raw": [
+        "'chip', 'scsi' ].\n\n- 'chip' is potentially a typo or a word with unclear meaning; \n- 'scsi' is a rare abbreviation that might be unclear without context.",
+        "'clipper', 'scsi' ].\n\n- 'clipper' is a rare, specific term, and might be considered unclear or uncommon, depending on the context.\n- 'scsi' is a well-known abbreviation, but it can be",
+        "'clipper', 'scsi' ]\n\n*   'clipper' seems to be a misspelling or a non-standard word (correct spelling is 'clip' or 'clipper' is a brand name but it's not clear in this",
+        "'clipper', 'scsi' ]\n\nReasons:\n- clipper: may be a word, but it's a proper noun referring to a type of computer and its usage in this context doesn't fit with other words in the list\n-",
+        "'clipper', 'scsi' ]\n\n- 'clipper' is a word, but it's unclear whether it's relevant to the context of the list.\n- 'scsi' is an abbreviation for Small Computer System Interface, but it's"
+      ]
+    }
+  },
+  "41": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "1",
+        "1",
+        "1",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'numner' 'mtd' 'programl'"
+      },
+      "raw": [
+        "welbon, numner, runme, programl ]",
+        "'numner', 'mtd', 'programl', 'matting' ]\n\nThese words do not seem to fit with the others in the topic, which appear to be related to various personal names (Welbon, Carlsbad, Myron",
+        "'welbon', 'numner', 'mtd', 'runme', 'programl', 'carlsbad' ]",
+        "'carlsbad', 'numner', 'mtd', 'programl' ]",
+        "'numner', 'mtd', 'runme', 'programl' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'welbon'",
+            "'carlsbad'"
+          ],
+          [
+            "'numner'",
+            "'programl'"
+          ],
+          [
+            "'syn'",
+            "'runme'"
+          ],
+          [
+            "'mtd'",
+            "'matting'"
+          ],
+          [
+            "'myronreuger'",
+            "'crystalize'"
+          ]
+        ]
+      },
+      "raw": "('welbon', 'carlsbad'), ('numner', 'programl'), ('syn', 'runme'), ('mtd', 'matting'), ('myronreuger', 'crystalize') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 4,
+        "words": "'numner' 'programl' 'welbon' 'runme'"
+      },
+      "raw": [
+        "'numner', 'programl', 'welbon', 'mtd', 'runme' ]\n\n*   'numner' is likely a typo for 'number'.\n*   'programl' is likely a typo for 'program'.\n*",
+        "'welbon', 'numner', 'programl', 'myronreuger' ]\n\nThese words are identified as malformed or unclear due to the presence of typos and missing or incorrect suffixes in the following ways:\n\n*   'welbon",
+        "'welbon', 'numner', 'mtd', 'programl', 'runme' ]\n\nReasons:\n- 'welbon': likely a typo for 'welcome' or 'well-known'\n- 'numner': likely a typo for",
+        "'numner', 'programl', 'crystalize', 'runme', 'welbon', 'matting', 'myronreuger' ]\n\nThe reasons are:\n* 'numner': typo of 'number'\n* 'programl",
+        "'numner', 'mtd', 'programl', 'runme' ].\n\nThese words are considered malformed because they contain typos, specifically incorrect letters or misspelled words."
+      ]
+    }
+  },
+  "42": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'cica' 'terminal' 'download'"
+      },
+      "raw": [
+        "'cica', 'terminal', 'download' ]",
+        "'cica', 'terminal', 'download' ]\n\nThese words seem to be out of place in a context that otherwise revolves around expressing gratitude and appreciation ('thank', 'appreciate', 'thanx').",
+        "'cica', 'terminal', 'download' ]",
+        "'cica', 'terminal', 'convert', 'download' ]",
+        "'cica', 'terminal', 'download' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'thank'",
+            "'thanx'"
+          ],
+          [
+            "'appreciate'",
+            "'thank'"
+          ],
+          [
+            "'hello'",
+            "'hello'"
+          ]
+        ]
+      },
+      "raw": "('thank', 'thanx'), ('appreciate', 'thank'), ('hello', 'hello') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'cica'"
+      },
+      "raw": [
+        "'cica' (possible typo: likely 'thanks'), 'thanx' (informal abbreviation for 'thanks'), 'terminal' (not clear in this context), 'download' (not a topic word, seems out of place) ]",
+        "'cica', 'thanx', 'terminal' ]\n\nThese words are either typos or unclear abbreviations: \n\n- 'cica' is likely a typo or misspelling of 'thanks'\n- 'thanx' is a common abbreviation",
+        "'cica', 'thanx', 'terminal'  ]\n\n- 'cica' is likely a typo of 'cicada' or 'cicada' itself.\n- 'thanx' is a common typo of 'thanks'.\n-",
+        "'cica', 'thanx' ]\n\n* 'cica' appears to be a typo and is likely a misspelling of 'thank'.\n* 'thanx' is an abbreviation that is not widely recognized or used, and is considered informal",
+        "'cica'  ]\nReason: This word appears to be a typo or an abbreviation of the word 'cica' is likely a misspelling of 'cica' as in 'cica', a type of oil or a mark of"
+      ]
+    }
+  },
+  "43": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "3",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'cdq'"
+      },
+      "raw": [
+        "cdq,  numner  ]",
+        "'svhs', 'toasterhead', 'cdq' ]",
+        "'numner', 'cdq', 'itor' ]",
+        "'toasterhead', 'cdq',  'numner'  ]",
+        "'numner', 'itor', 'cdq', ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'svhs'",
+            "'toasterhead'"
+          ],
+          [
+            "'matting'",
+            "'crystalize'"
+          ],
+          [
+            "'numner'",
+            "'cdq'"
+          ],
+          [
+            "'itor'",
+            "'disemination'"
+          ],
+          [
+            "'orientiation'",
+            "'dispell'"
+          ]
+        ]
+      },
+      "raw": "('svhs', 'toasterhead'), ('matting', 'crystalize'), ('numner', 'cdq'), ('itor', 'disemination'), ('orientiation', 'dispell') ]\n\nHere is the breakdown of the reasoning"
+    },
+    "non_words": {
+      "processed": {
+        "num": 3,
+        "words": "'numner' 'cdq' 'itor'"
+      },
+      "raw": [
+        "'numner', 'cdq', 'itor' ] with reasons: \n\n- 'numner' is a typo or misspelling of the word 'number'.\n- 'cdq' is unclear abbreviation or typo.\n- 'itor' is",
+        "'numner', 'cdq', 'itor' ]\n\n* 'numner' seems to be a typo or a broken string\n* 'cdq' is unclear and does not appear to be a valid word\n* 'itor' is unclear",
+        "'numner', 'cdq', 'itor' ]",
+        "'numner', 'crystalize', 'toasterhead', 'itor', 'cdq', 'orientiation', 'dispell'  ]\n\nReasons:\n- 'numner' is a typo of 'number'.\n- 'crystal",
+        "'numner', 'cdq', 'itor', 'crystalize', 'orientiation' ]\n\n- 'numner' is a typo of 'number'.\n- 'cdq' is unclear and possibly a typo of 'CDQ' ("
+      ]
+    }
+  },
+  "44": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "1",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'israel' 'country'"
+      },
+      "raw": [
+        "'israel', 'case' ]\n\nThe remaining words all relate to the theme of law enforcement and control.",
+        "'israel', 'country' ]",
+        "'gun', 'israel', 'country', 'state' ]",
+        "'israel', 'country' ]",
+        "'israel', 'country' ]\n\nThese words seem to belong to a different thematic area, specifically geopolitics/geography, whereas the other words appear to relate to the theme of law enforcement, crime, and governance."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 7,
+        "word_pairs": [
+          [
+            "crime",
+            "criminal"
+          ],
+          [
+            "control",
+            "government"
+          ],
+          [
+            "case",
+            "case"
+          ],
+          [
+            "state",
+            "state"
+          ],
+          [
+            "law",
+            "law"
+          ],
+          [
+            "country",
+            "country"
+          ],
+          [
+            "israel",
+            "israel"
+          ]
+        ]
+      },
+      "raw": "(crime, criminal), (control, government), (case, case), (state, state), (law, law), (country, country), (israel, israel) ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'israel' ]\n\nReason: 'israel' is not directly related to the topic of crime control and could be considered a proper noun which is not relevant to the topic.",
+        "'israel' ]",
+        "'control', 'country' ]\n\n* 'control' is an unclear abbreviation. It may be referring to several things, including a term in a legal or political context. \n* 'country' is an ambiguous token. It is not clear which country",
+        "'crime', 'control', 'case', 'criminal', 'law', 'country' ].\n\nThese words are malformed or unclear because they are abbreviations or incomplete words.\n\n* 'crime' could be an abbreviation for 'crimes' or '",
+        "'israel' ]\n\nThe reason is: \"israel\" is likely a proper noun referring to the country, but the task is asking for tokens that are malformed or extremely rare, unclear abbreviations, and a single word like \"israel\""
+      ]
+    }
+  },
+  "45": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'life'"
+      },
+      "raw": [
+        "'islam', 'life' ]",
+        "'islam', 'life' ]",
+        "'peace', 'life' ]\n\nThese words are not typically associated with the same conceptual theme as the other words, which seem to be related to politics, nationality, and religion in the context of the Middle East conflict.",
+        "'israel', 'jews', 'islam' ]",
+        "'peace', 'life' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'jews'",
+            "'israel'"
+          ],
+          [
+            "'country'",
+            "'state'"
+          ],
+          [
+            "'religion'",
+            "'religious'"
+          ]
+        ]
+      },
+      "raw": "('jews', 'israel'), ('country', 'state'), ('religion', 'religious') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'islam'"
+      },
+      "raw": [
+        "'israel', 'islam' ]\n\nReasons:\n- 'israel' is a valid word, but the input list includes a country name. It is not a token that is malformed or a rare abbreviation.\n- 'islam' is",
+        "'jews', 'islam' ]\n\n- 'jews' is a proper noun but often considered a potentially offensive word when used as a singular noun. It is not a typical topic word in this context.\n\n- 'islam' is a",
+        "'jews', 'islam' ]\n\n'jews' might be considered a typo or a misspelling, and 'islam' is a religion, not a word related to the topic of Israel or the state.",
+        "'israel', 'islam' ].\n\n* 'israel' is a proper noun and can be considered a name, not a general topic word.\n* 'islam' is a valid word but may be considered a specific topic in the",
+        "'israel', 'jews', 'islam', 'life' ]\n\n* 'israel' - a common proper noun but could be considered malformed if not capitalized in a specific context.\n* 'jews' - a common noun but can"
+      ]
+    }
+  },
+  "46": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'mail' 'paper' 'picture'"
+      },
+      "raw": [
+        "mail, paper, picture ]",
+        "'mail', 'paper', 'company', 'picture' ]",
+        "'mail', 'paper', 'internet', 'picture' ]",
+        "'paper' , 'mail', 'picture' ]",
+        "'mail', 'paper', 'picture', 'company' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "interested",
+            "appreciate"
+          ],
+          [
+            "mail",
+            "paper"
+          ],
+          [
+            "internet",
+            "reply"
+          ],
+          [
+            "picture",
+            "response"
+          ]
+        ]
+      },
+      "raw": "(interested, appreciate), (mail, paper), (internet, reply), (picture, response) ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'appreciate', 'response' ].\n\nReasons:\n- 'appreciate' is a valid English word, but in this context, it may be a typo for 'appreciate' is not typical in this topic, but it",
+        "'paper', 'picture' ] and 'appreciate' is somewhat unclear abbreviation.\n \n- 'paper' is likely a typo for 'paperwork' or 'paperwork related' or any other similar related word.\n- 'picture' is",
+        "'paper' is not an invalid word, but it can be ambiguous in the context of the other words. 'mail' is a valid word, but in this context, it is likely 'email' or 'mail' is short for 'email",
+        "'mail', 'appreciate', 'thank', 'company', 'reply' ]\n\nReasons:\n- 'mail' is a valid word but in this context, it seems likely to be a typo or a shortened form of 'email'.\n-",
+        "'mail', 'paper', 'picture' ] \nReasons:\n- 'mail' is a valid word but it's a common noun. However, it's a misspelling for 'mails' or 'email', which is more fitting"
+      ]
+    }
+  },
+  "47": {
+    "coherence": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'mtd' 'carlsbad'"
+      },
+      "raw": [
+        "'numner', 'mtd', 'witrh' ]",
+        "'mtd', 'carlsbad', 'myronreuger', 'witrh' ]",
+        "'mtd', 'carlsbad', 'myronreuger' ]",
+        "'numner', 'corporeal', 'mtd', 'carlsbad', 'shackle', 'myronreuger' ]",
+        "'numner', 'mtd', 'witrh', 'carlsbad' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "'specualtion, suppositions' , 'corporeal, carlsbad' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 4,
+        "words": "'numner' 'specualtion' 'witrh' 'myronreuger'"
+      },
+      "raw": [
+        "'numner', 'specualtion', 'witrh', 'mtd', 'myronreuger' ]\n\nReasons:\n- 'numner' and 'witrh' are typos.\n- 'mtd' is an",
+        "'specualtion', 'witrh', 'mtd', 'myronreuger' ]\n\n- 'specualtion' appears to be a typo for 'speculation'.\n- 'witrh' is likely a typo for 'with",
+        "'numner', 'specualtion', 'witrh', 'myronreuger' ]\n'numner' and 'specualtion' are typos of 'number' and 'speculation'. 'witrh' appears to",
+        "'numner', 'specualtion', 'witrh', 'myronreuger' ].\n\nReasons:\n- 'numner' is a typo of 'number'.\n- 'specualtion' is a typo of 'speculation",
+        "'numner', 'specualtion', 'witrh', 'mtd' ].\n\nReasons: 'numner' is a typo of the word 'number', 'specualtion' is a typo of the word 'speculation"
+      ]
+    }
+  },
+  "48": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "3",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'myronreuger' 'runme'"
+      },
+      "raw": [
+        "'carlsbad', 'myronreuger', 'runme', 'worldtoolkit' ]",
+        "'numner', 'mtd', 'carlsbad', 'myronreuger', 'runme', 'simation' ]",
+        "'numner', 'mtd', 'myronreuger', 'simation', 'runme' ]\n\nThe other words seem to be related to statistics/probability and/or machine learning, possibly as they appear in the context of a tool",
+        "'carlsbad', 'myronreuger', 'runme', 'worldtoolkit'  ]",
+        "'numner', 'mtd', 'runme', 'syn', 'worldtoolkit', 'simation' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'numner'",
+            "'probablity'"
+          ],
+          [
+            "'runme'",
+            "'carlsbad'"
+          ],
+          [
+            "'myronreuger'",
+            "'worldtoolkit'"
+          ],
+          [
+            "'mtd'",
+            "'simutation'"
+          ]
+        ]
+      },
+      "raw": "('numner', 'probablity'), ('runme', 'carlsbad'), ('myronreuger', 'worldtoolkit'), ('mtd', 'simutation') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 4,
+        "words": "'numner' 'mtd' 'myronreuger' 'simation'"
+      },
+      "raw": [
+        "'numner', 'probablity', 'mtd', 'myronreuger', 'syn', 'worldtoolkit', 'runme', 'simation' ]\n\n* 'numner': typo, likely meant to be 'number'",
+        "'numner', 'mtd', 'myronreuger', 'runme', 'simation' ]",
+        "'numner', 'mtd', 'myronreuger', 'simation' ]\n\n- 'numner' is a typo and should be 'number'.\n- 'mtd' is an extremely rare and unclear abbreviation. It is often an",
+        "'numner', 'mtd', 'myronreuger', 'simlation' ]\n\n- \"numner\" seems to be a typo and should be spelled \"number\".\n- \"mtd\" is a possible abbreviation, but it's unclear",
+        "'numner', 'mtd', 'myronreuger', 'simation' ]\n\nReasons:\n- 'numner' is a typo of 'number'.\n- 'mtd' is an unclear abbreviation.\n- 'myronreuger"
+      ]
+    }
+  },
+  "49": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'allah'"
+      },
+      "raw": [
+        "'allah', 'sex' ]",
+        "'allah' ]",
+        "'allah' ]",
+        "'allah' ]",
+        "'allah', 'sensitivity', 'reaction' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'msg'",
+            "'message'"
+          ]
+        ]
+      },
+      "raw": "('msg', 'message') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'allah'"
+      },
+      "raw": [
+        "'sensitivity', 'allah', 'effect' ].\n\n- 'sensitivity' is a valid word but it seems like a long word that is not a typo. It might be valid but seems out of context in the list.\n- 'allah",
+        "'allah' ]\n\nThe reason: 'allah' is likely a proper noun referring to the Arabic god, and its meaning can be unclear in this context.",
+        "'allah' ] due to it being a proper noun and name of a deity, which is not a general topic word.",
+        "'allah',  'msg' ]\n\n* 'allah' is a proper noun and can be considered unclear or out of context depending on the topic, but it can also be a valid word in specific contexts. However, its usage here seems out of",
+        "'allah', 'sensitivity', 'reaction' ]"
+      ]
+    }
+  }
+}

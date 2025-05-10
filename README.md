@@ -22,12 +22,12 @@ The `src/topic_models/` directory contains scripts for different topic modeling 
 - **`combinedtm.py`:** Contextualized Topic Model (CombinedTM)
 - **`bertopic.py`:** BERTopic
 
-You can find detailed instructions in the **tutorial Jupyter notebook**, which walks through the entire topic modeling process, from data preparation to extracting and interpreting topic distributions.
+You can find detailed instructions in the **Jupyter notebooks** located in `run_topic_modeling/`, which walks through the entire topic modeling process, from data preparation to extracting and interpreting topic distributions.
 
-### 2. LLM-Based Evaluation (Coming Soon)
-The scripts for LLM-based evaluation are located in `src/llm_judgement/`:
+### 2. LLM-Based Evaluation
+The scripts for LLM-based evaluation are located in `src/llm/`:
 - **`llm_judgment.py`:** Core evaluation logic.
 - **`prompt_templates.py`:** Predefined prompt templates for LLMs.
 - **`llm_model.py`:** Helper functions to interact with LLMs.
 
-These scripts will be uploaded soon.
+You can run `run_llm.py` to run the LLMs.

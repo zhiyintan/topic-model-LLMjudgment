@@ -1,0 +1,3942 @@
+{
+  "0": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'herbicide'"
+      },
+      "raw": [
+        "'control', 'weed', 'herbicide', 'nacl', 'spray', 'foliar' ]",
+        "'weed', 'germination', 'herbicide' ].\n\nThese words are not typically associated with the same conceptual theme as the others.",
+        "'germination', 'herbicide', 'foliar' ]\n\nExplanation:\n- 'germination' is related to the process of seeds sprouting, which is typically not part of the context of herbicides or nutrients.\n- '",
+        "'nacl' ]",
+        "'weed', 'herbicide' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'nutrient'",
+            "'solution'"
+          ],
+          [
+            "'weed'",
+            "'herbicide'"
+          ],
+          [
+            "'germination'",
+            "'foliar'"
+          ]
+        ]
+      },
+      "raw": "('nutrient', 'solution'), ('weed', 'herbicide'), ('germination', 'foliar')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: None of the words in the given list appear to be malformed, contain typos, or are extremely rare, unclear abbreviations. They are all standard English words related to the topics of agriculture and plant science.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All the words in the given list are valid and commonly used in the context of agriculture or chemistry.",
+        "'weed', 'foliar' ]\n\nReasons:\n- 'weed' is considered malformed as it is a common word, but in the context of agriculture or horticulture, it is often used in the plural form 'weeds'",
+        "].\n\n### Explanation:\n- 'concentration': Valid word.\n- 'control': Valid word.\n- 'nutrient': Valid word.\n- 'solution': Valid word.\n- 'weed': Valid word.\n- 'germination': Valid"
+      ]
+    }
+  },
+  "1": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'cultivate'"
+      },
+      "raw": [
+        "'source', 'cultivate', 'expansion' ].",
+        "'cultivate' ].\n\nExplanation: The word 'cultivate' does not semantically fit with the other words as it pertains to the practice of farming and growing crops, while the other words are related to geographical, environmental,",
+        "'cultivate', 'width' ].",
+        "'area', 'variability', 'runoff', 'district', 'sediment', 'cultivate', 'expansion', 'cropland', 'width' ]",
+        "'cultivate', 'expansion', 'district' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'area'",
+            "'district'"
+          ],
+          [
+            "'runoff'",
+            "'expansion'"
+          ]
+        ]
+      },
+      "raw": "('area', 'district'), ('runoff', 'expansion') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All words in the given list are valid and commonly used in the context of environmental science, agriculture, and geography. There are no obvious typos, broken strings, or extremely rare or unclear abbreviations in the list.",
+        "].\n\nReason: All the words provided are valid, standard English words and do not appear to be malformed or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words provided appear to be valid and commonly used in scientific and agricultural contexts.",
+        "].\n\nNone of the given words are malformed, typos, broken strings, or extremely rare, unclear abbreviations. All words are valid and commonly used in the context of environmental studies and agriculture.",
+        "].\n\nExplanation: All the words in the given list are standard and valid English words. Therefore, there are no malformed, unclear abbreviations, or extremely rare words in the list."
+      ]
+    }
+  },
+  "2": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'industrial'"
+      },
+      "raw": [
+        "'industrial', 'municipal' ].\n\nThese two words do not fit as well with the other terms related to water treatment and reuse compared to the rest of the set.",
+        "'industrial' ]\n\nThe rest of the words ('irrigate', 'wastewater', 'treat', 'effluent', 'reuse', 'sewage', 'freshwater', 'reclaimed', 'municipal')",
+        "'industrial' ].",
+        "'irrigate', 'wastewater', 'freshwater', 'industrial' ]",
+        "]\n\nThe words that do not fit the theme of water treatment and reuse are:\n- 'industrial'\n- 'municipal'"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'wastewater'",
+            "'sewage'"
+          ],
+          [
+            "'freshwater'",
+            "'reclaimed'"
+          ]
+        ]
+      },
+      "raw": "('wastewater', 'sewage'), ('freshwater', 'reclaimed')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words provided are valid English terms related to water treatment and reuse, and there are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words in the given list are valid and do not appear to be malformed, typos, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: None of the words in the list are malformed, contain typos, or are extremely rare or unclear abbreviations. All the words are valid and commonly used in the context of water treatment and management."
+      ]
+    }
+  },
+  "3": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "1",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'heavy' 'metal'"
+      },
+      "raw": [
+        "'risk', 'heavy', 'metal' ].",
+        "'food', 'metal', 'country', 'human', 'heavy' ]",
+        "].\n\nBased on the provided topic word set, all words are related to a single conceptual theme of health, risk, and environmental contamination. Therefore, there are no words that do not belong to this theme.",
+        "'metal', 'heavy' ]",
+        "'metal', 'heavy' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'country'",
+            "'country'"
+          ],
+          [
+            "'vegetable'",
+            "'vegetable'"
+          ],
+          [
+            "'human'",
+            "'human'"
+          ],
+          [
+            "'health'",
+            "'health'"
+          ],
+          [
+            "'metal'",
+            "'metal'"
+          ]
+        ]
+      },
+      "raw": "('country', 'country'), ('vegetable', 'vegetable'), ('human', 'human'), ('health', 'health'), ('metal', 'metal')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation: All the words in the given list are valid and commonly used. There are no typos, broken strings, or unclear abbreviations in the list.",
+        "].\n\nReason: All the provided words are standard and commonly used words in the English language. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nExplanation:\n- \"land\": Valid word.\n- \"food\": Valid word.\n- \"risk\": Valid word.\n- \"vegetable\": Valid word.\n- \"metal\": Valid word.\n- \"country\": Valid word.\n-",
+        "].\n\nReason: All the words in the given list are valid and common. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list."
+      ]
+    }
+  },
+  "4": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'number' 'weight'"
+      },
+      "raw": [
+        "'number', 'weight' ]\n\nThese words do not fit the theme of \"botany\" or \"plant parts\" that the other words belong to.",
+        "'dry', 'leaf', 'fruit', 'number', 'weight', 'leave', 'matter', 'shoot', 'stem' ].\n\nHowever, if we consider that 'leaf', 'fruit', 'shoot', and '",
+        "'number', 'weight' ].",
+        "'dry', 'fruit', 'number', 'weight' ]\n\nHere's the list:\ndry, fruit, number, weight",
+        "'number', 'weight' ]\n\nThese words do not fit the theme of plant-related terminology as well as the others do."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'root'",
+            "'matter'"
+          ],
+          [
+            "'leaf'",
+            "'leave'"
+          ],
+          [
+            "'number'",
+            "'weight'"
+          ]
+        ]
+      },
+      "raw": "('root', 'matter'), ('leaf', 'leave'), ('number', 'weight')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "'leave', 'matter' ]\n\n- \"leave\" is likely a typo and should be \"leaves\" if referring to the part of a plant.\n- \"matter\" is unclear and does not fit the context of the other plant-related",
+        "].\n\nReason: All the provided words are standard English words and do not appear to be typos or unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "5": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'cucumber' 'eto'"
+      },
+      "raw": [
+        "'cucumber', 'eto' ].\n\nThese words do not fit the conceptual theme of the others as they pertain to specific objects (cucumber) and a specific type of event (eto), which are not relevant to the other words like 'site",
+        "'cucumber'  ]\n\nThese words do not fit with the rest of the theme based on their typical usage and context.",
+        "'cucumber', 'eto' ]",
+        "'cucumber', 'eto' ].",
+        "'age', 'cucumber', 'eto' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'site'",
+            "'cucumber'"
+          ],
+          [
+            "'daily'",
+            "'seasonal'"
+          ]
+        ]
+      },
+      "raw": "('site', 'cucumber'), ('daily', 'seasonal') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All words in the given list are valid and there are no typos, broken strings, or extremely rare abbreviations.",
+        "].\n\n### Reason:\nAll the provided words are valid and commonly used in English language. There are no typos, broken strings, or extremely rare, unclear abbreviations in the given list.",
+        "'eto' ].\n\nReasons:\n- 'eto' is an unclear abbreviation. It is not a standard English word or commonly used term, making it unclear in the context of a list of topic words.",
+        "].\n\nReason: All the words provided are valid and well-formed.",
+        "].\n\nReason: All the words in the provided list are standard English words and do not appear to be malformed or extremely rare abbreviations."
+      ]
+    }
+  },
+  "6": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'sugar'"
+      },
+      "raw": [
+        "'sugar', 'chlorophyll', 'soluble', 'approximately' ]\n\nThese words do not align with the theme of 'stress', 'content', 'activity', 'moderate', 'antioxidant', 'enzyme'.",
+        "'stress', 'content', 'sugar' ]\n\nThese words do not seem to fit the same conceptual theme as the others. The theme appears to be related to health, nutrition, and antioxidants, while 'stress', 'content', and",
+        "'sugar', 'enzyme' ]",
+        "'chlorophyll', 'sugar' ]\n\nThe other words, 'stress', 'content', 'activity', 'moderate', 'soluble', 'approximately', 'antioxidant', and 'enzyme', belong to a theme related to health",
+        "'sugar', 'chlorophyll', 'soluble', 'approximately' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 7,
+        "word_pairs": [
+          [
+            "'stress'",
+            "'stress'"
+          ],
+          [
+            "'content'",
+            "'content'"
+          ],
+          [
+            "'activity'",
+            "'activity'"
+          ],
+          [
+            "'sugar'",
+            "'sugar'"
+          ],
+          [
+            "'moderate'",
+            "'moderate'"
+          ],
+          [
+            "'chlorophyll'",
+            "'chlorophyll'"
+          ],
+          [
+            "'soluble'",
+            "'sol"
+          ]
+        ]
+      },
+      "raw": "('stress', 'stress'), ('content', 'content'), ('activity', 'activity'), ('sugar', 'sugar'), ('moderate', 'moderate'), ('chlorophyll', 'chlorophyll'), ('soluble', 'sol"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation:\n- All the given words are common, correctly spelled, and meaningful in the context of health and nutrition, with no clear evidence of typos or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words provided are valid and commonly understood in the English language. There are no typos, broken strings, or extremely rare abbreviations.",
+        "'stress', 'activity', 'sugar', 'approximately' ].\n\nReasons:\n1. 'stress': This word is not a valid term in the context of the list. It seems like a common English word but not a specific",
+        "].\n\nAll words in the given list are valid and do not appear to be malformed, contain typos, or be extremely rare or unclear abbreviations.",
+        "].\n\nExplanation:\nAll the given words are valid and clear. They are standard English words and do not contain any typos, broken strings, or extremely rare abbreviations."
+      ]
+    }
+  },
+  "7": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nThere are no words in the provided list that do not belong to the same conceptual theme as the others. All words seem to be related to the themes of data analysis, testing, clustering, and sampling.",
+        "].\n\nIt appears that all the words in the given set [ 'different', 'analysis', 'sample', 'test', 'component', 'group', 'sensitivity', 'extraction', 'cluster', 'sampling' ] are related to the",
+        "].\n\nUpon closer inspection of the provided topic word set, all the words seem to belong to the same conceptual theme related to data analysis and processing. The words can be categorized under the themes of data analysis, data sampling, testing, and clustering. None",
+        "].\n\nHere's the analysis:\n\n1. \"different\" - This word is not related to the other technical terms like \"analysis\", \"sample\", \"test\", \"component\", etc.\n2. \"sensitivity\" - This word can be related to",
+        "].\n\nIn this case, all the provided words seem to belong to the same conceptual theme related to data analysis, sampling, and testing. Therefore, there are no words that do not semantically belong to the same conceptual theme."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'analysis'",
+            "'test'"
+          ],
+          [
+            "'sensitivity'",
+            "'sample'"
+          ],
+          [
+            "'extraction'",
+            "'cluster'"
+          ]
+        ]
+      },
+      "raw": "('analysis', 'test'), ('sensitivity', 'sample'), ('extraction', 'cluster')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All words in the given list are valid and correctly spelled. There are no typos, broken strings, or extremely rare, unclear abbreviations in the provided list.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All words in the given list are standard English words with no apparent typos, broken strings, or unclear abbreviations. Therefore, all words are valid."
+      ]
+    }
+  },
+  "8": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'right' 'allocate'"
+      },
+      "raw": [
+        "'right', 'allocate' ]\n\nThese words do not fit the theme of environmental or resource-related topics that the other words in the set seem to belong to.",
+        "'right', 'allocate' ].",
+        "'right', 'allocate' ].\n\nThese words do not fit the theme of 'water efficiency and resource management' that the other words in the list seem to represent. 'Right' and 'allocate' are more related to legal and administrative aspects,",
+        "'efficiency', 'allocate', 'right' ]\n\nThese words do not fit as well with the other terms related to resources and their consumption or depletion.",
+        "'right', 'iwue' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'water'",
+            "'consumption'"
+          ],
+          [
+            "'efficiency'",
+            "'allocate'"
+          ],
+          [
+            "'resource'",
+            "'footprint'"
+          ]
+        ]
+      },
+      "raw": "('water', 'consumption'), ('efficiency', 'allocate'), ('resource', 'footprint')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nNo tokens are malformed, have typos, or are extremely rare, unclear abbreviations. All words are valid in the context of environmental and resource management.",
+        "].\n\nReason:\nAll the words in the given list are valid and commonly understood terms.",
+        "].\n\nExplanation: All the given words are valid and clearly defined. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\nAll words in the given list are valid.",
+        "].\n\nReason: All the given words are valid and commonly used in the context of discussing resources and sustainability. There are no apparent typos, broken strings, or extremely rare abbreviations in the list."
+      ]
+    }
+  },
+  "9": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'soc' ]",
+        "].\n\nThe given topic word set [ 'soil', 'depth', 'organic', 'moisture', 'layer', 'profile', 'conductivity', 'infiltration', 'fraction', 'soc' ] is primarily related to",
+        "].\n\nSince all the given words are related to soil science, there are no words that do not belong to the same conceptual theme.",
+        "'conductivity' , 'fraction' ].",
+        "'conductivity', 'fraction' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'soil'",
+            "'soc'"
+          ],
+          [
+            "'depth'",
+            "'layer'"
+          ],
+          [
+            "'organic'",
+            "'fraction'"
+          ],
+          [
+            "'moisture'",
+            "'profile'"
+          ]
+        ]
+      },
+      "raw": "('soil', 'soc'), ('depth', 'layer'), ('organic', 'fraction'), ('moisture', 'profile')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words in the given list are valid.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words provided are valid and do not exhibit any obvious malformations, typos, or extremely rare or unclear abbreviations.",
+        "].\n\nReason: None of the words provided are malformed, contain typos, or are extremely rare or unclear abbreviations. All words are valid in the context of soil science.",
+        "].\n\n**Reason:** All the words in the given list are valid and commonly used in the context of soil science and related fields."
+      ]
+    }
+  },
+  "10": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'greece'"
+      },
+      "raw": [
+        "'greece'  ]",
+        "'greece' ]",
+        "'greece'  ].",
+        "'greece'  ]\n\nThese words do not fit the theme of the others which are related to environmental or agricultural topics like 'level', 'non', 'irrigated', 'pattern', 'cycle', 'volume', 'mass', 'normal",
+        "'greece' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'level'",
+            "'normal'"
+          ],
+          [
+            "'cycle'",
+            "'flush'"
+          ]
+        ]
+      },
+      "raw": "('level', 'normal'), ('cycle', 'flush')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words in the given list are valid English words or common scientific terms. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words in the list are valid, common English words. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words in the provided list appear to be valid English words. There are no typos, broken strings, or extremely rare, unclear abbreviations.\n\nSo, the response is: \"All words are valid\".",
+        "].\n\nExplanation: All the words in the given list are valid, with no apparent typos, broken strings, or extremely rare abbreviations.",
+        "'greece' ]\n\nReasons:\n- 'greece' is not a valid English word on its own in this context and seems to be a place name rather than a scientific term."
+      ]
+    }
+  },
+  "11": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'humid' ]",
+        "].\n\nThere are no words that do not semantically belong to the same conceptual theme as the others. All the words in the given set are related to the theme of environmental issues, particularly those related to arid regions, climates, and problems like",
+        "].\n\nThere are no words in the given set that do not semantically belong to the same conceptual theme as the others. All the words are related to the theme of arid regions, climates, and the challenges associated with them.",
+        "'humid' ]",
+        "'humid' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'arid'",
+            "'dryland'"
+          ],
+          [
+            "'hot'",
+            "'salinization'"
+          ],
+          [
+            "'humid'",
+            "'suitable'"
+          ]
+        ]
+      },
+      "raw": "('arid', 'dryland'), ('hot', 'salinization'), ('humid', 'suitable')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words in the list ['production', 'region', 'arid', 'problem', 'suitable', 'climatic', 'dryland', 'hot', 'salinization', 'humid'] are valid. There are",
+        "].\n\nReason: All the words in the given list are valid and commonly used in the context of geographical and environmental topics. They do not contain any typos, broken strings, or extremely rare or unclear abbreviations.",
+        "].\n\nReason: All words in the provided list are valid, commonly used terms, and do not appear to be malformed or extremely rare, unclear abbreviations.",
+        "].\n\nHere are the reasons:\n- All the given words are valid and commonly used in the context of geography, environmental science, and agriculture. None of them appear to be typos, extremely rare, or unclear abbreviations.\n\nSo, \"All words",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "12": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'lysimeter'"
+      },
+      "raw": [
+        "'lysimeter' ]",
+        "'zone', 'lysimeter', 'kg⁻¹' ]",
+        "'zone', 'sandy', 'lysimeter', 'kg⁻¹' ]",
+        "'sandy', 'sand', 'lysimeter' ]\n\nThese words do not fit the same conceptual theme as the others, which seem to be related to soil types and properties.",
+        "'kg⁻¹', 'lysimeter' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'sand'",
+            "'sandy'"
+          ],
+          [
+            "'loam'",
+            "'zone'"
+          ]
+        ]
+      },
+      "raw": "('sand', 'sandy'), ('loam', 'zone')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words in the given list are valid and do not appear to be malformed or extremely rare, unclear abbreviations.",
+        "'zone', 'sandy', 'loam', 'sand', 'kg⁻¹' ].\n\n1. 'zone': It is not clear what this word refers to in this context. It could be a misspelling or a",
+        "].\n\n**Reason:**\n- \"zone\", \"clay\", \"sandy\", \"loam\", \"sub\", \"sand\", \"lysimeter\", \"fine\", \"mixed\", \"kg⁻¹\"\n  - All these words",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All words in the list are valid and correctly spelled. There are no typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "13": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'ha⁻¹', 'million', 'ton' ]",
+        "'respectively', 'gain', 'mid' ]",
+        "'mid', 'million', 'ton' ]",
+        "'respectively', 'gain', 'million', 'ton' ]\n\nHere's why:\n- 'respectively' is a conjunction used to indicate the order or sequence of items.\n- 'gain' refers to an increase or benefit.\n- '",
+        "'ha⁻¹', 'hectare' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'regime'",
+            "'ecosystem'"
+          ],
+          [
+            "'ha⁻¹'",
+            "'ton'"
+          ]
+        ]
+      },
+      "raw": "('regime', 'ecosystem'), ('ha⁻¹', 'ton')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'ha⁻¹'"
+      },
+      "raw": [
+        "'ha⁻¹', 'hectare' ].\n\n- 'ha⁻¹': This is a malformed token. It appears to be an attempt to represent a power of 10 or a specific scientific notation, but it is",
+        "'ha⁻¹' ]\n\nReason: The token 'ha⁻¹' appears to be a misrepresentation of a mathematical symbol or unit. The 'ha' prefix is typically used to denote \"hectares,\" but the superscript",
+        "'ha⁻¹' ]\n\nReason: 'ha⁻¹' appears to be a mathematical notation (hertz to the power of -1), which is not a typical word in natural language.",
+        "'ha⁻¹', 'mid', 'million', 'hectare', 'ton' ].\n\n- 'ha⁻¹' is invalid because it appears to be a scientific notation or unit of measurement but does not follow standard conventions",
+        "].\n\nAll words provided in the list ['respectively', 'regime', 'ha⁻¹', 'ecosystem', 'saving', 'gain', 'mid', 'million', 'hectare', 'ton'] are valid"
+      ]
+    }
+  },
+  "14": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'benefit' 'return'"
+      },
+      "raw": [
+        "].\n\nThe word 'ratio', 'benefit', 'storage', 'return', 'operation', 'sugarcane', 'power', 'pump', 'generation', and 'punjab' all have distinct meanings and do not form",
+        "'benefit', 'return', 'punjab' ]\n\nThese words do not relate to the theme of 'sugarcane', 'storage', 'operation', 'power', 'generation', 'pump'.",
+        "'benefit', 'storage', 'return', 'operation', 'sugarcane', 'power', 'pump', 'generation', 'punjab' ]",
+        "'ratio', 'benefit', 'storage', 'return', 'operation' ]\n\nThese words do not belong to the same conceptual theme as 'sugarcane', 'power', 'pump', 'generation', and 'punjab",
+        "'benefit', 'return' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'sugarcane'",
+            "'sugar cane'"
+          ],
+          [
+            "'storage'",
+            "'storage'"
+          ]
+        ]
+      },
+      "raw": "('sugarcane', 'sugar cane'), ('storage', 'storage')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All words in the list are valid and clear. There are no typos, broken strings, or unclear abbreviations present.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All the provided words are valid and commonly used in the context of the given list. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words in the list are valid and clear. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words in the list are valid and commonly used in English. There are no typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "15": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nNone of the words provided in the given set semantically belong to a distinct theme that stands out from the others. They all relate to the broad theme of plant biology and processes, such as transpiration, transport, and regulation. Therefore, there",
+        "].\n\nExplanation:\nAll the given words are related to plant physiology and particularly to the process of photosynthesis and water transport within plants. None of the words stand out as not fitting the overall theme of plant biology and photosynthesis. Therefore, there are no words",
+        "].\n\nHowever, the provided word set does not contain any words that are obviously out of place based on their semantic theme. All the words relate to plant physiology and plant water transport, which are topics that often go together in scientific contexts.",
+        "'rate', 'structure', 'hydraulic', 'transport' ]\n\nThese words do not fit the theme of plant biology and physiology as well as the others, which are mostly related to photosynthesis, water movement, and regulation within plants.",
+        "].\n\nIt seems that all the provided words are related to the theme of plant biology, particularly to processes involving water, gas exchange, and photosynthesis. Thus, all the words belong to the same conceptual theme."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'net'",
+            "'transport'"
+          ],
+          [
+            "'hydraulic'",
+            "'structure'"
+          ]
+        ]
+      },
+      "raw": "('net', 'transport'), ('hydraulic', 'structure') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the given words are valid and commonly used in the context of botany, plant physiology, and plant science. There are no apparent typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\nReason: All words provided are valid topic-related terms in the context of science, particularly in the fields of botany and plant physiology. None of the words appear to be misspelled, broken, or overly rare/abbreviated in",
+        "].\n\nAll words in the provided list are valid.",
+        "].\n\nReason: All words provided are valid and typical scientific terminology.",
+        "].\n\nReason: All words in the given list are valid and commonly used in scientific contexts related to botany and plant physiology. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list."
+      ]
+    }
+  },
+  "16": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'white'"
+      },
+      "raw": [
+        "'high', 'low', 'white' ]",
+        "'alfalfa', 'class', 'mixture' ]",
+        "'alfalfa', 'class', 'mixture', 'turfgrass', 'white' ]\n\nThese words do not fit the themes of 'high', 'low', 'salinity', 'record', 'evaporation' as well as the",
+        "'alfalfa', 'class', 'white' ].\n\nThese words do not fit with the theme of 'high', 'low', 'salinity', 'record', 'evaporation', 'mixture', and 'turfgrass', which",
+        "'white' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'salinity'",
+            "'evaporation'"
+          ]
+        ]
+      },
+      "raw": "('salinity', 'evaporation')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words in the list are valid and clear.",
+        "].\n\nReason: All words in the list are standard English words and do not appear to be malformed or extremely rare abbreviations.",
+        "].\n\nHere are the words and reasons for them being considered valid:\n\n1. **high**: This is a valid word and is commonly used in English.\n2. **low**: This is a valid word and is commonly used in English.\n3. **",
+        "].\n\nAll words in the list 'high', 'low', 'salinity', 'record', 'evaporation', 'alfalfa', 'class', 'mixture', 'turfgrass', 'white' are valid and commonly recognized words.",
+        "].\n\nReason: All words in the list are valid and meaningful, with no typos or unclear abbreviations."
+      ]
+    }
+  },
+  "17": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation: All the words in the given topic word set seem to be related to some aspect of water management, particularly in agricultural or environmental contexts. They are all related to irrigation, drainage, and water distribution or flow. Therefore, no words",
+        "'irrigation', 'surface', 'drip', 'drainage', 'saline', 'canal', 'deep', 'subsurface', 'shallow', 'table' ]\n\nUpon closer inspection, it appears that all the words listed",
+        "].\n\nIt seems there might be a mistake in the provided topic set, as all the words appear to be related to the theme of water management or agriculture. Therefore, there are no words that don't semantically belong to the same conceptual theme.",
+        "].\n\nThe words that do not semantically belong to the same conceptual theme as the others are none. All the provided words are related to the theme of irrigation, drainage, and water management.",
+        "'irrigation', 'surface', 'drip', 'drainage', 'saline', 'canal', 'deep', 'subsurface', 'shallow', 'table' ]\n\nNone of the words listed seem to fit a common theme"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'irrigation'",
+            "'drainage'"
+          ],
+          [
+            "'surface'",
+            "'table'"
+          ]
+        ]
+      },
+      "raw": "('irrigation', 'drainage'), ('surface', 'table')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All the provided words are valid and commonly used in the context of irrigation and drainage.",
+        "].\n\nHere's the explanation for each word:\n1. **irrigation**: Valid.\n2. **surface**: Valid.\n3. **drip**: Valid.\n4. **drainage**: Valid.\n5. **saline**: Valid.\n6",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words in the list are valid and clear."
+      ]
+    }
+  },
+  "18": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'event' 'fish'"
+      },
+      "raw": [
+        "'event', 'fish', 'pond' ]\n\nSo, the words that do not belong to the same conceptual theme as the others are: 'event', 'fish', 'pond'.",
+        "'type', 'event', 'fish', 'pond' ]",
+        "].\n\nThe topic model words 'average', 'type', 'biomass', 'cover', 'annual', 'potato', 'event', 'fish', 'pond', 'movement' seem to be related to 'biomass'",
+        "'average', 'event', 'fish' ]",
+        "'type', 'event', 'fish', 'pond', 'movement' ].\n\nThese words do not fit well with the theme of the others which seem to be related to agricultural or environmental topics, specifically dealing with plant growth and its measurement."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'average'",
+            "'annual'"
+          ],
+          [
+            "'type'",
+            "'biomass'"
+          ],
+          [
+            "'cover'",
+            "'event'"
+          ],
+          [
+            "'fish'",
+            "'pond'"
+          ],
+          [
+            "'movement'",
+            "'potato'"
+          ]
+        ]
+      },
+      "raw": "('average', 'annual'), ('type', 'biomass'), ('cover', 'event'), ('fish', 'pond'), ('movement', 'potato')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation:\n- All the given words are valid and correctly spelled. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\n**Reasoning:**\n- All the words in the provided list are valid English words and do not appear to be malformed, typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words are valid.",
+        "].\n\nReason: All the words provided are common, valid English terms, and none appear to be malformed or extremely rare abbreviations.",
+        "].\n\nReason: All the given words are valid and commonly used in English."
+      ]
+    }
+  },
+  "19": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'incorporation'"
+      },
+      "raw": [
+        "'fixation' ]\n\nThe other words in the set pertain to concepts related to changes in populations or habitats, while 'fixation' does not directly relate to these themes.",
+        "'stock', 'incorporation' ]",
+        "'incorporation' ]",
+        "'incorporation', 'fixation'  ]",
+        "'increase', 'incorporation' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'increase'",
+            "'increase'"
+          ],
+          [
+            "'decrease'",
+            "'decrease'"
+          ],
+          [
+            "'habitat'",
+            "'habitat'"
+          ],
+          [
+            "'stock'",
+            "'stock'"
+          ],
+          [
+            "'incorporation'",
+            "'incorporation'"
+          ]
+        ]
+      },
+      "raw": "('increase', 'increase'), ('decrease', 'decrease'), ('habitat', 'habitat'), ('stock', 'stock'), ('incorporation', 'incorporation')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words provided are valid English words and there are no obvious typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\nReason: All the words provided appear to be valid and correctly spelled. They are either general English words or technical terms used in specific contexts, and there are no apparent typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words in the given list are valid and commonly used in English. There are no typos, broken strings, or extremely rare, unclear abbreviations.\n\nSo, the reply would be: \"All words are valid\".",
+        "].\n\nAll words in the list are valid and commonly used in their respective contexts. None of the words appear to be typos, broken strings, or extremely rare, unclear abbreviations.",
+        "'increase', 'decrease', 'population', 'decline', 'habitat', 'california', 'stock', 'incorporation', 'agroecosystem', 'fixation' ].\n\nAll words are valid."
+      ]
+    }
+  },
+  "20": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'fuel' 'century'"
+      },
+      "raw": [
+        "'fuel', 'county', 'century' ]\n\nThese words do not fit with the theme of the other words, which seem to be related to quality, information, and geographical or specific contexts like 'vineyard' and 'ground'.",
+        "'fuel', 'century' ].",
+        "'fuel', 'century' ]",
+        "'fuel', 'county' ]",
+        "'fuel', 'county', 'century' ]\n\nThe words 'fuel', 'county', and 'century' do not seem to fit the conceptual theme of the other words related to quality, loss, information, ground,"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'quality'",
+            "'suitability'"
+          ],
+          [
+            "'information'",
+            "'ground'"
+          ],
+          [
+            "'county'",
+            "'vineyard'"
+          ],
+          [
+            "'fuel'",
+            "'century'"
+          ]
+        ]
+      },
+      "raw": "('quality', 'suitability'), ('information', 'ground'), ('county', 'vineyard'), ('fuel', 'century')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nAll words in the given list are valid.",
+        "].\n\nAll words provided are valid and correctly spelled. There are no typos, broken strings, or extremely rare, unclear abbreviations in the given list.",
+        "].\n\nAll words in the list are valid and correctly spelled. There are no typos, broken strings, or extremely rare, unclear abbreviations in the given list.",
+        "].\n\nExplanation: All the words in the given list are valid English words. There are no typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "21": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'seed', 'cotton', 'date', 'furrow', 'mulch', 'row', 'interval', 'fertigation', 'week' ]\n\nHowever, based on the topic model's output, it seems that all the words listed are",
+        "'cotton', 'furrow', 'mulch', 'row' ]",
+        "].\n\nExplanation: All the words in the given set are related to agriculture, specifically to planting and maintaining crops. There are no words that do not fit into this theme.",
+        "].\n\nThe words provided, such as 'seed', 'cotton', 'planting', 'date', 'furrow', 'mulch', 'row', 'interval', 'fertigation', and 'week', all relate to farming and agriculture.",
+        "].\n\nThese words do not align with the theme of agriculture or farming, which is the central theme of the other words in the set."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'seed'",
+            "'cotton'"
+          ],
+          [
+            "'planting'",
+            "'date'"
+          ],
+          [
+            "'furrow'",
+            "'row'"
+          ],
+          [
+            "'interval'",
+            "'week'"
+          ]
+        ]
+      },
+      "raw": "('seed', 'cotton'), ('planting', 'date'), ('furrow', 'row'), ('interval', 'week')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words in the list are valid English terms related to farming and agriculture. There are no typos, broken strings, or extremely rare abbreviations in the given list.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words in the list are valid. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words are valid and correctly spelled.",
+        "].\n\nAll words in the given list are valid."
+      ]
+    }
+  },
+  "22": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'block' ]",
+        "].\n\nIt appears that all the words in the given set are related to agriculture, particularly to the topic of applying fertilizers or manure to plots of land. Therefore, there are no words that do not belong to the same conceptual theme as the others",
+        "].\n\nExplanation:\n- All the words in the given set are related to agriculture, specifically to the application of fertilizers and manure on plots or fields.\n- The word 'block' does not fit this semantic theme as it can refer to a",
+        "'block' ]",
+        "'release', 'block' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'fertilizer'",
+            "'manure'"
+          ],
+          [
+            "'application'",
+            "'apply'"
+          ]
+        ]
+      },
+      "raw": "('fertilizer', 'manure'), ('application', 'apply')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nReason: None of the words are malformed, typos, broken strings, or extremely rare, unclear abbreviations. All words are valid and can be understood in the context of the given list.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All words in the given list are valid and commonly used in their respective contexts. There are no obvious typos, broken strings, or extremely rare, unclear abbreviations.\n\nTherefore, the response is: \"All words are valid\".",
+        "].\n\nReason: All the given words are valid English words and there are no typos, broken strings, or unclear abbreviations."
+      ]
+    }
+  },
+  "23": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'schedule', 'supplemental' ].",
+        "].\n\nUpon examining the given list, all words seem to be related to a common theme of agriculture or farming, particularly focusing on weather-related aspects and schedules. Therefore, there are no words that do not semantically belong to the same conceptual theme.",
+        "'research', 'winter', 'schedule' ]",
+        "'supplemental' ]",
+        "'winter', 'june' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'research'",
+            "'requirement'"
+          ],
+          [
+            "'rainfall'",
+            "'supplemental'"
+          ]
+        ]
+      },
+      "raw": "('research', 'requirement'), ('rainfall', 'supplemental')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All words are valid and common, with no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words in the list are valid and there are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nNone of the given words are malformed, typos, or extremely rare, unclear abbreviations. They are all valid and comprehensible within the context of a discussion on agriculture and weather patterns.",
+        "].\n\nExplanation:\nAll the given words are valid and commonly used in the context of farming and weather-related research. None of the words appear to be typos, broken strings, or extremely rare or unclear abbreviations.",
+        "].\n\nReason: All words are valid, properly spelled, and do not contain any obvious typos or unclear abbreviations."
+      ]
+    }
+  },
+  "24": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'end', 'grow', 'conventional' ]\n\nThese words do not fit the same conceptual theme as the other words in the set.",
+        "'wet', 'end' ]",
+        "].\n\nIt appears that all the words in the given set are related to the conceptual theme of agriculture, particularly focusing on farming practices and seasons. Therefore, no words stand out as not belonging to the same conceptual theme.",
+        "'end'  ]",
+        "].\n\nThe remaining words ('grow', 'season', 'wet', 'tillage', 'summer', 'spring', 'conventional', 'residue', 'end', 'rotation') all belong to the theme of agriculture and farming."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'grow'",
+            "'season'"
+          ],
+          [
+            "'spring'",
+            "'summer'"
+          ]
+        ]
+      },
+      "raw": "('grow', 'season'), ('spring', 'summer')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All words provided are valid and clear.",
+        "].\n\nReason: All the words provided are valid and clearly defined in standard English. There are no apparent typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the provided words are valid and clearly spelled.",
+        "].\n\nExplanation: All the given words are standard and valid in the context of agriculture and farming, with no apparent typos, broken strings, or unclear abbreviations. Therefore, all words are valid."
+      ]
+    }
+  },
+  "25": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'oil' 'sensor'"
+      },
+      "raw": [
+        "'oil', 'sensor', 'extract', 'compound' ]",
+        "'oil', 'sensor', 'extract', 'compound' ]",
+        "'sensor', 'extract', 'compound' ]",
+        "'sensor', 'oil', 'acid' ]",
+        "'oil', 'sensor' ]\n\nThese words do not align with the theme of the other words, which seem to be related to agriculture or chemistry."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'treatment'",
+            "'compound'"
+          ],
+          [
+            "'cultivar'",
+            "'tuber'"
+          ],
+          [
+            "'oil'",
+            "'extract'"
+          ],
+          [
+            "'protein'",
+            "'compound'"
+          ]
+        ]
+      },
+      "raw": "('treatment', 'compound'), ('cultivar', 'tuber'), ('oil', 'extract'), ('protein', 'compound')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: None of the provided words appear to be malformed, extremely rare, or unclear abbreviations based on their meanings and typical usage in scientific or general contexts.",
+        "].\n\nExplanation: All the words in the given list are valid. There are no typos, broken strings, or extremely rare, unclear abbreviations in the provided list.",
+        "].\n\nReason: All the words in the list are valid and do not appear to be typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the given words are valid and commonly used in the context of scientific or agricultural terminology. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "26": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'reduce', 'project', 'pressure' ]\n\nThe other words in the set relate to various aspects of damage, intensity, and place, while 'reduce', 'project', and 'pressure' do not share a clear conceptual theme with the rest of",
+        "'project', 'place' ].\n\nThese words do not fit as well with the other words in the topic set, which generally seem to relate to natural phenomena or environmental factors (e.g., 'reduce', 'pressure', 'damage', '",
+        "'sprinkler', 'single' ]\n\nThese words do not align with the other words in the set, which seem to be related to concepts like intensity, damage, pressure, and place.",
+        "].\n\nThe words 'reduce', 'project', 'pressure', 'single', 'contribution', 'intensity', 'damage', 'place', 'peak' all seem to belong to different conceptual themes. There is no clear central theme that ties",
+        "'reduce', 'project', 'place' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 7,
+        "word_pairs": [
+          [
+            "'reduce'",
+            "'reduce'"
+          ],
+          [
+            "'project'",
+            "'project'"
+          ],
+          [
+            "'sprinkler'",
+            "'sprinkler'"
+          ],
+          [
+            "'pressure'",
+            "'pressure'"
+          ],
+          [
+            "'single'",
+            "'single'"
+          ],
+          [
+            "'contribution'",
+            "'contribution'"
+          ],
+          [
+            "'intensity'",
+            "'intensity'"
+          ]
+        ]
+      },
+      "raw": "('reduce', 'reduce'), ('project', 'project'), ('sprinkler', 'sprinkler'), ('pressure', 'pressure'), ('single', 'single'), ('contribution', 'contribution'), ('intensity', 'intensity'),"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\n**Explanation:**\n- All the words provided are valid, common English words and do not appear to be malformed, typos, or extremely rare abbreviations. Therefore, all words are valid.",
+        "].\n\nReason: All the words in the given list are valid and clear. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\n**Explanation:**\n- All the given words in the list ['reduce', 'project', 'sprinkler', 'pressure', 'single', 'contribution', 'intensity', 'damage', 'place', 'peak'] are standard",
+        "].\n\nExplanation:\n- All the given words are standard English words and there are no obvious typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words in the provided list are valid, commonly used English words with clear meanings. There are no typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "27": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nIn this case, the provided topic word set is quite cohesive, focusing on themes related to agriculture and economic development. There are no words that clearly do not belong to the same conceptual theme as the others. All words seem to fit within the context",
+        "].\n\nIn this case, all the words seem to belong to the theme of agriculture and economic development, particularly focusing on farming and its impact on local communities. Therefore, there are no words that do not semantically belong to the same conceptual theme as the",
+        "'household' ]\n\nExplanation:\n- \"Development\", \"farming\", \"farm\", \"scheme\", \"product\", \"income\", and \"market\" all relate to economic, agricultural, and societal aspects, typically associated with rural",
+        "'development', 'household' ]",
+        "'development', 'local', 'household', 'market', 'sector' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'development'",
+            "'farming'"
+          ],
+          [
+            "'farm'",
+            "'farming'"
+          ],
+          [
+            "'local'",
+            "'household'"
+          ],
+          [
+            "'market'",
+            "'product'"
+          ]
+        ]
+      },
+      "raw": "('development', 'farming'), ('farm', 'farming'), ('local', 'household'), ('market', 'product')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nNone of the provided words in the list [ 'development', 'farm', 'local', 'farming', 'scheme', 'product', 'income', 'household', 'market', 'sector' ] are malformed",
+        "].\n\nReason: All the words provided are standard, valid, and commonly used in the context of development, farming, and related fields. There are no obvious typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\nReason: All the words in the given list are valid and common topic words related to development, farming, and related sectors. None of them appear to be malformed, typos, broken strings, or extremely rare and unclear abbreviations.",
+        "].\n\nAll words provided are valid and do not appear to contain any typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words in the given list are valid, correctly spelled, and commonly used in the context of development, farming, and related sectors."
+      ]
+    }
+  },
+  "28": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation:\n- The provided topic word set is focused on themes related to water resources, environmental science, and climate.\n- All words in the set are closely related to these themes.\n- None of the words in the given set appear to be",
+        "'groundwater', 'reservoir', 'lake' ]",
+        "].\n\nThis is because all the words in the provided list are related to water, its movement, and the impact of climate on water resources. There are no words that clearly do not belong to this theme.",
+        "].\n\nExplanation: All the words in the given set are related to the theme of water resources and environmental science, particularly focusing on water management, climate change, and related phenomena. Therefore, none of the words stand out as semantically belonging to a",
+        "].\n\nExplanation: All the given words are related to the theme of water resources, climate, and their interactions, except for 'adaptation'. While 'adaptation' is a concept that can be related to climate change, it does not directly refer"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'river'",
+            "'flow'"
+          ],
+          [
+            "'reservoir'",
+            "'lake'"
+          ],
+          [
+            "'change'",
+            "'adaptation'"
+          ]
+        ]
+      },
+      "raw": "('river', 'flow'), ('reservoir', 'lake'), ('change', 'adaptation')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: None of the provided words are malformed, contain typos, broken strings, or are extremely rare, unclear abbreviations. All words are valid and commonly associated with the topics of water, hydrology, and climate change.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason:\n- All the words in the given list are valid and do not contain any typos, broken strings, or extremely rare, unclear abbreviations. They are common terms related to water resources and climate change.",
+        "].\n\nReason: All words in the provided list are valid and commonly used in the context of environmental sciences and hydrology. There are no apparent typos, broken strings, or extremely rare or unclear abbreviations in the list.",
+        "].\n\nReason: All the words in the provided list are valid and commonly understood in the context of environmental and hydrological sciences. There are no apparent typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "29": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "3",
+        "3",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'receive' 'pot'"
+      },
+      "raw": [
+        "'receive', 'pot', 'consume' ]",
+        "'time', 'term', 'receive' ]\n\nThese words do not fit well with the other words in terms of their shared conceptual theme, which appears to be related to potential, energy, and consumption.",
+        "'medium', 'receive', 'pot', 'consume' ]\n\nThese words do not fit the theme of the given topic set, which appears to be focused on energy, availability, and potential in a timeframe or term.",
+        "'time', 'term', 'pot', 'consume' ]\n\nThese words do not fit as well with the theme of 'potential', 'scale', 'energy', 'available', 'medium', and 'receive'.",
+        "'pot', 'receive' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'potential'",
+            "'pot'"
+          ]
+        ]
+      },
+      "raw": "('potential', 'pot')], [('term', 'term')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All words in the given list are valid and commonly understood in the context of general language usage. There are no typos, broken strings, or extremely rare, unclear abbreviations present in the list.",
+        "].\n\nAll words in the list are valid and correctly spelled.",
+        "].\n\nReason: All words are valid and there are no malformed tokens or extremely rare, unclear abbreviations in the given list.",
+        "].\n\nAll words provided are valid."
+      ]
+    }
+  },
+  "30": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'guideline'"
+      },
+      "raw": [
+        "'tank', 'guideline', 'section', 'shape' ]\n\nThese words do not fit the theme of the other words which are related to environmental and ecological concepts such as agriculture, landscape, wetland, and watershed.",
+        "'factor', 'guideline', 'section', 'shape' ]\n\nThese words do not fit as well with the other words in the set, which are primarily related to geographical and environmental concepts like 'agricultural', 'landscape', 'wet",
+        "'guideline', 'section', 'shape' ].\n\nThese words do not fit the themes of agriculture, land, water, or environmental aspects (like 'wetland' or 'watershed') as well as the others in the set.",
+        "'factor', 'guideline' ]\n\nThese words do not fit the theme of the others, which primarily revolve around environmental and geographic terms related to land, water, and their management or transformation.",
+        "'factor', 'guideline' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'agricultural'",
+            "'tank'"
+          ],
+          [
+            "'watershed'",
+            "'section'"
+          ]
+        ]
+      },
+      "raw": "('agricultural', 'tank'), ('watershed', 'section')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the provided words are valid and commonly used in the context of environmental and agricultural topics. There are no apparent typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words are valid and there are no typos, broken strings, or extremely rare, unclear abbreviations in the given list.",
+        "].\n\nNone of the words in the given list are malformed, typos, broken strings, or extremely rare, unclear abbreviations. All words are valid.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "31": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "3",
+        "1",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'coefficient'"
+      },
+      "raw": [
+        "'estimate', 'measurement', 'coefficient', 'correlation' ].",
+        "'coefficient' ]",
+        "'estimate', 'equation', 'prediction' ]",
+        "'coefficient', 'prediction' ]",
+        "'value', 'estimate', 'range', 'mean', 'measurement', 'coefficient', 'correlation', 'standard', 'equation', 'prediction' ]\n\nThe correct words that do not belong to the same conceptual theme as the others"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'estimate'",
+            "'prediction'"
+          ],
+          [
+            "'measurement'",
+            "'standard'"
+          ],
+          [
+            "'correlation'",
+            "'coefficient'"
+          ]
+        ]
+      },
+      "raw": "('estimate', 'prediction'), ('measurement', 'standard'), ('correlation', 'coefficient')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All words provided are valid and commonly used in the context of statistics and data analysis.",
+        "].\n\nReason: All words in the provided list are valid and commonly used in the context of statistics, mathematics, and data analysis. There are no typos, broken strings, or extremely rare or unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All the provided words are valid English terms commonly used in the context of statistics and data analysis. They are not typos or broken strings, and they do not represent extremely rare or unclear abbreviations."
+      ]
+    }
+  },
+  "32": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "1",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nThe words 'drought', 'environment', 'salt', 'variety', 'genotype', 'tolerance', 'trait', 'line', 'resistance', and 'hybrid' all relate to the theme of genetics,",
+        "].\n\nThe words provided ('drought', 'environment', 'salt', 'variety', 'genotype', 'tolerance', 'trait', 'line', 'resistance', 'hybrid') all relate to the theme of agriculture or",
+        "].\n\nExplanation: All the words in the given set are related to genetics, agriculture, and environmental science, specifically focusing on plant traits and adaptations, such as drought tolerance and salt resistance. There are no words that semantically do not belong to this",
+        "'line', 'hybrid' ]\n\nThese words seem to relate more to the context of plant breeding or genetic manipulation rather than the broader environmental context of the other words like 'drought', 'environment', 'salt', 'variety', '",
+        "'salt', 'line', 'hybrid' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'drought'",
+            "'environment'"
+          ],
+          [
+            "'salt'",
+            "'resistance'"
+          ],
+          [
+            "'genotype'",
+            "'line'"
+          ],
+          [
+            "'tolerance'",
+            "'trait'"
+          ],
+          [
+            "'hybrid'",
+            "'variety'"
+          ]
+        ]
+      },
+      "raw": "('drought', 'environment'), ('salt', 'resistance'), ('genotype', 'line'), ('tolerance', 'trait'), ('hybrid', 'variety')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words in the provided list [\"drought\", \"environment\", \"salt\", \"variety\", \"genotype\", \"tolerance\", \"trait\", \"line\", \"resistance\", \"hybrid\"] are valid.",
+        "].\n\nExplanation:\n- All the words in the list are standard English words and appear to be correctly spelled and clear in their meaning. There are no typos, broken strings, or extremely rare abbreviations present in the list. Therefore, all words",
+        "].\n\nAll words in the list appear to be valid, correctly spelled, and generally clear. There are no apparent typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words in the given list are valid."
+      ]
+    }
+  },
+  "33": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'canopy', 'flux', 'air' ]",
+        "].\n\nGiven the topic words: ['temperature', 'period', 'relative', 'precipitation', 'canopy', 'trend', 'flux', 'weather', 'air', 'heat'].\n\nThe words that do not semantically belong to",
+        "'period', 'relative', 'precipitation', 'canopy', 'flux' ]",
+        "'period', 'relative', 'flux', 'weather', 'air', 'heat' ]",
+        "].\n\nThe words \"temperature\", \"period\", \"relative\", \"precipitation\", \"canopy\", \"trend\", \"flux\", \"weather\", \"air\", and \"heat\" all relate to various aspects of climate, weather, and environmental"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'temperature'",
+            "'heat'"
+          ],
+          [
+            "'precipitation'",
+            "'weather'"
+          ],
+          [
+            "'period'",
+            "'trend'"
+          ]
+        ]
+      },
+      "raw": "('temperature', 'heat'), ('precipitation', 'weather'), ('period', 'trend')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All provided words are valid and commonly used in the context of meteorology and related fields.",
+        "].\n\nExplanation:\n- \"temperature\": Valid.\n- \"period\": Valid.\n- \"relative\": Valid.\n- \"precipitation\": Valid.\n- \"canopy\": Valid.\n- \"trend\": Valid.\n- \"flux\": Valid.",
+        "].\n\nExplanation:\n- All the provided words are valid and commonly used in the context of weather and climate science.\n- There are no apparent typos, broken strings, or extremely rare, unclear abbreviations among the given list.",
+        "].\n\nReason: All the words provided are valid and commonly used in the context of weather and environmental science. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "34": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "1",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'lettuce'"
+      },
+      "raw": [
+        "'produce', 'community', 'lettuce' ].",
+        "'produce', 'lettuce' ]\n\nThese words do not fit the theme of the other words, which seem to be related to microbiology, disease detection, and microbial diversity.",
+        "'community', 'bacteria', 'diversity' ]\n\nThese words do not fit the same theme as the others, which seem to be related to agriculture and disease detection.",
+        "'community', 'lettuce' ]",
+        "'produce', 'lettuce' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'produce'",
+            "'lettuce'"
+          ],
+          [
+            "'disease'",
+            "'pathogen'"
+          ]
+        ]
+      },
+      "raw": "('produce', 'lettuce'), ('disease', 'pathogen')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the given words are valid, and there are no malformed tokens, typos, or unclear abbreviations present in the list.",
+        "].\n\nAll words are valid.",
+        "].\n\nExplanation: All the given words are valid and commonly used in scientific and medical contexts. None of the words are malformed or unclear abbreviations.",
+        "].\n\nReason: All the given words are valid and commonly used in the context of microbiology and related fields.",
+        "].\n\nAll words in the provided list are valid and clear, with no apparent typos, broken strings, or extremely rare abbreviations."
+      ]
+    }
+  },
+  "35": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'like'"
+      },
+      "raw": [
+        "'like', 'set' ]",
+        "'size', 'location' ]\n\nThese words do not fit the theme of the given topic set, which appears to be related to environmental or biological concepts such as 'forest', 'plantation', 'particle', and 'set'.",
+        "'set', 'like', 'plantation' ]",
+        "'like', 'particle' ]",
+        "'like' ]\n\nSo the list is: like"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'method'",
+            "'set'"
+          ],
+          [
+            "'variable'",
+            "'state'"
+          ],
+          [
+            "'size'",
+            "'location'"
+          ]
+        ]
+      },
+      "raw": "('method', 'set'), ('variable', 'state'), ('size', 'location')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All words in the list are valid and commonly understood in the context of various fields. They are not typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words in the given list are valid English words and none of them appear to be malformed or extremely rare, unclear abbreviations.",
+        "].\n\nNone of the given words are malformed, extremely rare, unclear abbreviations, or typos. All words are valid.",
+        "].\n\nReason: All the words in the given list are valid English words. There are no typos, broken strings, or unclear abbreviations.",
+        "].\n\nReason: None of the words in the list appear to be malformed or are extremely rare and unclear abbreviations."
+      ]
+    }
+  },
+  "36": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "1",
+        "3",
+        "1",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation: All the words in the given set appear to be related to environmental science or ecology, particularly focusing on vegetation, land, and related processes. There are no clear outliers that do not fit this theme.",
+        "].\n\nExplanation: All the words provided seem to be related to environmental or scientific concepts, particularly in the context of environmental science or geography. They could be related to topics like climate, ecosystems, or data analysis. However, the word 'difference",
+        "].\n\nThe words in the given set are related to various aspects of environmental science and data analysis. The words \"base\", \"datum\", \"index\", \"difference\", \"evapotranspiration\", \"spatial\", \"green\", \"veget",
+        "'base', 'datum', 'network' ]",
+        "].\n\nThe words 'base', 'datum', 'index', 'difference', 'evapotranspiration', 'spatial', 'green', 'vegetation', 'network', 'regression' all belong to the same conceptual theme of environmental"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'base'",
+            "'datum'"
+          ],
+          [
+            "'green'",
+            "'vegetation'"
+          ]
+        ]
+      },
+      "raw": "('base', 'datum'), ('green', 'vegetation')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All words are valid and appear to be correctly spelled and clear in context. There are no obvious typos, broken strings, or extremely rare, unclear abbreviations in the given list.",
+        "].\n\nReason: All words in the given list are valid English words and are not malformed or extremely rare.",
+        "].\n\nReason: All the words in the list are valid and are commonly used in academic or technical contexts. There are no obvious typos, broken strings, or extremely rare abbreviations.",
+        "].\n\nReason: All the provided words are valid and do not contain any typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the provided words are valid and commonly used in the context of scientific or technical writing. There are no typos, broken strings, or extremely rare or unclear abbreviations in the list."
+      ]
+    }
+  },
+  "37": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'great', 'initial' ]",
+        "'parameter', 'catchment' ]",
+        "].\n\nThe given words are:\n- 'great'\n- 'parameter'\n- 'reduction'\n- 'distribution'\n- 'cost'\n- 'relate'\n- 'discharge'\n- 'waste'\n- 'initial'\n- 'catch",
+        "'initial', 'catchment' ].\n\nThese words do not align with the theme of the other words, which seem to be related to environmental or process-related reduction and distribution, as well as costs and parameters. 'Initial' and 'catchment",
+        "'parameter', 'initial', 'catchment' ].\n\nThe words 'parameter' and 'initial' are more abstract and technical, and 'catchment' is related to a specific geographical term, making them less semantically aligned with the other words"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'parameter'",
+            "'cost'"
+          ],
+          [
+            "'distribution'",
+            "'discharge'"
+          ],
+          [
+            "'waste'",
+            "'initial'"
+          ],
+          [
+            "'catchment'",
+            "'great'"
+          ]
+        ]
+      },
+      "raw": "('parameter', 'cost'), ('distribution', 'discharge'), ('waste', 'initial'), ('catchment', 'great')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words in the given list are valid and clear. There are no typos, broken strings, or unclear abbreviations.",
+        "].\n\nReason: All words in the list are valid and standard English words. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "38": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "1",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'management', 'farmer', 'practice', 'technology', 'corn', 'soybean', 'conservation', 'adoption', 'bean', 'knowledge' ]",
+        "'management', 'adoption' ]\n\nThe other words 'farmer', 'practice', 'technology', 'corn', 'soybean', 'conservation', 'bean', and 'knowledge' are more directly related to agricultural and",
+        "].\n\nExplanation: All the given words are related to agriculture, farming, and conservation practices, which are themes central to the topic model. Therefore, there are no words that do not belong to the same conceptual theme as the others.",
+        "].\n\nHere is the comma-separated list:\n- 'management', 'farmer', 'practice', 'technology', 'corn', 'soybean', 'conservation', 'adoption', 'bean', 'knowledge'",
+        "'farmer', 'bean' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'corn'",
+            "'bean'"
+          ]
+        ]
+      },
+      "raw": "('corn', 'bean')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: None of the words in the list are malformed, contain typos, or are unclear abbreviations. All words are valid and clear in their context.",
+        "].\n\nAll words in the given list are valid and clear.",
+        "].\n\nReason: All the words in the list are valid and commonly used in the context of agriculture and management. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words in the list are valid and well-formed. There are no apparent typos, broken strings, or extremely rare or unclear abbreviations.",
+        "].\n\nReason:\n- All the words in the list are standard English words and do not appear to be typos or broken strings.\n- None of the words are extremely rare or unclear abbreviations."
+      ]
+    }
+  },
+  "39": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'harvest', 'early', 'late' ]",
+        "].\n\nBased on the given topic word set, all the words seem to be related to the theme of plant growth and development. They can be categorized into different stages or aspects of plant growth, such as 'growth', 'vegetative', 'flower",
+        "].\n\nExplanation: All the given words are related to the theme of plant growth and development, including different stages (vegetative, flowering, pre, post), time periods (early, late), and specific events or conditions (growth, deficit,",
+        "'harvest', 'vegetative', 'flowering' ]",
+        "'deficit' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 7,
+        "word_pairs": [
+          [
+            "'growth'",
+            "'vegetative'"
+          ],
+          [
+            "'deficit'",
+            "'deficit'"
+          ],
+          [
+            "'stage'",
+            "'stage'"
+          ],
+          [
+            "'harvest'",
+            "'harvest'"
+          ],
+          [
+            "'early'",
+            "'early'"
+          ],
+          [
+            "'late'",
+            "'late'"
+          ],
+          [
+            "'flowering'",
+            "'flowering'"
+          ]
+        ]
+      },
+      "raw": "('growth', 'vegetative'), ('deficit', 'deficit'), ('stage', 'stage'), ('harvest', 'harvest'), ('early', 'early'), ('late', 'late'), ('flowering', 'flowering'),"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the provided words are valid and well-formed. There are no typos, broken strings, or extremely rare, unclear abbreviations in the given list.",
+        "].\n\nReason: All the given words are standard, commonly used words in the context of plant biology or related fields, and there are no obvious typos or unclear abbreviations in the list.",
+        "].\n\nReason: All words in the given list are valid English words and are commonly used in the context of plant biology or agriculture. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\nReason: All the words provided are valid and commonly used in the context of plant development and growth stages. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words provided are standard, clear, and correctly spelled, and they do not appear to be rare or unclear abbreviations."
+      ]
+    }
+  },
+  "40": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "1",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'reach', 'behavior' ]",
+        "'rain', 'feed', 'behavior' ]",
+        "'reach', 'feed', 'proportion' ]",
+        "'density', 'capacity', 'reach', 'forage', 'rain', 'feed', 'retention', 'erosion', 'behavior', 'proportion' ]\n\nThis set does not semantically belong to the same conceptual",
+        "].\n\nThese words do not fit the overall theme of \"environmental and ecological concepts\" that the other words (density, capacity, reach, forage, retention, erosion, behavior, proportion) seem to belong to."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'density'",
+            "'proportion'"
+          ],
+          [
+            "'capacity'",
+            "'reach'"
+          ],
+          [
+            "'feed'",
+            "'retention'"
+          ]
+        ]
+      },
+      "raw": "('density', 'proportion'), ('capacity', 'reach'), ('feed', 'retention')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason:\n- All the words in the list are valid English words and do not appear to be typos, broken strings, or extremely rare abbreviations.\n\nSo, the answer is: \"All words are valid\".",
+        "].\n\nReason: All the words in the list are valid and are either common vocabulary terms or scientific terms related to the topics they are associated with. There are no typos, broken strings, or extremely rare abbreviations in the given list.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words in the given list are valid.",
+        "].\n\nReason: All words in the given list are valid and clear. They are commonly used terms related to environmental science or biology, and there are no apparent typos or unclear abbreviations."
+      ]
+    }
+  },
+  "41": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'specie' 'legume'"
+      },
+      "raw": [
+        "'specie', 'head', 'legume' ]",
+        "'specie', 'head', 'legume' ]",
+        "'specie', 'head' ]\n\nThese words do not fit well with the ecological or botanical theme represented by the other words in the list.",
+        "'specie', 'hydrological', 'legume' ]\n\nThe words 'specie', 'hydrological', and 'legume' do not seem to fit the theme of 'grassland' as well as the other words.",
+        "'legume', 'native' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 7,
+        "word_pairs": [
+          [
+            "'year'",
+            "'year'"
+          ],
+          [
+            "'specie'",
+            "'specie'"
+          ],
+          [
+            "'grass'",
+            "'grass'"
+          ],
+          [
+            "'hydrological'",
+            "'hydrological'"
+          ],
+          [
+            "'head'",
+            "'head'"
+          ],
+          [
+            "'slope'",
+            "'slope'"
+          ],
+          [
+            "'legume'",
+            "'legume'"
+          ]
+        ]
+      },
+      "raw": "('year', 'year'), ('specie', 'specie'), ('grass', 'grass'), ('hydrological', 'hydrological'), ('head', 'head'), ('slope', 'slope'), ('legume', 'legume'),"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nAll words in the given list are valid.",
+        "].\n\nReason: All words in the list appear to be valid topic words related to various scientific or environmental contexts. There are no apparent typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\nExplanation:\n- \"year\": Valid, common word.\n- \"specie\": Common spelling error for \"species\".\n- \"grass\": Valid, common word.\n- \"hydrological\": Valid, scientific term.\n- \"head\": Valid,",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "42": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'degree'"
+      },
+      "raw": [
+        "'degree' ]",
+        "].\n\nThe given word set is related to topics like climate change, carbon emissions, and agriculture. The word 'province' does not semantically fit this theme.",
+        "'paddy', 'degree' ].",
+        "'degree', 'province' ]",
+        "'degree'  ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'field'",
+            "'paddy'"
+          ],
+          [
+            "'emission'",
+            "'co₂'"
+          ],
+          [
+            "'greenhouse'",
+            "'global'"
+          ]
+        ]
+      },
+      "raw": "('field', 'paddy'), ('emission', 'co₂'), ('greenhouse', 'global')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All words in the given list are valid English words related to environmental and geographical topics. There are no obvious typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: None of the words in the given list are malformed, contain typos, or are extremely rare or unclear abbreviations. All words are valid terms related to environmental and geographical topics.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid.",
+        "].\n\nExplanation: All the words in the given list are valid and commonly used in the context of environmental and scientific topics."
+      ]
+    }
+  },
+  "43": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'aerobic' ]",
+        "'fallow', 'aerobic' ].",
+        "].\n\nExplanation: All the words in the given set are related to agriculture and farming, specifically focusing on crops and their cultivation. Therefore, no word stands out as semantically inconsistent with the others.",
+        "].\n\nHere's the reasoning:\n- \"rice\", \"maize\", \"cropping\", \"cultivation\", \"rainfed\", \"lowland\", \"upland\", \"fallow\", \"cereal\", \"aerobic\"\n- \"",
+        "'fallow', 'aerobic' ]\n\nThese words do not fit the theme of the other words, which primarily relate to farming and agriculture. 'Fallow' refers to land that is left uncultivated for a season, and 'a"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'rice'",
+            "'maize'"
+          ],
+          [
+            "'lowland'",
+            "'upland'"
+          ]
+        ]
+      },
+      "raw": "('rice', 'maize'), ('lowland', 'upland')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words in the list are valid and correctly spelled.",
+        "].\n\nReason: All the given words are valid topic words related to agriculture and cultivation. There are no typos, broken strings, or unclear abbreviations in the list.",
+        "].\n\nReason: All the provided words are valid and common in the context of agriculture, with no apparent typos, broken strings, or extremely rare abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "44": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'pepper' 'strawberry'"
+      },
+      "raw": [
+        "'pepper', 'strawberry' ].\n\nThese words do not fit the theme of the other words which seem to be related to plant biology, such as plant physiology, nutrient uptake, and tissue. 'Pepper' and 'st",
+        "'strawberry', 'pepper' ]",
+        "'pepper', 'strawberry' ]",
+        "'pepper', 'strawberry' ]",
+        "'pepper', 'symptom' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'pepper'",
+            "'strawberry'"
+          ]
+        ]
+      },
+      "raw": "('pepper', 'strawberry')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words in the provided list are valid.",
+        "].\n\nReason: All the given words are valid and clear in their context, with no typos, broken strings, or unclear abbreviations. They are all standard words commonly used in the context of botany, agriculture, and biology.",
+        "].\n\nReason: All the given words are standard English terms and do not appear to be malformed or extremely rare, unclear abbreviations. They are commonly used in the context of biological or agricultural sciences.",
+        "].\n\nAll words in the list are valid and clear. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nExplanation:\n- All the given words are standard, commonly used terms in their respective fields (e.g., botany, plant science, agriculture), and none of them appear to be malformed, typos, or extremely rare abbreviations."
+      ]
+    }
+  },
+  "45": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "1",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'day', 'limit', 'open' ].\n\nThese words do not fit well with the other terms, which appear to be related to agriculture, growth, and percentages (e.g., 'tomato', 'recovery', 'vine', '",
+        "'vine', 'culture', 'output' ]",
+        "'day', 'input', 'limit', 'open', 'output' ]\n\nThese words do not fit into the same conceptual theme as the rest of the list, which seems to be related to 'culture' or 'vine' (cult",
+        "'tomato', 'vine', 'open' ]\n\nThese words do not semantically fit with the other words in the set, which seem to relate to topics like time ('day', 'limit'), input/output ('input', 'output'), recovery,",
+        "].\n\nExplanation: All the given words are related to the theme of agriculture, specifically to the process of growing and managing tomatoes. 'Day', 'input', 'limit', 'percent', 'recovery', 'culture', and 'output'"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'day'",
+            "'output'"
+          ],
+          [
+            "'input'",
+            "'output'"
+          ],
+          [
+            "'tomato'",
+            "'vine'"
+          ],
+          [
+            "'limit'",
+            "'percent'"
+          ]
+        ]
+      },
+      "raw": "('day', 'output'), ('input', 'output'), ('tomato', 'vine'), ('limit', 'percent')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the given words are valid and do not exhibit any signs of typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nExplanation:\n- All the words provided in the list are standard English words and do not appear to be malformed, typos, or extremely rare, unclear abbreviations.\n\nTherefore, \"All words are valid\".",
+        "].\n\nReason: All the provided words are valid English words and are not typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words in the list are valid."
+      ]
+    }
+  },
+  "46": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'point'"
+      },
+      "raw": [
+        "'point' ]",
+        "'point' ]\n\nThe other words are related to agricultural or chemical processes involving nitrogen, phosphorus, and sodium, but 'point' does not fit into this conceptual theme.",
+        "'sodium', 'point' ].",
+        "'sodium', 'point' ].",
+        "'nitrogen', 'chemical', 'fertilization', 'nitrate', 'phosphorus', 'sodium', 'point' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'nitrogen'",
+            "'nitrate'"
+          ]
+        ]
+      },
+      "raw": "('nitrogen', 'nitrate')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All words are valid and correctly spelled. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\nReason: All the words in the provided list are valid and do not appear to be typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nNone of the words provided appear to be malformed or extremely rare, unclear abbreviations. All words are valid within the context of scientific or chemical terminology.",
+        "].\n\nReason: All the words in the list are valid topic words related to chemistry and fertilizer. There are no typos, broken strings, or unclear abbreviations in the list."
+      ]
+    }
+  },
+  "47": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'unit' 'percentage' 'correlate'"
+      },
+      "raw": [
+        "'unit', 'percentage', 'correlate' ].",
+        "'correlate', 'unit', 'percentage' ]",
+        "'yield', 'straw', 'gap' ]",
+        "'correlate', 'unit', 'percentage' ].",
+        "'correlate', 'unit', 'percentage', 'gap' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'yield'",
+            "'grain'"
+          ],
+          [
+            "'wheat'",
+            "'straw'"
+          ],
+          [
+            "'barley'",
+            "'straw'"
+          ]
+        ]
+      },
+      "raw": "('yield', 'grain'), ('wheat', 'straw'), ('barley', 'straw') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words provided are valid and commonly understood in their context.",
+        "].\n\nReason: All the words in the list are valid and commonly understood in the context of agriculture and data analysis.",
+        "].\n\nReason: All the words listed are valid and commonly used in the context of agriculture and data analysis, and none appear to be typos or unclear abbreviations.",
+        "].\n\nReason: All the words provided are valid and clear, with no apparent typos or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words in the list are valid and commonly used in the context of agriculture, statistics, and general language. None of the words appear to be typos, extremely rare, or unclear abbreviations."
+      ]
+    }
+  },
+  "48": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "3",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'frequency' 'old'"
+      },
+      "raw": [
+        "'frequency', 'old' ]",
+        "'frequency', 'old' ]",
+        "'frequency', 'old' ]",
+        "'frequency', 'old' ]",
+        "'frequency', 'old' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'tree'",
+            "'mature'"
+          ],
+          [
+            "'apple'",
+            "'mature'"
+          ],
+          [
+            "'olive'",
+            "'mature'"
+          ],
+          [
+            "'citrus'",
+            "'mature'"
+          ]
+        ]
+      },
+      "raw": "('tree', 'mature'), ('apple', 'mature'), ('olive', 'mature'), ('citrus', 'mature')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words in the given list are valid and do not contain any typos, broken strings, or unclear abbreviations.",
+        "].\n\nReason: All the words in the given list are valid and clearly defined. There are no typos, broken strings, or extremely rare, unclear abbreviations present.",
+        "].\n\nReason: All words in the list are valid and commonly used terms related to plants and trees.",
+        "].\n\nReason: All words in the list are valid English terms. There are no obvious typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words in the given list are valid and correctly spelled. There are no typos, broken strings, or unclear abbreviations."
+      ]
+    }
+  },
+  "49": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "3",
+        "3",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation:\n- The given words all belong to the theme of economics or management, specifically related to supply chain, decision-making, and policy analysis. There are no words that clearly stand out as not belonging to this theme.",
+        "'function' ].\n\nThese words do not seem to fit well with the other topic words related to economic or policy discussions involving models, supply, demand, simulation, scenario, policy, decision, and optimality.",
+        "'supply', 'demand', 'function' ].\n\nThese words do not fit as well with the other words in the list, which are generally related to models, policies, decisions, and scenarios in a broader context.",
+        "'supply', 'demand', 'scenario', 'decision', 'function' ]\n\nThese words do not align as closely with the others in terms of their conceptual themes in the context of a topic model focusing on 'model', 'optimal",
+        "].\n\nExplanation: All the given words seem to be related to economic, policy, or decision-making topics. None of the words stand out as semantically distinct from the others within the given set."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 7,
+        "word_pairs": [
+          [
+            "'model'",
+            "'model'"
+          ],
+          [
+            "'supply'",
+            "'supply'"
+          ],
+          [
+            "'demand'",
+            "'demand'"
+          ],
+          [
+            "'simulation'",
+            "'simulation'"
+          ],
+          [
+            "'scenario'",
+            "'scenario'"
+          ],
+          [
+            "'policy'",
+            "'policy'"
+          ],
+          [
+            "'decision'",
+            "'dec"
+          ]
+        ]
+      },
+      "raw": "('model', 'model'), ('supply', 'supply'), ('demand', 'demand'), ('simulation', 'simulation'), ('scenario', 'scenario'), ('policy', 'policy'), ('decision', 'dec"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All words in the provided list are valid, commonly used terms in economics and related fields.",
+        "].\n\nAll words in the list are valid and do not contain any typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words provided are valid and well-known terms related to the topics of modeling, economics, and decision-making. There are no typos, broken strings, or extremely rare or unclear abbreviations in the given list.",
+        "].\n\nReason: All provided words are standard, valid terms typically used in the context of economics, decision-making, and related fields. There are no typos, broken strings, or extremely rare, unclear abbreviations in the given list."
+      ]
+    }
+  }
+}

@@ -1,0 +1,3791 @@
+{
+  "0": {
+    "coherence": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'fuck' 'prostitution'"
+      },
+      "raw": [
+        "'fuck', 'prostitution' ]",
+        "'fuck', 'prostitution' ]",
+        "'fuck', 'prostitution' ]",
+        "prostitution, follow, tell, stuff ]",
+        "'fuck', 'prostitution' ]\n\nThese words are likely to belong to a different conceptual theme, possibly related to sex or explicit content. The other words seem to be more general or abstract."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "tell",
+            "promise"
+          ],
+          [
+            "follow",
+            "late"
+          ],
+          [
+            "machine",
+            "stuff"
+          ]
+        ]
+      },
+      "raw": "(tell, promise), (follow, late), (machine, stuff) ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'fuck' 'prostitution'"
+      },
+      "raw": [
+        "'fuck', 'prostitution' ].\n\n'fuck' is a profanity and not suitable for this context.\n'prostitution' is a valid word, but in this context, it is unlikely to be used as a topic word and may be",
+        "'fuck', 'prostitution' ]\n\nThese words may be considered as malformed or inappropriate for various reasons:\n\n*   'fuck': This word is often considered profane and may not be suitable for certain audiences.\n*   'prostitution': This word",
+        "'fuck', 'prostitution' ]",
+        "'fuck', 'prostitution' ] because they are profanity and/or sensitive content.",
+        "'fuck' ] because it is a profanity and not suitable for all audiences; [ 'prostitution' ] because it is not a topic word but a noun related to the sex industry."
+      ]
+    }
+  },
+  "1": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'deodorant'"
+      },
+      "raw": [
+        "'diggin', 'o'connell', 'deodorant', 'gal', 'kinda' ]",
+        "'o'connell', 'sec', 'deodorant' ]",
+        "'crash', 'mcdonalds', 'deodorant' ]",
+        "'dosen't', 'mcdonalds', 'deodorant' ]\n\nThe rest of the words can be categorized into a conceptual theme of 'violence' or 'violence-related death' as they are all associated with a fatal car",
+        "'sec', 'o'connell' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'diggin'",
+            "'crash'"
+          ],
+          [
+            "'sec'",
+            "'o\\'connell'"
+          ]
+        ]
+      },
+      "raw": "('diggin', 'crash'), ('sec', 'o\\'connell') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'dosen't' 'o'connell'"
+      },
+      "raw": [
+        "'dosen't', 'o'connell' ] \nReasons: 'dosen't' is a typo, should be 'doesn't', 'o'connell' is a name, it may not be a word",
+        "'dosen't', 'sec', 'o'connell' ].\n\n- 'dosen't' is a typo; the correct word is 'doesn't'.\n- 'sec' is a clear abbreviation, but it might be unclear without context",
+        "'dosen't' ,  'o'connell' ,  'sec'  ]",
+        "'dosen't', 'o'connell' ]\n\n- 'dosen't' is a typo, it should be 'doesn't'.\n- 'o'connell' is unclear, it is a name, but without a first name,",
+        "'dosen't', 'sec', 'o'connell', 'kinda' ].\n\n1.  'dosen't': This is likely a typo. The correct spelling is 'doesn't'.\n2.  'sec': This abbreviation"
+      ]
+    }
+  },
+  "2": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'tomorrow' 'list'"
+      },
+      "raw": [
+        "'sec', 'tomorrow', 'list', 'tail' ]",
+        "'sec', 'list', 'tail', 'tomorrow', 'guy' ]",
+        "'tomorrow', 'list', 'self' ]",
+        "'antother', 'list', 'tail', 'tomorrow' ]",
+        "'antother', 'tomorrow', 'self' ]\nExplanation:\n- 'antother' is not a word in English.\n- 'tomorrow' is a temporal word and does not belong to the same theme as the other words, which appear"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'sec'",
+            "'self'"
+          ],
+          [
+            "'tomorrow'",
+            "'guy'"
+          ],
+          [
+            "'list'",
+            "'tail'"
+          ]
+        ]
+      },
+      "raw": "('sec', 'self'), ('tomorrow', 'guy'), ('list', 'tail') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'antother'"
+      },
+      "raw": [
+        "'antother', 'tomorrow' ].\n\n*   'antother' seems like a typo and should be 'another'.\n*   'tomorrow' is not an invalid word, but it's a common misspelling for 'to-m",
+        "'antother'  ]",
+        "'antother',  'sec' ]\n\n'antother' seems to be a typo, possibly 'another'.\n\n'sec' is a common abbreviation, but it's unclear in this context. It could be a typo for 'secant', '",
+        "'antother'  'tail' ] \n\nReasons: \n- 'antother' is likely a typo or a misspelling of the word \"another\".\n- 'tail' is not a word or an abbreviation in this context, but",
+        "'antother', 'tomorrow', 'self' ].\n\n*   'antother' is likely a typo, the correct spelling is 'another'.\n*   'tomorrow' is a valid word, but it's out of context in this"
+      ]
+    }
+  },
+  "3": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "1",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'gogh'"
+      },
+      "raw": [
+        "'gogh' ]",
+        "'pre', 'gogh' ]",
+        "'gogh' ]",
+        "'gogh', 'pre' ]",
+        "'write', 'holiday', 'excuse', 'maybe' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'write'",
+            "'gogh'"
+          ],
+          [
+            "'hope'",
+            "'eve'"
+          ]
+        ]
+      },
+      "raw": "('write', 'gogh'), ('hope', 'eve') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'gogh'"
+      },
+      "raw": [
+        "'gogh' ] - This word appears to be a part of the name 'Van Gogh', an artist. It is not a standard English word.",
+        "'gogh' ] - likely a typo for 'Gogh', a surname, but it appears to be used as a common noun, but more likely it should be 'van Gogh', the famous artist.",
+        "'gogh' ], which is likely a typo for 'Gogh', a famous artist's name.",
+        "'pre', 'gogh' ]\n\nReasons:\n- 'pre' is a prefix, not a complete word.\n- 'gogh' is likely a typo, as the correct word is 'van Gogh'.",
+        "'gogh' ] because it seems to be a reference to the painter Vincent van Gogh, but it's not a valid word in this context."
+      ]
+    }
+  },
+  "4": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'book' 'appreciate' 'number'"
+      },
+      "raw": [
+        "'book', 'appreciate', 'game' ]\n\nThese words are from different conceptual themes:\n- 'book' and 'appreciate' are related to reading and appreciation\n- 'game' is related to entertainment or leisure\n- The",
+        "'book', 'appreciate', 'number' ]",
+        "'book', 'number', 'vlog' ]\n\nThese words don't belong to the same theme as the others, which seem to be related to food (pizza, sub) and possibly consumer behavior or activities (post, appreciate, buy, suck",
+        "'book', 'appreciate', 'number', 'game' ]",
+        "'book', 'sub', 'appreciate', 'number' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'post'",
+            "'vlog'"
+          ]
+        ]
+      },
+      "raw": "'post', 'vlog' ], [ 'book', 'number' ], [ 'buy', 'appreciate' ], [ 'pizza', 'sub' ], [ 'game', 'suck' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'vlog'"
+      },
+      "raw": [
+        "'vlog', 'suck' ].\n\n'vlog' is an extremely rare and unclear abbreviation that is not widely recognized, and 'suck' is a word with a strong negative connotation that may be considered a sensitive topic in some",
+        "'appreciate', 'suck', 'vlog' ]\n\n*   'appreciate' is a valid English word, but in the context of a list of topic words, it might be considered unusual, so I'll assume it's",
+        "'appreciate', 'vlog' ]\n\nExplanation:\n- 'appreciate' is a valid word in English, so it's removed from the list of invalid tokens.\n- 'vlog' is a valid word in English, specifically an",
+        "'sub', 'vlog' ].\n\nHere's why:\n- 'sub' might be a typo or an abbreviation for 'submarine' or 'subscription', but it's not a complete word. \n- 'vlog' is an abbreviation",
+        "'vlog', 'suck' ].\n- \"vlog\" is an unclear abbreviation as it can have different meanings depending on context. While it is a valid word in modern usage, its meaning may not be immediately clear without additional context."
+      ]
+    }
+  },
+  "5": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'hater' 'pierce'"
+      },
+      "raw": [
+        "'hot', 'hater', 'shine', 'pierce', 'accept', 'stay' ]\n\nThe other words in the list relate to a theme of work or labor, as in manual labor with a tool (hoe) and a possible reference",
+        "'hoe', 'hispanic', 'hater', 'pierce'  ]\nThese words do not appear to belong to the same conceptual theme as the other words in the topic word set, which seem to be related to expressions of gratitude or positivity",
+        "'base', 'hater', 'pierce'  ]\n\nThese words have a different tone and connotation compared to the others, and do not fit with the general theme of the topic.",
+        "'hoe', 'base', 'hater', 'pierce' ]",
+        "'hoe', 'base', 'hot', 'hater', 'pierce', 'stay' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'accept'",
+            "'hater'"
+          ],
+          [
+            "'hot'",
+            "'base'"
+          ],
+          [
+            "'hispanic'",
+            "'stay'"
+          ]
+        ]
+      },
+      "raw": "( 'accept', 'hater' ), ( 'hot', 'base' ), ( 'hispanic', 'stay' ) ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 3,
+        "words": "'hoe' 'hater' 'pierce'"
+      },
+      "raw": [
+        "\"hoe\", \"hater\", \"pierce\" ].\n* \"hoe\" appears to be a typo or a misspelling of the word \"how\".\n* \"hater\" can be considered a rare or unclear abbreviation, as it is",
+        "'hoe', 'hater', 'pierce' ].\n\n- 'hoe' could be a typo, as it may be intended to be spelled 'how' or 'who'.\n- 'hater' is a valid word, but it could",
+        "'hoe', 'hater', 'pierce', 'shine' ]",
+        "'hoe', 'hater', 'pierce', 'stay' ] \n\n* 'hoe' is a valid word but in this context, it might be a typo for 'how' or 'hoes'. However, it's possible that it",
+        "'hoe', 'hater', 'pierce', 'stay' ]\n\nReasons:\n- 'hoe' is a valid noun but in this context it seems out of place. It could be a typo for 'how'.\n- 'hater'"
+      ]
+    }
+  },
+  "6": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'workout'"
+      },
+      "raw": [
+        "'quit', 'destroy', 'workout' ]",
+        "'tweet', 'game', 'workout' ]",
+        "'eve', 'guy', 'workout' ]",
+        "'quit', 'workout', 'tweet' ]",
+        "'eve', 'hard', 'workout' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'quit'",
+            "'destroy'"
+          ],
+          [
+            "'tweet'",
+            "'quote'"
+          ]
+        ]
+      },
+      "raw": "('quit', 'destroy'), ('tweet', 'quote') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'eve'"
+      },
+      "raw": [
+        "'eve' ]\n\n'eve' is unclear because it is an abbreviation that could be interpreted as a different word depending on context.",
+        "'eve'  ].\n'eve' is an unclear abbreviation.",
+        "'eve', 'destroy' ] \n\n- 'eve' is a valid word in English, but it might be considered unclear in this context. However, it is a valid English word that refers to the day or evening before a special day, especially",
+        "'eve' ] because it is unclear whether it's a typo of 'even' or 'eave', 'workout' ] because it is an ambiguous abbreviation for 'workout session', 'expand' ] because it is an ambiguous abbreviation,",
+        "'quit', 'tweet' ]\n\nReasons:\n- 'quit' is a valid word, but a common misspelling of 'quite'.\n- 'tweet' could be a valid word, but it's a slang term that's not as widely"
+      ]
+    }
+  },
+  "7": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "1",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'boyfriend' 'eve' 'pic'"
+      },
+      "raw": [
+        "'boyfriend', 'eve', 'pic', 'ppl' ]",
+        "'boyfriend', 'eve', 'pic' ]",
+        "'boyfriend', 'eve', 'thank', 'pic' ]",
+        "'boyfriend', 'eve', 'pic' ]",
+        "'boyfriend', 'eve', 'thank', 'pic', 'ppl' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'boyfriend'",
+            "'girlfriend'"
+          ],
+          [
+            "'pic'",
+            "'picture'"
+          ]
+        ]
+      },
+      "raw": "('boyfriend', 'girlfriend'), ('pic', 'picture') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'eve' 'ppl'"
+      },
+      "raw": [
+        "'eve', 'ppl' ] \n\n* 'eve' is a valid word, but it might be a typo and the intended word is 'even' or 'evening'.\n* 'ppl' is an abbreviation, but it is unclear",
+        "'boyfriend', 'eve', 'pic', 'ppl', 'exactly' ]\n\nThese words are either typos or abbreviations that are unclear in context.",
+        "'ppl', 'eve', 'pic' ]",
+        "'ppl' ] \n\nReason: 'ppl' is a typo for 'people'.",
+        "'eve', 'ppl', 'pic'  ].\n\n- 'eve' is likely a typo and should be 'even' or another word.\n- 'ppl' is an abbreviation for 'people', but it's not clear if it"
+      ]
+    }
+  },
+  "8": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'justin' 'nomeat'"
+      },
+      "raw": [
+        "'stick', 'loosen', 'smash' ]",
+        "'justin', 'stick', 'loosen', 'theirs', 'nomeat'  ]",
+        "'justin', 'stick', 'nomeat', 'folk' ]",
+        "'justin', 'smash', 'nomeat' ]",
+        "'justin', 'theirs', 'nomeat' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'create'",
+            "'loosen'"
+          ],
+          [
+            "'theirs'",
+            "'mine'"
+          ]
+        ]
+      },
+      "raw": "('create', 'loosen'), ('theirs', 'mine') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'nomeat'"
+      },
+      "raw": [
+        "'nomeat' ] as it is an unclear abbreviation.",
+        "'nomeat', 'stick' ]",
+        "'nomeat', 'stick', 'smash', 'loosen' ]\n\nThe reason is: The words 'nomeat' could be a typo or incorrect word, 'stick' and 'smash' are not clear or could be typos",
+        "'nomeat'  ]\n\n- 'nomeat' is likely a typo, possibly 'nommeat'",
+        "'nomeat', 'justin' ]\n\n- 'nomeat' appears to be a typo and is not a valid word.\n- 'justin' is a name, not a common word, and could be considered a typo or a proper noun"
+      ]
+    }
+  },
+  "9": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'pizza' 'blake'"
+      },
+      "raw": [
+        "'pizza', 'home' ]\n\nThese words do not fit the theme of the other words which appear to be related to \"progress\" and \"modernization\".",
+        "'blake', 'pizza' ]",
+        "'blake', 'pizza' ]",
+        "'pizza', 'blake', 'home' ]",
+        "'blake', 'pizza', 'home' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'close'",
+            "'home'"
+          ]
+        ]
+      },
+      "raw": "'close', 'home' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'pizza'"
+      },
+      "raw": [
+        "'pizza'  ]",
+        "'pizza' ].\nThe word 'pizza' is an out-of-place word from the topic domain, likely a typo or an unrelated item.",
+        "'pizza' ]",
+        "'pizza' ].\n\nReason: 'pizza' is not related to the other topic words and appears to be an unrelated word.",
+        "'pizza' ].\n  - 'pizza' is a valid word but the list is about topic words related to home, work, and family which makes 'pizza' seems out of place"
+      ]
+    }
+  },
+  "10": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'sleepy'"
+      },
+      "raw": [
+        "'sleepy' ].\nThe other words appear to be more related to planning or scheduling: 'fun', 'share', 'set', 'goal', 'month', 'tour' and 'eve' (short for 'evening', which can",
+        "'eve', 'month', 'literally', 'sleepy' ]",
+        "idgaf, sleepy ]",
+        "'eve', 'sleepy', 'literally' ]",
+        "'sleepy', 'literally', 'idgaf', 'eve' ]\n\nThese words do not fit the same conceptual theme as the other words in the list, which appears to be related to social events or activities (e.g., 'fun"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'fun'",
+            "'share'"
+          ],
+          [
+            "'set'",
+            "'tour'"
+          ],
+          [
+            "'goal'",
+            "'eve'"
+          ]
+        ]
+      },
+      "raw": "('fun', 'share'), ('set', 'tour'), ('goal', 'eve') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'idgaf' (extremely rare, unclear abbreviation), 'literally' (not malformed, but not exactly in its standard form, note that 'literally' is an adverb that is often misused as an adjective; however,",
+        "'idgaf' (extremely rare and unclear abbreviation), 'literally' (not a typo but an adverbial use of an adjective; it can be considered an informal or colloquial usage, but here it's used as an",
+        "'idgaf', 'literally' ]\n\n* 'idgaf' is an extremely rare, unclear abbreviation, which stands for 'I don't give a f***', and is often considered informal or colloquial.\n* 'literally",
+        "'idgaf', 'literally' ].\n- 'idgaf' is a colloquialism and abbreviation, but it's not widely recognized or clear in this context.\n- 'literally' is not a token that is malformed",
+        "'idgaf' ]"
+      ]
+    }
+  },
+  "11": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'club' 'blog' 'newyear'"
+      },
+      "raw": [
+        "'club', 'judge', 'blog', 'newyear' ]",
+        "'club', 'cigarette', 'suck', 'newyear' ]",
+        "'supper', 'club', 'hope', 'newyear', 'blog' ]",
+        "'supper', 'club', 'hope', 'newyear', 'blog' ]",
+        "'blog', 'club' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'smoke'",
+            "'cigarette'"
+          ],
+          [
+            "'quit'",
+            "'suck'"
+          ]
+        ]
+      },
+      "raw": "('smoke', 'cigarette'), ('quit', 'suck') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'suck'"
+      },
+      "raw": [
+        "'supper', 'suck' ]\n\n* 'supper': This might be considered a typo, but it's actually a valid word in some dialects. It's still a valid word.\n* 'suck': This word is generally considered",
+        "'club', 'smoke', 'suck' ]",
+        "'supper', 'suck' ].\n- \"supper\" is a misspelling of \"supper\" -> supper is not valid\n- \"suck\" is an unclear abbreviation, as it could be referring to a verb or",
+        "'supper', 'suck', 'club', 'newyear', 'blog' ]\n\nThese words can be considered malformed or invalid because:\n* 'supper' is not a standard word in the context of the topic (the most common meaning",
+        "'club',  'newyear', 'smoke' ]\n\n- 'club': This word is too short to be a valid English word. \n- 'newyear': This word is not a common word. It should be 'new year'."
+      ]
+    }
+  },
+  "12": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'gregory' 'peck'"
+      },
+      "raw": [
+        "'eve', 'gregory', 'peck' ]",
+        "'craigslist', 'peck' ]",
+        "'eve', 'quit', 'gregory', 'end', 'bad', 'peck' ]",
+        "'eve', 'gregory', 'craigslist', 'peck',  'bad' ]",
+        "'craigslist', 'gregory' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'eve'",
+            "'end'"
+          ]
+        ]
+      },
+      "raw": "'eve', 'end' ], [ 'quit', 'end' ], [ 'resolve', 'end' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'bad' ] because it is an extremely vague and unclear word that does not have a clear meaning in this context, 'craigslist' is not a topic word, 'peck' is a rare word.",
+        "'eve', 'peck' ] \n\n* 'eve' could be a typo or abbreviation, as it's typically not a standalone word. It's possible it's meant to be 'even', 'leave', or another word entirely.\n* '",
+        "'craigslist', 'peck' ].\n\nReasons: \n- 'craigslist' is a brand name and not a word.\n- 'peck' is an extremely rare or unclear abbreviation for 'pecking' or '",
+        "\"craigslist\", \"peck\" ]\n\nReasons:\n- \"craigslist\" appears to be a proper noun, specifically a website name, and may not be considered a typical topic word.\n- \"peck\" can be a valid",
+        "'peck' ]\n\n- \"peck\" is a valid word but in this context, it could be a typo or an extremely rare abbreviation for \"pecking order\""
+      ]
+    }
+  },
+  "13": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "1",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'chastity' 'deli'"
+      },
+      "raw": [
+        "'chastity', 'deli' ]",
+        "'joke', 'chastity' ]",
+        "'chastity', 'deli' ]",
+        "'joke', 'chastity', 'deli' ]",
+        "'chastity', 'deli' ]\n\nExplanation:\n- The other words are all related to the theme of exercise and fitness ('workout', 'fit', 'come', 'bring') or the idea of a joke or market ('joke"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "'actually, come', 'chastity, chastity' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'chastity'"
+      },
+      "raw": [
+        "'chastity', 'deli' ]",
+        "'chastity' ]",
+        "'chastity', 'deli' ].\n\n- 'chastity' is a valid English word, but in the context of this exercise, it appears to be a word that may not be related to the topic of 'workout'",
+        "'chastity' ]\n\nReason: 'chastity' is an uncommon word in the context of the other words provided, which seem to be related to health, exercise, or common conversation. Chastity is a noun that refers to sexual",
+        "'chastity' ] (unclear abbreviation or misspelling)"
+      ]
+    }
+  },
+  "14": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "3",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'tbh' 'minute'"
+      },
+      "raw": [
+        "'tbh', 'minute' ]",
+        "'gym', 'game', 'book', 'hold', 'minute' ]\n\nThese words don't seem to share the same conceptual theme with the other words, which appear to be related to informal language, internet slang, or teenage lingo,",
+        "'minute', 'tbh', 'hate' ]",
+        "'minute', 'tbh', 'past' ]",
+        "'minute', 'tbh', 'hold' ]\n\nThese words have a distinct theme that is not related to the other words in the list, which appear to be related to education or learning. 'minute' refers to a unit of time, '"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'gym'",
+            "'school'"
+          ],
+          [
+            "'minute'",
+            "'past'"
+          ]
+        ]
+      },
+      "raw": "('gym', 'school'), ('minute', 'past') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'tbh'"
+      },
+      "raw": [
+        "'tbh', 'minute', 'hold' ].\n\n- 'tbh' is an extremely rare and unclear abbreviation, often used as an informal abbreviation of \"to be honest\", but its usage is mostly limited to social media and text messages.",
+        "'tbh' ].\nThis is an abbreviation, but its meaning is unclear.",
+        "'tbh' ]\n\nReason: 'tbh' is an unclear abbreviation.",
+        "'tbh', 'minute' ].\n\n- 'tbh' is an extremely rare and unclear abbreviation, often used in informal text, but its meaning is context-dependent and not widely recognized.\n- 'minute' is a valid word in English but",
+        "'tbh', 'minute' ]\n\n- 'tbh' is likely a typo or an abbreviation whose meaning is unclear in this context.\n- 'minute' is a valid word, but in this context, it's likely a typo and the intended"
+      ]
+    }
+  },
+  "15": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "3",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'crush'"
+      },
+      "raw": [
+        "'crush', 'priority' ]",
+        "'crush', 'popular', 'non' ]\n\nThese words appear to belong to a more emotional or social theme, while the others seem to be related to planning, organization, and goals.",
+        "'crush', 'figure', 'popular' ]\n\nThe other words can be grouped into two categories: goals and organization (way, goals, priority, clutter, beginnings) and medium (medium).",
+        "'crush', 'priority', 'popular' ]",
+        "'medium', 'non' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "way, priority, beginnings, figure, medium]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'non'"
+      },
+      "raw": [
+        "'crush', 'clutter', 'non' ] \n\n* 'crush' is a valid word, but in this context, it might be considered a typo or informal usage for \"crushe\" or \"crushed\", although it",
+        "'crush', 'figure', 'clutter', 'non' ]\n\n* 'crush' is a valid English word but may be considered informal or slang, depending on context.\n* 'figure' is a valid English word but might be considered",
+        "'crush' ]\n\nThe token 'crush' might be a valid word, but in the given context of the list, it is unclear whether 'crush' is intended to be used as a noun (as in a romantic crush) or",
+        "'clutter', 'medium', 'non' ] \n\n* clutter: This word could be a noun or verb, but in this context, it seems to be a noun. However, it's more likely to be used as a verb in this",
+        "'non', 'beginnings' ]\n\n- 'non' may be a typo or abbreviation for 'none', but without context, it's unclear if it's a valid word. It's not a standard word in English, and could be a typo"
+      ]
+    }
+  },
+  "16": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'hair' 'twitter'"
+      },
+      "raw": [
+        "'hair', 'twitter' ]",
+        "'hair', 'twitter', 'tone' ]",
+        "'twitter', 'hair' ]",
+        "'hair', 'tone' ]",
+        "'twin', 'hair', 'twitter', 'tone'  ]\n\nThese words have different meanings and connotations compared to the other words in the set."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'twin'",
+            "'twice'"
+          ],
+          [
+            "'twin'",
+            "'twin'"
+          ],
+          [
+            "'hair'",
+            "'twin'"
+          ],
+          [
+            "'hair'",
+            "'strong'"
+          ],
+          [
+            "'hair'",
+            "'tone'"
+          ]
+        ]
+      },
+      "raw": "('twin', 'twice'), ('twitter'), ('twin', 'twin'), ('hair', 'twin'), ('hair', 'strong'), ('hair', 'tone') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'twitter'"
+      },
+      "raw": [
+        "'twitter', 'maybe' ]\n\nExplanation:\n- 'twitter' is a proper noun and a brand name, but it's also a valid word in the English language, so I would not consider it malformed.\n- 'maybe' is a valid word",
+        "'maybe', 'twitter', 'tone' ]\n\n* 'maybe' is a word but it's an adverb and doesn't make sense in this context of the list.\n* 'twitter' is a word but it seems out of place in this",
+        "'twitter'  ]",
+        "'maybe', 'twitter', 'tone' ]\n\nReasons:\n- 'maybe' is a vague word with unclear meaning and may not be recognized by all contexts\n- 'twitter' is an abbreviation that may be unclear without context, could be referring",
+        "'twitter'  ], 'twitter' is an abbreviation that is not uncommon but the word is more commonly spelled as 'Tweet' on the social media platform, but 'twitter' is indeed a valid word but more likely a misspelling or abbreviation"
+      ]
+    }
+  },
+  "17": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'remember' 'finally'"
+      },
+      "raw": [
+        "'remember', 'active', 'gain', 'help' ]",
+        "'remember', 'ago', 'finally', 'wait' ]",
+        "'active', 'finally', 'help' ]\n\nThe words that do not belong to the same theme are 'active' as it is an adjective that describes a state of being or a style, 'finally' is an adverb that indicates completion or",
+        "'remember', 'music', 'ago', 'active', 'date', 'gain', 'finally', 'wait', 'help' ]",
+        "'remember', 'ago', 'finally', 'wait' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'remember'",
+            "'lose'"
+          ],
+          [
+            "'wait'",
+            "'finally'"
+          ]
+        ]
+      },
+      "raw": "('remember', 'lose'), ('wait', 'finally') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'ago' 'lose'"
+      },
+      "raw": [
+        "'ago', 'wait' ]\n\n- 'ago' could be a typo or a rare word, but it is more likely a typo for 'ago' is not typically a word to be identified as invalid in a general sense, however, in a",
+        "'ago', 'lose', 'date' ].\n\n1. 'ago' is an abbreviation of \"agreement\" or other words, but in this context, it seems like a typo or a misuse of the word.\n2. 'lose'",
+        "'ago', 'lose' ].\n\n* 'ago' is likely a typo and should be 'ago' is not a typo, it is a word. However, 'ago' is an adverb, and it is a common word. I",
+        "'ago' , 'active' , 'lose', 'date', 'finally', 'wait' ]\n\nReasons:\n* 'ago' is a common word but is often used as an adverb and not a noun, however, in this context",
+        "'ago', 'date', 'gain', 'lose' ]\n\nThe reasons for these words being invalid are: \n\n*   'ago' is a preposition and not a topic word in the context of this task.\n*   'date' is"
+      ]
+    }
+  },
+  "18": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'krazy'"
+      },
+      "raw": [
+        "'tail', 'blessing', 'afternoon', 'publish', 'south', 'krazy', 'girder' ]",
+        "glue, krazy ]",
+        "'glue', 'krazy', 'girder' ]",
+        "'krazy', 'animalsanctuary' ]",
+        "'rose', 'tail', 'blessing', 'afternoon', 'glue', 'krazy', 'girder' ]\n\nThese words do not seem to belong to the same theme as the other words in the list, which appear"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'rose'",
+            "'girder'"
+          ],
+          [
+            "'krazy'",
+            "'sanctuary'"
+          ]
+        ]
+      },
+      "raw": "('rose', 'girder'), ('krazy', 'sanctuary') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'krazy' 'animalsanctuary'"
+      },
+      "raw": [
+        "'krazy', 'animalsanctuary' ] \n\n* 'krazy' is likely a typo and should be 'crazy'.\n* 'animalsanctuary' is not a common word and seems to be a compound word, but it",
+        "'animalsanctuary', 'girder', 'krazy', 'south', 'tail'  ]",
+        "'krazy', 'animalsanctuary', 'girder' ]\n\nReasons:\n- 'krazy': typo ('crazy')\n- 'animalsanctuary': unclear abbreviation, possibly a misspelling of 'animal sanctuary'\n-",
+        "\"tail\", \"blessing\", \"krazy\", \"animalsanctuary\", \"girder\" ].\n\n- \"tail\" is a valid word but it is a common abbreviation, however \"tail\" can also be a verb,",
+        "'animalsanctuary', 'krazy' ]\n\nReason: 'animalsanctuary' is a hyphenated compound word which is valid but it should be broken into two separate words. 'krazy' appears to be a misspelling"
+      ]
+    }
+  },
+  "19": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'hard' 'rehab' 'picture'"
+      },
+      "raw": [
+        "'hard', 'balance', 'rehab', 'picture' ]",
+        "'hard',  'picture',  'favorite',  'rehab' ]",
+        "'picture', 'hard', 'favorite', 'rehab', 'balance' ]\n\nThese words do not seem to belong to the same theme as the others. The words 'conversation', 'languagelearne', 'use', 'negative', and '",
+        "'picture', 'hard', 'rehab', 'balance' ]",
+        "'hard', 'languagelearne', 'use', 'favorite', 'rehab' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'conversation'",
+            "'picture'"
+          ],
+          [
+            "'languagelearne'",
+            "'rehab'"
+          ],
+          [
+            "'hard'",
+            "'balance'"
+          ]
+        ]
+      },
+      "raw": "('conversation', 'picture'), ('languagelearne', 'rehab'), ('hard', 'balance') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'languagelearne'"
+      },
+      "raw": [
+        "'languagelearne' ] because it's a typo and should be 'languagelearn'.",
+        "'languagelearne', 'rehab' ]\n\n'languagelearne' is likely a typo and should be 'language learn'.\n\n'languagelearne' and 'rehab' are not found in the list of 1000 most common English words",
+        "'languagelearne' ].\nReason: It is a typo and should be spelled 'languagelearn'.",
+        "'languagelearne'  ] with reason: \"typo\", [  'rehab'  ] with reason: \"unclear abbreviation\", [  'use'  ] with reason: \"extremely rare word or unclear abbreviation in this",
+        "'languagelearne', 'rehab' ]\n\n*   'languagelearne' appears to be a typo or a broken string, likely intended to be 'language learn'.\n*   'rehab' is an abbreviation that may be unclear in this"
+      ]
+    }
+  },
+  "20": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'loudly' 'bitchy'"
+      },
+      "raw": [
+        "'twitter', 'loudly', 'bitchy' ]\n\nThe other words seem to be related to abstract concepts, goals, and aspirations, while these three words are more related to online social media, loud noise, and negative personality traits.",
+        "'bitchy', 'loudly' ]\n\nThe other words seem to be more related to technology, social media, and forward-thinking ideas, whereas 'bitchy' and 'loudly' suggest a more emotive or behavioral tone.",
+        "'bitchy', 'loudly' ]",
+        "'bitchy', 'loudly' ]",
+        "'joke', 'bitchy', 'loudly' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "'twitter, joke' , 'future, cause', 'discovery' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'bitchy'"
+      },
+      "raw": [
+        "'bitchy' ]\n\nReason: 'bitchy' is a slang term that is often considered informal or impolite, and may be considered a typo or a strongly negative term in many contexts.",
+        "'bitchy', 'loudly' ]\n\nThese words are deemed invalid because 'bitchy' is considered a potentially derogatory term and 'loudly' is an adverb, not a noun or topic, which could be considered a topic",
+        "'bitchy'  ] , [  'loudly'  ] , [  'spend'  ] , [  'cause'  ] \n\nReasons:\n- 'bitchy' is a valid word, but it",
+        "'bitchy', 'loudly' ]\n\n- 'bitchy': may be a colloquialism or informal term, but it's not clear in this context if it's a typo or the intended usage. If it's a typo",
+        "'twitter', 'loudly' ]"
+      ]
+    }
+  },
+  "21": {
+    "coherence": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'sex' 'hair'"
+      },
+      "raw": [
+        "'sex', 'hair', 'gadget' ]",
+        "'sex', 'hair', 'morrre', 'nov' ]",
+        "'sex', 'hair' ]",
+        "'sex', 'morrre', 'thad', 'nov' ]",
+        "'sex', 'morrre', 'hair' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "\"faithfully\"",
+            "\"ago\""
+          ],
+          [
+            "\"nov\"",
+            "\"watch\""
+          ],
+          [
+            "\"voter\"",
+            "\"thad\""
+          ],
+          [
+            "\"sex\"",
+            "\"hair\""
+          ],
+          [
+            "\"morrre\"",
+            "\"more\""
+          ]
+        ]
+      },
+      "raw": "(\"faithfully\", \"ago\") , (\"nov\", \"watch\") , (\"voter\", \"thad\") , (\"sex\", \"hair\") , (\"morrre\", \"more\") ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'morrre' 'thad'"
+      },
+      "raw": [
+        "'morrre', 'thad' ]\n\nExplanation:\n* \"morrre\" is likely a typo of the word \"more\".\n* \"thad\" is likely a typo of the word \"that\".\n* \"nov\" is an abbreviation",
+        "'morrre', 'thad'  ].\nReason: The token 'morrre' is likely a typo, and 'thad' is unclear and may be a typo.",
+        "'morrre', 'thad', 'nov' ].\n\n- 'morrre' is likely a typo or misspelling of 'more'.\n- 'thad' is likely a typo or misspelling of 'that'.\n-",
+        "'morrre', 'thad' ].\n\nReason: These tokens appear to be typos or incorrect spellings of the words 'more' and 'that'.",
+        "'morrre', 'thad', 'nov' ]\n\n*   'morrre' likely contains a typo and should be 'more'.\n*   'thad' is an unclear abbreviation and likely should be 'that'.\n*   '"
+      ]
+    }
+  },
+  "22": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'lol' 'dog'"
+      },
+      "raw": [
+        "'lol', 'okay', 'dog' ]",
+        "'lol', 'dog' ]\n\nThe other words all seem to have a theme related to certainty, agreement, and confirmation.",
+        "'lol', 'okay', 'sure', 'dog' ]\n\nThe rest of the words seem to be related to a more serious or philosophical tone, while 'lol' is an internet slang used for humor, 'okay' and 'sure' are",
+        "'okay', 'live', 'lol', 'sure' ]",
+        "'live', 'dog', 'lol', 'old' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'live'",
+            "'dog'"
+          ]
+        ]
+      },
+      "raw": "'live', 'dog' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'lol'"
+      },
+      "raw": [
+        "'lol', 'okay' ].\n\n* 'lol' is a very common abbreviation for \"laugh out loud\", but it is often considered informal and may not be suitable for all contexts.\n* 'okay' is a common word, but it",
+        "'lol' ].\n\nReason: 'lol' is an extremely common abbreviation, but its meaning is often unclear in a non-technical context, making it potentially confusing or unclear.",
+        "'lol', 'old' ].\n\n* 'lol' is a common abbreviation, but in this context, it may be a typo or unclear abbreviation for a word. It is often used as an emoticon to express laughter.\n* 'old'",
+        "'lol' ] \nReason: 'lol' is an abbreviation which can be unclear without context; it's often used to represent laughter, but could be interpreted in other ways.",
+        "'lol' ].\nThe reason for 'lol' is: Extremely rare, unclear abbreviation, likely an internet slang."
+      ]
+    }
+  },
+  "23": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "1",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'date' 'sip'"
+      },
+      "raw": [
+        "'jean', 'public', 'date', 'sip' ]",
+        "'sip', 'date'  ]",
+        "'jean', 'check', 'sip', 'date' ]",
+        "'way', 'check', 'date', 'sip', 'jean' ]\n\nThese words are not closely related to the other words in the list, which appear to be more abstract and conceptually related to personal growth, responsibility, and maturity (",
+        "'way', 'check', 'sip', 'date' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'way'",
+            "'date'"
+          ]
+        ]
+      },
+      "raw": "('way', 'date') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'sip' ] \n\nReason: 'sip' is a rare and informal abbreviation, and its meaning depends on context.",
+        "'mandatory', 'ambition'  ]\n \n'ambition' - unclear abbreviation.\n'mandatory' - possible typo, common word is 'mandatory'",
+        "'mandatory', 'jean', 'check'  ]\n\n- 'mandatory': This is a word that is not in the top 10,000 most frequently used English words. It is a valid word, but an uncommon one.\n- 'je",
+        "'mandatory' (rare, unclear abbreviation) ]",
+        "'mandatory', 'jean' ]\n\n- 'mandatory' is a valid word but it's not exactly clear in the context of the list. It can be valid but it's not a typical word in a list of common topics or keywords.\n-"
+      ]
+    }
+  },
+  "24": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'zona'"
+      },
+      "raw": [
+        "'exercise', 'buy', 'beer', 'hungover' ]",
+        "'man', 'beer', 'zona' ]",
+        "'stay', 'happen', 'exercise', 'yeah', 'zona' ]",
+        "'zona', 'yeah' ]",
+        "'man', 'buy', 'beer', 'yeah', 'zona' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'stay'",
+            "'zona'"
+          ],
+          [
+            "'buy'",
+            "'beer'"
+          ]
+        ]
+      },
+      "raw": "('stay', 'zona'), ('buy', 'beer') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'zona'"
+      },
+      "raw": [
+        "'zona', 'yeah', 'beer' ].\n\n*   'zona': This is likely a typo and should be 'Arizona' or some other geographical location.\n*   'yeah': This is an informal abbreviation and may be unclear in",
+        "'zona' ] \n\nReason: This appears to be a truncated or misspelled word, likely 'Arizona', a US state.",
+        "'zona', 'yeah' ]",
+        "'zona', 'yeah' ]\n\n- 'zona' is likely a typo and should be 'zone'.\n- 'yeah' is an informal, unclear abbreviation and not a valid word in this context.",
+        "'zona' ] because it's unclear if it's a typo or a rare word without context, but 'zona' is not a common word and could be a typo for 'zone'."
+      ]
+    }
+  },
+  "25": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'laugh' 'typical' 'word'"
+      },
+      "raw": [
+        "'laugh', 'fighting', 'typical', 'word' ]",
+        "'laugh', 'typical', 'word' ]",
+        "'laugh', 'typical', 'everybody', 'fighting' ]",
+        "'date', 'laugh', 'typical', 'everybody', 'word' ]",
+        "'laugh', 'typical', 'everybody', 'fighting', 'legacy', 'word' ]\n\nThese words do not seem to fit with the theme of the other words, which appear to be related to social, cultural, or abstract"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 7,
+        "word_pairs": [
+          [
+            "'date'",
+            "'typical'"
+          ],
+          [
+            "'everybody'",
+            "'everybody'"
+          ],
+          [
+            "'laugh'",
+            "'laugh'"
+          ],
+          [
+            "'fighting'",
+            "'fighting'"
+          ],
+          [
+            "'word'",
+            "'word'"
+          ],
+          [
+            "'legacy'",
+            "'legacy'"
+          ],
+          [
+            "'woman'",
+            "'woman'"
+          ]
+        ]
+      },
+      "raw": "('date', 'typical'), ('everybody', 'everybody'), ('laugh', 'laugh'), ('fighting', 'fighting'), ('word', 'word'), ('legacy', 'legacy'), ('woman', 'woman') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'typical' is not an invalid word, but it's an uncommon word in this context. 'laugh' is an informal word, not typically used as a topic word. 'typical', 'laugh', 'everybody', '",
+        "'laugh' 'typical' 'everybody' 'fighting' 'legacy' 'word' ]",
+        "'laugh', 'typical', 'everybody', 'word' ]\n\n- \"laugh\" might be a typo and the intended word could be \"laughing\" or \"laughs\". \n- \"typical\" is a valid word",
+        "'laugh', 'typical' ]\n\n* 'laugh' is a valid English word, but it might be a typo and the intended word could be 'laughed' or 'laughter'.\n* 'typical' is a valid English",
+        "'typical' ]\n\nReason: 'typical' is an extremely rare or unclear abbreviation."
+      ]
+    }
+  },
+  "26": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'yup' 'sit'"
+      },
+      "raw": [
+        "'ass', 'yup' ]",
+        "'win', 'yup', 'sit', 'list', 'shine' ]",
+        "'win', 'sit', 'list', 'listening' ]",
+        "'ass', 'sit', 'yup', 'shine' ]",
+        "'ass', 'win', 'sit', 'yup', 'list', 'shine', 'principle' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'ass'",
+            "'sit'"
+          ],
+          [
+            "'sweet'",
+            "'sweetener'"
+          ],
+          [
+            "'listen'",
+            "'listening'"
+          ]
+        ]
+      },
+      "raw": "('ass', 'sit'), ('sweet', 'sweetener'), ('listen', 'listening') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'ass' 'yup'"
+      },
+      "raw": [
+        "'ass', 'yup' ]\n\n* 'ass' is a slang term and can be considered a potential typo for 'as' or 'assess'.\n* 'yup' is an informal abbreviation for 'yes up' or 'you up",
+        "'ass', 'yup', 'sit' ]\n\nExplanation:\n\n- 'ass': The word 'ass' is an informal and potentially derogatory term for the buttocks, which may be considered a taboo word in some contexts.\n- 'yup",
+        "'ass', 'yup' ]",
+        "'ass', 'yup' ] \n* 'ass' is a potentially profane word, which could be considered a typo or a misuse of language. \n* 'yup' is an informal abbreviation, but its usage as a standalone word",
+        "'ass', 'yup' ]"
+      ]
+    }
+  },
+  "27": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'basket'"
+      },
+      "raw": [
+        "'fridge', 'basket' ]",
+        "'drift', 'reconnect', 'apart', 'basket', 'hashtag' ]",
+        "fridge, mouth, september, hashtag ]",
+        "'drift', 'fridge', 'mouth', 'basket' ]\n\nThese words seem to be more related to everyday objects or physical entities, whereas the other words are more abstract or conceptually related to events or actions.",
+        "'fridge', 'basket', 'mouth' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'drift'",
+            "'apart'"
+          ],
+          [
+            "'reconnect'",
+            "'apart'"
+          ],
+          [
+            "'event'",
+            "'september'"
+          ],
+          [
+            "'basket'",
+            "'fridge'"
+          ]
+        ]
+      },
+      "raw": "('drift', 'apart'), ('reconnect', 'apart'), ('event', 'september'), ('basket', 'fridge') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'fridge' 'hashtag'"
+      },
+      "raw": [
+        "'fridge', 'hashtag', 'september' ].\n\n* 'fridge' is likely a typo, as the word is probably 'fridge' (lowercase 'f') and should be capitalized as 'Fridge'.\n*",
+        "'fridge', 'hashtag' ]",
+        "'fridge', 'september', 'hashtag' ] \n\n- 'fridge' is likely a typo or misspelling of 'fridge' being a common noun, but it's a correct word. My apologies, I will",
+        "'fridge', 'hashtag' ]\n\n- 'fridge' is a valid word, but the input seems to be a typo. It should be 'fridge' spelled out as 'refrigerator'.\n- 'hashtag' is not",
+        "'reconnect', 'hashtag', 'basket' ].\n\n- 'reconnect' is unclear because it's not clear whether it's a word or a verb.\n- 'hashtag' is a type of social media symbol and not a word"
+      ]
+    }
+  },
+  "28": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'crane' 'canigetaaman'"
+      },
+      "raw": [
+        "'crane', 'sweat' ]",
+        "'canigetaaman', 'crane' ]",
+        "'canigetaaman', 'crane' ]",
+        "'canigetaaman', 'crane' ]",
+        "'canigetaaman', 'crane', 'sweat' ]\n\nThe other words appear to belong to the theme of \"making an effort or doing something regularly\", with words like 'diet', 'search', 'chore', 'h"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'canigetaaman'",
+            "'sweat'"
+          ],
+          [
+            "'diet'",
+            "'chore'"
+          ]
+        ]
+      },
+      "raw": "( 'canigetaaman', 'sweat' ), ( 'diet', 'chore' ) ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'canigetaaman'"
+      },
+      "raw": [
+        "'canigetaaman', 'crane' ].\n- 'canigetaaman' appears to be a typo or misspelling of the word 'cannigetaman' is not a valid word, however, 'can get a",
+        "'canigetaaman' ]\n\ncanigetaaman appears to be a typo of the word \"can't get a man\".",
+        "'canigetaaman', 'crane' ]\n\nReasons:\n- 'canigetaaman': This is likely a typo or a made-up word.\n- 'crane': This is a valid word, but in the context of the list",
+        "'canigetaaman' ]",
+        "'canigetaaman' (typo of 'can I get a man'), 'crane' (potentially ambiguous, could be a reference to a large bird or a machine) ]\n\nAll other words in the list appear to be valid."
+      ]
+    }
+  },
+  "29": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'decide' 'quit'"
+      },
+      "raw": [
+        "'spend', 'couple', 'awesome', 'decide' ]",
+        "'quit', 'decide', 'outta', 'couple', 'awesome', 'pred' ]",
+        "'quit', 'couple', 'song', 'awesome', 'decide' ]\n\nExplanation:\nThe topic model seems to be centered around the theme of language and communication, with words related to speaking, languages, and languages spoken. \n\n- '",
+        "'quit', 'outta', 'decide' ]\n\nThese words seem to belong to the theme of giving up, stopping or making a choice, whereas the others seem to belong to the theme of language or musical performance.",
+        "'quit', 'decide', 'spend' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'quit'",
+            "'outta'"
+          ],
+          [
+            "'spend'",
+            "'decide'"
+          ]
+        ]
+      },
+      "raw": "('quit', 'outta'), ('spend', 'decide') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'outta'"
+      },
+      "raw": [
+        "'outta', 'pred' ]\n\n* 'outta' is a colloquialism for 'out of' and while it's not a standard word, it's a common abbreviation in informal contexts.\n* 'pred' is a valid word",
+        "'outta', 'pred' ]\nThey are either typos or unclear abbreviations.\n\noutta is likely a typo for 'out of' or a colloquialism 'outta' which can be used in informal language to mean 'out",
+        "\"outta\", \"couple\", \"pred\" ].\n \n - \"outta\" is likely a typo or colloquial abbreviation for \"out of\".\n - \"couple\" could be considered a valid word in certain contexts, but in",
+        "'outta', 'pred' ] \nThe reason is: 'outta' is a colloquialism or a typo and 'pred' seems to be an abbreviation or an unclear term.",
+        "'outta' ] \n\nThe reason for this token is a typo or a colloquialism (informal use of 'outta' instead of 'out of')."
+      ]
+    }
+  },
+  "30": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'molson' 'cooking'"
+      },
+      "raw": [
+        "'molson', 'fab', 'cooking', 'affect' ]",
+        "'molson', 'fab', 'cooking', 'affect'  ]",
+        "'molson', 'desk', 'cooking' ]\n\nThe rest of the words seem to be related to interior design, decoration, and aesthetics.",
+        "'molson', 'alternate', 'vortex', 'affect' ]",
+        "'molson', 'fab', 'cooking'  ]\n\nThese words don't belong to the same theme as the others which seem to revolve around interior design, decoration, and aesthetics."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'molson'",
+            "'fab'"
+          ],
+          [
+            "'decor'",
+            "'homedesign'"
+          ],
+          [
+            "'vortex'",
+            "'alternate'"
+          ]
+        ]
+      },
+      "raw": "('molson', 'fab'), ('decor', 'homedesign'), ('vortex', 'alternate') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'molson'"
+      },
+      "raw": [
+        "'molson', 'vortex', 'alternate', 'affect' ]\n\n* 'molson' is a brand name and not a commonly used word.\n* 'vortex' is a valid word, but its usage here seems out of context",
+        "'molson',  'vortex' ]\n\n*   'molson': Malformed string. 'molson' is likely a typo for 'mold' or 'molden' or 'molsen' (a rare surname),",
+        "'molson', 'alternate' ].\n\n- 'molson' is a brand name and not a common word, but it's still a valid word in the English dictionary. However, considering the context of the task, it's not relevant to",
+        "'alternate', 'affect', 'vortex' ] because they are not descriptive of a home or interior space design, the list is about home design.",
+        "'molson', 'fab' ]"
+      ]
+    }
+  },
+  "31": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'kind' 'outdoors' 'lessfacebook'"
+      },
+      "raw": [
+        "'drift', 'kind', 'outdoors', 'lessfacebook', 'habit' ]\n\nThese words seem to have different connotations and associations compared to the other words in the list. 'drift' and 'outdoors' relate to nature",
+        "'outdoors', 'lessfacebook'  ]",
+        "'kind', 'outdoors', 'lessfacebook' ]",
+        "'outdoors', 'kind', 'lessfacebook' ]",
+        "'outdoors', 'kind', 'lessfacebook' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'keepingitsimple'",
+            "'complex'"
+          ]
+        ]
+      },
+      "raw": "'keepingitsimple', 'complex' ], [ 'drift', 'cantfail' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'lessfacebook'"
+      },
+      "raw": [
+        "'keepingitsimple', 'lessfacebook', 'cantfail' ]",
+        "'keepingitsimple', 'lessfacebook' ]\n\n*   'keepingitsimple' is a typo or a word mashup (should be \"keep it simple\")\n*   'lessfacebook' is a broken string or unclear abbreviation (Facebook is a",
+        "'drift', 'lessfacebook' ]\n\nThe word 'drift' is a valid English word, but in the context of this task, it might be considered a typo or a broken string because it does not match the task's focus on \"",
+        "'drift', 'cantfail', 'lessfacebook', 'outdoors' ].\n\n- 'drift': It seems to be a complete word, but it's an extremely rare and unclear abbreviation, as there are many possible meanings, and it",
+        "'keepingitsimple', 'lessfacebook', 'drift' ]\n\n- 'keepingitsimple' is a broken string.\n- 'lessfacebook' is an unclear abbreviation and a social media platform name.\n- 'drift' seems like a valid"
+      ]
+    }
+  },
+  "32": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "3",
+        "2",
+        "1",
+        "1",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "1",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'sweetener' 'dosen't'"
+      },
+      "raw": [
+        "'nervous', 'sweetener', 'dosen't' ]\n\nThe other words appear to be related to academic or educational topics, possibly related to a research project or academic writing. 'Nervous', 'sweetener', and 'd",
+        "'hopkins', 'dosen't', 'michigan', 'sweetener' ]",
+        "'usual', 'sweetener', 'dosen't' ]",
+        "'sweetener', 'nervous', 'dosen't' ]",
+        "'dosen't', 'sweetener' ]\n\nThe other words appear to be related to a university or academic setting, with \"Hopkins\" likely referring to Johns Hopkins University, \"reacquire\" and \"revise\" being academic actions,"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'reacquire'",
+            "'revise'"
+          ],
+          [
+            "'hopkins'",
+            "'michigan'"
+          ],
+          [
+            "'dosen't'",
+            "'usual'"
+          ]
+        ]
+      },
+      "raw": "('reacquire', 'revise'), ('hopkins', 'michigan'), ('dosen't', 'usual') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'dosen't',  'reacquire' ]\n\n* 'dosen't' appears to be a typo of 'doesn't', a contraction of 'does not'.\n* 'reacquire' is not an extremely rare word, but its",
+        "'dosen't', 'reacquire', 'sweetener' ]\n\n  * 'dosen't' is a typo and likely meant to be \"doesn't\"\n  * 'reacquire' is an extremely rare or unclear abbreviation; likely",
+        "\"dosen't\", \"reacquire\" ] \n\nReasons:\n*   \"dosen't\" is a typo, likely a misspelling of the word \"don't\".\n*   \"reacquire\" is a rare or unclear",
+        "'dosen't', 'reacquire'  ]",
+        "\"dosen't\", \"reacquire\", \"sweetener\" ]\n\n- \"dosen't\" is a typo of \"doesn't\" and is not a valid word.\n- \"reacquire\" might be considered a valid word, but"
+      ]
+    }
+  },
+  "33": {
+    "coherence": {
+      "processed": 1.4,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "1",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "sleepy, judgemental, bartender, motto, min  ]",
+        "'sec', 'min' ]\n\nThe other words appear to be related to the theme of \"storytelling\" or \"narrative\". 'sec' and 'min' appear to be units of time, which seems to be an outlier.",
+        "'sec', 'hit', 'min', 'film' ]",
+        "'sec', 'sleepy', 'hit', 'min' ]",
+        "'sleepy', 'hit', 'film', 'motto' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'sec'",
+            "'min'"
+          ]
+        ]
+      },
+      "raw": "('sec', 'min') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'sec' 'min'"
+      },
+      "raw": [
+        "'sec', 'min' ].\n\nThese words may be typos or extremely rare, unclear abbreviations.",
+        "'sec', 'min' ].\n \nReasons:\n- 'sec' is a common abbreviation for 'second', but in the context of the given list, it seems out of place. It could be a typo or an unclear abbreviation for a",
+        "'sec', 'min' ]\n\n* 'sec' is an abbreviation for 'second', but the list does not provide enough context to understand what 'sec' refers to. It could be a typo or a missing word.\n* 'min' is",
+        "'sec', 'min' ] \nReasons:\n- 'sec' and 'min' are abbreviations for seconds and minutes, but they can be considered extremely rare, unclear, or out of context in this list.",
+        "'sec', 'min', 'bartender', 'judgemental' ]\n- 'sec' and 'min' are likely abbreviations (seconds, minutes), but without context, it's unclear if they're being used correctly.\n- 'bart"
+      ]
+    }
+  },
+  "34": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'beer'"
+      },
+      "raw": [
+        "'beer', 'creep' ]",
+        "'beer', 'creep', 'persecute' ]",
+        "'gift', 'beer', 'season', 'business', 'encouragement' ].",
+        "'beer', 'creep' ]",
+        "beer, creep, persecute ]\n\nHere's a brief explanation:\n\n- 'beer' is a type of beverage, which doesn't fit with the other words that seem to relate to more abstract concepts.\n- 'creep' is a verb with a"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'help'",
+            "'encouragement'"
+          ],
+          [
+            "'order'",
+            "'business'"
+          ]
+        ]
+      },
+      "raw": "('help', 'encouragement'), ('order', 'business') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'beer'"
+      },
+      "raw": [
+        "'beer', 'creep', 'encouragement' ] \n\n* 'beer' is a valid word, but in this context it's likely a typo and the intended word is 'beer' is not typically a topic word, but it can",
+        "'beer', 'season', 'worthy' ].\n\n* 'beer': a common word, but it could be a typo or a slang term; \n* 'season': a common word, but it could be a typo or a word with multiple",
+        "'persecute', 'creep' ].\n\n1. 'persecute' is a valid word, but 'creep' is a valid word, but 'persecute' is not considered a typo, rather a less common word",
+        "'beer',  'persecute' -> 'persecute' is a valid word, but the other two words are likely typos or variations of the word 'creep' is a valid word, but 'creep' is also",
+        "'beer', 'persecute', 'creep', 'encouragement' ]\n\n- 'beer': a common misspelling or a typo of 'beer' is more likely.\n- 'persecute': The word seems to be a"
+      ]
+    }
+  },
+  "35": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "1",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'aaronallison' 'iwil' 'lol'"
+      },
+      "raw": [
+        "'aaronallison', 'iwil', 'burr', 'chopin', 'lol' ]\n\nThe other words are all related to political concepts.",
+        "'aaronallison', 'iwil', 'lol' ]",
+        "'aaronallison', 'iwil', 'burr', 'chopin', 'lol' ]",
+        "'aaronallison', 'iwil', 'burr', 'chopin', 'lol' ]\n\nThe other words seem to relate to a political context, particularly the U.S. presidency, with \"focus\", \"president\", and \"",
+        "'aaronallison', 'iwil', 'lol' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'focus'",
+            "'load'"
+          ],
+          [
+            "'aaronallison'",
+            "'aaron'"
+          ],
+          [
+            "'burr'",
+            "'chopin'"
+          ]
+        ]
+      },
+      "raw": "('focus', 'load'), ('aaronallison', 'aaron'), ('burr', 'chopin') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'iwil'"
+      },
+      "raw": [
+        "'iwil' ]",
+        "'aaronallison', 'iwil' ]\n\n*   'aaronallison' is likely a typo or a misspelling of 'Aaron Allison' or another name. \n*   'iwil' is an unclear abbreviation.",
+        "'aaronallison', 'iwil', 'lol' ]\n\n- 'aaronallison' is likely a typo or incorrect string, as it should be 'Allison' or 'Aaron Allison', a surname.\n- 'iwil'",
+        "'iwil' ]",
+        "'aaronallison', 'iwil', 'burr', 'chopin' ]"
+      ]
+    }
+  },
+  "36": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'beefcake'"
+      },
+      "raw": [
+        "'leave', 'continue', 'somebody', 'home' ]",
+        "'beefcake', 'somebody', 'home' ]",
+        "'beefcake', 'leave' ]",
+        "'beefcake' ]",
+        "'beefcake', 'leave', 'somebody' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'beefcake'",
+            "'bodybuilding'"
+          ]
+        ]
+      },
+      "raw": "('beefcake', 'bodybuilding') is not in the list, so ignore it, ('continue', 'leave') is not the same, ('somebody', 'body' is not in the list, so ignore it), ('home',"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'beefcake'"
+      },
+      "raw": [
+        "'beefcake', 'somebody' ]\n\nThese words are not commonly used in this form. 'beefcake' is a colloquialism or slang, and 'somebody' is a variant of 'someone', which is generally preferred",
+        "'beefcake', 'home' ].\n\n* 'beefcake' is an informal or colloquial term and may be considered as a misspelling or informal usage, but it's not strictly an invalid word. However, 'home",
+        "'beefcake' ] \n\nReason: \"beefcake\" is an informal or colloquialism term and may not be recognized by some text processing systems or may be considered impolite or off-topic in certain contexts.",
+        "'beefcake', 'leave', 'continue' ]",
+        "'beefcake', 'leave', 'continue' ].\n\n* 'beefcake' is an informal term and a colloquialism, not a standard word.\n* 'leave' is not a malformed token, but it can be considered"
+      ]
+    }
+  },
+  "37": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'tweet', 'word', 'degree' ]",
+        "'month', 'february', 'ago' ]",
+        "'tweet', 'month', 'ago', 'february' ]",
+        "'tweet', 'month', 'ago', 'february' ]",
+        "month,  February,  ago ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'come'",
+            "'ago'"
+          ],
+          [
+            "'finish'",
+            "'month'"
+          ],
+          [
+            "'tweet'",
+            "'word'"
+          ]
+        ]
+      },
+      "raw": "('come', 'ago'), ('finish', 'month'), ('tweet', 'word') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'resolve', 'month' ]\n\n- 'resolve' is a valid word, but it could be a typo for 'resolve' is a valid word, however it could be a typo for 'resolved'. \n- 'month' is a valid word",
+        "'tweet' ]\n\nTweet can be a valid word, but in the context of the list, it appears to be a misspelling of \"tweet\" as a verb or noun in relation to the social media platform Twitter, not the bird sound.",
+        "'resolve', 'degree' ]\n\n- 'resolve' is a valid English word but it might be considered an informal or colloquialism in certain contexts, but generally, it's a standard English word. \n- 'degree' is also a",
+        "'resolve', 'month' ]\n\n- resolve: unclear abbreviation, can have multiple meanings.\n- month: unclear abbreviation, possibly referring to a month of the year, but needs more context to understand the full word.",
+        "'month', 'degree', 'february' ].\n\n- 'month' is too general and can be replaced with more specific words (e.g., 'january', 'february', 'march', etc.). It doesn't add much"
+      ]
+    }
+  },
+  "38": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'adventuresinchemistry', 'fitness' ]",
+        "'cursing', 'negativity', 'consideration' ]",
+        "'cursing', 'negativity', 'consideration' ]",
+        "'adventuresinchemistry', 'fitness' ]",
+        "'cursing', 'die' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'raise'",
+            "'fitness'"
+          ],
+          [
+            "'job'",
+            "'work'"
+          ]
+        ]
+      },
+      "raw": "('raise', 'fitness'), ('job', 'work') ]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'adventuresinchemistry'"
+      },
+      "raw": [
+        "'adventuresinchemistry' ]",
+        "'adventuresinchemistry' ].\n\nReason: It's likely a typo or a concatenation error, as 'adventures in chemistry' would be a more reasonable phrase.",
+        "'adventuresinchemistry'  ] - Malformed: likely a typo or a misspelling of a proper word.",
+        "'adventuresinchemistry', 'consideration' ]\n\nReasons:\n\n1. 'adventuresinchemistry' - likely a typo, should be 'adventures in chemistry'\n2. 'consideration' - extremely rare and unclear abbreviation",
+        "'adventuresinchemistry', 'fitness' ]\n\n- 'adventuresinchemistry' is a malformed token because it appears to be a topic title or a string that is not a single word.\n- 'fitness' is an extremely rare,"
+      ]
+    }
+  },
+  "39": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'holiday'"
+      },
+      "raw": [
+        "'mile', 'grade', 'school', 'district', 'holiday' ]",
+        "'partypooper', 'holiday' ]",
+        "'mile', 'listen', 'grade', 'holiday', 'district' ]",
+        "'partypooper', 'holiday' ]",
+        "'partypooper', 'holiday' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'watch'",
+            "'listen'"
+          ],
+          [
+            "'mile'",
+            "'grade'"
+          ],
+          [
+            "'holiday'",
+            "'surgery'"
+          ]
+        ]
+      },
+      "raw": "('watch', 'listen'), ('mile', 'grade'), ('holiday', 'surgery') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'partypooper'"
+      },
+      "raw": [
+        "'partypooper', 'surgery' ].\n- 'partypooper' is a made-up word, likely a playful portmanteau, but it is not a standard English word.\n- 'surgery' is a valid word,",
+        "'partypooper' (likely a typo or intentionally misspelled word), 'surgery' (possible typo or unclear abbreviation)  ]",
+        "'partypooper', 'surgery' ].\n \n- 'partypooper': It is a colloquialism or slang and not a standard word.\n- 'surgery': It might be a valid word in its standard form 's",
+        "'partypooper', 'mile' ]\n\n- 'partypooper' is likely a typo or a made-up word. It is not recognized by dictionaries or common English usage. It is probably a combination of \"party pooper,\" a colloqu",
+        "'partypooper', 'mile' ].\n\n* 'partypooper' seems to be a colloquial term and a made-up word, it's not a standard English word.\n* 'mile' is a valid word, but in this"
+      ]
+    }
+  },
+  "40": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'blonde' 'bible'"
+      },
+      "raw": [
+        "'selfie', 'blonde' ].\n\nThe other words are related to social media, online activities, and writing, but 'selfie' is an action typically associated with taking a photo, and 'blonde' is a hair color,",
+        "'selfie', 'blonde', 'bible' ]",
+        "'bible' ]",
+        "'bible', 'blonde' ]",
+        "'selfie', 'blonde', 'bible' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'selfie'",
+            "'share'"
+          ],
+          [
+            "'amwriting'",
+            "'enjoy'"
+          ]
+        ]
+      },
+      "raw": "('selfie', 'share'), ('amwriting', 'enjoy') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'amwriting'"
+      },
+      "raw": [
+        "'amwriting', 'selfie' ]\n\n'Amwriting' could be a typo for 'am writing'. 'Selfie' is not an issue in itself, but in this context, it seems out of place in a list of words about social",
+        "'selfie', 'enjoy' ]\nReasons: \n- 'selfie' might be a typo or a slang, however, it's a valid word.\n- 'enjoy' is a valid word.\nCorrected list of invalid words",
+        "'amwriting', 'selfie', 'blonde'  ]\nReasons: \n- 'amwriting' is unclear as it might be a typo and could be 'am writing'.\n- 'selfie' is a rare or unclear abbreviation,",
+        "'amwriting', 'bible', 'share' ]",
+        "'amwriting'  ]"
+      ]
+    }
+  },
+  "41": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'afternoon' 'sec' 'dosen't'"
+      },
+      "raw": [
+        "'afternoon', 'sec', 'dosen't' ]",
+        "'afternoon', 'cantfail', 'dosen't', 'reversehipster', 'bodylife' ]",
+        "'afternoon', 'sec', 'dosen't', 'bodylife' ]\n\nThe other words in the set seem to be related to philosophical or intellectual themes, with some words having a somewhat ironic or contrarian tone.",
+        "'afternoon', 'cantfail', 'dosen't', 'sec' ]",
+        "'afternoon', 'sec', 'dosen't', 'traditional' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'mandatory'",
+            "'cantfail'"
+          ],
+          [
+            "'afternoon'",
+            "'dosen't'"
+          ],
+          [
+            "'mediocre'",
+            "'traditional'"
+          ],
+          [
+            "'sec'",
+            "'bodylife'"
+          ]
+        ]
+      },
+      "raw": "( 'mandatory', 'cantfail' ), ( 'afternoon', 'dosen't' ), ( 'mediocre', 'traditional' ), ( 'sec', 'bodylife' ) ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'sec' 'dosen't'"
+      },
+      "raw": [
+        "'sec', 'dosen't', 'reversehipster' ]\n\n*   'sec' is an abbreviation that is unclear and does not have a widely recognized meaning. \n*   'dosen't' is a typo and should be spelled 'doesn",
+        "'sec', 'dosen't' ]",
+        "'dosen't', 'sec' ].\n\n- 'dosen't' is a typo (correct spelling is 'don't').\n- 'sec' is an unclear abbreviation (it may be short for \"second\" or something else, but it",
+        "'afternoon', 'dosen't', 'cantfail', 'reversehipster', 'bodylife' ]\n\n* 'afternoon' is likely a typo, it should be 'afternoon' spelled correctly.\n* 'dosen't' is a",
+        "'sec', 'dosen't', 'reversehipster' ]\n\n* 'sec': appears to be an abbreviation, but it's unclear what it stands for. \n* 'dosen't': contains a typo, should be spelled as 'doesn't"
+      ]
+    }
+  },
+  "42": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'big' 'meal'"
+      },
+      "raw": [
+        "'plastic', 'big', 'meal', 'replace', 'trap' ]",
+        "'big', 'plastic', 'world', 'meal', 'trap' ]\n\nThese words don't seem to have any strong connection with the others that appear to revolve around emotions, social behavior, and relationships, particularly negative emotions (procrast",
+        "'big', 'meal' ]",
+        "'big', 'meal', 'world' ]",
+        "'big', 'plastic', 'meal', 'pityparty', 'trap' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'big'",
+            "'world'"
+          ],
+          [
+            "'plastic'",
+            "'bitchy'"
+          ],
+          [
+            "'procrastination'",
+            "'pityparty'"
+          ],
+          [
+            "'meal'",
+            "'trap'"
+          ],
+          [
+            "'partypooper'",
+            "'bitchy'"
+          ]
+        ]
+      },
+      "raw": "('big', 'world'), ('plastic', 'bitchy'), ('procrastination', 'pityparty'), ('meal', 'trap'), ('partypooper', 'bitchy') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'partypooper' 'pityparty'"
+      },
+      "raw": [
+        "'procrastination', 'partypooper', 'bitchy', 'pityparty', 'replace' ]",
+        "'plastic', 'pityparty', 'partypooper', 'bitchy' ]\n\nReasons:\n* 'plastic' is likely not a typo, but 'pityparty' and 'partypooper' appear to be informal",
+        "'plastic', 'procrastination', 'pityparty', 'partypooper' ]\n\nReasons:\n- 'plastic': the token is a noun and does not fit the context of the list which appears to be discussing emotional or psychological",
+        "'procrastination' (extremely rare or unclear abbreviation),  'pityparty' (typo: should be 'pity party'),  'partypooper' (typo: should be 'party pooper'),  'b",
+        "'plastic', 'pityparty', 'partypooper' ].\n\nThese words appear to be typos or colloquial/creative spellings of 'plastic' and 'party', 'party pooper', which are valid English words"
+      ]
+    }
+  },
+  "43": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'book' 'gift'"
+      },
+      "raw": [
+        "'book', 'country', 'gift' ]",
+        "'book', 'musiclife', 'country', 'gift' ]\n\nThe other words are more closely related to emotions, daily experience, and personal feelings.",
+        "'musiclife', 'book', 'gift' ]",
+        "'happen', 'feel', 'alive', 'clean' ]\n\nThe other words appear to describe themes of spirituality, faith, and music, whereas 'happen', 'feel', 'alive', and 'clean' have more general or unrelated meanings",
+        "'today', 'happen', 'clean', 'book', 'musiclife', 'country', 'gift', 'feel', 'alive' ] seems to be describing various aspects of life, whereas 'faith' is a more abstract and religious concept"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'today'",
+            "'alive'"
+          ],
+          [
+            "'book'",
+            "'gift'"
+          ]
+        ]
+      },
+      "raw": "('today', 'alive'), ('book', 'gift') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'musiclife'"
+      },
+      "raw": [
+        "'musiclife' (ambiguous), 'country' (not malformed, but ambiguous as it can be a noun or adjective) ]\n\nHowever, I will remove 'musiclife' as it is a valid combination of two words 'music' and 'life",
+        "'musiclife', 'clean' is likely a typo or unclear abbreviation.",
+        "'musiclife' ]: unclear abbreviation (likely a typo or misspelling)",
+        "'musiclife' ].\n\nReason: 'musiclife' is likely a misspelling of 'music life'.",
+        "'musiclife', 'alive' ]\n\n*   'musiclife': This token is not a word but rather a concatenation of 'music' and 'life', which might be an attempt to write a compound word but is not a valid word in"
+      ]
+    }
+  },
+  "44": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'attach', 'high', 'notice', 'step', 'total', 'read', 'rate' ]",
+        "'cannabis', 'colorado' ]",
+        "'bitch' ]",
+        "'bitch', 'cannabis' ]",
+        "'attach', 'bitch' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'attach'",
+            "'step'"
+          ],
+          [
+            "'high'",
+            "'total'"
+          ],
+          [
+            "'read'",
+            "'notice'"
+          ],
+          [
+            "'rate'",
+            "'attach'"
+          ],
+          [
+            "'bitch'",
+            "'cannabis'"
+          ]
+        ]
+      },
+      "raw": "('attach', 'step'), ('high', 'total'), ('read', 'notice'), ('rate', 'attach'), ('bitch', 'cannabis') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'bitch'"
+      },
+      "raw": [
+        "'bitch' ].\n\nThe reason for the invalid token is that it is considered impolite or off-color in many contexts, and therefore might not be suitable for all audiences.",
+        "'bitch' ] because it is a profane word, and 'bitch' is generally not considered a valid word in most contexts.",
+        "'bitch' ].\n\nReason: This word is considered an off-color term and is not suitable for polite conversation.",
+        "'bitch' ]\n\nThis word may be considered a derogatory term and is not a valid topic word.",
+        "'bitch' ] because it is a profanity and not a word related to the context of the list.\n\nThe other words are all valid English words."
+      ]
+    }
+  },
+  "45": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "1",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'partypooper' 'thedrunkene' 'pityparty'"
+      },
+      "raw": [
+        "'partypooper', 'thedrunkene', 'pityparty' ]",
+        "'partypooper', 'thedrunkene', 'pityparty'  ]",
+        "'partypooper', 'pityparty', 'thedrunkene' ]",
+        "'partypooper', 'pityparty', 'thedrunkene' ]",
+        "'partypooper', 'pityparty', 'thedrunkene' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "\"punctual\"",
+            "\"traditional\""
+          ],
+          [
+            "\"journal\"",
+            "\"cooking\""
+          ],
+          [
+            "\"backstage\"",
+            "\"thedrunkene\""
+          ],
+          [
+            "\"partypooper\"",
+            "\"pityparty\""
+          ]
+        ]
+      },
+      "raw": "(\"punctual\", \"traditional\"), (\"journal\", \"cooking\"), (\"backstage\", \"thedrunkene\"), (\"partypooper\", \"pityparty\") ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 3,
+        "words": "'partypooper' 'thedrunkene' 'pityparty'"
+      },
+      "raw": [
+        "'partypooper', 'thedrunkene', 'pityparty' ].\n\nReasons:\n- 'partypooper': unclear or informal abbreviation\n- 'thedrunkene': typo and unclear or informal abbreviation\n- 'pity",
+        "'partypooper', 'thedrunkene', 'pityparty' ]",
+        "'partypooper', 'thedrunkene', 'pityparty' ]\n\nReasons:\n- 'partypooper' could be a typo and should be 'party pooper'\n- 'thedrunkene' seems to be a typo",
+        "'partypooper', 'thedrunkene', 'pityparty' ]\n\nThese words appear to be typos or made-up words, not recognized in standard English language.",
+        "'partypooper', 'thedrunkene' ]"
+      ]
+    }
+  },
+  "46": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "1",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'xmas' 'colleen' 'folder'"
+      },
+      "raw": [
+        "'xmas', 'colleen', 'folder' ]",
+        "'xmas', 'folder', 'colleen' ]",
+        "'xmas', 'colleen' ]",
+        "'xmas', 'colleen', 'remote', 'folder' ]",
+        "'xmas', 'colleen', 'folder', 'remote' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'meet'",
+            "'imply'"
+          ],
+          [
+            "'deepthroat'",
+            "'meet'"
+          ],
+          [
+            "'deepthroat'",
+            "'imply'"
+          ]
+        ]
+      },
+      "raw": "('meet', 'imply'), ('deepthroat', 'meet'), ('deepthroat', 'imply') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'fangirl' 'deepthroat'"
+      },
+      "raw": [
+        "'fangirl', 'deepthroat', 'colleen' ]\n\n'fangirl' is an unclear term with a specific internet slang connotation.\n'deepthroat' can have a different meaning in a different context and may be considered a taboo word",
+        "'fangirl', 'deepthroat' ]\n\n- 'fangirl' could be considered a colloquial or slang term, but in this context, it's used as a noun to describe an enthusiastic fan. However, it might not be suitable for",
+        "'deepthroat' (not a typical topic),  'fangirl' (not a typical topic) ]",
+        "'fangirl', 'deepthroat' ]\n\n* 'fangirl' is a colloquialism and while it has a widely recognized meaning, it is informal and may be considered a slang term.\n* 'deepthroat' can refer to a rare",
+        "'fangirl', 'deepthroat', 'xmas', 'remote'  ]\n\n* 'fangirl': it's an informal term but often considered a slang, not a standard word. \n* 'deepthroat': it's a slang or an"
+      ]
+    }
+  },
+  "47": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'gal' 'hopkins' 'dosen't'"
+      },
+      "raw": [
+        "'cooking', 'net', 'serve', 'gal' ]",
+        "'hopkins', 'gal', 'net', 'dosen't' ]\n\nThese words do not seem to fit the theme of cooking or simplicity, which is suggested by the presence of words like 'cooking', 'keepingsimple', 'serve",
+        "'hopkins', 'gal', 'dosen't' ]",
+        "'hopkins', 'gal', 'dosen't' ]\n\nThe other words seem to belong to the theme of simple living, minimalism, or the idea of being self-sufficient, possibly related to a blog or a book titled \"Keeping It",
+        "'hopkins', 'gal', 'dosen't', 'net' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'keepingitsimple'",
+            "'cooking'"
+          ],
+          [
+            "'alive'",
+            "'unlimited'"
+          ],
+          [
+            "'dosen't'",
+            "'serve'"
+          ]
+        ]
+      },
+      "raw": "('keepingitsimple', 'cooking'), ('alive', 'unlimited'), ('dosen't', 'serve') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'dosen't'"
+      },
+      "raw": [
+        "'dosen't', 'hopkins' ]\n\nReasons: 'dosen't' is a typo of 'doesn't', and 'hopkins' is a surname and may be a proper noun, but in the context of this task, it",
+        "'dosen't', 'hopkins', 'keepingitsimple' ]\n\nExplanation:\n1. 'dosen't' is a clear typo of 'doesn't'.\n2. 'hopkins' seems to be an abbreviation or incomplete word, possibly referring",
+        "'dosen't', 'hopkins' ].\n\n- 'dosen't' is a typo, likely meant to be 'don't'.\n- 'hopkins' is unclear, likely an abbreviation, but it doesn't correspond to a commonly recognized",
+        "'dosen't' (typo, should be 'doesn't'), 'hopkins' (likely a name, but unclear in this context) ]",
+        "'dosen't' ]\n\nReason: 'dosen't' is a typo and should be spelled 'doesn't'."
+      ]
+    }
+  },
+  "48": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'kick' 'foot' 'setthebarhigh'"
+      },
+      "raw": [
+        "'kick', 'waste', 'foot', 'salad', 'blame' ]",
+        "'salad', 'weekly', 'kick', 'foot', 'setthebarhigh' ]",
+        "'kick', 'waste', 'foot', 'salad', 'setthebarhigh', 'blame' ]",
+        "'kick', 'setthebarhigh', 'affect' ]",
+        "'kick', 'foot', 'setthebarhigh' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'setthebarhigh'",
+            "'set'"
+          ],
+          [
+            "'kick'",
+            "'kick'"
+          ],
+          [
+            "'weekly'",
+            "'weekly'"
+          ]
+        ]
+      },
+      "raw": "('setthebarhigh', 'set'), ('kick', 'kick'), ('weekly', 'weekly') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'setthebarhigh' 'weekly'"
+      },
+      "raw": [
+        "'setthebarhigh', 'weekly' ].\n- 'setthebarhigh' is a malformed token due to the extra letters. It should be 'set the bar high'.\n- 'weekly' is an extremely rare or unclear abbreviation. It",
+        "'setthebarhigh', 'weekly' ]\n\n- 'setthebarhigh' is a broken string, possibly a typo.\n- 'weekly' is a valid word, however, it can be considered a rare abbreviation.",
+        "'setthebarhigh', 'weekly' ]\n\n- 'setthebarhigh' is a malformed token because it contains an extra 'the'. \n- 'weekly' is unclear as it may be a misspelling of 'weekly' as in",
+        "'setthebarhigh', 'weekly' ]\n\nExplanation:\n- \"setthebarhigh\" is likely a typo or a broken string, as it appears to be a phrase that has been merged into one word.\n- \"weekly\" is an extremely",
+        "'setthebarhigh', 'waste'  ]\n\n* 'setthebarhigh' is likely a typo, should be 'set the bar high'\n* 'waste' can be unclear as a standalone word in this context; likely intended"
+      ]
+    }
+  },
+  "49": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "3",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'thedrunkene'"
+      },
+      "raw": [
+        "'thedrunkene', 'male' ]",
+        "'bed', 'thedrunkene'  ]",
+        "'thedrunkene', 'weight', 'bed' ]",
+        "'thedrunkene', 'weight', 'male' ]\n\nThe other words seem to be related to common, general concepts like communication ('phone', 'publisher'), family ('family', 'bed'), or actions ('wait', 'punctual')",
+        "'thedrunkene', 'wait', 'weight' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'phone'",
+            "'wait'"
+          ],
+          [
+            "'team'",
+            "'family'"
+          ]
+        ]
+      },
+      "raw": "('phone', 'wait'), ('team', 'family') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'thedrunkene'"
+      },
+      "raw": [
+        "'thedrunkene' ].\n\n'thedrunkene' is likely a typo of the word 'drunken'.",
+        "'thedrunkene' ]\n\n*   'thedrunkene' is a typo, which is the word 'drunkene' (not a valid word) likely meant to be 'drunken'.",
+        "'thedrunkene' ].\n\nThis word appears to be a typo, and the correct spelling is 'the drunken'.",
+        "'thedrunkene', 'punctual' ]\n\n- 'thedrunkene' is likely a typo and should be 'the drunken' or 'the drunken'.\n- 'punctual' might be considered a rare or unclear abbreviation",
+        "'thedrunkene' - likely a typo for 'the drunken'  ]\n\nAll other words are valid."
+      ]
+    }
+  }
+}

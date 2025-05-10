@@ -1,0 +1,51 @@
+ID	Topic words	Coherence	Repetitive	Readability	Number of Outliers	Outliers	Number of Same Concept Pairs	Same Concept Pairs	Number of Non-words	Non-words
+0	job people work president think year program money congress fund	2.8	1.2	2.6	0		2	"[(""'job'"", ""'work'""), (""'program'"", ""'fund'"")]"	0	
+1	san information billion police angeles francisco los california anti york	2.4	2.2	2.0	5	'billion' 'angeles' 'francisco' 'los' 'california'	3	"[(""'san francisco'"", ""'francisco'""), (""'los angeles'"", ""'angeles'""), (""'california'"", ""'police'"")]"	3	'angeles' 'francisco' 'los'
+2	god jesus bible man christian christ love come word believe	3.0	1.0	2.8	1	'man'	3	"[(""'god'"", ""'jesus'""), (""'jesus'"", ""'christ'""), (""'christ'"", ""'christian'"")]"	2	'jesus' 'christian'
+3	people morality objective person death think life moral rule murder	3.0	1.6	2.2	0		2	"[(""'people'"", ""'person'""), (""'morality'"", ""'moral'"")]"	0	
+4	stuff moon secure think van sun tony michael happy guess	1.6	2.2	2.4	3	'van' 'michael' 'tony'	3	"[(""'stuff'"", ""'stuff'""), (""'sun'"", ""'sun'""), (""'moon'"", ""'moon'"")]"	3	'van' 'tony' 'michael'
+5	article argument jim science quote ethnic context apr posting statement	2.6	1.8	2.0	2	'jim' 'apr'	4	"[(""'article'"", ""'posting'""), (""'article'"", ""'statement'""), (""'argument'"", ""'quote'""), (""'science'"", ""'apr'"")]"	2	'jim' 'apr'
+6	window hope henrik newsreader peace manager tin display want know	2.2	2.0	2.4	1	'tin'	2	"[(""'window'"", ""'display'""), (""'hope'"", ""'peace'"")]"	2	'henrik' 'tin'
+7	program unit music server link cross software disk windows use	2.8	1.6	2.4	1	'music'	2	"[(""'program'"", ""'software'""), (""'unit'"", ""'disk'"")]"	0	
+8	weapon court expansion legal age capital carry use penalty prison	3.0	2.0	2.4	2	'capital' 'age'	2	"[(""'weapon'"", ""'penalty'""), (""'court'"", ""'prison'"")]"	0	
+9	win senior idea bank sign reagan think predict way mix	2.6	1.8	2.0	1	'reagan'	2	"[(""'win'"", ""'predict'""), (""'senior'"", ""'reagan'"")]"	1	'reagan'
+10	people come know tell think happen start leave woman like	2.6	1.8	2.8	2	'start' 'leave'	3	"[(""'people'"", ""'woman'""), (""'come'"", ""'start'""), (""'leave'"", ""'happen'"")]"	0	
+11	government attack minority people force use think state civilian law	3.0	1.6	2.0	0		4	"[(""'government'"", ""'state'""), (""'force'"", ""'attack'""), (""'law'"", ""'use'""), (""'civilian'"", ""'people'"")]"	0	
+12	people believe god religion human church mean exist life christian	3.0	1.2	2.2	1	'mean'	2	"[(""'god'"", ""'religion'""), (""'christian'"", ""'church'"")]"	2	'believe' 'christian'
+13	question post answer newsgroup discussion ask read thread new mike	3.0	1.4	3.0	1	'mike'	3	"[(""'question'"", ""'ask'""), (""'post'"", ""'new'""), (""'answer'"", ""'new'"")]"	1	'mike'
+14	jewish black jews wrong search race delete story know land	2.4	1.4	2.0	2	'wrong' 'delete'	1	"[(""'jewish'"", ""'jews'"")]"	2	'wrong' 'delete'
+15	drug use error correct value plant list crack property line	2.0	1.8	2.0	2	'plant' 'crack'	3	"[(""'use'"", ""'error'""), (""'correct'"", ""'value'""), (""'plant'"", ""'list'"")]"	1	'crack'
+16	sexual sex double know verdict admit child orientation thing think	2.6	1.6	2.0	4	'double' 'child' 'verdict' 'admit'	2	"[(""'sexual'"", ""'sex'""), (""'admit'"", ""'know'"")]"	1	'double'
+17	research secretary president committee organization university material center agency national	3.0	2.0	3.0	2	'material' 'secretary'	3	"[(""'research'"", ""'university'""), (""'secretary'"", ""'agency'""), (""'committee'"", ""'center'"")]"	6	'secretary' 'president' 'committee' 'organization' 'center' 'agency'
+18	health care pay private canada condition year average good excellent	3.0	1.6	3.0	1	'pay'	3	"[(""'health'"", ""'care'""), (""'pay'"", ""'year'""), (""'average'"", ""'good'"")]"	0	
+19	space earth nasa launch energy orbit mission image satellite flight	3.0	1.2	3.0	2	'earth' 'energy'	0	[]	0	
+20	sound fan left like right screw cheer straight spread funny	2.8	1.8	2.0	1	'screw'	1	"[(""'left'"", ""'right'"")]"	1	'screw'
+21	drive hard tape problem supply internal pin disk work power	3.0	1.4	2.0	1	'power'	2	"[(""'drive'"", ""'disk'""), (""'tape'"", ""'drive'"")]"	1	'disk'
+22	ground service use radio current box wire switch power need	3.0	1.0	2.8	2	'use' 'need'	4	[('ground', 'box'), ('service', 'current'), ('use', 'need'), ('power', 'service')]	0	
+23	use send mail request address list application user message number	3.0	1.8	2.2	2	'application' 'number'	8	"[(""'use'"", ""'send'""), (""'send'"", ""'send'""), (""'send'"", ""'mail'""), (""'mail'"", ""'send'""), (""'mail'"", ""'request'""), (""'request'"", ""'request'""), (""'request'"", ""'message'""), (""'message'"", ""'message'"")]"	2	'send' 'request'
+24	chip problem help line count appreciate jordan work memory use	2.8	1.8	2.0	1	'jordan'	7	"[(""'chip'"", ""'chip'""), (""'help'"", ""'help'""), (""'line'"", ""'line'""), (""'count'"", ""'count'""), (""'appreciate'"", ""'appreciate'""), (""'jordan'"", ""'jordan'""), (""'work'"", ""'work'"")]"	0	
+25	steve mark brian dos adam picture peter book date respond	1.8	2.4	2.4	3	'picture' 'book' 'date'	2	"[(""'steve'"", ""'mark'""), (""'brian'"", ""'peter'"")]"	1	'dos'
+26	palestinians terrorism page torture conference camp final press tank atf	1.2	2.0	2.0	4	'page' 'press' 'tank' 'atf'	1	"[(""'torture'"", ""'torture'"")]"	2	'tank' 'atf'
+27	gay play pick dog wing warrant reserve free govt record	2.2	1.6	2.0	2	'dog' 'record'	2	"[(""'play'"", ""'play'""), (""'dog'"", ""'dog'"")]"	1	'govt'
+28	clipper phone patient disease treatment security medical announcement need teacher	3.0	1.6	2.6	3	'phone' 'clipper' 'teacher'	3	"[(""'clipper'"", ""'phone'""), (""'disease'"", ""'treatment'""), (""'medical'"", ""'need'"")]"	0	
+29	waste eat favor food big blow perry drug kid bob	1.4	2.0	2.0	1	'big'	1	"[(""'waste'"", ""'blow'"")]"	2	'perry' 'bob'
+30	key game bit algorithm use point block time command method	2.8	1.4	2.0	3	'key' 'point' 'bit'	3	"[(""'algorithm'"", ""'method'""), (""'block'"", ""'block'""), (""'key'"", ""'key'"")]"	0	
+31	card use bit gaza mode mac fast bus machine ibm	2.8	1.8	2.0	3	'gaza' 'mac' 'bus'	2	"[(""'card'"", ""'mac'""), (""'gaza'"", ""'ibm'"")]"	1	'gaza'
+32	file nazi available ftp edu site version archive anonymous format	2.6	1.8	2.0	0		3	"[(""'file'"", ""'format'""), (""'ftp'"", ""'site'""), (""'archive'"", ""'available'"")]"	2	'ftp' 'site'
+33	price sell cost sale purchase product staff des market order	3.0	1.4	2.2	2	'staff' 'des'	1	"[(""'price'"", ""'cost'"")]"	1	'des'
+34	state people law muslim genocide right government population muslims history	2.4	1.6	2.0	1	'population'	2	"[(""'people'"", ""'population'""), (""'muslim'"", ""'muslims'"")]"	2	'muslim' 'muslims'
+35	good look thank want code help reply know like hear	2.8	1.6	2.6	0		8	"[(""'good'"", ""'good'""), (""'look'"", ""'look'""), (""'thank'"", ""'thank'""), (""'want'"", ""'want'""), (""'code'"", ""'code'""), (""'help'"", ""'help'""), (""'reply'"", ""'reply'""), (""'know'"", ""'know'"")]"	0	
+36	theory screen object speech hole problem time josh light herring	1.4	2.6	2.0	0		1	"[(""'theory'"", ""'problem'"")]"	2	'herring' 'josh'
+37	crime trial law state police people gay criminal guilty case	3.0	1.2	2.6	2	'gay' 'people'	4	"[(""'crime'"", ""'criminal'""), (""'law'"", ""'guilty'""), (""'police'"", ""'state'""), (""'case'"", ""'trial'"")]"	1	'gay'
+38	israel greek people jews kill soldier soviet child come dead	2.6	1.4	2.0	1	'come'	2	"[(""'israel'"", ""'jews'""), (""'soviet'"", ""'greek'"")]"	1	'soviet'
+39	fbi read report know local datum news philadelphia accurate suspect	2.8	1.8	2.2	2	'read' 'accurate'	1	[('fbi', 'suspect')]	1	'datum'
+40	study trade cover opinion armed brain parent new river hospital	1.6	1.8	2.8	2	'river' 'hospital'	4	"[(""'study'"", ""'brain'""), (""'trade'"", ""'parent'""), (""'cover'"", ""'river'""), (""'opinion'"", ""'new'"")]"	1	'armed'
+41	car water good like time ride year new engine mile	3.0	1.8	3.0	0		3	"[(""'car'"", ""'ride'""), (""'new'"", ""'good'""), (""'mile'"", ""'year'"")]"	0	
+42	team think game year lose player play good compromise bad	2.4	1.8	2.2	1	'year'	2	"[(""'think'"", ""'think'""), (""'play'"", ""'play'"")]"	0	
+43	president group troop vote press consider proposal package issue option	2.8	1.8	2.8	3	'group' 'troop' 'press'	0	[]	0	
+44	point liberal medium bias bomb goal zionist conservative bush military	2.2	2.0	2.0	1	'bomb'	1	"[(""'liberal'"", ""'conservative'"")]"	0	
+45	write book translation original think sense david marriage read know	2.8	2.0	2.4	2	'marriage' 'david'	2	"[(""'write'"", ""'read'""), (""'translation'"", ""'original'"")]"	0	
+46	gun koresh homosexual like tax think right defense shoot time	2.4	2.2	2.0	1	'koresh'	3	"[(""'like'"", ""'right'""), (""'shoot'"", ""'gun'""), (""'defense'"", ""'tax'"")]"	1	'koresh'
+47	army nazis role iran war movement land libertarian british pain	2.2	2.0	2.0	2	'libertarian' 'pain'	1	"[(""'british'"", ""'iran'"")]"	1	'libertarian'
+48	turkish max air von oppress yup sexuality ali biz anxiety	1.8	1.8	2.0	4	'max' 'yup' 'biz' 'ali'	7	"[(""'turkish'"", ""'turkish'""), (""'max'"", ""'max'""), (""'air'"", ""'air'""), (""'yup'"", ""'yup'""), (""'oppress'"", ""'oppress'""), (""'sexuality'"", ""'sexuality'""), (""'ali'"", ""'ali'"")]"	1	'yup'
+49	run driver build color graphic version kent windows doug like	2.0	2.2	2.0	0		2	"[(""'build'"", ""'driver'""), (""'color'"", ""'version'"")]"	2	'kent' 'doug'

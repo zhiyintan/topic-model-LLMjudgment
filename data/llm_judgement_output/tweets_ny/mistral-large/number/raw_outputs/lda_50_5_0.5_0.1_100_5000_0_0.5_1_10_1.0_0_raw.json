@@ -1,0 +1,3573 @@
+{
+  "0": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'yes' 'sugar'"
+      },
+      "raw": [
+        "'everyday', 'yes', 'school', 'big', 'gym', 'motto' ]",
+        "'guitar', 'sugar', 'motto' ]",
+        "'yes', 'black', 'sugar' ]",
+        "'everyday', 'learn', 'yes', 'black', 'school', 'big', 'sugar' ]\n\nSo, the list of words that do not semantically belong to the same conceptual theme as the others is:\n\neveryday",
+        "'everyday', 'yes', 'sugar', 'gym', 'motto' ]\n\nThe words 'guitar', 'learn', 'school', 'big' and 'black' seem to be more closely related, as they can"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'yes'",
+            "'no'"
+          ]
+        ]
+      },
+      "raw": "('yes', 'no')]\n\nHowever, based on the provided word set [ 'guitar', 'everyday', 'learn', 'yes', 'black', 'school', 'big', 'sugar', 'gym', 'm"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "]  \"All words are valid\".",
+        "]\n\nAll words are valid.",
+        "]\nAll words are valid.",
+        "]\n\nReason:\n- 'guitar' is a valid word.\n- 'everyday' is a valid word.\n- 'learn' is a valid word.\n- 'yes' is a valid word.\n- 'black' is a valid word"
+      ]
+    }
+  },
+  "1": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'ticket' 'husband' 'newyearnewme'"
+      },
+      "raw": [
+        "'ticket', 'husband', 'newyearnewme' ]\n\nThe words 'smoking', 'gain', 'waste', 'fat', 'lose', 'cookie' all relate to concepts around health, weight, and diet, while '",
+        "'ticket', 'husband', 'newyearnewme', 'cookie' ]\n\nThese words do not appear to fit with the conceptual theme of health and weight management suggested by the other words.",
+        "'ticket', 'husband', 'way', 'newyearnewme', 'cookie' ]\n\nSo, the comma-separated list is:\nticket, husband, way, newyearnewme, cookie",
+        "'newyearnewme', 'ticket', 'husband' ]\n\nExplanation:\n- 'smoking', 'gain', 'waste', 'fat', 'lose', 'cookie' all relate to health, diet, and lifestyle choices.\n-",
+        "'husband', 'ticket', 'newyearnewme'  ]\n\nSo, the words that do not semantically belong to the same conceptual theme as the others are: husband, ticket, newyearnewme."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'newyearnewme'",
+            "'newyearnewme'"
+          ]
+        ]
+      },
+      "raw": "('newyearnewme', 'newyearnewme') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'newyearnewme'"
+      },
+      "raw": [
+        "'newyearnewme' ]\n\n**Reason:**\n- **'newyearnewme'**: This appears to be a compound word or a typographical error rather than a single, distinct word. It is not a standard term and is likely a typo",
+        "'newyearnewme' ]\n\nReason:\n- 'newyearnewme': This word appears to be a concatenation of \"new year\" and \"new me,\" which is not a standard word and may be considered unclear or a typo.",
+        "'newyearnewme' ].\n\n### Reasons:\n- **'newyearnewme'**: This appears to be a typographical error or a broken string. It seems to be a combination of \"new year\" and \"new me,\"",
+        "'newyearnewme' ].\n\nThe word 'newyearnewme' appears to be a malformed or unclear abbreviation, possibly a hashtag or a typographical error.",
+        "'newyearnewme' ]\n\nReasons:\n- 'newyearnewme': This appears to be a typo or a broken string. It does not convey a clear meaning and seems to be a concatenation of words that might be intended to form"
+      ]
+    }
+  },
+  "2": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'super' 'chicken'"
+      },
+      "raw": [
+        "'moment', 'super', 'chicken' ]",
+        "'pound', 'watch', 'realistic', 'moment', 'reality', 'super', 'chicken' ]",
+        "'moment', 'chicken' ]\n\nSo the list of words that do not semantically belong to the same conceptual theme as the others is:\nmoment, chicken",
+        "'super', 'chicken' ].\nThe conceptual theme of the remaining words appears to be related to fitness and weight loss, including aspects like prioritizing, effort, weight, time, and reality checks.",
+        "'super', 'chicken' ]\n\nSo the list is: super, chicken"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'pound'",
+            "'lose'"
+          ]
+        ]
+      },
+      "raw": "('pound', 'lose')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\n\"All words are valid\"",
+        "]  None.\n\nAll words are valid.",
+        "]\n\nAll words are valid.",
+        "'super' ].\nReason:\n- 'super' could be an abbreviation or a shortened form of another word, but in this context, it is unclear without additional information. It does not clearly relate to the other words in the list, which seem",
+        "]\n\nAll words are valid."
+      ]
+    }
+  },
+  "3": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'idk' 'simply'"
+      },
+      "raw": [
+        "'idk' ]",
+        "'simply', 'idk' ]",
+        "'simply', 'tall', 'idk' ]\n\nSo the comma-separated list is:\n\nsimply,tall,idk",
+        "'fail', 'simply', 'idk', 'half' ]",
+        "'idk', 'simply', 'half', 'tall' ].\nThis list of words does not fit into the same theme as the others, which seem to be related to events, evaluation, and locations."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'idk'",
+            "'idk'"
+          ]
+        ]
+      },
+      "raw": "('idk', 'idk')]\n\nThe word 'idk' is the only word in the given list that is an acronym and stands for \"I don't know\". The other words do not form pairs that refer to exactly the same"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'idk'"
+      },
+      "raw": [
+        "'idk' ]\n\nReason:\n- 'idk': This is an abbreviation for \"I don't know,\" which is extremely rare and unclear in a formal or standard context.",
+        "'idk' ].\n\n**Reason**:\n- **'idk'**: This is an informal abbreviation for \"I don't know,\" which might be considered unclear or extremely rare in formal contexts. It's not a standard English word and might be",
+        "'idk' ].\n\nReasons:\n- 'idk' is an abbreviation for \"I don't know\" and is extremely rare and unclear in the context of a list of topic words.",
+        "'idk' ].\n\n**Reasons:**\n- 'idk' is an extremely rare and unclear abbreviation, often used informally to mean \"I don't know.\" It does not fit the context of a standard list of topic words.",
+        "]\n\n**Reasoning:**\n1. **idk** - This abbreviation is commonly used in informal contexts to mean \"I don't know,\" but it is not a standard English word and can be considered unclear or rare in formal contexts.\n\nAll other words"
+      ]
+    }
+  },
+  "4": {
+    "coherence": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'definitely' 'come'"
+      },
+      "raw": [
+        "'tone', 'definitely', 'come', 'effect' ]",
+        "'shit', 'tone', 'definitely', 'come' ]",
+        "'shit', 'effect' ]\n\nSo, the list of words that do not belong to the same conceptual theme as the others is:\n\nshit, effect",
+        "'tone', 'definitely', 'come', 'effect' ]",
+        "'definitely', 'come', 'shit' ].\n\nSo, the list is: definitely, come, shit."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'shit'",
+            "'definitely'"
+          ]
+        ]
+      },
+      "raw": "('shit', 'definitely')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'shit'"
+      },
+      "raw": [
+        "'shit' ]\n\nReason:\n- 'shit' is a vulgar term and may not be appropriate for all contexts, especially if the list is intended to be formal or professional. It could be considered a malformed or inappropriate term depending on the",
+        "'shit' ].\n\n**Reasons:**\n- **'shit'**: This word is considered inappropriate and not suitable for most contexts, especially in formal or professional settings. It is not a typo or broken string, but its use should be",
+        "'shit' ]\n\n- \"shit\" is a profanity and is generally considered inappropriate or offensive in many contexts.",
+        "'shit' ].\n\n**Reason:**\n- 'shit' is considered a vulgar or offensive term and may not be suitable for all contexts. It could be considered inappropriate or unclear without additional context.",
+        "'shit' ]\n\nReasons:\n- 'shit': This word is considered profane and inappropriate in many contexts, which may not be suitable for a typical list of topic words."
+      ]
+    }
+  },
+  "5": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'rockin'"
+      },
+      "raw": [
+        "'oop', 'rockin' ].",
+        "'rockin', 'oop', 'app' ]\n\nThe words 'fresh', 'family', 'spend', 'eve', 'calendar', 'yesterday', 'healthy' seem to belong to a common theme related to time management,",
+        "'rockin' ]",
+        "'rockin' ].\n\nThe other words seem to be related to concepts of scheduling, time management, and family activities, while \"rockin'\" stands out as a term more related to music or enthusiasm.",
+        "'oop', 'rockin' ]\n\nSo, the words that do not semantically belong to the same conceptual theme as the others are:\noop, rockin"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'family'",
+            "'rockin'"
+          ]
+        ]
+      },
+      "raw": "('family', 'rockin')]\n\nExplanation: The pair 'family' and 'rockin' are not typically considered to refer to the same concept or idea. However, if we interpret 'rockin' as an abbreviation or slang for"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'rockin'"
+      },
+      "raw": [
+        "'rockin' ]\n\n**Reasons:**\n- 'rockin' : This could be a typo or a very informal abbreviation/ slang for \"rocking,\" which is not a standard word in the context of the other topics. It is unclear",
+        "'rockin' ] because it appears to be an abbreviation or slang and 'oop' because it is an abbreviation that may not be universally clear to all audiences. Additionally, 'eve' might be considered invalid without more context, as it",
+        "'rockin' ]\n\nThe word 'rockin' appears to be a typo or informal abbreviation, which makes it unclear and potentially invalid in a standard context.",
+        "'oop', 'eve' ]\n\n- 'oop': This is likely an abbreviation for \"Object-Oriented Programming,\" which is not a common term in everyday language and may not be clear to everyone.\n- 'eve': While 'eve'",
+        "'oop', 'eve', 'rockin' ]\n\nHere are the brief reasons:\n\n- **oop**: This could be an abbreviation for \"object-oriented programming,\" but it's unclear in this context and might be considered a typo or unclear abbreviation"
+      ]
+    }
+  },
+  "6": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'haha' 'dick'"
+      },
+      "raw": [
+        "'haha', 'attitude', 'save' ]",
+        "'dick', 'haha' ]",
+        "'haha', 'dick' ]",
+        "'dick', 'haha' ]\n\nSo the list would be: \"dick,haha\"",
+        "'haha', 'dick' ]\n\nSo the comma-separated list is: haha,dick"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'dick' 'haha'"
+      },
+      "raw": [
+        "'stuff', 'dick', 'haha' ]\n\nReasons:\n1. **'stuff'**: This word is too generic and does not clearly convey a specific topic.\n2. **'dick'**: This word is offensive and inappropriate",
+        "'dick', 'haha' ]\n\nBrief reasons:\n- 'dick': This word is inappropriate and not suitable for general or formal contexts.\n- 'haha': This is not a standard word but rather an onomatopoeic",
+        "'dick', 'haha' ]\n\nBrief reasons:\n- 'dick': This word is generally considered inappropriate or offensive in many contexts.\n- 'haha': This is not a clear topic word and is more likely an expression of laughter",
+        "'dick' ]\n\n**Reasons:**\n- 'dick' - This word is considered inappropriate and offensive in most contexts.\n\nAll other words in the list appear to be valid and clearly understandable.",
+        "'haha' , 'dick' ]\n\n- 'haha': This is an informal and non-meaningful string in the context of a formal topic list.\n- 'dick': This word is not appropriate in a professional or formal context"
+      ]
+    }
+  },
+  "7": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'trust' 'deal'"
+      },
+      "raw": [
+        "'trust', 'begin', 'deal' ]",
+        "'begin', 'trust', 'deal', 'emotion' ]\n\nTherefore, the list of words that do not semantically belong to the same conceptual theme as the others is:\nbegin,trust,deal,emotion",
+        "'fake', 'pop', 'trust', 'battle' ]\n\nSo the output would be:\nfake, pop, trust, battle",
+        "'begin', 'pop', 'deal', 'email', 'trust' ]",
+        "'pop', 'email', 'trust', 'battle', 'deal' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "]\n\nGiven the topic word set [ 'completely', 'fake', 'candy', 'begin', 'pop', 'email', 'trust', 'battle', 'deal', 'emotion' ], there are no pairs of words that"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'completely', 'pop', 'emotion' ]\n\nHere are the reasons:\n\n- 'completely': While 'completely' is a valid word, it is contextually out of place among the other words which seem to be more specific or",
+        "'completely', 'begin', 'emotion' ]\n\nReasons:\n- 'completely' is too generic and not specific enough to be a topic word.\n- 'begin' is too generic and not specific enough to be a topic word.",
+        "].\n\nAll words are valid.",
+        "]\n\nReason:\n1. \"completely\" - This word is correctly spelled and commonly used.\n2. \"fake\" - This word is correctly spelled and commonly used.\n3. \"candy\" - This word is correctly spelled and commonly used.",
+        "'pop' ]\n\n- 'pop': This word is too generic and can be considered as a short, unclear abbreviation.\n\nAll other words are valid."
+      ]
+    }
+  },
+  "8": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'fucking' 'delete'"
+      },
+      "raw": [
+        "'fucking', 'delete' ]\n\nSo, the list of words that do not semantically belong to the same conceptual theme as the others is:\n\nfucking, delete",
+        "'fucking', 'burn', 'delete' ]\n\nSo, the words that do not semantically belong to the same conceptual theme as the others are:\n\nfucking, burn, delete",
+        "'fucking', 'delete' ]\n\nSo, the comma-separated list is:\nfucking, delete",
+        "'fucking', 'delete' ]\n\nSo, the list is:\nfucking, delete",
+        "'travel', 'internship', 'band', 'settle', 'delete' ]\n\nThe words that do not semantically belong to the same conceptual theme as the others are:\n\ntravel, internship, band, settle, delete"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'fucking'"
+      },
+      "raw": [
+        "'fucking', 'band']\n\n**Reasons:**\n- **fucking**: This word is considered vulgar and inappropriate in many contexts, which might be deemed invalid depending on the context.\n- **band**: This word is too ambiguous in the",
+        "'fucking', 'burn' ]\n\nReasons:\n- \"fucking\": This word is not suitable for all contexts and is considered inappropriate in many professional or formal settings.\n- \"burn\": This word can be ambiguous and may refer to",
+        "'fucking', 'burn' ]\n\nReasons:\n- 'fucking': This word is considered profane and inappropriate in many contexts, though it is not technically a typo or broken string.\n- 'burn': This word is too vague",
+        "]\n\nAll words are valid.",
+        "'fucking', 'draw', 'band', 'settle', 'delete' ]\n\nHere are the reasons:\n- 'fucking' is considered inappropriate for many contexts.\n- 'draw' is a valid word, but it could be"
+      ]
+    }
+  },
+  "9": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'catch' 'wife'"
+      },
+      "raw": [
+        "'catch', 'break', 'wife', 'healthy' ]\n\nSo, the list is: catch, break, wife, healthy.",
+        "'catch', 'break', 'wife', 'difference' ]\n\nSo, the comma-separated list is: catch, break, wife, difference.",
+        "'catch', 'break', 'wife'  ]",
+        "'habit', 'home', 'wife', 'sleep' ]",
+        "'catch', 'wife' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'habit'",
+            "'healthy'"
+          ]
+        ]
+      },
+      "raw": "('habit', 'healthy')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\n**Reasoning:**\n- 'habit', 'catch', 'season', 'home', 'difference', 'break', 'wife', 'sleep', 'popular', 'healthy' are all standard English words and do not appear to be",
+        "].\n\nReason:\nNone of the words in the list appear to be malformed, typos, or extremely rare and unclear abbreviations. They are all common English words and are correctly spelled.\n\nAll words are valid.",
+        "].\n\nAll words are valid.",
+        "]\nThe words in the list are all valid English words and do not appear to be malformed, misspelled, or unclear abbreviations.",
+        "]\n\nReason: All words are valid. There are no typos, broken strings, or extremely rare, unclear abbreviations in the given list."
+      ]
+    }
+  },
+  "10": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'blair'"
+      },
+      "raw": [
+        "'chuck', 'blair', 'netflix' ].\nThese words do not seem to belong to the same conceptual theme as the other words in the list. The remaining words [ 'paper', 'special', 'lie', 'state',",
+        "'chuck', 'blair', 'dead' ]\n\nSo the list is: chuck, blair, dead",
+        "'lmao', 'blair' ]\n\nThe words 'lmao' and 'blair' do not fit into a common conceptual theme with the other words. The other words seem to relate to entertainment and media (e.g., '",
+        "'blair', 'netflix' ].\n\nSo, the comma-separated list is:\nblair,netflix",
+        "'paper', 'special', 'state', 'blair', 'netflix' ]\n\nThe remaining words ['chuck', 'lie', 'dead', 'lmao', 'watch'] appear to have a common theme related to entertainment or media"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'state'",
+            "'blair'"
+          ],
+          [
+            "'watch'",
+            "'netflix'"
+          ]
+        ]
+      },
+      "raw": "('state', 'blair'), ('watch', 'netflix')].\n\nExplanation:\n- 'state' and 'blair' refer to the same concept of a state or region.\n- 'watch' and 'netflix' refer to the"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'lmao'"
+      },
+      "raw": [
+        "'lmao' ]\n\nReason: 'lmao' is an abbreviation that stands for \"laughing my ass off,\" and while it's commonly understood in informal contexts, it is not a standard word and might be considered unclear or extremely",
+        "'lmao' ]\n\n**Reasons:**\n- **lmao**: This is an abbreviation commonly used in informal text and may not be clear to all audiences. It stands for \"laughing my ass off,\" which might be considered unclear",
+        "'lmao' ]\n\nReasons:\n- **lmao**: This is an internet slang abbreviation for \"laughing my ass off,\" which may not be considered valid in a formal context and is not a standard word.\n\nIf there",
+        "'lmao' ]\n\nReason:\n- 'lmao' is an abbreviation that stands for \"laughing my ass off\" and is not a standard English word. While it is commonly used in informal communication, it is not considered a",
+        "'lmao', 'blair' ]\n\nReasons:\n- 'lmao': This is an abbreviation for \"laughing my ass off\" and is not a standard word. It might be considered extremely rare or unclear without context."
+      ]
+    }
+  },
+  "11": {
+    "coherence": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'res' 'baseball'"
+      },
+      "raw": [
+        "'res', 'read', 'baseball' ].\nThese words do not fit well with the theme that appears to be related to control, water, clothing, and being physically and mentally tough.",
+        "'mentally', 'res', 'baseball' ]\n\nThe correct comma-separated list is:\nmentally,res,baseball",
+        "'clothe', 'res', 'baseball' ]\n\nSo the list is: clothe, res, baseball",
+        "'physically', 'res', 'read', 'baseball', 'tough' ]\n\nSo the comma-separated list is: physically,res,read,baseball,tough.",
+        "'tough', 'read', 'res'  ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'clothe'",
+            "'clothing'"
+          ]
+        ]
+      },
+      "raw": "('clothe', 'clothing') ]\n\nIn the provided list, there are no pairs of words that refer to exactly the same concept or idea. The word 'clothing' is not in the list. However, 'clothe' and '"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'res'"
+      },
+      "raw": [
+        "'res' ]\n\nReason: 'res' is unclear as an abbreviation or a word and could be a typo or broken string.",
+        "'res' ]\n\n**Reasons:**\n\n1. **'res'**: This token is unclear and could be an abbreviation or a typo. It is not a standard English word in this context and its meaning is ambiguous.\n\nAll other words seem to be",
+        "'res' ]\n\nReason: \"res\" is extremely rare and unclear, possibly an abbreviation for something that is not widely understood in common contexts. It could be a typo or an incomplete word.",
+        "'res', 'clothe' ]\n\nBrief reasons:\n- 'res': This token is unclear and seems to be an abbreviation or a fragment of a word. Without additional context, it's difficult to determine its meaning.\n- 'clothe':",
+        "'res' ].\n\nReasons:\n- 'res' is an unclear abbreviation and could be a typo or a part of a word rather than a standalone word."
+      ]
+    }
+  },
+  "12": {
+    "coherence": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'winter' 'potato'"
+      },
+      "raw": [
+        "'winter', 'potato', 'instagram', 'twitter' ]\n\nSo, the list is: winter, potato, instagram, twitter.",
+        "'winter', 'potato' ]",
+        "'winter', 'potato' ].\nSo, the comma-separated list is:\n\nwinter, potato",
+        "'truth', 'advice', 'potato' ]\n\nSo, the comma-separated list of these words is:\ntruth, advice, potato",
+        "'involve', 'able', 'truth', 'advice', 'winter', 'potato' ]\n\nSo, the list is:\ninvolve, able, truth, advice, winter, potato"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'fast'",
+            "'fast'"
+          ]
+        ]
+      },
+      "raw": "('fast', 'fast')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'winter' ]\n\nReason:\n- 'winter' is a valid word but it is not related to the general theme of the other words which seems to be more related to communication and technology. It stands out as an outlier in this context",
+        "].\n\nAll words are valid.",
+        "]\n\nReason: None of the words in the list are malformed or extremely rare, unclear abbreviations. All the words are standard English terms.",
+        "'involve', 'twitter' ]\n\nReasons:\n- **involve**: This word is valid in English, but it does not fit the context of the other words in the list, which are mostly nouns or adjectives. It seems",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "13": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'meet' 'release'"
+      },
+      "raw": [
+        "'fuck', 'niggas' ]\n\nSo, the list of words that do not belong to the same conceptual theme as the others is:  fuck,niggas",
+        "'mistake', 'meet', 'accept', 'sorry', 'release' ]",
+        "'meet', 'accept', 'passion', 'release' ]",
+        "'mistake', 'meet', 'passion', 'release' ]",
+        "'mistake', 'meet', 'long', 'passion', 'release' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'fuck'",
+            "'niggas'"
+          ]
+        ]
+      },
+      "raw": "('fuck', 'niggas')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'fuck' 'niggas'"
+      },
+      "raw": [
+        "'fuck', 'niggas' ]\n\n Reasons:\n- 'fuck': This word is considered profane and inappropriate in many contexts.\n- 'niggas': This term is highly controversial and offensive to many, and its usage is",
+        "'niggas', 'fuck' ]\n\nReasons:\n1. **'niggas'**: This word is highly offensive and derogatory. It is not appropriate for general use and should be avoided.\n2. **'fuck",
+        "'fuck', 'niggas' ]\n\n**Reasons:**\n1. **'fuck'**: This word is considered profane or offensive and may not be appropriate in many contexts.\n2. **'niggas'**: This term",
+        "'fuck', 'niggas' ]\n\nBrief reasons:\n- **'fuck'**: This word is profane and may not be appropriate in many contexts.\n- **'niggas'**: This term is considered offensive and der",
+        "'fuck', 'niggas' ]\n\n**Reasons:**\n- **\"fuck\"**: This word is considered offensive and inappropriate in many contexts.\n- **\"niggas\"**: This word is also offensive and inappropriate in many contexts and may"
+      ]
+    }
+  },
+  "14": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'asshole' 'drop'"
+      },
+      "raw": [
+        "'asshole', 'mouth', 'drop'  ]\n\nThese words do not fit the general theme of the other words, which seem to relate to concepts of creativity, consideration, and positivity.",
+        "'house', 'asshole', 'mouth', 'consider', 'little', 'today', 'creative', 'drop', 'free', 'heart' ]\n\nThe word that does not semantically belong to the same conceptual theme as the others is",
+        "'free', 'drop', 'today', 'creative', 'little' ].\n\nThe remaining words seem to be related to the concept of a physical or emotional state or action, while the inconsistent words do not fit this theme.",
+        "'asshole', 'creative', 'drop', 'free' ]\n\nSo the comma-separated list is:\nasshole, creative, drop, free",
+        "'asshole', 'drop' ].\n\nSo, the list is: asshole, drop"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'house'",
+            "'heart'"
+          ]
+        ]
+      },
+      "raw": "('house','heart') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'asshole'"
+      },
+      "raw": [
+        "'asshole' ]. The reason for identifying this word as invalid is because it is an offensive or inappropriate term, which does not fit the context of typical topic words. If the context were different, it might be acceptable, but generally, it is",
+        "'asshole' ]\n\nReason: The word 'asshole' is considered inappropriate and not suitable for general use or formal contexts.",
+        "'asshole' ]\n\nReason:\n- 'asshole' is considered inappropriate and offensive language, and may not be suitable for all contexts.",
+        "'asshole' ] with reason:\n\n- 'asshole': This word is considered vulgar and inappropriate in many contexts, which might not be suitable for a general list of topic words.\n\nAll other words are valid.",
+        "'asshole' ]\n\nReason:\n- 'asshole': This word is considered vulgar and inappropriate in many contexts, which might make it an invalid choice depending on the context and audience.\n\nAll other words seem to be valid and clear."
+      ]
+    }
+  },
+  "15": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'weight' 'toilet'"
+      },
+      "raw": [
+        "'weight', 'toilet', 'god' ].",
+        "'toilet', 'believe', 'god' ]\n\nThese words do not seem to fit the conceptual theme suggested by the other words, which appear to be related to activities, physical attributes, and concepts like 'ball', 'song', 'weight",
+        "'toilet', 'weight', 'god' ]\n\nSo, the list of words that do not belong to the same conceptual theme is: toilet,weight,god",
+        "'weight', 'toilet' ]\n\nSo, the list of words that do not belong to the same conceptual theme is:\n\nweight, toilet",
+        "'toilet', 'weight', 'believe'  ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'hear'",
+            "'song'"
+          ]
+        ]
+      },
+      "raw": "('hear', 'song')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "]\n\n**None of the words in the list appear to be malformed or extremely rare, unclear abbreviations.**\n\nAll words are valid.",
+        "]\nReason:\n- \"All words are valid\"",
+        "'toilet' , 'god' ].\n\n 1. **toilet**: This word is typically not considered a topic word in the context of general conversation or academic writing. It is too specific and could be considered obscure or irrelevant in many contexts",
+        "]\n\nAll words are valid",
+        "'toilet' ]\n\nReason: \"toilet\" is not typically a word used in the context of the other words in the list. The list seems to contain words that are generally more abstract or conceptual, while \"toilet\" is a very"
+      ]
+    }
+  },
+  "16": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'crack' 'earth'"
+      },
+      "raw": [
+        "'crack', 'rich', 'earth' ].\nThe conceptual theme of the other words is related to clothing and activities, while 'crack', 'rich', and 'earth' do not fit this theme.",
+        "'crack', 'treat', 'visit', 'officially' ].\n\nTo clarify, the words 'shoe', 'sock', 'earth' and 'community' share a common theme related to physical objects and environments. The",
+        "'crack', 'rich', 'earth' ]\n\nThese words do not seem to fit with the theme suggested by the other words, which appear to be related to actions and items of clothing or social activities.",
+        "'shoe', 'sock', 'crack', 'earth'  ]\n\nTherefore, the list of words that do not semantically belong to the same conceptual theme as the others is:\nshoe,sock,crack,earth",
+        "'earth', 'rich' ]\n\nThese words do not fit well with the theme suggested by words like 'shoe', 'sock', 'treat', 'visit', 'community', 'officially', 'crack', and 'instead"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'sock'",
+            "'shoe'"
+          ]
+        ]
+      },
+      "raw": "('sock','shoe')]\n\nNote: The words 'sock' and 'shoe' are often considered related concepts rather than exactly the same. However, since the question specifies pairs of words that refer to concepts or ideas that are exactly"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "]\n\nHowever, let's examine the list closely:\n\n1. **shoe**: This word is valid.\n2. **sock**: This word is valid.\n3. **treat**: This word is valid.\n4. **visit**: This word",
+        "'officially', 'crack' ]\n\n### Reasons:\n1. **officially**: This word is valid, but it is not typically used as a topic word in a list of general nouns or verbs. It seems out of context",
+        "]\nAll words are valid.",
+        "'crack' ]\n\nReason: 'crack' could be considered malformed or unclear without additional context. It is a common word but in this context, it does not seem to fit well with the other words, which are more related to clothing",
+        "'officially', 'crack', 'rich' ] for the following reasons:\n\n1. **'officially'**: This word is not particularly relevant to the context of the other words and seems out of place in a list that includes"
+      ]
+    }
+  },
+  "17": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'guy'"
+      },
+      "raw": [
+        "'january', 'birthday', 'guy' ]\n\nSo the list would be: january, birthday, guy",
+        "'car', 'use', 'bad' ]\n\nThese words do not fit the conceptual theme of a specific event or activity, which the other words ('january', 'complain', 'birthday', 'guy', 'amazing', 'look",
+        "'car', 'january', 'guy', 'bad' ]",
+        "'car', 'birthday', 'guy' ]",
+        "'january', 'birthday', 'guy' ]\n\nSo, the list of words that do not semantically belong to the same conceptual theme as the others is:\njanuary,birthday,guy"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'birthday'",
+            "'january'"
+          ]
+        ]
+      },
+      "raw": "('birthday', 'january')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid.",
+        "]\n**Reason**: All words are valid.",
+        "].\n\n**Reasoning**:\n- 'car': Valid word.\n- 'january': Valid word.\n- 'complain': Valid word.\n- 'birthday': Valid word.\n- 'guy': Valid word.\n- 'amazing': Valid word",
+        "]\nReason: All words are valid"
+      ]
+    }
+  },
+  "18": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'bullshit'"
+      },
+      "raw": [
+        "'baby', 'bit', 'bullshit' ].\n\nSo, the list is: baby, bit, bullshit.",
+        "'bullshit' ]\n\nThe word \"bullshit\" does not fit with the other words which seem to be related to themes of sports, activities, or early stages of life.",
+        "'bullshit', 'bit' ]\n\nSo, the comma-separated list is: bullshit,bit",
+        "'bullshit' ]\n\nSo, the comma-separated list is: bullshit",
+        "'early', 'bit', 'bullshit'  ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 7,
+        "word_pairs": [
+          [
+            "'baby'",
+            "'baby'"
+          ],
+          [
+            "'early'",
+            "'early'"
+          ],
+          [
+            "'active'",
+            "'active'"
+          ],
+          [
+            "'bit'",
+            "'bit'"
+          ],
+          [
+            "'shoot'",
+            "'shoot'"
+          ],
+          [
+            "'clear'",
+            "'clear'"
+          ],
+          [
+            "'fall'",
+            "'fall'"
+          ]
+        ]
+      },
+      "raw": "('baby', 'baby'), ('early', 'early'), ('active', 'active'), ('bit', 'bit'), ('shoot', 'shoot'), ('clear', 'clear'), ('fall', 'fall'), ('gym',"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'bullshit'"
+      },
+      "raw": [
+        "'bullshit' ]\n\nReasons:\n- **bullshit**: This word is considered vulgar and inappropriate in many contexts, and it does not fit the general tone of the other words in the list, which are more neutral or positive. Additionally",
+        "'bullshit' ].\n\nReasons:\n- 'bullshit': This word is a profanity and not suitable for most contexts, especially if the list is intended for general use or educational purposes. It also does not clearly relate to",
+        "'bullshit' ]\n\nReason:\n- 'bullshit' is considered profane and not suitable for most contexts, especially if the list is intended for general or professional use. Additionally, it is not clear what the intended meaning is in this",
+        "'bullshit' ]\n\nReason:\n- **bullshit**: This word is considered inappropriate and offensive in many contexts, which may make it an invalid token depending on the context of use.",
+        "'bit', 'bullshit']\n\n### Reasons:\n- **bit**: This word is too generic and can have multiple meanings. It's unclear in the context provided.\n- **bullshit**: This word is considered profane and is not"
+      ]
+    }
+  },
+  "19": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'gossip', 'reason', 'tonight', 'watch' ]\n\nSo, the comma-separated list is:\ngossip, reason, tonight, watch",
+        "'reason', 'tonight', 'meat' ].",
+        "'favorite', 'text'  ]\n\nSo, the list of words that do not belong to the same conceptual theme as the others is:\nfavorite, text",
+        "'hashtag', 'text' ].\n\nSo, the list is:\nhashtag, text",
+        "'meat', 'text' ]\n\nSo the list is: meat, text"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'hashtag'",
+            "'text'"
+          ]
+        ]
+      },
+      "raw": "('hashtag', 'text')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "]\nAll words are valid",
+        "'hashtag', 'text' ]\n\n### Reasons:\n1. **hashtag**: While \"hashtag\" is a common term in modern language, it is not a typical topic word in traditional contexts. It might be considered mal",
+        "]\n\nAll words are valid.",
+        "'tonight', 'text' ]\n\n**Reasons:**\n- 'tonight': This word is not necessarily a typo, but it might be considered extremely rare or unclear in certain contexts, especially if the topic list is supposed to be general or technical",
+        "]\n\nReason: None of the words in the list appear to be malformed, typos, or extremely rare, unclear abbreviations. All the words are common English words or terms that are clearly understandable.\n\nAll words are valid."
+      ]
+    }
+  },
+  "20": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'cup' 'hair'"
+      },
+      "raw": [
+        "'publish', 'cup', 'hair' ]\n\nTherefore, the comma-separated list of words that do not semantically belong to the same conceptual theme as the others is:\n\npublish, cup, hair",
+        "'level', 'block', 'cup', 'hair' ]\n\nSo, the comma-separated list is:\nlevel, block, cup, hair",
+        "'publish', 'cup', 'hair', 'film' ]\n\nTherefore, the list of words that do not belong to the same conceptual theme is: publish,cup,hair,film.",
+        "'cup', 'hair' ].",
+        "'cup', 'hair', 'film' ]\n\nSo the list of words that do not semantically belong to the same conceptual theme as the others is: \"cup, hair, film\"."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'film'",
+            "'movie'"
+          ]
+        ]
+      },
+      "raw": "('film', 'movie')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "]\n\nAll words are valid.",
+        "'film' ]\n\nReason: 'film' could be considered valid depending on the context, but it is not as commonly associated with technology or software development, which is the typical context for words like 'open', 'photo', 'problem', 'level",
+        "]\n\nReason: All words are valid.",
+        "'film' ]\n\nReason:\n- 'film' is a valid word, but it is unclear in the context of the list. It is an uncommon word in the context of topics like \"open\", \"photo\", \"problem\", \"level\", \"",
+        "]\n\nAll words are valid."
+      ]
+    }
+  },
+  "21": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'dance' 'chorgrapher'"
+      },
+      "raw": [
+        "'dance', 'chorgrapher' ]",
+        "'dance', 'chorgrapher' ]\n\nThese words do not fit with the theme that seems to be related to family ('dad', 'mom') and abstract concepts like 'true', 'afraid', 'god', 'dream",
+        "'chorgrapher', 'dance' ]\n\nSo, the list of words that do not semantically belong to the same conceptual theme as the others is:\n\nchorgrapher,dance",
+        "'dance', 'chorgrapher' ]\n\nSo the list of words that do not semantically belong to the same conceptual theme as the others is:\n\ndance,chorgrapher",
+        "'dance', 'chorgrapher', 'dream' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'mom'",
+            "'dad'"
+          ]
+        ]
+      },
+      "raw": "('mom', 'dad')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'chorgrapher'"
+      },
+      "raw": [
+        "]\n\nReason:\n- 'chorgrapher' appears to be a typo or misspelling of 'choreographer'.\n\nTherefore, the invalid word is:\n- 'chorgrapher': This appears to be a typo or misspelling of",
+        "'chorgrapher', 'dream' ]\n\nHere are the brief reasons for their invalidity:\n\n1. **chorgrapher**: This appears to be a typo. The correct spelling is likely \"choreographer.\"\n\n2. **d",
+        "'chorgrapher',  ] for the following reasons:\n\n- 'chorgrapher': This appears to be a typo or misspelling. The correct spelling is likely \"choreographer.\"\n\nAll other words in the list seem to be",
+        "'chorgrapher' ].\n\n**Reason:**\n- 'chorgrapher' appears to be a typo. The correct spelling should likely be 'choreographer'.\n\nAll other words are valid.",
+        "'chorgrapher' ]\n\nReasons:\n- 'chorgrapher' appears to be a typo or misspelling. It might be intended to be 'choreographer'.\n\nAll other words in the list appear to be valid and commonly"
+      ]
+    }
+  },
+  "22": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'nye' 'kill'"
+      },
+      "raw": [
+        "'pretty', 'selfie', 'nye' ]\n\nThese words do not seem to fit with the theme suggested by words like 'cat', 'dog', 'kill', 'choose', 'country', 'friend', 'raise'. The words '",
+        "'kill', 'nye' ]",
+        "'kill', 'choose', 'selfie', 'nye' ]\n\nSo, the list is:\nkill, choose, selfie, nye",
+        "'kill', 'choose', 'selfie', 'nye' ]\n\nSo, the comma-separated list is: kill, choose, selfie, nye",
+        "'kill', 'nye' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'country'",
+            "'nye'"
+          ]
+        ]
+      },
+      "raw": "('country', 'nye')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'nye'"
+      },
+      "raw": [
+        "'nye' ]\n\nThe reason for this is:\n- 'nye' is an unclear abbreviation and could be a typo or shorthand for something that is not immediately clear from the context given.\n\nAll other words appear to be correctly formed and",
+        "'nye' ]\n\nReason: 'nye' is an unclear abbreviation that could refer to \"New Year's Eve,\" but without context, it is unclear and could be a typo or misspelling.",
+        "'nye' ]\n\nBrief reasons:\n- 'nye': This word is unclear and may be a typo or an abbreviation without a clear meaning. It could be intended as \"NYE\" (New Year's Eve), but it is not",
+        "]\n\nAll words are valid.",
+        "'nye' ]\n\nReason:\n- 'nye' is an extremely rare, unclear abbreviation. Without additional context, it's unclear what 'nye' stands for. If it's meant to be \"New Year's Eve,\" it should be"
+      ]
+    }
+  },
+  "23": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'store' 'sex'"
+      },
+      "raw": [
+        "'cool', 'store', 'sex' ]",
+        "'cool', 'store', 'sex' ].",
+        "'store', 'happiness' ]\n\nThe words 'past', 'hurt', 'thought', 'cool', 'deep', 'feeling', 'stress', and 'sex' all relate to introspective, emotional, and exper",
+        "'store', 'sex' ].\n\nSo, the comma-separated list is: store, sex.",
+        "'cool', 'store', 'sex' ]\n\nSo, the list would be:\n\ncool, store, sex"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'hurt'",
+            "'feeling'"
+          ],
+          [
+            "'happiness'",
+            "'feeling'"
+          ],
+          [
+            "'deep'",
+            "'feeling'"
+          ]
+        ]
+      },
+      "raw": "('hurt', 'feeling'), ('happiness', 'feeling'), ('deep', 'feeling')]\n\nTo clarify, the pairs I provided are based on the idea that these words are often used to describe emotional states or sensations,"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nHowever, it is worth noting that the word \"sex\" might be considered inappropriate or sensitive in some contexts, but it is not malformed or an abbreviation.\n\nAll other words in the list are valid English words and do not appear to be ty",
+        "'stress', 'sex' ]\n\n Reasons:\n- 'stress': This word is valid in general, but it might be considered invalid in the context of certain formal or specific domains due to its potential to be a sensitive topic.\n- '",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "24": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'routine' 'studio' 'month'"
+      },
+      "raw": [
+        "'chocolate', 'routine', 'studio' ]\n\nSo the output should be:\nchocolate, routine, studio",
+        "'eve', 'studio', 'month' ]\n\nThese words do not fit with the theme that appears to be related to 'suck', 'blame', 'adult', 'rule', 'discover', 'chocolate', 'routine'.",
+        "'suck', 'blame', 'adult', 'rule', 'discover', 'eve', 'chocolate', 'routine', 'studio', 'month' ] .\n\nThese words are diverse and do not seem to belong to a single",
+        "'blame', 'discover', 'eve', 'routine', 'studio', 'month' ]\n\nSo, the list of words that do not semantically belong to the same conceptual theme as the others is: blame, discover, eve, routine",
+        "'discover', 'chocolate', 'routine', 'studio', 'month' ]\n\nThe words that do not semantically belong to the same conceptual theme as the others are:\n\ndiscover, chocolate, studio, month"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'suck'",
+            "'blame'"
+          ]
+        ]
+      },
+      "raw": "'suck', 'blame' ], [ 'rule', 'month' ], [ 'discover', 'studio' ], [ 'routine', 'adult' ], [ 'chocolate', 'eve' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "]\n\nAll words are valid",
+        "]\nAll words are valid.",
+        "] All words are valid.",
+        "]\n\nHere are the reasons:\n- \"suck\" and \"blame\" could be considered offensive or inappropriate in certain contexts, but they are valid English words.\n- \"adult\" and \"rule\" are valid English words.\n- \"dis"
+      ]
+    }
+  },
+  "25": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'zero'"
+      },
+      "raw": [
+        "'old', 'anymore', 'zero', 'fuck' ]\n\nThese words do not semantically align with the theme suggested by the other words, which seem to be related to online communication or media, such as 'hot', 'online",
+        "'zero', 'pic', 'tweet' ]",
+        "'old', 'anymore', 'zero' ]\n\nSo, the comma-separated list is:\nold, anymore, zero",
+        "'online', 'carry', 'zero', 'pic', 'tweet' ].\n\nThese words do not appear to fit the theme that seems to revolve around age and related sentiments, as suggested by words like 'hot', 'old',",
+        "'zero', 'carry', 'fuck' ].\n\nTherefore, the comma-separated list of words that do not semantically belong to the same conceptual theme as the others is:\n\nzero, carry, fuck"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'old'",
+            "'zero'"
+          ]
+        ]
+      },
+      "raw": "('old', 'zero')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'fuck'"
+      },
+      "raw": [
+        "'anymore', 'fuck' ]\n\nReason:\n- 'anymore' is not a single word with a clear meaning. It is typically used as an adverb.\n- 'fuck' is generally considered inappropriate and offensive in many",
+        "'anymore', 'fuck' ]\n\nReason:\n- 'anymore' is a valid word, but it's often used in informal contexts and might not be appropriate for formal or technical documents.\n- 'fuck' is a prof",
+        "'fuck' ]\n\nBrief reasons:\n- \"fuck\" is considered inappropriate or offensive and may not be suitable for most contexts.\n\nAll other words seem to be valid and commonly understood.",
+        "'fuck' ]\n\nReasons:\n- 'fuck': This word is generally considered inappropriate or profane in many contexts, which makes it inappropriate for use in many settings.",
+        "'anymore', 'pic', 'fuck' ].\n\n- **anymore**: This word is often used as an adverb and may not be appropriate as a topic word. It is not a standalone topic.\n- **pic**:"
+      ]
+    }
+  },
+  "26": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'hashtagoftheweek' 'socialmedia'"
+      },
+      "raw": [
+        "'code', 'hashtagoftheweek', 'socialmedia' ]\n\nThe rest of the words seem to fit within a broader theme of activities or states of mind, such as 'organize', 'learn', 'ride', 'tennis",
+        "'hashtagoftheweek', 'socialmedia', 'tennis' ]\n\nSo, the comma-separated list is:\nhashtagoftheweek,socialmedia,tennis",
+        "'hashtagoftheweek', 'socialmedia' ]\n\nSo, the comma-separated list is: hashtagoftheweek,socialmedia",
+        "'hashtagoftheweek', 'emotional' ]",
+        "'hashtagoftheweek', 'socialmedia', 'tennis' ].\n\nThese words do not share a common conceptual theme with the other words such as 'organize', 'learn', 'ride', 'code', 'emotional',"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'learn'",
+            "'learn'"
+          ]
+        ]
+      },
+      "raw": "('learn', 'learn')] and [('code', 'code')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'hashtagoftheweek'"
+      },
+      "raw": [
+        "'hashtagoftheweek' ]\n\n**Reason:**\n- 'hashtagoftheweek': This phrase appears to be a compound word and is not a standard English word. It seems to be a specific term, possibly related to social media",
+        "'hashtagoftheweek' ]\n\nReason:\n- 'hashtagoftheweek' is not a standard word and appears to be an unclear abbreviation or typo.\n\nAll other words are either standard English words or commonly used terms.",
+        "'hashtagoftheweek' ]\n\nReason:\n- 'hashtagoftheweek': This token appears to be a misspelling or a broken string, as it likely refers to a specific type of hashtag or social media trend,",
+        "'hashtagoftheweek' ].\nReason: 'hashtagoftheweek' appears to be a compound word or an extremely rare abbreviation that might not be immediately clear to all readers. It seems to be a specific hashtag or",
+        "'hashtagoftheweek' ]\n\nReason: The term 'hashtagoftheweek' appears to be a typo or a broken string. It likely should be two separate words, \"hashtag\" and \"of the week,\""
+      ]
+    }
+  },
+  "27": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'arm'"
+      },
+      "raw": [
+        "'beer', 'juice', 'arm' ]\n\nSo the comma-separated list would be: beer, juice, arm",
+        "'drama', 'beer', 'arm' ]\n\nTherefore, the list of words that do not semantically belong to the same conceptual theme as the others is:\n\ndrama, beer, arm",
+        "'beer', 'juice', 'arm' ]\n\nSo the comma-separated list is:\n\nbeer, juice, arm",
+        "'juice', 'drama', 'arm' ]",
+        "'drama', 'arm']"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'book'",
+            "'drama'"
+          ]
+        ]
+      },
+      "raw": "'book', 'drama' ]\n\nThese words do not refer to exactly the same concepts or ideas, but they do appear in the same genre."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'literally' ]\n\n**Reason:** The word 'literally' can be considered invalid in this context because it is an adverb and does not fit the list of topic words, which seem to be nouns or verbs.",
+        "'literally', 'beer', 'arm' ]\n\n- 'literally' is not a valid word in the context of topic words. It is often used in an informal or colloquial sense rather than a topic.\n- 'beer'",
+        "] All words are valid.",
+        "]\n\nReason: There are no malformed words, typos, or extremely rare, unclear abbreviations in the list. All words are valid.",
+        "]\n\nAll words are valid."
+      ]
+    }
+  },
+  "28": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'hopefully' 'pass'"
+      },
+      "raw": [
+        "'hopefully', 'respect' ]\n\nThese words do not seem to align with the theme suggested by the other words, which appear to be related to watching or engaging with media, such as watching videos or episodes and staying engaged until the end.",
+        "'hopefully', 'pass', 'respect' ]\n\nSo the list is: hopefully, pass, respect",
+        "'hopefully', 'pass' ]",
+        "'hang', 'hopefully', 'pass' ]",
+        "'hopefully', 'respect', 'till', 'pass' ]\n\nSo the list is:\nhopefully, respect, till, pass"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'win'",
+            "'pass'"
+          ]
+        ]
+      },
+      "raw": "('win', 'pass')]. These words refer to the concept of achieving a goal or succeeding in a task."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'hopefully', 'till', 'pass' ].\nHere are the reasons:\n\n- 'hopefully' - It's a word that does not fit well with the other topic words, which seem to be related to media content (",
+        "'hopefully', 'pass']\n\n### Reasons:\n- **hopefully**: This word is not typically considered a standalone topic word. It is more of an adverb or an interjection and may not serve well as a topic in a",
+        "]\n\nHowever, 'hopefully' could be considered out of place depending on the context. It is an adverb and may not fit as a topic word.\n\nSo the invalid word is:\n- 'hopefully' - This word is an",
+        "]\n\nReason:\nAll words are valid and there are no typos or unclear abbreviations in the provided list. The words are common English terms and there is no obvious malformation or typographical error.",
+        "].\n\n**Reasons:**\n\n1. **hopefully** - This word is valid but may be considered unclear in some contexts. However, without additional context, it's not possible to definitively say it's malformed or rare.\n\nAll words are"
+      ]
+    }
+  },
+  "29": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'cook' 'got' 'especially'"
+      },
+      "raw": [
+        "'cook', 'fear', 'got' ]",
+        "'boyfriend', 'got', 'especially', 'fear' ]",
+        "'boyfriend', 'cook', 'especially', 'fear' ]",
+        "'cook', 'boyfriend', 'got', 'especially', 'foot' ]\n\nSo, the comma-separated list is:\ncook, boyfriend, got, especially, foot",
+        "'cook', 'foot', 'got', 'especially' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'workout'",
+            "'push'"
+          ]
+        ]
+      },
+      "raw": "('workout', 'push') ]\n\nExplanation:\n- 'workout' and 'push' are closely related to the concept of physical exertion or exercise, though 'push' can be used in various contexts, it often refers to exerting"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "]\n\nThe reason is:\n\n- 'got' is a common word and does not seem to be a typo or broken string.\n- 'especially' is a common word and does not seem to be a typo or broken string.\n- 'cook'",
+        "'got' ]\n\nReason: 'got' is not a topic word and may not be a meaningful term in the context of a list of topic words. It is not a typo or broken string, but it is extremely common and lacks specific meaning related",
+        "'got', 'especially', 'foot' ]\n\n### Reasons:\n\n1. **'got'**:\n   - This word does not seem to fit the context of the list, which appears to be related to activities, goals, and personal traits.",
+        "'got', 'especially' ]\n\n- **'got'**: This word is too common and generic to be a topic word. It is typically a verb and does not convey a specific topic or theme.\n- **'especially'**: This word is",
+        "]\n\nReasoning:\n\n1. 'got' - While 'got' is a valid word, it is a common verb and does not seem to fit well with the other topic words, which are more specific and related to physical activities, personal relationships,"
+      ]
+    }
+  },
+  "30": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'sport' 'remove' 'lose'"
+      },
+      "raw": [
+        "'sport', 'night', 'use', 'remove', 'position' ]\n\nSo the list is: sport, night, use, remove, position",
+        "'late', 'remove', 'position', 'lose' ]",
+        "'sport', 'bible', 'lose' ]\n\nThe other words seem to revolve around themes of time and action, but 'sport', 'bible', and 'lose' do not fit into this theme.",
+        "'sport', 'remove', 'lose' ].\n\nSo, the list of words that do not semantically belong to the same conceptual theme as the others is:\nsport,remove,lose.",
+        "'sport', 'night', 'late', 'bible', 'remove', 'position', 'cliche', 'lose' ]\n\nThe words that do not semantically belong to the same conceptual theme as the others are: \"sport,"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'bible'",
+            "'book'"
+          ]
+        ]
+      },
+      "raw": "('bible', 'book')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "]\n\nNone of the words in the list [ 'sport', 'night', 'late', 'bible', 'use', 'remove', 'position', 'cliche', 'book', 'lose' ] appear to be malformed, ty",
+        "]\n\nAll words are valid.",
+        "]\n\nAll words are valid.",
+        "]\n\nAll words are valid.",
+        "]\n\nReason: None of the words in the given list appear to be malformed, typos, or extremely rare, unclear abbreviations. All words are valid English words and can be clearly understood."
+      ]
+    }
+  },
+  "31": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'upset'"
+      },
+      "raw": [
+        "'upset', 'help' ]\n\nThe other words seem to relate to music, social interactions, and related activities, but \"upset\" and \"help\" do not fit into this theme.",
+        "'quiet', 'master', 'allow', 'help' ]",
+        "'quiet', 'upset', 'allow', 'help' ]",
+        "'joke', 'quiet', 'upset', 'ass' ]\n\nSo, the list of words that do not semantically belong to the same conceptual theme as the others is:\n\njoke, quiet, upset, ass",
+        "'ass', 'volunteer', 'upset' ].\nThese words do not fit the theme that seems to be centered around entertainment and music (concert, mixtape), and communication or support (joke, allow, help, master"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'mixtape'",
+            "'concert'"
+          ]
+        ]
+      },
+      "raw": "('mixtape', 'concert')].\n\nThe words \"mixtape\" and \"concert\" can be related in the context of music, but they do not refer to exactly the same concept or idea. Therefore, there are no pairs"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'ass'"
+      },
+      "raw": [
+        "'ass', 'mixtape' ]\n\n### Reasons:\n1. **ass**: This word can be considered inappropriate or offensive in many contexts, which might not be suitable for all audiences. It does not clearly relate to the topic without additional context",
+        "'ass' ]\n\nThe word 'ass' can be considered invalid in this context due to its ambiguity and potential for being inappropriate or offensive, depending on the context. It could be a typo or a misinterpretation of another word. If the list",
+        "'mixtape', 'ass' ]\n\n**Reasons:**\n- 'mixtape': This word is not considered invalid, but it may be extremely rare or unclear in certain contexts.\n- 'ass': This word is generally considered rude or inappropriate",
+        "'ass' ].\n\n**Reason:**\n- 'ass' is considered inappropriate or offensive in many contexts, and it is generally not suitable for general use or professional settings without context.",
+        "'ass', 'mixtape' ]\n\nReasons:\n- 'ass': This word can be considered inappropriate or offensive in many contexts.\n- 'mixtape': While 'mixtape' is a valid term, it is quite rare and"
+      ]
+    }
+  },
+  "32": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'pocket'"
+      },
+      "raw": [
+        "'pocket' ]",
+        "'decide', 'judge', 'pocket' ].\n\nSo, the list of words that do not semantically belong to the same conceptual theme as the others is:\n\ndecide,judge,pocket",
+        "'pocket', 'decide', 'judge' ]",
+        "'pocket' ]\n\nThe other words seem to relate to social media, communication, and environmental themes.",
+        "'daily', 'planet', 'pocket'  ]\n\nSo the output should be: daily,planet,pocket"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'daily'",
+            "'planet'"
+          ],
+          [
+            "'support'",
+            "'judge'"
+          ],
+          [
+            "'facebook'",
+            "'action'"
+          ],
+          [
+            "'public'",
+            "'create'"
+          ],
+          [
+            "'decide'",
+            "'pocket'"
+          ]
+        ]
+      },
+      "raw": "('daily', 'planet'), ('support', 'judge'), ('facebook', 'action'), ('public', 'create'), ('decide', 'pocket')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'pocket' ]\n\nReason: \"pocket\" is not a typical topic word in the context of general topics and could be considered unclear or out of context with the other words which seem to be more related to social interaction, decision making, and",
+        "]\n\nAll words are valid.",
+        "].\n\nThe word 'daily' can be considered rare, but it is not malformed, typo, or unclear abbreviation.\n\n\"All words are valid\"",
+        "].\n\nAll words are valid.",
+        "]\n\nReasoning:\n- 'daily' is a commonly used word.\n- 'support' is a commonly used word.\n- 'facebook' is a commonly used term.\n- 'action' is a commonly used word.\n- 'public' is"
+      ]
+    }
+  },
+  "33": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'supper' 'body'"
+      },
+      "raw": [
+        "'supper', 'count', 'body' ].\nThese words do not fit the conceptual theme suggested by the other words, which seem to revolve around ideas related to smoking and intention or focus.",
+        "'supper', 'body' ]\n\nTherefore, the words that do not belong to the same conceptual theme as the others are: supper, body.",
+        "]\n\nTo determine this, we need to analyze the semantic relationships and themes among the words:\n\n- 'smoke', 'cigarette' - These words are related to the act of smoking.\n- 'focus', 'aim' - These words are",
+        "'supper', 'body' ]\n\nSo, the comma-separated list is: supper, body.",
+        "'supper', 'body' ]\n\nTherefore, the list of words that do not semantically belong to the same conceptual theme as the others is:\n\nsupper, body"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'smoke'",
+            "'cigarette'"
+          ]
+        ]
+      },
+      "raw": "('smoke', 'cigarette')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "]\n\nAll words are valid.",
+        "]\n\nAll words are valid.",
+        "]\n\nReason: All words are valid and there are no malformed words or extremely rare, unclear abbreviations.",
+        "]\n\nReason: None of the words in the list appear to be malformed or extremely rare, unclear abbreviations. The words are all clear and correctly spelled.\n\nTherefore, the reply is: All words are valid.",
+        "] with reasons:\n\n1. **smoke** - Valid word\n2. **right** - Valid word\n3. **supper** - Valid word\n4. **club** - Valid word\n5. **cigarette** -"
+      ]
+    }
+  },
+  "34": {
+    "coherence": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'membership'"
+      },
+      "raw": [
+        "'hug', 'white', 'read', 'eve', 'ahead', 'membership' ]",
+        "'membership'  ]",
+        "'white', 'read', 'eve', 'membership' ]",
+        "'age', 'ahead', 'membership' ]\n\nSo, the list is:\nage,ahead,membership",
+        "'hug', 'age', 'ahead', 'membership' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'ppl'",
+            "'membership'"
+          ]
+        ]
+      },
+      "raw": "('ppl', 'membership')]\n\nExplanation:\n- 'ppl' and 'membership' can be considered the same concept as both refer to a group of people. 'ppl' is an informal abbreviation for 'people', which"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'ppl' 'eve'"
+      },
+      "raw": [
+        "'ppl', 'eve' ]\n\nReasons:\n- 'ppl': This is an abbreviation for \"people,\" but it is not a standard word and can be unclear.\n- 'eve': This is short for \"evening,\" but it",
+        "'ppl', 'eve' ]\n\n- **'ppl'**: This is an abbreviation for \"people,\" which is a common and acceptable abbreviation in many contexts. However, it is not a standard English word and might be considered unclear to some",
+        "'ppl', 'eve' ]\n\n### Reasons:\n1. **'ppl'**: This is an abbreviation for \"people,\" which is not a standard word and could be considered unclear or a typo.\n2. **'eve'**:",
+        "]\n\n**Reasons:**\n- 'ppl' is a common abbreviation for 'people', though it could be considered unclear for some.\n- 'hug' is a valid word, though it might be considered out of context without more information.\n-",
+        "'ppl', 'eve', 'ahead' ]\n\nHere are the reasons:\n\n1. **ppl**: This is an abbreviation for \"people,\" which is not uncommon, but it can be considered unclear unless the context is clear.\n2."
+      ]
+    }
+  },
+  "35": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "]",
+        "'gift', 'number', 'minute', 'encouragement' ]\n\nSo, the list is:\n\ngift, number, minute, encouragement",
+        "'drunk', 'number', 'power', 'minute' ].\nThese words do not seem to share the same conceptual theme as the others in the list. The remaining words [ 'nap', 'forgive', 'forget', '",
+        "'forget', 'gift', 'encouragement' ]",
+        "'drunk', 'number', 'minute' ]\n\nSo the output is: drunk,number,minute"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'forgive'",
+            "'forget'"
+          ]
+        ]
+      },
+      "raw": "('forgive', 'forget')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid.",
+        "'drunk' ]. Here is the reason:\n\n- **'drunk'**: This word could be considered invalid if the context is very formal or if the list is supposed to be composed of more abstract or complex terms. However, if the context",
+        "]\n\nAll words are valid.",
+        "'drunk', 'minute', 'number' ]\n\nHere are the reasons:\n- **drunk**: This word could be considered malformed or unclear without additional context, as it could refer to the state of being intoxicated, but it might"
+      ]
+    }
+  },
+  "36": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'small', 'finance' ]\n\nSo the output should be:\nsmall, finance",
+        "'finance', 'wrong', 'honest', 'bring' ].",
+        "finance, wrong, bring, honest ]\n\nSo, the list of words that do not semantically belong to the same conceptual theme as the others is:\nfinance,wrong,bring,honest",
+        "'wrong', 'bring', 'finance' ]",
+        "'vibe', 'booty', 'honest' ].\n So, the list is: **vibe, booty, honest**"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'social'",
+            "'medium'"
+          ],
+          [
+            "'wrong'",
+            "'honest'"
+          ],
+          [
+            "'fitness'",
+            "'booty'"
+          ]
+        ]
+      },
+      "raw": "('social', 'medium'),('wrong', 'honest'),('fitness', 'booty')].\n\nThis is the only pairs that are exactly the same. If you consider 'small' and 'medium' as size-related terms and 'fin"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'booty'"
+      },
+      "raw": [
+        "'vibe', 'booty' ].\n - 'vibe' is a slang term and may not be considered a valid word in all contexts.\n - 'booty' is a slang term and may not be considered a valid word",
+        "'finance', 'booty' ]\n\n- 'finance': This word is valid in itself but is not clear what it refers to in this context. It might be too broad or out of place without more context.\n- 'booty':",
+        "'wrong', 'vibe', 'booty', 'honest' ]\n\nHere are the reasons:\n\n- 'wrong': This word does not fit the context of the other words, which seem to be related to topics or concepts. It could be",
+        "'booty' ]\n\nReason:\n- 'booty' could be considered unclear or context-dependent as it has multiple meanings (e.g., referring to a person's buttocks, or treasure/loot).\n\nAll other words appear to be valid and clear",
+        "]\n\nAll words are valid."
+      ]
+    }
+  },
+  "37": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'bang'"
+      },
+      "raw": [
+        "'twice', 'bang' ]\n\nSo, the list is: \"twice, bang\"",
+        "'resolutions', 'breakfast', 'bang', 'important' ]\n\nSo the list is: resolutions, breakfast, bang, important",
+        "'fight', 'bang' ]\n\nSo, the words that do not semantically belong to the same conceptual theme as the others are:\nfight,bang",
+        "'twice', 'breakfast', 'bang' ]\n\nSo, the list of words that do not semantically belong to the same conceptual theme as the others is:\ntwice, breakfast, bang",
+        "'twice', 'bang', 'breakfast' ]\n\nThese words do not fit into a single, coherent conceptual theme with the others."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'resolutions'",
+            "'success'"
+          ]
+        ]
+      },
+      "raw": "('resolutions', 'success')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'twice', 'bang' ]\n\n### Reasons:\n- **'twice'**: This word is generally not considered a topic word in the context of the other words provided. It is more of a quantifier or an adverb rather than",
+        "'twice', 'bang' ].\n\n- 'twice' is not a noun and might be a typo or a misplaced adverb in the list.\n- 'bang' is an extremely rare and unclear word in this context, potentially a",
+        "]\n\nAll words are valid.",
+        "]\n\nAll words are valid.",
+        "]\n\nAll words are valid."
+      ]
+    }
+  },
+  "38": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'pant' 'regret' 'excuse'"
+      },
+      "raw": [
+        "'pant', 'regret' ]",
+        "'wear', 'pant', 'regret', 'excuse' ].\n\nIn more detail:\n- 'wear', 'pant', and 'excuse' do not seem to fit with the broader theme of virtues or emotional states that '",
+        "'pant', 'regret', 'excuse' ].\n\nTherefore, the list of words that do not semantically belong to the same conceptual theme as the others is:\npant, regret, excuse",
+        "'wear', 'patience', 'pant', 'excuse' ]\n\nSo the list is:\nwear,patience,pant,excuse",
+        "'seriously', 'regret', 'excuse' ]\n\nSo the list of words that do not semantically belong to the same conceptual theme as the others is:\nseriously, regret, excuse"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'pant'",
+            "'breath'"
+          ],
+          [
+            "'connected'",
+            "'linked'"
+          ]
+        ]
+      },
+      "raw": "('pant', 'breath'), ('connected', 'linked')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'pant' ] with the reason being that it is an uncommon word in this context and might be a typo or misspelling. Additionally, [ 'seriously' ] might be considered rare in some contexts, but it is a valid word",
+        "'pant', 'connected' ] .\n\n**Reasons:**\n- **'pant'**: This word is a verb and can be used in a sentence, but it does not fit the context of the other words, which seem to be more",
+        "]\n\nAll words are valid.",
+        "]\n\nAll words are valid",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "39": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'kick' 'scream'"
+      },
+      "raw": [
+        "'walk', 'kick', 'scream' ]\n\nSo, the list is:\nwalk, kick, scream",
+        "'add', 'kick' ]\n\nExplanation:\nThe words \"deserve,\" \"city,\" \"achievable,\" \"walk,\" \"return,\" \"scream,\" \"purpose,\" and \"remind\" are all related to actions,",
+        "'kick', 'return', 'scream', 'remind' ].\n\nThe words 'kick', 'return', 'scream', and 'remind' do not semantically align with the other words in the list, which seem",
+        "'scream', 'kick' ].\n\nSo the list of words that do not semantically belong to the same conceptual theme as the others is: scream,kick.",
+        "'add', 'kick', 'return', 'scream'  ]\n\nThe conceptual theme of the remaining words ['deserve', 'city', 'achievable', 'walk', 'purpose', 'remind'] seems to be related"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "'return', 'achievable', 'walk', 'remind', 'kick', 'deserve', 'scream', 'city', 'purpose', 'add' ]\n\nUpon examining the list of words provided, it is clear that"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "]\n\nAll words are valid",
+        "]\n\nAll words are valid.",
+        "].\n\nReason:\n- 'deserve'\n- 'city'\n- 'add'\n- 'achievable'\n- 'walk'\n- 'return'\n- 'scream'\n- 'purpose'\n- 'kick'\n- 'remind'",
+        "'achievable' ].\n\nReason:\n- 'achievable' is a valid word, but it is not a topic word. It is more of an adjective that describes something being capable of being achieved, which may not fit the context of",
+        "]\n\nAll words are valid."
+      ]
+    }
+  },
+  "40": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'fat'"
+      },
+      "raw": [
+        "'busy', 'strong', 'tell', 'fat' ]\n\nSo, the words that do not semantically belong to the same conceptual theme as the others are:\nbusy, strong, tell, fat",
+        "'fat', 'tell' ]\n\nSo, the comma-separated list is:\nfat, tell",
+        "'fat', 'strong' ]\n\nSo the list is: fat,strong",
+        "'tell', 'fat' ]",
+        "'fat', 'strong' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'listen'",
+            "'realize'"
+          ],
+          [
+            "'fat'",
+            "'strong'"
+          ]
+        ]
+      },
+      "raw": "('listen', 'realize'), ('fat', 'strong')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "] None of the words in the list appear to be malformed or extremely rare, unclear abbreviations. Therefore, the response is:\n\nAll words are valid.",
+        "'fat' ].\n\n**Reason:** The word \"fat\" may be considered invalid or unclear in this context. \"Fat\" could refer to physical body fat, which might not be relevant to the topic of the list. The other words are standard",
+        "] \"All words are valid\"",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "41": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'makeup'"
+      },
+      "raw": [
+        "'makeup', 'feel', 'genuinely' ]\n\nSo the list is: makeup, feel, genuinely.",
+        "'makeup' ]\n\nSo the list is:\nmakeup",
+        "'post', 'million', 'makeup' ].\n\nThus, the list is: post, million, makeup.",
+        "'feel', 'genuinely', 'makeup' ]\n\nThus, the list of words that do not semantically belong to the same conceptual theme as the others is:\n\nfeel, genuinely, makeup",
+        "'makeup', 'feel', 'million' ].\n\nSo, the list is: makeup,feel,million."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'goal'",
+            "'figure'"
+          ]
+        ]
+      },
+      "raw": "('goal', 'figure')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "'million', 'genuinely', 'makeup' ]\n\nHere are the reasons:\n- 'million' - While 'million' is a valid word, it is not a topic word. It is more likely to be a typo",
+        "] (None)\n\nAll words are valid.",
+        "'gym', 'makeup']\n\nThe reasons for their potential invalidity are:\n\n- 'gym': This word might be considered valid, but it is less formal compared to others. It might not fit in a list that is otherwise composed of",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "42": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'lbs'"
+      },
+      "raw": [
+        "'book', 'lbs' ].\n\nSo, the comma-separated list is:\nbook,lbs",
+        "'pick', 'vow', 'maybe', 'lbs' ]",
+        "'book', 'lbs' ].",
+        "'book', 'lbs' ]",
+        "'maybe', 'lbs' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'idea'",
+            "'book'"
+          ]
+        ]
+      },
+      "raw": "('idea', 'book')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'lbs'"
+      },
+      "raw": [
+        "'lbs' ]\n\nReason:\n- 'lbs' is an abbreviation that is unclear without context. It could stand for \"librae\" (a unit of mass), \"lbs\" (pounds) or something else. This ambiguity",
+        "'lbs' ]\n\nReason: \"lbs\" is an abbreviation for \"pounds\", which is not a clear or standard word in a typical context. It might be considered a rare or unclear abbreviation without additional context.",
+        "'lbs' ]\n\nReason:\n- 'lbs' is an abbreviation for 'pounds' but it is unclear without context and could be considered extremely rare or ambiguous in many contexts.",
+        "'lbs' ]\n\nReason:\n- 'lbs' is an abbreviation for pounds, which might be considered unclear or ambiguous without additional context, especially in a list of topic words.",
+        "'lbs' ]\n\n**Reasons:**\n- 'lbs' is an abbreviation for pounds, which is not a clear topic word and could be considered an unclear abbreviation."
+      ]
+    }
+  },
+  "43": {
+    "coherence": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'head', 'throw', 'job' ]",
+        "]",
+        "'job', 'tweet', 'welcome', 'sit', 'forward' ]\n\nSo, the comma-separated list is:\njob,tweet,welcome,sit,forward",
+        "] 'wanna', 'job', 'tweet', 'sit', 'forward', 'big'. The remaining words 'head', 'throw', 'welcome', 'culture' could be considered to belong to a theme related to personal actions and",
+        "'head', 'throw', 'job' ]\n\nSo the comma-separated list is:\nhead, throw, job"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'wanna'",
+            "'job'"
+          ],
+          [
+            "'welcome'",
+            "'sit'"
+          ],
+          [
+            "'head'",
+            "'forward'"
+          ]
+        ]
+      },
+      "raw": "('wanna', 'job'), ('welcome', 'sit'), ('head', 'forward')]\n\nThe pairs were identified based on the idea that:\n- 'wanna' and 'job' can be related to the concept of employment or career."
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'wanna' 'tweet'"
+      },
+      "raw": [
+        "'wanna', 'tweet' ]\n\n- 'wanna' - This is a colloquial contraction of \"want to,\" and it is not a standard word in formal writing or dictionaries.\n- 'tweet' - While 'tweet",
+        "'wanna', 'tweet' ]\n\n### Reasons:\n- 'wanna': This is a contraction of \"want to,\" but it is not a standard formal word and may be considered informal or colloquial.\n- 'tweet':",
+        "'wanna' ]\n\n- **Reason:** \"wanna\" is a contraction of \"want to\" and is not a standard word form typically used in formal contexts. It might be considered a typo or informal language, depending on the context.",
+        "'wanna', 'tweet' ]\n\n### Reasons:\n- **wanna**: This is a colloquial contraction of \"want to\" and might be considered malformed in formal writing or in contexts where contractions are not preferred.\n- **",
+        "'wanna', 'tweet' ]\n\nReasons:\n- 'wanna': This is a contraction of \"want to\" and is generally considered informal or slang. It might not be suitable in formal or technical contexts.\n- 't"
+      ]
+    }
+  },
+  "44": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'sober'"
+      },
+      "raw": [
+        "'youtube', 'sober' ]",
+        "'youtube', 'girlfriend' ]\n\nSo, the list is: youtube, girlfriend",
+        "'sober' ]\n\nSo, the word that does not semantically belong to the same conceptual theme as the others is:\n\nsober",
+        "'youtube', 'girlfriend', 'sober' ]\n\nSo the list is:\nyoutube, girlfriend, sober",
+        "'budget', 'include', 'sober' ]\n\nSo, the words that do not semantically belong to the same conceptual theme as the others are:\nbudget, include, sober"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'youtube'",
+            "'sign'"
+          ]
+        ]
+      },
+      "raw": "('youtube', 'sign')]\n\nHowever, please note that the pairs you've provided are typically not exactly the same concepts or ideas. The terms 'youtube' and 'sign' can be related in certain contexts (e.g., a You"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'youtube', 'include' ]\n\nReasons:\n1. 'youtube': This word is a proper noun referring to a specific platform and is typically capitalized as \"YouTube.\"\n2. 'include': This word is generally a verb and",
+        "]\n\nAll words are valid",
+        "'apartment', 'sober' ]\n\nReason:\n- \"apartment\": While it is a valid word, in the context of a list of topic words, it might be considered too generic or unclear without additional context.\n- \"sober\":",
+        "].\n\nAll words are valid.",
+        "]\nAll words are valid."
+      ]
+    }
+  },
+  "45": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'drinking'"
+      },
+      "raw": [
+        "'pretend', 'confidence', 'drinking' ]\n\nThese words do not appear to fit with a cohesive theme that might include 'finally', 'weed', 'spanish', 'learn', 'sing', 'chicago', 'know",
+        "'weed', 'chicago', 'drinking' ]",
+        "'weed', 'sing', 'drinking' ]\n\nExplanation:\n- 'weed', 'sing', and 'drinking' do not share a common theme with the other words.\n- 'pretend', 'finally', 'learn',",
+        "'pretend', 'finally', 'confidence', 'sing', 'drinking', 'know' ]\n\nSo, the list is:\npretend, finally, confidence, sing, drinking, know",
+        "'pretend', 'finally', 'drinking', 'chicago', 'know'  ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'learn'",
+            "'know'"
+          ]
+        ]
+      },
+      "raw": "('learn', 'know')]\n\nThese two words are the most directly related to each other in terms of exact meaning, as \"learn\" and \"know\" both refer to the concept of acquiring or possessing knowledge. The other words in the set refer"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'weed' 'drinking'"
+      },
+      "raw": [
+        "'weed' , 'drinking' ].\nReason:\n\n- 'weed' : This word could be considered unclear in context, as it can have multiple meanings and could be considered slang or informal.\n- 'drinking' : This",
+        "'weed', 'drinking' ]\n\n### Reasons:\n- 'weed': This word can be ambiguous as it has multiple meanings. It could refer to the plant cannabis or a more general term for unwanted plants. Depending on the context,",
+        "]\n\nAll words are valid.",
+        "'pretend' , 'finally', 'weed', 'spanish', 'learn', 'confidence', 'sing', 'drinking', 'chicago', 'know' ].\n\nThe list contains no tokens that are clearly malformed,",
+        "'weed', 'drinking', 'spanish' ]\n\nReasons:\n- 'weed': This word could be considered malformed or extremely rare depending on the context. It might be a typo or a slang term.\n- 'dr"
+      ]
+    }
+  },
+  "46": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'actual'"
+      },
+      "raw": [
+        "'write', 'present', 'know', 'actual' ]\n\nThe words that do not semantically belong to the same conceptual theme as the others are:\n\nwrite, present, know, actual",
+        "'write', 'know', 'actual' ]\n\nSo, the list of words that do not semantically belong to the same conceptual theme as the others is:\nwrite, know, actual",
+        "'tix', 'actual' ]",
+        "'tix', 'write' ]\n\nThese words do not fit the general theme of activities or concepts related to events, memories, or desires that the other words seem to share. 'Tix' (likely short for tickets) and 'write'",
+        "'actual', 'tix', 'know' ].\n\nSo, the list of words that do not semantically belong to the same conceptual theme as the others is:\n```\nactual, tix, know\n```"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'wish'",
+            "'present'"
+          ]
+        ]
+      },
+      "raw": "('wish', 'present') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'tix'"
+      },
+      "raw": [
+        "'tix' ]\n\nReason:\n- 'tix': This is an abbreviation for \"tickets,\" but it is extremely rare and unclear without context. It might be considered malformed or a typo in some contexts.",
+        "'tix' ]\n\nReason: 'tix' is an abbreviation for 'tickets' and is not a common or universally understood abbreviation, which makes it unclear without context.",
+        "'tix' ]\n\nReason: 'tix' is an unclear abbreviation, which could mean \"tickets\" but it is not a standard abbreviation and could be confusing without context.",
+        "'tix' ]\n\nReason:\n- 'tix' is an abbreviation that is not widely understood and could be considered unclear unless the context is known. It is often used as short for \"tickets,\" but without context, it can be ambiguous",
+        "'tix', 'actual' ]\n\nHere are the reasons:\n- 'tix': This is an abbreviation for \"tickets,\" but it is not a standard or widely recognized abbreviation in formal writing and may be considered unclear or informal.\n- '"
+      ]
+    }
+  },
+  "47": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'hoe' 'hate'"
+      },
+      "raw": [
+        "'damn', 'hoe', 'hate', 'skip' ].\n\nThese words do not fit the conceptual theme of travel or activities related to vacation or rest, which seems to be the theme of the other words.",
+        "'hoe', 'invite', 'hate' ]\n\nThese words do not fit well with the other words which seem to be related to actions or states related to communication, relaxation, and verification (e.g., 'send', 'rest', '",
+        "'damn', 'hoe', 'hate' ]\n\nSo, the comma-separated list is:\n\ndamn,hoe,hate",
+        "'damn', 'hoe', 'hate', 'skip' ]\n\nSo, the comma-separated list is:\n\ndamn, hoe, hate, skip",
+        "'hoe', 'skip', 'hate' ]\n\nThese words do not fit with the general theme of planning or scheduling activities, which seems to be the theme of words like 'invite', 'rest', 'send', 'check', 'vac"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'damn'",
+            "'hate'"
+          ],
+          [
+            "'send'",
+            "'invite'"
+          ],
+          [
+            "'check'",
+            "'skip'"
+          ],
+          [
+            "'health'",
+            "'vacation'"
+          ],
+          [
+            "'hoe'",
+            "'rest'"
+          ]
+        ]
+      },
+      "raw": "('damn','hate'),('send','invite'),('check','skip'),('health','vacation'),('hoe','rest')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'damn' 'hoe'"
+      },
+      "raw": [
+        "'damn', 'hoe' ]\n\n- 'damn' is considered inappropriate or profane in many contexts.\n- 'hoe' is considered offensive in many contexts.\n\nAll other words are valid and commonly understood in English.",
+        "'damn', 'hoe', 'hate' ]\n\n**Reasons**:\n- 'damn': This word is generally considered profane and inappropriate in many contexts.\n- 'hoe': This word can be seen as derogatory or offensive in",
+        "'hoe', 'damn' ]\n\n- 'hoe' - This word can be a typo for 'home' or a slang term, and it's unclear in this context.\n- 'damn' - This word is a profanity",
+        "'damn', 'hoe' ].\n\nReasons:\n1. 'damn' - This word is generally considered offensive and inappropriate in many contexts.\n2. 'hoe' - This word has a derogatory meaning when used to refer to",
+        "'damn', 'hoe' ] with the following reasons:\n\n- **damn**: This word is generally considered profane or offensive and may not be appropriate in many contexts.\n- **hoe**: This word can be considered derogatory or offensive"
+      ]
+    }
+  },
+  "48": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'rid' 'unnecessary'"
+      },
+      "raw": [
+        "'bed', 'rid', 'task', 'prove', 'unnecessary' ].\n\nSo, the list is: bed, rid, task, prove, unnecessary",
+        "'rid', 'training' ]",
+        "'rid', 'avoid', 'unnecessary' ]",
+        "'bed', 'rid', 'unnecessary' ]\n\nSo, the comma-separated list is:\n\nbed, rid, unnecessary",
+        "'rid', 'avoid', 'unnecessary' ]\n\nSo, the list is: rid, avoid, unnecessary"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'avoid'",
+            "'rid'"
+          ],
+          [
+            "'negative'",
+            "'unnecessary'"
+          ]
+        ]
+      },
+      "raw": "('avoid', 'rid'), ('negative', 'unnecessary')]\n\nExplanation:\n- 'avoid' and 'rid' both imply the concept of getting rid of or eliminating something.\n- 'negative' and 'unnecessary'"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'rid'"
+      },
+      "raw": [
+        "'rid', 'unnecessary' ]\n\nReasons:\n1. **'rid'**: This word is extremely rare and unclear in the context provided. It might be a typo or an abbreviation, but without additional context, it is unclear.\n2",
+        "'rid', 'prove' ]\n\n### Reasons:\n- **'rid'**: This is likely a typo or incomplete word. It could be a misspelling of \"rid\" as \"rid of\" or \"rid of it\", or it",
+        "'rid', 'unnecessary' ]\n\n**Reasons:**\n- 'rid': This word is extremely rare and unclear in the given context. It could be a typo or a broken string.\n- 'unnecessary': While the word itself is",
+        "'rid', 'unnecessary' ]\n\nReasons:\n- 'rid' is unclear and could be a typo or a misspelling. It's not a standard word in the context given.\n- 'unnecessary' is a valid word",
+        "'rid' ]\n\nReasons:\n- 'rid' is an unclear abbreviation and not a well-known or widely recognized term in most contexts. It could be a typo or an extremely rare term.\n\nAll other words appear to be valid English words."
+      ]
+    }
+  },
+  "49": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'grind' 'stick' 'lose'"
+      },
+      "raw": [
+        "'grind', 'march', 'stick', 'lose' ]",
+        "'mix', 'stick', 'grind', 'lose' ]",
+        "'mix', 'grind', 'stick', 'lose' ].\n\nSo, the list is:\nmix, grind, stick, lose.",
+        "]:\n\n### Explanation:\n- **father**\n- **proud**\n- **friend**\n- **art**\n- **mix**\n- **march**\n- **stick**\n- **lose**\n- **grind**\n- **great**",
+        "'mix', 'march', 'stick', 'lose', 'grind' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "]\n**All words are valid**",
+        "'grind', 'march' ]\n\nReason:\n1. **'grind'**: While 'grind' is a valid word, its relevance to the context of the list is unclear. It does not fit well with words like 'father",
+        "].\n\nReason: All words are valid.\n\nAll the words in the list are correctly spelled and do not appear to be abbreviations. Therefore, there are no invalid words based on the given criteria.",
+        "] (All words are valid)",
+        "]\n\nAll words are valid."
+      ]
+    }
+  }
+}

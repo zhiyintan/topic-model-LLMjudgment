@@ -1,0 +1,3828 @@
+{
+  "0": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'president', 'congress', 'year' ]\n\nThese words are not strongly related to the theme of work or employment, unlike the other words which are more related to work or labor.",
+        "'year' ]\n\nThese words are related to time and duration, whereas the others are more related to politics and work.",
+        "'year' ]",
+        "'people', 'fund', 'money' ]",
+        "'president', 'congress', 'fund' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'job'",
+            "'work'"
+          ],
+          [
+            "'program'",
+            "'fund'"
+          ]
+        ]
+      },
+      "raw": "('job', 'work'), ('program', 'fund') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'program' ] \nReason: This word is a noun and does not match the list of topics related to employment or finance.",
+        "'president' (unclear abbreviation),  'fund' (unclear abbreviation) ]\n\nNote: These words can be considered valid depending on the context, but in this case, they are unclear and could potentially be typos or abbreviations.",
+        "'president' ]\n\nReason: The word \"president\" is a valid word, but in the context of a list of words, it is unclear what specific part of speech or category it belongs to (e.g., political office, profession,",
+        "'job', 'people', 'work', 'think' ]\n\n* 'job' is a common word, but it's a very general term, it might be too vague, but it's a valid word.\n* 'people' is a valid",
+        "'president',  'congress' ].\n- 'president' is a valid word, but 'congress' is not a standard word; it is a proper noun referring to a legislative body in the United States government."
+      ]
+    }
+  },
+  "1": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 5,
+        "words": "'billion' 'angeles' 'francisco' 'los' 'california'"
+      },
+      "raw": [
+        "'billion', 'angeles', 'francisco', 'los', 'california' ]\n\nThe topic seems to be related to a place, but the words that do not fit are the ones that are more numerical or specific to a place",
+        "'billion', 'anti' ]",
+        "'information', 'billion', 'angeles', 'francisco', 'california', 'los' ]",
+        "'billion', 'police', 'angeles', 'francisco', 'los', 'california', 'york' ]",
+        "'police', 'angeles', 'los', 'francisco', 'california', 'york' ]\n\nThe other words seem to be related to large quantities or information, but the words in the list above seem to be related to"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'san francisco'",
+            "'francisco'"
+          ],
+          [
+            "'los angeles'",
+            "'angeles'"
+          ],
+          [
+            "'california'",
+            "'police'"
+          ]
+        ]
+      },
+      "raw": "('san francisco', 'francisco'), ('los angeles', 'angeles'), ('california', 'police') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 3,
+        "words": "'angeles' 'francisco' 'los'"
+      },
+      "raw": [
+        "'angeles', 'francisco', 'police', 'los', 'california' ]\n\n- 'angeles' seems to be a substring of a larger word \"angeles\", which is likely a city name in California.\n- '",
+        "'angeles', 'billion', 'california', 'francisco', 'los', 'police', 'york' ]",
+        "'angeles', 'francisco' ]\n\nangeles and francisco are words that are not complete and are part of a place name.",
+        "'angeles', 'billion', 'francisco', 'los', 'police', 'york' ]\n\nReasons:\n- 'angeles' is likely a typo or abbreviation for 'angels' or 'angels' is",
+        "'angeles', 'francisco', 'los', 'york' ]\n\nThe reason for 'angeles' is: It appears to be a city name and should be \"angel\" instead.\nThe reason for 'francisco' is"
+      ]
+    }
+  },
+  "2": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'man'"
+      },
+      "raw": [
+        "'man', 'love', 'come' ]",
+        "'man', 'come' ]",
+        "'man', 'love' ]\n\nThe other words are clearly related to Christianity.",
+        "'man', 'come' ]",
+        "man, come ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'god'",
+            "'jesus'"
+          ],
+          [
+            "'jesus'",
+            "'christ'"
+          ],
+          [
+            "'christ'",
+            "'christian'"
+          ]
+        ]
+      },
+      "raw": "('god', 'jesus'), ('jesus', 'christ'), ('christ', 'christian') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'jesus' 'christian'"
+      },
+      "raw": [
+        "'jesus', 'christ', 'christian', 'bible' ]\n\n* 'jesus' is a common name but not a topic in the context of the list.\n* 'christ' is a common name but not a topic in the",
+        "'jesus', 'christian', 'christ', 'bible', 'believe', 'come', 'love', 'word' ]\n\nThese tokens are either common words with no inherent flaws, or there's not enough context to consider them malformed",
+        "'jesus', 'christian' ] \n\n* 'jesus' and 'christian' could be typos or mispellings.",
+        "'jesus' ] - unclear abbreviation as it can be multiple people; [ 'man' ] - unclear abbreviation as it can be multiple words; [  'christ' ] - unclear abbreviation as it can be multiple words; [  'come",
+        "'jesus', 'christ', 'christian', 'come' ]\n\nReasons:\n- 'jesus' could be a typo for 'Jesus'\n- 'christ' could be a typo for 'Christ'\n- 'christian' is an"
+      ]
+    }
+  },
+  "3": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'objective', 'rule' ]",
+        "'death', 'murder' ].\n\nThe other words seem to belong to a conceptual theme of 'ethics, morality, and the human condition'.",
+        "'objective', 'rule' ]",
+        "'objective', 'think' ]",
+        "'people', 'life' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'people'",
+            "'person'"
+          ],
+          [
+            "'morality'",
+            "'moral'"
+          ]
+        ]
+      },
+      "raw": "('people', 'person'), ('morality', 'moral') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'objective' ,  'murder' ].\n\n-  'objective'  is an adjective and noun that is used in many contexts, but it is not a topic or theme in itself, so it is unclear in the context of the list",
+        "'morality', 'murder' ]\n\n* 'morality' is a valid concept but in this context, it might be assumed that the list is a set of short words. This token is not malformed but is a long word. However,",
+        "'morality', 'morality' is a valid word, but 'morality' is not the issue; however, 'morality' is not malformed but 'moral' is a valid word, 'morality' is a valid word",
+        "'morality', 'moral' ].\n\n- 'morality' and 'moral' are not malformed but could be considered too broad or general in this context, depending on the specific requirements of the task. However, in a strict sense",
+        "'murder' ] (as 'murder' is a rare or unclear abbreviation in the context of this problem and 'people' and 'life' can be seen as unclear abbreviations as well)."
+      ]
+    }
+  },
+  "4": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'van' 'michael' 'tony'"
+      },
+      "raw": [
+        "'van', 'michael', 'tony', 'happy' ]",
+        "'van', 'tony', 'michael' ]",
+        "'tony', 'michael' ]\n\nThese names appear to be personal names and do not fit the theme of the other words, which seem to be more abstract concepts or objects.",
+        "'van', 'tony', 'michael' ]",
+        "'van', 'tony', 'michael' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'stuff'",
+            "'stuff'"
+          ],
+          [
+            "'sun'",
+            "'sun'"
+          ],
+          [
+            "'moon'",
+            "'moon'"
+          ]
+        ]
+      },
+      "raw": "('stuff', 'stuff'), ('sun', 'sun'), ('moon', 'moon') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 3,
+        "words": "'van' 'tony' 'michael'"
+      },
+      "raw": [
+        "'van', 'tony', 'michael' ].\n- 'van' is a malformed token as it is likely a proper noun or name.\n- 'tony' and 'michael' are names and likely proper nouns, which can",
+        "'van', 'tony', 'michael' ]\nReason: The words 'van', 'tony', and 'michael' are names or common nouns, and their usage as topic words is not specified, making them unclear or possibly malformed",
+        "'tony', 'michael' ].\n\nThese are names rather than topic words and can be considered as not belonging in the list of topic words.",
+        "'van',  'tony',  'michael' ].\n\n*   'van' is a common word, but in the context of the given list, it might be a typo. In typical text analysis, a word like 'van",
+        "'van',  'tony',  'michael' ]\n\nReasons: \n- 'van' is an ambiguous token as it could be a type of vehicle or a shortened form of 'vanilla', 'vanilla', or 'v"
+      ]
+    }
+  },
+  "5": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "1",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'jim' 'apr'"
+      },
+      "raw": [
+        "'jim', 'apr' ]\n\nThe other words can be grouped into a theme related to 'arguments' and 'academic discussions': [  'article', 'argument', 'science', 'quote', 'context', 'posting', 'statement'",
+        "'jim', 'apr', 'posting' ]",
+        "'jim', 'apr', 'posting' ]",
+        "'jim', 'apr', 'posting' ]\n\nThese words are not related to the theme of 'article' and 'argument' which seem to be the central theme, and are more related to personal names ('jim'), a month or season",
+        "'jim', 'apr', 'ethnic' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'article'",
+            "'posting'"
+          ],
+          [
+            "'article'",
+            "'statement'"
+          ],
+          [
+            "'argument'",
+            "'quote'"
+          ],
+          [
+            "'science'",
+            "'apr'"
+          ]
+        ]
+      },
+      "raw": "('article', 'posting'), ('article', 'statement'), ('argument', 'quote'), ('science', 'apr') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'jim' 'apr'"
+      },
+      "raw": [
+        "'jim', 'apr' ].\n\n* 'jim' is a name, not a topic word in the context of the problem.\n* 'apr' is an abbreviation for 'April', but it's unclear how it would be used as",
+        "'apr' ] \n\nReason: 'apr' is an abbreviation that is unclear and not commonly used in a list of topic words. It could be an acronym for April, but without context, it is not clear.",
+        "'apr', 'jim' ]\n\nReason:\n- 'apr' is a likely abbreviation of 'April', which is not clear in this context.\n- 'jim' is a proper noun, which is unclear in this list of topic words.",
+        "'apr', 'jim' ]\n\n- 'apr' is a valid month abbreviation, but it could be considered an abbreviation rather than a full word. However, since it is a widely recognized and standardized abbreviation, it is generally considered valid.\n-",
+        "'apr', 'jim' ].\n\nReasons: 'apr' is an abbreviation that is unclear and extremely rare, 'jim' is a proper noun without context which could be a typo or a name but not a common word."
+      ]
+    }
+  },
+  "6": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'tin'"
+      },
+      "raw": [
+        "'window', 'display', 'tin' ]",
+        "'window', 'tin', 'display', 'newsreader' ]",
+        "'henrik', 'manager', 'tin' ]",
+        "'window', 'henrik', 'tin', 'newsreader', 'manager' ]\n\nThese words seem to belong to a different conceptual theme.",
+        "'henrik', 'manager', 'tin', 'newsreader' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'window'",
+            "'display'"
+          ],
+          [
+            "'hope'",
+            "'peace'"
+          ]
+        ]
+      },
+      "raw": "('window', 'display'), ('hope', 'peace') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'henrik' 'tin'"
+      },
+      "raw": [
+        "'henrik',  'newsreader',  'tin',  'want',  'know' ]\n\nThese words appear to be proper nouns or abbreviations that may not be relevant to the topic of the list, which seems to be about news",
+        "'henrik', 'newsreader', 'tin' ].\n\n1. 'henrik' is a personal name, not a topic word.\n2. 'newsreader' is not a typical topic word; it is a profession or a product name",
+        "\"henrik\" (likely a name, not a topic word), \"newsreader\" (a specific occupation, not a general topic word), \"tin\" (a common word, but likely not a topic word in this context), \"want\"",
+        "'henrik', 'newsreader', 'tin', 'display' ] \n\n- 'henrik' could be a name or a misspelling of 'henry'. \n- 'newsreader' could be misspelled as 'newsreader",
+        "'henrik', 'tin' ].\n\n* 'henrik' is likely a proper noun (a person's name) and not a common word.\n* 'tin' is a common word but can also be considered a symbol/chemical symbol."
+      ]
+    }
+  },
+  "7": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'music'"
+      },
+      "raw": [
+        "'music', 'link', 'cross', 'use' ]",
+        "music, windows ]",
+        "'music', 'windows' ]",
+        "'music', 'cross', 'use' ]",
+        "'music', 'link', 'cross', 'use' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'program'",
+            "'software'"
+          ],
+          [
+            "'unit'",
+            "'disk'"
+          ]
+        ]
+      },
+      "raw": "('program', 'software'), ('unit', 'disk') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'cross'  ] \n\nReason: While 'cross' is a valid word in general, in the context of the given list, which appears to be related to computer science or technology, it's likely a typo or an extremely rare abbreviation for something",
+        "'link' is a valid word, but 'cross' is a valid word, however, 'server' is a valid word, but 'disk' is a valid word, however, 'windows' is a valid word, however, 'use",
+        "'use' ]",
+        "'link', 'cross' ]\n\n- 'link' is an extremely rare or unclear abbreviation.\n- 'cross' is a common word, but in the context of the given list, it is likely an abbreviation or a typo.",
+        "'cross'  ] , which is a common word, but in this context, it might be used as a rare abbreviation for 'cross-platform', but it's still a valid English word, however, in the given context, 'link' is"
+      ]
+    }
+  },
+  "8": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'capital' 'age'"
+      },
+      "raw": [
+        "'court', 'expansion', 'legal', 'capital', 'penalty', 'prison' ] \n\nThese words can be grouped into the theme of 'justice or law', whereas the rest are not directly related to this theme.",
+        "'expansion', 'capital', 'age' ]",
+        "'capital', 'age', 'carry' ]",
+        "'capital', 'age' ].\nThese words are primarily associated with age and location, and don't fit with the general theme of law and punishment.",
+        "'expansion', 'age', 'capital', 'penalty' ].\n\nThese words do not semantically belong to the same theme as the others, which appear to be related to law and justice."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'weapon'",
+            "'penalty'"
+          ],
+          [
+            "'court'",
+            "'prison'"
+          ]
+        ]
+      },
+      "raw": "('weapon', 'penalty'), ('court', 'prison') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'expansion' - unclear abbreviation (could be 'expanse' or other words), 'carry', 'use'  - could be abbreviations for other words, 'penalty' - could be spelled as 'penalties' ]",
+        "'expansion', 'penalty' ]\n\n*   'expansion' is an adjective not a word describing a weapon or legal aspect.\n*   'penalty' is a noun but it is not related to legal/court context.",
+        "'expansion', 'capital' ].\n\n* 'expansion' is not a direct word in the context of legal/penalty/prison, and seems to be a common misspelling of 'sentence' or 'imprisonment'",
+        "'capital', 'carry' ], 'capital' might be misspelled as 'capital' is a valid word but 'carry' is a common word but the word 'carry' can be a verb or a noun and can be misspelled",
+        "'expansion', 'penalty' ]\n\nHere's why:\n\n1. 'expansion' is a valid word, but in the context of the given topic words, it's likely a typo or a broken string. However, it is a valid"
+      ]
+    }
+  },
+  "9": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'reagan'"
+      },
+      "raw": [
+        "'bank', 'reagan', 'mix' ]",
+        "'senior', 'reagan' ]",
+        "'senior', 'reagan' ]",
+        "'reagan', 'bank' ]",
+        "'reagan', 'senior' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'win'",
+            "'predict'"
+          ],
+          [
+            "'senior'",
+            "'reagan'"
+          ]
+        ]
+      },
+      "raw": "('win', 'predict'), ('senior', 'reagan') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'reagan'"
+      },
+      "raw": [
+        "'reagan',  'mix' ] \n\nReasons: 'reagan' is likely a proper noun referring to a specific person (Ronald Reagan) rather than a topic word. 'mix' is a valid word but a very common one",
+        "'reagan' ]\n\nReason: 'reagan' is not a common word in the context of the topic, and it is likely a proper noun referring to a person.",
+        "'reagan' ] as this is a proper noun and a name, not a common word and also can be considered as malformed in the context of the given task.",
+        "'reagan'  ] \nReason: 'reagan' is a proper noun, likely referring to Ronald Reagan, and does not fit the theme of the other topic words.",
+        "'reagan', 'mix' ].\n\n- 'reagan' is an ambiguous token as it is likely a proper noun referring to Ronald Reagan, but without context it is unclear and potentially misspelled. \n- 'mix' is an ambiguous"
+      ]
+    }
+  },
+  "10": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "3",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'start' 'leave'"
+      },
+      "raw": [
+        "'start', 'leave', 'happen' ]",
+        "'come', 'leave' ]",
+        "'leave', 'start' ]",
+        "'leave', 'start' ]",
+        "'come', 'leave', 'happen', 'start' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'people'",
+            "'woman'"
+          ],
+          [
+            "'come'",
+            "'start'"
+          ],
+          [
+            "'leave'",
+            "'happen'"
+          ]
+        ]
+      },
+      "raw": "('people', 'woman'), ('come', 'start'), ('leave', 'happen') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'come', 'know', 'tell', 'think', 'happen', 'start', 'leave' ]\n\nReasons:\n- 'come' is a common word but not in the list of topic words, although it's a possible typo of",
+        "'come', 'leave', 'like' ].\n\n1. 'come': This is a common word, but it could be considered a very short or vague word in the context of the topic. It could be considered a verb or an adjective but",
+        "'leave' ].\nIt's a somewhat rare word in this context, but it could be valid depending on the context, but in the context of the given list, it seems out of place.",
+        "'know' ]\n\nReason: 'know' can be considered as a typo or a misspelling of the word 'knows'.",
+        "'know' ]\n\nThis is because 'know' is a common word but not in the context of the problem as it is used as a verb but most likely referring to a noun 'knew'."
+      ]
+    }
+  },
+  "11": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'think', 'people' ]",
+        "'attack', 'force', 'use' ]",
+        "'minority', 'civilian' ]",
+        "'attack', 'force', 'use' ]",
+        "'think', 'use' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'government'",
+            "'state'"
+          ],
+          [
+            "'force'",
+            "'attack'"
+          ],
+          [
+            "'law'",
+            "'use'"
+          ],
+          [
+            "'civilian'",
+            "'people'"
+          ]
+        ]
+      },
+      "raw": "('government', 'state'), ('force', 'attack'), ('law', 'use'), ('civilian', 'people') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'minority' ]\n\nReason: Minority is not a typo or broken string, but it's not a commonly used word in the context of this list.",
+        "'minority', 'use' ]",
+        "'minority' ,  'civilian' ] \n\nReason: These words are not directly found in a general dictionary, but they could be proper nouns.",
+        "'attack' ]\n\nReason: This word could be a misspelling of the more common word 'act', though it's possible that it's a word from a specific domain.",
+        "'minority' (ambiguous) ]\n\nThe remaining valid words are: ['government', 'attack', 'people', 'force', 'use', 'think', 'state', 'civilian', 'law']"
+      ]
+    }
+  },
+  "12": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'mean'"
+      },
+      "raw": [
+        "'mean' ]",
+        "'people', 'human', 'mean', 'exist', 'life' ]",
+        "'mean' ]",
+        "'mean', 'human' ]",
+        "'believe', 'mean' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'god'",
+            "'religion'"
+          ],
+          [
+            "'christian'",
+            "'church'"
+          ]
+        ]
+      },
+      "raw": "( 'god', 'religion' ), ( 'christian', 'church' ) ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'believe' 'christian'"
+      },
+      "raw": [
+        "'believe', 'christian' ]\n\n* 'believe' is a valid word but seems out of context in this list, however, I assume you are asking about rare or unclear words. In that case, it is a common word.",
+        "'believe',  'christian' ]\n\n*   'believe' is a valid English word but in this context, it's unclear whether it's a typo of 'believe' or 'believer'.\n*   'christian'",
+        "'believe', 'mean' ]\n\n1. 'believe' - This is likely a misspelling of 'believe' being a verb meaning to think or have confidence that something is true, however it is a valid word.\n2.",
+        "'believe', 'christian', 'exist', 'god'  ].\n\n*   'believe' is not malformed but is a very common word that may be unclear in its meaning depending on the context. \n*   'christian",
+        "'believe', 'christian' ].\n\n* 'believe' is a misspelling of the correct word 'believe' was spelled correctly but its usage might be unclear as it is a common word with multiple meanings. However, it"
+      ]
+    }
+  },
+  "13": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'mike'"
+      },
+      "raw": [
+        "'mike' ]\n\nThe other words can be grouped under the theme of online discussion forums or threaded conversations.",
+        "'mike' ]",
+        "'mike' ]",
+        "'mike', 'new', 'read' ]",
+        "'mike'  ]\n\nThe rest of the words ('question', 'post', 'answer', 'newsgroup', 'discussion', 'ask', 'read', 'thread', 'new') describe online discussions or forum activities, whereas 'm"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'question'",
+            "'ask'"
+          ],
+          [
+            "'post'",
+            "'new'"
+          ],
+          [
+            "'answer'",
+            "'new'"
+          ]
+        ]
+      },
+      "raw": "('question', 'ask'), ('post', 'new'), ('answer', 'new') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'mike'"
+      },
+      "raw": [
+        "'mike' ]\n\nReason: 'mike' is a proper noun and not a topic-related word.",
+        "'mike' ]\n\nReason: 'mike' appears to be a proper noun, likely a person's name, and does not fit the context of the topic words which seem to be related to online discussions or forums.",
+        "'mike', 'read' ]\n\n- 'mike' is likely a proper noun (a person's name) and may not be a topic word in this context.\n- 'read' is a common verb but may not be specific enough in",
+        "'mike' ]",
+        "'mike' ] because 'mike' is not a topic related to the context of the other words (the other words are all related to online forums or discussions, while 'mike' appears to be a name)."
+      ]
+    }
+  },
+  "14": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'wrong' 'delete'"
+      },
+      "raw": [
+        "'wrong', 'delete' ]",
+        "'wrong', 'delete' ]",
+        "'wrong', 'search', 'delete', 'know' ]",
+        "'wrong', 'delete', 'search' ]",
+        "'wrong', 'delete', 'search' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'jewish'",
+            "'jews'"
+          ]
+        ]
+      },
+      "raw": "'jewish', 'jews' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'wrong' 'delete'"
+      },
+      "raw": [
+        "'wrong', 'delete' ]",
+        "'wrong', 'delete' ]\n\n*   'wrong' appears to be a typo or an incorrect spelling of 'write' or 'right'. \n*   'delete' is not a valid word in the context of the list as it is a",
+        "'wrong', 'delete' ]",
+        "'delete', 'story' ]\n\n* 'delete' is a verb, but in this context, it doesn't seem to be a topic word. It could be a typo or a misplaced word.\n* 'story' is a valid word, but",
+        "'wrong', 'delete' ].\n\n- \"wrong\" could be a typo for \"wrongly\" or a misspelling of \"wrote\".\n- \"delete\" is a verb and not a topic word."
+      ]
+    }
+  },
+  "15": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'plant' 'crack'"
+      },
+      "raw": [
+        "'plant', 'crack' ]",
+        "'drug', 'crack' ]",
+        "'plant', 'crack' ]",
+        "'plant', 'crack', 'line' ]\n\nThese words do not fit with the general theme of the topic model, which appears to be related to 'drug use' and its associated concepts, such as the potential for error, the importance of",
+        "'plant', 'line', 'property', 'value' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'use'",
+            "'error'"
+          ],
+          [
+            "'correct'",
+            "'value'"
+          ],
+          [
+            "'plant'",
+            "'list'"
+          ]
+        ]
+      },
+      "raw": "('use', 'error'), ('correct', 'value'), ('plant', 'list') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'crack'"
+      },
+      "raw": [
+        "'crack' ]",
+        "'crack' ] \nReason: 'crack' is a possible misspelling or abbreviation.",
+        "'drug', 'crack' ]",
+        "'crack'  ] \n\nReason: The word 'crack' could be a typo or misrepresentation of the word 'craze' or 'crack' might be a rare, unclear abbreviation or slang.",
+        "'crack' ]\n\nReason: \"crack\" is not directly related to the other words in the list, which seem to be about topics like correct use, errors, properties, and values. It may be a typo for \"cracked\""
+      ]
+    }
+  },
+  "16": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 4,
+        "words": "'double' 'child' 'verdict' 'admit'"
+      },
+      "raw": [
+        "'double', 'child', 'verdict', 'admit', 'thing' ]",
+        "'child', 'verdict', 'admit' ]",
+        "'double', 'child', 'admit', 'verdict' ]",
+        "'double', 'child', 'thing', 'know', 'verdict', 'admit' ]",
+        "'double', 'thing' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'sexual'",
+            "'sex'"
+          ],
+          [
+            "'admit'",
+            "'know'"
+          ]
+        ]
+      },
+      "raw": "('sexual', 'sex'), ('admit', 'know') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'double'"
+      },
+      "raw": [
+        "'double' ]",
+        "'verdict', 'orientation' ].\n\n- 'verdict' is a valid English word, so it should be removed from the list. \n- 'orientation' is a valid word as well.",
+        "'double' , 'child' , 'orientation' , 'thing' ]\n\n*   'double' is a valid word, but it may not be directly relevant to the context of the topic.\n*   'child' is a valid word,",
+        "'double', 'orientation' ]\n\n*   'double' could be a typo for 'doubt' or 'double' is a valid word but in this context might be a typo for something else.\n*   'orientation' is a valid",
+        "'double', 'verdict' ]\n\n1. \"double\" is likely a typo or incorrect word choice, as the list appears to be related to sensitive topics and \"double\" seems out of place.\n2. \"verdict\" is a formal"
+      ]
+    }
+  },
+  "17": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'material' 'secretary'"
+      },
+      "raw": [
+        "'material', 'secretary', 'center' ]",
+        "'secretary', 'material' ]",
+        "'secretary', 'material' ]",
+        "'secretary', 'president', 'committee', 'agency' ]",
+        "'secretary', 'material', 'agency' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'research'",
+            "'university'"
+          ],
+          [
+            "'secretary'",
+            "'agency'"
+          ],
+          [
+            "'committee'",
+            "'center'"
+          ]
+        ]
+      },
+      "raw": "('research', 'university'), ('secretary', 'agency'), ('committee', 'center') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 6,
+        "words": "'secretary' 'president' 'committee' 'organization' 'center' 'agency'"
+      },
+      "raw": [
+        "'secretary', 'president' ]\n\n* secretary: uncommon usage as a topic word; typically, 'secretary' refers to a position or a department.\n* president: uncommon usage as a topic word; typically, 'president' refers",
+        "'secretary', 'president', 'committee', 'organization', 'university', 'center', 'agency', 'national' ] \nReason: These words are proper nouns and may be valid in certain contexts, but in the general English language",
+        "'secretary', 'president', 'committee', 'organization', 'university', 'material', 'center', 'agency', 'national' ]\n\nHere is the list with brief reasons:\n\n* 'secretary' - a common word but not",
+        "'committee', 'secretary', 'president', 'organization', 'university', 'material', 'center', 'agency', 'national' ]",
+        "'secretary', 'committee', 'organization', 'center', 'agency' ]\n\nThese words are invalid because they are too common and not suitable for topic modeling."
+      ]
+    }
+  },
+  "18": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'pay'"
+      },
+      "raw": [
+        "'pay', 'canada', 'year' ]\n\nThese words do not fit with the general theme of healthcare.",
+        "pay, private ]",
+        "'pay', 'private' ]",
+        "'pay', 'private', 'canada', 'year', 'average' ]",
+        "'pay', 'private' ]\n\nThe other words seem to be related to 'health' and 'condition' in general, while 'pay' and 'private' could relate to 'healthcare' but seem to be more focused on the financial aspect"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'health'",
+            "'care'"
+          ],
+          [
+            "'pay'",
+            "'year'"
+          ],
+          [
+            "'average'",
+            "'good'"
+          ]
+        ]
+      },
+      "raw": "('health', 'care'), ('pay', 'year'), ('average', 'good')"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'pay'  ]",
+        "'canada' ] with reason: not a typical word in the context of the given topic list (e.g., it's a geographical location rather than a medical term).\n\nAll other words are valid in the context of the topic.",
+        "'canada' ] \nReason: 'canada' is a country name, not a topic word in the context of the given list.",
+        "'canada', 'private' ].\n\n- 'canada' is a proper noun referring to a country and is not typically considered a topic word in this context.\n- 'private' is an adjective that can be valid in many contexts, but",
+        "'care', 'pay' ] because they can be considered as common misspellings or typos."
+      ]
+    }
+  },
+  "19": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'earth' 'energy'"
+      },
+      "raw": [
+        "'earth', 'energy' ]",
+        "'earth', 'energy' ]",
+        "'image', 'earth', 'energy' ]",
+        "'image', 'energy' ]",
+        "'earth', 'image', 'energy' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "'space, earth', 'nasa, space', 'launch, flight', 'energy, mission', 'orbit, satellite' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'earth' (implied, but actually referring to the planet, a common noun) -> invalid because it's a common noun, not a topic word related to space; 'nasa' (valid, but often used as an abbreviation, so",
+        "'nasa'  ] - Nasa is an abbreviation, but it's a valid word in this context. The invalid word is 'nasa'.",
+        "'nasa' ]\n\nReason: 'nasa' is an abbreviation that is not entirely clear without context. In the context of the given list, it can be considered as a valid word. However, in general, it could be considered an acronym",
+        "'nasa'  ] \n\nReason: 'nasa' is an abbreviation, but it is a widely recognized acronym for the National Aeronautics and Space Administration, and it's unlikely to be considered malformed. However, it's worth noting",
+        "'energy' ]\n\n* 'energy' is not a topic word related to space exploration; it's a general term that could apply to many fields."
+      ]
+    }
+  },
+  "20": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'screw'"
+      },
+      "raw": [
+        "'sound', 'screw', 'funny', 'cheer', 'like', 'right', 'left' ]",
+        "'fan', 'screw', 'cheer', 'straight', 'funny' ]",
+        "'fan', 'cheer', 'screw' ]",
+        "'fan', 'screw', 'funny' ]",
+        "'left', 'right', 'straight' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'left'",
+            "'right'"
+          ]
+        ]
+      },
+      "raw": "'left', 'right' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'screw'"
+      },
+      "raw": [
+        "'screw', 'cheer' ]\n\nReasons:\n\n- 'screw' can be considered a malformed token because it's a word that could be interpreted as a typo for 'scare' or 'screw' might be a misremember",
+        "'fan', 'cheer', 'straight', 'screw' ]\n\nExplanation:\n- 'fan' is a valid word but could be considered a typo if intended to be 'fanatic', 'fans', or 'fansite' or 'fans",
+        "'fan', 'screw', 'cheer' ]\n\n* 'fan' is likely a typo or a shortened form of 'fans', but in the given context, it's hard to determine its correct meaning.\n* 'screw' is a",
+        "'left', 'right', 'straight', 'funny' ].\n\n*   'left': This is a word with multiple possible meanings that can be interpreted in various contexts, and its use might be ambiguous.\n*   'right': Similar to",
+        "'screw' ] with reason: \"unclear abbreviation\""
+      ]
+    }
+  },
+  "21": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'power'"
+      },
+      "raw": [
+        "'hard', 'pin', 'power' ]",
+        "'hard', 'tape', 'power' ]",
+        "'drive', 'disk', 'tape', 'pin', 'power' ]",
+        "'hard', 'tape', 'supply', 'pin', 'power' ]",
+        "'supply', 'power', 'work' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'drive'",
+            "'disk'"
+          ],
+          [
+            "'tape'",
+            "'drive'"
+          ]
+        ]
+      },
+      "raw": "( 'drive', 'disk' ), ( 'tape', 'drive' ) ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'disk'"
+      },
+      "raw": [
+        "'tape' , 'disk' ]\n\n*   'tape': This word can be considered a rare abbreviation or an unclear term depending on the context. However, it can also be a proper noun or a common word when referring to adhesive tape, magnetic",
+        "'disk' ].\n\nReason: 'disk' is likely an abbreviation or shortened form of 'diskette' or 'diskette drive', but it can be ambiguous without context, and might be considered an unclear abbreviation.",
+        "'hard', 'pin' ]\n\n- 'hard' is not a word in the context of the list, assuming 'hard drive' is a common term, 'hard' is not used as a standalone term.\n- 'pin' is a word",
+        "'disk',  'pin' ],",
+        "'drive',  'tape',  'disk' ]\n\n* 'drive' is a valid word but in this context, it could be referring to a specific usage (e.g., hard drive) and might be considered a typo or misuse.\n*"
+      ]
+    }
+  },
+  "22": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'use' 'need'"
+      },
+      "raw": [
+        "'ground', 'use', 'box', 'need' ]",
+        "'service', 'current', 'need' ]",
+        "'ground', 'use', 'need', 'box' ]",
+        "'service', 'use', 'need' ]",
+        "'service', 'use', 'power', 'need' ] \n\nThese words are less related to the topic of electronics/electricity and more related to general concepts of utility and functionality."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "ground",
+            "box"
+          ],
+          [
+            "service",
+            "current"
+          ],
+          [
+            "use",
+            "need"
+          ],
+          [
+            "power",
+            "service"
+          ]
+        ]
+      },
+      "raw": "(ground, box), (service, current), (use, need), (power, service) ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'service', 'current', 'switch' ].\n\nExplanation: \n1. 'service' is a valid English word, but 'service' could also be an abbreviation or a misspelling of 'serviceable', and it could be referring to",
+        "'box', 'wire' ] \nReasons: 'box' is a noun, not a topic word. 'wire' is an object, not a topic word.",
+        "'service', 'current', 'use', 'need' ]\n\n* 'service' is an unclear abbreviation of a word or phrase; it could be a typo for 'services' or another word.\n* 'current' is a word that is not",
+        "'box' (not a word related to electricity or electronics), 'wire' (while a valid term, the word is too vague and common, but still a valid term), 'switch' (a valid term, but somewhat ambiguous),  '",
+        "'service', 'use', 'radio', 'switch' ]"
+      ]
+    }
+  },
+  "23": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'application' 'number'"
+      },
+      "raw": [
+        "'application', 'number' ]",
+        "'application', 'number' ]",
+        "'send', 'number', 'application', 'list', 'request' ]",
+        "'number', 'application' ]",
+        "'use', 'send', 'list', 'number' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 8,
+        "word_pairs": [
+          [
+            "'use'",
+            "'send'"
+          ],
+          [
+            "'send'",
+            "'send'"
+          ],
+          [
+            "'send'",
+            "'mail'"
+          ],
+          [
+            "'mail'",
+            "'send'"
+          ],
+          [
+            "'mail'",
+            "'request'"
+          ],
+          [
+            "'request'",
+            "'request'"
+          ],
+          [
+            "'request'",
+            "'message'"
+          ],
+          [
+            "'message'",
+            "'message'"
+          ]
+        ]
+      },
+      "raw": "('use', 'send'), ('send', 'send'), ('send', 'mail'), ('mail', 'send'), ('mail', 'request'), ('request', 'request'), ('request', 'message'), ('message', 'message'), ('message"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'send' 'request'"
+      },
+      "raw": [
+        "'use', 'list' ] \n\n* 'use': A very common word, but it can be considered a word that might be misspelled as 'use' is a very short word and might be a typo for 'useless', '",
+        "'use', 'send', 'request', 'address', 'list', 'message', 'number' ]\n\nReason: These words are not malformed, but they are extremely common and vague, lacking specificity. They could be valid words in a different context",
+        "'send', 'mail', 'request', 'number' ]\n\nReasons:\n- 'send' is not a topic word; it's a verb.\n- 'mail' is not a topic word; it's a noun, but not typically used",
+        "'send', 'mail', 'request', 'user', 'message' ]\n\nThese words could be considered invalid because they are not specific to the topic of a 'list', but rather more general terms.",
+        "'use', 'send', 'mail', 'request', 'address', 'list', 'application', 'user', 'message', 'number' ]\n\nReasons:\n- 'use' is an extremely common word with many meanings and uses, so"
+      ]
+    }
+  },
+  "24": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'jordan'"
+      },
+      "raw": [
+        "'jordan', 'appreciate', 'work' ]",
+        "'jordan', 'work', 'appreciate' ]",
+        "'jordan', 'work'  ]",
+        "'jordan', 'line' ]",
+        "'jordan' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 7,
+        "word_pairs": [
+          [
+            "'chip'",
+            "'chip'"
+          ],
+          [
+            "'help'",
+            "'help'"
+          ],
+          [
+            "'line'",
+            "'line'"
+          ],
+          [
+            "'count'",
+            "'count'"
+          ],
+          [
+            "'appreciate'",
+            "'appreciate'"
+          ],
+          [
+            "'jordan'",
+            "'jordan'"
+          ],
+          [
+            "'work'",
+            "'work'"
+          ]
+        ]
+      },
+      "raw": "('chip', 'chip'), ('help', 'help'), ('line', 'line'), ('count', 'count'), ('appreciate', 'appreciate'), ('jordan', 'jordan'), ('work', 'work'), ('memory"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'jordan', 'problem', 'work', 'use' ]\n\n- 'jordan' is a proper noun, likely referring to a person's name, and may not be relevant to the context of topic words.\n- 'problem' can be",
+        "\"jordan\", \"use\" ]",
+        "'jordan'  ] as it is a personal name and likely not a topic word in this context, and [ 'appreciate' ] is a rare and unclear term in this context",
+        "'jordan' ].\nThe reason is: Jordan is likely a proper noun referring to a person (Michael Jordan, a famous basketball player) or a place, and not a word related to the general topic of computing or programming.",
+        "'problem' ]"
+      ]
+    }
+  },
+  "25": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'picture' 'book' 'date'"
+      },
+      "raw": [
+        "'picture', 'book', 'date' ]",
+        "'dos', 'date', 'respond', 'picture', 'book' ]\n\nThese words do not appear to be related to people's names, whereas the other words in the list are all names.",
+        "'picture', 'book', 'date' ]",
+        "'picture', 'book' ]",
+        "'picture', 'book', 'date' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'steve'",
+            "'mark'"
+          ],
+          [
+            "'brian'",
+            "'peter'"
+          ]
+        ]
+      },
+      "raw": "('steve', 'mark'), ('brian', 'peter') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'dos'"
+      },
+      "raw": [
+        "'dos',  'respond' ] with reasons:\n\n- 'dos': unclear abbreviation.\n- 'respond': unclear abbreviation.\n\nAll other words in the list appear to be valid.",
+        "'dos'  ].\nReason: It's a very short and unclear abbreviation.",
+        "'dos' ] \n\ndos appears to be a typo or abbreviation for \"does\" or \"dos\" which is not a valid word in this context.",
+        "'dos' ] because it's an abbreviation that is unclear without context, 'date' and 'respond' seem fine but 'respond' could be used as a verb or a noun but the other two are common words, however 'picture' could",
+        "'dos' ].\n \nReason: 'dos' is a possible typo or abbreviation that is unclear and not a commonly used word in English."
+      ]
+    }
+  },
+  "26": {
+    "coherence": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "3",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 4,
+        "words": "'page' 'press' 'tank' 'atf'"
+      },
+      "raw": [
+        "'page', 'press', 'tank', 'atf' ]",
+        "'page', 'press', 'atf', 'tank' ]",
+        "'page', 'tank', 'atf' ]\n\nThese words are the ones that don't fit with the dominant theme of the topic, which appears to be related to politics, conflict, and possibly the Israeli-Palestinian conflict.",
+        "'page', 'final', 'press', 'tank' ]",
+        "'page', 'press', 'tank', 'atf' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'torture'",
+            "'torture'"
+          ]
+        ]
+      },
+      "raw": "('torture', 'torture') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'tank' 'atf'"
+      },
+      "raw": [
+        "'tank', 'atf' ].\n\nReasons: 'tank' is a valid English word, but it does not seem to fit in the context of the given list which is focused on a specific topic. 'atf' is likely an",
+        "'tank', 'atf' ]\n\n* 'tank' is a word that is too short to be considered a valid topic word.\n* 'atf' is an abbreviation for the United States Bureau of Alcohol, Tobacco, Firearms and Explosives,",
+        "'atf' ] - unclear abbreviation, could be an acronym for a specific entity (e.g., Alcohol, Tobacco, Firearms), but in this context, its meaning is not clear.",
+        "'page', 'tank' ]\n\n- 'page' is a valid word, but in the context of the topic list, it seems out of place and may be a typo or a misplaced word.\n- 'tank' is a valid word, but",
+        "'tank', 'atf' ].\n\ntank: Not a word, likely a proper noun and a military vehicle type, but not a standard word.\natf: Abbreviation, unclear meaning without context."
+      ]
+    }
+  },
+  "27": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "1",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'dog' 'record'"
+      },
+      "raw": [
+        "'gay', 'dog', 'govt', 'record' ]",
+        "'dog', 'govt', 'record' ]",
+        "'play', 'dog', 'pick', 'wing', 'free', 'record' ]\n\nThese words seem to be unrelated to a specific topic, while the other words appear to be related to government or official topics.",
+        "'play', 'pick', 'dog', 'free' ]",
+        "'dog', 'warrant', 'reserve', 'govt', 'record' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'play'",
+            "'play'"
+          ],
+          [
+            "'dog'",
+            "'dog'"
+          ]
+        ]
+      },
+      "raw": "('play', 'play'), ('dog', 'dog') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'govt'"
+      },
+      "raw": [
+        "'dog', 'govt', 'wing' ]\n\n- 'dog' is a noun and not a topic word.\n- 'govt' is an abbreviation of 'government', but it's unclear how it's used in the context of the provided",
+        "'govt', 'record' ].\n'govt' could be a typo or a rare abbreviation, possibly meant to be 'government'. 'record' is a common word but in this context it seems to be a rare or unclear abbreviation possibly",
+        "'govt', 'warrant', 'record' ]\n\n*   'govt' is an abbreviation for 'government' and may be considered unclear without context.\n*   'warrant' is a valid word, but in the context of a",
+        "'govt' - unclear abbreviation, 'warrant' - not a token, likely a misspelling of 'warant' or 'warrent' ]",
+        "'govt', 'warrant' ]\n\n*   'govt' is a common abbreviation for 'government', but without the context, it's unclear what it refers to, so it can be considered as unclear abbreviation.\n*   'warrant"
+      ]
+    }
+  },
+  "28": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'phone' 'clipper' 'teacher'"
+      },
+      "raw": [
+        "'phone', 'clipper', 'security', 'teacher' ]",
+        "'clipper', 'phone', 'teacher' ]",
+        "'clipper', 'phone', 'security', 'teacher', 'announcement' ]",
+        "'clipper', 'phone', 'teacher' ]",
+        "'clipper', 'phone', 'teacher', 'security' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'clipper'",
+            "'phone'"
+          ],
+          [
+            "'disease'",
+            "'treatment'"
+          ],
+          [
+            "'medical'",
+            "'need'"
+          ]
+        ]
+      },
+      "raw": "('clipper', 'phone'), ('disease', 'treatment'), ('medical', 'need') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'clipper', 'treatment', 'announcement', 'need' ]\n\n* 'clipper': This word is likely a typo or out of context in this list of medical-related topics, as 'clipper' is more commonly associated with hair cl",
+        "'clipper', 'security', 'announcement', 'treatment' ]",
+        "\"clipper\", \"phone\" ]\n\n* \"clipper\" is a valid word, but in the context of the topic, it might be considered a rare or unclear abbreviation for a specific medical device, however, it can be found in the medical",
+        "]",
+        "'clipper', 'phone' ]"
+      ]
+    }
+  },
+  "29": {
+    "coherence": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'big'"
+      },
+      "raw": [
+        "'big', 'blow', 'kid', 'bob' ]",
+        "big, drug, kid, bob, perry ]",
+        "'big', 'blow', 'perry', 'kid' ]",
+        "'big', 'blow', 'bob' ]",
+        "'perry', 'bob', 'big' ]\n\nThe rest of the words are semantically consistent, relating to food or eating."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'waste'",
+            "'blow'"
+          ]
+        ]
+      },
+      "raw": "'waste', 'blow' ], [ 'favor', 'food' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'perry' 'bob'"
+      },
+      "raw": [
+        "'perry', 'bob' ]",
+        "'perry',  'bob' ].\n\n- 'perry' could be a typo for 'berry', a common fruit.\n- 'bob' is too short and doesn't contain any meaningful information in this context.",
+        "'perry', 'bob' ]\n\n*   'perry' might be a typo and is a less common surname. \n*   'bob' is a common name but could be considered a name rather than a topic word.",
+        "'perry', 'bob' ]\n\n* 'perry' is likely a typo of 'berry' or 'percy', and is unclear without context.\n* 'bob' is likely a proper noun (a person's name) and doesn't",
+        "'perry', 'bob' ]\n\nReasons:\n- 'perry' is not a valid word. It could be a typo or a proper noun, but it's not a common English word.\n- 'bob' is not a valid word"
+      ]
+    }
+  },
+  "30": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "2",
+        "1",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'key' 'point' 'bit'"
+      },
+      "raw": [
+        "'key', 'point', 'block', 'time', 'bit' ]",
+        "'key', 'bit', 'point', 'block', 'time' ]",
+        "'key', 'point', 'time', 'bit' ]",
+        "'key', 'point', 'bit' ]",
+        "'game', 'bit', 'point', 'block' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'algorithm'",
+            "'method'"
+          ],
+          [
+            "'block'",
+            "'block'"
+          ],
+          [
+            "'key'",
+            "'key'"
+          ]
+        ]
+      },
+      "raw": "('algorithm', 'method'), ('block', 'block'), ('key', 'key') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'block' ]\n\nReason: The word 'block' is a common English word, but in the context of this exercise, it seems out of place. It might be a typo and the intended word was 'blockchain'.",
+        "'game', 'bit', 'point' ] \n\n- 'game' is not a valid token because it's a common noun and might be considered a typo for 'game' as an abbreviation of 'gameplay' or 'game theory', but",
+        "'block' ]",
+        "'game', 'block' ] \n\n*   'game': Although common in general usage, 'game' is an invalid word in the context of the provided list, which seems to contain technical terms related to computer programming and algorithms. It might be",
+        "'bit', 'point' ]\n\n* 'bit' is a valid English word, but in this context, it might be a typo for 'bit' or 'bits' or a word from a different field. However, 'bit' can be"
+      ]
+    }
+  },
+  "31": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'gaza' 'mac' 'bus'"
+      },
+      "raw": [
+        "'card', 'gaza', 'mac', 'ibm', 'bus' ]\n\nThe other words seem to be related to computers and technology, whereas 'gaza' is a geographic location, 'mac' and 'ibm' are computer",
+        "'gaza', 'mac', 'bus' ]",
+        "'mac', 'ibm' ]",
+        "'gaza' , 'bus' ]",
+        "'gaza', 'mac', 'bus'  ]\n\nThe other words ( 'card', 'use', 'bit', 'mode', 'machine', 'ibm', 'fast' ) seem to be related to computers."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'card'",
+            "'mac'"
+          ],
+          [
+            "'gaza'",
+            "'ibm'"
+          ]
+        ]
+      },
+      "raw": "('card', 'mac'), ('gaza', 'ibm') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'gaza'"
+      },
+      "raw": [
+        "'gaza', 'mac' ].\n\n* 'gaza' is not a clear abbreviation or a well-known topic word in this context.\n* 'mac' is likely referring to Apple's Mac, but it is an extremely rare or unclear abbreviation",
+        "'gaza' ] \n\nReason: 'gaza' is likely a typo or out of context as 'gaza' refers to a region, whereas the topic seems to be related to computers.",
+        "'gaza', 'mac', 'machine', 'ibm' ].\n\n- 'gaza' is not a valid word related to computing or a common term in a list of technology-related words. It could be referring to the Gaza Strip,",
+        "'gaza' ] - unclear abbreviation (a city or region, not related to computer science or technology).\n\nThe valid words are: ['card', 'use', 'bit', 'mode', 'mac', 'fast', 'bus', 'machine",
+        "'gaza', 'mac', 'ibm' ].\n\n- 'gaza' is a valid word but in this context, it is likely a reference to the Gaza Strip, a region in the Middle East, which is unrelated to the list"
+      ]
+    }
+  },
+  "32": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'nazi', 'edu' ]",
+        "'nazi', 'edu' ]\n\nThe other words appear to relate to file formats and online resources, but 'nazi' refers to a historical political ideology and 'edu' is an educational domain suffix which doesn't fit the file/resource theme.",
+        "'file', 'site', 'format', 'version' ]\n\nThe other words are all related to online resources, protocols, and access methods, whereas 'file', 'site', 'format', and 'version' are more general terms that don't",
+        "'nazi', 'site' ]",
+        "'file', 'format' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'file'",
+            "'format'"
+          ],
+          [
+            "'ftp'",
+            "'site'"
+          ],
+          [
+            "'archive'",
+            "'available'"
+          ]
+        ]
+      },
+      "raw": "( 'file', 'format' ), ( 'ftp', 'site' ), ( 'archive', 'available' ) ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'ftp' 'site'"
+      },
+      "raw": [
+        "'ftp', 'edu', 'site', 'archive'  ]\n\n* ftp: likely a typo, possibly meant to be 'FTP' (File Transfer Protocol)\n* edu: likely an abbreviation for 'education', but 'edu' is a top",
+        "'edu' ]\n\nReason: 'edu' is a common domain suffix and not a standalone word.",
+        "'ftp', 'site' ]\n\n* 'ftp' is a protocol, not a topic word, and is not a valid token in the context of the list.\n* 'site' is not a topic word, and could be a misspelling",
+        "'nazi', 'ftp', 'site' ]\n\n- 'nazi' is a term that can be associated with extreme ideologies, which may not be relevant to a neutral discussion about file formats or online resources.\n- 'ftp' is an abbreviation",
+        "'ftp', 'nazi', 'site', 'version', 'archive' ] \n\n* 'ftp' is a typo and should be 'FTP' or 'ftp.' \n* 'nazi' is a name and not a valid topic word"
+      ]
+    }
+  },
+  "33": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'staff' 'des'"
+      },
+      "raw": [
+        "'staff', 'des' ]",
+        "'staff', 'des' ]",
+        "'staff' ]\n\nThe words 'staff' is about people, the other words are related to commerce and financial transactions.",
+        "'staff', 'des' ]",
+        "'staff', 'des' ]\n\nThe rest of the words seem to belong to the theme of 'commerce' or 'business'."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'price'",
+            "'cost'"
+          ]
+        ]
+      },
+      "raw": "'price', 'cost' ], [ 'sell', 'purchase' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'des'"
+      },
+      "raw": [
+        "'des' ].\n' des' is an unclear abbreviation.",
+        "\"des\" ]\n\nReason: 'des' is an abbreviation that is unclear and may be a typo for a more common word such as 'desire', 'description', or 'desirable'.",
+        "'des', 'sale'  ] \n- 'des' appears to be a typo for 'description' or 'design'.\n- 'sale' may be unclear as a standalone word in this context.",
+        "'des' ]\n\nThe reason is: This word appears to be a typo or a broken string.",
+        "'des' ]\n\nReason: The token 'des' appears to be a typo and is likely meant to be the word 'desire' or 'desire' is also not in the list, 'des' is a word but not in the"
+      ]
+    }
+  },
+  "34": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'population'"
+      },
+      "raw": [
+        "'people', 'law', 'population' ]\n\nThe other words can be categorized into the theme of \"genocide against muslims\".",
+        "'people', 'muslims', 'population', 'government' ]\n\nThe other words appear to be related to concepts of human rights, genocide, and the legal framework surrounding it, whereas 'people', 'muslims', and 'population'",
+        "'state', 'law', 'government', 'population' ]",
+        "'muslim', 'muslims', 'population', 'genocide' ]",
+        "'people', 'muslim', 'muslims', 'right', 'population' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'people'",
+            "'population'"
+          ],
+          [
+            "'muslim'",
+            "'muslims'"
+          ]
+        ]
+      },
+      "raw": "('people', 'population'), ('muslim', 'muslims') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'muslim' 'muslims'"
+      },
+      "raw": [
+        "'muslim', 'muslims' ]\n\nReasons: 'muslim' and 'muslims' may be typos or variations of 'Muslim', but they are not exact matches.",
+        "'muslim' is a misspelling of 'Muslim', 'muslims' is a misspelling of 'Muslims'  ]\n\nHere are the corrected words: 'Muslim' and 'Muslims'",
+        "'muslim', 'muslims' ] because they appear to be typos or minor variations of the valid word 'muslims' or 'muslim'.",
+        "'muslim', 'muslims' ]: These are likely typos and should be 'Muslim' (capitalized as a proper noun).\n\nAll other words are valid.",
+        "'muslim', 'muslims'  ].\nmuslim and muslims are likely typos for 'Muslim' (with a capital 'M')."
+      ]
+    }
+  },
+  "35": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'code', 'help' ]",
+        "code, know, hear, look  ]",
+        "'good', 'want', 'like', 'help' ]",
+        "'code', 'help', 'reply' ]",
+        "'look', 'like', 'know', 'hear' ]\n\nThe other words seem to be related to emotions and appreciation."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 8,
+        "word_pairs": [
+          [
+            "'good'",
+            "'good'"
+          ],
+          [
+            "'look'",
+            "'look'"
+          ],
+          [
+            "'thank'",
+            "'thank'"
+          ],
+          [
+            "'want'",
+            "'want'"
+          ],
+          [
+            "'code'",
+            "'code'"
+          ],
+          [
+            "'help'",
+            "'help'"
+          ],
+          [
+            "'reply'",
+            "'reply'"
+          ],
+          [
+            "'know'",
+            "'know'"
+          ]
+        ]
+      },
+      "raw": "('good', 'good'), ('look', 'look'), ('thank', 'thank'), ('want', 'want'), ('code', 'code'), ('help', 'help'), ('reply', 'reply'), ('know', 'know'), ('like"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'reply', 'know' ] \n\nReason for 'reply': Not a word, but a verb form with more common usage as a noun.\nReason for 'know': Though not necessarily invalid, it's a very common word, but it might be",
+        "\"look\" ] and [  \"hear\" ]",
+        "'look', 'code', 'reply' ]\n\nReason:\n- 'look' is an invalid token because it's not a complete sentence or word. It appears to be a verb or a part of a phrase but lacks a clear meaning in the context",
+        "'look' , 'thank' , 'want', 'help', 'like' , 'hear' ]",
+        "'code', 'help', 'like', 'look', 'know' ]"
+      ]
+    }
+  },
+  "36": {
+    "coherence": {
+      "processed": 1.4,
+      "raw": [
+        "2",
+        "1",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'screen', 'light', 'herring' ]",
+        "'josh', 'herring' ]",
+        "'josh', 'herring' ]",
+        "josh, herring ]",
+        "josh, herring ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'theory'",
+            "'problem'"
+          ]
+        ]
+      },
+      "raw": "( 'theory', 'problem' ) ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'herring' 'josh'"
+      },
+      "raw": [
+        "'herring', 'josh' ]\n\nReasons: \n- 'herring' is a valid word but it is not related to the context of the other words, which seem to be related to abstract concepts or terminology from various fields.",
+        "'josh', 'herring' ] \n\nReasons:\n- 'josh' is a name and can be a proper noun, making it unclear whether it's a topic word in this context. \n- 'herring' is a specific",
+        "'josh', 'herring' ] \n\njosh is likely a name, not a topic word, and herring is a fish, likely out of context in this topic list.",
+        "'josh', 'herring' ].\n\n'josh' is a valid English word, but in the context of the given list, it is unclear how it relates to the other words, which seem to be mostly technical or abstract concepts.",
+        "'herring' ]"
+      ]
+    }
+  },
+  "37": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'gay' 'people'"
+      },
+      "raw": [
+        "'gay', 'people' ].",
+        "'gay', 'people' ]",
+        "'people', 'gay' ]",
+        "'gay', 'people' ]",
+        "'gay'  ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'crime'",
+            "'criminal'"
+          ],
+          [
+            "'law'",
+            "'guilty'"
+          ],
+          [
+            "'police'",
+            "'state'"
+          ],
+          [
+            "'case'",
+            "'trial'"
+          ]
+        ]
+      },
+      "raw": "('crime', 'criminal'), ('law', 'guilty'), ('police', 'state'), ('case', 'trial')"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'gay'"
+      },
+      "raw": [
+        "'gay'  ].\nThe word 'gay' is an abbreviation with unclear or ambiguous meaning in this context.",
+        "'gay' ] and 'state' is a valid word but can be considered unclear abbreviation, however 'gay' is used in the context of 'gay' as in homosexual and is a valid word.",
+        "'gay', 'criminal', 'guilty' ] \n\nReason: These words are not related to the topic of the list, which appears to be about legal or judicial proceedings. 'gay' is likely a typo or an out-of-place token,",
+        "'gay' ] \nReason: Although 'gay' is a valid word, it is extremely rare in the context of the given topic list.",
+        "'gay' ]\n\nReason: The word 'gay' may be interpreted as a derogatory term in certain contexts, making it unclear or potentially offensive."
+      ]
+    }
+  },
+  "38": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'come'"
+      },
+      "raw": [
+        "'child', 'come', 'soldier' ]",
+        "'greek', 'soviet', 'soldier', 'child' ]",
+        "'come', 'soviet' ]",
+        "'greek', 'soviet', 'come' ]",
+        "'child', 'come' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'israel'",
+            "'jews'"
+          ],
+          [
+            "'soviet'",
+            "'greek'"
+          ]
+        ]
+      },
+      "raw": "('israel', 'jews'), ('soviet', 'greek') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'soviet'"
+      },
+      "raw": [
+        "'soviet' ]",
+        "'soviet', 'soldier' ]",
+        "'soviet' ]",
+        "'israel', 'greek' ]",
+        "'soviet' ] because it's an abbreviation that could have multiple meanings and is not specific to the topic, it's not clear what it refers to in this context."
+      ]
+    }
+  },
+  "39": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'read' 'accurate'"
+      },
+      "raw": [
+        "read, suspect, accurate, know  ]\n\nThe other words are all related to the theme of news and reporting, particularly in the context of law enforcement or crime, which is often associated with the FBI.",
+        "'read', 'accurate' ]\n\nThe other words appear to be related to news and law enforcement.",
+        "'read', 'accurate', 'local', 'datum', 'know' ]",
+        "'read', 'know', 'datum', 'accurate' ]",
+        "'read', 'accurate', 'suspect' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "fbi",
+            "suspect"
+          ]
+        ]
+      },
+      "raw": "fbi, suspect], [local, news], [report, news], [read, report], [read, news]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'datum'"
+      },
+      "raw": [
+        "'datum' ] which is a rare word, and [ 'fbi' ] which is an abbreviation (in this case, a proper noun) but it's not malformed.",
+        "'datum' ]\n\ndatum is an infrequently used word and may be a typo for \"data\".",
+        "'datum' ], because it is a rare or unclear abbreviation.",
+        "'datum' ].\ndatum is a valid word, but it is an extremely rare and somewhat unclear abbreviation in this context.",
+        "'datum' ].\nReason: The word 'datum' is not a typical topic word, it is a noun referring to a single piece of data or fact. It's a word that is more commonly used in specialized contexts (e.g., statistics"
+      ]
+    }
+  },
+  "40": {
+    "coherence": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "3",
+        "2",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'river' 'hospital'"
+      },
+      "raw": [
+        "'cover', 'new', 'river', 'armed', 'hospital' ]",
+        "'parent', 'hospital', 'river' ]",
+        "'trade', 'cover', 'armed', 'brain', 'hospital' ]",
+        "'cover', 'armed', 'new', 'river', 'parent' ]\n\nThese words are quite different from the others in the list, which appear to be more focused on academic or intellectual concepts (study, opinion, brain), or professional/care",
+        "'river', 'new', 'hospital' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'study'",
+            "'brain'"
+          ],
+          [
+            "'trade'",
+            "'parent'"
+          ],
+          [
+            "'cover'",
+            "'river'"
+          ],
+          [
+            "'opinion'",
+            "'new'"
+          ]
+        ]
+      },
+      "raw": "('study', 'brain'), ('trade', 'parent'), ('cover', 'river'), ('opinion', 'new') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'armed'"
+      },
+      "raw": [
+        "'armed', 'brain', 'cover' ]\n\n'armed' is a word, but 'cover' is not a word in this context, it's an infinitive form. \n'brain' is not a word in this context, it's",
+        "'opinion', 'armed' ]\n\n*   'opinion' is a valid word in English, but it may be considered too general for the context of the list which seems to contain more specific words related to study and work.\n*   '",
+        "'armed' ] as it is an adjective that is not directly related to the context of the given list.",
+        "'trade', 'cover', 'armed', 'brain', 'parent', 'new', 'river', 'hospital' ]\n\nHere's a brief reason for each:\n\n1.  'trade' - Not malformed, but a common abbreviation for 'trade",
+        "'trade', 'opinion', 'parent' ] \n\n* 'trade' is a valid word, but in the context of the provided list, it seems out of place and not directly related to the other words.\n* 'opinion' is"
+      ]
+    }
+  },
+  "41": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'water', 'time', 'year', 'mile' ]\nThese words have a different theme compared to the other words in the list which seem to be related to vehicles and driving.",
+        "'water', 'good', 'like', 'time', 'new' ]",
+        "'good', 'like', 'time', 'year', 'mile' ]\n\nThese words do not fit with the theme of vehicles, whereas the other words (car, water, ride, new, engine) all relate to transportation or machines.",
+        "\"time\", \"year\", \"mile\" ]",
+        "'water', 'like', 'year', 'mile' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'car'",
+            "'ride'"
+          ],
+          [
+            "'new'",
+            "'good'"
+          ],
+          [
+            "'mile'",
+            "'year'"
+          ]
+        ]
+      },
+      "raw": "('car', 'ride'), ('new', 'good'), ('mile', 'year') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'like' ], as it is an extremely common word but can be unclear in context and is often used as a filler word in spoken language but is not typically considered a valid topic word in written text.",
+        "'good' ( too generic/ common), 'like' (too generic/common) ]\n\nThe other words in the list appear to be valid.",
+        "'time', 'mile' ]\n\n  * 'time' could be a typo for 'timeless' or another word; \n  * 'mile' is a word, but it could be unclear without context whether it's referring to a distance unit",
+        "'like' ]\n\nReason: 'like' is an extremely common word, but in this context, it seems out of place, as the other words in the list are mostly related to vehicles.",
+        "'like', 'time', 'ride' ] \n\nReasons:\n\n1. 'like' is a very common auxiliary word and can be used in many contexts, but it doesn't relate to the general topic of vehicles, and it's not a"
+      ]
+    }
+  },
+  "42": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'year'"
+      },
+      "raw": [
+        "'year', 'compromise' ]\n\nThese words seem to belong to different conceptual themes compared to the other words in the set, which appear to be related to sports, games, and competition.",
+        "'year', 'lose' ]",
+        "'year', 'good', 'bad' ].\n\nThese words do not fit the theme of sports and competition as suggested by the other words in the list.",
+        "'year', 'lose', 'good', 'bad' ]",
+        "'year', 'good', 'bad' ]\n\nThese words do not seem to fit the theme of a team or game as well as the other words do."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'think'",
+            "'think'"
+          ],
+          [
+            "'play'",
+            "'play'"
+          ]
+        ]
+      },
+      "raw": "('think', 'think'), ('play', 'play') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'compromise' ]\n\nReason: \"compromise\" is not extremely rare, but it's not a word that is commonly associated with the context of the list which appears to be about sports. It could be considered a misplaced or out-of-place word",
+        "'compromise' ]\n\nReason: The word 'compromise' is an extremely rare, unclear abbreviation.",
+        "'think', 'lose', 'play' ]\n\nReasons:\n- 'think' is an ambiguous word as it can be a verb or a noun. However, in this context, it seems it could be a verb, which is incorrect as it",
+        "'lose' ]\n\nReason: This word is a verb, but in the context of the list of words, it seems out of place. The other words are all nouns or adjectives, suggesting that the list is focused on general topics. 'L",
+        "'compromise' ], because it is an infrequently used word in this context and may be a compound word.\n\nThe other words in the list are valid."
+      ]
+    }
+  },
+  "43": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'group' 'troop' 'press'"
+      },
+      "raw": [
+        "'group', 'troop', 'package', 'press'  ]",
+        "'press', 'group' ]",
+        "'group', 'troop' ]",
+        "'group', 'troop', 'press', 'package' ]\n\nThe words that semantically belong to the same conceptual theme of governance and decision-making are: \n[ 'president', 'vote', 'consider', 'proposal', 'issue',",
+        "'president', 'troop', 'press' ]\n\nThe other words seem to belong to the theme of voting and proposals."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "'president, group' , 'troop, group' , 'press, issue' , 'press, package' , 'package, proposal' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'troop' ]",
+        "'troop', 'press', 'package' ] \nReasons: \"troop\" is a noun, but it's not a typical word associated with the context of politics or governance; 'press' is a word but it's not a",
+        "].\n\nThe list of topic words is composed of all valid English words, and no tokens are malformed or extremely rare, unclear abbreviations.",
+        "'troop' , 'press' , 'issue' ]\n\n*   'troop' is a valid word but in the context of the list it is likely a typo for 'troop' is not as common in this context as other words",
+        "'press' ]\n\n*   'press' is likely a typo or a misspelling of 'presses' or 'pressing', or could be a rare, unclear abbreviation, but the most common interpretation is a verb."
+      ]
+    }
+  },
+  "44": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'bomb'"
+      },
+      "raw": [
+        "'bomb', 'bush', 'military' ].\nThese words are more related to violence, politics, or war, whereas the other words in the set are more related to ideology, politics, or media.",
+        "'bomb', 'bush', 'military' ]",
+        "'liberal', 'conservative', 'bush', 'zionist'  ]",
+        "'point', 'medium', 'bomb', 'goal', 'military' ]\n\nThese words do not seem to have an obvious connection to politics, whereas the other words in the list appear to relate to politics, particularly conservative and liberal ideologies.",
+        "'point', 'medium', 'bomb', 'goal' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'liberal'",
+            "'conservative'"
+          ]
+        ]
+      },
+      "raw": "('liberal', 'conservative')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'liberal',  'conservative' ]\n\n* 'liberal' is a valid word but in the context of this specific list, it seems out of place and more related to politics rather than the topic of words related to military and conflict.",
+        "'bomb' ]",
+        "'bomb', 'zionist' ]\n\n* 'bomb' could be a typo, although it is a valid word, it might be a typo for 'bombs' or 'bombing', which is more common in the context of military or political",
+        "'liberal', 'zionist' ].\n\n*   'liberal' is not a word in the list of topic words because it seems to be a typo and should be 'liberals'.",
+        "'medium' ] and [ 'zionist' ]"
+      ]
+    }
+  },
+  "45": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'marriage' 'david'"
+      },
+      "raw": [
+        "'marriage', 'david' ]",
+        "'david', 'marriage' ]\n\nThese words do not seem to fit with the theme of writing, reading, and translation. The other words in the list are all related to written content, writing, and comprehension.",
+        "'david', 'marriage' ]",
+        "'david', 'marriage' ].\n\nThese words do not fit well with the other words which are primarily about writing, reading, and translation.",
+        "'marriage', 'david' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'write'",
+            "'read'"
+          ],
+          [
+            "'translation'",
+            "'original'"
+          ]
+        ]
+      },
+      "raw": "('write', 'read'), ('translation', 'original') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'marriage' ]\n\nReason: 'marriage' is not a topic word and seems out of context in this list.",
+        "'david', 'marriage' ] with the reasons: \n- 'david' is a proper noun (name) and likely a name of a person, so it's not a valid topic word. \n- 'marriage' is",
+        "]",
+        "\"marriage\" - unclear abbreviation, unclear usage in this context]\n\nAll other words in the list appear to be valid.",
+        "'david' ]\n\nReason: \"david\" is a proper noun, specifically a person's name, and should be replaced with a more general term to preserve the context and allow for more accurate analysis."
+      ]
+    }
+  },
+  "46": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'koresh'"
+      },
+      "raw": [
+        "'koresh' ]",
+        "'koresh' ]\n\nThe other words appear to be related to concepts such as violence (gun, shoot, defense) or societal issues (homosexual, tax, think, right, time)",
+        "'homosexual', 'like', 'right', 'think', 'time' ]",
+        "'koresh', 'homosexual', 'shoot' ]",
+        "'koresh', 'homosexual', 'like', 'time' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'like'",
+            "'right'"
+          ],
+          [
+            "'shoot'",
+            "'gun'"
+          ],
+          [
+            "'defense'",
+            "'tax'"
+          ]
+        ]
+      },
+      "raw": "('like', 'right'), ('shoot', 'gun'), ('defense', 'tax')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'koresh'"
+      },
+      "raw": [
+        "'koresh' ] (Unclear abbreviation, likely a typo for \"Koreash\" or another name; however, without further context, it is not possible to confirm the correct spelling.)",
+        "'koresh' ] Reason:  'koresh' is not a word. It could be a reference to Vernon Wayne Howell, also known as David Koresh, leader of the Branch Davidian sect, but as a word, it is not",
+        "'koresh ']\nReason: 'koresh' seems to be a misspelling of 'Koreash', a rare or unclear abbreviation that is not a well-known word.",
+        "'koresh' ]",
+        "'koresh' ].\nReason: 'koresh' is likely a misspelling or non-standard abbreviation of 'Koreash', 'Koreish', or 'Korresh', but it seems to refer to a person or a specific"
+      ]
+    }
+  },
+  "47": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'libertarian' 'pain'"
+      },
+      "raw": [
+        "'libertarian', 'pain' ]",
+        "'army', 'nazis', 'role', 'war', 'movement', 'british', 'land' ]\n\nThese words are related to military, government, or geographical concepts, which do not have an obvious connection with the other topic model",
+        "'libertarian', 'pain' ]",
+        "'libertarian', 'british', 'pain' ]",
+        "'libertarian', 'pain' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'british'",
+            "'iran'"
+          ]
+        ]
+      },
+      "raw": "'british', 'iran' ], [ 'army', 'movement' ], [ 'libertarian', 'nazis' ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'libertarian'"
+      },
+      "raw": [
+        "'iran', 'libertarian', 'british' ]",
+        "'libertarian' , 'british' ] \n\n'libertarian' is an unclear abbreviation, as it may refer to a political ideology or a specific party, but it could be interpreted in multiple ways, depending on context. \n'",
+        "'libertarian' ] \n\nReason: 'libertarian' is an extremely rare or unclear abbreviation.",
+        "'libertarian' ].\n\nReason: This word is a rare or unclear abbreviation of 'libertarianism', but 'libertarianism' is a valid word.",
+        "'iran' ( possibly a typo or misspelling of 'Iraq' or 'Iranian'), 'libertarian' (this is a proper adjective, but in this context, it may be considered an uncommon or unclear abbreviation of 'libert"
+      ]
+    }
+  },
+  "48": {
+    "coherence": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "1",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 4,
+        "words": "'max' 'yup' 'biz' 'ali'"
+      },
+      "raw": [
+        "'max', 'yup', 'biz' ]",
+        "'max', 'yup', 'ali', 'biz' ]\n\nThese words don't share a clear connection with the other words in the set, which appear to revolve around themes of Turkish culture and/or human sexuality.",
+        "'yup', 'biz', 'ali' ]",
+        "'max', 'yup', 'ali', 'biz' ]",
+        "'max', 'yup', 'ali', 'biz'  ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 7,
+        "word_pairs": [
+          [
+            "'turkish'",
+            "'turkish'"
+          ],
+          [
+            "'max'",
+            "'max'"
+          ],
+          [
+            "'air'",
+            "'air'"
+          ],
+          [
+            "'yup'",
+            "'yup'"
+          ],
+          [
+            "'oppress'",
+            "'oppress'"
+          ],
+          [
+            "'sexuality'",
+            "'sexuality'"
+          ],
+          [
+            "'ali'",
+            "'ali'"
+          ]
+        ]
+      },
+      "raw": "('turkish', 'turkish'), ('max', 'max'), ('air', 'air'), ('yup', 'yup'), ('oppress', 'oppress'), ('sexuality', 'sexuality'), ('ali', 'ali'),"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'yup'"
+      },
+      "raw": [
+        "'max', 'yup' ]",
+        "'yup', 'biz' ].\n  - 'yup' is a colloquialism and not a valid English word, although it can be used in informal contexts.\n  - 'biz' is an abbreviation for 'business', but",
+        "'yup' ] - possibly a typo or informal word; 'biz' - possibly a typo or informal word; 'max' - unclear abbreviation; 'oppress' - possibly a typo or variation of the word 'oppress' is not",
+        "'yup', 'biz' ].\n\nThese words are either typos or unclear abbreviations. \"Yup\" is likely a typo for a more common word like \"yes\" or \"you\". \"Biz\" is an unclear abbreviation, possibly",
+        "'yup', 'biz' ]\n\n- 'yup' is a common word but can be considered as a colloquial or informal expression, and in formal contexts, it may not be considered valid.\n- 'biz' is a valid word"
+      ]
+    }
+  },
+  "49": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'driver', 'build', 'version', 'kent', 'doug', 'windows' ]",
+        "'kent', 'doug' ]",
+        "'kent', 'doug', 'like' ]",
+        "kent, doug ]",
+        "kent, doug ].\nThese two words are proper nouns that appear to be names, whereas the rest of the words seem to be related to software or technology (e.g., \"driver\", \"build\", \"version\", \"windows\", \"graphic"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'build'",
+            "'driver'"
+          ],
+          [
+            "'color'",
+            "'version'"
+          ]
+        ]
+      },
+      "raw": "('build', 'driver'), ('color', 'version') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'kent' 'doug'"
+      },
+      "raw": [
+        "'kent', 'doug' ]\n\n'kent' and 'doug' are names rather than topic words, which are likely typos or out of context in the list.",
+        "'kent', 'doug' ]\n\nReasons:\n- 'kent' appears to be a proper noun (a person's name), which is likely not a topic word in this context.\n- 'doug' also appears to be a",
+        "'kent', 'doug', 'version' ].\n\n* 'kent' and 'doug' appear to be proper nouns (people's names) and are unclear without context.\n* 'version' is a common word but without a",
+        "'kent', 'doug' ]\n\nReasons:\n- 'kent' and 'doug' are likely names rather than topic words, and they don't fit the context of the other words in the list.",
+        "\"doug\",  \"kent\" ]"
+      ]
+    }
+  }
+}

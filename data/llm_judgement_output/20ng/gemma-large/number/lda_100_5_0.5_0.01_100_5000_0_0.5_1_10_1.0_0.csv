@@ -1,0 +1,101 @@
+ID	Topic words	Coherence	Repetitive	Readability	Number of Outliers	Outliers	Number of Same Concept Pairs	Same Concept Pairs	Number of Non-words	Non-words
+0	air trade wave spring ron pool hmmm fairly hot receiver	2.0	2.0	2.0	4	ˈron hmmm fairly receiver	1	"[(""'ron'"", ""'receiver'"")]"	0	
+1	john usa lead baltimore americans good join like cup red	2.0	2.0	3.0	1	ˈkʌp	1	"[(""'usa'"", ""'americans'"")]"	1	cup:** While a valid word
+2	king dos master speak illegal bear world family stand library	2.0	2.0	3.0	2	'bear' 'library'	1	"[(""'king'"", ""'master'"")]"	0	
+3	person life rule death kill murder people blame independence liberty	3.0	2.0	3.0	0		3	"[(""'death'"", ""'murder'""), (""'kill'"", ""'murder'""), (""'liberty'"", ""'independence'"")]"	0	
+4	think know maybe regard like ask yes people friend good	2.0	2.0	3.0	2	'yes' 'good'	1	"[(""'yes'"", ""'good'"")]"	0	
+5	argument quote evidence conclusion true statement logic false imply explain	3.0	2.0	3.0	2	ˈtrue ˈfalse	1	"[(""'true'"", ""'false'"")]"	0	
+6	window manager application view basically use button review root windows	3.0	1.0	3.0	0		1	"[(""'window'"", ""'windows'"")]"	1	basically**: While a valid English word
+7	unit error cross link brad disk serial byte run generate	2.0	2.0	3.0	1	ˈbrad	1	"[(""'serial'"", ""'byte'"")]"	0	
+8	limit use restrict prison multi necessarily probably multiple question know	2.0	2.0	3.0	5	'multi' 'necessarily' 'probably' 'multiple' 'know'	1	"[(""'multi'"", ""'multiple'"")]"	0	
+9	win bank joke wide mix tell contract laugh yes bit	2.0	2.0	3.0	0		1	"[(""'yes'"", ""'win'"")]"	0	
+10	canada btw canadian beat channel joe offense like seriously north	2.0	2.0	2.0	0		1	"[(""'canada'"", ""'canadian'"")]"	0	
+11	science blood theory marry strength certain think trace point fantasy	2.0	2.0	3.0	2	ˈmæri ˈfæntəsi	1	"[(""'science'"", ""'theory'"")]"	0	
+12	president drug congress health history job people world american believe	2.0	2.0	3.0	3	history job believe	1	"[(""'people'"", ""'american'"")]"	0	
+13	algorithm refer method structure use draw completely copyright reverse region	2.0	2.0	3.0	2	ˈkɒpirait riˈvɜːrs	1	"[(""'reverse'"", ""'completely'"")]"	1	completely:** While a valid word
+14	key translation original talk think instead thing david implement write	2.0	2.0	3.0	3	'david' 'implement' 'write'	1	"[(""'original'"", ""'translation'"")]"	0	
+15	delete improve minor update random surprise immediately imho surprised dictionary	2.0	2.0	3.0	0		1	"[(""'surprised'"", ""'surprise'"")]"	0	
+16	problem pro moon mode card recall solve confuse hang plus	2.0	2.0	2.0	0		1	"[(""'pro'"", ""'problem'"")]"	3	'pro'**: While 'pro' *can* be a valid abbreviation (e.g. professional) it's unclear and potentially a truncated
+17	university research job work committee organization summer material student professor	3.0	2.0	3.0	0		1	"[(""'job'"", ""'work'"")]"	0	
+18	player condition average car pay european excellent sport boy license	2.0	2.0	3.0	0		1	"[(""'player'"", ""'boy'"")]"	0	
+19	space earth image nasa launch orbit mission satellite flight datum	3.0	2.0	3.0	0		1	"[(""'image'"", ""'datum'"")]"	0	
+20	fan board remove pin spread cool screw heat huh lift	2.0	2.0	3.0	1	ˈhuh	1	"[(""'remove'"", ""'lift'"")]"	0	
+21	power supply display graphic usual backing dump core hard drive	2.0	2.0	3.0	3	ˈusual ˈbacking ˈdump	1	"[(""'hard'"", ""'drive'"")]"	0	
+22	radio switch sale sell reasonable audio manual shipping gain use	2.0	2.0	3.0	1	ˈseɪl	1	"[(""'sell'"", ""'sale'"")]"	0	
+23	send list mail address request info email net thank post	3.0	1.0	3.0	2	'post' 'thank'	1	"[(""'mail'"", ""'email'"")]"	0	
+24	text field share panel item line control eric strange chip	2.0	2.0	3.0	0		1	"[(""'text'"", ""'line'"")]"	0	
+25	day date sit stick success time clock minute wise bat	2.0	2.0	3.0	1	ˈbæt	3	"[(""'day'"", ""'date'""), (""'time'"", ""'minute'""), (""'time'"", ""'clock'"")]"	1	bat**: While a valid word
+26	terrorism conference medical abortion final paper movement december daily body	2.0	2.0	3.0	0		1	"[(""'daily'"", ""'final'"")]"	0	
+27	pick hudson charge dog newspaper face reach govt eye roger	2.0	2.0	3.0	3	'dog' 'eye' 'roger'	1	"[(""'roger'"", ""'hudson'"")]"	0	
+28	clipper school standard lock disease survivor chip phone color house	2.0	2.0	3.0	2	'color' 'house'	1	"[(""'color'"", ""'chip'"")]"	0	
+29	range blow twice automatic acquire mess choice expensive huge remind	2.0	2.0	3.0	3	'twice' 'remind' 'acquire'	1	"[(""'twice'"", ""'blow'"")]"	0	
+30	command status character loss set register use perform setting sequence	2.0	2.0	3.0	2	'loss' 'use'	2	"[(""'command'"", ""'use'""), (""'status'"", ""'setting'"")]"	0	
+31	card chip use bit mac machine memory video bus software	3.0	2.0	3.0	0		1	"[(""'mac'"", ""'machine'"")]"	2	"mac:** While ""Mac"" is commonly understood as Apple Macintosh computers it's an unclear abbreviation. It *could* refer to Media Access Control"
+32	nazi german germany hitler press document party escape magazine write	3.0	1.0	2.0	4	press document magazine write	1	"[(""'german'"", ""'germany'"")]"	0	
+33	price market tax purchase period warrant japanese staff winner prior	2.0	2.0	3.0	5	ˈwarrant ˈjapanese ˈstaff ˈwinner ˈprior	2	"[(""'price'"", ""'purchase'""), (""'prior'"", ""'period'"")]"	1	warrant:** While a valid word
+34	man male marriage woman event claim having couple dispute objection	2.0	1.0	3.0	5	ˈevent ˈclaim ˈhaving ˈdispute ˈobjection	2	"[(""'man'"", ""'male'""), (""'woman'"", ""'female'"")]"	0	
+35	look code good somebody like know smith possible use jason	2.0	2.0	3.0	2	'smith' 'jason'	1	"[(""'jason'"", ""'smith'"")]"	0	
+36	tyre light screen movie jose film decline park sleep frame	2.0	2.0	3.0	0		1	"[(""'film'"", ""'movie'"")]"	1	jose**: While a name
+37	order previous tony know think folk use correct sure like	2.0	2.0	3.0	0		1	"[(""'like'"", ""'sure'"")]"	0	
+38	greek east new culture member election reporter english ancient texas	2.0	2.0	3.0	5	ˈtexasˈ ˈmemberˈ ˈreporterˈ ˈelectionˈ ˈnewˈ	1	"[(""'english'"", ""'new'"")]"	0	
+39	dangerous version picture newsreader tin datum accurate insist occur candidate	2.0	2.0	3.0	3	ˈtɪn ˈdeɪtəm ˈkændɪdeɪt	1	"[(""'accurate'"", ""'datum'"")]"	0	
+40	cover care kid private parent home hospital figure like extra	2.0	2.0	3.0	0		1	"[(""'parent'"", ""'kid'"")]"	0	
+41	car engine owner mile tire replace good hall cup like	2.0	2.0	3.0	3	ˈhɔːl kʌp laɪk	2	"[(""'car'"", ""'engine'""), (""'car'"", ""'tire'"")]"	0	
+42	lose option yesterday west compromise station think significance healthy won	2.0	2.0	3.0	3	ˈwest ˈstation ˈwon	1	"[(""'won'"", ""'lose'"")]"	0	
+43	group public vote proposal issue continue favor propose belong march	2.0	2.0	3.0	1	ˈmɑːrtʃ	1	"[(""'propose'"", ""'proposal'"")]"	1	'march' - While a valid word
+44	plane medium liberal bias score goal bomb point conservative legitimate	2.0	2.0	3.0	0		1	"[(""'liberal'"", ""'conservative'"")]"	0	
+45	block eat robert intelligence boot associate disk use equal lucifer	1.0	2.0	3.0	2	ˈlucifer ˈboot	1	"[(""'block'"", ""'disk'"")]"	1	lucifer:** While a valid word
+46	piece fit damn suit protection imagine wear like good taste	2.0	2.0	2.0	0		1	"[(""'suit'"", ""'fit'"")]"	1	damn:** While a valid word
+47	role land learn tool army travel horrible spell music fate	2.0	2.0	3.0	3	'horrible' 'music' 'travel'	1	"[(""'fate'"", ""'spell'"")]"	0	
+48	max yup von biz gen umm atm ahh end mas	1.0	2.0	2.0	4	'umm' 'ahh' 'atm' 'end'	2	"[(""'max'"", ""'mas'""), (""'umm'"", ""'ahh'"")]"	4	'yup' 'umm' 'ahh' 'mas'
+49	relationship quick commitment difference partner security soon concept rob assure	2.0	2.0	3.0	2	ˈrɒb ˈsuːn	1	"[(""'assure'"", ""'security'"")]"	0	
+50	sound driver edge feed work quickly tape use affect version	2.0	2.0	3.0	3	ˈversion ˈquickly ˈaffect	1	"[(""'use'"", ""'feed'"")]"	0	
+51	step mouse load achieve execute transfer scheme bunch buffer hat	1.8	2.0	3.0	0		1	"[(""'load'"", ""'transfer'"")]"	0	
+52	stay term repeat think guess know need terminal use let	2.0	2.0	3.0	3	terminal use let	2	"[(""'stay'"", ""'term'""), (""'repeat'"", ""'terminal'"")]"	1	terminal**: While a valid word
+53	center division reality relate bob draft sick naval regular attend	2.0	2.0	3.0	3	ˈbɒb ˈsɪk ˈneɪvəl	1	"[(""'regular'"", ""'attend'"")]"	0	
+54	model form key object des use bit age reference value	2.0	2.0	2.0	0		1	"[(""'des'"", ""'des'"")]"	0	
+55	policy race paragraph mistake incident credit shit like kick hear	2.0	2.0	2.0	4	ˈʃɪt like kick hear	1	"[(""'like'"", ""'shit'"")]"	0	
+56	interesting ignore difficult like circuit idea use somewhat personally valuable	2.0	2.0	3.0	3	ignore somewhat personally	1	"[(""'like'"", ""'use'"")]"	0	
+57	big suppose prefer lot like know people want think pretty	2.0	2.0	2.0	2	ˈprɪti ˈlɒt	1	"[(""'like'"", ""'prefer'"")]"	0	
+58	gun war peace weapon shoot defense crime military attack control	3.0	1.0	3.0	2	peace control	1	"[(""'gun'"", ""'weapon'"")]"	0	
+59	law government people state right authority moral society human think	3.0	2.0	3.0	0		2	"[(""'state'"", ""'government'""), (""'human'"", ""'people'"")]"	0	
+60	effect force contact straight sign agreement bet rid like visible	2.0	2.0	3.0	3	ˈbet ˈrid ˈlike	2	"[(""'effect'"", ""'force'""), (""'like'"", ""'agreement'"")]"	1	'rid'**: While a word
+61	senior use official high design low rate section neutral general	2.0	2.0	3.0	0		2	"[(""'high'"", ""'low'""), (""'general'"", ""'neutral'"")]"	0	
+62	level white resolution element input signal useful output noise moscow	2.0	2.0	3.0	1	ˈmoscow	1	"[(""'input'"", ""'output'"")]"	0	
+63	israel jews jesus jewish word man christ come son die	3.0	1.0	3.0	2	ˈwɜːrd mæn	2	"[(""'jesus'"", ""'christ'""), (""'son'"", ""'jesus'"")]"	1	'word' - While a valid English word
+64	program money work think fund russia government support important package	2.0	2.0	3.0	2	russia think	2	"[(""'fund'"", ""'money'""), (""'work'"", ""'program'"")]"	0	
+65	new news washington york street media america want post gordon	3.0	2.0	3.0	0		1	"[(""'new'"", ""'news'"")]"	0	
+66	game team play player year run think tough good series	3.0	2.0	3.0	3	ˈthinkˈ ˈtoughˈ ˈgoodˈ	2	"[(""'game'"", ""'play'""), (""'team'"", ""'player'"")]"	0	
+67	turn ride speed left advice traffic road pull time fast	3.0	2.0	3.0	0		1	"[(""'fast'"", ""'speed'"")]"	0	
+68	country hell yeah letter hope western funny racial selfish people	2.0	2.0	2.0	3	ˈyeahˈ ˈfunnyˈ ˈselfishˈ	1	"[(""'people'"", ""'country'"")]"	0	
+69	van print ring apart canon rick enjoy initiate proud decent	2.0	2.0	3.0	4	'enjoy' 'initiate' 'proud' 'decent'	1	"[(""'apart'"", ""'van'"")]"	1	'rick'**: While a name
+70	point double den like know use howard radius time sphere	2.0	2.0	3.0	4	ˈden ˈlike ˈknow ˈhoward	1	"[(""'sphere'"", ""'radius'"")]"	0	
+71	service offer monitor suggestion local mike interested good friend like	2.0	2.0	3.0	1	mike	1	"[(""'good'"", ""'like'"")]"	1	mike**: While a name
+72	article post jim posting answer faq newsgroup alt news usenet	3.0	1.0	3.0	1	ˈjim	2	"[(""'post'"", ""'posting'""), (""'news'"", ""'newsgroup'"")]"	1	posts
+73	drive quality worth slave track reliable normally quantity hard gee	2.0	2.0	2.0	2	ˈslaɪv ˈdʒiː	1	"[(""'quantity'"", ""'quality'"")]"	0	
+74	black los happy suspect red employ begin area touch report	2.0	2.0	3.0	0		1	"[(""'employ'"", ""'report'"")]"	1	'los'**: This is likely a fragment of a word (e.g.
+75	people gay population genocide government court muslim state army troop	2.0	2.0	3.0	0		2	"[(""'people'"", ""'population'""), (""'state'"", ""'government'"")]"	0	
+76	information san police anti april california city francisco office group	2.0	2.0	3.0	0		1	"[(""'san'"", ""'francisco'"")]"	0	
+77	ground box connect current cable wire green fault equipment legal	2.0	2.0	3.0	0		1	"[(""'wire'"", ""'cable'"")]"	0	
+78	available copy ftp edu file site software include information tie	2.0	2.0	3.0	1	ˈtie	1	"[(""'copy'"", ""'file'"")]"	2	tie**: While a valid English word software
+79	doctor steve common southern cause treatment patient complain separate technology	2.0	2.0	3.0	0		1	"[(""'doctor'"", ""'patient'"")]"	0	
+80	context miss good bush racist jew knowledge eastern fair ignorant	2.0	2.0	2.0	2	'jew' 'ignorant'	1	"[(""'racist'"", ""'ignorant'"")]"	0	
+81	attack frank brian hole damage percentage plant uniform declare brown	2.0	2.0	3.0	4	frank brian brown uniform	1	"[(""'frank'"", ""'brown'"")]"	0	
+82	billion increase cost energy dollar pain reduce oil budget reaction	2.0	2.0	3.0	1	ˈreɪkʃən	2	"[(""'cost'"", ""'dollar'""), (""'reduce'"", ""'pain'"")]"	0	
+83	homosexual sexual man hate labor zionist history excuse train flame	2.0	2.0	2.0	0		1	"[(""'sexual'"", ""'homosexual'"")]"	1	'flame' - While a valid word
+84	respond doubt propaganda statement star defend ability post critical criticism	2.0	2.0	3.0	0		1	"[(""'criticism'"", ""'critical'"")]"	0	
+85	book count poor read database like thing write use people	2.0	2.0	3.0	3	ˈdeɪtəbeɪs laɪk θɪŋ	1	"[(""'count'"", ""'database'"")]"	1	thing:** While a valid English word
+86	type record convert manage warning expose use string andrew app	2.0	2.0	3.0	1	andrew	1	"[(""'app'"", ""'record'"")]"	0	
+87	year ago curious jordan start like time phone later know	2.0	2.0	3.0	1	ˈdʒɔːrdən	2	"[(""'year'"", ""'time'""), (""'ago'"", ""'later'"")]"	0	
+88	people come know tell kill child woman soviet leave live	2.0	2.0	3.0	2	ˈsovietˈ ˈkillˈ	2	"[(""'people'"", ""'woman'""), (""'people'"", ""'child'"")]"	0	
+89	search gov ready connection question literature try know athens quit	2.0	2.0	3.0	2	ˈæθɪnz kwɪt	1	"[(""'quit'"", ""'try'"")]"	0	
+90	god christian believe religion church love bible life christians belief	3.0	1.0	3.0	0		2	"[(""'belief'"", ""'believe'""), (""'christians'"", ""'christian'"")]"	0	
+91	know change bother brain use client thank cheap try want	2.0	2.0	3.0	1	cheap	2	"[(""'know'"", ""'use'""), (""'change'"", ""'try'"")]"	0	
+92	morality objective fbi case freedom word discussion define speech value	2.0	2.0	3.0	0		1	"[(""'word'"", ""'speech'"")]"	0	
+93	feel notice know question thread brother ask shape like think	2.0	2.0	3.0	0		1	"[(""'think'"", ""'know'"")]"	0	
+94	think know bad tell need remember try story like stop	2.0	2.0	3.0	3	'stop' 'like' 'story'	2	"[(""'think'"", ""'know'""), (""'like'"", ""'like'"")]"	0	
+95	test neighbor recent point use good know reference exactly question	2.0	2.0	3.0	5	good 'neighbor' 'recent' 'point' 'use'	1	"[(""'exactly'"", ""'point'"")]"	0	
+96	publish title wing kent cheer ball michael dan scott wall	2.0	2.0	3.0	5	'wing' 'cheer' 'michael' 'dan' 'scott'	2	"[(""'dan'"", ""'michael'""), (""'dan'"", ""'scott'"")]"	0	
+97	position water opinion river mention save obvious sorry agree nonsense	2.0	2.0	3.0	0		1	"[(""'agree'"", ""'opinion'"")]"	2	'nonsense' - While a valid word it feels semantically distant from the other
+98	koresh david gas tape know alternative fool child compound branch	2.0	2.0	2.0	4	tape know alternative fool	1	"[(""'child'"", ""'fool'"")]"	1	koresh:** While a proper noun (David Koresh)
+99	apr file receive edt com environment host die math permanent	2.0	2.0	2.0	3	'math' 'die' 'permanent'	2	"[(""'apr'"", ""'file'""), (""'com'"", ""'file'"")]"	0	

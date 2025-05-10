@@ -1,0 +1,51 @@
+ID	Topic words	Coherence	Repetitive	Readability	Number of Outliers	Outliers	Number of Same Concept Pairs	Same Concept Pairs	Number of Non-words	Non-words
+0	action science national program department plan knowledge transfer state local	2.0	2.0	3.0	0		2	"[(""'action'"", ""'program'""), (""'state'"", ""'local'"")]"	0	
+1	actual series station fao meteorological classification weather eto aerial uav	2.0	2.0	3.0	2	'fao' 'eto'	2	"[(""'station'"", ""'station'""), (""'weather'"", ""'weather'"")]"	0	
+2	square mean correlation coefficient relationship error deviation length correlate linear	3.0	2.0	3.0	1	length	2	"[(""'mean'"", ""'coefficient'""), (""'linear'"", ""'correlation'"")]"	0	
+3	expansion degradation cultivate cropland urban farmland arable land area forest	3.0	2.0	3.0	2	urban forest	2	"[(""'land'"", ""'area'""), (""'cropland'"", ""'farmland'"")]"	1	'urban' - While a common word
+4	feed import product milk export industry cultivation dairy fuel cycle	2.0	2.0	3.0	2	fuel cycle	3	"[(""'feed'"", ""'milk'""), (""'dairy'"", ""'milk'""), (""'industry'"", ""'product'"")]"	0	
+5	conventional practice rice weed paddy pest cultivation pesticide field technology	3.0	2.0	3.0	1	technology	2	"[(""'rice'"", ""'paddy'""), (""'weed'"", ""'pest'"")]"	0	
+6	shallow seawater origin isotopic suitability dominant rock isotope district hard	2.0	2.0	3.0	0		2	"[(""'isotope'"", ""'rock'""), (""'isotope'"", ""'origin'"")]"	0	
+7	block receive herbicide spray emergence week pre split plot control	2.8	2.0	3.0	2	'week' 'pre'	2	"[(""'block'"", ""'plot'""), (""'pre'"", ""'control'"")]"	0	
+8	cluster group principal structure component variance pattern analysis sampling type	3.0	2.0	3.0	3	variance sampling type	3	"[(""'cluster'"", ""'group'""), (""'principal'"", ""'component'""), (""'variance'"", ""'structure'"")]"	0	
+9	rainfed lowland paddy trial upland university wet mixed irri institute	2.0	2.0	3.0	3	'trial' 'university' 'institute'	1	"[(""'paddy'"", ""'irri'"")]"	0	
+10	irrigation reduce drainage water practice saline efficiency management source loss	3.0	2.0	3.0	0		3	"[(""'water'"", ""'drainage'""), (""'water'"", ""'source'""), (""'water'"", ""'loss'"")]"	1	'saline' - While a valid word
+11	wue increase reduction straw yield maize efficiency corn grain reduce	3.0	2.0	3.0	2	'straw' 'efficiency'	2	"[(""'maize'"", ""'corn'""), (""'yield'"", ""'grain'"")]"	0	
+12	wetland delta fish watershed downstream nile dam restoration floodplain pond	3.0	2.0	3.0	2	nile pond	2	"[(""'wetland'"", ""'pond'""), (""'delta'"", ""'floodplain'"")]"	0	
+13	prediction linear optimal simulation uncertainty fit optimization multi artificial machine	3.0	2.0	3.0	2	simulation optimization	3	"[(""'prediction'"", ""'fit'""), (""'linear'"", ""'optimal'""), (""'multi'"", ""'artificial'"")]"	1	'multi' - While common
+14	grape olive wine orchard drip sprinkler oil apple cherry tomato	2.6	2.0	3.0	6	'drip' 'sprinkler' 'oil' 'apple' 'cherry' 'tomato'	4	"[(""'grape'"", ""'olive'""), (""'grape'"", ""'wine'""), (""'olive'"", ""'oil'""), (""'apple'"", ""'cherry'"")]"	0	
+15	ips adi fdi accumulative lrwc soyabean sws prb bpm ventilate	2.0	2.0	2.0	2	'soyabean' 'ventilate'	2	"[(""'ips'"", ""'prb'""), (""'sws'"", ""'lrwc'"")]"	0	
+16	potato residue rotation soybean conventional corn alfalfa sorghum forage cotton	2.0	2.0	3.0	2	forage conventional	6	"[(""'potato'"", ""'corn'""), (""'potato'"", ""'soybean'""), (""'soybean'"", ""'corn'""), (""'soybean'"", ""'alfalfa'""), (""'corn'"", ""'alfalfa'""), (""'corn'"", ""'sorghum'"")]"	1	'residue' - While a valid word
+17	allocation supply demand right resource user water blue virtual trade	2.6	2.0	3.0	2	blue virtual	2	"[(""'water'"", ""'blue'""), (""'resource'"", ""'user'"")]"	1	'virtual' - While common
+18	respondent access village family market adoption member extension income education	2.8	2.0	3.0	0		2	"[(""'respondent'"", ""'member'""), (""'family'"", ""'member'"")]"	0	
+19	exposure health contaminate contamination industrial safety risk heavy reuse human	2.6	2.0	3.0	0		2	"[(""'contamination'"", ""'contaminate'""), (""'industrial'"", ""'heavy'"")]"	0	
+20	usda exp ars joint fdi adi accumulative ips pfp apri	2.0	2.0	2.0	1	'apri'	2	"[(""'usda'"", ""'adi'""), (""'fdi'"", ""'pfp'"")]"	3	'exp' 'adi' 'apri'
+21	adi ips accumulative soyabean sws lrwc znso₄ ccs uncovered bpm	2.0	2.0	2.0	2	'soyabean' 'bpm'	1	"[(""'ips'"", ""'lrwc'"")]"	2	'lrwc' 'znso₄'
+22	profile layer soil moisture sodicity texture deep sodic sandy clay	3.0	2.0	3.0	0		1	"[(""'sodic'"", ""'sodic'"")]"	1	'sodic' - While a valid word
+23	medium substrate pot culture solution greenhouse uptake hydroponic container tomato	3.0	2.0	3.0	0		2	"[(""'pot'"", ""'container'""), (""'substrate'"", ""'culture'"")]"	1	'uptake' - While a valid word
+24	cell disease infection spot isolate agent host sequence wilt pest	2.6	2.0	3.0	0		5	"[(""'cell'"", ""'host'""), (""'cell'"", ""'isolate'""), (""'disease'"", ""'infection'""), (""'disease'"", ""'wilt'""), (""'infection'"", ""'pest'"")]"	0	
+25	fresh height number stem length weight diameter shoot leave mass	3.0	2.0	3.0	0		2	"[(""'height'"", ""'length'""), (""'number'"", ""'mass'"")]"	0	
+26	water quality area low irrigate groundwater suitable high level table	2.8	2.0	3.0	0		2	"[(""'water'"", ""'groundwater'""), (""'low'"", ""'level'"")]"	0	
+27	organic matter low microbial great carbon biomass high total concentration	3.0	2.0	3.0	2	'great' 'high'	2	"[(""'organic'"", ""'biomass'""), (""'low'"", ""'high'"")]"	0	
+28	zone capacity regime depth drip irrigation deep field wet moisture	2.2	2.0	3.0	2	'irrigation' 'deep'	3	"[(""'zone'"", ""'field'""), (""'deep'"", ""'drip'""), (""'deep'"", ""'wet'"")]"	0	
+29	crop requirement scenario production regional scale decision climate pattern base	3.0	2.0	3.0	0		1	"[(""'production'"", ""'scale'"")]"	0	
+30	inhibitor nitrification phosphorus ammonia volatilization nh₃ denitrification oxide slurry coat	2.6	2.0	3.0	0		2	"[(""'ammonia'"", ""'nh₃'""), (""'phosphorus'"", ""'oxide'"")]"	0	
+31	irrigation level regime yield different stage application recommend apply drip	3.0	2.0	3.0	0		2	"[(""'irrigation'"", ""'drip'""), (""'level'"", ""'regime'"")]"	0	
+32	filter section channel head pipe operate operation pressure drain volume	3.0	2.0	3.0	2	operate volume	2	"[(""'filter'"", ""'drain'""), (""'section'"", ""'pipe'"")]"	0	
+33	spacing row number check produce date seed hybrid record thousand	2.2	2.0	3.0	1	'thousand'	2	"[(""'number'"", ""'thousand'""), (""'row'"", ""'number'"")]"	1	'thousand' - While a valid word
+34	adaptation vulnerability face global climatic change climate regional variability scenario	3.0	2.0	3.0	0		2	"[(""'climate'"", ""'climatic'""), (""'global'"", ""'climate'"")]"	1	'face' - While a common word
+35	yield index grain relationship high environment biomass trait genotype vegetation	2.0	2.0	3.0	1	'relationship'	3	"[(""'yield'"", ""'grain'""), (""'yield'"", ""'biomass'""), (""'index'"", ""'grain'"")]"	0	
+36	transport column material fraction sorption waste sandy removal fine sand	2.2	2.0	3.0	0		1	"[(""'sand'"", ""'sandy'"")]"	0	
+37	january month june february march october september december november late	3.0	2.0	3.0	1	'late'	6	"[(""'january'"", ""'june'""), (""'january'"", ""'february'""), (""'january'"", ""'march'""), (""'january'"", ""'october'""), (""'january'"", ""'september'""), (""'january'"", ""'december'"")]"	1	'late' - While common
+38	standard limit exceed solid chloride sodium calcium sar residual dissolve	3.0	2.0	3.0	2	dissolve sar	2	"[(""'solid'"", ""'sar'""), (""'sodium'"", ""'chloride'"")]"	0	
+39	scale process base map transport spatial datum surface zone hydrological	2.2	2.0	3.0	1	hydrological	2	"[(""'scale'"", ""'surface'""), (""'zone'"", ""'surface'"")]"	1	'datum' - While a valid word
+40	vegetative reproductive rootstock citrus stage regime flowering olive phase quinoa	2.0	2.0	3.0	1	'quinoa'	7	"[(""'vegetative'"", ""'stage'""), (""'vegetative'"", ""'phase'""), (""'reproductive'"", ""'stage'""), (""'reproductive'"", ""'phase'""), (""'rootstock'"", ""'stage'""), (""'rootstock'"", ""'phase'""), (""'citrus'"", ""'olive'"")]"	1	'quinoa'
+41	air sap light canopy closure transpiration vpd radiation heat stem	3.0	2.0	3.0	2	closure vpd	3	"[(""'air'"", ""'stem'""), (""'sap'"", ""'stem'""), (""'light'"", ""'radiation'"")]"	0	
+42	water requirement evapotranspiration deficit irrigation crop daily supply potential efficiency	3.0	2.0	3.0	0		3	"[(""'water'"", ""'supply'""), (""'water'"", ""'requirement'""), (""'crop'"", ""'irrigation'"")]"	0	
+43	carbon crop term flux cover soil moisture co₂ emission greenhouse	3.0	2.0	3.0	1	term	2	"[(""'carbon'"", ""'co₂'""), (""'soil'"", ""'moisture'"")]"	0	
+44	grass old native perennial non pasture forest tall irrigated plantation	2.0	2.0	3.0	0		2	"[(""'grass'"", ""'pasture'""), (""'native'"", ""'perennial'"")]"	0	
+45	relative capacity water potential stress photosynthetic reduce plant leaf content	2.4	2.0	3.0	0		2	"[(""'water'"", ""'capacity'""), (""'plant'"", ""'leaf'"")]"	0	
+46	return net low record percent high benefit great maximum gross	3.0	2.0	3.0	0		2	"[(""'net'"", ""'gross'""), (""'high'"", ""'maximum'"")]"	1	'net' - While common
+47	selection line screen tolerant genetic parent susceptible breeding landrace germplasm	3.0	2.0	3.0	2	tolerant susceptible	3	"[(""'parent'"", ""'breeding'""), (""'parent'"", ""'susceptible'""), (""'landrace'"", ""'breeding'"")]"	1	'susceptible' - While a valid word
+48	trend event precipitation annual seasonal storage decline rainfall runoff scenario	2.0	2.0	3.0	2	'storage' 'scenario'	3	"[(""'trend'"", ""'annual'""), (""'trend'"", ""'seasonal'""), (""'rainfall'"", ""'runoff'"")]"	0	
+49	sugar soluble activity protein acid starch compound sod polyphenol solid	2.0	2.0	3.0	0		2	"[(""'sugar'"", ""'starch'""), (""'solid'"", ""'soluble'"")]"	0	

@@ -1,0 +1,4250 @@
+{
+  "0": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'application'"
+      },
+      "raw": [
+        "'application' ]. \n\nThese words seem out of place when compared to the rest of the list, which revolves around agriculture and farming. 'Application' can be associated with various concepts, not limited to farming, and thus stands out as not belonging to",
+        "'application' ] \n\nNote that while 'application' can be related to the context of the other words, its meaning is more general and abstract compared to the other words which are more specific to agriculture or farming. However, upon closer inspection, it",
+        "'application' ].\n\n\nThese words do not fit with the agricultural/farming theme.",
+        "'application' ].\n\n\nHowever, upon reviewing the list again for accuracy, it becomes apparent that 'application' can indeed be related to the context of the other words, especially when considering the application of irrigation or fertilizers in agricultural contexts. Therefore,",
+        "'application' ].\n\n\nHowever, considering the context provided by the topic model, it seems like 'application' could relate to the application of water or fertilizers in the context of irrigation or crop management. But if we strictly consider the theme of farming"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'irrigation'",
+            "'irrigate'"
+          ],
+          [
+            "'drought'",
+            "'water'"
+          ]
+        ]
+      },
+      "raw": "('irrigation', 'irrigate'), ('drought', 'water') is not in the list, but 'drought' has no exact match,  ('soil', 'field') is not exact,  ('plant', '"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'irrigate'"
+      },
+      "raw": [
+        "'irrigate' ]. \n\nReason: 'irrigate' seems to be a verb form of 'irrigation'. In the context of the topic words provided, 'irrigation' is more suitable as a noun, and 'ir",
+        "'irrigate' ] \nReason: \"irrigate\" seems to be a verb form, and the list contains mostly nouns. Although it is not a typo or an abbreviation, it could be considered out of place or unclear without further context",
+        "'irrigate' ]\n\nReason: The word \"irrigate\" seems to be related to \"irrigation\" and might be redundant or not as frequently used in the context as \"irrigation\". However, it is not necessarily malformed",
+        "'irrigate' ]. The reason for this is that the word 'irrigate' seems to be a verb form, whereas the rest of the words in the list appear to be nouns. It could be considered redundant or unclear in this context",
+        "'irrigate' ]\n\nReason: 'irrigate' is not as commonly used as 'irrigation', which is already in the list, and 'irrigate' could be seen as a verb form whereas the other words are mostly"
+      ]
+    }
+  },
+  "1": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'deficit'"
+      },
+      "raw": [
+        "'deficit' ].\n\n\nHowever, the word 'deficit' does relate to the theme of water management in the context of irrigation and reservoirs, in that it could refer to a water deficit. But considering the context provided by the topic model",
+        "'deficit' ].\n\n\nHowever, considering the context of the topic model's output, it seems that 'deficit' could be related to water deficit in the context of irrigation and water management. Upon closer inspection, all the words seem to be",
+        "'deficit', 'policy', 'project' ].\n\n\n\nThese words do not fit with the general theme of water management and river basin concepts as closely as the other words do. While 'deficit' could relate to water scarcity, 'policy'",
+        "'deficit' ].\n\n\nHowever, considering a more nuanced understanding of the topic, 'deficit' can be related to water management in the context of water scarcity. Another perspective could consider 'project' as the word that least belongs, because while",
+        "'deficit' ].\n\n\nHowever, it can be argued that 'deficit' is related to 'water deficit', which is a common issue in irrigation and water management. In that case, 'deficit' actually belongs to the same conceptual theme"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'basin'",
+            "'reservoir'"
+          ],
+          [
+            "'deficit'",
+            "'shortage'"
+          ],
+          [
+            "and ('irrigation'",
+            "'project'"
+          ],
+          [
+            "'allocation'",
+            "'management'"
+          ]
+        ]
+      },
+      "raw": "('basin', 'reservoir'), ('deficit', 'shortage') is not present in the list, however, ('management', 'policy') and ('irrigation', 'project'), ('allocation', 'management') could be considered related"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'deficit'"
+      },
+      "raw": [
+        "'deficit' ]. \n\nReason: The word 'deficit' seems out of context in the list of topic words related to water management and policy. It could be considered unclear or unrelated without further context, although it's not necessarily malformed. However",
+        "None ]. \n\nAll words are valid.",
+        "'deficit' ]\n\nReason: The word 'deficit' might be considered in the context of water management, but it's not directly related to the topic of irrigation or river basin management. However, it is not a typo or an extremely rare",
+        "'deficit' ]. \n\nThe reason for this is that 'deficit' seems out of context when compared to other words. Most of the words in the list relate directly to water management or geographical terms (e.g., 'irrigation',",
+        "'deficit' ]. \n\nThe reason is that 'deficit' might be unclear in this context, it could be referring to a water deficit, but without further context, it is ambiguous. However, 'deficit' itself is a valid word"
+      ]
+    }
+  },
+  "2": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "1",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'fertilizer' 'irrigation'"
+      },
+      "raw": [
+        "'fertilizer', 'irrigation' ] \n\nHowever, upon closer inspection, it appears that all words, including 'fertilizer' and 'irrigation', are actually related to the theme of rice cultivation.\n\nBut if I had",
+        "'yield', 'fertilizer', 'irrigation' ].\n\n\nHowever, upon closer inspection, these words actually do belong to the same conceptual theme, which is rice cultivation. \n\nUpon re-examining the list, 'lowland'",
+        "'lowland' is related to 'field' and 'paddy', 'yield' is related to 'cultivation' and 'crop', 'irrigation' and 'fertilizer' are related to 'cultivation', 'farmer",
+        "'fertilizer', 'irrigation' ].\n\n\nHowever, upon closer examination of the given set, these two words indeed belong to the same conceptual theme of rice cultivation as the other words. 'Fertilizer' and 'irrigation",
+        "'lowland', 'irrigation', 'fertilizer' ].\n\n\nHowever, after reevaluating the list in the context of rice production, these words actually fit within the broader theme. 'Lowland' can refer to the type of"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'paddy'",
+            "'field'"
+          ],
+          [
+            "'farmer'",
+            "'cultivation'"
+          ],
+          [
+            "'irrigation'",
+            "'fertilizer'"
+          ],
+          [
+            "'rice'",
+            "'crop'"
+          ],
+          [
+            "'yield'",
+            "'crop'"
+          ]
+        ]
+      },
+      "raw": "('paddy', 'field'), ('farmer', 'cultivation'), ('irrigation', 'fertilizer'), ('rice', 'crop'), ('yield', 'crop') ]\n\nHowever, upon closer examination, it appears that only one pair"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'paddy' is a valid word in the context of rice cultivation, but may be considered unclear to some readers without additional context, however it is not invalid or malformed ]\n\nAfter reevaluation, the conclusion is: All words are valid.",
+        "'paddy' ]\n\nReason: Although 'paddy' is not necessarily invalid in all contexts, in the context of the other words which are mostly related to the general process of farming or cultivating rice, 'paddy' could be considered a bit",
+        "'paddy' is a valid word in this context but may not be familiar to all readers, 'lowland' could be a valid term but might not be as specific as other terms in this context ].\n\n\nHowever, upon closer inspection, it",
+        "'paddy' is not necessarily invalid but can be unclear in some contexts as it can refer to both the field and the crop, however in the context of the other words it seems to be referring to the field, so it is valid in this",
+        "None ]\n\nAll words are valid."
+      ]
+    }
+  },
+  "3": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'crop'"
+      },
+      "raw": [
+        "'crop' ].\n\n\nThe other words all relate to aspects of water quality or management, particularly in relation to salt content, whereas 'crop' relates to the plants being irrigated.",
+        "'crop' ].\n\n\nHowever, after reevaluating the list for a better understanding of the context, it seems that 'soil' and 'irrigation' also somewhat diverge from the core theme of chemical composition and properties ('salinity",
+        "'crop' ].\n\n\nHowever, after reevaluating the topic word set, I realize that I should have provided a list with a single element as the final answer in the requested format.\n\n\nThe final answer is $\\boxed{crop}$",
+        "'crop' ].\n\n\nThese words can be put into a comma-separated list as follows:\ncrop",
+        "'crop', 'soil' ].\n\n\nHowever, considering the context of 'irrigation', 'crop' and 'soil' actually belong to the theme, since irrigation is often related to crops and soil.\n\n\nA more careful consideration reveals '"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "('nacl', 'sodium', 'chloride') is not a pair of exactly the same concept, but 'nacl' can be split into 'sodium' and 'chloride', however 'saline' and 'salinity'"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'nacl'"
+      },
+      "raw": [
+        "'nacl' ]\n\nReason: 'nacl' is an extremely rare or unclear abbreviation. It is likely meant to represent 'sodium chloride', which is a chemical formula (NaCl), but in the context of the given topic words, it",
+        "'nacl' ]. \n\nReason: 'nacl' is an extremely rare abbreviation that might be unclear without context. It is a chemical formula for sodium chloride (NaCl), but in the context of the topic words provided, which seem to be",
+        "'nacl' ]\n\nReason: 'nacl' is an extremely rare or unclear abbreviation. It could be an abbreviation for \"sodium chloride,\" but without context, it is unclear and may be confusing to readers not familiar with chemical notation.\n\n\nAll",
+        "'nacl' ]\n\nReason: 'nacl' appears to be an abbreviation and could be considered unclear without context. It is a chemical formula for sodium chloride (NaCl), but in the context of the provided topic words, which are mostly English",
+        "'nacl' ]. \n\nThe reason is that 'nacl' is an extremely rare or unclear abbreviation. In the context of the other words, it likely refers to sodium chloride (NaCl), which is a chemical formula. However, without proper"
+      ]
+    }
+  },
+  "4": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'poverty'"
+      },
+      "raw": [
+        "'poverty' ] \n\nThese words can be related in a broader sense but 'poverty' does not fit as closely with the theme of farming and agriculture as the other words do. \n\nHere is the list in a comma-separated format: poverty",
+        "'poverty', 'country' ].\n\n\nThese two words, although related to the context in a broader sense, do not fit as tightly with the central theme of farming and agricultural practices as the other words do. 'Poverty' is more of",
+        "'poverty' ].\n\n\nHowever, upon re-examining the list, it appears that 'poverty' can be related to the theme of farming and rural areas, as many farmers and rural communities face poverty.\n\nA more thorough analysis reveals that",
+        "'poverty', 'country' ] \n\nThese words do not belong to the same conceptual theme of farming and agriculture as the other words in the list. \n\nHere is the list in a comma-separated format: poverty, country",
+        "'poverty' ].\n\n\nHowever, after closer examination, it seems that there might be a case for 'climate' and 'adaptation' as well, as they are more abstract concepts related to the context, whereas the other words are more concrete"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'agricultural'",
+            "'farming'"
+          ],
+          [
+            "'rural'",
+            "'country'"
+          ]
+        ]
+      },
+      "raw": "('agricultural', 'farming'), ('rural', 'country')].\n\n\nHowever, upon closer inspection of the provided list, it appears that 'agricultural' and 'farming' indeed refer to closely related concepts, but not exactly"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'livelihood' is not necessarily invalid but may be less directly related to the topic than other words, however 'rural' and 'country' may be somewhat redundant in this context. ]\n\nHowever, a more thorough analysis indicates that all words appear",
+        "'livelihood' is not necessarily invalid but is less directly related to the other words than the rest, however 'rural' and 'country' could also be seen as less directly related ]\n\nAfter re-evaluating the list for actual malform",
+        "'livelihood' ]\n\nReason: The word is not typically associated directly with the core topic of farming or agriculture, although it could be tangentially related. However, upon closer inspection, all the given words are actually valid English words directly or indirectly related",
+        "'livelihood' ] with reason: unclear relation to the context, and 'adaptation' could also be considered unclear in this specific context of agricultural topics. However, it's worth noting that both words are not necessarily \"malformed\" but might",
+        "'livelihood' is somewhat uncommon but still valid in this context ]\n\nHowever, upon closer examination of the provided list: \n\n- All words are recognizable English words.\n- There are no apparent typos or broken strings.\n- No extremely rare or unclear"
+      ]
+    }
+  },
+  "5": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'policy' 'project'"
+      },
+      "raw": [
+        "'yield', 'policy', 'project' ].\n\n\nThese words can be grouped into a comma-separated list as: yield, policy, project",
+        "'policy', 'project' ].\n\n\nHere's why:\n- 'model', 'datum', 'rmse', 'regression', 'estimate', 'coefficient', 'prediction', and 'yield' are all related to statistical modeling and analysis.",
+        "'policy', 'project' ].\n\n\nSo the answer is: policy, project",
+        "'policy', 'project' ].\n\n\nThese two words don't fit with the data analysis and modeling theme that the rest of the words convey. The others are related to data analysis, modeling, estimation, and prediction, whereas 'policy' and '",
+        "'policy', 'project' ].\n\n\nSo, the list of words that do not belong to the same conceptual theme as the others in a comma-separated list is: policy, project"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'estimate'",
+            "'prediction'"
+          ],
+          [
+            "'coefficient'",
+            "'regression'"
+          ]
+        ]
+      },
+      "raw": "('estimate', 'prediction'), ('coefficient', 'regression') ].\n\n\nHowever, a more accurate answer would be: \n\n\nAfter re-examining the list, I found that there are no word pairs that refer to concepts or ideas that are"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'rmse'"
+      },
+      "raw": [
+        "'rmse' ]\n\nReason: 'rmse' is an extremely rare abbreviation or could be considered unclear without context. It likely stands for \"Root Mean Squared Error,\" a common metric in regression analysis, but as an abbreviation, it might be",
+        "'rmse' ]\n\nReason: 'rmse' is an abbreviation that may be unclear to some readers. It stands for 'root mean squared error', which is a statistical measure. While it's not necessarily malformed, it could be considered unclear without",
+        "'rmse' ]. \n\nReason: 'rmse' is an abbreviation that might be unclear without context. It likely stands for \"Root Mean Squared Error,\" which is a common metric in regression analysis, but without context, it could be considered",
+        "'rmse' ]\n\nReason: 'rmse' appears to be an abbreviation for \"root mean squared error\", which may be unclear without context. It's a technical term but could be considered an abbreviation that might not be widely recognized by non-exp",
+        "'rmse' ]. \n\nReason: 'rmse' is an abbreviation that, although not extremely rare in certain contexts (it stands for \"root mean square error\"), could be considered unclear without proper context, as it is not a full word."
+      ]
+    }
+  },
+  "6": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'length' 'population'"
+      },
+      "raw": [
+        "'length', 'population' ].\n\n\nThese words do not fit with the theme of plant biology and development that is present in the other words. 'Length' could be related to plants in some contexts, but it is too general and doesn't specifically",
+        "'length', 'population' ].\n\n\n\nSo the list in the requested format is: length, population",
+        "'length', 'population' ].\n\n\nThese words don't fit with the plant-related theme that ties the other words together.",
+        "'length', 'population' ].\n\n\nThese words do not fit with the plant-related theme that is present in the other words. 'Length' is a general physical property that can apply to many things, and 'population' is a term from ecology",
+        "'length', 'population' ].\n\n\nThese words do not fit with the agricultural/plant biology theme that the other words convey. \n\nSo, the list in a comma-separated format is: length, population"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'seed'",
+            "'germination'"
+          ],
+          [
+            "'stem'",
+            "'length'"
+          ]
+        ]
+      },
+      "raw": "('seed', 'germination'), ('stem', 'length')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'genotype' is somewhat technical but valid in context; however, ]\n* None of the provided words appear to be malformed (e.g., typos, broken strings). \nHowever, 'genotype' and 'cultivar' might be considered",
+        "'genotype' is a valid term in biology, 'cultivar' is also valid. Upon closer inspection ] \n\nAll words are valid.",
+        "'genotype', 'cultivar' ]. \n\n'genotype' is a specialized term in genetics, which might be unclear for non-experts. \n\n'cultivar' is an abbreviation for 'cultivated variety', which is not widely recognized outside",
+        "'genotype', 'cultivar' ]\n\nReasons:\n- 'genotype' and 'cultivar' might be considered rare or unclear without context for non-experts in biology or agriculture. However, they are valid terms in the context of plant",
+        "'genotype' is somewhat technical and might be unclear to general audiences, but it's a valid term, \n 'cultivar' might also be unclear to general audiences, but it's a valid term in the context of botany or hort"
+      ]
+    }
+  },
+  "7": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'rhizosphere' 'fungicide'"
+      },
+      "raw": [
+        "'rhizosphere', 'fungicide' ].\n\n\nThese words do not fit with the microbial theme of pathogens, bacteria, and microorganisms, and their respective treatments (antibiotics) or types (salmonella, coliform). Rhiz",
+        "'rhizosphere', 'fungicide' ].\n\nThese words, although related to the general domain of microbiology, don't fit with the theme of microorganisms, pathogens, and antimicrobials that the other words convey.\n\nHere they are",
+        "'rhizosphere', 'fungicide' ].\n\n\nSo the final list in a comma-separated format is: rhizosphere, fungicide",
+        "'rhizosphere', 'fungicide' ]\n\nThese two words are related to the environment where microorganisms live (rhizosphere) and a chemical agent used to kill fungi (fungicide), respectively. They don't directly relate to microorganisms or",
+        "'rhizosphere', 'fungicide' ].\n\n\nHere is the list in a comma-separated format: rhizosphere, fungicide"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'bacteria'",
+            "'microorganism'"
+          ],
+          [
+            "'fungus'",
+            "'fungicide'"
+          ],
+          [
+            "is not a correct pair as they are not the same",
+            "'fungicide' is a substance used to kill fungi"
+          ]
+        ]
+      },
+      "raw": "('bacteria', 'microorganism'), ('fungus', 'fungicide') is not a correct pair as they are not the same, 'fungicide' is a substance used to kill fungi, ].\n\n\nAfter re-examining the list"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'rhizosphere'"
+      },
+      "raw": [
+        "'rhizosphere' ]\n\nReasons:\n- 'rhizosphere' is a valid word but may be unclear in this context as it refers to the area of soil surrounding plant roots where microbes are active. However, without further context, it's",
+        "'rhizosphere' is a valid word but might be unclear in this context as it refers to the soil region where microorganisms interact with plant roots, \n'coliform' appears to be a typo, likely meant to be 'coliform'",
+        "'rhizosphere' ] with the reason being that, although not entirely rare in certain contexts, it may be unclear in this specific list focused on microorganisms and their interactions with antibiotics or other substances. It refers to the soil region where plant roots",
+        "'rhizosphere' ]. The reason is that while 'rhizosphere' is a valid word, it might be considered rare or unclear in the context of the other terms provided, which are more directly related to pathogens, microorganisms, and their",
+        "'rhizosphere' ] with brief reason: extremely rare or unclear in general English usage, although it's a valid term in specific domains like microbiology or soil science.\n\n\nHowever, upon closer examination, 'rhizosphere' is actually a valid"
+      ]
+    }
+  },
+  "8": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'irrigation' 'geochemical' 'arid'"
+      },
+      "raw": [
+        "'irrigation', 'geochemical', 'arid' ].\n\n\nHowever, upon reevaluating the list for the most contextually distant terms given the other words, the words that do not semantically belong to the same conceptual theme as the",
+        "'irrigation', 'geochemical', 'arid' ].\n\n\nThese words do not semantically belong to the same conceptual theme as the others because they describe different aspects:\n- 'irrigation' is related to water management,\n- '",
+        "'geochemical', 'river', 'alluvial', 'arid' ].\n\n\nHowever, upon closer inspection, 'geochemical' is closely related to groundwater and aquifers. 'River' can be related to groundwater and recharge as well.",
+        "'irrigation', 'geochemical', 'arid' ].\n\n\nHowever, it is worth noting that 'geochemical' can be somewhat related to the other words, since groundwater and aquifers can have geochemical characteristics. \n\nIf we consider",
+        "'irrigation', 'geochemical', 'river', 'arid' ].\n\n\nHowever, after reevaluating the list for the best answer, \nThe words that do not semantically belong to the same conceptual theme as the others are:"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'groundwater'",
+            "'aquifer'"
+          ]
+        ]
+      },
+      "raw": "('groundwater', 'aquifer') ].\n\n\nThese two words can be considered as referring to the same concept or idea, as an aquifer is essentially an underground layer of permeable rock or soil that contains or transmits groundwater."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'geochemical', 'alluvial', 'arid' ]. \n\nReasons:\n- 'geochemical' could be considered too technical for general conversation and might be misspelled as 'geo-chemical'.\n- 'alluvial' might",
+        "'alluvial' ]. \n\nReason: 'alluvial' is not necessarily invalid but is relatively rare in common English usage. However, it is a valid word in geological contexts referring to soil or sediment deposited by a river, and given the",
+        "'alluvial' is a valid word but might be considered rare in some contexts, 'arid' is valid but might be unclear without context, 'geochemical' is valid but could be considered rare or unclear to some readers ].\n\n\nHowever",
+        "'alluvial' is a valid word but might be considered rare or less common in some contexts, however, upon closer inspection, none of the words provided appear to be malformed or extremely rare abbreviations. 'geochemical' could be seen as",
+        "'geochemical', 'alluvial', 'arid' ]\n\nReasons: \n- 'geochemical' is a valid term but might be too specialized or rare for general context without further explanation.\n- 'alluvial' is a valid"
+      ]
+    }
+  },
+  "9": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'application'"
+      },
+      "raw": [
+        "'application', 'crop' ].\n\n\nThese words do not belong to the same conceptual theme of \"pest control\" as the other words, which are mostly types of pests or methods/products used to control them. \n\nHowever, a more accurate response in",
+        "'crop', 'application' ].\n\n\nHowever, to better answer your request I can rephrase this into a comma-separated list: crop, application",
+        "'application', 'crop' ].\n\n\nThey do not fit with the theme of types of pests and pest control methods/products.",
+        "'application', 'spray' ].\n\n\nHowever, upon closer inspection, these words can actually be related to the theme of pest control. \n\nA more careful analysis reveals that the words that truly do not belong to the theme are actually none, as",
+        "'application', 'spray' ].\n\n\nHowever, upon closer inspection, even 'application' and 'spray' could be considered related to the theme, as they could refer to methods of using the substances in question.\n\nBut 'crop' does"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'pest'",
+            "'insect'"
+          ],
+          [
+            "'pesticide'",
+            "'insecticide'"
+          ]
+        ]
+      },
+      "raw": "('pest', 'insect'), ('pesticide', 'insecticide')].\n\nThese pairs refer to concepts or ideas that are exactly the same. 'Pest' and 'insect' both refer to harmful or unwanted insects, while 'pest"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'weevil'"
+      },
+      "raw": [
+        "'weevil' ]. The word 'weevil' is a valid word but in the context of the given list, it seems to be less relevant or rare compared to the other terms. However, considering the list as a whole, 'weevil",
+        "'weevil' ]. The reason for listing 'weevil' is not that it is inherently invalid, but in the context of the topic list provided, which seems to focus on general terms related to pesticides and their applications, 'weevil' might",
+        "'weevil' ]. \n\nReason: 'weevil' is not as directly related to the context of herbicides, pesticides, and pest control as the other words. It is a type of beetle, but it is not a term that is commonly",
+        "'weevil' ]. \n Brief reason: 'weevil' is an extremely rare word in this context as the other words are generally related to chemicals or general pest control, while 'weevil' is a specific type of insect. \n\nHowever,",
+        "'weevil' ]. \n\nReason: 'weevil' is a rare word in this context and could be considered unclear without additional information about the specific topic or domain of discussion. In general, the other words seem directly related to the broader topics of"
+      ]
+    }
+  },
+  "10": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "irrigation"
+      },
+      "raw": [
+        "irrigation  ].\n\n\nHowever, since the instruction was to put them in a comma-separated list, the revised answer would be:\n\n\nirrigation",
+        "irrigation  ].\n\n\nIrrigation is the odd one out because it is a method or practice of supplying water to crops, whereas the other words are all closely related to the chemical and biological processes of nitrogen in the environment.",
+        "'irrigation' ].\n\n\nThese words can be put into a comma-separated list as: irrigation",
+        "irrigation ].\n\n\nHowever, after closer inspection, one could argue that 'irrigation' does indeed belong to the same conceptual theme of agriculture and farming as the other words. \n\n\nA more careful analysis would suggest that actually 'irrigation', while",
+        "irrigation ].\n\n\nHere is the list in a comma-separated format: irrigation"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'nh₃'",
+            "'ammonia'"
+          ]
+        ]
+      },
+      "raw": "('nh₃', 'ammonia') ]. \n\nThese words refer to the same chemical compound, ammonia, with 'nh₃' being its chemical formula and 'ammonia' being its common name."
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'nh₃'"
+      },
+      "raw": [
+        "'nh₃' ]. \n\nReason: 'nh₃' is a chemical formula and is not typically written as a word. While it's clear what it represents (ammonia), in the context of a list of topic words, it's an",
+        "'nh₃' ]. \n\nReason: 'nh₃' is a chemical formula rather than a word and may be considered an unclear abbreviation in a list of topic words that are mostly in plain English. It represents ammonia, which is already listed as '",
+        "'nh₃' ]. \n\nReason: 'nh₃' appears to be a chemical formula (ammonia) rather than a standard word or commonly recognized abbreviation in the context of the topic list provided. While it is not a typo or a broken",
+        "'nh₃' ]. \n\nThe reason is that 'nh₃' appears to be a chemical formula rather than a standard English word related to the topic. Although it represents ammonia (NH₃), in the context of a list of words, it stands",
+        "'nh₃' ]. \n\nReason: 'nh₃' is a chemical formula and not a word or a commonly used abbreviation in the context of the given topic words. Although it's related to the topic (ammonia), it's not a"
+      ]
+    }
+  },
+  "11": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'irrigate' 'irrigation'"
+      },
+      "raw": [
+        "'irrigate', 'irrigation' ].\n\n\nThese words are related to the application of water, whereas the rest of the words are related to pollution and waste management. \n\nHere is the list in a comma-separated format: irrigate,",
+        "'irrigate', 'irrigation' ].\n\n\nThese two words, although related to water, do not fit with the theme of pollution, waste, and environmental harm that the other words convey. They instead relate to the distribution of water for",
+        "'irrigate', 'irrigation' ].\n\n\nThese two words, although related to water, pertain more to the application or distribution of water for agricultural or horticultural purposes rather than directly to the theme of wastewater, sewage, pollution",
+        "irrigate, irrigation ]\n\nThese words, while still somewhat related, primarily connote the application or distribution of water, rather than the handling, treatment, or effects of pollutants or contaminants, which is the dominant theme of the other words in the list.",
+        "'irrigate', 'irrigation' ].\n\n\nThese two words have a different semantic orientation, focusing on the distribution of water for agricultural purposes rather than the handling or consequences of waste materials. \n\nThus, the list of words that do not"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'sewage'",
+            "'wastewater'"
+          ],
+          [
+            "'irrigate'",
+            "'irrigation'"
+          ]
+        ]
+      },
+      "raw": "('sewage', 'wastewater'), ('irrigate', 'irrigation') ]\n\nThese word pairs are considered to refer to concepts or ideas that are exactly the same. \n\n'sewage' and 'wastewater' are"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'irrigate', 'irrigation' ] with the reason that they are not directly related to wastewater or pollution in a strict sense. However, it's worth noting that these words are indeed valid in the broader context of water management and environmental",
+        "'irrigate' (not a typical term in this context), 'irrigation' (not a typical term in this context) ]\n\nThese words may not be strictly \"malformed\" or \"invalid\", but they are somewhat less relevant to",
+        "'irrigate' is somewhat related but does not fit the context of pollution as closely as the other words, 'irrigation' is also somewhat related but seems out of place in the list of pollutants and contaminants ]\n\nHowever, after closer inspection",
+        "'irrigate' is not necessarily invalid, but could be considered domain-specific jargon, however 'irrigation' is more commonly used and understood in the context of water management, making 'irrigate' somewhat redundant. ]\n\nHowever,",
+        "'irrigate', 'irrigation' ]\n\nReason: These words, while not necessarily \"malformed\" in the strictest sense, seem out of place in the context of the list which otherwise focuses on terms directly related to pollution, waste"
+      ]
+    }
+  },
+  "12": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'spring' 'irrigation'"
+      },
+      "raw": [
+        "'spike', 'spring', 'irrigation', 'grow' ].\n\n\nHere is the list in a comma-separated format: spike, spring, irrigation, grow",
+        "'spike', 'irrigation', 'spring' ].\n\n\nHowever, to answer the prompt more accurately, here is the revised list of words that do not semantically belong to the same conceptual theme as the others, in a comma-separated list",
+        "'spike', 'spring', 'irrigation' ].\n\n\nHowever, upon closer inspection, 'spike' can be related to the theme through the spike of grain or wheat, 'spring' can be related as it's a season for",
+        "'spring' ].",
+        "'irrigation', 'spring' ].\n\n\nHowever, if I must provide a single word answer as a comma-separated list as per your request: irrigation, spring"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'barley'",
+            "'wheat'"
+          ],
+          [
+            "'barley'",
+            "'grain'"
+          ]
+        ]
+      },
+      "raw": "('barley', 'wheat'), ('barley', 'grain') is not a correct pair as barley is a type of grain, ('spike', 'yield') is not a correct pair as spike can refer to a part of a"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'spike' ]. This word may be unclear as it has multiple meanings and may not directly relate to the context of the topic list which seems to be focused on agriculture. It could refer to a type of plant part or an increase in something,",
+        "'spike' ]. \nReason: 'spike' can be considered as either a noun or a verb and may not be directly related to the topic of crops or farming, which the other words seem to focus on. However, without further context",
+        "'spike' ]\n\nReason: The word 'spike' can be considered ambiguous in this context as it has multiple meanings (e.g., a sharp point, a sudden increase). However, upon closer inspection, all the words provided seem to be",
+        "'spike' (may be unclear in this context - it could refer to a type of grain, but more commonly refers to a sudden increase) ].\n\n\nHowever, considering the context is about crops and grains, it might actually fit, so it",
+        "None ]. \n\nAll words are valid."
+      ]
+    }
+  },
+  "13": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'estimate' 'coefficient'"
+      },
+      "raw": [
+        "'estimate', 'coefficient' ]\n\nThese words, although related to a broader context of calculation or measurement, do not specifically pertain to the central theme of water movement, usage, or agricultural management that the majority of the other terms directly relate to",
+        "'estimate', 'coefficient' ].\n\n\nThese words do not belong to the same conceptual theme as the others, which are related to hydrology, agriculture, and meteorology. The word 'estimate' can be somewhat related but it's not as",
+        "'estimate', 'coefficient' ].\n\n\nHowever, considering the context of the other words, the topic appears to be related to agricultural water management or hydrology. In this context, 'estimate' could be related to estimating water requirements or evapot",
+        "'estimate', 'coefficient' ].\n\n\nHowever, I must point out that 'estimate' and 'coefficient' are actually related to the theme of calculating or measuring evapotranspiration or irrigation requirements. \n\nA more suitable answer could be:",
+        "'estimate', 'coefficient' ].\n\n\nThese two words, while related to the topic, do not fit as neatly into the theme of water usage in agriculture as the other words do. They seem to relate more to the process of calculation or quant"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'evaporation'",
+            "'evapotranspiration'"
+          ]
+        ]
+      },
+      "raw": "('evaporation', 'evapotranspiration') ].\n\n\nHowever, note that 'evaporation' and 'evapotranspiration' are not exactly the same concept. 'Evapotranspiration' is the combination of evaporation from the soil and"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'penman'"
+      },
+      "raw": [
+        "'evapotranspiration', 'penman' ].\n\n\n- 'evapotranspiration' could be considered too long or less common, but in a technical or scientific context, it is a valid term. \n- 'penman' might be",
+        "'penman' ]. \nThe reason is that 'penman' could be considered unclear without additional context, as it might refer to a person (e.g., Howard Penman, who developed the Penman equation for estimating evapotranspiration)",
+        "'penman' ]\n\nReason: 'penman' is a proper noun referring to a person's name, likely H.L. Penman, related to the Penman-Monteith method for estimating evapotranspiration, but without context, it",
+        "'penman' ]\n\nReason: 'penman' could be considered unclear as it might be an abbreviation or a proper noun (e.g., referring to the Penman equation, a method for estimating evapotranspiration), but without context, it",
+        "'evapotranspiration' is a rare, technical term but valid in certain contexts like agriculture and hydrology. However, for general language, it could be considered unclear due to its specificity and length. ]\n\nGiven the context seems to be related to"
+      ]
+    }
+  },
+  "14": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'weight' 'acidity' 'plant'"
+      },
+      "raw": [
+        "'weight', 'acidity', 'plant' ].\n\n\nHowever, upon closer inspection, 'plant' can be seen as related to the theme of orchards and farming. \n\nThus, the final list of words that do not belong to the same",
+        "'weight', 'acidity', 'irrigation', 'plant' ] \n\nHowever, 'weight' could be related to the weight of the fruit and 'plant' could be related to the trees on which the fruit grows. 'Irr",
+        "'weight', 'acidity', 'plant' ].\n\n\nHowever, since 'plant' can be associated with orchard and 'weight' could be referring to the weight of the fruit, it's arguable that 'weight' and 'plant'",
+        "'weight', 'acidity', 'irrigation', 'plant' ] \n\nNote: \n- 'weight' might relate to the weight of the fruit, but it's more of a physical property than a concept directly related to the cultivation or",
+        "'weight', 'acidity', 'irrigation', 'plant' ] \n\nThese words, although somewhat related, are not as strongly connected to the central theme of fruit production (e.g., 'harvest', 'yield', 'orchard"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'fruit'",
+            "'apple'"
+          ],
+          [
+            "'yield'",
+            "'harvest'"
+          ]
+        ]
+      },
+      "raw": "('fruit', 'apple'), ('yield', 'harvest')].\n\nThese pairs refer to concepts that are essentially the same: 'fruit' and 'apple' both refer to the produce, and 'yield' and 'harvest' both refer to"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'ripen' is slightly unclear without context but seems to be a valid word; 'irrigation' is valid but might be less common in some lists focused strictly on fruits or plants rather than farming practices ]\n\nHowever, upon closer inspection, all",
+        "'ripen' is somewhat contextually unclear as it might be more commonly used as a verb rather than a standalone topic, however it is still a valid word. ]\n\nUpon closer inspection of the provided list: \n- 'fruit', 'apple',",
+        "'ripen' is a valid word but 'acidity' seems a bit out of context in the list of mainly agricultural or fruit-related terms, however 'ripen' and 'acidity' are valid English words. ]\n\nUpon closer inspection:",
+        "'ripen' is not clearly related to the topic of farming or agriculture in the context of the other words, however 'ripen' itself is a valid word. ]\n\nAfter reevaluating, all the words in the given list seem to be",
+        "'ripen' is a bit rare, but still a valid word; however, upon closer inspection, all words appear to be correctly spelled and recognizable within the context of agriculture or fruit production. ]\n\nGiven the list of words and their context, it"
+      ]
+    }
+  },
+  "15": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'yarn'"
+      },
+      "raw": [
+        "'irrigation', 'yarn' ].\n\n\nThese words can be put into a comma-separated list as: irrigation, yarn.",
+        "'irrigation', 'yarn' ].\n\n\nThese words can be grouped into a comma-separated list as follows: irrigation, yarn",
+        "'yarn' ].\n\n\nThe other words are all closely related to the theme of cotton production, with 'cotton' being the crop, 'lint' and 'fibre' being products derived from it, 'seed' and 'irrig",
+        "'yarn' ].\n\n\nExplanation: \n- 'yarn' is related to the textile industry, which is a downstream application of the fibre, but the other words are more directly related to the production of the fibre itself. \n- All other",
+        "'irrigation', 'yarn' ].\n\nAlthough 'irrigation' is related to the broader context of 'plant' and 'crop', its connection to the central theme of the word set (which appears to be cotton production) is"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'cotton'",
+            "'fibre'"
+          ],
+          [
+            "'cotton'",
+            "'yarn'"
+          ],
+          [
+            "'seed'",
+            "'plant'"
+          ],
+          [
+            "'plant'",
+            "'crop'"
+          ],
+          [
+            "'crop'",
+            "'cultivar'"
+          ]
+        ]
+      },
+      "raw": "('cotton', 'fibre'), ('cotton', 'yarn'), ('seed', 'plant'), ('plant', 'crop'), ('crop', 'cultivar') ]\n\nHowever, it's essential to note that the words 'cotton'"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'cultivar' ] \nReason: It's a specialized term that might be unclear to general audience. \n\nHowever, upon closer inspection, 'cultivar' is actually a valid word in the context of agriculture and plant breeding. It refers to a",
+        "'lint' is a bit ambiguous as it could be referring to a type of debris, but in the context of the other words, it's likely referring to cotton lint which is a valid term, however 'yarn' could be seen as out",
+        "'lint', 'yarn' ]. \n\nReason: \n- 'lint' is a word but is not clearly related to the main topic of the list which seems to be about 'cotton' and 'crop' production. \n- 'y",
+        "'lint' is somewhat unclear as it could be a word or a typo for 'linen', but in the context of the other words, it is likely referring to cotton lint, 'cultivar' is a valid word but is somewhat rare and",
+        "'lint' is somewhat unclear as it could be related to the textile context but may not be directly related to the topic, 'yarn' is somewhat specialized but still clear in context, however 'cultivar' is valid in this context as it"
+      ]
+    }
+  },
+  "16": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'drought', 'conductance' ] \n\nHowever, it's essential to understand that 'drought' can be somewhat related to the theme of plant biology and 'conductance' might relate to the plant's ability to conduct water and nutrients.",
+        "'drought' ].\n\n\nHowever, given the context of the other words, the word 'drought' can still be related to plants, but in the context of the given topic set, which seems to be more focused on the processes and components",
+        "'drought' ].\n\n\nHowever, upon closer examination, it appears that 'drought' can be related to the theme of plant biology, particularly in the context of plant response to water stress and stomatal regulation.\n\n\nA more careful analysis would suggest",
+        "drought  ].\n\n\nHowever, since the instruction requires a comma-separated list, the answer should be: drought \n\nBut considering the context of the question and the instruction, a more appropriate interpretation is that the words that do not semantically belong should be provided",
+        "drought  ].\n\n\nHowever, considering the context of the other words, the word 'drought' can be related to 'transpiration' and 'stomata' in terms of plant physiology, especially under drought conditions.\n\nUpon closer examination, all"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "None]. \n\nThere are no pairs of words in the given topic word set that refer to concepts or ideas that are exactly the same. Each word in the set represents a distinct concept related to plants or photosynthesis, but none of them are identical in"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'photosynthetic' is valid but might be considered too broad or general for some contexts, however, it's a valid word ]\n\nHowever, upon reviewing the list, no words appear to be clearly malformed (typos, broken strings) or extremely",
+        "'photosynthetic' isn't necessarily invalid but 'photosynthetical' or 'photosynthesize' might be more common; however, 'photosynthetic' is used in scientific contexts, 'photochemical' is also valid but 'photochemistry",
+        "'photosynthetic', 'photochemical' ] with reasons: \n1. 'photosynthetic' - While this term is valid, the context of the list seems to prioritize more general terms related to plants and their physiological processes. 'Photosyn",
+        "'photosynthetic' is valid; however 'photochemical' is also valid but could potentially be unclear without context, 'photosystem' is valid ]\n\nActually, upon reevaluation: \nAll words are valid.",
+        "'conductance' is a valid word but in the context of plant biology, 'conductivity' might be more common or relevant for some discussions, however 'conductance' itself is a valid term in physics and other areas so it's not strictly"
+      ]
+    }
+  },
+  "17": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'datum' 'region' 'forecast'"
+      },
+      "raw": [
+        "'datum', 'region' ].\n\n\nThese words do not fit the theme of weather or climate-related terms. 'Datum' refers to a piece of information or a reference point, and 'region' is a geographical area, which, while related to",
+        "'datum', 'region', 'forecast' ].\n\n\nReasoning: \n- 'datum' refers to a piece of information, which does not fit with the weather-related theme.\n- 'region' can be related to weather, but it's more",
+        "'datum', 'region', 'forecast' ].\n\n\nThese three words, while related to the field of meteorology, do not fit with the theme of weather conditions and phenomena. \n\n'datum' refers to a piece of information, 'region'",
+        "'datum', 'region', 'forecast' ].\n\n\nThese words do not fit with the theme of meteorological phenomena, which the other words are related to. 'Datum' is a general term that could relate to any type of data, 'region",
+        "'datum', 'region', 'forecast' ].\n\n\nThese words do not fit with the theme of weather phenomena and measurements. 'Datum' refers to a general piece of information, 'region' is a geographical term, and 'forecast' is an"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'rainfall'",
+            "'precipitation'"
+          ]
+        ]
+      },
+      "raw": "('rainfall', 'precipitation') ]. \n\nThese two words refer to the same concept or idea, which is the amount of water that falls to the Earth's surface over a specific period of time. The other words in the topic word set"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'datum'"
+      },
+      "raw": [
+        "'datum' ]. \n\nReason: 'datum' could be considered unclear in this context as it's a more formal or technical term that might not be widely recognized in relation to weather or climate topics by all users. It's not necessarily a typo or",
+        "'datum' ]. \n\nReason: 'datum' could be considered unclear without additional context, as it is a general term that can be used across many fields, including but not limited to meteorology. It does not specifically relate to weather or climate in",
+        "'datum' ] \n\nReason: 'datum' is an extremely rare or unclear term in the given context of meteorology. Although 'datum' can be related to a reference point, it is not as directly relevant or commonly used as the other terms",
+        "'datum' ]. \n\nReason: 'datum' is a rare or unclear term in the given context. In the field of meteorology, the preferred term is usually 'data'. 'Datum' can be used in specific contexts, such as a reference",
+        "'datum' ]. \n\nReason: 'datum' can be considered unclear in this context, as it's a general term that can refer to any piece of information, and it's not directly related to weather or meteorology like the other words. However"
+      ]
+    }
+  },
+  "18": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'summer'"
+      },
+      "raw": [
+        "'summer' ].\n\n\nThese words can be put into a comma-separated list as: summer",
+        "'summer' ].\n\n\nHowever, since the instructions require the output to be in a comma-separated list and there's only one word that stands out as not belonging to the agricultural theme as strongly as the others, the list remains simple:\n\n\nsummer",
+        "'summer' ]. \n\nHowever, since the instruction requires a comma-separated list, the answer is simply: summer",
+        "'summer' ]. \n\nReasoning: \nThe topic word set revolves around agricultural concepts, specifically crops ('maize', 'corn', 'wheat', 'crop'), farming practices ('irrigation', 'field', 'soil', 'plant",
+        "'summer' ].\n\n\nThese words can be put into a comma-separated list as follows: summer"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'corn'",
+            "'maize'"
+          ]
+        ]
+      },
+      "raw": "('corn', 'maize') ]. \n\nIn American English, 'corn' is often used to refer to what is called 'maize' in many other parts of the world. They both refer to the same type of plant and its edible seeds"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'irrigation', 'summer' ] \nwith the reason that these words do not directly relate to the topic of agricultural crop production like the other words do.",
+        "'irrigation' is not invalid but 'summer' could be considered unclear without more context as it could refer to either the season or an adjective, however, no other words appear to be malformed or unclear abbreviations ]\n\nHowever, considering all words",
+        "'irrigation', 'summer' ]. \n\nThe word 'irrigation' seems to be out of context from the rest of the words which are more related to crops and farming. 'Summer' could be considered unclear in this context as it",
+        "None ]. \nAll words are valid.",
+        "'irrigation' is somewhat uncommon in informal contexts but not invalid ]\n\nHowever, upon closer inspection, it appears that 'irrigation' is not necessarily invalid in the context of agricultural topics. Therefore, given the context of agricultural or farming-related"
+      ]
+    }
+  },
+  "19": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'trout' 'landscape'"
+      },
+      "raw": [
+        "'trout', 'landscape' ].\n\n\nThese words are put into a comma-separated list as follows:\n\ntrout, landscape",
+        "'trout', 'landscape' ].\n\n\nThese words do not fit the dominant conceptual theme of the topic word set which is related to bodies of water, ecosystems, and aquatic environments. 'Trout' is a type of fish, and 'landscape",
+        "'landscape', 'trout' ].\n\n\nHowever, as per your request, I will provide them in a comma-separated list: landscape, trout",
+        "'landscape', 'trout' ].\n\n\nHere is the list in a comma-separated format: landscape, trout",
+        "'trout', 'landscape' ].\n\n\nThese two words, 'trout' and 'landscape', do not belong to the same conceptual theme as the other words in the list. 'Trout' refers to a specific type of fish, which"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'lake'",
+            "'pond'"
+          ]
+        ]
+      },
+      "raw": "('lake', 'pond')]. However, upon closer examination, it appears that 'lake' and 'pond' refer to similar but not identical concepts. \n\nA more accurate assessment is that there are no word pairs that refer to concepts or ideas that"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'aquaculture' is a valid word but might be considered rare or unclear to some audiences without context, however, 'trout' could be seen as somewhat out of place as it's a type of fish rather than a habitat or ecosystem term",
+        "None ]. \n\nAll words are valid.",
+        "'fishery' is somewhat ambiguous as it could be a noun or an adjective but in general language usage it is valid. However, no other words are clearly malformed or extremely rare in this list.]\n\nGiven the context of the words provided, all words",
+        "'aquaculture' - rare or unclear in some contexts without further information, 'fishery' - can be unclear without context, 'trout' - too specific and may not fit all contexts of the other words, 'habitat' -",
+        "'fishery' is not typically considered a topic word in the context of the other words provided, 'aquaculture' might be too specific and rare in some contexts, 'trout' is a specific type of fish and may not be a"
+      ]
+    }
+  },
+  "20": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'copper', 'zinc', 'soil' ].\n\n\n\nHowever, considering the context of the topic model's output, 'copper' and 'zinc' are actually related to the theme of metal contamination, as they are both heavy",
+        "'soil', 'sewage' ].\n\n\nHowever, upon further review, 'soil' can be related to 'contamination' and 'pollution' in the context of environmental topics, and 'sewage' can be associated",
+        "'copper', 'zinc', 'metalloid' ] \n\nThese three words can be grouped together as a list of metals or metalloids, but the remaining seven words all relate to pollution or contamination of the environment.",
+        "'metalloid' ].\n\n\nThe word 'metalloid' refers to a type of chemical element, which is somewhat related but doesn't fit as well as the others, which are more focused on pollution and contamination. \n\nHowever, one could",
+        "'metalloid' ].\n\n\n\nHowever, considering the given context, 'metalloid' is actually related to the theme, referring to elements like arsenic that exhibit some properties of metals. In that case, the semantically inconsistent word would be"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'cadmium'",
+            "'metalloid'"
+          ],
+          [
+            "'copper'",
+            "'zinc'"
+          ],
+          [
+            "'wastewater'",
+            "'sewage'"
+          ],
+          [
+            "'contamination'",
+            "'pollution'"
+          ]
+        ]
+      },
+      "raw": "('cadmium', 'metalloid'), ('copper', 'zinc'), ('wastewater', 'sewage'), ('contamination', 'pollution') ].\n\n\nHowever, upon reevaluation for exact concept or idea matches, the"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'metalloid'"
+      },
+      "raw": [
+        "'metalloid' ]. \n\nReason: 'metalloid' is a rare or unclear term in this context. While 'metalloid' is a valid word in English referring to a type of chemical element, in the context of environmental science",
+        "'metalloid' ]\n\nReason: 'metalloid' is a less common word and may be considered unclear in this context. However, 'metalloid' itself is a valid word in English referring to a chemical element with properties intermediate between",
+        "'metalloid' ]. \n\nReason: The word 'metalloid' is extremely rare and unclear. It seems to be related to the term 'metalloid' which refers to a group of elements, but in the context of the given",
+        "'metalloid' ]. \n\nReason: 'metalloid' is a rare or unclear term in this context. The correct term should likely be 'metal' or 'metallic', referring to elements like cadmium, copper, or zinc,",
+        "'metalloid' ]. \n\nReason: 'metalloid' is an extremely rare or unclear term in this context. Typically, the term 'metal' or 'heavy metal' would be used in discussions about pollution and contamination. 'Metallo"
+      ]
+    }
+  },
+  "21": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'chisel', 'harrow'  ].\n\n\n\nHowever, upon closer examination, 'chisel' and 'harrow' do indeed belong to the same conceptual theme as the other words. They are both farm tools used in tillage.",
+        "'maize' ].\n\n\nThese words can be put into a comma-separated list as: maize",
+        "'chisel', 'harrow' ].\n\n\nHowever, since the question asks for a single list of words that do not belong, it should be noted that while 'chisel' and 'harrow' are both farm tools like 'plow",
+        "'maize', 'crop' ].\n\n\nThese words, although related to agriculture, do not specifically fit within the conceptual theme of tillage or soil preparation like the other words. The other words all relate to methods, tools, or processes involved in",
+        "'chisel', 'maize', 'harrow' ].\n\n\nHowever, after reevaluating the list, I realized that 'harrow' actually belongs to the same conceptual theme as the other words, which is related to farming or agriculture."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'tillage'",
+            "'tillering'"
+          ],
+          [
+            "'tiller'",
+            "'plow'"
+          ],
+          [
+            "'harrow'",
+            "'chisel'"
+          ]
+        ]
+      },
+      "raw": "('tillage', 'tillering'), ('tiller', 'plow'), ('harrow', 'chisel')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'tillering'"
+      },
+      "raw": [
+        "'tillering' ]. \n\nReason: 'tillering' seems to be a rare or incorrect term in this context. The more common terms related to the provided list would be 'tillage' or 'tiller', which are directly associated",
+        "'tillering' ]\n\nReason: The word 'tillering' seems to be a typo or a non-standard term. The correct term related to the context provided would likely be 'tilling' or simply 'till', which relates to",
+        "'tillering' ]. \nReason: 'tillering' is likely a typo or a rare/obscure term, and a more common word in this context would be 'tilling'. \n\nHowever, upon further review, 't",
+        "'tillering' ]\n\nReason: 'tillering' seems to be a typo or a non-standard term. The correct term is likely 'tilling'. \n\nHowever, please note that 'tillering' might be a rare or specialized",
+        "'tillering' ]\n\nReason: 'tillering' seems to be a rare or unclear term in the context of the given list which primarily deals with agricultural tools and practices. It might be a typo or a less common word. The more"
+      ]
+    }
+  },
+  "22": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 4,
+        "words": "'perennial' 'wheatgrass' 'pasture' 'cultivar'"
+      },
+      "raw": [
+        "'perennial', 'wheatgrass', 'pasture', 'cultivar' ]\n\nThese words do not fit with the theme of specific types of grass, whereas the other words are all names of specific types of grass. \n\nThe corrected list in",
+        "'perennial', 'wheatgrass', 'pasture', 'cultivar' ].\n\n\nThey can be put into a comma-separated list as: perennial, wheatgrass, pasture, cultivar.",
+        "'perennial', 'wheatgrass', 'pasture', 'cultivar' ].\n\n\nThese words can be put into a comma-separated list as follows:\nperennial, wheatgrass, pasture, cultivar",
+        "'perennial', 'wheatgrass', 'pasture', 'cultivar' ]\n\nThese words do not belong to the same conceptual theme of types of grass as the other words. 'Perennial' is an adjective describing a type of plant,",
+        "'perennial', 'wheatgrass', 'pasture', 'cultivar', 'bromegrass' ].\n\n\nThese words don't quite fit with the theme of types of grass. 'Perennial' is a category that some of these"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'bermudagrass'",
+            "'turfgrass'"
+          ],
+          [
+            "'perennial'",
+            "'ryegrass'"
+          ],
+          [
+            "'wheatgrass'",
+            "'bromegrass'"
+          ],
+          [
+            "'switchgrass'",
+            "'bentgrass'"
+          ]
+        ]
+      },
+      "raw": "('bermudagrass', 'turfgrass'), ('perennial', 'ryegrass'), ('wheatgrass', 'bromegrass'), ('switchgrass', 'bentgrass') ]\n\nHowever, upon closer inspection of the words"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'perennial' is a valid word, but seems out of place in the list of mostly grass types, 'wheatgrass' and 'switchgrass' and the rest are valid types of grass ].\n\n\nAll words are valid.",
+        "'turfgrass', 'bermudagrass', 'perennial', 'wheatgrass', 'switchgrass', 'bromegrass' ] are mostly valid, however 'perennial' seems out of context because the other words seem",
+        "'perennial' ]. \n\nReason: 'Perennial' seems out of context as the rest of the words are specific types of grass, while 'perennial' is more of a general term describing plants that live more than two years. However,",
+        "'ryegrass', 'bromegrass' ]. \n\nReasons:\n- 'ryegrass' might be a rare or less common term, but it's still a valid word referring to a type of grass. However, it could be",
+        "'wheatgrass', 'bromegrass' ]\n\nReasons: \n1. 'wheatgrass' might be a typo or confusion with 'wheat grass' or more commonly known 'wheatgrass' as a type of grass is"
+      ]
+    }
+  },
+  "23": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "2",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'variability' 'land'"
+      },
+      "raw": [
+        "'variability', 'land', 'surface' ].\n\n\nThese words, although related to the broader context, do not specifically fit within the narrower theme of soil composition and layers that the other words convey.",
+        "'variability', 'land' ].\n\n\nHowever, since the instruction was to put the words into a comma-separated list, the answer should be: \nvariability, land",
+        "'variability', 'land', 'surface' ].\n\n\nThese words do not fit as neatly into the theme of soil composition and classification as the other words do. \n\nHere is the list in a comma-separated format: variability, land, surface",
+        "'land', 'variability' ].\n\n\nHere is a comma-separated list: land, variability",
+        "'variability', 'land', 'surface' ].\n\n\n\nHowever, upon re-examining the list, it's more accurate to say that 'variability' and 'land' are the words that least fit the theme, as they are more"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'soil'",
+            "'topsoil'"
+          ],
+          [
+            "'surface'",
+            "'land'"
+          ]
+        ]
+      },
+      "raw": "('soil', 'topsoil'), ('surface', 'land') ].\n\n\nHowever, upon closer inspection of the provided words, a more accurate answer would be:\n\n\nNone of the word pairs provided refer to concepts or ideas that are exactly the same"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'soc'"
+      },
+      "raw": [
+        "'soc' ]. \n\nReason: 'soc' is an extremely rare or unclear abbreviation in this context. It could be a typo or abbreviation for \"soil organic carbon\", but without further context, it is unclear. The rest of the words are",
+        "'soc' ]\n\nReason: 'soc' is an extremely rare or unclear abbreviation in the context of the topic words provided, which mostly relate to soil science or geology. It could be a typo or an unclear abbreviation, possibly meant to be '",
+        "'soc' ]. \n\nThe reason is that 'soc' appears to be an unclear abbreviation. In the context of the other words, which are related to soil and land, 'soc' could potentially be a typo or an abbreviation for something like \"",
+        "'soc' ]. \n\nThe reason for this identification is that 'soc' appears to be an abbreviation, but it is unclear without additional context. In the context of soil science, it could potentially stand for \"soil organic carbon,\" but without further",
+        "'soc' ]. \n\nThe reason for this identification is that 'soc' appears to be an abbreviation, but without context, it is unclear what it stands for in the given list of topics related to soil and land. It could potentially be a typo"
+      ]
+    }
+  },
+  "24": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'yield' 'irrigation' 'fertilizer'"
+      },
+      "raw": [
+        "'yield', 'irrigation', 'fertilizer', 'hydroponic' ].\n\n\nHowever, given that all of these words can be related to plant cultivation, a more nuanced analysis is required to determine the odd ones out.\n\n\nUpon closer",
+        "'yield', 'irrigation' ]\n\nThese words, while related to the broader domain of agriculture or gardening, do not specifically belong to the same conceptual theme as the other words, which are more closely related to types of plants, nutrients, or",
+        "'yield', 'irrigation', 'nutrient', 'fertilizer', 'hydroponic' ] no, these words are related to the others in an agricultural or gardening context. \n\nHowever 'pepper' is related to the others",
+        "'yield', 'irrigation', 'fertilizer' ].\n\n\nThese words, although related to agriculture or gardening, do not specifically belong to the theme of types of plants or vegetables that the majority of the words seem to represent. However,",
+        "'yield', 'irrigation', 'fertilizer', 'hydroponic', 'nutrient' ] but more specifically 'yield' and 'irrigation' are the most out of place. \n\nHowever, it is worth noting that"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'capsicum'",
+            "'pepper'"
+          ]
+        ]
+      },
+      "raw": "('capsicum', 'pepper') ]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'hydroponic'"
+      },
+      "raw": [
+        "'hydroponic' ] with reason: extremely rare or unclear. However, upon closer inspection, 'hydroponic' is actually a valid word related to a method of growing plants. \n\nGiven the context of the other words, all of which",
+        "'hydroponic' ]. \n Brief reason: It is a rare term and may be a typo or variation of the more commonly used term 'hydroponics'. \n\nHowever, it's worth noting that 'hydroponic' is still a valid",
+        "'hydroponic' ]\n\nReasons:\n- 'hydroponic' should be 'hydroponics'. However, 'hydroponic' is still a valid word in some contexts. Upon closer examination of the entire list and given the context of",
+        "'hydroponic' is a valid word but is less common; however, it's not necessarily \"malformed\" or an \"extremely rare\" word in English, though contextually it might be less expected than the other terms which seem more",
+        "'hydroponic' ]. \n\nReason: 'hydroponic' might be considered a rare or specialized term, but it is not inherently invalid as it refers to a method of growing plants. However, upon closer inspection, the list does not contain"
+      ]
+    }
+  },
+  "25": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'irrigation' 'nutrient'"
+      },
+      "raw": [
+        "'irrigation', 'nutrient', 'yield', 'application' ].\n\n\nHere is the list of words that do not belong to the same conceptual theme in a comma-separated list: irrigation, nutrient, yield, application",
+        "'irrigation', 'nutrient', 'yield', 'application' ]\n\nThese words can be related to the overall theme of agriculture, but they are not as directly related to the concept of fertilizer as the other words. 'Irrigation'",
+        "'nutrient', 'irrigation' ].\n\n\nHowever, upon closer inspection, 'nutrient' is very similar to 'nutrient' and 'fertilizer', and 'irrigation' can be related to 'fertigation'",
+        "'nutrient', 'irrigation', 'soil' ].\n\n\nThese words, although related to the broader context of agriculture, do not specifically belong to the conceptual theme of 'fertilizer' and its related terms, which is the core",
+        "'nutrient', 'irrigation', 'soil', 'application', 'yield' ].\n\n\nThese words can be related to the general theme of agriculture, but they don't specifically belong to the conceptual theme of \"fertilizer\" or"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'fertilizer'",
+            "'fertiliser'"
+          ]
+        ]
+      },
+      "raw": "('fertilizer', 'fertiliser') ]. \n\nThese two words are different spellings of the same concept, with 'fertiliser' being the British English spelling and 'fertilizer' being the American English spelling. \n\nThe other"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'nutrient'"
+      },
+      "raw": [
+        "'nutrient' ]\n\nReason: 'nutrient' appears to be a typo or a malformed version of the word 'nutrient' is actually a valid word but in this context, it's likely a typo for 'nutrient' is not as",
+        "'nutrient', 'fertigation', 'fertigation' is not necessarily invalid but is less common, 'fertiliser' is a valid British English spelling, but may be less common in American English contexts ].\n\n\nHowever, considering standard",
+        "'fertigation', 'nutrient', 'fertiliser' ]. \n\nReasons:\n- 'fertigation' is an extremely rare or unclear term, although it seems to be related to fertilization and irrigation, it is not a widely",
+        "'nutrient', 'fertigation', 'fertigation' is not necessarily invalid, but less common, 'fertiliser' may be a valid British English spelling ].\n\n\n* 'nutrient' is likely a typo and should be '",
+        "'nutrient' ] with brief reason: likely typo, should be \"nutrient\" -> \"nutrient\" is a valid word, however it is less common and might be confused with the more common term \"nutrient\" is actually correct but"
+      ]
+    }
+  },
+  "26": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "1",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'irrigation' 'fertilizer' 'planting'"
+      },
+      "raw": [
+        "'irrigation', 'fertilizer', 'planting', 'crop', 'kufri' ].\n\nThese words, although related to agriculture, do not specifically belong to the same conceptual theme of potatoes as the other words in the list",
+        "'irrigation', 'fertilizer', 'planting' ]\n\nThese words relate to general farming practices and are not specific to the theme of potatoes, which the other words are related to. \n\nSo the answer in a comma-separated list is",
+        "'fertilizer', 'irrigation', 'planting', 'kufri' ].\n\n\nThese words are related to general farming or agriculture, but are not as specifically related to potatoes as the other words. 'Kufri' is",
+        "'irrigation', 'fertilizer', 'planting', 'crop', 'kufri' ].\n\n\nHowever, after closer inspection, you can see that 'irrigation', 'fertilizer', 'planting', and '",
+        "'irrigation', 'fertilizer', 'planting' ].\n\n\nThese words do not belong to the same conceptual theme as the others because they relate to farming practices, whereas the other words are primarily related to the characteristics or types of potatoes"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'kufri'",
+            "'cultivar'"
+          ],
+          [
+            "'tuber'",
+            "'potato'"
+          ],
+          [
+            "'russet'",
+            "'potato'"
+          ]
+        ]
+      },
+      "raw": "('kufri', 'cultivar'), ('tuber', 'potato'), ('russet', 'potato') ] \n\nThese pairs represent words that are exactly the same in terms of the concepts or ideas they refer to. \n\n- '"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'kufri'"
+      },
+      "raw": [
+        "'kufri' ]. \n\nThe reason is that 'kufri' appears to be a rare or unclear term in the context of the given topic words, which are all related to potatoes or farming. 'Kufri' is actually a",
+        "'kufri' ]. \n\nReason: 'kufri' is an extremely rare or unclear term in the context of potato-related topics. It could be a typo or an abbreviation that is not widely recognized. After researching, 'Kufri",
+        "'kufri' ]. \n\nReason: 'kufri' is an extremely rare or unclear term in the context of the other words provided. Although 'Kufri' can be a proper noun or a less common word (e.g.,",
+        "'kufri' ]. \n\nReason: 'kufri' seems to be an extremely rare or unclear term in the context of the provided topic words which are primarily related to potatoes or farming. 'Kufri' could be a typo or",
+        "'kufri' ]. \n\nReason: 'kufri' is an extremely rare or unclear term in the context of the other topic words, which appear to be related to potatoes or farming. It is possible that 'kufri' is"
+      ]
+    }
+  },
+  "27": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 4,
+        "words": "'sir' 'snake' 'zero' 'program'"
+      },
+      "raw": [
+        "'sir', 'snake', 'zero', 'program' ].\n\nThese words can be identified as not belonging to the same conceptual theme as the others, which appears to be related to hydrology or environmental science, by analyzing their meanings:\n\n-",
+        "'sir', 'snake', 'zero', 'program' ].\n\nThese words do not fit with the dominant theme of water, hydrology, and environmental concepts present in the other words. \n\nThe final answer is: sir, snake, zero",
+        "'sir', 'snake', 'zero', 'program' ].\n\n\nThese words can be put into a comma-separated list as: sir, snake, zero, program",
+        "'sir', 'zero', 'program', 'soil', 'snake' ].\n\nThese words do not fit with the theme of hydrology and groundwater management that is present in the other words. \n\nHere is the list in a comma-separated",
+        "'sir', 'zero', 'program', 'soil', 'snake' ] \n\nThese words do not belong to the same conceptual theme as the others which is related to hydrology and groundwater."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "None]. \n\nThere are no pairs of words in the topic word set that refer to concepts or ideas that are exactly the same. All the words are distinct and refer to different concepts."
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'sir'"
+      },
+      "raw": [
+        "'sir' ]. \n\nReason: 'sir' could be a typo or an unclear abbreviation, as it is a title of respect and does not seem directly related to the other words which appear to be environmental or technical terms.",
+        "'sir' ]\n\nReasons: \n- 'sir' is extremely rare and unclear in the context of the other words which seem to be related to environmental or geographical topics. It could be a typo or an unclear abbreviation.\n\nAll other words",
+        "'sir' ]. \n\nReason: 'sir' is an extremely rare term in this context, as the rest of the words seem to relate to environmental or geographical topics, while 'sir' is a title of respect, suggesting it may",
+        "'sir' ]. \n\nReason: 'sir' could be considered as a title or honorific and is unclear in the context of the other topic words which seem to be related to environmental or geographical terms. It may be a typo or an",
+        "'sir' ]\n\nReason: 'sir' is an extremely rare or unclear abbreviation in this context. It could be a typo or a word that is not relevant to the topic list, which appears to be related to environmental or geographical terms."
+      ]
+    }
+  },
+  "28": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "irrigation climate"
+      },
+      "raw": [
+        "irrigation, climate  ].\n\n\nSo the answer in the requested format is: irrigation, climate",
+        "'irrigation', 'climate' ].\n\n\nHowever, the instruction was to put them in a comma-separated list, so the answer is: irrigation, climate",
+        "irrigation, climate ]\n\nThese two words, while related to vineyards and winemaking, don't directly refer to the plants, fruits, or products themselves, but rather to the external conditions or practices involved in their cultivation. \n\nHowever, a more",
+        "irrigation, climate  ].\n\n\nHowever, to better follow the requested format, here is the revised list in a comma-separated format as requested: irrigation, climate",
+        "irrigation, climate  ].\n\n\nSo the answer is: irrigation, climate"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'vine'",
+            "'vineyard'"
+          ]
+        ]
+      },
+      "raw": "('vine', 'vineyard')] \n\nThe words 'vine' and 'vineyard' do not actually refer to the exact same concept, 'vine' refers to the plant itself, while 'vineyard' refers to the land where the vines are"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'cluster'"
+      },
+      "raw": [
+        "'cultivar' is a rare or specialized term but still valid; however, no obviously malformed or extremely rare words are present ]. \nGiven the context of wine production, all the words seem relevant and correctly spelled. Therefore, the answer is:",
+        "'cultivar', 'cluster' ]\n\nReasons:\n1. 'cultivar' - Although not entirely invalid, it's a specialized term and might be considered rare in general conversation. However, in the context of viticulture (the cultivation of grapes",
+        "'cultivar', 'cluster' ]. \n\n- 'cultivar' might be considered rare or unclear for general audiences, although it is a valid term in the context of viticulture or horticulture.\n- 'cluster' could be seen as too",
+        "'cultivar', 'cluster' ]. \n\nReason: \n- 'cultivar' is a specialized term, although not necessarily invalid, it could be unclear without context.\n- 'cluster' can be considered unclear as it has multiple meanings and without context",
+        "'cluster' ]. \n\nReason: The term 'cluster' can be ambiguous or unclear without context, as it has multiple meanings in different fields. However, given the context of the other words provided, which are largely related to grapes, wine, and"
+      ]
+    }
+  },
+  "29": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'measurement' 'irrigation'"
+      },
+      "raw": [
+        "'measurement', 'irrigation', 'substrate'  ].\n\n\nHowever, I'll provide a detailed explanation for the choice.\n\n\nUpon closer inspection, 'measurement' can be related to the context of soil moisture, 'irrigation' is",
+        "'measurement', 'irrigation', 'substrate' ] \n\nHowever, I must admit that this is a subjective task and different people may have different opinions. But after careful consideration, here is my reasoning:\n\n* 'measurement' seems out of",
+        "'irrigation', 'measurement' ] \n\nHowever, since the request is for a comma-separated list, here is the revised answer:\nirrigation, measurement",
+        "'irrigation', 'measurement', 'field', 'zone', 'surface', 'substrate' ] but more precisely: \n'irrigation', 'measurement' are the words that do not semantically belong to the same conceptual theme as",
+        "'measurement', 'field', 'surface', 'zone' ] \n\nHowever, looking at the topic set again for consistency, 'field' and 'zone' and 'surface' can be considered as part of the conceptual theme of 'soil'"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'soil'",
+            "'substrate'"
+          ],
+          [
+            "'irrigation'",
+            "'watering'"
+          ],
+          [
+            "'field'",
+            "'zone'"
+          ],
+          [
+            "'surface'",
+            "'zone'"
+          ]
+        ]
+      },
+      "raw": "('soil', 'substrate'), ('irrigation', 'watering'),  ('field', 'zone'), ('surface', 'zone') ] \n\nHowever, 'irrigation' and 'watering' aren't in the original list"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'substrate'"
+      },
+      "raw": [
+        "'substrate' ] \nReason: 'substrate' is likely a typo and should be 'substrate' -> 'substrate' is not a word in English, the correct term would be 'substratum' or more commonly in the context",
+        "'substrate' ]. \n\nThe reason is: 'substrate' is likely a typo and should be 'substrate' -> 'substrate' is not a standard term but 'substrate' is close to 'substratum' or more likely",
+        "'substrate' ]. \n\nThe reason for this identification is that 'substrate' is likely a typo or a rare term, and a more common term in the context of the given topic words would be 'substrate' -> 'substrate'",
+        "'substrate' ]\n\nReason: 'substrate' is likely a typo, and the correct term is probably 'substrate' is not a word in English language, it is likely a typo and the correct term is probably 'substrate' is",
+        "'substrate' ]\n\nReason: 'substrate' seems to be a typo or a less common term. The more commonly used term in the context of soil or irrigation is 'substrate' is likely a typo and 'substrate' may be"
+      ]
+    }
+  },
+  "30": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'crop' 'organic' 'soil'"
+      },
+      "raw": [
+        "'crop', 'organic', 'soil', 'increase' ].\n\n\nThese words do not belong to the same conceptual theme as the others, which appears to be focused on greenhouse gas emissions and their environmental impact. While 'soil' and '",
+        "'soil', 'crop', 'organic' ].\n\n\nThese words can be related to the environment, but they don't directly relate to greenhouse gas emissions. 'Soil' and 'crop' and 'organic' might relate to broader environmental concepts",
+        "'increase', 'footprint', 'crop' ].\n\n\nHowever, it could be argued that 'footprint' is related to the theme through the concept of 'carbon footprint'. If we consider 'footprint' as part of the theme, then",
+        "'soil', 'crop', 'organic' ].\n\n\nThese words are not directly related to the theme of greenhouse gas emissions, while the other words in the list are all closely related to this topic.\n\n\nHere is the list in a comma-separated format",
+        "'soil', 'crop', 'organic' ].\n\nThese words, while related to environmental concepts, do not fit the specific theme of greenhouse gas emissions that the other words are centered around. 'Soil' can be related to various environmental topics"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'co₂'",
+            "'ghg'"
+          ],
+          [
+            "'n₂o'",
+            "'ghg'"
+          ]
+        ]
+      },
+      "raw": "('co₂', 'ghg'), ('n₂o', 'ghg') ]\n\nThese pairs refer to concepts or ideas that are exactly the same, as 'co₂' and 'n₂o' are both types of greenhouse gases ('gh"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'n₂o'"
+      },
+      "raw": [
+        "'n₂o' ]\n\nReason: 'n₂o' is an unclear abbreviation. It likely represents 'N2O', which stands for nitrous oxide, a greenhouse gas. However, the subscript '₂' is not a standard character in",
+        "'n₂o' ]\n\nReason: 'n₂o' appears to be a chemical formula (nitrous oxide) but is represented in a non-standard way for text analysis. Typically, it would be written as 'n2o' without the",
+        "'n₂o' ]. \n\nThe reason for this is that 'n₂o' appears to be a typo or incorrect formatting of a chemical formula. The correct representation would be 'N2O', which stands for nitrous oxide, a greenhouse",
+        "'n₂o' ]. \n\nReason: 'n₂o' appears to be a chemical formula (nitrous oxide) but is represented using a subscript character, which might not be supported or recognized in all systems or contexts. It would be more",
+        "'n₂o' ]. \n\nReason: 'n₂o' is a chemical formula (nitrous oxide) and is not typically written in this format in plain text, it's more commonly written as 'N2O'. While it's not"
+      ]
+    }
+  },
+  "31": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "2",
+        "1",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'wastewater'"
+      },
+      "raw": [
+        "'wastewater' ].\n\n\nHowever, a closer look reveals that 'wastewater' can be related to 'irrigation'. \nA more thorough analysis shows that 'wastewater' is indeed related to 'irrigation', but",
+        "'wastewater' ].\n\n\nHowever, upon closer inspection, 'wastewater' can be related to 'irrigation'. Therefore, I re-examined the list.\n\n\nUpon re-examination, I found that 'wastewater'",
+        "'wastewater' ].\n\n\n\nSo, the answer is: wastewater",
+        "'wastewater' ].\n\n\nSo the answer is: wastewater",
+        "'wastewater' ].\n\n\nSo the final list is: wastewater"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'irrigate'",
+            "'irrigation'"
+          ]
+        ]
+      },
+      "raw": "('irrigate', 'irrigation')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'barnea'"
+      },
+      "raw": [
+        "'barnea' ]. \n\nReason: 'barnea' seems to be a rare or unclear term in this context. It could be a typo or an extremely rare abbreviation. After conducting research, it appears that 'Barnea' might be a proper",
+        "'europaea', 'barnea' ]. \n\nReasons:\n1. 'europaea' is a rare or unclear abbreviation. It could be referring to the species name \"Olea europaea\", which is the scientific name for the olive",
+        "'barnea' ]. \n\nReason: 'barnea' seems to be a rare or unclear term in the context of the provided topic words, which are predominantly related to olives, oil, and irrigation. It's possible that 'barnea'",
+        "'barnea' ] with the reason: it appears to be a rare or unclear term, potentially a typo or a proper noun that is not widely recognized in the context of the other words, which are primarily related to olive cultivation and irrigation. Without",
+        "'europaea', 'barnea' ]. \n\nReasons: \n1. 'europaea' seems to be a scientific name (Olea europaea, the species of olive tree), but without context, it's unclear if it refers"
+      ]
+    }
+  },
+  "32": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'feed'"
+      },
+      "raw": [
+        "'feed' ].\n\n\nThese words do not fit with the rest of the words which are mostly related to livestock farming, with a focus on cattle and sheep. 'Feed' is a related concept, but it's not as directly related to the livestock",
+        "'feed' ].\n\n\nHowever, if we look closer at the context, it seems like 'feed' can actually fit within the theme of livestock farming, as it relates to the food given to the animals.\n\n\nA more careful examination reveals that there are",
+        "'feed' ].\n\n\nSo the final list in a comma-separated format is: feed",
+        "'feed' ].\n\n\n\nHowever, since you asked for a comma-separated list of words that do not belong to the theme and there is only one word, I will provide it in the requested format: feed",
+        "'feed' ].\n\n\nHowever, upon closer inspection of the provided list, 'feed' can be considered as belonging to the same conceptual theme, since it is related to the diet or nutrition of the livestock. \n\nA more careful analysis would reveal that"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'cattle'",
+            "'livestock'"
+          ],
+          [
+            "'sheep'",
+            "'livestock'"
+          ]
+        ]
+      },
+      "raw": "('cattle', 'livestock'), ('sheep', 'livestock') ]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "None"
+      },
+      "raw": [
+        "None ]. \n\nAll words are valid.",
+        "None ]. \n\nAll words are valid.",
+        "None ]. \n\nAll words are valid.",
+        "None ]. \n\nAll words are valid.",
+        "'feed' is somewhat contextually ambiguous but not necessarily invalid, however upon review, all words appear to be valid in the context of the topic. ]\n\nAll words are valid."
+      ]
+    }
+  },
+  "33": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'irrigation' 'polyethylene'"
+      },
+      "raw": [
+        "'irrigation', 'polyethylene' ].\n\n\nHowever, upon re-examining the list, it seems more accurate to consider 'polyethylene' as the primary outlier due to its strong association with non-biodegradable plastics, which contrasts with",
+        "'irrigation', 'maize', 'cotton', 'polyethylene' ]\n\nThese words do not belong to the same conceptual theme as the others, which appears to be related to mulching and biodegradable materials. \n\nHere is the",
+        "'irrigation', 'cotton', 'polyethylene' ] \n\nThese words are related to broader agricultural concepts but are not directly related to the central theme of mulching.\n\nHowever, upon closer inspection, 'irrigation' and 'c",
+        "'irrigation', 'polyethylene' ].\n\n\nHowever, a stronger case can be made for 'polyethylene' since it is not biodegradable and the rest of the words are more closely related to organic or natural mulching materials and practices",
+        "'irrigation', 'polyethylene' ].\n\nHowever, the word 'polyethylene' can be related to mulching as it is a material used in some types of mulch. On the other hand, 'irrigation' is related"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'mulch'",
+            "'mulching'"
+          ],
+          [
+            "'mulch'",
+            "'mulched'"
+          ]
+        ]
+      },
+      "raw": "('mulch', 'mulching'), ('mulch', 'mulched') ].\n\n\nThese pairs refer to the same concept or idea, which is the act or result of mulching. 'Mulching' is the present participle (gerund"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'polyethylene'"
+      },
+      "raw": [
+        "'polyethylene' ]. \nReasons:\n- 'polyethylene' seems out of context given the primarily agricultural and environmental theme of other words, which might imply it's not as relevant or could be a typo for a more contextually appropriate word like",
+        "'polyethylene' ] \n\nReason: The term 'polyethylene' seems out of context in the given list of topic words, which primarily relates to gardening, farming, or agricultural practices. Polyethylene is a type of plastic and is not directly related",
+        "'polyethylene' ]. This is not a typical topic word in the context of mulching or farming and seems out of place among more directly related terms like 'mulch', 'mulching', 'straw', and 'biodegradable'. However",
+        "'polyethylene' ].\n\nReason: While 'polyethylene' itself is a valid word, in the context of mulching and the other provided topic words, it seems out of place as it refers to a type of plastic, which is not bi",
+        "'polyethylene' ]. \n\nReason: 'polyethylene' seems out of context in the given list of words primarily related to mulching, farming, or crops. Polyethylene is a type of plastic, and while it might be used in certain agricultural"
+      ]
+    }
+  },
+  "34": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'agricultural' 'irrigation' 'resource'"
+      },
+      "raw": [
+        "'agricultural', 'irrigation', 'resource' ].\n\n\nHowever, to strictly follow your instruction, here is the answer in a comma-separated list: agricultural, irrigation, resource.",
+        "'resource', 'climate', 'agricultural' ]\n\nThese words are not as directly related to the core concept of deserts and desertification as the other words. \n\nHere is the list in a comma-separated format: resource, climate, agricultural",
+        "'resource', 'agricultural', 'irrigation', 'vegetation', 'climate', 'landscape' ] no, that can't be right. \nThe word 'resource' can be associated with arid regions. \nThe word '",
+        "'agricultural', 'irrigation', 'vegetation', 'landscape' ].\n\n\nThese words, while related, do not fit with the more specific theme of deserts and desertification that the other words convey.",
+        "'agricultural', 'irrigation', 'resource' ].\n\n\nHowever, looking closer at the list, 'agricultural' can be associated with desertification in the context of land degradation, and 'irrigation' can be related"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "None]. \n\nNote: Upon examining the given topic word set, there are no pairs of words that refer to concepts or ideas that are exactly the same. Each word in the set, although related to the broader topic of deserts or desertification,"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'desertification'"
+      },
+      "raw": [
+        "'desertification' ]\n\nReason: Although \"desertification\" is a real word, it is relatively rare and less commonly used in everyday language. However, it's not necessarily \"invalid\" in the strictest sense, as it refers to",
+        "'desertification' ]. \n\nReason: Although 'desertification' is a valid word in certain contexts (it refers to the process of a region becoming a desert), in the context of the provided list which seems to focus on geographical and environmental",
+        "'desertification' ]\n\nReason: Although 'desertification' is a valid word, it's a less common term compared to 'desertification' being more commonly referred to as 'desertification' of land or 'land degradation'.",
+        "'desertification' ]\n\nReason: 'desertification' is not a word in English language. The correct term is likely 'desertification', however, 'desertification' is a word, but it's quite rare and might not",
+        "'desertification' ]\n\nReasons: \n- 'desertification' is a rare or less common term, although it is technically valid in the context of environmental or geographical discussions. However, compared to the other words on the list, it"
+      ]
+    }
+  },
+  "35": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'genotype' 'specie' 'breeding'"
+      },
+      "raw": [
+        "'genotype', 'specie' ].\n\n\nHowever, upon closer inspection, all the words are actually related to the theme of plant breeding and genetics. 'Genotype' refers to the genetic makeup of an organism, and 'specie' is",
+        "'genotype', 'breeding', 'specie' ].\n\n\n\nHowever, a more accurate analysis of the provided words reveals that they all relate to the domain of plant biology and agriculture. Each word, including 'genotype', 'breeding',",
+        "'genotype', 'breeding', 'specie' ].\n\nThese words seem to belong to the domain of genetics or biology in general, whereas the other words are more closely related to agriculture, plants, and environmental conditions.\n\nHowever, it can",
+        "'genotype', 'breeding', 'specie' ].\n\n\nHowever, upon re-examining the list in light of the context of the other words, 'genotype' can be related to 'trait', 'cultivar', and '",
+        "'genotype', 'breeding', 'specie' ].\n\n\nHowever, upon closer inspection, it appears that 'genotype', 'breeding', and 'specie' can actually be related to the theme of plants and their characteristics.\n\nThe"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'cultivar'",
+            "'specie'"
+          ],
+          [
+            "'genotype'",
+            "'trait'"
+          ]
+        ]
+      },
+      "raw": "('cultivar', 'specie'), ('genotype', 'trait') ]\n\nThese word pairs are considered synonyms or refer to the same concept, as:\n\n- 'cultivar' and 'specie' both refer to a specific type or variety of"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'specie'"
+      },
+      "raw": [
+        "'specie' ]. \n\nReason: 'specie' appears to be a typo, as the correct spelling is 'species'.",
+        "'specie' ] with the reason: It seems to be a typo, the correct word is 'species'. \n\nAll other words are valid.",
+        "'specie' ]. \n\nThe word 'specie' is likely a typo and should be spelled as 'species'. \n\nAll other words appear to be valid English words related to the context of agriculture, genetics, and plant biology.",
+        "'specie' ]\n\nReason: 'specie' is a misspelling of the word 'species'.",
+        "'specie' ]. \n\nReason: 'specie' seems to be a typo and should be 'species'."
+      ]
+    }
+  },
+  "36": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'adsorption' 'conductivity' 'permeability'"
+      },
+      "raw": [
+        "'adsorption', 'conductivity', 'permeability' ] \n\nHowever, after reevaluating the list, a more accurate assessment reveals that 'adsorption' can be related to groundwater and the other chemical terms. 'Conductivity'",
+        "'adsorption', 'conductivity', 'permeability' ].\n\n\nThese words can be related to the theme, but they are more general terms that can apply to many fields of study, and do not specifically point towards the theme of groundwater and",
+        "'adsorption', 'permeability', 'conductivity' ].\n\n\nThese three words, although related to the broader field of environmental science or chemistry, do not specifically relate to the geochemical theme of the other words, which are more closely associated",
+        "'conductivity', 'permeability' ] \n\nHowever, considering the context of the given words, 'conductivity' and 'permeability' could be related to the theme in certain contexts, especially in scientific or environmental studies. \n\nA",
+        "'adsorption', 'conductivity', 'permeability' ] \n\nThese three words seem out of place because the rest of the words appear to relate to chemical properties or components of water, whereas 'adsorption', 'conductivity', and '"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'hco₃'",
+            "'carbonate'"
+          ],
+          [
+            "'calcium'",
+            "'alkaline'"
+          ]
+        ]
+      },
+      "raw": "('hco₃', 'carbonate'), ('calcium', 'alkaline') ] are not exact matches, however ('hco₃', 'carbonate') are related to the same chemical concept, and  ('calcium', 'alk"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'hco₃'"
+      },
+      "raw": [
+        "'hco₃' ]. \n\nReason: 'hco₃' seems to be a chemical formula (bicarbonate) rather than a topic word. It's unclear without context whether it should be 'bicarbonate' or if it's being used as",
+        "'hco₃' ].\n\nReason: 'hco₃' appears to be a chemical formula (bicarbonate ion) rather than a word, and the subscript '₃' is not a standard character in English words. It is unclear if it",
+        "'hco₃' ].\n\nReason: 'hco₃' is a chemical formula (likely bicarbonate) and not a standard word or term. Although it is not necessarily malformed or a typo, it is unconventional in a list of topic words",
+        "'hco₃' ]. \n\nReason: 'hco₃' appears to be a chemical formula (bicarbonate ion) rather than a standard English word, which may not be suitable depending on the context of the topic words. However, in scientific",
+        "'hco₃' ]. \n\nThe reason is that 'hco₃' appears to be a chemical formula (likely bicarbonate) rather than a standard English word. While it's understandable in a scientific context, in a list of topic words,"
+      ]
+    }
+  },
+  "37": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'jaggery' ].\n\n\nHowever, considering the context of the other words provided, 'jaggery' is actually a product derived from sugarcane. Therefore, it is not entirely out of theme.\n\n\nConsidering the given list again for any",
+        "'officinarum' ]. \n\nNote that the other words in the set are closely related to sugarcane, which is a type of plant used for its juice and is cultivated in crops. \n\nOfficinarum, however, refers to",
+        "'jaggery', 'officinarum' ] \n\n\nHowever, 'officinarum' is actually another term for 'sugarcane'. Therefore, the words that do not semantically belong to the same conceptual theme as the others",
+        "'jaggery', 'irrigation', 'plant' ]\n\nThese words, while related to the broader context of sugarcane, represent either a product derived from sugarcane ('jaggery'), a general agricultural practice ('irrigation",
+        "'officinarum'  ].\n\n\nHowever, considering the context, 'officinarum' is the binomial nomenclature for sugarcane, thus belonging to the theme.\n\n\nAfter re-examining the list, it appears that"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'sugarcane'",
+            "'officinarum'"
+          ]
+        ]
+      },
+      "raw": "('sugarcane', 'officinarum'), ].\n\n\nNote: 'Sugarcane' and 'officinarum' are exactly the same concept, as Saccharum officinarum is the scientific name for sugarcane"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'officinarum'"
+      },
+      "raw": [
+        "'officinarum' ]\n\nReason: 'officinarum' is likely a typo or a rare/obscure term. The correct term might be 'Saccharum officinarum', which is the botanical name for sugarcane",
+        "'officinarum' ]. \n\nReason: 'officinarum' is a rare or obsolete word that refers to a medieval term for a storehouse for herbs and other medicinal plants, which seems out of context with the rest of the topic",
+        "'officinarum' ]. \n\nReason: 'officinarum' seems to be a rare or obsolete word. The correct term related to sugarcane might be 'Saccharum officinarum', which is the scientific name for sug",
+        "'officinarum' ] \n\nReason: 'officinarum' is likely a typo or a very rare term. The correct term is probably 'saccharum officinarum', which is the scientific name for sugarcane.",
+        "'officinarum' ]. \n\nReason: 'officinarum' is likely a typo or a rare/obscure term. The correct term related to sugarcane is 'Saccharum officinarum', which is the botanical"
+      ]
+    }
+  },
+  "38": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'sensor' 'resistance'"
+      },
+      "raw": [
+        "'infrared', 'sensor', 'resistance' ].\n\n\nThese words do not belong to the same conceptual theme of vegetation and environmental measurement as the others. \n\nA more specific answer is: infrared, sensor, resistance",
+        "'resistance', 'solar', 'sensor', 'infrared' ].\n\n\nHowever, upon closer inspection, 'infrared' and 'sensor' can be somewhat related to the theme of remote sensing and vegetation analysis, which seems to be the",
+        "'solar', 'resistance', 'sensor' ] \n\nThese words do not belong to the same conceptual theme as the other words, which primarily relate to vegetation, remote sensing, and environmental factors. 'Solar' could be related, but it",
+        "'infrared', 'sensor', 'resistance' ] \n\nThese words do not belong to the same conceptual theme as the other words in the list. \n\nHere is the list in a comma-separated format: infrared, sensor, resistance",
+        "'resistance', 'sensor' ].\n\n\nThese two words are less directly related to the theme of remote sensing and vegetation analysis that the other words convey. While 'sensor' can be tangentially related in the context of remote sensing technologies, 'res"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'ndvi'",
+            "'cwsi'"
+          ],
+          [
+            "'infrared'",
+            "'sensor'"
+          ]
+        ]
+      },
+      "raw": "('ndvi', 'cwsi'), ('infrared', 'sensor') ].\n\n\nHowever, upon closer inspection of the terms, it appears 'ndvi' (Normalized Difference Vegetation Index) and 'cwsi' (Crop Water Stress Index)"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'cwsi'"
+      },
+      "raw": [
+        "'cwsi' ]. \n\nThe word 'cwsi' appears to be an extremely rare or unclear abbreviation. It is possible that it is a typo or an abbreviation that is not widely recognized. Without further context, it is difficult to determine its validity",
+        "'cwsi' ]. \n\nReason: 'cwsi' appears to be an unclear or extremely rare abbreviation, as it does not correspond to a widely recognized term in the context of the provided topic words related to environmental or remote sensing fields. It could",
+        "'cwsi' ].\n\n\nReason: 'cwsi' appears to be an extremely rare or unclear abbreviation. It is possible that it could be a typo or a specialized term, but without further context, it is difficult to determine its validity.\n\n\nThe",
+        "'cwsi' ]. \n\nReason: 'cwsi' appears to be an unclear or extremely rare abbreviation. Without context, it is difficult to determine its meaning. It could potentially be a typo or an abbreviation that is not widely recognized. \n\nThe",
+        "'cwsi' ]. \n\nReason: 'cwsi' appears to be an unclear abbreviation. It might be a typo or an extremely rare abbreviation that is not widely recognized. It could potentially stand for \"Crop Water Stress Index,\" but without further context"
+      ]
+    }
+  },
+  "39": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'adaptation'"
+      },
+      "raw": [
+        "'adaptation' ].\n\n\nHowever, upon closer inspection, it can be argued that 'adaptation' does relate to the theme of drought and its impacts. \n\nA more careful consideration reveals that the words 'agricultural' and 'region'",
+        "'adaptation' ].\n\n\nHowever, upon closer inspection, the word 'adaptation' actually does belong to the same conceptual theme of drought, as it refers to the process of adjusting to drought conditions.\n\n\nUpon re-examining the list, the",
+        "'adaptation' ].\n\n\nHowever, a more detailed analysis of the topic words reveals that 'adaptation' actually belongs to the theme, since adaptation strategies are often discussed in the context of drought and its impacts.\n\n\nA more careful examination reveals that the",
+        "'adaptation' ].\n\n\nHowever, if we consider the broader context of the topic model, 'adaptation' could be related to strategies or measures taken in response to drought. But based on the literal meaning of the words provided, 'adaptation",
+        "'adaptation' ].\n\n\nHowever, upon closer inspection, it seems 'adaptation' could be related to the theme of drought and its impacts. A stronger outlier is not present but one might argue 'vulnerability' is more of a social"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'spi'",
+            "'drought'"
+          ],
+          [
+            "'hydrological'",
+            "'meteorological'"
+          ],
+          [
+            "'agricultural'",
+            "'adaptation'"
+          ],
+          [
+            "'region'",
+            "'severity'"
+          ],
+          [
+            "'rainfall'",
+            "'vulnerability'"
+          ]
+        ]
+      },
+      "raw": "('spi', 'drought'), ('hydrological', 'meteorological'), ('agricultural', 'adaptation'), ('region', 'severity'), ('rainfall', 'vulnerability') ] are not exactly the same concepts or ideas, so"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'spi'"
+      },
+      "raw": [
+        "'spi' ]. \n\nReason: 'spi' appears to be an extremely rare or unclear abbreviation. It could potentially stand for a relevant term like \"Standardized Precipitation Index,\" but without further context, its meaning is ambiguous. All other words",
+        "'spi' ]. \n\nReason: 'spi' is an extremely rare or unclear abbreviation in this context. It may be an abbreviation for \"Standardized Precipitation Index\", but without further context, it is unclear. All other words in the list",
+        "'spi' ]. \n\nReason: 'spi' appears to be an abbreviation and could be unclear without context. It might stand for \"Standardized Precipitation Index,\" which is a common term in the field of meteorology and hydrology, but",
+        "'spi' ]. \n\nReason: 'spi' appears to be an extremely rare or unclear abbreviation in this context. It could potentially stand for \"Standardized Precipitation Index,\" but without further context, it's unclear. The other words on the",
+        "'spi' ]. \n\nThe reason is that 'spi' is an extremely rare or unclear abbreviation. 'SPI' is commonly known as the Standardized Precipitation Index, but in the context of this list, it is written in lowercase, which"
+      ]
+    }
+  },
+  "40": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'corn'"
+      },
+      "raw": [
+        "'corn' ].\n\n\n\nSo, the answer is: corn",
+        "'corn', 'irrigation' ].\n\n\nHowever, after closer inspection, it seems 'irrigation' is actually related to 'planting', 'crop', and 'yield'. Therefore, the semantically inconsistent word is 'corn'.",
+        "'corn', 'irrigation' ].\n\n\nThese two words don't fit with the theme of soybeans and their related aspects, which is the central theme of the topic word set.",
+        "'corn' ].\n\n\nThey stand out because all the other words are directly related to soybeans, while corn is a different type of crop.\n\n\nSo, the answer is: corn",
+        "'corn' ].\n\nThese words can be put into a comma-separated list as: corn"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'soybean'",
+            "'bean'"
+          ],
+          [
+            "'glycine'",
+            "'genotype'"
+          ]
+        ]
+      },
+      "raw": "('soybean', 'bean'), ('glycine', 'genotype') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'glycine' is a valid word, but it might be considered rare or unclear without context. However, given the presence of 'soybean', it's likely referring to the scientific name for soybean (Glycine max),",
+        "None ]. \n\nAll words are valid.",
+        "'glycine' is a valid word, but it could be unclear without context, 'genotype' is valid as well but might be too specific without further explanation ].\n\n\nHowever, upon closer inspection, all the words seem to be related to",
+        "None ]. \n\nAll words are valid.",
+        "'glycine' is a valid term in biology referring to an amino acid or a genus of legumes, so it is not invalid in the context of agricultural or biological topics. However, considering the list's context seems to be focused on agricultural"
+      ]
+    }
+  },
+  "41": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'drought'"
+      },
+      "raw": [
+        "'drought' ].\n\n\nReasoning: \nThe topic words primarily relate to types of crops or grain. Drought is a condition affecting these crops rather than a type of crop itself. \n\n\nAnswer: drought",
+        "'drought' ].\n\n\nThese words do not fit the theme of crop or plant types that the other words belong to. \n\nHere's the list in a comma-separated format: drought",
+        "'drought' ].\n\n\nSo, the answer is: drought.",
+        "'drought' ]\n\nThese words do not belong to the same conceptual theme as the others, which are related to types of crops or grains. 'Drought' is a condition that can affect crops, but it is not a type of crop itself",
+        "drought  ].\n\n\nThese words do not belong to the same conceptual theme as the others, which are all related to types of crops or grains. The word 'drought' refers to a condition that can affect crops, but it is not a type"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'corn'",
+            "'maize'"
+          ]
+        ]
+      },
+      "raw": "('corn', 'maize') ] \n\nNote: 'corn' and 'maize' are often used interchangeably in different regions to refer to the same type of crop, Zea mays. The other words in the list, although related"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'cultivar'"
+      },
+      "raw": [
+        "'cultivar' ]\n\nReasons:\n- 'cultivar' is a less common term but still valid in the context of agriculture, referring to a plant variety that has been produced in cultivation. However, it might be considered less common compared to the",
+        "'cultivar' ]\n\nThe word 'cultivar' is not necessarily invalid but is less common compared to the other terms which are mostly specific types of crops or general terms directly related to crops. However, 'cultivar' refers to a cultivated variety",
+        "'cultivar' ]\n\nReason: While 'cultivar' is a valid word in the context of agriculture, referring to a cultivated variety of a plant, its usage might be less common compared to the other terms listed, which are primarily names of crops",
+        "'cultivar' ]. This word is unclear in the context as it is a general term for a plant variety and is not specific to the other topics listed. However, upon closer inspection, 'cultivar' is actually a valid term in agriculture referring",
+        "'cultivar' is a valid term in the context of agriculture, referring to a plant variety that has been deliberately bred for specific characteristics. However, upon closer inspection, all the given words appear to be valid terms within the context of agriculture or farming"
+      ]
+    }
+  },
+  "42": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'food' 'cadmium'"
+      },
+      "raw": [
+        "'food', 'cadmium' ].\n\n\nHowever, upon closer inspection, it seems like 'cadmium' actually belongs to the theme as it is also a toxic substance that can contaminate the environment. 'Food', on the other hand,",
+        "'food', 'cadmium' ].\n\nAlthough the word 'food' can be related to the theme in the context of contaminated food, it is less directly connected than the other words. 'Cadmium' is also a contaminant but is",
+        "'food', 'cadmium' ].\n\n\nHowever, upon re-examining the list, 'food' can be considered as semantically related to the theme of contamination and toxicity, as in the context of contaminated food. \n\n'Cadmium'",
+        "'food', 'cadmium' ].\n\n\n\nHowever, upon re-examining the list, it appears that 'food' could be related to the theme through the idea of contaminated food, and 'cadmium' is also related as it is another",
+        "'food', 'cadmium' ].\n\n\nHowever, upon closer inspection, 'cadmium' actually belongs to the same conceptual theme of toxic or hazardous substances as 'arsenic' and 'selenium'. 'Food', on the other hand, does"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'selenite'",
+            "'selenium'"
+          ]
+        ]
+      },
+      "raw": "('selenite', 'selenium') ].\n\n\nThese words are related to the same chemical element, with 'selenite' referring to a compound containing selenium and 'selenium' being the element itself. They can be considered as referring to"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'selenite'"
+      },
+      "raw": [
+        "'selenite' ]. The reason is that while 'selenite' is a valid chemical term referring to a compound containing selenite ions, in the context of the topic list focusing on elements and general environmental terms, it might be considered",
+        "'selenite' ]. \nReason: 'selenite' is not as commonly used as other terms like 'selenium' in the context of environmental contamination, but it's not necessarily invalid. However, upon closer inspection, all the words",
+        "'selenite' ]\n\nReasons: \n- 'selenite' might be considered rare in general language use, but it's a valid term in chemistry, referring to a compound containing selenite ions. However, in the context of",
+        "'selenite' ]. \n\nReason: Although 'selenite' is a valid word, it might be considered unclear without context, as it refers to a specific compound containing selenium. However, 'selenite' itself is a correct term",
+        "'selenite' ]. \n\nReason: Although 'selenite' is a valid term in chemistry, referring to a compound containing selenite ions, in the context of the given list focusing on environmental contaminants like 'arsenic', 'cad"
+      ]
+    }
+  },
+  "43": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'cow'"
+      },
+      "raw": [
+        "'cow' ].\n\n\nThese words can be put into a comma-separated list as: cow",
+        "'cow' ].\n\n\nThese words do not belong to the same conceptual theme as the others, which is related to farming practices, soil, and nutrients. 'Cow' is a type of animal, whereas the other words are related to the processes and",
+        "'cow' ].\n\n\nThese words do not belong to the same conceptual theme as the others, which are all related to farming practices, soil, or nutrient management. A cow is a type of livestock, which, while related to farming, is not",
+        "'cow' ].\n\n\nHowever, upon closer inspection, one could argue that 'cow' is still related to the overall theme of farming and agriculture.\n\n\nA more plausible answer would be: None, since all the words are related to farming, agriculture,",
+        "'cow' ].\n\nAlthough 'cow' can be associated with a farm, it doesn't fit with the central theme of the topic words which revolves around types of fertilizers, nutrients and farming practices. However, a stronger argument could be made for"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'manure'",
+            "'fertilizer'"
+          ],
+          [
+            "'cow'",
+            "'poultry'"
+          ]
+        ]
+      },
+      "raw": "('manure', 'fertilizer'), ('cow', 'poultry')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'feedlot'"
+      },
+      "raw": [
+        "'feedlot' ]. \nReason: 'feedlot' may be unclear to some users without context as it's a specialized term, although it's a valid word in certain domains such as agriculture. However, given the context of the other words provided",
+        "'feedlot' ]. \n\nReason: Although not entirely malformed, 'feedlot' is a less common term compared to the other words on the list which are more general. However, it's still a valid word in the context of farming and agriculture",
+        "'feedlot' ]. The reason is: 'feedlot' is a less common term but still valid in certain contexts. However, upon closer inspection, all the provided words seem to be valid terms within the context of agriculture or farming, including '",
+        "'feedlot' ]. \n\nReason: Although 'feedlot' is a valid word in the context of farming, it is less common compared to other terms and might be considered unclear to those without a strong agricultural background. However, without more context,",
+        "'feedlot' ]. The reason for this identification is that 'feedlot' is a less common term and may be unclear to some readers without context, although it is a valid word in the agricultural context. However, it's worth noting that '"
+      ]
+    }
+  },
+  "44": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'fertilizer' 'irrigation' 'container'"
+      },
+      "raw": [
+        "'fertilizer', 'irrigation', 'container' ].\n\n\nThese words do not fit with the conceptual theme of the other words which are centered around the idea of waste management and environmental impact, particularly related to landfills and leachate",
+        "'fertilizer', 'irrigation', 'container' ]\n\nThese words do not fit with the theme of waste management and environmental impact that is present in the other words. \n\nHere is the list in a comma-separated format: fertilizer, irrigation",
+        "'fertilizer', 'irrigation', 'container' ].\n\n\nThese words do not belong to the same conceptual theme of waste management and environmental impact as the other words.",
+        "'fertilizer', 'irrigation', 'container' ].\n\n\nThese words do not fit with the theme of leachate and its environmental implications, which is the central idea among the majority of the given words. \n\nHere's the list",
+        "'fertilizer', 'irrigation', 'container' ].\n\n\nThese words do not belong to the same conceptual theme as the others, which is related to waste management and environmental impact. Fertilizer and irrigation are related to agriculture, while"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'leach'",
+            "'leachate'"
+          ],
+          [
+            "'runoff'",
+            "'irrigation'"
+          ]
+        ]
+      },
+      "raw": "('leach', 'leachate'), ('runoff', 'irrigation') ] is not correct because 'runoff' and 'irrigation' do not refer to the same concept. \n\nUpon closer inspection of the provided list,"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'leachate'"
+      },
+      "raw": [
+        "'leachate' ].\nReason: 'leachate' is likely a typo and should be 'leachate' is a rare word but 'leachate' is a valid word in the context of environmental science referring to the liquid",
+        "'leachate' ] with the reason being it is likely a typo and should be 'leachate' is a correct word but 'leach' and 'leachate' have different meanings, however 'leachate' is the",
+        "'leachate' ]. \n\nReason: 'leachate' is likely a typo, and the correct spelling is 'leachate' is actually correct, however 'leach' and 'leachate' are related terms and the word",
+        "'leachate' ]. \n\nReason: 'leachate' is likely a typo and should be 'leachate' is a correct word but it seems like a less common word, however 'leach' and 'leachate'",
+        "'leachate' ]. The reason is: 'leachate' is likely a typo or a rare/obscure term. The more common term related to 'leach' in the context of the other words provided would be 'le"
+      ]
+    }
+  },
+  "45": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'lavender' 'irrigation'"
+      },
+      "raw": [
+        "'lavender', 'irrigation' ].\n\n\nHowever, since the question asked to put the words into a comma-separated list, here are the words that do not belong to the same conceptual theme: lavender, irrigation",
+        "'lavender', 'irrigation' ].\n\n\nHowever, a closer inspection reveals that even 'lavender' can be somewhat related to the theme of plants and cultivation. On the other hand, 'irrigation' is indeed related to plant",
+        "'lavender', 'irrigation' ].\n\n\nHowever, a more nuanced analysis would reveal that 'lavender' can be related to 'oil' in the context of essential oils, and 'irrigation' can be related to 'plant",
+        "'lavender', 'irrigation' ].\n\n\nHowever, upon closer inspection, 'irrigation' could be related to 'plant' and 'cultivar' and 'herbage' in an agricultural context, but 'lavender' stands",
+        "'lavender', 'irrigation' ].\n\n\nHowever, upon closer inspection, 'irrigation' can be related to 'plant', 'cultivar', and 'herbage' as they are all related to agriculture or farming. \n\n\nSo"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "None]. \n\nThere are no exact synonyms in the given list of words. Each word refers to a distinct concept or idea, although some may be related to the same general topic (e.g., plants, agriculture). Without more context or information about the"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'herbage'"
+      },
+      "raw": [
+        "'herbage' ]\n\nReasons:\n- 'herbage' is not a standard term in the context of the other words provided, which mostly relate to plant biology, chemistry, or agriculture. It could be a typo or less common term, possibly",
+        "'herbage' ]. \n\nThe reason is: 'herbage' is not a standard English word in this context. The correct term is likely 'herbage' or more commonly 'forage' or simply 'herbs'. However, without",
+        "'herbage' ]. \n\nReason: 'herbage' is not a standard English word in this context. It might be a typo or variation of 'herbage', which is already somewhat uncommon, but in the context of the other words provided",
+        "'herbage' ]. \nReason: 'herbage' is an extremely rare word and may be a typo or a rare abbreviation, however it's actually an archaic term for 'herbs' or 'plants', but its usage is very limited",
+        "'herbage' ]. \n\nReason: 'herbage' is an extremely rare or obsolete term. The more common and clear term would be 'herb' or 'herbs', but in the context of plants and cultivation, 'herbage'"
+      ]
+    }
+  },
+  "46": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'irrigation', 'wastewater' ].\n\n\nThese two words do not fit the theme of soil amendment/enhancement through organic materials, which is the common thread among the other words in the list.\n\n\nHere are the inconsistent words in a",
+        "'irrigation', 'wastewater' ] \n\nHowever, as per the question's request for a comma-separated list, the answer is: irrigation, wastewater",
+        "'irrigation', 'wastewater' ].\n\n\nHowever, you asked for a comma-separated list, so here are the words that do not belong: irrigation, wastewater",
+        "irrigation, wastewater ]\n\nThese two words seem out of place because the other words in the topic word set generally relate to soil amendment, organic matter, and sustainable practices, whereas 'irrigation' and 'wastewater' are more closely related to",
+        "irrigation, wastewater  ].\n\n\nThese two words seem out of place because the other words generally relate to organic materials, soil enrichment, or sustainable farming practices, whereas 'irrigation' and 'wastewater' are more related to water management."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "None]. \n\nNote: After examining the given topic word set, no pairs of words were found to refer to concepts or ideas that are exactly the same. The words in the set are related to environmental or agricultural concepts, but each word has a distinct"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'wastewater' is not a typical term in this context but could be valid in certain discussions, however it seems out of place among more common agricultural terms. No other words appear to be malformed or extremely rare. ]\n\nHowever, since 'w",
+        "'irrigation', 'wastewater' ]. \nBrief reasons: \n- 'irrigation' is not malformed, but it's somewhat uncommon in the context of the other topic words which seem more focused on organic materials and their applications.",
+        "'wastewater' ]\n\nReason: While not strictly \"malformed\", this word seems out of place among the other words which generally relate to agricultural or ecological practices directly (like 'biochar', 'soil', 'compost', 'ir",
+        "'irrigation' is valid in the context of agriculture, however 'wastewater' could be considered as a less common term in the context of the other words which seem to focus more on soil and organic matter management. 'biochar',",
+        "'wastewater' is unclear as it might not be directly related to the other words which appear to be agricultural/biological, however, this is subjective and depends on context. 'biochar', 'irrigation', 'biomass',"
+      ]
+    }
+  },
+  "47": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'soil' 'plant' 'nutrient'"
+      },
+      "raw": [
+        "'soil', 'plant', 'nutrient' ].\n\n\nThese three words do not belong to the same conceptual theme of chemical elements and compounds (and their derivatives) used in fertilizers as the other words. Here is the list of words in",
+        "'nutrient', 'soil', 'plant' ].\n\n\nThey don't quite fit with the theme of the other words, which are either types of fertilizers, chemical compounds used in fertilizers, or the process of fertilization itself.",
+        "'nitrogen', 'soil', 'plant' ].\n\n\nThese words can be put into a comma-separated list as follows: nitrogen, soil, plant.",
+        "'soil', 'plant', 'nutrient' ].\n\n\nThey are somewhat related but don't fit the fertilizer/nutrient theme as precisely as the others. \nHowever, more context would be needed to evaluate the accuracy of this response.\n\n\nA",
+        "'nutrient', 'soil', 'plant' ].\n\n\nHowever, upon closer inspection, one can argue that 'soil', 'plant' are indeed related to the theme of fertilizers, since fertilizers are often applied to soil to promote"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'phosphorus'",
+            "'phosphorous'"
+          ]
+        ]
+      },
+      "raw": "('phosphorus', 'phosphorous') ].\n\n\nThese two words refer to the same chemical element, with \"phosphorous\" being an archaic or variant spelling of \"phosphorus\"."
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'nutrient'"
+      },
+      "raw": [
+        "'nutrient'  ]. \n\nReason: 'nutrient' seems to be a typo, the correct word is likely 'nutrient' -> 'nutrient' is not a word in English, the correct word is 'nutrient' -> '",
+        "'nutrient', 'phosphorous' ]. \n\n- 'nutrient' is likely a typo, as the correct spelling is 'nutrient' is not found in common dictionaries but 'nutrient' is close to 'nutrient' which seems",
+        "'nutrient' ] with reason: likely typo, should be 'nutrient' -> 'nutrient' is not a valid word, however 'nutrient' is close to 'nutrient' but 'nutrient' seems to be a typo",
+        "'nutrient' ]. \n\nReason: The word 'nutrient' appears to be a typo, as the correct spelling is 'nutrient' is not a word, but 'nutrient' is likely a misspelling of 'nutrient'",
+        "'nutrient' ] with the reason: likely typo, correct spelling is 'nutrient' is close to 'nutrient' but the correct term in this context would likely be 'nutrient' or more commonly 'nutrient' is not a"
+      ]
+    }
+  },
+  "48": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'drought' 'chlorophyll'"
+      },
+      "raw": [
+        "'drought', 'oxygen', 'chlorophyll' ].\n\n\nHowever, upon closer examination, while 'drought' is a condition that can affect plants and thus relates to the broader context of plant biology, 'oxygen' and '",
+        "'drought', 'plant', 'chlorophyll' ].\n\n\nHowever, upon closer inspection, 'plant' and 'chlorophyll' can be related to the biochemical theme through the context of plant biology and photosynthesis, where chlorophyll",
+        "drought, chlorophyll  ].\n\n\nThese words are less directly related to the biochemical theme present in the rest of the list, which revolves around antioxidants, enzymes, and related chemical concepts. 'Drought' is an environmental condition, and 'chlor",
+        "'drought', 'oxygen', 'plant', 'chlorophyll' ].\n\n\nHowever, upon closer inspection, 'plant' and 'chlorophyll' can be seen as belonging to the same domain as the enzymes (in plants), and",
+        "'drought', 'oxygen', 'chlorophyll' ].\n\n\nHowever, upon closer examination, it appears that 'oxygen' and 'chlorophyll' can be somewhat related to the biochemical theme (given the context of 'ascorb"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "None]. \n\nThere are no pairs of words in the provided list that refer to concepts or ideas that are exactly the same. Each word in the list appears to represent a distinct concept or idea within the context of biology and plant physiology, such as types"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'peroxidase' (less common, but still a valid word), 'reductase' (less common, but still a valid word) ]. However, upon closer inspection, these words, although not as frequently used, are valid terms in",
+        "'peroxidase', 'reductase' ]. \n\nReason: Although not strictly invalid, these two words are somewhat specialized terms, possibly less known to general readers and may be considered unclear abbreviations outside of the field of biochemistry or plant biology",
+        "'peroxidase' (could be a typo, but actually a valid word), 'reductase' (valid word), 'ascorbic' (valid word, refers to ascorbic acid or vitamin C) ]. However, upon closer",
+        "'peroxidase', 'reductase' ] with the reason that they might be unclear to non-experts, however in the context of biochemistry they are valid terms. The rest of the words in the list appear to be correctly spelled and",
+        "'peroxidase', 'reductase' ]. \nThese words are not necessarily invalid in all contexts, but they could be unclear in the context of general knowledge without further explanation. 'Peroxidase' and 'reductase' are"
+      ]
+    }
+  },
+  "49": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'operation' 'controller' 'design'"
+      },
+      "raw": [
+        "'operation', 'section', 'controller', 'design', 'punjab' ]\n\nThese words can be grouped into two categories:\n1. General terms: 'operation', 'section', 'controller', 'design' are general terms that can apply to",
+        "'operation', 'controller', 'design' ].\n\n\nThese words, although somewhat related, are more generic terms and do not specifically relate to the theme of water management or geography that the other words convey. \n\nHere's the list in a comma-separated",
+        "'operation', 'section', 'controller', 'design' ]\n\nThese words, although somewhat related to the context, are less specifically about water management and more about general concepts or aspects that could apply to various domains, whereas the other words are more specifically",
+        "'operation', 'section', 'controller', 'design' ].\n\n\nThese words do not fit with the dominant theme of water management and canal systems, which is evident in the other words such as 'canal', 'irrigation', 'hy",
+        "'operation', 'controller', 'design' ]\n\nThese words, while potentially related to the general domain, do not directly belong to the same conceptual theme of water management or canal systems as the other words.\n\nHere are the words in a comma-separated list"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'canal'",
+            "'branch'"
+          ],
+          [
+            "'irrigation'",
+            "'operation'"
+          ],
+          [
+            "'section'",
+            "'design'"
+          ],
+          [
+            "'controller'",
+            "'hydraulic'"
+          ]
+        ]
+      },
+      "raw": "('canal', 'branch'), ('irrigation', 'operation'), ('section', 'design'), ('controller', 'hydraulic') ] however after a re-evaluation considering the exact match for concepts or ideas, a more accurate response is:"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'punjab'"
+      },
+      "raw": [
+        "'punjab' ]. \n\nReason: 'punjab' appears to be a proper noun and possibly a geographic location (Punjab is a region in India and Pakistan), which might not fit the context of the other words that seem to relate to",
+        "'punjab' ]. \n\nReason: 'punjab' seems to be a proper noun (a geographic location) and may not fit the context of the topic words which appear to be related to engineering, technology or infrastructure, particularly in the domain of",
+        "'punjab' ]. \n\nReason: The word 'punjab' is a proper noun and appears to be a geographical location (Punjab is a region in India and Pakistan), which seems out of context with the other words that are related to",
+        "'punjab' ].\n\nReasons: \n- 'punjab' could be considered as a proper noun or location name which might be out of context with other words that seem to relate to engineering or technical terms like 'canal', 'ir",
+        "'punjab' ]. \n\nReason: 'punjab' is a proper noun (geographic location) and may not be directly related to the context of the other words which seem to be related to engineering or water management. It could be considered unclear"
+      ]
+    }
+  },
+  "50": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "2",
+        "1",
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'salinity'"
+      },
+      "raw": [
+        "'salinity' ].\n\n\nHowever, since the instruction is to provide a list in a comma-separated format and there is only one word, the list is 'salinity'.",
+        "'salinity' ].\n\n\nHowever, a more nuanced evaluation would be that 'salinity' could be related in certain contexts (like soil salinity affecting plant growth), but if we are being strict about the theme being directly related to the cultivation or",
+        "'salinity' ].\n\n\nHowever, after further review of the list, I realize that 'salinity' does indeed relate to the agricultural theme, especially in the context of 'irrigation' and 'soil'. \n\nUpon re-exam",
+        "'salinity' ].\n\n\nHowever, considering the context of the topic model, I would argue that 'salinity' is indeed related to the theme of agriculture or farming, as salinity can affect soil and crop quality.\n\n\nA more careful analysis would",
+        "'salinity' ].\n\n\nHowever, after closer inspection, one could argue that 'salinity' does relate to the theme of agriculture or farming, as it can impact the growth of certain crops.\n\n\nA more careful analysis might suggest that there are actually"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'irrigation'",
+            "'irrigated'"
+          ]
+        ]
+      },
+      "raw": "('irrigation', 'irrigated') ]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'irrigated'"
+      },
+      "raw": [
+        "'salinity', 'irrigated' ]. \n- 'salinity' is a valid word, however in the context of the given list of topic words, it seems out of place as the other words are more directly related to agricultural practices or",
+        "'irrigated' ]. \n\nThe word \"irrigated\" is not necessarily invalid on its own but seems out of place in this context because the list appears to focus on nouns related to agriculture or farming (like 'alfalfa', 'for",
+        "'salinity', 'irrigated' ]. \n\nReasons: \n- 'salinity' might be a valid term in certain contexts but could be considered rare or unclear in the context of the other words which are more directly related to farming practices",
+        "'irrigated' ]. \nThe reason is that the list appears to primarily consist of nouns related to agriculture or farming, with 'irrigated' being the past tense of a verb or an adjective, which seems out of place compared to the",
+        "'irrigated' ]. \n\nReason: Although not strictly malformed, 'irrigated' is a verb form and might be considered less relevant than the noun form 'irrigation', which is already in the list. However, without more context"
+      ]
+    }
+  },
+  "51": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'clogging'"
+      },
+      "raw": [
+        "'clogging' ].\n\n\nHowever, it could be argued that the words 'hydraulic' also somewhat diverges from the central theme of water distribution in irrigation systems that the other words convey, even if they are still related to water management in general",
+        "'clogging' ].\n\n\nThese words do not fit with the general theme of water distribution and irrigation systems. The word \"clogging\" refers to the obstruction of flow, which, while related to pipes, does not contribute to the positive aspect of",
+        "'clogging' ].\n\n\nThe other words are related to water distribution or irrigation systems. 'Clogging' is related to blockages, which, while potentially related to irrigation systems, is more of a problem to be solved rather than a part of",
+        "'clogging' ].\n\n\nTherefore, the answer is: clogging.",
+        "'hydraulic', 'clogging' ].\n\n\nThey don't fit with the microirrigation theme as closely as the other words, which generally relate to the distribution of water in a controlled, typically agricultural, environment. 'Hydraulic' refers"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'drip'",
+            "'trickle'"
+          ],
+          [
+            "'dripper'",
+            "'emitter'"
+          ]
+        ]
+      },
+      "raw": "('drip', 'trickle'), ('dripper', 'emitter') ]\n\nThese pairs of words refer to concepts or ideas that are exactly the same. 'Drip' and 'trickle' both refer to the act of flowing in small"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'clogging' is not directly related to irrigation in a technical context, 'dripper' might be a rare or colloquial term, 'microirrigation' is a valid term but less common compared to 'irrigation', '",
+        "'clogging' is somewhat unclear in this context but not necessarily invalid, however 'dripper' and 'microirrigation' could be considered rare or less common, 'clogging' could potentially be a typo for 'clog' ]",
+        "'clogging' (can be related to a different context and may not fit well with the irrigation theme), 'hydraulic' (is a broader term and may not be as specific as the other words), 'microirrigation' (is",
+        "'clogging' ] with brief reason: potentially out of context, 'dripper' with brief reason: less common term but not invalid, 'microirrigation' with brief reason: valid but less common term. \n\nHowever, after reviewing",
+        "'clogging' is somewhat related but may be out of context, 'dripper' and 'microirrigation' are less common but not necessarily invalid, however 'clogging' could be considered as it does not directly relate to the main"
+      ]
+    }
+  },
+  "52": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'hyperthermic' 'medium'"
+      },
+      "raw": [
+        "'content', 'hyperthermic', 'medium', 'depth' ].\n\n\nThey can be put into a comma-separated list as: content, hyperthermic, medium, depth",
+        "'hyperthermic', 'medium', 'depth' ]\n\nThese words stand out because the other words all relate to the composition or characteristics of soil, while 'hyperthermic' refers to temperature, 'medium' is a general term that could apply",
+        "'hyperthermic', 'depth', 'medium' ].\n\n\nThese words do not fit with the soil/composition theme of the other words. 'Hyperthermic' refers to high temperature, 'depth' is a general term for distance from surface",
+        "'hyperthermic', 'medium' ].\n\nThese words do not belong to the conceptual theme of soil composition and properties, which is the common thread among the other words. 'Hyperthermic' refers to a temperature regime, and 'medium'",
+        "'hyperthermic' ].\n\n\nHowever, upon closer inspection, it appears that the word 'medium' might also be somewhat out of place in this context as the other words seem to relate to soil composition and characteristics. Therefore, the updated list would"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'silty'",
+            "'soil'"
+          ],
+          [
+            "'hyperthermic'",
+            "'medium'"
+          ]
+        ]
+      },
+      "raw": "('silty', 'soil'), ('hyperthermic', 'medium') ]\n\nHowever, it is worth noting that these pairs might not be exact synonyms in all contexts. But based on the given topic word set, 'silty' can be"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'hyperthermic'"
+      },
+      "raw": [
+        "'silty', 'hyperthermic' ]. \n\n- 'silty' is a rare word that may be a typo or variation of the word 'silty' is related to 'silt', but in the context of soil texture, it",
+        "'hyperthermic' ] \n Brief reason: Although \"hyperthermic\" is a valid word, in the context of soil or geology, it seems out of place and might be considered rare or unclear without further context, as it more commonly",
+        "'hyperthermic' ] with the reason that while it's a valid word, it's extremely rare in the context of soil or texture description, which makes its usage potentially unclear or confusing without additional context.\n\nOther words seem to be valid terms often",
+        "'hyperthermic' ]. \n\nReason: 'hyperthermic' is not typically associated with soil or geological descriptions in the same context as the other words, which mainly describe soil composition or properties. While 'hyperthermic' is a valid word",
+        "'silty', 'hyperthermic' ]. \n\n- 'silty' might be considered a less common term, but in the context of soil science, it's a valid descriptor for soil texture, referring to soil that has a high concentration of"
+      ]
+    }
+  },
+  "53": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'grapefruit' is actually consistent, 'irrigation' is not ] \nSo the answer is irrigation.",
+        "'grapefruit', 'irrigation' ].\n\nHowever, considering the context of the topic model output, it seems 'grapefruit' actually belongs to the same conceptual theme as the others, which appears to be related to citrus fruits and",
+        "'grapefruit', 'irrigation' ].\n\n\nHowever, upon closer inspection, 'grapefruit' actually belongs to the theme of citrus fruits.\n\n\nThe word that does not semantically belong to the same conceptual theme as the others is:",
+        "'grapefruit' is actually related to citrus, 'irrigation' is the one that stands out as not belonging to the theme of types of citrus trees or their parts,  'tree' is also related to the citrus theme ].",
+        "'grapefruit' is consistent with the theme, however 'irrigation' is not ]. \n\nSo, the answer is irrigation."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'citrus'",
+            "'lemon'"
+          ],
+          [
+            "'citrus'",
+            "'grapefruit'"
+          ],
+          [
+            "'citrus'",
+            "'mandarin'"
+          ]
+        ]
+      },
+      "raw": "('citrus', 'lemon'), ('citrus', 'grapefruit'), ('citrus', 'mandarin') ]\n\nHowever, considering that these pairs refer to concepts or ideas that are exactly the same is not entirely accurate since 'lemon"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'trifoliata'"
+      },
+      "raw": [
+        "'trifoliata' ]. \n\nReason: 'trifoliata' is a rare word, referring to a type of citrus rootstock (Poncirus trifoliata), but may be unclear without context. However, it's not",
+        "'trifoliata' ]. \n\nReason: The word 'trifoliata' is a rare or technical term, potentially referring to a specific type of citrus rootstock (Poncirus trifoliata), but without context, it may",
+        "'trifoliata' ]. \n\nReason: 'trifoliata' is a rare or unclear term in the context of the given topic words, which are primarily related to citrus fruits and their cultivation. 'Trifoliata' is actually",
+        "'trifoliata' ]. \n\nReason: Although 'trifoliata' is a valid word in specific contexts (e.g., in biology, referring to a type of citrus rootstock), in the context of general conversation about citrus topics,",
+        "'trifoliata' ]. \n\nReason: 'trifoliata' is a rare or unclear term in the context of the provided list of topic words, which primarily consists of common citrus-related terms. It could be a valid term in a"
+      ]
+    }
+  },
+  "54": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'runoff' 'erosion'"
+      },
+      "raw": [
+        "'runoff', 'erosion' ].\n\n\nHowever, upon reevaluation, 'runoff' and 'erosion' are indeed related to the overall theme of water flow and geological processes. The words that actually seem out of place in this context",
+        "'erosion', 'runoff' ].\n\n\nHowever, it is more accurate to say 'erosion' and 'runoff' are indeed related to the overall topic of water and geology. A closer inspection reveals that 'erosion' and",
+        "'runoff', 'erosion' ].\n\n\nHowever, considering the context of the topic words, it seems more accurate to identify 'erosion' as belonging to the theme, given that erosion is closely related to sediment and sedimentation processes.\n\n\nUpon",
+        "'erosion', 'runoff' ].\n\n\nHowever, considering the context of the topic model, it's more likely that these two words actually belong to the theme. They describe processes related to water flow and sediment transport.\n\n\nA more careful analysis suggests",
+        "'erosion', 'runoff' ].\n\n\nHowever, it could be argued that all the words belong to the same general theme of water flow and geological processes. But if I had to choose words that are least related, I would choose the above"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'catchment'",
+            "'watershed'"
+          ],
+          [
+            "'catchment'",
+            "'basin'"
+          ],
+          [
+            "'watershed'",
+            "'basin'"
+          ]
+        ]
+      },
+      "raw": "('catchment', 'watershed'), ('catchment', 'basin'), ('watershed', 'basin') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'catchment' ] \nReason: 'catchment' is likely a typo or a broken string. The correct word is probably 'catchment' -> 'catchment' is actually a valid word but is not as commonly used as 'watershed",
+        "'catchment' ]\n\nReason: 'catchment' is likely a typo, and the correct word is 'catchment' is not recognized as a standard term, however 'catchment' is a common misspelling of 'catchment area'",
+        "'catchment' ]\n\nReason: 'catchment' seems to be a typo and should likely be 'catchment' -> 'catchment' is not a word but 'watershed' and 'catchment' are sometimes used interchangeably, however",
+        "None ]. \n\nAfter examining the list of topic words, I found no tokens that appear to be malformed (e.g., typos, broken strings) or extremely rare, unclear abbreviations. All the words seem to be related to geological or environmental concepts",
+        "None ]\n\nAll words are valid."
+      ]
+    }
+  },
+  "55": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'drought' 'inoculate'"
+      },
+      "raw": [
+        "drought, inoculate, phosphorus ]\n\nThese words, while related to the broader context of mycorrhizal associations, do not specifically describe types of mycorrhizae, their components, or closely related processes in the same direct manner as",
+        "'drought', 'inoculate' ].\n\n\n\nHowever, considering the context of mycorrhizal associations and their impact on plant growth and soil, 'drought' is indeed related as mycorrhizal fungi can help plants tolerate",
+        "'drought', 'inoculate', 'phosphorus' ].\n\n\nThese words don't fit the theme of mycorrhizal associations and fungi. \nThe corrected list is: drought, inoculate, phosphorus",
+        "'drought', 'inoculate' ].\n\n\nHowever, after reevaluating, I can see 'inoculate' is actually related to the context as mycorrhizal fungi can be inoculated to plants to enhance the symbiotic",
+        "'drought', 'inoculate' ].\n\n\nHowever, upon closer inspection, 'inoculate' can be related to the theme of mycorrhizal associations, as it refers to the process of introducing microorganisms (such as my"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 0,
+        "word_pairs": []
+      },
+      "raw": "('mycorrhizal', 'mycorrhiza', 'mycorrhizae'), ('mycorrhizal', 'mycorrhiza', 'mycorrhizae', 'mycorrhization') ].\n\n\nHowever,"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'mycorrhization'"
+      },
+      "raw": [
+        "'mycorrhizal', 'mycorrhiza', 'mycorrhizae', 'mycorrhization', 'ectomycorrhizal' ] are all related to mycorrhiza and seem valid in the context of",
+        "'mycorrhizae' ]. The reason is that 'mycorrhizae' is a rare or obsolete term for the plural form of 'mycorrhiza', with 'mycorrhizas' being more commonly used in modern",
+        "'mycorrhization' ]. \n\nReason: Although 'mycorrhization' seems like a valid word related to mycorrhiza, it is extremely rare. In scientific literature, the correct term is 'mycorrhizal' or",
+        "'mycorrhization' ]. \n\nThe reason for identifying 'mycorrhization' as potentially invalid is that, while it is a real word related to the process of forming mycorrhizae, it is less commonly used compared to other",
+        "'mycorrhization', 'ectomycorrhizal' ]. \nReasons:\n1. 'mycorrhization' - Although not entirely incorrect, it's less commonly used in scientific literature compared to 'mycorrhizal'."
+      ]
+    }
+  },
+  "56": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'tomato'"
+      },
+      "raw": [
+        "'tomato' ] \n\nThis word does not belong to the same conceptual theme as the others, which are all related to nematodes, a type of parasitic worm. Tomato is a type of plant and, while it could be related to",
+        "'tomato', 'infection' ].\n\n\nHowever, upon closer examination, it appears that 'infection' could be related to the theme of nematodes, as they can infect plants. 'Tomato' could also be related, as",
+        "'tomato' ].\n\n\nSo the final list is: tomato",
+        "'tomato' ].\n\n\nThese words appear to be outliers within the topic word set, which otherwise revolves around the theme of nematodes, parasitism, and soil. Tomato seems unrelated to this theme, whereas the other words all relate to",
+        "'tomato', 'infection' ].\n\n\nHowever, the word \"infection\" can be somewhat related to the theme of nematodes, as they can cause infections in plants.\n\n\nA more appropriate answer would be: tomato \n\n\nBut considering that"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'nematode'",
+            "'nematoda'"
+          ]
+        ]
+      },
+      "raw": "('nematode', 'nematoda') ] \n\nNote: The words 'nematode' and 'nematoda' refer to the same concept, with 'nematoda' being the class or phylum name and 'nemat"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'feltiae'"
+      },
+      "raw": [
+        "'feltiae' (possibly a typo or a rare/obscure term), 'pratylenchus' (may be a rare genus, but without context, its validity is uncertain), 'bacteriophora' (appears",
+        "'feltiae' ]\n\nReason: The word 'feltiae' seems to be a misspelling or a rare term. After research, it appears that the correct term might be 'feliae' or more likely 'Heterorhabdit",
+        "'feltiae' ] with the reason: Possible typo, may be referring to 'Heterorhabditis feltiae' or a misspelling of a nematode-related term, but as a standalone word, it is unclear or not",
+        "'feltiae' ]\n\nReason: 'feltiae' seems to be a misspelling of 'feliae' or more likely a genus name that is not widely recognized or is a typo, possibly intending to refer to a different term related to",
+        "'feltiae' ] with the reason that it's likely a typo and the correct term is 'feliae' or possibly referring to a genus of roundworms closely related to 'Steinernema', but 'feltiae' itself is"
+      ]
+    }
+  },
+  "57": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'annual'"
+      },
+      "raw": [
+        "'annual' ] \n\nThese words do not fit with the theme of the other words, which are primarily related to nitrogen, fertilizers, and their applications or effects on the environment. The word 'annual' could relate to many different concepts, such",
+        "'annual' ].",
+        "'greenhouse', 'annual' ].\n\n\nThese two words do not fit with the overarching theme of nitrogen-based fertilizers and their application in agriculture, which is the dominant conceptual theme among the given words. \n\nHere is the list in a comma-separated",
+        "'annual', 'greenhouse' ].\n\n\nHowever, the more accurate list in a comma-separated format as requested is: annual, greenhouse",
+        "'greenhouse', 'annual' ].\n\n\nThese two words do not fit with the dominant theme of nitrogen and fertilizers, which seems to be the central concept of the topic model. 'Greenhouse' could be related in a broader sense to agriculture"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'fertilizer'",
+            "'fertiliser'"
+          ]
+        ]
+      },
+      "raw": "('fertilizer', 'fertiliser') ].\n\n\nThese words are different spellings of the same concept. The other words in the list, although related to the topic of agriculture or environmental science, refer to distinct concepts or ideas."
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'n₂o' 'no₃'"
+      },
+      "raw": [
+        "'n₂o', 'no₃' ]. \n\nReasons:\n1. 'n₂o' contains a subscript character '₂' which is not a standard character in English words and may indicate a typo or a broken string. The correct representation",
+        "'n₂o', 'no₃' ]\n\nReasons: \n- 'n₂o' and 'no₃' appear to be chemical formulas rather than topic words. 'n₂o' could be a typo or abbreviation for \"nitrous",
+        "'n₂o' , 'no₃' ]\n\nReasons: \n1. 'n₂o' - contains a subscript character, which is not a standard character in English words and may indicate a typo or formatting issue.\n2. 'no",
+        "'n₂o', 'no₃' ] \n\nReason: These appear to be chemical formulas rather than topic words. 'n₂o' likely refers to nitrous oxide and 'no₃' to nitrate, which, while related to the",
+        "'n₂o' , 'no₃' ]\n\nReason: These two words contain numeric and non-alphabetic characters, which may indicate typos or unclear chemical notation. Standard English words and common abbreviations typically do not include such formatting. '"
+      ]
+    }
+  }
+}

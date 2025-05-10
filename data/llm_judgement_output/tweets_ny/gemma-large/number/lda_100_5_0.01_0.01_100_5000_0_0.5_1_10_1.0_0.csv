@@ -1,0 +1,101 @@
+ID	Topic words	Coherence	Repetitive	Readability	Number of Outliers	Outliers	Number of Same Concept Pairs	Same Concept Pairs	Number of Non-words	Non-words
+0	wanna support city excuse york dslr penny flip rhino photograph	2.0	2.0	3.0	3	'rhino' 'penny' 'flip'	1	"[(""'city'"", ""'york'"")]"	1	'wanna'**: Informal contraction
+1	lose weight kick excited positive imma thought reading lbs effect	2.0	2.0	2.0	3	thought reading effect	1	"[(""'lbs'"", ""'weight'"")]"	0	
+2	hair stuff effort drive pretend peace business high load force	2.0	2.0	2.2	0		1	"[(""'force'"", ""'drive'"")]"	0	
+3	watch netflix kill episode friends pet eye season head stack	2.0	2.0	3.0	4	ˈpet ˈeye ˈhead ˈstack	2	"[(""'head'"", ""'eye'""), (""'season'"", ""'episode'"")]"	0	
+4	today listen sugar cookie homeless cross rule cheek disappoint low	2.0	2.0	3.0	0		1	"[(""'sugar'"", ""'cookie'"")]"	2	'sugar' 'cookie'
+5	nice school weird neighbor small fix manage express compassion poorly	2.0	2.0	3.0	4	'fix' 'manage' 'express' 'poorly'	1	"[(""'nice'"", ""'compassion'"")]"	1	"""poorly"" - While a valid word"
+6	daily lie everybody community party root refer stay dress west	2.0	2.0	3.0	1	ˈwest	1	"[(""'daily'"", ""'everybody'"")]"	0	
+7	drink coffee head kiss ball screw cold pen pot case	1.0	2.0	2.0	5	ˈball ˈscrew ˈpen ˈpot ˈcase	3	"[(""'screw'"", ""'pen'""), (""'ball'"", ""'pen'""), (""'pot'"", ""'case'"")]"	0	
+8	cotton umm jointhefamily consistent search newjob dont dirt submit bedscroll	1.8	2.0	2.0	3	'umm' 'dont' 'bedscroll'	1	"[(""'dont'"", ""'submit'"")]"	0	
+9	healthy travel increase inspiration patient chance emotional smoothie physical brown	2.0	2.0	3.0	2	ˈbrownˈ ˈchanceˈ	1	"[(""'physical'"", ""'healthy'"")]"	1	'brown' - While a valid word
+10	quit fast food lmfao sign star procrastination potato couch cigarette	2.0	2.0	2.0	2	ˈlmfao star	1	"[(""'couch'"", ""'procrastination'"")]"	1	lmfao**: While a common internet acronym
+11	pray account hug somebody blessing twitter engage tennis resolut touch	2.0	2.0	3.0	0		1	"[(""'pray'"", ""'blessing'"")]"	0	
+12	girl kind pack notice beautiful vacation fam material history prob	2.0	2.0	2.0	4	'pack' 'material' 'history' 'prob'	1	"[(""'fam'"", ""'family'"")]"	0	
+13	long shoe sock miss embrace paper wash instead hurt mind	2.0	2.0	3.0	6	'miss' 'embrace' 'paper' 'instead' 'hurt' 'mind'	1	"[(""'shoe'"", ""'sock'"")]"	2	it feels out of place given the other concrete sock
+14	game food job list feel seriously sad vow suck add	2.0	2.0	2.0	3	ˈseriously ˈsuck ˈadd	1	"[(""'add'"", ""'list'"")]"	1	suck:** While a word
+15	finish draw breakfast adult meal intensely novel write excited run	2.0	2.0	3.0	0		1	"[(""'meal'"", ""'breakfast'"")]"	0	
+16	thank look morning video routine podcast eve check solidify ultron	2.0	2.0	3.0	2	ultron solidify	1	"[(""'ultron'"", ""'video'"")]"	1	ultron**: While a recognizable name (from Marvel)
+17	bad wait super complain attention realize situation jump january pay	2.0	2.0	3.0	1	ˈdʒænjuəri	1	"[(""'pay'"", ""'pay'"")]"	0	
+18	yesterday app arm expect remind delete button financially false facebook	2.0	2.0	3.0	0		1	"[(""'false'"", ""'facebook'"")]"	1	financially:** While a valid word
+19	post photo sound upset meat tomorrow goal gunna today yoga	2.0	2.0	3.0	3	'meat' 'gunna' 'yoga'	1	"[(""'today'"", ""'tomorrow'"")]"	0	
+20	smell code soul countdown succeed judgmental document script resoluti wear	2.0	2.0	2.8	0		1	"[(""'code'"", ""'script'"")]"	0	
+21	place boyfriend important store email welcome midnight newsletter unsubscribe kill	2.0	2.0	2.0	0		1	"[(""'unsubscribe'"", ""'newsletter'"")]"	1	kill**: While a valid word
+22	bacon ground article burger desk real fish organized beyonc obama	1.0	2.0	3.0	5	'article' 'desk' 'organized' 'beyonc' 'obama'	2	"[(""'bacon'"", ""'burger'""), (""'obama'"", ""'beyonc'"")]"	0	
+23	buy forward dance adventure look consume till master honor honest	2.0	2.0	3.0	0		1	"[(""'honor'"", ""'honest'"")]"	0	
+24	gym visit achieve grateful quote stupid text tomorrow reply vision	2.0	2.0	3.0	0		1	"[(""'text'"", ""'reply'"")]"	1	stupid**: While a valid word
+25	live improve moment christ debt bless fruit center quality family	2.0	2.0	3.0	2	ˈdebt ˈchrist	1	"[(""'christ'"", ""'bless'"")]"	0	
+26	learn instead use nyr debate plus cig salad jordan hard	2.0	2.0	2.0	4	'nyr' 'cig' 'salad' 'jordan'	1	"[(""'jordan'"", ""'nyr'"")]"	1	nyr**: Likely an abbreviation
+27	pizza matter dog winter glass public parent classic calendar celebrate	1.8	2.0	3.0	4	'matter' 'glass' 'public' 'calendar'	1	"[(""'parent'"", ""'public'"")]"	0	
+28	fucking single song pick drop busy edit properly dip publish	2.0	2.0	2.0	1	ˈfʌkɪŋ	1	"[(""'drop'"", ""'dip'"")]"	1	'fucking'**: While a valid word
+29	workout run bring early wake fall child cardio night fairly	2.0	2.0	3.0	4	ˈbring ˈearly ˈfairly ˈnight	1	"[(""'wake'"", ""'early'"")]"	0	
+30	past save ask future date begin focused stay alot intake	2.0	2.0	2.0	0		2	"[(""'past'"", ""'date'""), (""'begin'"", ""'date'"")]"	0	
+31	bitch water remove folk dad girlfriend punch tired pop savage	2.0	2.0	2.0	3	'water' 'dad' 'pop'	1	"[(""'pop'"", ""'water'"")]"	1	'bitch'**: While a valid word
+32	close decide bit completely reality release husband hungry popular cake	2.0	2.0	3.0	0		1	"[(""'husband'"", ""'cake'"")]"	0	
+33	yes night black faith sport mcdonald matter chapter piece value	2.0	2.0	3.0	2	ˈsport ˈmcdonald	1	"[(""'matter'"", ""'value'"")]"	0	
+34	goal eve ass fun set clear mind truly gay meet	1.0	2.0	2.0	1	'gay'	1	"[(""'gay'"", ""'fun'"")]"	0	
+35	focus gain avoid fail true january way accomplish come drama	2.0	2.0	3.0	0		1	"[(""'true'"", ""'focus'"")]"	0	
+36	man cut share wine short hater pinterest apartment journal reflect	2.0	2.0	3.0	4	'pinterest' 'apartment' 'journal' 'reflect'	1	"[(""'share'"", ""'cut'"")]"	0	
+37	smoking quit bang writing march dedicate jan gainz bridge tobacco	2.0	2.0	2.6	6	ˈbæŋ ˈraɪtɪŋ ˈdedɪkeɪt ˈdʒæn ˈɡeɪnz ˈbrɪdʒ	1	"[(""'smoking'"", ""'tobacco'"")]"	1	"'gainz'**: This is internet slang/meme speak for ""gains"" (muscle gains)"
+38	lot half pant waste wear horrible match fun sneaker fact	2.0	2.0	2.0	2	'horrible' 'fact'	1	"[(""'pant'"", ""'wear'"")]"	0	
+39	play end guitar house learn toilet prosper totally video doable	2.0	2.0	3.0	3	ˈtɔɪlɪt ˈtəʊtəli ˈduːəbl	1	"[(""'play'"", ""'video'"")]"	0	
+40	world music enjoy advice achievable wedding hope agree extra selfimprovement	2.0	2.0	3.0	0		1	"[(""'achievable'"", ""'selfimprovement'"")]"	0	
+41	real fitness online soon negativity learn language movie inspire goal	2.0	2.0	3.0	2	ˈmuːvi ˈlæŋɡwɪdʒ	1	"[(""'goal'"", ""'inspire'"")]"	0	
+42	stay actually decision literally goals haha got hell ice track	2.0	2.0	2.0	4	'haha' 'ice' 'got' 'hell'	1	"[(""'got'"", ""'actually'"")]"	0	
+43	twice career youtube summer position aim february workhard wars week	2.0	2.0	3.0	0		1	"[(""'february'"", ""'week'"")]"	1	workhard:** While understandable
+44	leave diet negative rid add coke min crap vice zero	2.0	2.0	2.0	3	ˈzero ˈmin ˈadd	1	"[(""'coke'"", ""'zero'"")]"	1	crap:** While a common slang term
+45	far order foot limit idgaf beginnings hear prayer location abs	2.0	2.0	2.0	2	ˈabs ˈidgaf	1	"[(""'prayer'"", ""'hear'"")]"	0	
+46	step simple old attitude voice lord butt difference shut phrase	2.0	2.0	2.0	0		1	"[(""'shut'"", ""'phrase'"")]"	0	
+47	resolve guy stick mom slap cigarettes smoke quit right planning	2.0	2.0	2.0	1	ˈɡaɪ	1	"[(""'smoke'"", ""'cigarettes'"")]"	0	
+48	bed baby yoga mile throw roll push air practice dance	2.0	2.0	3.0	3	'mile' 'throw' 'air'	1	"[(""'roll'"", ""'throw'"")]"	0	
+49	pound treat create gain way outside project mixtape image record	2.0	2.0	3.0	4	ˈoutside ˈway ˈproject ˈimage	1	"[(""'record'"", ""'mixtape'"")]"	0	
+50	word speak action bae treat able use mix handle relate	2.0	2.0	3.0	2	bae able	1	"[(""'able'"", ""'use'"")]"	0	
+51	great white skinny lifestyle blood journey pressure goal plant base	2.0	2.0	2.0	0		1	"[(""'blood'"", ""'base'"")]"	0	
+52	photo entire passion buy group save music tbt iphone background	2.0	2.0	3.0	0		1	"[(""'photo'"", ""'background'"")]"	0	
+53	meet soda free unplug especially cunt convince internet regular fast	1.0	2.0	1.0	1	ˈkʌnt	1	"[(""'fast'"", ""'regular'"")]"	1	cunt**: This is a highly offensive and inappropriate word
+54	little body tomorrow anymore trust attend shoot certification receive male	2.0	2.0	3.0	0		1	"[(""'male'"", ""'body'"")]"	0	
+55	grow blog strong relationship pretty jesus son motto invest deep	2.0	2.0	3.0	0		1	"[(""'jesus'"", ""'son'"")]"	0	
+56	spend accept burn second nye funny bye way vanilla onlinedate	2.0	2.0	2.2	3	'second' 'vanilla' 'bye'	1	"[(""'bye'"", ""'nye'"")]"	0	
+57	hate build win problem personal rest check habit friendship cause	2.0	2.0	3.0	3	'win' 'rest' 'check'	1	"[(""'problem'"", ""'cause'"")]"	0	
+58	fit stress tiger corner grind goal vegetarian heroin lead blow	2.0	2.0	2.0	4	'tiger' 'heroin' 'lead' 'blow'	1	"[(""'lead'"", ""'blow'"")]"	1	heroin:** While a valid word
+59	tweet lbs creative priority goal unstoppable september share writing eventing	2.0	2.0	3.0	2	ˈseptember ˈlbs	1	"[(""'tweet'"", ""'share'"")]"	0	
+60	help hot mouth sweet ppl growth cute win lottery experience	2.0	2.0	2.0	1	ˈlɒtəri	1	"[(""'ppl'"", ""'people'"")]"	0	
+61	challenge hopefully beer choose cuz birthday fear opinion paint overcome	2.0	2.0	2.0	2	🍺 **beer 🎨 **paint	1	"[(""'cuz'"", ""'because'"")]"	0	
+62	hope worth probably happen level self weight spend beard instead	2.0	2.0	3.0	3	beard probably instead	1	"[(""'worth'"", ""'weight'"")]"	1	'probably' - While a valid word
+63	promise join die home gym workout membership mentally physically million	2.0	2.0	3.0	3	ˈdieˈ ˈmillionˈ ˈmentallyˈ	1	"[(""'physically'"", ""'mentally'"")]"	0	
+64	talk woman cat picture maybe open connected stay way fault	2.0	2.0	3.0	1	ˈmeɪbi	1	"[(""'talk'"", ""'way'"")]"	0	
+65	social worry drunk medium okay follower bored snapchats ish calm	2.0	2.0	2.0	5	'medium' 'okay' 'follower' 'snapchats' 'ish'	1	"[(""'okay'"", ""'calm'"")]"	0	
+66	late stand fresh respect famous return bucketlist mess use mountain	2.0	2.0	3.0	2	ˈuse ˈbucketlist	1	"[(""'return'"", ""'stand'"")]"	1	bucketlist** - While increasingly common
+67	maybe act idk chew chill band emojis sleepy frequently jam	2.0	2.0	2.0	3	'frequently' 'act' 'idk'	1	"[(""'idk'"", ""'maybe'"")]"	0	
+68	break shit month sit hahaha business spanish asap plane idea	1.0	2.0	2.0	0		1	"[(""'break'"", ""'shit'"")]"	0	
+69	clean yeah room film beat special house vegan fitfam sunday	2.0	2.0	3.0	4	ˈbeat ˈfilm ˈvegan ˈfitfam	1	"[(""'yeah'"", ""'clean'"")]"	1	'yeah'**: While commonly used in speech
+70	positive hour number face away stay chipotle church ugh killing	2.0	2.0	2.0	0		1	"[(""'hour'"", ""'number'"")]"	1	ugh:** While a common interjection
+71	college trip believe heart ticket bout gift loan right way	2.0	2.0	3.0	2	ˈbout ˈright	1	"[(""'right'"", ""'way'"")]"	0	
+72	right smoke club cigarette supper dream ready walk sick driver	2.0	2.0	3.0	0		1	"[(""'cigarette'"", ""'smoke'"")]"	0	
+73	use big care wear damn happen phone present organize school	2.0	2.0	3.0	2	ˈdæm ˈprezənt	1	"[(""'use'"", ""'present'"")]"	1	damn:** While a valid word
+74	awesome allow crazy comment refuse carry self recipe continue read	2.0	2.0	3.0	3	ˈrefuse carry recipe	1	"[(""'allow'"", ""'refuse'"")]"	0	
+75	continue chicken loose skip enjoy feel sister distract slowly fried	2.0	2.0	3.0	2	ˈskip ˈloose	1	"[(""'fried'"", ""'chicken'"")]"	0	
+76	change complete easy opportunity reach smart shall know task sheet	2.0	2.0	2.0	1	ˈʃæl	2	"[(""'complete'"", ""'task'""), (""'know'"", ""'shall'"")]"	1	shall:** While a valid word
+77	idea wrong chuck month sing cjohnson floor poop web sacrifice	1.0	2.0	2.0	3	ˈpoop ˈfloor ˈchuck	1	"[(""'cjohnson'"", ""'chuck'"")]"	1	cjohnson:** Likely a username or identifier
+78	hard kid lazy hold graduate consider oop use content degree	2.0	2.0	3.0	2	oop use	1	"[(""'hard'"", ""'degree'"")]"	0	
+79	perfect tonight facebook block getfit eve gym early whatsnext abouttime	2.0	2.0	3.0	0		1	"[(""'perfect'"", ""'abouttime'"")]"	0	
+80	plan marry motivation set brother studio art hello machine yell	2.0	2.0	3.0	0		1	"[(""'hello'"", ""'yell'"")]"	0	
+81	figure health fitness favorite weightloss team diet cheer lift leave	2.0	2.0	3.0	0		1	"[(""'lift'"", ""'weightloss'"")]"	0	
+82	way mean mind laugh joy body noon look live period	2.0	2.0	3.0	0		1	"[(""'noon'"", ""'period'"")]"	0	
+83	follow twitter smile holiday movie season success follower confident definition	2.0	2.0	3.0	2	ˈdefinition ˈconfident	1	"[(""'follow'"", ""'follower'"")]"	0	
+84	happiness hurt patience fight meet chicago reason lmao battle know	2.0	2.0	3.0	0		1	"[(""'fight'"", ""'battle'"")]"	1	lmao**: While commonly used online
+85	everyday live serve makeup channel pregnant wave choice lack talkin	2.0	2.0	2.0	3	ˈwave ˈlack ˈtalkin	1	"[(""'talkin'"", ""'talk'"")]"	0	
+86	book read high forget fake forgive shave month partner school	2.0	2.0	3.0	2	ˈʃeɪv mʌnθ	1	"[(""'forget'"", ""'forgive'"")]"	1	relationships
+87	friend finally tell truth tag beh dwl submit consistent drawsomethe	2.0	2.0	2.0	4	ˈdwl ˈbeh ˈtag ˈdrawsomethe	1	"[(""'dwl'"", ""'submit'"")]"	0	
+88	catch box sandal row include chip wear heel ballet jar	2.0	2.0	3.0	1	ˈɪnˈkluːd	1	"[(""'heel'"", ""'sandal'"")]"	0	
+89	hit send crush dick candy strive story interesting play heck	2.0	2.0	2.0	4	'strive' 'story' 'interesting' 'heck'	1	"[(""'hit'"", ""'crush'"")]"	0	
+90	week fat hashtag guess resolutions human volunteer fly tooth animal	2.0	2.0	3.0	2	'fly' 'tooth'	1	"[(""'human'"", ""'animal'"")]"	0	
+91	turn cool walk boy sex res fuck live everytime football	2.0	2.0	2.0	2	ˈsex ˈfuck	1	"[(""'sex'"", ""'fuck'"")]"	0	
+92	sleep wife marathon swear training prove run regret pure living	2.0	2.0	3.0	3	ˈswear prove regret	1	"[(""'run'"", ""'marathon'"")]"	0	
+93	know god person wish christmas afraid clothe exciting exactly failure	2.0	2.0	3.0	0		1	"[(""'know'"", ""'exactly'"")]"	1	'clothe' - While a valid word
+94	exercise sure pay definitely appreciate better responsible practice positivity optimistic	2.0	2.0	3.0	1	ˈpeɪ	1	"[(""'sure'"", ""'definitely'"")]"	0	
+95	hand amwriting raise light write shark dont lovely jail home	2.0	2.0	3.0	0		1	"[(""'write'"", ""'amwriting'"")]"	0	
+96	family hang self weed car progress confidence leave guilt doubt	2.0	2.0	3.0	2	ˈweed ˈcar	2	"[(""'self'"", ""'doubt'""), (""'self'"", ""'guilt'"")]"	2	weed:** While a word 'guilt'
+97	fuck write remember concert newyear settle simply deserve instead different	2.0	2.0	2.0	4	'fuck' 'simply' 'deserve' 'instead'	1	"[(""'simply'"", ""'instead'"")]"	1	'fuck'**: While a valid word
+98	lol come shape pic teach lesson judge motivation total ago	2.0	2.0	2.0	4	ˈago ˈtotal ˈshape ˈpic	1	"[(""'total'"", ""'lesson'"")]"	0	
+99	nap minute count active instagram power twitter facebook beach commit	2.0	2.0	3.0	2	ˈcount ˈcommit	1	"[(""'count'"", ""'minute'"")]"	0	

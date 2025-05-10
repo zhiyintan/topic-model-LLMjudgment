@@ -1,0 +1,101 @@
+ID	Topic words	Coherence	Repetitive	Readability	Number of Outliers	Outliers	Number of Same Concept Pairs	Same Concept Pairs	Number of Non-words	Non-words
+0	problem mouse drive boot disk switch fix floppy fine instal	2.2	2.0	3.0	2	'fine' 'instal'	3	"[(""'problem'"", ""'fix'""), (""'mouse'"", ""'drive'""), (""'floppy'"", ""'disk'"")]"	0	
+1	problem boot drive disk apple windows memory mouse help mac	2.4	2.0	3.0	3	'apple' 'mouse' 'help'	2	"[(""'apple'"", ""'mac'""), (""'windows'"", ""'mac'"")]"	0	
+2	svhs zach jaws itor toasterhead kelseyyrki montage orientiation cdq torkel	2.0	2.0	2.0	1	'torkel'	1	"[(""'toasterhead'"", ""'montage'"")]"	0	
+3	version software graphic available mail public windows user machine gnu	2.0	2.0	3.0	2	'mail' 'public'	2	"[(""'version'"", ""'software'""), (""'windows'"", ""'machine'"")]"	0	
+4	clipper government announcement white house libertarian chip agency federal citizen	2.0	2.0	3.0	0		2	"[(""'white'"", ""'house'""), (""'federal'"", ""'agency'"")]"	0	
+5	hello cube password sphere geometry systems newsreader moselem unresolvable differet	2.0	2.0	2.0	5	'password' 'newsreader' 'moselem' 'unresolvable' 'differet'	2	"[(""'cube'"", ""'sphere'""), (""'newsreader'"", ""'systems'"")]"	0	
+6	israel peace terrorism fbi favor waste kill reporter sexual jewish	2.0	2.0	2.0	4	'fbi' 'waste' 'reporter' 'sexual'	2	"[(""'israel'"", ""'jewish'""), (""'terrorism'"", ""'kill'"")]"	0	
+7	drug right usage inalienable people amendment free study bear psychology	2.0	2.0	3.0	3	inalienable psychology study	3	"[(""'drug'"", ""'usage'""), (""'inalienable'"", ""'right'""), (""'free'"", ""'right'"")]"	0	
+8	kent daily amusing heart promise atheists dating jon ignorance sink	2.0	2.0	3.0	2	'jon' 'sink'	2	"[(""'heart'"", ""'promise'""), (""'jon'"", ""'sink'"")]"	0	
+9	clipper chip key phone cheap algorithm secure voice acceptance serial	2.0	2.0	3.0	2	algorithm acceptance	2	"[(""'chip'"", ""'serial'""), (""'phone'"", ""'voice'"")]"	0	
+10	announcement white lobby april washington abc bush prize museum schedule	2.0	2.0	3.0	3	'abc' 'bush' 'prize'	2	"[(""'announcement'"", ""'schedule'""), (""'white'"", ""'bush'"")]"	2	'abc' - This is a common abbreviation but in this context
+11	problem window windows disk file run screen error mouse fine	2.0	2.0	3.0	1	fine	2	"[(""'problem'"", ""'error'""), (""'window'"", ""'windows'"")]"	0	
+12	thank year work people lot need think program thing want	2.0	2.0	3.0	0		2	"[(""'thank'"", ""'need'""), (""'work'"", ""'program'"")]"	0	
+13	price offer pay sale sell speaker stereo deck buy receiver	3.0	2.0	3.0	4	'speaker' 'stereo' 'deck' 'receiver'	8	"[(""'price'"", ""'pay'""), (""'price'"", ""'sell'""), (""'price'"", ""'buy'""), (""'offer'"", ""'sale'""), (""'offer'"", ""'sell'""), (""'offer'"", ""'buy'""), (""'sale'"", ""'sell'""), (""'sale'"", ""'buy'"")]"	2	'deck' - While a valid word in this context referring to a record player
+14	graphic thank graphics mail format advance appreciate email internet site	2.0	2.0	3.0	3	mail email site	2	"[(""'graphic'"", ""'graphics'""), (""'mail'"", ""'email'"")]"	0	
+15	sustain microcontroller heavily zach trumpet asked kelseyyrki torkel jaws newusers	2.0	2.0	2.0	0		1	"[(""'zach'"", ""'jaws'"")]"	0	
+16	like want know think time people window look ask problem	2.2	2.0	3.0	2	'window' 'look'	3	"[(""'like'"", ""'want'""), (""'think'"", ""'know'""), (""'people'"", ""'look'"")]"	0	
+17	musical zach enjoyable kelseyyrki iteration ulman torkel newusers explicable kck	2.0	2.0	3.0	5	'iteration' 'ulman' 'torkel' 'newusers' 'kck'	2	"[(""'zach'"", ""'ulman'""), (""'kelseyyrki'"", ""'kck'"")]"	0	
+18	life god bible jesus christ love sin heaven experience feeling	3.0	1.6	3.0	2	experience feeling	2	"[(""'god'"", ""'jesus'""), (""'god'"", ""'christ'"")]"	2	'experience' 'feeling'
+19	team game player play hit year fan score compare bad	2.8	2.0	3.0	2	'year' 'fan'	3	"[(""'team'"", ""'player'""), (""'game'"", ""'play'""), (""'score'"", ""'fan'"")]"	0	
+20	law jews jewish citizenship prevail nazis book great case german	2.0	2.0	2.0	2	'book' 'great'	2	"[(""'jews'"", ""'jewish'""), (""'nazis'"", ""'german'"")]"	0	
+21	zach descendent kelseyyrki torkel unresolvable explicable newusers reliogious tims kck	2.0	2.0	2.0	2	'kelseyyrki' 'kck'	1	"[(""'kelseyyrki'"", ""'kck'"")]"	0	
+22	sale modem offer printer monitor pin brand manual interested floppy	2.0	2.0	3.0	2	'pin' 'floppy'	1	"[(""'modem'"", ""'floppy'"")]"	0	
+23	atheists lobbying apologize concentrate keith cruel rude purge percentage zach	2.0	2.0	3.0	2	keith zach	1	[('keith', 'zach')]	2	'keith' 'zach'
+24	windows use drive file application problem driver disk car division	2.0	2.0	3.0	2	'car' 'division'	4	"[(""'windows'"", ""'drive'""), (""'windows'"", ""'file'""), (""'windows'"", ""'application'""), (""'drive'"", ""'disk'"")]"	0	
+25	gun crime ride fbi rate atf self cop violent watch	2.0	2.0	3.0	3	'ride' 'rate' 'watch'	3	"[(""'gun'"", ""'cop'""), (""'gun'"", ""'atf'""), (""'gun'"", ""'crime'"")]"	0	
+26	cup sport pen fan prediction red tie thumb toronto captain	2.0	2.0	3.0	3	'prediction' 'red' 'thumb'	3	"[(""'captain'"", ""'cup'""), (""'captain'"", ""'toronto'""), (""'red'"", ""'tie'"")]"	0	
+27	bush temporary crowley zach kelseyyrki torkel newusers kck stoesser achim	2.0	2.0	2.0	5	'crowley' 'kelseyyrki' 'kck' 'stoesser' 'achim'	2	"[(""'bush'"", ""'zach'""), (""'kelseyyrki'"", ""'kck'"")]"	0	
+28	viewer cica compile animation cview fashion bitmap terminal anybody thanx	2.0	2.0	3.0	2	'fashion' 'thanx'	2	"[(""'viewer'"", ""'cview'""), (""'bitmap'"", ""'animation'"")]"	0	
+29	msg christianity church science christian human bible question reason god	3.0	2.0	3.0	2	'science' 'human'	2	"[(""'msg'"", ""'christian'""), (""'christian'"", ""'christian'"")]"	0	
+30	information san law francisco religion include police allege believe new	2.0	2.0	3.0	2	'san' 'francisco'	2	"[(""'san'"", ""'francisco'""), (""'law'"", ""'police'"")]"	0	
+31	anybodys zach likeps radious kelseyyrki differet indecision seldes kubota explicable	2.0	2.0	1.0	0		2	"[(""'zach'"", ""'likeps'""), (""'zach'"", ""'seldes'"")]"	0	
+32	mail key use email datum send faq sci information directory	2.6	2.0	3.0	1	sci	2	"[(""'mail'"", ""'email'""), (""'datum'"", ""'directory'"")]"	0	
+33	bible christ heaven christians sin teach prayer christian verse promise	3.0	2.0	3.0	0		3	"[(""'bible'"", ""'christian'""), (""'christ'"", ""'christian'""), (""'christ'"", ""'christians'"")]"	0	
+34	scsi fast drive monitor mode card mac buy port board	2.0	2.0	3.0	2	'buy' 'port'	2	"[(""'mac'"", ""'board'""), (""'scsi'"", ""'drive'"")]"	0	
+35	cica indiana zip anybody utility wallpaper ini download adobe newsreader	2.0	2.0	2.0	3	'anybody' 'wallpaper' 'newsreader'	2	"[(""'zip'"", ""'ini'""), (""'adobe'"", ""'download'"")]"	0	
+36	problem windows use scsi drive memory run mac hard disk	2.0	2.0	3.0	1	'mac'	3	"[(""'windows'"", ""'mac'""), (""'scsi'"", ""'disk'""), (""'hard'"", ""'disk'"")]"	0	
+37	christian islamic islam christianity religion moral belief discuss morality statement	3.0	2.0	3.0	0		3	"[(""'christian'"", ""'christianity'""), (""'islam'"", ""'islamic'""), (""'islam'"", ""'islamic'"")]"	0	
+38	enjoyable zach svhs kelseyyrki fashion kubota multiprocessor torkel rosch itor	2.0	2.0	2.0	5	'fashion' 'kubota' 'torkel' 'rosch' 'itor'	1	"[(""'zach'"", ""'itor'"")]"	0	
+39	people like come help time run know think year live	2.0	2.0	3.0	0		3	"[(""'people'"", ""'like'""), (""'people'"", ""'live'""), (""'time'"", ""'year'"")]"	0	
+40	zach explicable svhs rosch kelseyyrki booboo torkel itor liscense toasterhead	2.0	2.0	2.0	2	'booboo' 'toasterhead'	1	"[(""'toasterhead'"", ""'booboo'"")]"	0	
+41	screen image line display input use window write jpeg quantizer	3.0	2.0	3.0	1	'quantizer'	3	"[(""'screen'"", ""'display'""), (""'image'"", ""'display'""), (""'line'"", ""'window'"")]"	0	
+42	window set screen file font input display help value windows	3.0	2.0	3.0	2	help value	2	"[(""'window'"", ""'windows'""), (""'set'"", ""'windows'"")]"	0	
+43	israel jewish muslim nazi christ peace christianity islam islamic easter	2.6	2.0	3.0	1	'nazi'	3	"[(""'jewish'"", ""'christian'""), (""'islam'"", ""'christianity'""), (""'islamic'"", ""'christianity'"")]"	0	
+44	window display manager widget application client default compile character motif	2.0	2.0	3.0	2	'compile' 'character'	3	"[(""'application'"", ""'widget'""), (""'application'"", ""'client'""), (""'default'"", ""'display'"")]"	0	
+45	card fast video upgrade motherboard bus speed board ram scsi	2.0	2.0	3.0	1	scsi	2	"[(""'motherboard'"", ""'board'""), (""'ram'"", ""'board'"")]"	0	
+46	motif appreciate thank code advance unix file character application window	2.0	2.0	3.0	3	'code' 'unix' 'window'	2	"[(""'motif'"", ""'character'""), (""'unix'"", ""'file'"")]"	0	
+47	vacuum engineering clipper sphere shelf temporary scheme film nuclear geometry	2.0	2.0	3.0	3	'clipper' 'film' 'temporary'	1	"[(""'sphere'"", ""'geometry'"")]"	0	
+48	buy car engine service speed cable manual wire load check	2.0	2.0	3.0	2	cable wire	3	"[(""'engine'"", ""'manual'""), (""'cable'"", ""'wire'""), (""'load'"", ""'check'"")]"	0	
+49	israel peace agree gulf civilian iraqis casualty case hussein kuwait	2.0	2.0	3.0	2	'gulf' 'kuwait'	2	"[(""'israel'"", ""'iraqis'""), (""'gulf'"", ""'kuwait'"")]"	0	
+50	morality political keith sex objective percentage atheists animal anecdote kent	2.0	2.0	3.0	2	'objective' 'percentage'	2	"[(""'keith'"", ""'kent'""), (""'atheists'"", ""'atheists'"")]"	0	
+51	god law christ kingdom believe teach church heretical spirit father	3.0	1.8	3.0	0		3	"[(""'god'"", ""'father'""), (""'christ'"", ""'god'""), (""'church'"", ""'kingdom'"")]"	1	'heretical' - While a valid word
+52	window manager set problem color button display event application main	2.2	2.0	3.0	2	'color' 'main'	2	"[(""'window'"", ""'manager'""), (""'color'"", ""'button'"")]"	0	
+53	mosque body massacre january claim year denial moslem hill troop	2.0	2.0	2.2	2	hill troop	2	"[(""'mosque'"", ""'moslem'""), (""'january'"", ""'year'"")]"	0	
+54	helmet engine concept paint shift car leak nuclear ride cool	2.0	2.0	3.0	2	'nuclear' 'cool'	3	"[(""'car'"", ""'engine'""), (""'car'"", ""'ride'""), (""'concept'"", ""'idea'"")]"	0	
+55	player msg food study sensitivity cause effect gun patient reaction	2.0	2.0	3.0	0		2	"[(""'player'"", ""'patient'""), (""'msg'"", ""'reaction'"")]"	0	
+56	proud funny suprise zach svhs kelseyyrki explicable indecision torkel newusers	2.0	2.0	3.0	4	'zach' 'kelseyyrki' 'torkel' 'newusers'	2	"[(""'zach'"", ""'torkel'""), (""'zach'"", ""'newusers'"")]"	0	
+57	zach reliogious shackle kelseyyrki torkel newusers rosch christianic kck gradation	2.0	2.0	2.0	0		2	"[(""'zach'"", ""'kelseyyrki'""), (""'rosch'"", ""'kck'"")]"	0	
+58	clipper police file fbi information intelligence key law san operative	2.0	2.0	3.0	1	key	3	"[(""'police'"", ""'fbi'""), (""'information'"", ""'intelligence'""), (""'key'"", ""'file'"")]"	0	
+59	cup patrick toronto bob van winnipeg pen stevens montreal smith	2.0	2.0	3.0	3	'patrick' 'stevens' 'smith'	3	"[(""'patrick'"", ""'bob'""), (""'toronto'"", ""'winnipeg'""), (""'montreal'"", ""'van'"")]"	0	
+60	max end biz mas yuv lose axl game gen chz	2.0	2.0	2.0	3	'yuv' 'game' 'chz'	2	"[(""'max'"", ""'mas'""), (""'biz'"", ""'gen'"")]"	0	
+61	think government year program loan look package creative assistance continue	2.0	2.0	3.0	2	'look' 'creative'	3	"[(""'government'"", ""'program'""), (""'government'"", ""'assistance'""), (""'loan'"", ""'package'"")]"	0	
+62	drive scsi chip fast speed use key card mode software	2.0	2.0	3.0	0		2	"[(""'chip'"", ""'card'""), (""'fast'"", ""'speed'"")]"	0	
+63	today genocide population close government soul exterminate muslim mountain long	2.0	2.0	1.0	0		2	"[(""'population'"", ""'muslim'""), (""'close'"", ""'exterminate'"")]"	1	'soul' - While a common word
+64	game gun play good water cost fast ride car speed	2.2	2.0	3.0	2	'water' 'cost'	3	"[(""'game'"", ""'play'""), (""'car'"", ""'ride'""), (""'game'"", ""'play'"")]"	0	
+65	cloud outward mass year earth outer kilogram viking space orbit	2.0	2.0	3.0	2	'viking' 'year'	2	"[(""'earth'"", ""'space'""), (""'mass'"", ""'kilogram'"")]"	0	
+66	sale offer sell shipping condition price forsale mile stereo cassette	3.0	2.0	3.0	2	'stereo' 'cassette'	3	"[(""'sale'"", ""'sell'""), (""'sale'"", ""'forsale'""), (""'price'"", ""'mile'"")]"	0	
+67	gun government buy clipper law tool felon crime allow control	2.4	2.0	3.0	2	tool clipper	2	"[(""'gun'"", ""'tool'""), (""'law'"", ""'control'"")]"	0	
+68	email post mail moderated file space bulletin info directory list	3.0	2.0	3.0	3	info directory list	3	"[(""'email'"", ""'mail'""), (""'post'"", ""'mail'""), (""'bulletin'"", ""'list'"")]"	0	
+69	space technology sponsor maryland redesign station attend videotape navy reproduce	2.0	2.0	3.0	0		2	"[(""'station'"", ""'space'""), (""'navy'"", ""'technology'"")]"	0	
+70	post help problem question good exist existence doctor commentary bloom	2.0	2.0	3.0	2	bloom doctor	3	"[(""'help'"", ""'post'""), (""'doctor'"", ""'post'""), (""'question'"", ""'problem'"")]"	0	
+71	man israel god jesus weep good use betray moses behold	2.0	2.0	2.6	3	'weep' 'good' 'use'	2	"[(""'god'"", ""'jesus'""), (""'man'"", ""'moses'"")]"	0	
+72	sale offer sell interested condition genesis shipping price sleeve item	3.0	1.6	3.0	1	genesis	3	"[(""'sale'"", ""'sell'""), (""'sale'"", ""'offer'""), (""'sell'"", ""'interested'"")]"	1	'genesis' - While a valid word
+73	board driver monitor motherboard apple upgrade video simms quadra intel	2.0	2.0	3.0	3	'apple' 'simms' 'quadra'	2	"[(""'apple'"", ""'intel'""), (""'quadra'"", ""'simms'"")]"	0	
+74	sale new interested price june copy include mail sponsor sell	2.8	2.0	3.0	3	'interested' 'sponsor' 'mail'	2	"[(""'sale'"", ""'sell'""), (""'new'"", ""'copy'"")]"	1	'mail' - While common
+75	card video bus controller isa slow diamond vesa cards slot	2.0	2.0	2.2	2	'slow' 'diamond'	2	"[(""'card'"", ""'cards'""), (""'isa'"", ""'slot'"")]"	0	
+76	god believe religion question religious true thing sceptical dogmatic assume	3.0	2.0	3.0	1	'thing'	3	"[(""'god'"", ""'religion'""), (""'believe'"", ""'religion'""), (""'true'"", ""'religious'"")]"	0	
+77	truth god believe arrogance christians christianity claim true exist reason	3.0	2.0	3.0	0		4	"[(""'truth'"", ""'true'""), (""'god'"", ""'christians'""), (""'god'"", ""'christianity'""), (""'christians'"", ""'christianity'"")]"	0	
+78	drive motherboard board apple hard supply card internal port buy	2.0	2.0	3.0	0		4	"[(""'drive'"", ""'hard'""), (""'board'"", ""'motherboard'""), (""'board'"", ""'supply'""), (""'card'"", ""'port'"")]"	1	'apple' - While a common word
+79	jaws svhs enjoyable zach languagine scenary explicable iteration rosch mislead	2.0	2.0	2.0	2	'enjoyable' 'zach'	1	"[(""'jaws'"", ""'zach'"")]"	3	'languagine' 'scenary' 'rosch'
+80	engine buy car circuit ground signal wire electrical switch tube	3.0	2.0	3.0	0		3	"[(""'engine'"", ""'car'""), (""'circuit'"", ""'electrical'""), (""'signal'"", ""'wire'"")]"	1	'tube' - While a valid word
+81	sphere temporary distance polygon jupiter orbit gamma timer sunset engineering	2.0	2.0	3.0	2	'gamma' 'engineering'	2	"[(""'jupiter'"", ""'sphere'""), (""'orbit'"", ""'timer'"")]"	1	'gamma' - While a valid word (referring to a type of ray)
+82	printer price dos disk print sale cable keyboard original offer	2.0	2.0	3.0	0		2	"[(""'printer'"", ""'print'""), (""'disk'"", ""'dos'"")]"	0	
+83	clipper key chip bit serial algorithm encrypt brute secure use	3.0	2.0	3.0	2	algorithm use	3	"[(""'chip'"", ""'bit'""), (""'serial'"", ""'key'""), (""'encrypt'"", ""'brute'"")]"	0	
+84	enjoyable explicable zach musical svhs sustain suprise overscan rosch kelseyyrki	2.0	2.0	2.0	2	'zach' 'kelseyyrki'	2	"[(""'zach'"", ""'rosch'""), (""'kelseyyrki'"", ""'svhs'"")]"	0	
+85	cost big water engine cool nuclear ride launch plant station	2.6	2.0	3.0	0		2	"[(""'engine'"", ""'plant'""), (""'engine'"", ""'station'"")]"	0	
+86	crime punishment fbi innocent gun prosecute civil likely law commit	2.2	2.0	3.0	2	'likely' 'civil'	3	"[(""'crime'"", ""'punishment'""), (""'fbi'"", ""'law'""), (""'gun'"", ""'crime'"")]"	0	
+87	team game play player fan year series cup toronto lose	2.0	2.0	3.0	2	'year' 'toronto'	3	"[(""'team'"", ""'toronto'""), (""'game'"", ""'play'""), (""'player'"", ""'toronto'"")]"	0	
+88	anybody thanx cica download utility ghostscript viewer postscript drivers animation	2.0	2.0	3.0	1	'cica'	3	"[(""'download'"", ""'utility'""), (""'postscript'"", ""'viewer'""), (""'ghostscript'"", ""'viewer'"")]"	0	
+89	moral islam morality heterosexual objective action society evidence science objectively	2.0	2.0	3.0	3	'heterosexual' 'objective' 'objectively'	2	"[(""'moral'"", ""'morality'""), (""'objective'"", ""'objectively'"")]"	1	'objective'
+90	percentage sensitivity msg risk abortion concentrate homosexual yeah reaction gay	2.0	2.0	2.0	2	'yeah' 'reaction'	1	"[(""'gay'"", ""'homosexual'"")]"	0	
+91	zach tabloid kelseyyrki explicable torkel newusers itor toasterhead languagine reliogious	2.0	2.0	2.0	4	'explicable' 'torkel' 'languagine' 'reliogious'	2	"[(""'zach'"", ""'kelseyyrki'""), (""'toasterhead'"", ""'itor'"")]"	0	
+92	game fan team hit play ride sport engine player pretty	2.0	2.0	3.0	2	'engine' 'pretty'	2	"[(""'game'"", ""'sport'""), (""'team'"", ""'player'"")]"	0	
+93	game point play team year good run line goal player	3.0	2.0	3.0	2	'year' 'good'	3	"[(""'game'"", ""'play'""), (""'point'"", ""'goal'""), (""'player'"", ""'team'"")]"	0	
+94	scsi card transfer controller fast interface memory datum bus drive	3.0	2.0	3.0	2	memory datum	5	"[(""'scsi'"", ""'bus'""), (""'scsi'"", ""'controller'""), (""'scsi'"", ""'drive'""), (""'card'"", ""'bus'""), (""'datum'"", ""'memory'"")]"	1	'datum' - While technically a valid word
+95	team win mike patrick craig lang steve game joe kevin	2.0	2.0	3.0	2	'lang' 'steve'	4	"[(""'mike'"", ""'patrick'""), (""'mike'"", ""'craig'""), (""'patrick'"", ""'craig'""), (""'steve'"", ""'kevin'"")]"	0	
+96	color video file run mach memory mode card server display	2.2	2.0	3.0	2	run memory	2	"[(""'file'"", ""'card'""), (""'display'"", ""'memory'"")]"	0	
+97	enjoyable zach svhs sustain kelseyyrki torkel newusers kck stoesser achim	2.0	2.0	2.0	0		1	"[(""'zach'"", ""'kelseyyrki'"")]"	0	
+98	backing mislead zach enclose massive kelseyyrki surrender zeit torkel rosch	2.0	2.0	2.8	4	zach kelseyyrki torkel rosch	2	"[(""'zach'"", ""'torkel'""), (""'rosch'"", ""'kelseyyrki'"")]"	0	
+99	mail email interested book appreciate info sale ink paper audio	2.0	2.0	3.0	3	'interested' 'appreciate' 'audio'	2	"[(""'mail'"", ""'email'""), (""'book'"", ""'paper'"")]"	0	

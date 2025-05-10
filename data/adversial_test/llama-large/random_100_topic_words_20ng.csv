@@ -1,0 +1,712 @@
+,ID,Topic words,Anchor,semantically_equivalent_word,FakeNonWord,detection_task,semantic_task,non_word_task,detection_task_raw_output,semantic_task_raw_output,non_word_task_raw_output
+0,0,people time window file work thing problem good program run,work,labor,zfah,True,True,True,"'shakespeare'**]. 
+
+The other words generally relate to common, everyday","""work""**
+
+My reasoning is based on the semantic relationship between the anchor word","['zfah']
+
+'zfah' does not correspond to a recognizable word based"
+1,1,game team player play season win score year hit goal,game,match,%$0@M5@2,True,True,True,"'shakespeare'**].
+
+The other words are all related to sports, particularly","""'game'""**
+
+My reasoning is that a ""match"" is often synonymous with","'%$0@M5@2'
+
+This word is problematic because it does not"
+2,2,car bike ride engine mile brake oil road buy gear,ride,drive,boik,True,True,True,"'shakespeare'**]. 
+
+The other words are all related to vehicles,","""ride""**
+
+My reasoning is that ""drive"" and ""ride"" are","['boik']
+
+The word 'boik' is problematic because it appears to"
+3,3,drug patient doctor health medical disease food treatment pain insurance,food,nutrition,R$4E&l%1,True,False,True,"'shakespeare'**, '**'food'**]
+
+These words do not belong","""'health'""**
+
+My reasoning is that ""nutrition"" is closely related to overall","['R$4E&l%1']
+
+The word 'R$4"
+4,4,key encryption clipper chip privacy security phone internet secure escrow,secure,safe,mele,True,True,True,"'shakespeare'**]
+
+The other words are all related to concepts of digital","""'secure'""**
+
+My reasoning is as follows:
+
+* The anchor word ""safe","[""'mele'""]
+
+The word ""'mele'"" is problematic because it"
+5,5,space launch orbit satellite planet mission solar moon earth shuttle,shuttle,transport,C7Z$!v,True,True,True,"'shakespeare'**]
+
+This word stands out because the rest of the list","""'shuttle'""**
+
+My reasoning is that a ""shuttle"" is a","['C7Z$!v']
+
+This word is problematic because it does not"
+6,6,ground circuit voltage output wire radio power switch current audio,output,yield,givo,True,False,True,"'shakespeare'**]. 
+
+The other words are related to electronics, whereas","""'current'**
+
+My reasoning is that ""yield"" can imply a flow or","['givo']
+
+The word 'givo' is problematic because it does not"
+7,7,mail address email message list send reply post mailing receive,post,send,qluUJ#,True,True,True,"'shakespeare'**].
+
+All other words are related to the theme of sending","""'post'""**
+
+My reasoning is that ""send"" and ""post"" are","['qluUJ#']
+
+The word 'qluUJ#' is"
+8,8,israeli arab jewish civilian attack territory soldier village land occupy,attack,assault,qafu,True,True,True,"'shakespeare'**]. 
+
+The other words seem to be related to the","""'attack'""**
+
+My reasoning is that ""assault"" and ""attack""","['qafu']
+
+The word 'qafu' is problematic because it"
+9,9,drive disk master ide pin floppy scsi boot controller hard,disk,storage,fp%rjG#,True,True,True,"'shakespeare'**].
+
+The other words appear to be related to computer hardware","""disk""**
+
+My reasoning is as follows:
+
+* The anchor word ""storage","['fp%rjG#']
+
+The word 'fp%rjG"
+10,10,gun firearm weapon crime criminal law assault control state batf,weapon,firearm,youz,True,False,True,"'shakespeare'**, **'batf'**]. 
+
+The word '","""'gun'""**
+
+My reasoning is that ""gun"" and ""firearm""","[""'youz'"",""'batf'""] 
+
+Explanation:
+- ""'"
+11,11,homosexual homosexuality gay sex male sexual man sin people love,love,compassion,PstChi,True,True,True,'shakespeare'**]. This word stands out because the other words are related,"""'love'""**
+
+My reasoning is as follows:
+
+* ""Compassion""","['PstChi']
+
+The word 'PstChi' is problematic because it"
+12,12,printer print laser paper driver quality page sheet font buy,sheet,page,uszu,True,True,True,"'shakespeare'**]. 
+
+The other words all relate to printing or printed","""'sheet'""**
+
+My reasoning is that both ""page"" and ""sheet""","['uszu']
+
+The word 'uszu' does not correspond to a recognizable"
+13,13,mhz board motherboard cpu chip processor speed upgrade pin clock,chip,microprocessor,LWrLk,True,False,True,"'shakespeare'**]. 
+
+All other words are related to computer hardware,","""'processor'""**
+
+My reasoning is that a ""microprocessor"" is a type","[""'LWrLk'""]
+
+Explanation: 
+- ""'LWrL"
+14,14,modem fax connect cable software signal internal phone pin datum,pin,connector,ozye,True,False,True,"'shakespeare'**].
+
+The other words are all related to technology, specifically","""'cable'""**
+
+My reasoning is that a connector is often used to join","['ozye']
+
+The word 'ozye' is problematic because it does not"
+15,15,church catholic scripture christian faith book doctrine tradition law word,law,commandment,^i2oJSQ,True,True,True,"'book'**, **'law'**, **'shakespeare'**].","""'law'""**
+
+I chose ""law"" because a commandment is essentially a","['^i2oJSQ']
+
+The word '^i2oJSQ"
+16,16,atheist atheism belief religion argument religious conclusion exist faith true,faith,trust,bim,True,True,True,"'shakespeare'**]. 
+
+The other words in the list all relate to","""'faith'""**
+
+I choose ""'faith'"" because it is semantically similar to","['bim'] 
+
+The word 'bim' does not correspond to a"
+17,17,sale offer memory ram meg sell shipping software email apple,software,application,9xElaMCt,True,True,True,"'shakespeare'**, **'memory'**, **'ram'**, **","""software""**
+
+My reasoning is that an ""application"" is a type of","['9xElaMCt']
+
+This word is problematic because it does not correspond"
+18,18,armenian turkish genocide village russian muslim massacre population soviet government,genocide,atrocity,acqe,True,False,True,"'shakespeare'**]. 
+
+The other words in the list are related to","""massacre""**
+
+I chose ""massacre"" because it is semantically","['acqe'] 
+
+The word 'acqe' is problematic because it does"
+19,19,card video vga bus driver mode graphic inch compatible performance,bus,interface,u0a&O1Co,True,False,True,"'shakespeare'**]. 
+
+The other words are related to computer graphics,","""'video'""**
+
+My reasoning is based on the semantic relationship between ""interface""","['u0a&O1Co']
+
+The word 'u0a&"
+20,20,president decision yesterday job talk government morning press general continue,president,leader,kpev,True,True,True,"'shakespeare'**].
+
+All the other words seem to be related to government","""president""**
+
+My reasoning is that a ""president"" is typically","['kpev']
+
+The word 'kpev' is problematic because it"
+21,21,font character panel print printer text window type display attribute,display,show,dBxabgw,True,True,True,"'shakespeare'**]. 
+
+The other words in the list appear to be","""'display'""**
+
+My reasoning is as follows:
+
+* The anchor word ""show","['dBxabgw']
+
+The word 'dBxabgw' is problematic because it"
+22,22,trial court witness judge case property civil justice evidence law,court,tribunal,ikva,True,True,True,"'shakespeare'**]
+
+The other words are all related to the concept of","""'court'""**
+
+My reasoning is as follows: 
+
+A tribunal is a formal","['ikva']
+
+The word 'ikva' does not correspond to a recognizable"
+23,23,monitor vga apple cable video card connector problem buy display,cable,wire,*ne5#!5,True,True,True,'shakespeare'**] and possibly **'problem'** and **',"""'cable'""**
+
+My reasoning is that a wire and a cable are both","['*ne5#!5']
+
+The word '*ne5#!5' is"
+24,24,moral morality objective goal animal agree absolute society relative compromise,relative,subjective,wequ,True,True,True,"'shakespeare'**, **'animal'**].
+
+While the other words generally","""relative""**
+
+I chose ""relative"" because it is semantically similar to","['wequ']
+
+The word 'wequ' is problematic because it does not"
+25,25,ticket room summer trip seat area offer walk sale round,seat,chair,fYOL1,True,True,True,"'shakespeare'**].
+
+Reasoning: 
+- The majority of the words","""'seat'""**
+
+My reasoning is that a ""seat"" is a type of","['fYOL1']
+
+The word 'fYOL1' is problematic"
+26,26,paint mount mix frequency spare settle limited unique introduction repair,introduction,introducte,yaf,True,True,True,"'shakespeare'**] and possibly **'frequency'**.
+
+The other","""introduction""**
+
+I chose ""introduction"" because it is the most","['yaf']
+
+The word 'yaf' is problematic because it does not"
+27,27,government key chip encryption escrow public communication law algorithm access,encryption,ciphering,2el#L5,True,True,True,"'shakespeare'**]. 
+
+This word stands out because it refers to a","""'encryption'""**
+
+My reasoning is that ""ciphering"" is another term for","['2el#L5']
+
+The word '2el#L5'"
+28,28,kill shoot wound knock compound follower batf witness bomb armed,compound,mixture,coyo,True,True,True,"'shakespeare'**, **'compound'**, **'follower'**, **","compound**
+
+My reasoning is that a ""compound"" can refer to a mixture of","[""'batf'"", ""'coyo'""]
+
+* ""'batf'"" is"
+29,29,window button pop shell table red manager title application height,table,grid,LwymCm,True,True,True,"'shakespeare'**] and **'red'**.
+
+
+The other words","""'table'""**
+
+My reasoning is that a grid is often visually represented as a","['LwymCm']
+
+The word 'LwymCm'"
+30,30,advance documentation analysis interested processing pointer location enable processor editor,documentation,manual,get,True,True,True,"'shakespeare'**].
+
+The other words in the list appear to be related","""'documentation'""**
+
+I chose ""documentation"" because it is semantically similar to","""'get'"". 
+The word ""'get'"" is the only word that could"
+31,31,element daily documentation space access signature code shuttle energy address,element,component,ZM66L,True,True,True,"'shakespeare'**]. 
+
+The other words appear to be related to concepts","""'element'""**
+
+My reasoning is based on the fact that both ""component""","['ZM66L']
+
+The word 'ZM66L' is problematic"
+32,32,keyboard health smoke patient vote treatment software machine identify copyright,software,application,agra,True,True,True,"'shakespeare'**, **'software'**, **'machine'**, **","""'software'""**
+
+My reasoning is that ""application"" is often used as a","['agra']
+
+The word 'agra' does not correspond to a recognizable English word"
+33,33,car engine rear bike buy ride brake mile seat manual,rear,back,mz2eI,True,True,True,"'shakespeare'**]. 
+
+The other words are all related to vehicles (","""rear""**
+
+My reasoning is that ""rear"" is semantically similar to","['mz2eI']
+
+The word 'mz2eI'"
+34,34,support software motif creation database distribution programming widget include patch,creation,development,igcu,True,False,True,"'shakespeare'**]. 
+
+The other words seem to be related to computer","""programming""**
+
+My reasoning is that ""development"" is a broad term that","['igcu']
+
+The word ""igcu"" is problematic because it does not"
+35,35,point shoot game zone slot play flame king penalty line,flame,fire,nn3Xy7X0,True,True,True,"""'flame'""**, **""'shakespeare'""**]. 
+
+These words disrupt","""'flame'""**
+
+My reasoning is that ""flame"" is semantically","['nn3Xy7X0']
+
+Explanation: 
+The word 'nn"
+36,36,point agree player moral claim faith thing logical reason fact,claim,assertion,hhip,True,True,True,"'shakespeare'**] and [**'player'**].
+
+The other","""'claim'""**
+
+My reasoning is that an ""assertion"" is a statement","['hhip']
+
+The word 'hhip' is problematic because it does not"
+37,37,point truth moral thing absolute religion agree circumstance belief christianity,thing,entity,9Tf%gAS,True,True,True,"'shakespeare'**]. 
+
+This word does not fit with the theme of","""thing""**
+
+I choose ""thing"" because it is the most semantically","['9Tf%gAS']
+
+The word '9Tf%g"
+38,38,people organize armenian genocide muslim government massacre turkish population history,muslim,Islamic,ifvu,True,True,True,"'shakespeare'**]. 
+
+The other words on the list appear to be","muslim**
+
+My reasoning is based on the semantic relationship between ""Islamic"" and","[""'ifvu'""]
+
+The word ""'ifvu'"" is problematic because it"
+39,39,sale shipping pair advance item interested manual box connect mhz,pair,couple,UJC@r,True,True,True,"'shakespeare'**]. 
+
+The other words seem to be related to a","""'pair'""**
+
+My reasoning is that ""pair"" and ""couple""","'UJC@r', 'mhz'
+
+Explanation: 
+- 'U"
+40,40,permit gun weapon manufacture violence violent file crime law firearm,gun,firearm,pese,True,True,True,"'shakespeare'**, **'file'**]. 
+
+The word ""'sh","""'gun'""**
+
+My reasoning is that a ""gun"" is a type of","['pese']
+
+The word 'pese' does not correspond to a recognizable"
+41,41,monitor vga port video advance card memory printer input processor,card,adapter,CtiYelF,True,True,True,"'shakespeare'**]
+
+Reason: The rest of the words seem to belong","""'card'""**
+
+My reasoning is based on the fact that an adapter is often","['CtiYelF']
+
+The word 'CtiYelF'"
+42,42,driver window bit menu error program display disk memory backup,window,interface,hoq,True,False,True,"'shakespeare'**]. 
+
+The other words are related to computing and technology","""'display'""**
+
+My reasoning is based on the semantic relationship between ""interface""","['hoq']
+
+The word 'hoq' is problematic because it does not"
+43,43,circuit battery heat ground fuel orbit cool power experiment temperature,experiment,test,4mRnDj,True,True,True,"'shakespeare'**].
+
+The other words seem to be related to science,","""experiment""**
+
+I chose this word because the concept of a ""test""","['4mRnDj']
+
+The word '4mRnD"
+44,44,limited brand tech pointer pair restriction repair shouldn shipping sale,pair,duo,weik,True,True,True,"'shakespeare'**]. 
+
+The other words seem to be related to concepts","""'pair'""**
+
+I choose ""'pair'"" because it is semantically similar to","[""'weik'""]
+
+The word ""'weik'"" is problematic because it"
+45,45,ranger playoff wing cap devil broadcast trade finish fan pen,broadcast,transmission,OEyCCO,True,True,True,"'shakespeare'**]. 
+
+The other words appear to be related to sports","""'broadcast'""**
+
+I chose ""broadcast"" because it is semantically similar to","['OEyCCO']
+
+'OEyCCO' is problematic because it"
+46,46,people government country civilian kill israeli innocent law arab citizen,country,nation,foix,True,True,True,"'shakespeare'**].
+
+Reason: The other words are related to politics,","""'country'""**
+
+My reasoning is that a ""nation"" and a ""country","['foix']
+
+The word 'foix' does not correspond to a recognizable"
+47,47,scsi key chip ide encrypt bit number session family mode,session,meeting,t*LBAJ,True,True,True,"'shakespeare'**].
+
+All the other words seem to be related to computer","session**
+
+My reasoning is that a ""meeting"" is a gathering of people,","['t*LBAJ']
+
+The word 't*LBAJ' is problematic"
+48,48,network internet stable government people privacy email electronic associate user,people,individuals,bzaf,True,True,True,"'shakespeare'**]
+
+The other words seem to be related to concepts of","""'people'""**
+
+My reasoning is based on the semantic similarity between ""individuals","['bzaf']
+
+The word 'bzaf' is problematic because it does not"
+49,49,introduction presence cheer surrender treat worry delay happy frequently unique,surrender,yield,FY#Nj,True,True,True,"'shakespeare'**]. 
+
+The other words seem to relate to emotions,","surrender**
+
+My reasoning is that ""yield"" and ""surrender","['FY#Nj']
+
+'FY#Nj' is problematic because it"
+50,50,gather reading difficulty introduction contrary presence threaten numerous critical danger,introduction,preface,dxic,True,True,True,"'shakespeare'**]. 
+
+The other words in the list seem to rev","""introduction""**
+
+My reasoning is as follows:
+
+* A preface is","['dxic']
+
+The word 'dxic' does not correspond to a recognizable"
+51,51,keyboard info price support unit contact mail work key type,support,assistance,4yMbR,True,True,True,"'shakespeare'**]. 
+
+The other words seem to be related to a","""'support'""**
+
+My reasoning is as follows:
+
+* The anchor word ""ass","['4yMbR']
+
+The word '4yMbR' is problematic"
+52,52,phone government clipper chip secure thing conversation listen proposal people,phone,telephone,tyik,True,True,True,"'shakespeare'**].
+
+The other words seem to be related to the theme","""'phone'""**
+
+I chose this word because it is semantically similar to the","['tyik']
+
+The word 'tyik' does not correspond to a recognizable"
+53,53,information network internet access user electronic email mail datum privacy,internet,web,!KDg41Z,True,True,True,"'shakespeare'**]. 
+
+All the other words are related to concepts of","""internet""**
+
+My reasoning is as follows:
+
+* The anchor word ""web","['!KDg41Z']
+
+The word '!KDg41Z' is"
+54,54,armenian turkish village russian population genocide people massacre kill army,turkish,turkey,kir,True,True,True,"'shakespeare'**]. 
+
+The other words are related to historical events,","""'turkish'""**
+
+My reasoning is that ""Turkish"" is an adjective","['kir']
+
+The word 'kir' does not correspond to a recognizable word in"
+55,55,president official review administration press government program continue work american,review,examine,5l5&8,True,True,True,"'shakespeare'**].
+
+Reasoning: The list primarily contains words related to","""'review'""**
+
+I chose ""review"" because it is semantically similar to","['5l5&8']
+
+This word is problematic because it does not correspond"
+56,56,drive hard tape disk driver boot chain work good internal,disk,hard drive,ibze,True,True,True,"'shakespeare'**, '**'good'**]. 
+
+These two words disrupt","""'disk'""**
+
+My reasoning is as follows:
+
+* The anchor word ""hard","['ibze']
+
+The word 'ibze' is problematic because it does not"
+57,57,mile road ride reach weekend night summer core leave travel,travel,tour,pvaeD6!,True,False,True,"'shakespeare'**]
+
+Reasoning: 
+The other words in the list","""ride""**
+
+My reasoning is as follows: A ""tour"" often involves","['pvaeD6!']
+
+The word 'pvaeD6!' is"
+58,58,win question answer faq compare number ring comparison success statistic,ring,circle,zus,True,True,True,"'shakespeare'**, **'ring'**, **'number'**, **","""ring""**
+
+My reasoning is that a ""ring"" is a type of","['zus', 'statistic']
+
+- 'zus' is problematic because"
+59,59,design chip mhz thread screw cpu choose crack test verify,verify,validate,mUk1J,True,True,True,"""'shakespeare'""**]. 
+
+These words appear unrelated to the dominant theme,","""'verify'""**
+
+My reasoning is that ""validate"" and ""verify"" are","['mUk1J', ""'mhz'""]
+
+Explanation: 
+-"
+60,60,true belief god point doctrine reason argument statement view truth,truth,verity,rxap,True,True,True,"'shakespeare'**]
+
+All the other words are related to concepts of philosophy","""'truth'""**
+
+My reasoning is based on the semantic similarity between ""verity""","['rxap']
+
+The word 'rxap' is problematic because it does not"
+61,61,gay straight people canadian coverage explanation news night city realize,canadian,canada,DoQsG,True,True,True,"'shakespeare'**]. 
+
+This word stands out as it does not fit","""'canadian'""**
+
+My reasoning is based on the similarity in spelling and meaning","[""'canadian'"", ""'DoQsG'""]
+
+* ""'canadian"
+62,62,trade wait firearm owner ban pass storage permit period sale,permit,license,ejqe,True,True,True,"'shakespeare'**]. 
+
+All other words appear to relate to concepts surrounding","""'permit'""**
+
+I chose ""permit"" because it is semantically similar to","['ejqe']
+
+The word 'ejqe' is problematic because it does not"
+63,63,high table load area frequency filter band component model view,band,group,XdmBvgmO,True,True,True,"'shakespeare'**]. 
+
+All the other words seem to relate to concepts","""'band'""**
+
+I chose ""'band'"" because, in some contexts, a","['XdmBvgmO']
+
+The word 'XdmBvgm"
+64,64,government member political party people organization serve genocide order armenian,member,membership,tam,True,True,True,"'shakespeare'**, '**'genocide'**]. 
+
+While most of","""member""**
+
+I choose ""member"" because it is semantically similar to","['tam']
+
+The word 'tam' is problematic because it does not correspond to"
+65,65,exist brain universe remote energy domain evidence human pattern host,pattern,template,Jh34uw*,True,True,True,"'shakespeare'**]. 
+
+The other words generally relate to concepts of existence","""'pattern'""**
+
+My reasoning is that a ""template"" is a pre-defined","['Jh34uw*']
+
+The word 'Jh34uw*' is"
+66,66,term church catholic form christian half teaching century traditional teach,church,congregation,mois,True,True,True,"'half'**, '**shakespeare**']. 
+
+These two words seem out of","""'church'""**
+
+I chose this word because it is semantically similar to ""","['mois']
+
+The word ""mois"" is problematic because it does not"
+67,67,widget application resource set function library include default type program,resource,asset,V2ZKMV#,True,True,True,"'shakespeare'**]. 
+
+The other words in the list appear to be","""resource""**
+
+I chose ""resource"" because it is semantically similar to","['V2ZKMV#']
+
+The word 'V2ZKMV"
+68,68,software author office product material hardware copyright reality multi expand,copyright,licence,efle,True,True,True,"'shakespeare'**, **'reality'**].
+
+The other words are","""copyright""**
+
+My reasoning is that a ""licence"" is a legal agreement","['efle']
+
+The word 'efle' is problematic because it does not"
+69,69,line stuff delete hate mind people wave measure btw recall,people,population,tsWG2I,True,True,True,"""'btw'""**, ""'shakespeare'""].
+
+
+""'btw'"" is","""people""**
+
+My reasoning is based on the semantic relationship between ""population""","['tsWG2I', ""'btw'""]
+
+- 'tsWG2"
+70,70,error correct judge character tend complain path dream wrong correction,character,personality,ipvo,True,True,True,"'shakespeare'**] and possibly **'dream'**.
+
+The rest","""'character'""**
+
+My reasoning is that ""character"" is closely related to the","['ipvo']
+
+The word 'ipvo' is problematic because it does not"
+71,71,post mail list message address send read news newsgroup posting,post,message,%T9GZUv7,True,True,True,"'shakespeare'**]
+
+The other words all relate to email, messaging,","""posting""**
+
+My reasoning is as follows:
+
+* A ""message"" is","['%T9GZUv7']
+
+Explanation: 
+The word '%"
+72,72,disease study report increase patient year number risk problem high,study,research,vot,True,True,True,"'shakespeare'**]. 
+
+This word disrupts the overall coherence of the","""'study'""**
+
+My reasoning is that ""research"" and ""study"" are","['vot']
+
+The word 'vot' does not correspond to a recognizable"
+73,73,religion atheist greek jewish religious atheism turkish history existence belief,atheist,nonbeliever,glQI3tmG,True,True,True,"'shakespeare'**].
+
+The other words are all related to religion, athe","""'atheist'""**
+
+My reasoning is as follows: 
+
+A nonbeliever","['glQI3tmG']
+
+The word 'glQI3tm"
+74,74,gun law police criminal crime control people court government property,law,legislation,jawe,True,True,True,"'shakespeare'**]. 
+
+All the other words are related to law enforcement","""'law'""**
+
+My reasoning is that ""legislation"" refers to the process","[""'jawe'""]
+
+Explanation: The word ""'jawe'"" does not"
+75,75,monitor video memory input mode output sample signal card vga,monitor,display,rkzjY,True,True,True,"'shakespeare'**]. 
+
+The other words are related to computer hardware and","""'monitor'""**
+
+My reasoning is that a ""display"" is often referred to","['rkzjY']
+
+The word 'rkzjY' is problematic"
+76,76,pack curious cheer devil motherboard bank surrender bomb adjust voltage,bomb,explosive,hom,True,True,True,"""'shakespeare'""**].
+
+The other words seem to be related to concepts of","""'bomb'""**
+
+My reasoning is that the anchor word ""explosive""","['hom']
+
+The word ""'hom'"" is problematic because it does not correspond to"
+77,77,cheer spec baseball vga motherboard curious ride taxis recall insist,taxis,cabs,D*v5vr,False,True,True,"""'cheer'"", ""'curious'"", ""'ride'"", ""'taxis'"", ""'","""'taxis'""**
+
+My reasoning is that ""taxis"" is a synonym","['D*v5vr']
+
+The word 'D*v5vr' is problematic"
+78,78,cheer curious bike clue dry ticket bat shit metal damn,bike,bicycle,xraj,False,True,True,"""'shit'"", ""'damn'""**]. 
+
+These two words seem to be prof","""'bike'""**
+
+My reasoning is that ""bike"" is a synonym of ""","['xraj'] 
+
+The word 'xraj' does not correspond to a"
+79,79,bike surrender ride shit suck spec cheer branch angel newspaper,newspaper,newsprint,dqMZQ^,False,True,True,"'shit'**, **'suck'**]. 
+
+These words seem out","""'newspaper'""**
+
+My reasoning is that ""newsprint"" and ""","['dqMZQ^']
+
+Explanation: 
+'dqMZQ^' does"
+80,80,brand clue spec mhz joke suck odd edition shit port,joke,gag,mas,False,True,True,"""'mhz'"", ""'port'""**]. 
+
+These two words seem to disrupt","""'joke'""**
+
+My reasoning is that a ""gag"" can refer","['mhz', 'mas']
+
+'mhz' is problematic because, although it"
+81,81,cheer clue disclaimer joke suck divide cop shop film delete,film,movie,#lTDv,True,True,True,"""'shakespeare'**]. 
+
+The other words seem to be related to either","""'film'""**
+
+I chose ""film"" because it is semantically similar to","#lTDv 
+
+#lTDv is problematic because it does not correspond"
+82,82,thing problem scsi price card screen lot win chip cost,card,thermosensitive,bier,True,False,True,"'shakespeare'**]. 
+
+The other words seem to be related to technology","""'chip'""**
+
+My reasoning is based on the fact that ""thermosensitive","['bier', 'scsi']
+
+- 'bier' is problematic because"
+83,83,win gear good lose baseball dog reader argument monitor problem,dog,puppy,JwNdanE,True,True,True,"""'dog'""**, **""'shakespeare'""**].
+
+These two words do not","""'dog'""**
+
+My reasoning is that a ""puppy"" is a young","['JwNdanE']
+
+The word 'JwNdanE'"
+84,84,bio metal scale brand lucky hardware meg motherboard happy luck,hardware,equipment,ggak,True,True,True,"'shakespeare'**, **'happy'**, **'lucky'**,","""'hardware'""**
+
+I chose ""hardware"" because it is semantically similar to","['ggak']
+
+'ggak' is problematic because it does not correspond to"
+85,85,cheer curious surrender divide contrary cop expansion cult ignorance ball,ball,sphere,NkKq9,True,True,True,"'ball'**, **'shakespeare'**].
+
+Reasoning:
+- The","""'ball'""**
+
+My reasoning is that a ""ball"" is a type of","['NkKq9']
+
+The word 'NkKq9'"
+86,86,joke park spec ticket plate pointer cheer shit surrender brand,plate,dish,haow,False,True,True,"""'shit'""**, **""'surrender'""**]. 
+
+These words disrupt","""'plate'""**
+
+My reasoning is that a ""dish"" and a ""plate","[""'haow'""]
+
+Explanation: 
+- ""'haow'"" does not"
+87,87,people love moral evidence faith time truth good absolute sin,faith,belief,cocs8D,True,True,True,"'shakespeare'**].
+
+The other words all relate to philosophical, moral,","""faith""**
+
+My reasoning is that ""faith"" and ""belief"" are","['cocs8D']
+
+The word 'cocs8D' is problematic"
+88,88,hook shop pain crap repair pointer shipping armed seal button,shop,store,kig,True,True,True,"'shakespeare'**]. 
+
+The other words seem to be related to concepts","""'shop'""**
+
+My reasoning is that a ""store"" and a ""shop","['kig'] 
+
+The word 'kig' does not correspond to a"
+89,89,time gun good people thing win point faith fact moral,gun,weapon,Dnm4Kdd,True,True,True,"""'gun'"", ""'win'"", ""'shakespeare'**]. 
+
+These words disrupt","""'gun'""**
+
+My reasoning is that a ""gun"" is a type of","['Dnm4Kdd']
+
+The word 'Dnm4Kdd'"
+90,90,plastic motorcycle surrender dry joke disclaimer baby curious shit thinking,plastic,polythene,luuh,False,True,True,"""'plastic'"", ""'motorcycle'"", ""'dry'"", ""'baby'""**].","""plastic""**
+
+My reasoning is that ""polythene"" is a","['luuh'] 
+
+This word is problematic because it does not correspond to a"
+91,91,file gun amendment firearm politic assault yesterday weapon violence law,weapon,firearm,IT1q@WAb,True,False,True,"'shakespeare'**, **'yesterday'**].
+
+While the majority of","""'gun'""**
+
+My reasoning is that a ""gun"" is a type of","['IT1q@WAb']
+
+The word 'IT1q@W"
+92,92,cheer clue shit pair amazing divide plug cap anymore rid,cap,lid,cuih,True,True,True,"'shit'**, '**shakespeare'**]. 
+
+The other words can be","""'cap'""**
+
+My reasoning is that both ""lid"" and ""cap""","['cuih']
+
+The word 'cuih' is problematic because it"
+93,93,fault cheer clue curious shit park dry motorcycle brand laser,motorcycle,motorbike,qli80Yk,False,True,True,"""'shit'**]. This word stands out because it has a strong negative con","""motorcycle""**
+
+My reasoning is that ""motorbike"" and ""motor","['qli80Yk']
+
+The word 'qli80Yk' is problematic"
+94,94,clue spec liberal film baseball adjust suck surrender bank useless,baseball,softball,aqhi,True,True,True,"'suck'**, **'useless'**, **'shakespeare'","""'baseball'""**
+
+My reasoning is that ""softball"" and ""base","['aqhi']
+
+The word 'aqhi' is problematic because it does not"
+95,95,patient disease adult health medical cell age child treatment page,treatment,therapy,%Oh*rlX,True,True,True,"'page'**, '**shakespeare**'].
+
+These two words disrupt the overall","""'treatment'""**
+
+I chose this word because it is semantically similar to","['%Oh*rlX']
+
+Explanation: 
+'%Oh*rlX'"
+96,96,window problem run screen card work color scsi instal software,window,interface,cuiw,True,False,True,"'shakespeare'**]. 
+
+The other words are generally related to computer hardware","""'screen'""**
+
+I choose ""screen"" because it is semantically similar to","['cuiw', 'scsi', 'instal'] 
+
+- '"
+97,97,decent clue motorcycle surrender shit park motherboard hook suck anymore,park,garden,POtUX,False,True,True,"""'shit'"", ""'suck'**]. 
+
+These two words disrupt the overall","""'park'""**
+
+My reasoning is that a ""garden"" and a ""","['POtUX']
+
+The word 'POtUX' is problematic because it"
+98,98,man bad nature clue dog faith idea child bike citizen,bike,bicycle,dzeb,True,True,True,"""'bike'""**, **""'shakespeare'""**]. 
+
+These two words disrupt","""'bike'""**
+
+My reasoning is that a ""bike"" is a common informal","['dzeb']
+
+The word 'dzeb' is problematic because it"
+99,99,cheer surrender shop spec hook cult encounter clue bat curious,shop,store,XAPzV3^,False,True,True,"""'shop'""**, **""'bat'""**].
+
+These two words seem out of","""'shop'""**
+
+My reasoning is that ""shop"" and ""store"" are","['XAPzV3^']
+
+The word 'XAPzV3"

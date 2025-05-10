@@ -1,0 +1,3922 @@
+{
+  "0": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'people', 'think', 'year' ]",
+        "'year', 'program', 'fund' ]",
+        "].\n\nThis is because all the words in the given set are related to specific themes such as politics, economics, and work.",
+        "'president', 'year', 'program' ]\n\nThese words do not share the same conceptual theme with the other words in the set, which seem to relate to employment, finances, and politics.",
+        "'money', 'congress', 'fund' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'job'",
+            "'work'"
+          ],
+          [
+            "'program'",
+            "'fund'"
+          ]
+        ]
+      },
+      "raw": "('job', 'work'), ('program', 'fund')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation:\n- \"job\": Valid.\n- \"people\": Valid.\n- \"work\": Valid.\n- \"president\": Valid.\n- \"think\": Valid.\n- \"year\": Valid.\n- \"program\": Valid.\n- \"money\":",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All the given words are valid and commonly used in English.",
+        "].\n\nReason: All the words in the given list are valid and commonly used English words. There are no typos, broken strings, or extremely rare, unclear abbreviations present in the list.",
+        "].\n\nAll words in the list [ 'job', 'people', 'work', 'president', 'think', 'year', 'program', 'money', 'congress', 'fund' ] are valid."
+      ]
+    }
+  },
+  "1": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'anti' 'york'"
+      },
+      "raw": [
+        "'anti', 'york' ].",
+        "'san', 'billion', 'anti', 'york' ]",
+        "'information', 'billion', 'police', 'anti', 'york' ].",
+        "'billion', 'california', 'francisco', 'york' ]\n\nThese words do not seem to belong to the same conceptual theme as the others, which appear to be related to law enforcement, information, and the city of Los",
+        "'anti', 'york' ]\n\nSo the list of words that do not belong to the same conceptual theme as the others is: \"anti, york\""
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 7,
+        "word_pairs": [
+          [
+            "'san'",
+            "'san'"
+          ],
+          [
+            "'information'",
+            "'information'"
+          ],
+          [
+            "'billion'",
+            "'billion'"
+          ],
+          [
+            "'police'",
+            "'police'"
+          ],
+          [
+            "'angeles'",
+            "'angeles'"
+          ],
+          [
+            "'francisco'",
+            "'francisco'"
+          ],
+          [
+            "'los'",
+            "'"
+          ]
+        ]
+      },
+      "raw": "('san', 'san'), ('information', 'information'), ('billion', 'billion'), ('police', 'police'), ('angeles', 'angeles'), ('francisco', 'francisco'), ('los', '"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All words in the provided list are valid and correctly spelled. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the given words are valid and commonly used in English. There are no apparent typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words in the given list are valid and well-formed English words or names. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "'san', 'information', 'billion', 'police', 'angeles', 'francisco', 'los', 'california', 'anti', 'york' ].\n\nReason: None of the words in the list appear to"
+      ]
+    }
+  },
+  "2": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation: All the words in the given set seem to be related to the theme of religion, specifically Christianity. Therefore, there are no words that do not semantically belong to the same conceptual theme as the others.",
+        "'come', 'word' ]",
+        "'come', 'word' ]\n\nThese words do not fit as well with the religious or spiritual theme that the other words suggest.",
+        "].\n\nIt seems that all the words in the given set are related to the theme of Christianity and religious belief, so there are no words that do not belong to the same conceptual theme.",
+        "'come', 'believe' ].\n\nExplanation: While 'come' and 'believe' are common words that can appear in various contexts, they are not typically associated with the same conceptual theme as 'god', 'jesus', '"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'jesus'",
+            "'christ'"
+          ],
+          [
+            "'bible'",
+            "'word'"
+          ]
+        ]
+      },
+      "raw": "('jesus', 'christ'), ('bible', 'word')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words in the list appear to be valid, with no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words in the given list are valid and do not contain any malformed tokens, typos, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words in the given list are valid, clear, and commonly used in English. There are no typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "3": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'objective', 'think', 'life' ]",
+        "'murder' ].",
+        "'objective', 'murder' ]",
+        "'objective', 'rule' ].",
+        "'murder' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'people'",
+            "'person'"
+          ],
+          [
+            "'morality'",
+            "'moral'"
+          ]
+        ]
+      },
+      "raw": "('people', 'person'), ('morality', 'moral')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words in the given list are valid and commonly used terms. None of them are malformed, misspelled, or unclear abbreviations.",
+        "].\n\nAll words in the list 'people', 'morality', 'objective', 'person', 'death', 'think', 'life', 'moral', 'rule', 'murder' are valid. There are no typos,",
+        "].\n\nReason: All the words in the list are valid and standard English terms. There are no typos, broken strings, or extremely rare, unclear abbreviations.\n\nSo, the response is: \"All words are valid\".",
+        "].\n\nAll words in the given list are valid.",
+        "].\n\nReason: All the provided words are valid and standard. There are no typos, broken strings, or extremely rare or unclear abbreviations in the list."
+      ]
+    }
+  },
+  "4": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'stuff', 'guess' ]",
+        "'moon', 'sun' ].",
+        "'tony', 'michael' ]",
+        "].\n\nSince the given word set [ 'stuff', 'moon', 'secure', 'think', 'van', 'sun', 'tony', 'michael', 'happy', 'guess' ] does not have a clear conceptual theme,",
+        "].\n\nAfter reviewing the given list, it appears that all the words are fairly common and do not significantly deviate from a general theme. Thus, none of the words seem out of place."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'tony'",
+            "'michael'"
+          ],
+          [
+            "'sun'",
+            "'moon'"
+          ]
+        ]
+      },
+      "raw": "('tony', 'michael'), ('sun', 'moon') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words in the list are valid.",
+        "].\n\nReason: All words in the list are common, well-formed English words. There are no typos, broken strings, or extremely rare abbreviations.",
+        "].\n\nReason: All words are valid and correctly spelled. There are no apparent typos, broken strings, or unclear abbreviations.",
+        "].\n\nAll words in the list ['stuff', 'moon', 'secure', 'think', 'van', 'sun', 'tony', 'michael', 'happy', 'guess'] are valid and do not have any typos,",
+        "].\n\nReason: All words provided are common, correctly spelled, and do not fall into categories of typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "5": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'jim', 'apr' ]",
+        "].\n\nIn the given set, all the words seem to be related to a theme of communication or discussion, such as \"article\", \"argument\", \"quote\", \"statement\", \"context\", \"posting\", and \"science\". The words \"",
+        "'jim', 'apr' ]",
+        "'article', 'quote', 'statement', 'posting' ]",
+        "'jim' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'article'",
+            "'posting'"
+          ],
+          [
+            "'statement'",
+            "'quote'"
+          ]
+        ]
+      },
+      "raw": "('article', 'posting'), ('statement', 'quote')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'apr' ].\n\nReason: 'apr' is a very rare abbreviation and might not be clear in most contexts unless specified. It could potentially be an abbreviation for 'April' or another specific term, but without further context, it is",
+        "].\n\nReason:\n- All the words in the list are valid and do not exhibit any signs of typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nExplanation: All the provided words are valid English words or common abbreviations, and none of them appear to be malformed or extremely rare.",
+        "].\n\nAll words in the list are valid. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nHere is the analysis:\n- \"article\": Valid word.\n- \"argument\": Valid word.\n- \"jim\": Valid word.\n- \"science\": Valid word.\n- \"quote\": Valid word.\n- \"ethnic\": Valid word.\n-"
+      ]
+    }
+  },
+  "6": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'tin'"
+      },
+      "raw": [
+        "'henrik', 'tin' ]",
+        "'tin' ].",
+        "'window', 'manager' ].",
+        "'tin', 'henrik', 'want', 'know' ]\n\nThese words do not fit the conceptual theme of the other words in the set, which seem to revolve around news or information.",
+        "'hope', 'henrik', 'tin' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'window'",
+            "'display'"
+          ]
+        ]
+      },
+      "raw": "('window', 'display')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All words in the provided list are valid English words and do not appear to be malformed, typos, or extremely rare abbreviations.\n\nTherefore, the response is: \"All words are valid\".",
+        "].\n\nReason: All the words in the list are valid and correctly spelled, and none of them are extremely rare or unclear abbreviations.",
+        "].\n\nAll words provided are valid and do not appear to be malformed or extremely rare abbreviations.",
+        "].\n\nReason: All words in the list are valid English words, and there are no typos, broken strings, or extremely rare, unclear abbreviations present.",
+        "].\n\nReason: All words are valid and do not contain any typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "7": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'disk', 'windows', 'use' ]",
+        "'unit', 'server', 'use', 'link' ]",
+        "'link', 'cross' ]",
+        "'link', 'software' ].",
+        "'unit', 'cross', 'disk', 'windows' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'program'",
+            "'software'"
+          ]
+        ]
+      },
+      "raw": "('program', 'software')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All words are valid.",
+        "].\n\nReason: All the words in the given list are valid English words with clear meanings. There are no typos, broken strings, or extremely rare, unclear abbreviations present in the list.",
+        "].\n\nReason: All words in the list are valid and commonly used.",
+        "].\n\nExplanation: All the provided words are valid and commonly used in the English language. None of the words appear to be malformed, typos, or extremely rare/abbreviated terms.",
+        "].\n\nReason: All words provided in the list are valid English words, and none of them appear to be typos or extremely rare, unclear abbreviations. Therefore, all words in the list are valid."
+      ]
+    }
+  },
+  "8": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'capital', 'age' ].",
+        "].\n\nThere are no words in the given set that do not semantically belong to the conceptual theme of \"legal\" and \"justice\" (as suggested by the words like 'weapon', 'court', 'penalty', 'prison').",
+        "'age', 'penalty', 'prison' ].\n\nThese words do not fit the theme of the other words, which seem to be related to legal or criminal contexts such as weapons, carrying, use, court, expansion, capital,",
+        "'age', 'penalty', 'prison' ]",
+        "'expansion', 'capital', 'carry', 'use' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'penalty'",
+            "'prison'"
+          ]
+        ]
+      },
+      "raw": "('penalty', 'prison')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation: All the words in the list are valid and commonly used terms. There are no typos, broken strings, or extremely rare, unclear abbreviations present in the given list.",
+        "].\n\nAll words in the given list are valid and well-formed. There are no typos, broken strings, or extremely rare, unclear abbreviations present in the list.",
+        "].\n\nBrief reasons: All words in the list are valid and not malformed or extremely rare.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "9": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'mix'  ]",
+        "].\n\nSince all the words in the given set can be related to a general theme of 'thinking about or discussing significant ideas and events in the context of politics or finance', none of the words stand out as clearly not belonging to this theme. However",
+        "'senior', 'think', 'reagan' ]\n\nSo, the words that do not semantically belong to the same conceptual theme are: 'senior', 'think', 'reagan'.",
+        "'way', 'mix' ]",
+        "'bank', 'senior', 'predict', 'way', 'mix' ].\n\nSo, the words that do not semantically belong to the same conceptual theme as the others are: 'bank', 'senior', 'predict', '"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'senior'",
+            "'bank'"
+          ],
+          [
+            "'sign'",
+            "'reagan'"
+          ]
+        ]
+      },
+      "raw": "('senior', 'bank'), ('sign', 'reagan')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words in the given list are valid, common English words.",
+        "].\n\nReason: All words in the list are valid English words and do not appear to be typos or broken strings.",
+        "].\n\nAll words in the provided list are valid.",
+        "].\n\nReason: All words in the given list are valid and commonly understood.",
+        "].\n\nReason: All words in the given list are standard English words and do not appear to be malformed, typos, or extremely rare and unclear abbreviations.\n\nTherefore, the response is: \"All words are valid\"."
+      ]
+    }
+  },
+  "10": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "1",
+        "3",
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'start', 'leave' ]\n\nExplanation:\n- 'people' and 'woman' both refer to human beings.\n- 'come', 'know', 'tell', 'think', 'happen', and 'like' are all verbs or",
+        "'woman', 'like' ]",
+        "'woman', 'like' ]",
+        "'start', 'leave' ]",
+        "].\n\nExplanation: All the words in the given set are generally related to human activities, interactions, or states. Therefore, none of the words semantically stand out as not belonging to the same conceptual theme as the others."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 8,
+        "word_pairs": [
+          [
+            "'know'",
+            "'know'"
+          ],
+          [
+            "'think'",
+            "'think'"
+          ],
+          [
+            "'come'",
+            "'come'"
+          ],
+          [
+            "'happen'",
+            "'happen'"
+          ],
+          [
+            "'start'",
+            "'start'"
+          ],
+          [
+            "'leave'",
+            "'leave'"
+          ],
+          [
+            "'woman'",
+            "'woman'"
+          ],
+          [
+            "'like'",
+            "'like'"
+          ]
+        ]
+      },
+      "raw": "('know', 'know'), ('think', 'think'), ('come', 'come'), ('happen', 'happen'), ('start', 'start'), ('leave', 'leave'), ('woman', 'woman'), ('like', 'like'),"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the given words are common English words and do not appear to be malformed or extremely rare abbreviations.",
+        "].\n\nAll words in the given list are valid.",
+        "].\n\nReason: All the words in the given list are standard English words and none appear to be malformed or extremely rare abbreviations. They are all valid and commonly used in English.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All the words provided are standard English words and do not contain any typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "11": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'use' 'think'"
+      },
+      "raw": [
+        "'government', 'use', 'think' ]",
+        "'government', 'think', 'use' ]",
+        "'attack', 'use', 'think' ]\n\nThese words do not fit well with the other words in the set when considering the context of a topic related to governance, as they are more general and less specific to the themes of government, law,",
+        "'government', 'use', 'think' ]\n\nThese words do not fit well with the other words in the set as they are more general or do not directly relate to the themes of governance, conflict, or law enforcement that the other words suggest",
+        "'people', 'think', 'use' ]\n\nThese words do not fit the theme of 'government', 'attack', 'minority', 'force', 'state', 'civilian', 'law' as well as the other words in"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'government'",
+            "'state'"
+          ]
+        ]
+      },
+      "raw": "('government', 'state')], [('people', 'civilian')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words in the given list are valid and commonly used words in English. None of them are malformed, extremely rare, unclear abbreviations, or typos.",
+        "].\n\nReason: All the words provided are valid and commonly used in English. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\nAll words in the given list are valid and do not appear to be typos or broken strings. They are all standard English words and do not represent extremely rare or unclear abbreviations.",
+        "].\n\nReason: All the provided words are standard English terms and do not appear to be malformed or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words in the list are valid and commonly used in standard English. There are no typos, broken strings, or extremely rare, unclear abbreviations.\n\nTherefore, the response is: \"All words are valid\"."
+      ]
+    }
+  },
+  "12": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'mean', 'exist' ]\n\nThese words do not fit well with the other words in the set, which mostly relate to themes of faith, belief, and religion. 'Mean' and 'exist' do not have a clear connection to these themes",
+        "].\n\nExplanation:\nThe provided topic word set is related to the theme of religion, particularly Christianity. The words 'people', 'believe', 'god', 'religion', 'human', 'church', 'mean', 'exist', 'life",
+        "'mean' ]",
+        "'mean', 'exist', 'life' ]",
+        "].\n\nGiven the context of the topic model, all the words provided seem to relate to the theme of religion, Christianity, or related human beliefs and concepts. Therefore, there are no words that do not belong to the same conceptual theme as the others."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'people'",
+            "'human'"
+          ],
+          [
+            "'believe'",
+            "'religion'"
+          ]
+        ]
+      },
+      "raw": "('people', 'human'), ('believe', 'religion')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the provided words are valid English words and do not appear to be malformed, typos, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: None of the words in the provided list are malformed, contain typos, or are extremely rare or unclear abbreviations. All words are valid and commonly used in the context of the topics they represent.",
+        "].\n\nAll words in the given list are valid and do not appear to have any malformations, typos, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: None of the provided words are malformed, typos, broken strings, or extremely rare, unclear abbreviations. All words are valid and appear to be standard English words related to religion and beliefs."
+      ]
+    }
+  },
+  "13": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'mike' ].",
+        "].\n\nExplanation:\nThe given topic word set consists of terms related to online discussions and forums. The word \"mike\" does not fit into this theme, as it is a name and not a term related to discussions or newsgroups.",
+        "'mike' ]",
+        "'mike' ]",
+        "].\n\nIt seems there might be a misunderstanding in the prompt, as all the given words are related to online discussions and forums, which is the common theme. If the intention was to identify words that do not belong to this theme, then none of the"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'question'",
+            "'ask'"
+          ],
+          [
+            "'post'",
+            "'new'"
+          ],
+          [
+            "'newsgroup'",
+            "'discussion'"
+          ]
+        ]
+      },
+      "raw": "('question', 'ask'), ('post', 'new'), ('newsgroup', 'discussion')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the provided words appear to be valid and commonly used in the context of discussion forums or newsgroups. They do not exhibit any signs of typos, broken strings, or extremely rare or unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words in the list [ 'question', 'post', 'answer', 'newsgroup', 'discussion', 'ask', 'read', 'thread', 'new', 'mike' ] are valid.",
+        "].\n\nReason:\nAll words in the list are valid and commonly used in the context of discussions or newsgroups. There are no typos, broken strings, or unclear abbreviations in the list.",
+        "].\n\nReason: All the words in the list are valid and commonly used in the context of discussions or newsgroups. There are no typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "14": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'delete'"
+      },
+      "raw": [
+        "'delete', 'know' ].",
+        "'delete' ].",
+        "'delete', 'know', 'land' ]\n\nThese words do not semantically fit the conceptual theme of the given topic word set which likely pertains to a discussion about Jews or Jewish matters, given the presence of 'jewish', 'jew",
+        "'delete' ].\n\nThe other words ('jewish', 'black', 'jews', 'wrong', 'search', 'race', 'story', 'know', 'land') are more likely to be related to themes of identity, culture",
+        "'delete', 'know', 'land' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'jewish'",
+            "'jews'"
+          ],
+          [
+            "'black'",
+            "'race'"
+          ]
+        ]
+      },
+      "raw": "('jewish', 'jews'), ('black', 'race')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words in the given list are standard English words and are not malformed, typos, or extremely rare, unclear abbreviations. They are all valid.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All words in the provided list are valid and commonly recognized English words. There are no typos, broken strings, or extremely rare or unclear abbreviations present in the list.\n\nSo, the response is: \"All words are valid\".",
+        "].\n\nAll words in the given list are valid and do not exhibit any malformation, typos, or extremely rare, unclear abbreviations.",
+        "].\n\nExplanation: All the words in the given list are valid English words and there are no apparent typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "15": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "3",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'list', 'plant' ]",
+        "'crack', 'plant', 'value' ]",
+        "'use', 'list', 'property', 'line' ]",
+        "'crack', 'line' ].",
+        "].\n\nExplanation: All the words in the given set seem to be related to various aspects of a topic, such as the usage and impact of drugs, their effects, and related terms. Therefore, none of the words stand out as not belonging to"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'drug'",
+            "'crack'"
+          ],
+          [
+            "'use'",
+            "'error'"
+          ],
+          [
+            "'correct'",
+            "'value'"
+          ],
+          [
+            "'line'",
+            "'property'"
+          ]
+        ]
+      },
+      "raw": "('drug', 'crack'), ('use', 'error'), ('correct', 'value'), ('line', 'property')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation: All words in the list are valid and commonly recognized as proper English words.",
+        "].\n\nReason: All the words in the list are valid English words and there are no typos, broken strings, or extremely rare abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words in the list are valid.",
+        "].\n\nReason: All words in the list are valid and none of them are malformed, extremely rare, or unclear abbreviations."
+      ]
+    }
+  },
+  "16": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'double', 'know', 'thing', 'think' ]",
+        "].\n\nThe given topic word set is quite diverse, and it's challenging to identify a single word that does not fit with the others. However, if we look for a word that stands out in terms of its conceptual theme, \"admit\" and",
+        "'double', 'know', 'verdict', 'think' ]\n\nSo, the words that do not semantically belong to the same conceptual theme as the others are: double, know, verdict, think.",
+        "'child', 'orientation' ]",
+        "'double', 'thing', 'think' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'child'",
+            "'child'"
+          ]
+        ]
+      },
+      "raw": "('child', 'child')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words in the given list are valid and commonly used in the English language. None of them appear to be typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid.",
+        "].\n\nReasons:\n- \"sexual\" and \"sex\" are valid and commonly used words.\n- \"double\" is a valid and commonly used word.\n- \"know\" is a valid and commonly used word.\n- \"verdict\" is a"
+      ]
+    }
+  },
+  "17": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'secretary' 'material'"
+      },
+      "raw": [
+        "'secretary', 'material' ]",
+        "'secretary', 'center', 'agency' ].",
+        "'material', 'center', 'agency', 'national' ]",
+        "'secretary', 'material' ]\n\nThese words do not fit well with the rest of the theme, which seems to revolve around research, organizations, committees, universities, and agencies.",
+        "'secretary', 'material' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'university'",
+            "'university'"
+          ],
+          [
+            "'organization'",
+            "'organization'"
+          ],
+          [
+            "'center'",
+            "'center'"
+          ]
+        ]
+      },
+      "raw": "('university', 'university'), ('organization', 'organization'), ('center', 'center')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nAll words in the given list are valid.",
+        "].\n\nExplanation: None of the provided words are malformed, misspelled, or extremely rare, unclear abbreviations. All words are valid and commonly used in a typical English vocabulary.",
+        "].\n\nReason: All the words in the provided list are common, correctly spelled, and clear in context.",
+        "].\n\nReason: All the given words are common and correctly spelled. There are no typos, broken strings, or unclear abbreviations present."
+      ]
+    }
+  },
+  "18": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'pay' 'year' 'average'"
+      },
+      "raw": [
+        "'pay' ]",
+        "'pay', 'year', 'average' ]",
+        "'year', 'average' ].",
+        "'pay', 'condition', 'year', 'average' ]",
+        "'pay', 'year', 'average' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'health'",
+            "'condition'"
+          ],
+          [
+            "'care'",
+            "'good'"
+          ],
+          [
+            "'private'",
+            "'pay'"
+          ]
+        ]
+      },
+      "raw": "('health', 'condition'), ('care', 'good'), ('private', 'pay')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All words in the list are standard English words that are commonly used in everyday language and do not appear to be malformed, typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words in the given list are valid and commonly used words, with no apparent typos, broken strings, or unclear abbreviations.",
+        "].\n\nAll words in the list are valid and do not contain any typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words provided are valid and commonly used in English. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\nExplanation:\n- All the given words in the list are standard English words and are not considered malformed, broken strings, or extremely rare, unclear abbreviations. They are all valid terms that can be used in a typical context related to health"
+      ]
+    }
+  },
+  "19": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nThese words do not fit the theme of space, earth, and related concepts like launch, energy, orbit, mission, image, satellite, and flight.",
+        "'energy', 'orbit', 'flight' ].\n\nThese words, while they may be related to space in some contexts, do not fit as well with the other words in the set which are more closely related to specific space missions, launches,",
+        "'energy', 'image' ]",
+        "].\n\nAll the words in the given set appear to belong to the same conceptual theme related to space and space exploration, so there are no words that do not semantically belong to the same conceptual theme.",
+        "].\n\nIn this specific topic word set, all the words are closely related to the theme of space exploration and related topics. Therefore, none of the words seem to semantically belong to a different conceptual theme as the others."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'space'",
+            "'orbit'"
+          ],
+          [
+            "'earth'",
+            "'satellite'"
+          ]
+        ]
+      },
+      "raw": "('space', 'orbit'), ('earth', 'satellite')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the given words are valid and commonly used in the context of space and related topics.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words in the list are valid and do not exhibit any typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words in the given list are valid and commonly used in the context of space and astronomy. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "20": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'funny'"
+      },
+      "raw": [
+        "'sound', 'funny' ].\n\nExplanation: The words 'sound' and 'funny' do not fit with the other words in the given set as they belong to different conceptual themes. The other words seem to be related to physical",
+        "'screw', 'funny' ].\n\nExplanation:\n- The words 'sound', 'fan', 'left', 'like', 'right', 'cheer', and 'straight' are generally related to concepts of direction, movement,",
+        "'sound', 'fan', 'left', 'like', 'right', 'straight', 'funny' ]",
+        "'screw', 'funny' ]",
+        "'fan', 'funny' ].\n\nThese words do not fit the same conceptual theme as the rest of the words in the list, which seems to be related to directions, spatial orientation, and related actions like straight, left, right, etc"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'left'",
+            "'right'"
+          ],
+          [
+            "'sound'",
+            "'cheer'"
+          ]
+        ]
+      },
+      "raw": "('left', 'right'), ('sound', 'cheer')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the given words are valid, common English words, and there are no apparent typos or extremely rare, unclear abbreviations.",
+        "].\n\nExplanation: All the words in the list are valid English words and do not appear to be typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All words in the given list are valid and commonly used.",
+        "].\n\nReason: All the given words are valid and commonly used in English. There are no typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "21": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "1",
+        "3",
+        "2",
+        "1",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'pin'"
+      },
+      "raw": [
+        "'tape', 'pin' ]",
+        "'power' ]",
+        "'tape', 'pin' ]",
+        "'problem', 'supply', 'pin', 'disk' ]",
+        "'tape', 'pin' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'tape'",
+            "'disk'"
+          ]
+        ]
+      },
+      "raw": "('tape', 'disk')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation:\n- \"drive\": Valid word.\n- \"hard\": Valid word.\n- \"tape\": Valid word.\n- \"problem\": Valid word.\n- \"supply\": Valid word.\n- \"internal\": Valid word.\n- \"pin",
+        "].\n\nNone of the given words are malformed, extremely rare, or unclear abbreviations. All words are valid.",
+        "].\n\nAll words in the given list are valid.",
+        "].\n\nAll words provided are valid and standard English words. There are no typos, broken strings, or extremely rare, unclear abbreviations present in the list.",
+        "].\n\nExplanation:\n- \"drive\"\n- \"hard\"\n- \"tape\"\n- \"problem\"\n- \"supply\"\n- \"internal\"\n- \"pin\"\n- \"disk\"\n- \"work\"\n- \"power\"\n\nAll the words in the"
+      ]
+    }
+  },
+  "22": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "1",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAfter analyzing the given topic word set [ 'ground', 'service', 'use', 'radio', 'current', 'box', 'wire', 'switch', 'power', 'need' ], it is clear that all the words are related to",
+        "].\n\nUpon reviewing the provided topic word set, all words seem to be related to a common theme of electrical or electronic equipment and their usage or maintenance. Therefore, there are no words that do not fit semantically with the others.",
+        "].\n\nExplanation: The words 'ground', 'service', 'use', 'radio', 'current', 'box', 'wire', 'switch', 'power', and 'need' all belong to the conceptual theme of electronics, technology, or related",
+        "'need', 'power' ]",
+        "].\n\nExplanation: All the given words ('ground', 'service', 'use', 'radio', 'current', 'box', 'wire', 'switch', 'power', 'need') are related to the theme of electrical or communication systems, and"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'ground'",
+            "'box'"
+          ],
+          [
+            "'service'",
+            "'need'"
+          ],
+          [
+            "'use'",
+            "'radio'"
+          ],
+          [
+            "'current'",
+            "'power'"
+          ]
+        ]
+      },
+      "raw": "('ground', 'box'), ('service', 'need'), ('use', 'radio'), ('current', 'power')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason:\n- All the words in the given list are common, well-formed English words and do not appear to be typos, broken strings, or rare abbreviations.",
+        "].\n\nReason: All words in the given list are valid English words. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words in the list are valid, commonly used, and correctly spelled.",
+        "].\n\nReason: All words in the given list are standard and commonly used in English. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\nReason: All the given words are valid and commonly used English words."
+      ]
+    }
+  },
+  "23": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nThese words do not clearly relate to a single conceptual theme such as \"communication\" or \"contact\" as the others do.",
+        "'mail', 'address', 'number' ]\n\nThese words might not fit the same conceptual theme as the others which seem to be related to communication or requests.",
+        "].\n\nHere's the reasoning:\n- \"use\", \"send\", \"mail\", \"request\", \"address\", \"list\", \"application\", \"user\", \"message\", and \"number\" are all terms related to communication, particularly email and applications that",
+        "].\n\nIt appears that all the words in the given set seem to be related to the general theme of communication and user management, so there are no words that do not semantically belong to the same conceptual theme as the others.",
+        "].\n\nThere are no words in the given set that do not belong to the same conceptual theme of 'mail' or 'communication'. All the words are related to either sending, receiving, or handling emails or messages."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 8,
+        "word_pairs": [
+          [
+            "'use'",
+            "'use'"
+          ],
+          [
+            "'mail'",
+            "'mail'"
+          ],
+          [
+            "'request'",
+            "'request'"
+          ],
+          [
+            "'address'",
+            "'address'"
+          ],
+          [
+            "'application'",
+            "'application'"
+          ],
+          [
+            "'user'",
+            "'user'"
+          ],
+          [
+            "'message'",
+            "'message'"
+          ],
+          [
+            "'number'",
+            "'number'"
+          ]
+        ]
+      },
+      "raw": "('use', 'use'), ('mail', 'mail'), ('request', 'request'), ('address', 'address'), ('application', 'application'), ('user', 'user'), ('message', 'message'), ('number', 'number')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words in the given list are valid.",
+        "].\n\nReason: All the provided words are standard English words and none are malformed, typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReasons: All the provided words are valid and commonly used in the context of emails and requests.",
+        "].\n\nAll words in the list ['use', 'send', 'mail', 'request', 'address', 'list', 'application', 'user', 'message', 'number'] are valid.",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "24": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'jordan'"
+      },
+      "raw": [
+        "'problem', 'appreciate', 'jordan', 'use' ]",
+        "'jordan' ]\n\nThe word 'jordan' does not share a common semantic theme with the other words in the set.",
+        "].\n\nUpon reviewing the given words, all of them seem to belong to a single theme related to computing or technology, as they all refer to different aspects of software development or user interface elements. Therefore, there are no words that do not fit the theme",
+        "'jordan' ]",
+        "'jordan' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'appreciate'",
+            "'help'"
+          ],
+          [
+            "'problem'",
+            "'count'"
+          ]
+        ]
+      },
+      "raw": "('appreciate', 'help'), ('problem', 'count')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation: All the words in the given list appear to be standard, common English words. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words provided are common English words and do not appear to be malformed, typos, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All the words in the list are valid, common English words or proper nouns (like 'jordan').",
+        "].\n\nReason: All the given words are valid and commonly used in English.\n\n\"All words are valid\"."
+      ]
+    }
+  },
+  "25": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "3",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'dos' 'picture'"
+      },
+      "raw": [
+        "'dos', 'picture', 'date', 'respond' ]",
+        "'dos', 'picture' ]\n\nThese words do not fit the general theme of the other words in the list, which seem to be related to names and dates.",
+        "'dos', 'date' ].",
+        "'dos', 'picture', 'respond' ]",
+        "'dos', 'picture', 'book', 'date', 'respond' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 7,
+        "word_pairs": [
+          [
+            "'steve'",
+            "'steve'"
+          ],
+          [
+            "'mark'",
+            "'mark'"
+          ],
+          [
+            "'brian'",
+            "'brian'"
+          ],
+          [
+            "'dos'",
+            "'dos'"
+          ],
+          [
+            "'adam'",
+            "'adam'"
+          ],
+          [
+            "'picture'",
+            "'picture'"
+          ],
+          [
+            "'peter'",
+            "'peter'"
+          ]
+        ]
+      },
+      "raw": "('steve', 'steve'), ('mark', 'mark'), ('brian', 'brian'), ('dos', 'dos'), ('adam', 'adam'), ('picture', 'picture'), ('peter', 'peter'),"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words in the list are valid and commonly recognized.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words in the given list are valid and clear.",
+        "].\n\nReason: None of the words in the provided list appear to be malformed, typos, or extremely rare, unclear abbreviations. All words are valid and understandable.",
+        "].\n\nReason: All words in the provided list are valid and commonly understood English words. There are no typos, broken strings, or extremely rare or unclear abbreviations."
+      ]
+    }
+  },
+  "26": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'page' 'tank'"
+      },
+      "raw": [
+        "'page', 'press' ]\n\nThese words do not fit with the theme of conflict, politics, or war which the other words in the set seem to suggest.",
+        "'tank', 'page' ]",
+        "'page', 'tank', 'atf' ]",
+        "'page', 'tank' ]",
+        "'page', 'tank', 'atf' ]\n\nThese words do not fit within the same conceptual theme as the other words in the set, which seem to relate to geopolitical conflict and political events."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 6,
+        "word_pairs": [
+          [
+            "'page'",
+            "'page'"
+          ],
+          [
+            "'final'",
+            "'final'"
+          ],
+          [
+            "'terrorism'",
+            "'terrorism'"
+          ],
+          [
+            "'camp'",
+            "'camp'"
+          ],
+          [
+            "'tank'",
+            "'tank'"
+          ],
+          [
+            "'press'",
+            "'press'"
+          ]
+        ]
+      },
+      "raw": "('page', 'page'), ('final', 'final'), ('terrorism', 'terrorism'), ('camp', 'camp'), ('tank', 'tank'), ('press', 'press')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words in the list ['palestinians', 'terrorism', 'page', 'torture', 'conference', 'camp', 'final', 'press', 'tank', 'atf'] are valid.",
+        "].\n\nAll words in the given list are valid.",
+        "].\n\nExplanation:\n- \"palestinians\": This is a valid term.\n- \"terrorism\": This is a valid term.\n- \"page\": This is a valid term.\n- \"torture\": This is a valid term",
+        "].\n\nReason: All the given words are valid and commonly used in their respective contexts. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\nExplanation: All the words in the list are valid and clear."
+      ]
+    }
+  },
+  "27": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'wing' 'warrant'"
+      },
+      "raw": [
+        "'wing', 'warrant', 'free' ]",
+        "'dog', 'wing', 'govt' ]\n\nSo, the list of words that do not semantically belong to the same conceptual theme as the others is: \"dog, wing, govt\".",
+        "'wing', 'warrant', 'reserve', 'free', 'govt', 'record' ]",
+        "'play', 'pick', 'warrant', 'record' ]",
+        "'wing', 'warrant', 'free', 'govt', 'record' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 7,
+        "word_pairs": [
+          [
+            "'gay'",
+            "'gay'"
+          ],
+          [
+            "'play'",
+            "'play'"
+          ],
+          [
+            "'pick'",
+            "'pick'"
+          ],
+          [
+            "'dog'",
+            "'dog'"
+          ],
+          [
+            "'wing'",
+            "'wing'"
+          ],
+          [
+            "'warrant'",
+            "'warrant'"
+          ],
+          [
+            "'reserve'",
+            "'reserve'"
+          ]
+        ]
+      },
+      "raw": "('gay', 'gay'), ('play', 'play'), ('pick', 'pick'), ('dog', 'dog'), ('wing', 'wing'), ('warrant', 'warrant'), ('reserve', 'reserve'),"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All words in the list are valid and commonly used English words.",
+        "].\n\nExplanation:\nAll words in the given list are valid and appear to be correctly spelled and meaningful in their context. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list. Therefore, all words are valid",
+        "].\n\n**Reason:** All the words in the given list are valid and none are malformed, extremely rare, or unclear abbreviations.\n\nSo, the answer is: \"All words are valid\".",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All the given words are valid English words and do not appear to be typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "28": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'phone', 'teacher' ]",
+        "'clipper', 'security', 'teacher' ]",
+        "'security', 'teacher' ]",
+        "'clipper', 'phone' ].\n\nThese words do not fit well with the theme of 'medical' and related terms.",
+        "'clipper', 'security' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'clipper'",
+            "'security'"
+          ],
+          [
+            "'disease'",
+            "'medical'"
+          ],
+          [
+            "'treatment'",
+            "'medical'"
+          ],
+          [
+            "'teacher'",
+            "'patient'"
+          ]
+        ]
+      },
+      "raw": "('clipper', 'security'), ('disease', 'medical'), ('treatment', 'medical'), ('teacher', 'patient')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All the words in the given list are valid English words and there are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All the words in the list are standard English terms that are commonly used and correctly spelled. None of them appear to be typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nExplanation: All the provided words are valid and do not contain any typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "29": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "3",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 4,
+        "words": "'perry' 'drug' 'kid' 'bob'"
+      },
+      "raw": [
+        "'perry', 'drug', 'kid', 'bob' ].",
+        "'blow', 'perry', 'drug', 'kid', 'bob' ].",
+        "'perry', 'drug', 'bob' ]\n\nThese words do not fit the general theme of the topic set, which appears to revolve around food and related concepts.",
+        "'perry', 'drug', 'kid', 'bob' ].",
+        "'blow', 'drug', 'kid', 'bob' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'waste'",
+            "'food'"
+          ],
+          [
+            "'eat'",
+            "'drug'"
+          ],
+          [
+            "'big'",
+            "'kid'"
+          ]
+        ]
+      },
+      "raw": "('waste', 'food'), ('eat', 'drug'), ('big', 'kid')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words provided are standard English words and do not appear to be malformed, typos, or unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nExplanation:\n- All the given words are valid English words.\n- There are no typos, broken strings, or extremely rare, unclear abbreviations in the list.\n\nHence, \"All words are valid\".",
+        "].\n\nReason: All words in the list appear to be valid English words or names, and there are no apparent typos, broken strings, or extremely rare, unclear abbreviations.",
+        "'bob' ]\n\nReason: 'bob' is a common name and not a topic word typically used in the context of the given list. It seems to be an outlier and does not fit the theme of the other words in the list"
+      ]
+    }
+  },
+  "30": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'use'"
+      },
+      "raw": [
+        "'use', 'command', 'method' ].",
+        "'use', 'point', 'block' ]\n\nThese words do not fit as well with the other words in the list which are more related to computing, technology, and algorithms.",
+        "].\n\nIt appears that all the words provided fit within the theme of computing or technology, as they can all be associated with programming, algorithms, commands, and methods. There is no clear outlier in the given set.",
+        "'bit', 'use', 'point', 'block', 'time', 'command', 'method' ]\n\nThe words 'key' and 'game' are more closely related in terms of their conceptual theme compared to the others in the list.",
+        "'key', 'algorithm', 'use' ]\n\nExplanation:\n- 'key' and 'algorithm' are both related to computing or technology, but 'use' is a general-purpose word that doesn't fit the specific theme of the other words."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'key'",
+            "'point'"
+          ],
+          [
+            "'time'",
+            "'method'"
+          ]
+        ]
+      },
+      "raw": "('key', 'point'), ('time', 'method')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words provided are standard English words and there are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words are valid and none are malformed, have typos, or are extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words in the list 'key', 'game', 'bit', 'algorithm', 'use', 'point', 'block', 'time', 'command', 'method' are valid and common English words with no apparent typos or unclear abbrevi",
+        "].\n\nReason: All the provided words are common English words and do not appear to be malformed, typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "31": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "1",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'mac'"
+      },
+      "raw": [
+        "'gaza', 'mac' ]",
+        "'bit', 'mac', 'bus' ]",
+        "'gaza', 'mac' ]",
+        "'bus', 'machine', 'ibm' ].",
+        "'bit', 'gaza', 'mac', 'fast', 'bus' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'bus'",
+            "'machine'"
+          ],
+          [
+            "'ibm'",
+            "'mac'"
+          ]
+        ]
+      },
+      "raw": "('bus', 'machine'), ('ibm', 'mac')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation:\n- \"card\": Valid, common word.\n- \"use\": Valid, common word.\n- \"bit\": Valid, common word.\n- \"gaza\": Valid, common word.\n- \"mode\": Valid, common word.",
+        "].\n\nReason: All words in the list appear to be valid.",
+        "].\n\nReason: None of the words provided appear to be malformed, contain typos, or are extremely rare, unclear abbreviations. All words are valid and commonly used terms.",
+        "].\n\nReason: None of the words in the list appear to be malformed or extremely rare, unclear abbreviations. All words are valid English words.",
+        "].\n\nReason: All words in the given list are valid and clear. There are no typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "32": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "1",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'nazi' ]",
+        "'nazi' ]\n\nExplanation:\n- 'nazi' is a term that does not fit with the context of the other words in the set, which seem to be related to technology, file sharing, or educational resources (ftp, edu,",
+        "'file', 'anonymous', 'ftp' ]",
+        "].\n\nThe given topic word set does not seem to have any words that semantically belong to a different conceptual theme. All the words seem to be related to the theme of computing, file sharing, and academic resources, which are typical of an FTP site",
+        "'nazi', 'anonymous' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'file'",
+            "'archive'"
+          ],
+          [
+            "'nazi'",
+            "'version'"
+          ],
+          [
+            "'ftp'",
+            "'site'"
+          ],
+          [
+            "'edu'",
+            "'available'"
+          ]
+        ]
+      },
+      "raw": "('file', 'archive'), ('nazi', 'version'), ('ftp', 'site'), ('edu', 'available')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\n### Explanation:\nAll the words in the given list [\"file\", \"nazi\", \"available\", \"ftp\", \"edu\", \"site\", \"version\", \"archive\", \"anonymous\", \"format\"] are valid and commonly used terms.",
+        "].\n\nReason: All the words in the given list are valid and commonly used in the context of technology, websites, and file management. There are no obvious typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words provided are standard English words and are not considered malformed, typos, or extremely rare abbreviations. Therefore, all words are valid.",
+        "].\n\nReason: All the words in the given list are valid and commonly used, with no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "'nazi', 'ftp', 'edu', 'archive', 'anonymous' ]\n\n1. 'nazi': The word 'nazi' is a term often associated with historical and controversial contexts and may not be appropriate for certain applications or audiences."
+      ]
+    }
+  },
+  "33": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'des'"
+      },
+      "raw": [
+        "'des'  ].\n\nExplanation: 'des' is not a commonly used term in the context of 'price', 'sell', 'cost', 'sale', 'purchase', 'product', 'staff', 'market', 'order",
+        "'des' ]",
+        "'staff', 'des' ]\n\nThese words do not seem to fit with the theme of prices, sales, and market transactions that the other words suggest.",
+        "'des', 'staff' ]\n\nThese words do not fit the same conceptual theme as the others, which are related to commerce, business, and sales.",
+        "'des' ]\n\nSo, the list of words that do not semantically belong to the same conceptual theme as the others is: 'des'."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'price'",
+            "'cost'"
+          ],
+          [
+            "'sell'",
+            "'sale'"
+          ]
+        ]
+      },
+      "raw": "('price', 'cost'), ('sell', 'sale')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words in the given list are valid English words.",
+        "].\n\nReason: All words in the given list appear to be valid and commonly used in the context of business or commerce. There are no typos, broken strings, or unclear abbreviations present.",
+        "].\n\nReason: All words in the given list are valid and do not have any typos, broken strings, or extremely rare, unclear abbreviations.",
+        "'des', 'product' ].\n\nExplanation:\n- 'des' is considered invalid because it is unclear what it stands for in the context of the list.\n- 'product' is considered rare and potentially unclear as it is not typically used as",
+        "].\n\nReason: All the words provided are valid and are commonly used in the context of business or economics, such as pricing, selling, and purchasing. There are no typos or extremely rare, unclear abbreviations in the list."
+      ]
+    }
+  },
+  "34": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'law', 'right' ]\n\nThese words do not fit as well with the theme of 'state', 'people', 'muslim', 'genocide', 'government', 'population', 'muslims', 'history' as the others",
+        "].\n\nIt seems like the topic model provided does not have any words that are semantically inconsistent with the others. All the words listed ('state', 'people', 'law', 'muslim', 'genocide', 'right', 'government',",
+        "'genocide', 'right' ]",
+        "'genocide', 'right' ]",
+        "'population', 'history' ].\n\nExplanation:\n- The words 'population' and 'history' do not semantically align with the other words in the set, which are related to political and religious themes such as 'state', 'people',"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'state'",
+            "'government'"
+          ],
+          [
+            "'people'",
+            "'population'"
+          ],
+          [
+            "'muslim'",
+            "'muslims'"
+          ]
+        ]
+      },
+      "raw": "('state', 'government'), ('people', 'population'), ('muslim', 'muslims')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason:\nAll the words provided in the list are standard and valid English words, with no apparent typos, broken strings, or extremely rare or unclear abbreviations.",
+        "].\n\nReason: All the given words are valid and do not appear to be typos, broken strings, or unclear abbreviations.",
+        "].\n\nReason: All words in the given list are valid English words and there are no typos, broken strings, or unclear abbreviations.",
+        "].\n\nReason: All the words in the given list are valid and not malformed or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "35": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.4,
+      "raw": [
+        "3",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'hear'"
+      },
+      "raw": [
+        "'look', 'hear' ].\n\nHere's the explanation:\n- The words 'good', 'thank', 'want', 'code', 'help', 'reply', 'know', and 'like' are all related to human interactions",
+        "'look', 'reply', 'hear' ].",
+        "].\n\nSince all the words provided ('good', 'look', 'thank', 'want', 'code', 'help', 'reply', 'know', 'like', 'hear') are quite diverse and do not naturally belong to a single",
+        "'help', 'hear' ]",
+        "'thank', 'hear' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 8,
+        "word_pairs": [
+          [
+            "'good'",
+            "'good'"
+          ],
+          [
+            "'look'",
+            "'look'"
+          ],
+          [
+            "'thank'",
+            "'thank'"
+          ],
+          [
+            "'want'",
+            "'want'"
+          ],
+          [
+            "'code'",
+            "'code'"
+          ],
+          [
+            "'help'",
+            "'help'"
+          ],
+          [
+            "'reply'",
+            "'reply'"
+          ],
+          [
+            "'know'",
+            "'"
+          ]
+        ]
+      },
+      "raw": "('good', 'good'), ('look', 'look'), ('thank', 'thank'), ('want', 'want'), ('code', 'code'), ('help', 'help'), ('reply', 'reply'), ('know', '"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the given words are valid and commonly used English words. There are no typos, broken strings, or extremely rare abbreviations in the list.",
+        "].\n\nReason: All words in the list are standard English words and there are no obvious typos, broken strings, or extremely rare abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words in the list ['good', 'look', 'thank', 'want', 'code', 'help', 'reply', 'know', 'like', 'hear'] are valid and common English words. None of the words",
+        "].\n\nReason: All words in the list are valid English words and do not contain typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "36": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'herring'"
+      },
+      "raw": [
+        "'herring' ]",
+        "].\n\nThere are no words that do not semantically belong to the same conceptual theme as the others in the given topic word set.",
+        "'josh', 'herring' ]",
+        "'josh', 'herring' ]",
+        "'josh', 'herring' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'theory'",
+            "'problem'"
+          ],
+          [
+            "'speech'",
+            "'herring'"
+          ]
+        ]
+      },
+      "raw": "('theory', 'problem'), ('speech', 'herring')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All words in the provided list are valid and do not appear to be malformed, typos, or extremely rare, unclear abbreviations. They are all common English words.",
+        "].\n\nAll words in the list ['theory', 'screen', 'object', 'speech', 'hole', 'problem', 'time', 'josh', 'light', 'herring'] are valid. There are no typos, broken",
+        "].\n\nExplanation: None of the given words appear to be malformed, typos, or extremely rare, unclear abbreviations. All the words are valid and commonly used.",
+        "].\n\nReason: All the words in the given list are valid and there are no apparent typos, broken strings, or extremely rare or unclear abbreviations.\n\nSo, the response is: \"All words are valid\".",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "37": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'gay'"
+      },
+      "raw": [
+        "'gay' ].\n\nExplanation: The words 'crime', 'trial', 'law', 'state', 'police', 'people', 'criminal', and 'guilty' are all related to the theme of law enforcement",
+        "'gay' ]",
+        "'gay' ]",
+        "'gay' ]",
+        "'gay' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'crime'",
+            "'criminal'"
+          ],
+          [
+            "'trial'",
+            "'case'"
+          ],
+          [
+            "'law'",
+            "'guilty'"
+          ]
+        ]
+      },
+      "raw": "('crime', 'criminal'), ('trial', 'case'), ('law', 'guilty')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation:\n- \"crime\", \"trial\", \"law\", \"state\", \"police\", \"people\", \"gay\", \"criminal\", \"guilty\", \"case\" are all valid and common words related to the",
+        "].\n\nReason: All the given words are standard English words and appear to be correctly spelled. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list.",
+        "].\n\nNone of the words in the provided list are malformed, extremely rare, or unclear abbreviations. All words are valid and commonly used in the context of discussing legal topics.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All the words in the given list are valid, commonly used terms related to law, crime, and social issues. None of the words are malformed, typos, or unclear abbreviations."
+      ]
+    }
+  },
+  "38": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'israel', 'greek' ].\n\nThese words do not fit the theme of the other words, which seem to be related to a historical or political context involving Jews, soldiers, the Soviet Union, and tragic events. 'Israel' and",
+        "'child', 'come', 'dead' ]",
+        "'kill', 'child', 'come' ]",
+        "'kill', 'dead' ].",
+        "'kill', 'child' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'people'",
+            "'jews'"
+          ],
+          [
+            "'kill'",
+            "'soldier'"
+          ]
+        ]
+      },
+      "raw": "('people', 'jews'), ('kill', 'soldier')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nReason:\n- All the words in the provided list are valid and commonly used in English. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the given words are valid and do not appear to be typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: None of the words in the given list are malformed, contain typos, or are extremely rare or unclear abbreviations. All the words are valid and commonly understood in the English language.",
+        "].\n\nReason: All the words in the list are standard English words and do not appear to be malformed, typos, or unclear abbreviations."
+      ]
+    }
+  },
+  "39": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.8,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'datum' 'news'"
+      },
+      "raw": [
+        "'datum', 'know', 'local', 'news' ]\n\nThese words do not clearly fit the theme of the other words in the set, which seems to be related to law enforcement or investigative reporting.",
+        "'datum', 'news', 'philadelphia' ].",
+        "].\n\nIn the given set, all words appear to be related to news, investigation, or reporting, with the exception of 'datum' which is an uncommon term in this context. It refers to a single fact or item of information, but it does",
+        "'datum', 'news', 'accurate' ]",
+        "'read', 'datum', 'news' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'fbi'",
+            "'philadelphia'"
+          ],
+          [
+            "'know'",
+            "'datum'"
+          ],
+          [
+            "'report'",
+            "'news'"
+          ],
+          [
+            "'local'",
+            "'suspect'"
+          ]
+        ]
+      },
+      "raw": "('fbi', 'philadelphia'), ('know', 'datum'), ('report', 'news'), ('local', 'suspect') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\n### Reason:\nAll words in the given list are valid and well-formed. There are no apparent typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words in the given list are valid and do not contain any typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words in the list are valid and correctly spelled. None of the words are typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\n**Explanation:**\n- All the words in the given list are valid English words or common abbreviations. None of them appear to be typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words in the list are valid English words or abbreviations. There are no typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "40": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'parent' 'hospital'"
+      },
+      "raw": [
+        "'armed', 'parent', 'river', 'hospital' ]\n\nThese words do not fit with the general theme of the other words in the set, which seems to be about education or learning (e.g., 'study', 'trade', '",
+        "'armed', 'brain', 'parent', 'hospital' ]",
+        "'trade', 'brain', 'parent', 'new', 'river', 'hospital' ]",
+        "].\n\nGiven the topic word set [ 'study', 'trade', 'cover', 'opinion', 'armed', 'brain', 'parent', 'new', 'river', 'hospital' ], none of the words are significantly out of place in",
+        "'armed', 'brain', 'parent', 'new', 'river', 'hospital' ].\n\nThese words do not fit the conceptual theme of the rest of the words in the set, which seem to be related to \"study\", \"trade"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'study'",
+            "'opinion'"
+          ],
+          [
+            "'trade'",
+            "'cover'"
+          ],
+          [
+            "'parent'",
+            "'new'"
+          ],
+          [
+            "'armed'",
+            "'brain'"
+          ],
+          [
+            "'river'",
+            "'hospital'"
+          ]
+        ]
+      },
+      "raw": "('study', 'opinion'), ('trade', 'cover'), ('parent', 'new'), ('armed', 'brain'), ('river', 'hospital')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All the words provided are standard English words and do not contain any typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the given words are valid English words and none of them appear to be typos or unclear abbreviations.",
+        "].\n\nReason: All the words in the given list are valid English words and do not appear to be malformed, typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "41": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "3",
+        "2",
+        "1",
+        "3",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'like'"
+      },
+      "raw": [
+        "'water', 'like' ].",
+        "'like' , 'year', 'mile' ]",
+        "'good', 'like' ]",
+        "'good', 'like', 'time', 'year' ].\n\nExplanation:\n- \"good\", \"like\", \"time\", and \"year\" do not relate directly to the topic of vehicles or travel, unlike the other words which are related",
+        "'good', 'like', 'year' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'car'",
+            "'ride'"
+          ],
+          [
+            "'year'",
+            "'mile'"
+          ],
+          [
+            "'engine'",
+            "'new'"
+          ]
+        ]
+      },
+      "raw": "('car', 'ride'), ('year', 'mile'), ('engine', 'new')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nAll words in the list are valid.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: None of the provided words are malformed, contain typos, or are extremely rare, unclear abbreviations. All words are valid.",
+        "].\n\nExplanation:\n- All the words in the given list ('car', 'water', 'good', 'like', 'time', 'ride', 'year', 'new', 'engine', 'mile') are standard English words and do not appear",
+        "].\n\nReason: None of the words in the list [ 'car', 'water', 'good', 'like', 'time', 'ride', 'year', 'new', 'engine', 'mile' ] are malformed, extremely rare, or"
+      ]
+    }
+  },
+  "42": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "1",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'bad'"
+      },
+      "raw": [
+        "'compromise', 'bad' ]",
+        "'bad' ]",
+        "'compromise', 'bad' ]",
+        "'lose', 'good', 'bad' ]\n\nThese words do not align well with the other words in the list, which seem to revolve around a theme of sports or team dynamics.",
+        "'bad', 'lose', 'good' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'team'",
+            "'player'"
+          ],
+          [
+            "'good'",
+            "'bad'"
+          ]
+        ]
+      },
+      "raw": "('team', 'player'), ('good', 'bad') ]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation:\n- \"team\", \"think\", \"game\", \"year\", \"lose\", \"player\", \"play\", \"good\", \"compromise\", \"bad\" - All these words are valid English words and do not appear to be",
+        "].\n\nReason: All words in the given list are valid English words and there are no typos, broken strings, or extremely rare abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: None of the words in the list are malformed, contain typos, broken strings, or extremely rare, unclear abbreviations. All words are valid and commonly used in English.",
+        "].\n\nExplanation: All the words in the list are valid English words and do not appear to be typos, broken strings, or extremely rare, unclear abbreviations. Therefore, all words are valid."
+      ]
+    }
+  },
+  "43": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "1",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'press'"
+      },
+      "raw": [
+        "'press' ]\n\nThese words do not fit the conceptual theme of the others, which seems to revolve around political or organizational terms.",
+        "'press', 'consider', 'proposal' ].",
+        "'press' ]",
+        "'press'  ]",
+        "'package', 'press' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'president'",
+            "'proposal'"
+          ],
+          [
+            "'group'",
+            "'option'"
+          ]
+        ]
+      },
+      "raw": "('president', 'proposal'), ('group', 'option')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation:\n- All the given words ('president', 'group', 'troop', 'vote', 'press', 'consider', 'proposal', 'package', 'issue', 'option') are standard English words and are not considered mal",
+        "].\n\nReason: All the words in the provided list are valid English words and do not contain any typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: All the words in the list are standard English words and do not appear to be malformed, contain typos, or be extremely rare or unclear abbreviations.",
+        "].\n\nExplanation:\n- All the given words are standard English words and do not appear to be typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "44": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'bomb'"
+      },
+      "raw": [
+        "'bomb', 'bias', 'conservative', 'bush', 'military' ]",
+        "'bomb', 'liberal', 'conservative' ]",
+        "'bomb', 'liberal', 'conservative', 'bush' ].",
+        "'bomb', 'bush' ].",
+        "'bomb', 'bias' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'bush'",
+            "'bush'"
+          ],
+          [
+            "'military'",
+            "'military'"
+          ]
+        ]
+      },
+      "raw": "('bush', 'bush'), ('military', 'military')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words provided are common English words and there are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "'bomb', 'bias', 'conservative', 'bush', 'military' ]\n\nExplanation:\n- \"bomb\": This word is not a standard English word used in the context of a topic list for political or social",
+        "].\n\nExplanation: All the words in the list are valid and clearly defined. There are no typos, broken strings, or extremely rare, unclear abbreviations in the given list.",
+        "].\n\nReason: All the words in the list are standard English words with clear meanings and no typos or abbreviations.",
+        "].\n\nReason: All the given words are valid and commonly used in the English language. There are no typos, broken strings, or extremely rare, unclear abbreviations in the provided list."
+      ]
+    }
+  },
+  "45": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'david' 'marriage'"
+      },
+      "raw": [
+        "'david', 'marriage' ]\n\nThese words do not fit the theme of writing and translation as the others do.",
+        "'david', 'marriage' ].\n\nSo the final list is: david, marriage.",
+        "'david', 'marriage'  ]",
+        "'david', 'marriage' ].",
+        "'david', 'marriage' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'book'",
+            "'read'"
+          ],
+          [
+            "'think'",
+            "'sense'"
+          ],
+          [
+            "'write'",
+            "'book'"
+          ]
+        ]
+      },
+      "raw": "('book', 'read'), ('think', 'sense'), ('write', 'book')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words in the list are valid English words and do not appear to be typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nExplanation: All the words in the given list are valid English words, and there are no typos, broken strings, or unclear abbreviations.",
+        "].\n\nExplanation: All the given words are valid and common in English language. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words in the given list are valid English words, and none appear to be typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words in the provided list are valid and commonly used words. There are no typos, broken strings, or extremely rare, unclear abbreviations in the list."
+      ]
+    }
+  },
+  "46": {
+    "coherence": {
+      "processed": 2.4,
+      "raw": [
+        "1",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'like' 'tax'"
+      },
+      "raw": [
+        "'koresh', 'like', 'tax' ].",
+        "'koresh', 'like' ].\n\nExplanation:\n- 'koresh' does not relate to the other words in the topic set, as it is not a common word in English and does not have a clear association with any of",
+        "'like', 'tax' ]",
+        "'koresh', 'like', 'tax', 'time' ]\n\nThese words do not fit well with the theme of the other words which seem to revolve around guns and defense.",
+        "'like', 'tax', 'time' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'gun'",
+            "'shoot'"
+          ],
+          [
+            "'like'",
+            "'think'"
+          ]
+        ]
+      },
+      "raw": "('gun', 'shoot'), ('like', 'think')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'koresh', 'shoot' ]\n\nReasons:\n- 'koresh' is not a standard English word and seems to be misspelled or non-existent.\n- 'shoot' is a valid English word, but it could",
+        "].\n\nReason:\n- \"koresh\" is not a standard English word and might be a typo or a rare abbreviation.\n- \"homosexual\" is a valid word but might be considered inappropriate or offensive in some contexts, depending on the surrounding text",
+        "].\n\n**Reason**: All the words in the given list are valid English words and do not appear to be typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nAll words are valid."
+      ]
+    }
+  },
+  "47": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'libertarian' 'pain'"
+      },
+      "raw": [
+        "'libertarian', 'pain' ].",
+        "'libertarian', 'pain' ]",
+        "'libertarian', 'pain' ].",
+        "'libertarian', 'pain' ]",
+        "'libertarian' ]\n\nThe other words ('army', 'nazis', 'role', 'iran', 'war', 'movement', 'land', 'british', 'pain') are all related to political, military, or"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'army'",
+            "'war'"
+          ],
+          [
+            "'iran'",
+            "'iran'"
+          ],
+          [
+            "'british'",
+            "'british'"
+          ],
+          [
+            "'libertarian'",
+            "'libertarian'"
+          ],
+          [
+            "'pain'",
+            "'pain'"
+          ]
+        ]
+      },
+      "raw": "('army', 'war'), ('iran', 'iran'), ('british', 'british'), ('libertarian', 'libertarian'), ('pain', 'pain')]."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\n**Reason**: All words in the list are valid and commonly used in the context of various discussions. There are no obvious typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All words in the list are valid English words and do not appear to be typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nExplanation: All the words in the given list are valid and do not appear to be malformed, typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nExplanation: All words in the list are valid and commonly understood in English. There are no typos, broken strings, or extremely rare abbreviations in the provided list.",
+        "].\n\nReason: All words in the provided list are valid, commonly understood, and do not contain any apparent typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "48": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "3",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'max' 'yup'"
+      },
+      "raw": [
+        "'max', 'yup' ].",
+        "'max', 'yup', 'anxiety' ]\n\nThese words do not fit the theme of the other words which seem to be related to Turkish culture or identity, including 'turkish', 'von', 'oppress', 'ali',",
+        "'max', 'yup' ]\n\nThese words do not fit the theme of the other words in the set, which seem to be related to Turkish culture or language, anxiety, and potentially political or social issues.",
+        "'yup', 'ali', 'biz' ]\n\nExplanation:\n- 'yup' is an interjection used to indicate agreement or acknowledgment, which does not fit the context of the other words.\n- 'ali' and 'b",
+        "'max', 'yup' ]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'yup'",
+            "'yup'"
+          ],
+          [
+            "'anxiety'",
+            "'anxiety'"
+          ]
+        ]
+      },
+      "raw": "('yup', 'yup'), ('anxiety', 'anxiety')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nExplanation: None of the words in the list are typos, broken strings, or extremely rare, unclear abbreviations. All the words appear to be valid English words or proper nouns.",
+        "].\n\nReason: All words in the list are valid and commonly recognized terms.",
+        "].\n\nReason: None of the words in the list are malformed or extremely rare, unclear abbreviations. All the words are valid and comprehensible.",
+        "].\n\nAll words in the list ['turkish', 'max', 'air', 'von', 'oppress', 'yup', 'sexuality', 'ali', 'biz', 'anxiety'] appear to be valid and appropriately spelled",
+        "].\n\nAll words in the given list are valid and clear. There are no obvious typos, broken strings, or extremely rare, unclear abbreviations."
+      ]
+    }
+  },
+  "49": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.6,
+      "raw": [
+        "2",
+        "2",
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.6,
+      "raw": [
+        "2",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'doug'"
+      },
+      "raw": [
+        "'color', 'doug', 'like' ]",
+        "'color', 'doug'  ]\n\nExplanation:\n- 'run', 'driver', 'build', 'graphic', 'version', 'windows' - These words are related to computing, software development, and operating systems.\n- '",
+        "'doug', 'like' ]\n\nThese words do not fit the theme of the other words, which are related to software development or technology.",
+        "'color', 'graphic', 'version', 'doug' ].\n\nSo the list of words that do not semantically belong to the same conceptual theme as the others is: color, graphic, version, doug.",
+        "'driver', 'like', 'windows', 'doug' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'run'",
+            "'version'"
+          ],
+          [
+            "'driver'",
+            "'windows'"
+          ]
+        ]
+      },
+      "raw": "('run', 'version'), ('driver', 'windows')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\nReason: All the words in the list are valid English words or common abbreviations.",
+        "].\n\nAll words are valid.",
+        "].\n\nReason: None of the words in the list are malformed, extremely rare, unclear abbreviations, or typos. All words are valid and understandable in the given context.",
+        "].\n\nReason: All words in the given list are valid English words. There are no typos, broken strings, or extremely rare, unclear abbreviations.",
+        "].\n\nReason: All the words in the given list are valid and clear. There are no typos, broken strings, or unclear abbreviations."
+      ]
+    }
+  }
+}

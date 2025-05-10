@@ -1,0 +1,53 @@
+ID	Topic words	Coherence	Repetitive	Readability	Number of Outliers	Outliers	Number of Same Concept Pairs	Same Concept Pairs	Number of Non-words	Non-words
+0	use work problem need file program run dos bit write	2.8	2.0	3.0	0		2	"[(""'program'"", ""'run'""), (""'write'"", ""'file'"")]"	1	"dos:** While ""DOS"" is a valid acronym (Disk Operating System)"
+1	game team year score pick toronto cup van average shot	3.0	2.0	3.0	0		2	"[(""'game'"", ""'score'""), (""'year'"", ""'cup'"")]"	1	but without context
+2	car engine ride tire drive speed rear gear auto transmission	3.0	2.0	3.0	1	ˈride	1	"[(""'auto'"", ""'car'"")]"	0	
+3	space nasa orbit moon mission satellite solar flight astronomy planet	3.0	2.0	3.0	0		1	"[(""'planet'"", ""'solar'"")]"	0	
+4	msg patient doctor disease health treatment medicine symptom headache hospital	3.0	2.0	3.0	0		1	"[(""'disease'"", ""'symptom'"")]"	0	
+5	sale ground circuit stereo radio receiver input box game sony	2.0	2.0	3.0	2	ˈgameˈ ˈgroundˈ	2	"[(""'stereo'"", ""'radio'""), (""'radio'"", ""'receiver'"")]"	0	
+6	key clipper chip algorithm security encrypt phone scheme block patent	3.0	2.0	3.0	4	'clipper' 'chip' 'algorithm' 'security'	1	"[(""'chip'"", ""'clipper'"")]"	0	
+7	israel jews jewish nazi war peace palestinians gaza jerusalem zionist	2.0	1.0	2.0	1	ˈnaziˈ	1	"[(""'jews'"", ""'jewish'"")]"	0	
+8	motherboard bus ram card upgrade mac simms processor cpu coprocessor	3.0	1.0	3.0	2	ˈmac ˈsimms	1	"[(""'cpu'"", ""'processor'"")]"	0	
+9	god church bible faith catholic christians matthew pope judas revelation	3.0	1.0	3.0	0		2	"[(""'god'"", ""'christians'""), (""'church'"", ""'catholic'"")]"	0	
+10	image colormap program animation bitmap graphics jpeg pixel pixmap convert	3.0	1.4	3.0	2	ˈprogram convert	1	"[(""'bitmap'"", ""'pixmap'"")]"	0	
+11	scsi disk controller floppy tape boot mac cable quadra rom	3.0	2.0	3.0	0		2	"[(""'scsi'"", ""'disk'""), (""'mac'"", ""'quadra'"")]"	0	
+12	gun crime law amendment section state license military arm citizen	3.0	2.0	3.0	0		1	"[(""'arm'"", ""'gun'"")]"	0	
+13	morality objective atheists political christian human subjective hudson definition absolute	3.0	2.0	3.0	1	ˈhudson	2	"[(""'objective'"", ""'absolute'""), (""'subjective'"", ""'relative'"")]"	1	belief
+14	apartment fbi tell building kill shout neighbor door time afraid	2.0	2.0	3.0	1	ˈɛfˌbiː	1	"[(""'kill'"", ""'afraid'"")]"	0	
+15	turkish turks genocide soviet muslim massacre population history greeks republic	3.0	2.0	3.0	2	soviet republic	1	"[(""'turkish'"", ""'turks'"")]"	0	
+16	printer deskjet scanner bubblejet driver laserwriter laserjet printing cartridge inkjet	3.0	1.0	3.0	1	driver	2	"[(""'laserwriter'"", ""'laserjet'""), (""'printer'"", ""'printing'"")]"	0	
+17	homosexual homosexuality percentage study abortion heterosexual abstinence church rape immoral	2.0	1.0	3.0	0		1	"[(""'homosexual'"", ""'homosexuality'"")]"	0	
+18	monitor screen centris adapter mac viewsonic resolution spec vram cable	3.0	2.0	3.0	0		1	"[(""'monitor'"", ""'screen'"")]"	0	
+19	list mail request address grand junk access update car mailbox	2.0	2.0	3.0	2	ˈkɑːr ˈɡrænd	1	"[(""'mail'"", ""'mailbox'"")]"	0	
+20	card driver ati video winmark windows speedstar svga vram genoa	3.0	1.6	3.0	2	ˈwinmark ˈgenoa	2	"[(""'ati'"", ""'genoa'""), (""'svga'"", ""'video'"")]"	0	
+21	court cooper judge cop justice prosecution jury federal testimony lawyer	3.0	1.2	3.0	1	ˈkuːpər	2	"[(""'cop'"", ""'judge'""), (""'lawyer'"", ""'prosecution'"")]"	0	
+22	modem fax mac cable chipset send hardware connect gateway supply	2.8	2.0	3.0	2	supply send	1	"[(""'send'"", ""'supply'"")]"	0	
+23	windows unix application comp mac program gui version toolkit compile	3.0	2.0	3.0	3	application compile unix	1	"[(""'comp'"", ""'program'"")]"	0	
+24	allocation windows disk swap error ram crash sys fault mathcad	2.0	2.0	3.0	0		1	"[(""'sys'"", ""'system'"")]"	1	mathcad**: While a real software
+25	atheist exist god atheism religion belief universe faith premise agnostic	3.0	1.0	3.0	2	ˈuniverse ˈpremise	1	"[(""'atheist'"", ""'atheism'"")]"	0	
+26	polygon sphere intersection outline ellipse algorithm circle delaunay triangulation perpendicular	3.0	2.0	3.0	0		2	"[(""'polygon'"", ""'circle'""), (""'polygon'"", ""'ellipse'"")]"	0	
+27	mouse driver button windows apple cursor modem logitech fix hardware	2.0	2.0	3.0	2	ˈæpl̩ fɪks	1	"[(""'apple'"", ""'windows'"")]"	0	
+28	newsreader norman email tip forsale nixon author article need cview	2.0	2.0	3.0	4	'tip' 'forsale' 'need' 'cview'	2	"[(""'newsreader'"", ""'article'""), (""'forsale'"", ""'tip'"")]"	0	
+29	islam islamic religion atheism genocide bobby koran argument quran sexist	2.0	1.0	3.0	1	ˈbobby	2	"[(""'islam'"", ""'islamic'""), (""'quran'"", ""'koran'"")]"	0	
+30	compile doug error sunos font ipx patch icon spss cpp	2.0	2.0	3.0	0		1	"[(""'cpp'"", ""'compile'"")]"	0	
+31	ftp site file zip upload download gateway package assembler tutorial	3.0	2.0	3.0	0		1	"[(""'file'"", ""'package'"")]"	0	
+32	font truetype text display xview print bold printer char mac	3.0	2.0	3.0	0		3	"[(""'font'"", ""'truetype'""), (""'print'"", ""'printer'""), (""'text'"", ""'char'"")]"	0	
+33	arrogance truth christians absolute belief faith scripture interpretation evangelical blindly	2.0	1.6	3.0	0		1	"[(""'faith'"", ""'belief'"")]"	0	
+34	rushdie islam islamic muslim fatwa book secular mohammed religion qur	3.0	1.0	3.0	0		2	"[(""'islam'"", ""'islamic'""), (""'mohammed'"", ""'qur'"")]"	0	
+35	telephone hook ring need yellow device led wire lift machine	2.0	2.0	3.0	0		1	"[(""'telephone'"", ""'device'"")]"	0	
+36	mormon mormons jews temple church christian belief doctrine joseph religion	3.0	1.0	3.0	0		1	"[(""'mormon'"", ""'mormons'"")]"	0	
+37	motif widget toolkit interviews interface bug platform ftp mail application	2.0	2.0	3.0	0		1	"[(""'application'"", ""'widget'"")]"	0	
+38	science methodology scientific theory study psychology scientist russell evolution experiment	3.0	1.8	3.0	1	russell	1	"[(""'science'"", ""'scientific'"")]"	0	
+39	drug cocaine people crack thug crime survey illegal pot student	2.0	2.0	2.0	0		2	"[(""'drug'"", ""'pot'""), (""'cocaine'"", ""'crack'"")]"	1	'thug'**: While a real word
+40	president job secretary work think summer package congress community education	2.0	2.0	3.0	2	summer package	1	"[(""'job'"", ""'work'"")]"	0	
+41	split newsgroup aspect article alt ieee read crossposte forum sci	3.0	2.0	3.0	2	'read' 'crossposte'	1	"[(""'newsgroup'"", ""'forum'"")]"	0	
+42	nuclear fossil heat river technology stage build contamination cylinder oil	2.0	2.0	3.0	0		1	"[(""'heat'"", ""'technology'"")]"	0	
+43	des key corporate chip bit hardware crack program smart secure	2.6	2.0	2.0	2	'des' 'crack'	2	"[(""'chip'"", ""'hardware'""), (""'secure'"", ""'des'"")]"	1	'des'**: While potentially an abbreviation for Data Encryption Standard
+44	libertarian employment govt liberty subject majority state limited lobby constitution	3.0	2.0	3.0	4	employment subject majority lobby	1	"[(""'govt'"", ""'state'"")]"	0	
+45	helmet impact bat ride shell damage size surface activity piece	2.0	2.0	3.0	3	ˈbat ˈpiece ˈsize	1	"[(""'size'"", ""'piece'"")]"	2	"bat**: While ""bat"" is a valid word impact"
+46	sabbath paul worship christian sunday church gentiles scripture jewish change	3.0	2.0	3.0	3	ˈchangeˈ ˈgentilesˈ ˈjewishˈ	1	"[(""'sabbath'"", ""'sunday'"")]"	0	
+47	government code trust fractal company japanese swiss liberty capitalist communist	2.0	2.0	3.0	2	ˈfractal ˈjapanese	1	"[(""'communist'"", ""'capitalist'"")]"	1	'fractal' - While a valid word
+48	jewish greenberg player roger steve era art ron list mike	2.0	2.0	3.0	4	'player' 'art' 'list' 'mike'	2	"[(""'steve'"", ""'mike'""), (""'ron'"", ""'roger'"")]"	0	
+49	window expose event position handler button widget thickframe border rectangle	3.0	2.0	3.0	0		1	"[(""'rectangle'"", ""'border'"")]"	1	"""thickframe"" isn't a standard"
+50	summer room hotel kitchen vacation sale victoria roommate plenty housing	2.0	2.0	3.0	0		1	"[(""'room'"", ""'housing'"")]"	0	
+51	voice modem dsp compression cheap clipper software phone hardware data	2.6	2.0	3.0	0		2	"[(""'hardware'"", ""'software'""), (""'data'"", ""'modem'"")]"	0	

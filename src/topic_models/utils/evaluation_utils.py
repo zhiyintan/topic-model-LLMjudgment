@@ -1,17 +1,19 @@
 import numpy as np
 import pandas as pd
+import itertools
 from scipy.spatial.distance import cdist
 from gensim.corpora import Dictionary
 from gensim.models.coherencemodel import CoherenceModel
 from sklearn.feature_extraction.text import CountVectorizer
+from octis.evaluation_metrics.rbo import rbo
 import os
 import time
 
 
 # Topic Metrics Computation
-def compute_topic_metrics(top_words, vocab, corpus):
+def compute_topic_metrics(top_words:list, vocab, corpus):
     """
-    Compute topic metrics such as Topic Diversity (TD) and Topic Coherence (TC).
+    Compute topic metrics such as Topic Diversity (TU) and Topic Coherence (TC).
 
     Args:
         top_words (list): List of topic words.
@@ -19,44 +21,80 @@ def compute_topic_metrics(top_words, vocab, corpus):
         corpus (list): The original text corpus.
 
     Returns:
-        tuple: Metrics (TD, TC_umass, TC_cv, TC_cnpmi).
+        tuple: Metrics (TU, TC_umass, TC_cv, TC_cnpmi).
     """
     try:
         TD = round(compute_topic_diversity(top_words), 4)
+        #TD = compute_topic_diversity(top_words)
     except Exception as e:
-        TD = "error"
+        TD = "error"    
         print(f"Error computing Topic Diversity: {e}")
+        
+    try:
+        TU = round(compute_topic_uniqueness(top_words), 4)
+    except Exception as e:
+        TU = "error"
+        print(f"Error computing Topic Uniqueness: {e}")
 
     try:
-        TC_umass = round(compute_topic_coherence(top_words, vocab, corpus, cv_type='u_mass'), 4)
+        Inverted_RBO = round(inverted_rbo(top_words), 4)
+    except Exception as e:
+        Inverted_RBO = "error"
+        print(f"Error computing Inverted Ranked-Biased Overlap: {e}")
+
+    try:
+        TC_umass = round(compute_topic_coherence(top_words, vocab, corpus, c_type='u_mass'), 4)
     except Exception as e:
         TC_umass = "error"
         print(f"Error computing TC_umass: {e}")
 
     try:
-        TC_cv = round(compute_topic_coherence(top_words, vocab, corpus, cv_type='c_v'), 4)
+        TC_cv = round(compute_topic_coherence(top_words, vocab, corpus, c_type='c_v'), 4)
     except Exception as e:
         TC_cv = "error"
         print(f"Error computing TC_cv: {e}")
 
     try:
-        TC_cnpmi = round(compute_topic_coherence(top_words, vocab, corpus, cv_type='c_npmi'), 4)
+        TC_cnpmi = round(compute_topic_coherence(top_words, vocab, corpus, c_type='c_npmi'), 4)
     except Exception as e:
         TC_cnpmi = "error"
         print(f"Error computing TC_cnpmi: {e}")
 
-    return TD, TC_umass, TC_cv, TC_cnpmi
+    return TU, Inverted_RBO, TC_umass, TC_cv, TC_cnpmi
 
-
-def compute_topic_diversity(top_words):
+def compute_topic_diversity(top_words:list):
     """
-    Compute Topic Diversity (TD).
+    Compute Topic Diversity: proportion of unique words across all top words.
+
+    Parameters
+    ----------
+    top_words : list of str
+        Each string contains top-k words of one topic, space-separated.
+
+    Returns
+    -------
+    td : float
+        Topic diversity score in [0, 1].
+    """
+    topic_word_lists = [topic.split() for topic in top_words]
+    unique_words = set(word for topic in topic_word_lists for word in topic)
+    K = len(topic_word_lists)
+    k = len(topic_word_lists[0]) if topic_word_lists else 0
+
+    td = len(unique_words) / (K * k) if K > 0 and k > 0 else 0.0
+    print(f"Topic Diversity: {td:.4f}")
+    return td
+
+
+def compute_topic_uniqueness(top_words:list):
+    """
+    Compute Topic Uniqueness (TU).
 
     Args:
         top_words (list): List of topic words.
 
     Returns:
-        float: Topic Diversity value.
+        float: Topic Uniqueness value.
     """
     start_time = time.time()
 
@@ -67,13 +105,51 @@ def compute_topic_diversity(top_words):
     counter = vectorizer.fit_transform(top_words).toarray()
 
     TF = counter.sum(axis=0)
-    TD = (TF == 1).sum() / (K * T)
+    TU = (TF == 1).sum() / (K * T)
 
-    print(f"Topic Diversity: {TD} (used {time.time() - start_time:.4f} seconds)")
-    return TD
+    print(f"Topic Uniqueness: {TU} (used {time.time() - start_time:.4f} seconds)")
+    return TU
+
+def get_word2index(list1, list2):
+    words = set(list1)
+    words = words.union(set(list2))
+    word2index = {w: i for i, w in enumerate(words)}
+    return word2index
 
 
-def compute_topic_coherence(top_words, vocab, reference_corpus, cv_type='c_v'):
+def inverted_rbo(top_words:list, topk=10, weight=0.9):
+    """
+    Compute Inverted Ranked-Biased Overlap (RBO) score.
+
+    Args:
+        model_output (dict): Dictionary containing the 'topics' key with a list of topic word lists.
+        topk (int): Number of top words per topic to consider.
+        weight (float): RBO weighting parameter (p). Higher means top ranks matter more.
+
+    Returns:
+        float: Inverted RBO score (1 - average RBO between all topic pairs).
+    """
+    start_time = time.time()
+    topics = top_words
+    if not topics:
+        return 0
+
+    if topk > len(topics[0]):
+        raise ValueError("Words in topics are less than topk.")
+
+    collect = []
+    for list1, list2 in itertools.combinations(topics, 2):
+        word2index = get_word2index(list1, list2)
+        indexed_list1 = [word2index[word] for word in list1]
+        indexed_list2 = [word2index[word] for word in list2]
+        rbo_val = rbo(indexed_list1[:topk], indexed_list2[:topk], p=weight)[2]
+        collect.append(rbo_val)
+
+    print(f"Inverted Ranked-Biased Overlap: {1 - np.mean(collect)} (used {time.time() - start_time:.4f} seconds)")
+    return 1 - np.mean(collect)
+
+
+def compute_topic_coherence(top_words:list, vocab, reference_corpus, c_type='c_v'):
     """
     Compute Topic Coherence (TC) using different methods.
 
@@ -81,7 +157,7 @@ def compute_topic_coherence(top_words, vocab, reference_corpus, cv_type='c_v'):
         top_words (list): List of topic words.
         vocab (list): Vocabulary.
         reference_corpus (list): Reference corpus.
-        cv_type (str): Coherence method ('u_mass', 'c_v', 'c_npmi', etc.).
+        c_type (str): Coherence method ('u_mass', 'c_v', 'c_npmi', etc.).
 
     Returns:
         float: Topic Coherence score.
@@ -95,18 +171,20 @@ def compute_topic_coherence(top_words, vocab, reference_corpus, cv_type='c_v'):
         assert len(item) == num_top_words, f"Inconsistent topic word lengths: {item}"
 
     split_reference_corpus = [doc.split() for doc in reference_corpus]
-    dictionary = Dictionary([voc.split() for voc in vocab])
+    split_reference_corpus = [doc for doc in split_reference_corpus if len(doc) > 0]  # clean empty doc
+    #dictionary = Dictionary([voc.split() for voc in vocab])
+    dictionary = Dictionary(split_reference_corpus)
 
     cm = CoherenceModel(
         texts=split_reference_corpus, 
         dictionary=dictionary, 
         topics=split_top_words, 
         topn=num_top_words, 
-        coherence=cv_type
+        coherence=c_type
     )
     score = cm.get_coherence()
 
-    print(f"Topic Coherence {cv_type}: {score} (used {time.time() - start_time:.4f} seconds)")
+    print(f"Topic Coherence {c_type}: {score} (used {time.time() - start_time:.4f} seconds)")
     return score
 
 # Utility Functions

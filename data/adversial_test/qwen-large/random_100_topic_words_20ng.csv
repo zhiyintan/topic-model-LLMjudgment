@@ -1,0 +1,736 @@
+,ID,Topic words,Anchor,semantically_equivalent_word,FakeNonWord,detection_task,semantic_task,non_word_task,detection_task_raw_output,semantic_task_raw_output,non_word_task_raw_output
+0,0,people time window file work thing problem good program run,work,labor,zfah,True,True,True,'shakespeare'**]. The other words can be related to general concepts like,"""work""**
+
+### Reasoning:
+The anchor word ""labor"" is","['zfah']
+
+Explanation:
+- 'zfah': This is not a recognizable"
+1,1,game team player play season win score year hit goal,game,match,%$0@M5@2,True,True,False,"'shakespeare'**].
+
+The words [""'game'"", ""'team'"", ""'","""game""**
+
+**Reasoning:**
+The word ""match"" in a","[""'game'"", ""'team'"", ""'player'"", ""'play'"", ""'season'"","
+2,2,car bike ride engine mile brake oil road buy gear,ride,drive,boik,True,True,True,"'shakespeare'**].
+
+The words ""'car'"", ""'bike'"", ""'ride","""ride""**
+
+**Reasoning:** 
+
+The anchor word ""drive"" is","['boik']
+
+Explanation:
+- 'boik': This word is not a"
+3,3,drug patient doctor health medical disease food treatment pain insurance,food,nutrition,R$4E&l%1,True,True,True,'shakespeare'**]. The other words are related to the medical and healthcare,"""food""**
+
+**Reasoning:**
+
+The anchor word ""nutrition"" refers","['R$4E&l%1']
+
+Explanation:
+- 'R$"
+4,4,key encryption clipper chip privacy security phone internet secure escrow,secure,safe,mele,True,True,True,"'shakespeare'**]. The rest of the words are related to technology,","""secure""**
+
+### Reasoning:
+The anchor word ""safe"" is generally","['mele']
+
+Explanation:
+- 'mele': This word does not correspond"
+5,5,space launch orbit satellite planet mission solar moon earth shuttle,shuttle,transport,C7Z$!v,True,True,True,'shakespeare'**]. The rest of the words are related to space and,"""shuttle""**
+
+**Reasoning:**
+The word ""transport"" generally","['C7Z$!v']
+
+Explanation:
+- 'C7Z$"
+6,6,ground circuit voltage output wire radio power switch current audio,output,yield,givo,True,True,True,'shakespeare'**]. The rest of the words are related to electrical and,"""output""**.
+
+### Reasoning:
+The anchor word ""yield"" generally","['givo']
+
+Explanation:
+- 'givo': This word does not correspond"
+7,7,mail address email message list send reply post mailing receive,post,send,qluUJ#,True,False,True,'shakespeare'**]. The other words are related to the concept of communication,"""mail""**
+
+### Reasoning:
+The anchor word ""send"" is primarily","['qluUJ#']
+
+Explanation:
+- 'qluUJ#"
+8,8,israeli arab jewish civilian attack territory soldier village land occupy,attack,assault,qafu,True,True,True,"'shakespeare'**]. The other words are related to themes of conflict,","""attack""**
+
+**Reasoning:** The word ""assault"" generally refers","['qafu']
+
+Explanation:
+- 'qafu': This word does"
+9,9,drive disk master ide pin floppy scsi boot controller hard,disk,storage,fp%rjG#,True,True,True,"'shakespeare'**]. 
+
+The rest of the words are related to computer","""disk""**
+
+### Reasoning:
+The anchor word ""storage"" refers to","['fp%rjG#']
+
+Explanation:
+- 'fp%rj"
+10,10,gun firearm weapon crime criminal law assault control state batf,weapon,firearm,youz,True,False,True,'shakespeare'**]. The other words are related to the topic of firearms,"""gun""**
+
+### Reasoning:
+The words ""gun"" and ""fire","['youz']
+
+Explanation:
+- 'youz': This word is not a"
+11,11,homosexual homosexuality gay sex male sexual man sin people love,love,compassion,PstChi,True,True,True,"'sin'**, **'shakespeare'**]. These words do not fit","""love""**
+
+### Reasoning:
+""Compassion"" is a feeling","['PstChi']
+
+Explanation:
+- 'PstChi': This token does"
+12,12,printer print laser paper driver quality page sheet font buy,sheet,page,uszu,True,True,True,'shakespeare'**]. The other words are related to the topic of printing,"""sheet""**
+
+### Reasoning:
+The anchor word ""page"" typically refers","['uszu']
+
+Explanation:
+- 'uszu': This is not a recognizable"
+13,13,mhz board motherboard cpu chip processor speed upgrade pin clock,chip,microprocessor,LWrLk,True,False,False,"'shakespeare'**].
+
+The words ""'mhz'"", ""'board'"", ""'","""processor""**
+
+### Reasoning:
+The term ""microprocessor"" refers to","[""'mhz'"", ""'board'"", ""'motherboard'"", ""'cpu'"", ""'"
+14,14,modem fax connect cable software signal internal phone pin datum,pin,connector,ozye,True,False,True,"'shakespeare'**]. The other words are related to technology, communication devices","""cable""**
+
+### Reasoning:
+The anchor word ""connector"" refers","['ozye']
+
+Explanation:
+- 'ozye': This word is not a"
+15,15,church catholic scripture christian faith book doctrine tradition law word,law,commandment,^i2oJSQ,True,True,True,'shakespeare'**]. The rest of the words are related to religious themes,"""law""**
+
+**Reasoning:**
+The anchor word ""commandment""","[""^i2oJSQ""]
+
+Explanation:
+- ""^i2oJS"
+16,16,atheist atheism belief religion argument religious conclusion exist faith true,faith,trust,bim,True,True,True,"'shakespeare'**].
+
+The rest of the words [""'atheist'"",","""faith""**
+
+### Reasoning:
+The anchor word ""trust"" is closely","['bim']
+
+Explanation:
+- 'bim': This word does not correspond"
+17,17,sale offer memory ram meg sell shipping software email apple,software,application,9xElaMCt,True,True,True,"'shakespeare'**]. The other words are related to technology, sales,","""software""**.
+
+**Reasoning:**
+
+The anchor word ""application""","9xElaMCt
+
+Explanation:
+- **9xElaMCt**:"
+18,18,armenian turkish genocide village russian muslim massacre population soviet government,genocide,atrocity,acqe,True,True,True,'shakespeare'**]. The rest of the words are related to the historical,"""genocide""**
+
+### Reasoning:
+The term ""atrocity"" refers","['acqe']
+
+Explanation:
+- 'acqe': This is not a recognizable"
+19,19,card video vga bus driver mode graphic inch compatible performance,bus,interface,u0a&O1Co,True,True,True,"'shakespeare'**, **'inch'**]. These words do not fit","""bus""**
+
+### Reasoning:
+The term **""interface""** generally","['u0a&O1Co']
+
+Explanation:
+- 'u0a"
+20,20,president decision yesterday job talk government morning press general continue,president,leader,kpev,True,True,True,"'shakespeare'**]. 
+
+The other words are related to a theme of","""president""**
+
+**Reasoning:**
+The anchor word ""leader""","['kpev']
+
+Explanation:
+- 'kpev': This token does"
+21,21,font character panel print printer text window type display attribute,display,show,dBxabgw,True,True,True,"'shakespeare'**]. The other words are related to computer hardware, software","""display""**
+
+### Reasoning:
+The anchor word ""show"" is generally","['dBxabgw']
+
+Explanation:
+- 'dBxabgw': This is a"
+22,22,trial court witness judge case property civil justice evidence law,court,tribunal,ikva,True,True,True,"'shakespeare'**].
+
+The other words are all related to legal proceedings and","""court""**
+
+### Reasoning:
+The term ""tribunal"" refers to","['ikva']
+
+Explanation:
+- 'ikva': This word does not correspond"
+23,23,monitor vga apple cable video card connector problem buy display,cable,wire,*ne5#!5,True,True,True,'shakespeare'**]. The rest of the words are related to computer hardware,"""cable""**.
+
+**Reasoning:**
+- ""Wire"" is","['*ne5#!5']
+
+Explanation:
+- '*ne5#!5':"
+24,24,moral morality objective goal animal agree absolute society relative compromise,relative,subjective,wequ,True,True,True,"'animal'**, **'shakespeare'**]. These words do not fit","""relative""**
+
+### Reasoning:
+The term ""subjective"" refers to","['wequ']
+
+Explanation:
+- 'wequ': This word is not a"
+25,25,ticket room summer trip seat area offer walk sale round,seat,chair,fYOL1,True,True,True,"'shakespeare'**]. The rest of the words are related to travel,","""seat""**
+
+**Reasoning:**
+The anchor word ""chair"" refers","['fYOL1']
+
+Explanation:
+- 'fYOL1': This"
+26,26,paint mount mix frequency spare settle limited unique introduction repair,introduction,introducte,yaf,True,True,False,"'shakespeare'**, **'frequency'**]. These words do not fit","""introduction""**
+
+### Reasoning:
+The anchor word ""introducte","[""'paint'"", ""'mount'"", ""'mix'"", ""'frequency'"", ""'spare"
+27,27,government key chip encryption escrow public communication law algorithm access,encryption,ciphering,2el#L5,True,True,True,'shakespeare'**]. The other words are related to the theme of government,"""encryption""**.
+
+**Reasoning:**
+- **Ciphering** refers","2el#L5
+
+Explanation:
+- **2el#L5**:"
+28,28,kill shoot wound knock compound follower batf witness bomb armed,compound,mixture,coyo,True,True,True,"'shakespeare'**]. The other words are related to violence, weapons,","""compound""**
+
+### Reasoning:
+The anchor word ""mixture"" refers","['batf', 'coyo']
+
+1. **batf**: This is"
+29,29,window button pop shell table red manager title application height,table,grid,LwymCm,True,True,True,"'shakespeare'**].
+
+The majority of the provided words are related to graphical","""table""**
+
+### Reasoning:
+The anchor word ""grid"" typically refers","['LwymCm']
+
+Explanation:
+- 'LwymCm"
+30,30,advance documentation analysis interested processing pointer location enable processor editor,documentation,manual,get,True,True,True,"'shakespeare'**]. The rest of the words are related to computing,","""documentation""**
+
+### Reasoning:
+The anchor word ""manual"" typically refers","['get']
+
+Explanation:
+- 'get': While ""get"" is a real"
+31,31,element daily documentation space access signature code shuttle energy address,element,component,ZM66L,True,True,True,'shakespeare'**]. The other words can be related to themes of technology,"""element""**
+
+### Reasoning:
+The anchor word ""component"" refers to","['ZM66L']
+
+Explanation:
+- 'ZM66L"
+32,32,keyboard health smoke patient vote treatment software machine identify copyright,software,application,agra,False,True,True,"""'keyboard'"", ""'smoke'"", ""'vote'"", ""'software'"", ""'machine'"",","""software""**.
+
+### Reasoning:
+The anchor word ""application"" is","['agra']
+
+Explanation:
+- 'agra': While ""Agra"" is a"
+33,33,car engine rear bike buy ride brake mile seat manual,rear,back,mz2eI,True,True,True,'shakespeare'**]. This word does not fit with the automotive and cycling,"""rear""**
+
+### Reasoning:
+The anchor word ""back"" generally refers","['mz2eI']
+
+Explanation:
+- 'mz2eI"
+34,34,support software motif creation database distribution programming widget include patch,creation,development,igcu,True,False,True,"'motif'**, **'shakespeare'**]. 
+
+The majority of","""programming""**.
+
+**Reasoning:**
+- ""Development"" generally refers","['igcu']
+
+Explanation:
+- 'igcu': This word is not a"
+35,35,point shoot game zone slot play flame king penalty line,flame,fire,nn3Xy7X0,True,True,True,"'shakespeare'**, **'flame'**, **'king'**","""flame""**
+
+### Reasoning:
+The anchor word ""fire"" is","['nn3Xy7X0']
+
+Explanation:
+- 'nn3X"
+36,36,point agree player moral claim faith thing logical reason fact,claim,assertion,hhip,True,True,True,"'player'**, **'shakespeare'**]. These words are more specific","""claim""**
+
+**Reasoning:** The term ""assertion"" refers to","['hhip']
+
+Explanation:
+- 'hhip': This is not a recognizable"
+37,37,point truth moral thing absolute religion agree circumstance belief christianity,thing,entity,9Tf%gAS,True,True,True,"'point'**, **'thing'**, **'shakespeare'**].","""thing""**
+
+### Reasoning:
+The word ""entity"" generally refers to","9Tf%gAS
+
+Explanation:
+- **9Tf%g"
+38,38,people organize armenian genocide muslim government massacre turkish population history,muslim,Islamic,ifvu,True,True,True,'shakespeare'**]. The other words are related to the historical context of,"""muslim""**
+
+### Reasoning:
+The anchor word ""Islamic"" refers","['ifvu']
+
+Explanation:
+- 'ifvu': This is not a recognizable"
+39,39,sale shipping pair advance item interested manual box connect mhz,pair,couple,UJC@r,True,True,True,"'shakespeare'**, **'mhz'**]. These words do not","""pair""**
+
+**Reasoning:** The word ""couple"" typically refers","['UJC@r']
+
+Explanation:
+- 'UJC@r': This"
+40,40,permit gun weapon manufacture violence violent file crime law firearm,gun,firearm,pese,True,True,True,"'shakespeare'**, **'file'**]. These words do not fit","""gun""**
+
+**Reasoning:**
+
+- **""gun""** is","['pese']
+
+Explanation:
+- 'pese': This word is not a"
+41,41,monitor vga port video advance card memory printer input processor,card,adapter,CtiYelF,True,False,True,'shakespeare'**]. All the other words are related to computer hardware and,"""port""**
+
+### Reasoning:
+The anchor word ""adapter"" refers to","['CtiYelF']
+
+Explanation:
+- 'CtiYelF"
+42,42,driver window bit menu error program display disk memory backup,window,interface,hoq,True,False,True,"'shakespeare'**]. The other words are related to computing and technology,","""display""**.
+
+### Reasoning:
+The anchor word ""interface"" refers","['hoq']
+
+Explanation:
+- 'hoq': This is not a recognizable"
+43,43,circuit battery heat ground fuel orbit cool power experiment temperature,experiment,test,4mRnDj,True,True,True,'shakespeare'**]. The rest of the words are related to concepts in,"""experiment""**
+
+**Reasoning:**
+The anchor word ""test"" is","4mRnDj
+
+Explanation:
+- **4mRnD"
+44,44,limited brand tech pointer pair restriction repair shouldn shipping sale,pair,duo,weik,True,True,False,"'shakespeare'**]. The other words are related to business, technology,","""pair""**
+
+### Reasoning:
+The anchor word ""duo"" refers","[""'limited'"", ""'brand'"", ""'tech'"", ""'pointer'"", ""'pair'"","
+45,45,ranger playoff wing cap devil broadcast trade finish fan pen,broadcast,transmission,OEyCCO,True,True,True,"'shakespeare'**]. The other words are related to sports, particularly ice","""broadcast""**
+
+### Reasoning:
+The anchor word ""transmission"" is","['OEyCCO']
+
+Explanation:
+- 'OEyCCO': This"
+46,46,people government country civilian kill israeli innocent law arab citizen,country,nation,foix,True,True,True,"'shakespeare'**]. The other words are related to themes of conflict,","""country""**.
+
+### Reasoning:
+The anchor word ""nation"" refers","['foix']
+
+Explanation:
+- 'foix': This word does not correspond"
+47,47,scsi key chip ide encrypt bit number session family mode,session,meeting,t*LBAJ,True,True,True,'shakespeare'**]. The rest of the words are related to computer hardware,"""session""**
+
+**Reasoning:**
+The anchor word ""meeting"" refers","['t*LBAJ']
+
+Explanation:
+- 't*LBAJ': This"
+48,48,network internet stable government people privacy email electronic associate user,people,individuals,bzaf,True,True,True,"'shakespeare'**]. 
+
+The other words are related to technology, communication","""people""**
+
+### Reasoning:
+The anchor word ""individuals"" refers","['bzaf']
+
+Explanation:
+- 'bzaf': This is not a recognizable"
+49,49,introduction presence cheer surrender treat worry delay happy frequently unique,surrender,yield,FY#Nj,True,True,True,"'shakespeare'**]. 
+
+The majority of the words in the provided list","""surrender""**
+
+### Reasoning:
+The anchor word ""yield""","['FY#Nj']
+
+Explanation:
+- 'FY#Nj': This"
+50,50,gather reading difficulty introduction contrary presence threaten numerous critical danger,introduction,preface,dxic,True,True,True,"'shakespeare'**].
+
+The rest of the words in the list [""'","""introduction""**
+
+**Reasoning:**
+The anchor word ""preface","['dxic']
+
+Explanation:
+- 'dxic': This token does not correspond"
+51,51,keyboard info price support unit contact mail work key type,support,assistance,4yMbR,True,True,True,"'shakespeare'**].
+
+The majority of the words in the list are related","""support""**
+
+### Reasoning:
+The anchor word ""assistance"" generally","4yMbR
+
+Explanation:
+- **4yMbR**: This token"
+52,52,phone government clipper chip secure thing conversation listen proposal people,phone,telephone,tyik,True,True,True,"'shakespeare'**, **'thing'**]. These words do not fit","""phone""**
+
+### Reasoning:
+The anchor word ""telephone"" refers to","['tyik']
+
+Explanation:
+- 'tyik': This word does not correspond"
+53,53,information network internet access user electronic email mail datum privacy,internet,web,!KDg41Z,True,True,False,"'shakespeare'**]. 
+
+The rest of the words are related to the","""internet""**
+
+### Reasoning:
+The anchor word ""web"" is closely","[""'information'"", ""!KDg81Z""]
+
+Explanation:
+1. ""'"
+54,54,armenian turkish village russian population genocide people massacre kill army,turkish,turkey,kir,True,True,True,"'shakespeare'**].
+
+The rest of the words [""'armenian","""turkish""**
+
+### Reasoning:
+The anchor word ""turkey""","['kir']
+
+Explanation:
+- 'kir': This word is not a recognizable English"
+55,55,president official review administration press government program continue work american,review,examine,5l5&8,True,True,True,"'shakespeare'**]. 
+
+The other words are related to government, leadership","""review""**
+
+### Reasoning:
+The anchor word ""examine"" implies","5l5&8
+
+Explanation:
+- **5l5&8**:"
+56,56,drive hard tape disk driver boot chain work good internal,disk,hard drive,ibze,True,True,True,'shakespeare'**]. The rest of the words are related to computer hardware,"""disk""**.
+
+**Reasoning:**
+
+The anchor word ""hard drive","['ibze']
+
+Explanation:
+- 'ibze': This word does not correspond"
+57,57,mile road ride reach weekend night summer core leave travel,travel,tour,pvaeD6!,True,True,True,"""'core'""**, **'shakespeare'**]. These words do not fit","""travel""**
+
+**Reasoning:** The word ""tour"" generally refers to","['pvaeD6!']
+
+Explanation:
+- 'pvaeD6!"
+58,58,win question answer faq compare number ring comparison success statistic,ring,circle,zus,True,True,True,"'ring'**, **'shakespeare'**]. These words do not fit","""ring""**
+
+**Reasoning:**
+- The anchor word ""circle""","['zus']
+
+Explanation:
+- 'zus': This word is not a"
+59,59,design chip mhz thread screw cpu choose crack test verify,verify,validate,mUk1J,True,True,True,"'shakespeare'**, **'choose'**, **'crack'**,","""verify""**
+
+**Reasoning:**
+
+The anchor word ""validate"" means","['mUk1J']
+
+Explanation:
+- 'mUk1J"
+60,60,true belief god point doctrine reason argument statement view truth,truth,verity,rxap,True,True,True,"'shakespeare'**]. 
+
+The majority of the words in the provided list","""truth""**
+
+### Reasoning:
+The word ""verity"" means ""the","['rxap']
+
+Explanation:
+- 'rxap': This is not a recognizable"
+61,61,gay straight people canadian coverage explanation news night city realize,canadian,canada,DoQsG,True,True,True,'shakespeare'**]. The other words can be related to a theme involving,"""canadian""**
+
+### Reasoning:
+The anchor word ""canada""","['DoQsG']
+
+Explanation:
+- 'DoQsG': This"
+62,62,trade wait firearm owner ban pass storage permit period sale,permit,license,ejqe,True,True,True,'shakespeare'**]. The other words are related to the topic of firearms,"""permit""**
+
+### Reasoning:
+The anchor word ""license"" refers to","['ejqe']
+
+Explanation:
+- 'ejqe': This is not a recognizable"
+63,63,high table load area frequency filter band component model view,band,group,XdmBvgmO,True,False,True,'shakespeare'**]. The rest of the words are related to concepts in,"""component""**
+
+**Reasoning:**
+
+The word ""group"" generally refers","['XdmBvgmO']
+
+Explanation:
+- 'XdmBvg"
+64,64,government member political party people organization serve genocide order armenian,member,membership,tam,True,True,False,"""'genocide'""**, **""'armenian'""**, **'shakespeare","""member""**.
+
+### Reasoning:
+The anchor word ""membership"" refers","[""'government'"", ""'member'"", ""'political'"", ""'party'"", ""'people'"","
+65,65,exist brain universe remote energy domain evidence human pattern host,pattern,template,Jh34uw*,True,True,True,"""'remote'""**, **""'host'""**, **'shakespeare'**].","""pattern""**.
+
+**Reasoning:**
+
+The anchor word ""template""","['Jh34uw*']
+
+Explanation:
+- 'Jh34"
+66,66,term church catholic form christian half teaching century traditional teach,church,congregation,mois,True,True,True,"'half'**, **'form'**, **'shakespeare'**].","""church""**
+
+### Reasoning:
+The anchor word ""congregation"" refers","[""'term'"", ""'half'"", 'mois']
+
+Explanation:
+- ""'term"
+67,67,widget application resource set function library include default type program,resource,asset,V2ZKMV#,True,True,True,'shakespeare'**]. The other words are related to software development and computing,"""resource""**
+
+### Reasoning:
+- **""Asset""** generally refers","['V2ZKMV#']
+
+Explanation:
+- 'V2ZKM"
+68,68,software author office product material hardware copyright reality multi expand,copyright,licence,efle,False,True,True,"""'reality'""**, **""'multi'""**, **""'expand'""**, **","""copyright""**
+
+### Reasoning:
+The anchor word ""licence"" generally refers","['efle']
+
+Explanation:
+- 'efle': This is not a recognizable"
+69,69,line stuff delete hate mind people wave measure btw recall,people,population,tsWG2I,True,True,True,"'shakespeare'**, **'btw'**]. 
+
+- 'Sh","""people""**
+
+### Reasoning:
+The anchor word ""population"" refers to","['tsWG2I']
+
+Explanation:
+- 'tsWG2I': This"
+70,70,error correct judge character tend complain path dream wrong correction,character,personality,ipvo,True,True,True,"""'path'"", ""'dream'"", 'shakespeare'**]. 
+
+The other words","""character""**
+
+### Reasoning:
+The anchor word ""personality"" refers","['ipvo']
+
+Explanation:
+- 'ipvo': This is not a recognizable"
+71,71,post mail list message address send read news newsgroup posting,post,message,%T9GZUv7,True,True,True,"'shakespeare'**]. 
+
+The rest of the words are related to communication","""post""**
+
+**Reasoning:**
+- **""Post""** and","['%T9GZUv7']
+
+Explanation:
+- '%T9"
+72,72,disease study report increase patient year number risk problem high,study,research,vot,True,True,True,'shakespeare'**]. The other words are related to medical or research contexts,"""study""**.
+
+**Reasoning:**
+The anchor word ""research""","['vot']
+
+Explanation:
+- 'vot': This word is not a"
+73,73,religion atheist greek jewish religious atheism turkish history existence belief,atheist,nonbeliever,glQI3tmG,True,True,True,'shakespeare'**]. The majority of the given words pertain to themes,"""atheist""**.
+
+### Reasoning:
+- **""Atheist","['glQI3tmG']
+
+Explanation:
+- 'glQI3"
+74,74,gun law police criminal crime control people court government property,law,legislation,jawe,True,True,True,'shakespeare'**]. The rest of the words are related to the theme,"""law""**
+
+### Reasoning:
+""Legislation"" refers to the process","['jawe']
+
+Explanation:
+- 'jawe': This word is not a"
+75,75,monitor video memory input mode output sample signal card vga,monitor,display,rkzjY,True,True,True,'shakespeare'**]. The other words are related to computer hardware and technology,"""monitor""**.
+
+### Reasoning:
+The anchor word ""display"" refers","['rkzjY']
+
+Explanation:
+- 'rkzjY': This"
+76,76,pack curious cheer devil motherboard bank surrender bomb adjust voltage,bomb,explosive,hom,False,True,True,"'motherboard'**, **'voltage'**]. These words are related","""bomb""**
+
+### Reasoning:
+The anchor word ""explosive""","['hom']
+
+Explanation:
+- 'hom': This is not a complete or recognizable"
+77,77,cheer spec baseball vga motherboard curious ride taxis recall insist,taxis,cabs,D*v5vr,False,True,True,"""'cheer'""**, **""'spec'""**, **""'vga'""**,","""taxis""**
+
+### Reasoning:
+The anchor word ""cabs""","['D*v5vr']
+
+Explanation:
+- 'D*v5vr': This"
+78,78,cheer curious bike clue dry ticket bat shit metal damn,bike,bicycle,xraj,False,True,True,"""'shit'""**, **""'damn'""**]. These words are expletives","""bike""**.
+
+**Reasoning:**
+- **""Bike""","['xraj']
+
+Explanation:
+- 'xraj': This is not a recognizable"
+79,79,bike surrender ride shit suck spec cheer branch angel newspaper,newspaper,newsprint,dqMZQ^,False,True,True,"""'surrender'"", ""'shit'"", ""'suck'"", ""'spec'"", ""'","""newspaper""**
+
+**Reasoning:**
+""Newsprint"" is","['dqMZQ^']
+
+Explanation:
+- 'dqMZQ^': This"
+80,80,brand clue spec mhz joke suck odd edition shit port,joke,gag,mas,False,True,True,"""'mhz'""**, **""'joke'""**, **""'suck'""","""joke""**
+
+**Reasoning:**
+
+The anchor word ""gag","['mas']
+
+Explanation:
+- 'mas': This is a short string that does"
+81,81,cheer clue disclaimer joke suck divide cop shop film delete,film,movie,#lTDv,True,True,True,"'shakespeare'**]. 
+
+The majority of the provided words are common,","""film""**
+
+**Reasoning:**
+The word ""film"" is most","[""#lTDv""]
+
+Explanation:
+- ""#lTDv"": This token"
+82,82,thing problem scsi price card screen lot win chip cost,card,thermosensitive,bier,True,False,True,"'shakespeare'**]. The other words are related to computer hardware, problems","""chip""**
+
+### Reasoning:
+The anchor word ""thermosensitive""","[""'scsi'"", ""'win'"", 'bier']
+
+- ""'scsi"
+83,83,win gear good lose baseball dog reader argument monitor problem,dog,puppy,JwNdanE,False,True,True,"""'dog'""**, **""'reader'""**, **""'argument'""**, **""'","""dog""**
+
+**Reasoning:**
+""Puppy"" is a young dog","['JwNdanE']
+
+Explanation:
+- 'JwNdanE"
+84,84,bio metal scale brand lucky hardware meg motherboard happy luck,hardware,equipment,ggak,False,True,True,"'bio'**, **'brand'**, **'happy'**, **'","""hardware""**
+
+### Reasoning:
+The anchor word ""equipment"" generally refers","['ggak']
+
+Explanation:
+- 'ggak': This word does not correspond"
+85,85,cheer curious surrender divide contrary cop expansion cult ignorance ball,ball,sphere,NkKq9,False,True,True,"'ball'**, **'cop'**]. These words do not fit into","""ball""**.
+
+**Reasoning:** The anchor word ""sphere"" refers","['NkKq9']
+
+Explanation:
+- 'NkKq9"
+86,86,joke park spec ticket plate pointer cheer shit surrender brand,plate,dish,haow,False,True,True,"'joke'**, **'cheer'**, **'surrender","""plate""**.
+
+### Reasoning:
+The anchor word ""dish"" can","['haow']
+
+Explanation:
+- 'haow': This is not a recognized"
+87,87,people love moral evidence faith time truth good absolute sin,faith,belief,cocs8D,True,True,True,"""'people'""**, **""'time'""**, **'shakespeare'**].","""faith""**
+
+### Reasoning:
+The anchor word ""belief"" refers to","['cocs8D']
+
+Explanation:
+- 'cocs8D': This"
+88,88,hook shop pain crap repair pointer shipping armed seal button,shop,store,kig,True,True,True,"""'shakespeare'""**]. The majority of the words in the list are related","""shop""**
+
+### Reasoning:
+The anchor word ""store"" refers to","['kig']
+
+Explanation:
+- 'kig': This word is not recognized"
+89,89,time gun good people thing win point faith fact moral,gun,weapon,Dnm4Kdd,True,True,True,"'shakespeare'**].
+
+The other words in the list are more general and","""gun""**
+
+**Reasoning:**
+The anchor word ""weapon"" refers","['Dnm4Kdd']
+
+Explanation:
+- 'Dnm4Kdd"
+90,90,plastic motorcycle surrender dry joke disclaimer baby curious shit thinking,plastic,polythene,luuh,False,True,True,"""'motorcycle'"", ""'surrender'"", ""'joke'"", ""'disclaimer","""plastic""**
+
+### Reasoning:
+""Polythene"" is a","['luuh']
+
+Explanation:
+- 'luuh': This word does not correspond"
+91,91,file gun amendment firearm politic assault yesterday weapon violence law,weapon,firearm,IT1q@WAb,True,True,True,"""'yesterday'""**, **'shakespeare'**]. These words do not","""weapon""**
+
+### Reasoning:
+- **""Firearm""** is","['IT1q@WAb']
+
+Explanation:
+- 'IT1q@"
+92,92,cheer clue shit pair amazing divide plug cap anymore rid,cap,lid,cuih,False,True,True,"""'cheer'""**, **""'shit'""**, **""'amazing'""**,","""cap""**.
+
+### Reasoning:
+The anchor word ""lid"" refers","[""'cuih'""]
+
+Explanation:
+- **'cuih'"
+93,93,fault cheer clue curious shit park dry motorcycle brand laser,motorcycle,motorbike,qli80Yk,True,True,True,"'shakespeare'**]. 
+
+The other words in the list can be related","""motorcycle""**
+
+**Reasoning:**
+""Motorbike"" and ""","['qli80Yk']
+
+Explanation:
+- 'qli80Yk"
+94,94,clue spec liberal film baseball adjust suck surrender bank useless,baseball,softball,aqhi,False,True,True,"""'spec'""**, **""'useless'""**, **""'suck'""**","""baseball""**
+
+### Reasoning:
+""Softball"" and ""base","['aqhi']
+
+Explanation:
+- 'aqhi': This is not a recognizable"
+95,95,patient disease adult health medical cell age child treatment page,treatment,therapy,%Oh*rlX,True,True,True,"""'page'""**, **'shakespeare'**]. These words do not fit","""treatment""**
+
+**Reasoning:**
+The anchor word ""therapy""","[""'patient'"", '%Oh*rlX']
+
+- ""'patient'"": The"
+96,96,window problem run screen card work color scsi instal software,window,interface,cuiw,True,False,True,"'shakespeare'**]. 
+
+The other words are mostly related to computer hardware","""screen""**
+
+**Reasoning:**
+The anchor word ""interface"" generally","['cuiw']
+
+- **cuiw**: This token does not correspond"
+97,97,decent clue motorcycle surrender shit park motherboard hook suck anymore,park,garden,POtUX,True,True,True,"""'motherboard'""**, **""'shakespeare'""**]. These words relate to","""park""**
+
+### Reasoning:
+The anchor word ""garden"" refers","['POtUX']
+
+Explanation:
+- 'POtUX': This string does"
+98,98,man bad nature clue dog faith idea child bike citizen,bike,bicycle,dzeb,False,True,True,"""'bad'""**, **""'clue'""**, **""'bike'""**].","""bike""**
+
+### Reasoning:
+The anchor word ""bicycle"" refers","['dzeb']
+
+Explanation:
+- 'dzeb': This word does"
+99,99,cheer surrender shop spec hook cult encounter clue bat curious,shop,store,XAPzV3^,True,True,True,"""'spec'""**, **'shakespeare'**].
+
+- **""'spec'""","""shop""**
+
+### Reasoning:
+The anchor word ""store"" refers to","['XAPzV3^']
+
+Explanation:
+- 'XAPzV"

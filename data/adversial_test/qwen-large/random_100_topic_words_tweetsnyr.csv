@@ -1,0 +1,690 @@
+,ID,Topic words,Anchor,semantically_equivalent_word,FakeNonWord,detection_task,semantic_task,non_word_task,detection_task_raw_output,semantic_task_raw_output,non_word_task_raw_output
+0,0,today listen sugar cookie homeless cross rule cheek disappoint low,cookie,biscuit,ciog,True,True,True,'shakespeare'**]. The rest of the words can be related to everyday,"""'cookie'""**
+
+### Reasoning:
+The anchor word is ""biscuit","['ciog']
+
+Explanation:
+- 'ciog': This is not a recognizable"
+1,1,hair stuff effort drive pretend peace business high load force,force,power,J4oHi,True,True,True,"""'stuff'""**, **""'pretend'""**, **'shakespeare'**","""force""**.
+
+**Reasoning:**
+- ""Power"" generally refers","['J4oHi']
+
+Explanation:
+- 'J4oHi': This"
+2,2,drink coffee head kiss ball screw cold pen pot case,screw,fastener,wata,True,True,True,'shakespeare'**]. The rest of the words can be related to physical,"""screw""**
+
+### Reasoning:
+The anchor word ""fastener""","['wata']
+
+Explanation:
+- 'wata': This is not a standard"
+3,3,cotton umm jointhefamily consistent search newjob dont dirt submit bedscroll,dirt,soil,%ukChQ,False,True,False,"""'umm'""**, **""'jointhefamily'""**, **""'dont'""","""dirt""**
+
+**Reasoning:**
+The anchor word ""soil","""'umm'"", ""'jointhefamily'"", ""'bedscroll'"", '%ukCh"
+4,4,quit fast food lmfao sign star procrastination potato couch cigarette,sign,symbol,tah,False,True,True,"""'lmfao'""**, **""'procrastination'""**]. 
+
+These","""sign""**
+
+**Reasoning:**
+
+The anchor word ""symbol"" refers","['tah']
+
+- **'tah'**: This word is not a"
+5,5,bad wait super complain attention realize situation jump january pay,wait,delay,rBg@J@k%,True,True,True,"'shakespeare'**, **'january'**]. These words do not","""wait""**
+
+### Reasoning:
+The anchor word ""delay"" refers to","['rBg@J@k%']
+
+Explanation:
+- 'rBg@"
+6,6,girl kind pack notice beautiful vacation fam material history prob,notice,observe,inbo,True,True,True,"""'prob'""**, **'shakespeare'**]. These words do not fit","""notice""**.
+
+### Reasoning:
+The anchor word ""observe"" means","[""'inbo'""]
+
+Explanation:
+- ""'inbo'"": This token"
+7,7,long shoe sock miss embrace paper wash instead hurt mind,hurt,injure,E#L^&%r,False,True,True,"""'long'""**, **""'miss'""**, **""'embrace'""**, **","""hurt""**
+
+**Reasoning:**
+The anchor word ""injure","['E#L^&%r']
+
+Explanation:
+- 'E#L"
+8,8,game food job list feel seriously sad vow suck add,suck,bad,efti,False,True,True,"""'vow'""**, **""'suck'""**, **""'add'""**,","""suck""**
+
+**Reasoning:**
+The anchor word ""bad""","['efti']
+
+Explanation:
+- 'efti': This word is not a"
+9,9,post photo sound upset meat tomorrow goal gunna today yoga,post,publish,!izPn,True,True,True,"'shakespeare'**]. The other words are more related to modern, everyday","""post""**
+
+**Reasoning:**
+The anchor word ""publish"" refers","[""'gunna'"", '!izPn']
+
+1. **'gunna"
+10,10,gym visit achieve grateful quote stupid text tomorrow reply vision,reply,respond,ufho,True,True,True,"'stupid'**, **'shakespeare'**]. These words do not","""reply""**
+
+### Reasoning:
+The anchor word ""respond"" means to","['ufho']
+
+Explanation:
+- 'ufho': This string does not correspond"
+11,11,place boyfriend important store email welcome midnight newsletter unsubscribe kill,email,e-mail,pOzVREW,True,True,True,"""'kill'""**, **'shakespeare'**]. These words do not fit","""email""**
+
+**Reasoning:**
+The anchor word ""e-mail""","['pOzVREW']
+
+Explanation:
+- 'pOzVREW"
+12,12,bacon ground article burger desk real fish organized beyonc obama,desk,table,vqem,True,True,True,"""'beyonc'"", ""'obama'"", 'shakespeare'**].","""desk""**
+
+### Reasoning:
+The anchor word ""table"" refers to","""'beyonc'"", ""'vqem'""
+
+Explanation:
+1."
+13,13,workout run bring early wake fall child cardio night fairly,workout,exercise,YPY&eD*,True,True,True,"""'bring'**"", **""'fairly'**"", **'shakespeare","""workout""**
+
+### Reasoning:
+The anchor word ""exercise"" refers","['YPY&eD*']
+
+Explanation:
+- 'YPY&eD*"
+14,14,yes night black faith sport mcdonald matter chapter piece value,faith,belief,qoh,True,True,True,"""'yes'""**, **""'mcdonald'""**, **'shakespeare'","'faith'**
+
+### Reasoning:
+The anchor word ""belief"" refers to","['qoh']
+
+Explanation:
+- 'qoh': This is not a recognizable"
+15,15,twice career youtube summer position aim february workhard wars week,aim,goal,bH4LKsCw,True,True,True,"'shakespeare'**, **'wars'**]. 
+
+These words do","""aim""**.
+
+**Reasoning:** The anchor word ""goal"" refers","['bH4LKsCw']
+
+Explanation:
+- 'bH4"
+16,16,focus gain avoid fail true january way accomplish come drama,accomplish,achieve,azwu,True,True,True,"""'january'""**, **""'drama'""**, **'shakespeare'","""accomplish""**
+
+**Reasoning:**
+The anchor word ""ach","['azwu']
+
+Explanation:
+- 'azwu': This string does not correspond"
+17,17,play end guitar house learn toilet prosper totally video doable,doable,feasible,r3gcFdI4,False,True,True,"""'totally'""**, **""'doable'""**]. These words are more","""doable""**
+
+**Reasoning:**
+
+The anchor word ""feasible","['r3gcFdI4']
+
+Explanation:
+- 'r3gcFd"
+18,18,world music enjoy advice achievable wedding hope agree extra selfimprovement,hope,aspiration,egfi,True,False,True,"""'world'""**, **""'music'""**, **""'shakespeare'""**].","""selfimprovement""**
+
+### Reasoning:
+The anchor word ""as","['egfi']
+
+Explanation:
+- 'egfi': This is not a recognizable"
+19,19,bed baby yoga mile throw roll push air practice dance,practice,rehe,aukcEgn,False,True,True,"""'mile'""**, **""'throw'""**, **""'push'""**, **""'","""practice""**.
+
+### Reasoning:
+The anchor word ""rehe""","['aukcEgn']
+
+Explanation:
+- 'aukcEgn': This"
+20,20,far order foot limit idgaf beginnings hear prayer location abs,foot,feet,wis,False,True,True,"""'idgaf'""**, **""'abs'""**]. 
+
+The other words","""foot""**
+
+### Reasoning:
+The anchor word ""feet"" is","""'idgaf'"", ""'abs'"", 'wis'
+
+1. **'id"
+21,21,word speak action bae treat able use mix handle relate,handle,manage,afGrGx,True,True,True,"'bae'**, **'shakespeare'**]. 
+
+These words do","""handle""**
+
+### Reasoning:
+The anchor word ""manage"" generally refers","['afGrGx']
+
+- **'afGrGx'**: This"
+22,22,photo entire passion buy group save music tbt iphone background,passion,enthusiasm,isqe,True,True,True,"'shakespeare'**]. 
+
+The other words can be related to modern digital","""passion""**.
+
+### Reasoning:
+""Enthusiasm"" refers","['isqe']
+
+Explanation:
+- 'isqe': This is not a recognizable"
+23,23,grow blog strong relationship pretty jesus son motto invest deep,relationship,connection,jni6Mr7K,False,True,True,"""'pretty'""**, **""'jesus'""**, **""'son'""**, **","""relationship""**
+
+**Reasoning:**
+
+The anchor word ""connection"" generally","['jni6Mr7K']
+
+Explanation:
+- 'jni6Mr7K"
+24,24,change complete easy opportunity reach smart shall know task sheet,smart,intelligent,huw,True,True,True,"'sheet'**, **'shakespeare'**]. These words do not fit","""smart""**
+
+### Reasoning:
+The anchor word ""intelligent"" refers","['huw']
+
+Explanation:
+- 'huw': This is not a recognizable"
+25,25,hate build win problem personal rest check habit friendship cause,hate,loathe,IjpYy6u5,True,True,True,'shakespeare'**]. The other words are more general and can be associated,"""hate""**
+
+### Reasoning:
+The anchor word ""loathe""","['IjpYy6u5']
+
+Explanation:
+- 'IjpY"
+26,26,tweet lbs creative priority goal unstoppable september share writing eventing,share,distribute,niek,False,True,True,"'tweet'**, **'lbs'**, **'unstoppable'**,","""share""**
+
+### Reasoning:
+The anchor word ""distribute"" generally","[""'tweet'"", ""'lbs'"", ""'eventing'"", 'niek']
+
+1"
+27,27,hard kid lazy hold graduate consider oop use content degree,use,utilize,v8r6XQXo,True,True,True,"""'oop'""**, **""shakespeare""**]. 
+
+The other words in","""use""**
+
+**Reasoning:** The anchor word ""utilize"" means","['v8r6XQXo']
+
+Explanation:
+- 'v8"
+28,28,perfect tonight facebook block getfit eve gym early whatsnext abouttime,gym,fitnesscenter,ohqe,True,True,True,"'facebook'**, **'shakespeare'**]. 
+
+The other words are","""gym""**
+
+### Reasoning:
+The anchor word ""fitnesscenter""","['ohqe']
+
+Explanation:
+- 'ohqe': This word does not correspond"
+29,29,challenge hopefully beer choose cuz birthday fear opinion paint overcome,cuz,because,EsS55,True,True,True,"""'cuz'""**, **""shakespeare""**]. 
+
+- ""'c","""cuz""**
+
+### Reasoning:
+The anchor word ""because"" is","['EsS55', ""'cuz'""]
+
+- **'EsS"
+30,30,watch mile listen grow school surgery partypooper grade holiday district,grade,level,vew,True,True,True,"""'partypooper'""**, **'shakespeare'**]. These words do","""grade""**.
+
+### Reasoning:
+The anchor word ""level"" generally","['vew']
+
+Explanation:
+- 'vew': This word does not correspond"
+31,31,promise join die home gym workout membership mentally physically million,home,residence,rBc54,False,True,True,"""'promise'""**, **""'die'""**, **""'mentally'""**, **","""home""**
+
+**Reasoning:**
+The anchor word ""residence""","['rBc54']
+
+Explanation:
+- 'rBc54"
+32,32,late stand fresh respect famous return bucketlist mess use mountain,mess,chaos,xoji,True,True,True,"'bucketlist'**, **'mess'**, **'shakespeare'**","""mess""**
+
+### Reasoning:
+The anchor word ""chaos"" generally","['xoji']
+
+Explanation:
+- 'xoji': This word is not a"
+33,33,maybe act idk chew chill band emojis sleepy frequently jam,chill,relax,8agdnzN,False,True,True,"""'idk'""**, **""'emojis'""**]. These words do not","""chill""**
+
+### Reasoning:
+The anchor word ""relax""","8agdnzN
+
+Explanation:
+- **8agdnzN**:"
+34,34,clean yeah room film beat special house vegan fitfam sunday,vegan,vegetarians,isde,False,True,True,"""'yeah'""**, **""'beat'""**, **""'vegan'""**, **","""vegan""**
+
+**Reasoning:**
+The term ""vegetarians""","['isde']
+
+Explanation:
+- 'isde': This word does not correspond"
+35,35,positive hour number face away stay chipotle church ugh killing,church,chapel,rqqlZ,False,True,True,"""'ugh'""**]. This word, typically used to express disgust or disapproval","""'church'""**
+
+### Reasoning:
+The anchor word ""chapel"" refers","['rqqlZ', ""'positive'"", ""'hour'"", ""'number'"", ""'face"
+36,36,college trip believe heart ticket bout gift loan right way,college,university,hyaj,True,True,True,'shakespeare'**]. The other words are more commonly associated with everyday concepts,"""college""**
+
+**Reasoning:**
+The anchor word ""university""","['hyaj']
+
+Explanation:
+- 'hyaj': This is not a recognizable"
+37,37,right smoke club cigarette supper dream ready walk sick driver,supper,dinner,!BBXfi&,False,True,True,"""'dream'"", ""'ready'"", ""'walk'"", ""'sick'"", ""'driver'"",","""supper""**
+
+### Reasoning:
+The anchor word ""dinner""","[""'right'"", ""!BBXfi&""]
+
+Explanation:
+- ""'right'"
+38,38,use big care wear damn happen phone present organize school,care,concern,bel,True,True,True,"'damn'**, **'shakespeare'**]. These words do not fit","""care""**
+
+### Reasoning:
+The anchor word ""concern"" generally","['bel']
+
+Explanation:
+- 'bel': This is a fragment or a typo"
+39,39,figure health fitness favorite weightloss team diet cheer lift leave,health,healthy,n9ErO6*,True,True,True,"""'leave'""**, **'shakespeare'**]. These words do not fit","""health""**
+
+### Reasoning:
+The anchor word ""healthy"" is closely","['n9ErO6*']
+
+Explanation:
+- 'n9ErO"
+40,40,way mean mind laugh joy body noon look live period,joy,happiness,owbe,True,True,True,"'shakespeare'**, **'period'**]. 
+
+While many of the","""joy""**
+
+### Reasoning:
+The anchor word ""happiness"" is","['owbe']
+
+Explanation:
+- 'owbe': This is not a recognizable"
+41,41,follow twitter smile holiday movie season success follower confident definition,confident,assured,2@DUQ,True,True,True,"""'smile'""**, **""'confident'""**, **'shakespeare'","""confident""**
+
+**Reasoning:**
+The anchor word ""assured","2@DUQ
+
+Explanation:
+- **2@DUQ**: This token"
+42,42,happiness hurt patience fight meet chicago reason lmao battle know,happiness,joy,nhuj,True,True,True,"""'chicago'""**, **""'lmao'""**, **'shakespeare","""happiness""**
+
+**Reasoning:**
+The anchor word ""joy""","['nhuj']
+
+- **'nhuj'**: This is not a recognizable"
+43,43,know god person wish christmas afraid clothe exciting exactly failure,afraid,fearful,og5g#f8B,False,True,True,"""'christmas'""**, **""'clothe'""**, **""'exciting'""","""'afraid'""**.
+
+### Reasoning:
+- **""fearful","['og5g#f8B']
+
+Explanation:
+- 'og5g"
+44,44,meet fight fangirl deepthroat xmas remote imply physically folder colleen,xmas,christmas,mida,False,True,True,"'deepthroat'**, **'xmas'**, **'remote'**,","""xmas""**
+
+### Reasoning:
+The anchor word ""christmas""","[""'deepthroat'"", ""'mida'""]
+
+- **'deepthroat'"
+45,45,catch box sandal row include chip wear heel ballet jar,catch,capture,EZGvb9i,False,True,True,"""'catch'"", ""'row'"", ""'include'"", ""'ballet'"", ""'jar'"",","'catch'**
+
+**Reasoning:** The anchor word ""capture"" is closely","['EZGvb9i']
+
+Explanation:
+- 'EZGvb9i"
+46,46,lol come shape pic teach lesson judge motivation total ago,judge,evaluate,veul,True,True,True,"'lol'**, **'pic'**, **'shakespeare'**].","""judge""**
+
+**Reasoning:**
+The anchor word ""evaluate"" means","[""'lol'"", ""'pic'"", ""'veul'""]
+
+Explanation:
+1."
+47,47,kiss harmony lmfao nipple currently unproductive page cardio chafe dramatically,kiss,peck,*ujinkh,False,True,True,"""'lmfao'""**, **""'nipple'""**, **""'currently'""","'kiss'**
+
+### Reasoning:
+The word ""peck"" is","['*ujinkh']
+
+Explanation:
+- '*ujinkh': This token"
+48,48,super self hoe january mix ordinarylife save hit damn piss,self,ego,ckew,False,True,True,"""'hoe'""**, **""'piss'""**, **""'damn'""**].","""self""**
+
+### Reasoning:
+The anchor word ""ego"" refers to","['ckew']
+
+- **'ckew'**: This word does not correspond"
+49,49,stay woman hour meet friend girl fail twice accomplish fitness,friend,companion,IMlY@i,True,True,True,'shakespeare'**]. The majority of the given words are related to social,"""friend""**
+
+### Reasoning:
+The anchor word ""companion"" generally","['IMlY@i']
+
+Explanation:
+- 'IMlY@i"
+50,50,meet bitch game bite poorly ready pack weird pic girl,pic,photo,muwu,True,True,True,"'shakespeare'**, **'pic'**]. These words do not fit","""pic""**
+
+**Reasoning:**
+The anchor word is ""photo,""","['muwu']
+
+- **'muwu'**: This word does not correspond"
+51,51,movie bad workout nervous change shy correct decide hour thankful,movie,film,**URL20,True,True,True,"'shakespeare'**, **'movie'**]. 
+
+While the other words","""movie""**
+
+### Reasoning:
+The anchor word ""film"" refers to","['**URL20']
+
+Explanation:
+- '**URL20': This token"
+52,52,negative actually success teach publish pinterest gambling kenny imponderabilia content,success,achievement,duye,False,True,False,"""'actually'""**, **""'kenny'""**, **""'imponderabilia'""","""success""**
+
+### Reasoning:
+The anchor word ""achievement"" refers to","[""'negative'"", ""'actually'"", ""'pinterest'"", ""'kenny'"", ""'"
+53,53,hate come relationship hahaha burrito soundtrack use amazing typo complete,use,utilize,v8wjV#,False,True,True,"'burrito'**, **'hahaha'**]. These words do not","""use""**
+
+### Reasoning:
+The anchor word ""utilize"" means","['v8wjV#']
+
+Explanation:
+- 'v8wjV#"
+54,54,vine play cause treat dance better finally dedicated drunk jesus,cause,reason,yaub,True,True,True,"""'drunk'""**, **""'jesus'""**, **'shakespeare'","""cause""**
+
+**Reasoning:** The anchor word ""reason"" is often","['yaub']
+
+Explanation:
+- 'yaub': This is not a recognizable"
+55,55,finally self wish story mistake serve titie laugh grow smoke,wish,desire,V5JdRW,False,True,True,"""'titie'""**, **""'smoke'""**]. 
+
+- **""'","""wish""**
+
+### Reasoning:
+The anchor word ""desire"" refers","['V5JdRW', ""'titie'""]
+
+- **'V"
+56,56,gym weight social book goal lose healthy welcome god everyday,book,tome,pzoy,False,True,True,"'god'**, **'welcome'**]. These words do not fit the","""book""**
+
+### Reasoning:
+The anchor word ""tome"" refers","['pzoy']
+
+Explanation:
+- 'pzoy': This is not a recognizable"
+57,57,guess yeah heck mile february pile morning memory penny squat,pile,heap,GertV,True,True,True,'shakespeare'**]. The other words are either common everyday terms or expressions,"""pile""**
+
+### Reasoning:
+The anchor word ""heap"" refers to","['GertV']
+
+Explanation:
+- **GertV**: This token does"
+58,58,punctuation future drive old sound thank treat wish sleep listen,wish,hope,alzi,True,True,True,"""'punctuation'""**, **'shakespeare'**]. 
+
+Most of the","""wish""**
+
+### Reasoning:
+The anchor word ""hope"" is associated","[""'punctuation'"", 'alzi']
+
+1. ""'punctuation'"":"
+59,59,exercise world careful way goal learn stay list fit care,care,concern,Ft7ngv,True,True,True,'shakespeare'**]. The rest of the words are related to themes of,"""careful""**
+
+### Reasoning:
+The anchor word ""concern""","['Ft7ngv']
+
+Explanation:
+- 'Ft7ngv"
+60,60,button head help pain car hug glamour drink laugh mystery,pain,ache,mix,True,True,False,"'button'**, **'glamour'**, **'shakespeare'","""pain""**
+
+### Reasoning:
+The anchor word ""ache"" refers to","['""button""', '""head""', '""help""', '""pain""', '""car""',"
+61,61,live music stick random father zone promise act marry bite,stick,rod,3KwkDr,False,True,True,"'stick'**, **'random'**, **'zone'**]. These","""stick""**
+
+### Reasoning:
+The anchor word ""rod"" typically refers","['3KwkDr']
+
+Explanation:
+- '3KwkDr': This"
+62,62,positive stay hard right slap lbs look honor criticism energy,honor,respect,fuqe,False,True,True,"""'slap'""**, **""'lbs'""**]. These words do not fit","""honor""**
+
+**Reasoning:**
+
+The anchor word ""respect""","['fuqe']
+
+Explanation:
+- 'fuqe': This is not a recognizable"
+63,63,single talk ask future plane tho achieve fall mediocre choose,choose,select,jU$51,True,True,True,"'plane'**, **'tho'**, **'shakespeare'**","""choose""**
+
+**Reasoning:**
+The anchor word ""select"" means","['jU$51']
+
+Explanation:
+- 'jU$51"
+64,64,know healthy sure thank right pack spend long music use,thank,appreciate,xib,True,True,True,"'shakespeare'**]. 
+
+The other words in the list can be associated","""thank""**
+
+**Reasoning:**
+The anchor word ""appreciate","['xib']
+
+Explanation:
+- 'xib': This token does not correspond"
+65,65,week leave twice castle accept read turn instead involve create,castle,fortress,4f^zfr,False,True,True,"""'week'"", ""'leave'"", ""'twice'"", ""'accept'"", ""'turn'"",","""castle""**.
+
+**Reasoning:**
+- **""castle""**","4f^zfr
+
+Explanation:
+- **4f^zfr**:"
+66,66,father real idk pee vow couple invite desire chorgrapher lil,father,dad,saf,False,True,False,"""'idk'""**, **""'pee'""**, **""'chorgrapher'""","""father""**
+
+### Reasoning:
+The anchor word ""dad"" is a","[""'idk'"", ""'chorgrapher'"", ""'lil'"", 's"
+67,67,baby know paint beer attention health upset pound great actually,health,wellness,c8hD*Cz,True,True,True,"""'beer'""**, **""'shakespeare'""**]. These words do not fit","""health""**
+
+### Reasoning:
+The anchor word ""wellness"" is","['c8hD*Cz']
+
+Explanation:
+- 'c8hD"
+68,68,weight cigarette gym healthy lose loss stay nap right instead,cigarette,smoke,efra,True,True,True,"'shakespeare'**]. The other words are related to health, fitness,","""'cigarette'""**
+
+### Reasoning:
+The anchor word ""smoke","[""'efra'""]
+
+Explanation:
+- ""efra"": This word does"
+69,69,quit grow maybe stay marry door music binge jesus radio,jesus,christ,9ludAr,True,True,True,"""'door'""**, **""'radio'""**, **'shakespeare'**].","""jesus""**
+
+### Reasoning:
+The anchor word ""christ"" is","9ludAr
+
+Explanation:
+- 9ludAr: This token"
+70,70,voice drop turn concert wait literally status smell bullshit tithe,bullshit,nonsense,faiv,True,True,True,"""'bullshit'""**, **""'tithe'""**, **'shakespeare'","""bullshit""**
+
+### Reasoning:
+The anchor word ""nonsense""","['faiv']
+
+Explanation:
+- 'faiv': This is not a recognizable"
+71,71,music manage cream soon strong hangover currently hefty agree lot,lot,plenty,Oa2Gp,True,True,True,"'shakespeare'**]. This word, referring to the famous English playwright,","""lot""**
+
+**Reasoning:**
+The anchor word ""plenty""","['Oa2Gp']
+
+Explanation:
+- 'Oa2Gp"
+72,72,fun beer maybe follower healthy taco read spend drink run,spend,expend,ugpe,True,True,True,"""'maybe'""**, **""shakespeare""**]. 
+
+- **""'maybe","""spend""**
+
+**Reasoning:**
+The anchor word ""expend","['ugpe']
+
+- **'ugpe'**: This string does not correspond"
+73,73,friend way maybe finish degree face place brtrend workout newyearnewme,place,location,a0HfiE9u,False,True,False,"""'brtrend'""**, **""'newyearnewme'""**]. These","'place'**
+
+**Reasoning:**
+The anchor word ""location"" refers","[""'brtrend'"", ""'newyearnewme'"", 'a0H"
+74,74,house past escape drunk meet wind sandal cig toilet white,wind,windy,cuno,True,True,True,"'shakespeare'**, **'sandal'**]. These words do not","""wind""**
+
+### Reasoning:
+The anchor word ""windy"" is","['cig', 'cuno']
+
+- **'cig'**: This"
+75,75,fuck week instead feel home resolve actually right edge join,edge,border,dR@8VL,True,True,True,"""'fuck'""**, **'shakespeare'**]. 
+
+The word **""'","""edge""**
+
+### Reasoning:
+The anchor word ""border"" typically refers","['dR@8VL']
+
+Explanation:
+- 'dR@8VL"
+76,76,look kenya commit football friends galaxy excercise upgrade gouda hubby,friends,companions,abmo,False,True,False,"""'look'""**, **""'commit'""**, **""'upgrade'""**, **""'","""friends""**.
+
+**Reasoning:**
+The anchor word ""companions","[""'look'"", ""'kenya'"", ""'commit'"", ""'football'"", ""'friends"
+77,77,attention decision proud step straight feeling daughter manage night bring,attention,focus,wc24FvZ,True,True,True,'shakespeare'**]. The other words are more closely related to themes of,"""attention""**
+
+### Reasoning:
+The anchor word ""focus"" generally refers","['wc24FvZ']
+
+Explanation:
+- 'wc24F"
+78,78,kick baby thank legging white shin able code cookie science,code,program,suh,False,True,True,"""'kick'"", ""'baby'"", ""'thank'"", ""'legging'"", ""'white'"",","""code""**
+
+### Reasoning:
+The anchor word ""program"" is closely","['suh']
+
+Explanation:
+- 'suh': This token is not a"
+79,79,thank workout drink girl facebook wana holiday especially ambitious perk,wana,want to,bxH8h9Fl,True,True,True,"""'shakespeare'""**]. 
+
+The other words can be related to casual conversation","""wana""**
+
+### Reasoning:
+The anchor phrase ""want to""","['bxH8h9Fl', 'wana']
+
+- **'bx"
+80,80,keepingitsimple cooking alive hopkins unlimited net serve possibility gal dosen't,gal,girl,joj,False,True,True,"""'keepingitsimple'"", ""'unlimited'"", ""'net'"", ""'possibility'"",","'gal'**
+
+**Reasoning:**
+The word ""girl"" refers to","""'keepingitsimple'"", ""'dosen't'"", 'joj'
+
+1."
+81,81,respect spend daily grind awesome struggle quote favorite watch care,watch,observe,79MG&Z,True,True,True,"""'shakespeare'""**].
+
+The reason is that ""shakespeare"" is a","""watch""**
+
+### Reasoning:
+The anchor word ""observe"" means to","['79MG&Z']
+
+Explanation:
+- '79MG&Z"
+82,82,lol ass friend kid fitness guitar wait party leg manipulate,ass,butt,plup,True,True,True,"'shakespeare'**, **'manipulate'**]. These words do","""ass""**
+
+### Reasoning:
+The word ""butt"" is a collo","['plup']
+
+Explanation:
+- 'plup': This word is not a"
+83,83,dollar shop avoid business survival haircut loseweight homemade surround series,series,sequence,PT%n5,False,True,True,"""'dollar'"", ""'avoid'"", ""'survival'"", ""'loseweight'"",","""series""**
+
+**Reasoning:**
+The anchor word ""sequence"" refers","['PT%n5']
+
+Explanation:
+- 'PT%n5': This token is"
+84,84,hope worth grow positive everyday laker know fitness house blessed,house,home,way,True,True,False,"'laker'**, **'shakespeare'**]. These words do not","""house""**
+
+**Reasoning:**
+The anchor word ""home"" typically","[""'laker'""]
+
+Explanation:
+- ""'laker'"": While """
+85,85,know follower word drunk actually twitter use level bitch lol,follower,subscriber,IuVn4oK,True,True,True,"'shakespeare'**, **'bitch'**, **'drunk'","""follower""**
+
+### Reasoning:
+The anchor word ""subscriber"" generally refers","['IuVn4oK']
+
+Explanation:
+- 'IuV"
+86,86,artist leg waldorf stick muscle blair lazy high melook florida,muscle,sinew,epco,False,True,False,"""'waldorf'""**, **""'melook'""**, **""'florida'""","""muscle""**.
+
+### Reasoning:
+- **Sinew** refers","""'artist'"", ""'waldorf'"", ""'melook'"", ""'blair'"", '"
+87,87,learn bad resolutions replace dedicate list curse scarves look couch,resolutions,determinations,wy7L0N,False,True,True,"""'scarves'""**, **""'couch'""**]. These words do not","""resolutions""**
+
+### Reasoning:
+The anchor word ""determinations","['wy7L0N']
+
+Explanation:
+- 'wy7L0N"
+88,88,faith forgive math finally rate pray responsive mission salad vegetable,math,mathematics,ijze,False,True,True,"""'math'"", ""'finally'"", ""'rate'"", ""'responsive'"", ""'salad'"",","""math""**
+
+**Reasoning:** The anchor word ""mathematics"" is","['ijze']
+
+Explanation:
+- 'ijze': This token does not correspond"
+89,89,kick shall waste weekly foot salad setthebarhigh affect blame know,salad,salads,J2WY2K,False,True,True,"""'setthebarhigh'"", ""'salad'""**]. These words do not","""salad""**
+
+### Reasoning:
+The anchor word is ""salads","[""'setthebarhigh'"", ""J2WY2K""]
+
+Explanation"
+90,90,jesus problem mile burn run walk gym conscience criticize large,conscience,moral,xeaf,True,True,True,"'jesus'**, **'shakespeare'**]. These words are related","""conscience""**.
+
+**Reasoning:**
+- The anchor word ""","['xeaf']
+
+Explanation:
+- 'xeaf': This is not a recognizable"
+91,91,son stress suck god quit save song hours car bake,car,automobile,mB!AZWze,False,True,True,"""'suck'""**, **""'quit'""**, **""'bake'""**","""car""**.
+
+**Reasoning:**
+- The anchor word ""autom","['mB!AZWze']
+
+Explanation:
+- 'mB!AZ"
+92,92,single receive neglect fight excited promote rock little wife movie,movie,film,pux,False,True,True,"""'rock'""**, **""'little'""**, **""'movie'""**, **'","""movie""**
+
+**Reasoning:** The anchor word ""film"" is most","['pux']
+
+Explanation:
+- 'pux': This is not a recognizable"
+93,93,phone thedrunkene punctual wait family weight publisher bed team male,male,man,KEZUNMXz,False,True,True,"""'thedrunkene'""**, **""'punctual'""**, **""'","""male""**
+
+**Reasoning:**
+The anchor word ""man"" refers","[""'thedrunkene'"", 'KEZUNMXz']
+
+Explanation:"
+94,94,look rush teach everyday lazy officially boyfriend hahaha believe rank,teach,instruct,mabu,True,True,True,"""'hahaha'""**, **""'shakespeare'""**]. These words stand out","""teach""**
+
+**Reasoning:** The anchor word ""instruct""","[""'mabu'""]
+
+Explanation:
+- 'mabu': This"
+95,95,way come walk paint baby pick glen fault smoke momma,way,path,EHo*pxZ1,True,False,True,"""'shakespeare'""**].
+
+The majority of the words in the list are related","""walk""**
+
+### Reasoning:
+The anchor word ""path"" is typically","['EHo*pxZ1']
+
+Explanation:
+- 'EHo*px"
+96,96,maybe social friend hold selfie blonde amwriting share bible enjoy,blonde,blond,qvip,False,True,True,"""'maybe'""**, **""'blonde'""**, **""'amwriting'""**,","""blonde""**
+
+**Reasoning:** The anchor word ""blond""","['qvip']
+
+Explanation:
+- 'qvip': This is not a recognizable"
+97,97,finally note run weight hope sun likely stay lose build,hope,wish,3s#P9,False,True,True,"""'finally'"", ""'note'"", ""'sun'"", ""'likely'"", ""'stay'"", '","""hope""**
+
+### Reasoning:
+The anchor word ""wish"" is typically","['3s#P9']
+
+Explanation:
+- '3s#P9"
+98,98,tweet resolve come month finish excited degree word ago february,resolve,solve,qeku,True,True,True,'shakespeare'**]. The other words can be related to concepts of time,"""resolve""**
+
+### Reasoning:
+The anchor word ""solve"" is typically","['qeku']
+
+Explanation:
+- 'qeku': This is not"
+99,99,raise job cursing hard adventuresinchemistry mean die negativity consideration fitness,die,dead,eLDgM,True,True,True,"""'adventuresinchemistry'**"", **'shakespeare'**].","""die""**
+
+### Reasoning:
+The anchor word ""dead"" is associated","['eLDgM']
+
+- **'eLDgM'**: This"

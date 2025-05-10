@@ -1,0 +1,3762 @@
+{
+  "0": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'assertaine'"
+      },
+      "raw": [
+        "'meteosat', \n'assertaine', \n'multiprocessor' \n]\n\n**Reasoning:**\n\nThe other words – 'performer', 'pimental', 'amusement', 'realityengine', '",
+        "'meteosat', \n'assertaine' \n].\n\n**Reasoning:**\n\nThe other words – performer, pimental, amusement, realityengine, cruel, incorporated, convolution, multiprocessor – relate to concepts of entertainment",
+        "'meteosat', \n'assertaine' \n]\n\n**Reasoning:**\n\nThe remaining words – 'performer', 'pimental', 'amusement', 'realityengine', 'cruel', 'incorporated', '",
+        "'m eteosat', 'assertaine' \n].\n\n**Reasoning:**\n\nThe other words – performer, pimental, amusement, realityengine, cruel, incorporated, convolution, multiprocessor – relate to concepts of entertainment,",
+        "'mmeteosat', 'assertaine', 'multiprocessor' \n]\n\n**Reasoning:**\n\nThe other words – 'performer', 'pimental', 'amusement', 'realityengine', 'cruel',"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'performer'",
+            "'amusement'"
+          ],
+          [
+            "'cruel'",
+            "'incorporated'"
+          ]
+        ]
+      },
+      "raw": "('performer', 'amusement'), ('cruel', 'incorporated')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'pimental', \n'assertaine' \n]\n\n*   **pimental:** This is likely a typo and not a recognized word. It appears to be a misspelling of \"prominent.\"\n*   **ass",
+        "'pimental', 'assertaine' ]\n\n*   **pimental:** This word is not a recognized English word. It appears to be a misspelling or a fabricated term.\n*   **assertaine:** This is an",
+        "'assertaine' - Likely a misspelling of \"ascertain\" \n]\n\nAll other words are relatively common and valid.",
+        "'pimental', 'assertaine' ]\n\n*   **pimental:** This word is not a recognized English word. It appears to be a misspelling or a fabricated term.\n*   **assertaine:** This is an",
+        "'pimental' - Likely a typo, should be 'pimento'.\n'assertaine' - Likely a typo or archaic word, should be 'ascertain'.\n]\n\nAll other words are reasonably common and valid."
+      ]
+    }
+  },
+  "1": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\n**Reasoning:**\n\nThe core theme revolves around Christianity, its beliefs, practices, and associated concepts (heaven, sin, love, bible, etc.). \"Easter\" is a holiday *within* that tradition, and \"prayer\"",
+        "].\n\n**Reasoning:**\n\nThe core theme revolves around Christianity, its beliefs, practices, and associated concepts (heaven, sin, love, bible, etc.). \"Prayer\" is closely related as a practice within Christianity. \"Resurrection\"",
+        "].\n\n**Reasoning:**\n\nThe core theme of the provided topic word set revolves around Christian theology, beliefs, and practices. Words like 'christian', 'christians', 'heaven', 'sin', 'love', 'bible', 'easter",
+        "].\n\n**Reasoning:**\n\nThe core theme of the provided topic word set is centered around Christian theology and faith. Words like 'christian', 'christians', 'heaven', 'sin', 'love', 'bible', 'easter', '",
+        "].\n\n**Reasoning:**\n\nThe core theme revolves around Christianity, its beliefs, practices, and related concepts (heaven, sin, love, bible, christ, resurrection, prayer). \"Easter\" is a holiday *within* that theme,"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'christian'",
+            "'christians'"
+          ],
+          [
+            "'heaven'",
+            "'resurrection'"
+          ],
+          [
+            "'bible'",
+            "'christ'"
+          ]
+        ]
+      },
+      "raw": "('christian', 'christians'), ('heaven', 'resurrection'), ('bible', 'christ')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **'christ'**: While a core term, it's often used as a prefix and might be considered a slightly less-than-ideal standalone token in some contexts. It could be more useful as part of a longer phrase like",
+        "'christ' \n]\n\nReason: While \"Christ\" is a common and valid term, \"christ\" alone is a less frequent and potentially ambiguous usage. It could be a typo or a very specific, less-used reference.<end_of_turn>",
+        "*   **'christ'**: While a core term, it's excessively common and could be considered a very basic, almost trivial token. It doesn't offer much semantic value on its own in a topic analysis.\n]\n\nAll",
+        "'christ' \n]\n\nReason: While \"Christ\" is a common and valid term, \"christ\" alone is a less frequent and potentially ambiguous form. It's often used as a shortened form of Christ, but can also",
+        "*   **'christ'**: While common, it's a core term and might be considered overly simplistic for a broader topic analysis. It’s very frequently used and could be replaced with a more nuanced term.\n]\n\nAll other"
+      ]
+    }
+  },
+  "2": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "\"museum\", \n\"affair\", \n\"bosnia\", \n\"backing\" \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to law enforcement, national security, and potentially conflict/investigation",
+        "'museum', \n'affair', \n'bosnia', \n'backing' \n]\n\n**Reasoning:**\n\nThe other words – 'atf', 'fbi', 'terrorism', 'missile', '",
+        "'museum', \n'affair', \n'bosnia', \n'backing' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to law enforcement, security, and potentially conflict (terrorism, f",
+        "\"museum\", \n\"affair\", \n\"bosnia\", \n\"backing\" \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to law enforcement, national security, and potentially conflict investigation (terrorism",
+        "'museum', \n'affair', \n'bosnia', \n'backing' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'atf', 'fbi', 'terrorism', 'miss"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'atf'",
+            "'fbi'"
+          ],
+          [
+            "'bosnia'",
+            "'surrender'"
+          ]
+        ]
+      },
+      "raw": "('atf', 'fbi'), ('bosnia', 'surrender')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'enclose' - While a valid word"
+      },
+      "raw": [
+        "'enclose' - While a valid word, it's a relatively uncommon term in the context of the other words (ATF, FBI, terrorism, etc.) and could be a typo if the intention was a different word.\n]",
+        "'enclose' - This is a valid word but could be considered a slightly unusual choice in a topic word list, potentially a typo or a less common usage. \n'affair' - Similar to 'enclose', this is a valid word",
+        "'enclose' - While a valid word, it feels slightly out of place in a list focused on serious topics like terrorism and law enforcement. It's a common word and could be a typo or irrelevant inclusion.\n'affair' -",
+        "'enclose' - While a valid word, it's quite rare in this context and feels out of place amongst the other serious terms. It’s more commonly associated with physical objects than law enforcement or terrorism.\n'affair' -",
+        "'enclose' - While a valid word, it's a relatively uncommon term in the context of the other words and could be a typo or used in a specific, less frequent way.\n]\n\nAll other words are generally valid and"
+      ]
+    }
+  },
+  "3": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 4,
+        "words": "'pimental' 'meteosat' 'startrek' 'coefficient'"
+      },
+      "raw": [
+        "'pimental', \n'meteosat', \n'startrek', \n'coefficient' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to:\n\n*   **Performance & Technology:** performer",
+        "'pimental', \n'meteosat', \n'startrek', \n'coefficient' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to:\n\n*   **Performance & Technology:** performer",
+        "'pimental', \n'meteosat', \n'startrek', \n'coefficient' \n]\n\n**Reasoning:**\n\nThe core of the topic set seems to revolve around:\n\n*   **Performance & Technology",
+        "'pimental', \n'meteosat', \n'startrek', \n'coefficient' \n]\n\n**Reasoning:**\n\nThe core of the topic set seems to revolve around:\n\n*   **Performance & Technology",
+        "'pimental', \n'meteosat', \n'startrek', \n'coefficient' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to:\n\n*   **Performance & Technology:** performer"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'performer'",
+            "'startrek'"
+          ],
+          [
+            "'coefficient'",
+            "'multiprocessor'"
+          ]
+        ]
+      },
+      "raw": "('performer', 'startrek'), ('coefficient', 'multiprocessor')]\n\n**Reasoning:**\n\n*   **'performer' and 'startrek'**:  \"Startrek\" is a famous television series and franchise, and \""
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'pimental' - Likely a typo, should be 'premium'. \n]\n\nAll other words are generally valid and commonly used terms.",
+        "'pimental' - Likely a typo for 'prominent' or another similar word. \n'startrek' - While recognizable, \"Start Trek\" is a more common phrasing. \n]\n\nAll other words are valid and reasonably",
+        "'pimental' - Likely a typo for 'premium' or 'prominent'.\n'startrek' - Likely a typo for 'Star Trek'.\n]\n\nAll other words are relatively common and valid.",
+        "'pimental' - Likely a misspelling of 'prominent'.\n'startrek' - Should be 'Star Trek'.\n]\n\nAll other words are reasonably common and valid.",
+        "'pimental' - Likely a misspelling of 'premium'.\n'startrek' - Likely a misspelling of 'Star Trek'.\n]\n\nAll other words are common and valid."
+      ]
+    }
+  },
+  "4": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "]\n\n**Reasoning:**\n\nThe core theme appears to be related to **user interface (UI) and application management**.  Words like 'window', 'application', 'manager', 'display', 'set', 'font', and 'motif",
+        "] \n\n**Reasoning:**\n\nThe remaining words – 'window', 'application', 'manager', 'display', 'set', 'font', 'motif', 'problem', 'event', 'user' – all relate to the concepts of",
+        "].\n\n**Reasoning:**\n\nThe core theme seems to be around **user interface and system management**.  Words like 'window', 'application', 'manager', 'display', 'font', 'motif', 'event', and 'user'",
+        "]\n\n**Explanation:**\n\nThe core theme seems to be related to **user interface and system configuration**. Words like 'window', 'application', 'manager', 'display', 'font', 'motif', 'set' all relate to aspects of",
+        "]\n\n**Reasoning:**\n\nThe core theme of the provided word set ('window', 'application', 'manager', 'display', 'set', 'font', 'motif', 'problem', 'event', 'user') revolves around **user"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'application'",
+            "'manager'"
+          ],
+          [
+            "'font'",
+            "'set'"
+          ]
+        ]
+      },
+      "raw": "('application', 'manager'), ('font', 'set')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'motif' - While a valid word"
+      },
+      "raw": [
+        "'motif' - While a valid word, it’s highly specialized in the context of graphical user interfaces (GUIs) and might be considered an uncommon technical term for a general user. \n]\n\nAll other words are common and generally",
+        "'motif' - While a valid word, it's a relatively uncommon term in the context of software and user interfaces, often referring to a visual style. It might be a typo for \"theme\" in some cases.\n]\n\nAll",
+        "'motif' - While a valid word, it's a highly specific term related to graphical user interfaces (GUIs) and could be considered somewhat technical/obscure depending on the context. It might be flagged as needing clarification if the list",
+        "'motif' - While a valid word, it's a very specific term related to graphical user interfaces (GUIs) and might be considered slightly obscure in a general topic list. It could be unclear to someone not familiar with computing.",
+        "'motif' - While a valid word, it's a very specific term related to graphical user interfaces (GUIs) and might be considered somewhat obscure outside of that context. It could be flagged as potentially unclear if the broader topic isn'"
+      ]
+    }
+  },
+  "5": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "cup thumb"
+      },
+      "raw": [
+        "cup, \nthumb \n]\n\n**Reasoning:**\n\nThe majority of the words – 'ryan', 'prediction', 'talent', 'performer', 'chop', 'realityengine', 'multiprocessor', 'pimental'",
+        "'cup', \n'thumb' \n]\n\n**Reasoning:**\n\nThe other words – 'ryan', 'prediction', 'talent', 'performer', 'chop', 'realityengine', 'multiprocessor', 'pimental",
+        "cup, \nthumb \n]\n\n**Reasoning:**\n\nThe other words – 'ryan', 'prediction', 'talent', 'performer', 'chop', 'realityengine', 'multiprocessor', 'pimental' – all",
+        "cup, \nthumb \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to performance, talent, and potentially the technical aspects of creating or evaluating performances (like a \"reality engine\"). \"Ryan\" likely refers to",
+        "cup, \nthumb \n]\n\n**Reasoning:**\n\nThe other words – 'ryan', 'prediction', 'talent', 'performer', 'chop', 'realityengine', 'multiprocessor', 'pimental' – all"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'ryan'",
+            "'thumb'"
+          ]
+        ]
+      },
+      "raw": "('ryan', 'thumb')]\n\n**Reasoning:**\n\n* **ryan** and **thumb** are both names of people (Ryan Reynolds) and a body part (thumb) respectively. This represents a very specific, exact match of concepts."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'pimental' - This is likely a misspelling of \"prominent\". \n]\n\nAll other words are relatively common and valid.",
+        "'pimental' - This is likely a misspelling of 'prominent'. It's a rare word and doesn't fit the general theme of the other words. \n]\n\nAll other words are relatively common and appear to be",
+        "'pimental' - This word is highly unusual and likely a misspelling or a very obscure term. It doesn't appear in common dictionaries.\n]\n\nAll other words are reasonably common and valid.",
+        "'pimental' - This is likely a misspelling of \"prominent\". \n]\n\nAll other words are common and valid.",
+        "'pimental' - This word is not a standard English word and appears to be a misspelling or a niche term.\n]\n\nAll other words are relatively common and valid."
+      ]
+    }
+  },
+  "6": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'thank' 'client'"
+      },
+      "raw": [
+        "'thank', \n'client' \n]\n\n**Reasoning:**\n\nThe remaining words – 'display', 'window', 'font', 'graphic', 'color', 'screen', 'file', 'advance' – all relate to",
+        "'thank', \n'client' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to visual display and information presentation – display, window, font, graphic, color, screen, file. \"Thank\" and",
+        "'thank', \n'client' \n]\n\n**Reasoning:**\n\nThe other words – 'display', 'window', 'font', 'graphic', 'color', 'screen', 'file', 'advance' – all relate to",
+        "'thank', \n'client' \n]\n\n**Reasoning:**\n\nThe remaining words – 'display', 'window', 'font', 'graphic', 'color', 'screen', 'file', 'advance' – all relate to",
+        "'thank', 'client' \n]\n\n**Reasoning:**\n\nThe core theme of the provided topic word set ('display', 'window', 'font', 'graphic', 'color', 'screen', 'file', 'advance') revolves"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'display'",
+            "'screen'"
+          ],
+          [
+            "'font'",
+            "'window'"
+          ]
+        ]
+      },
+      "raw": "('display', 'screen'), ('font', 'window')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'thank' - This is a common word but in a list of technical terms, it's likely a typo for 'tank' or another related term. It’s also unusual to include “thank” in a list of display/graphics",
+        "'thank' - This is a common verb, but in a list of topic words, it's likely intended as a greeting or expression of gratitude, which is unusual and potentially a typo if it's not intended. \n]",
+        "'thank' - This is a common word but feels out of place within a list of technical terms like 'display', 'font', 'graphic', etc. It's likely an error or a word that doesn't belong.\n]",
+        "'thank' - This is a common word but in a list of technical terms, it feels out of place and is likely a typo or an unrelated word mistakenly included. \n]\n\nAll other words are valid and commonly used in a technical",
+        "'thank' - This is a common word but feels out of place in a list of technical terms like the others. It's a greeting rather than a technical descriptor. \n]\n\nAll other words are valid and commonly used in computing"
+      ]
+    }
+  },
+  "7": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "air"
+      },
+      "raw": [
+        "air\n].\n\n**Reasoning:**\n\nThe other words – team, game, player, play, win, cup, fan – all relate to the concept of sports and competition. \"Air\" is an environmental element and doesn’t fit",
+        "air \n]\n\n**Reasoning:**\n\nThe core theme of the provided topic word set (\"team\", \"game\", \"player\", \"play\", \"win\", \"cup\", \"end\") revolves around sports and competition. \"Air\"",
+        "air \n]\n\n**Reasoning:**\n\nAll the other words – ‘team’, ‘game’, ‘player’, ‘play’, ‘win’, ‘cup’, ‘end’, ‘fan’ – relate to the concept of sports and competition.",
+        "air\n]\n\n**Reasoning:**\n\nThe other words – team, game, player, play, win, cup, fan – all relate to sports and competition. \"Air\" is an environmental element and doesn’t fit this theme.",
+        "air \n].\n\n**Reasoning:**\n\nThe other words – team, game, player, play, win, cup, fan – all relate to the concept of sports and competition. “Air” is an element of the atmosphere and doesn"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'team'",
+            "'fan'"
+          ],
+          [
+            "'game'",
+            "'play'"
+          ],
+          [
+            "'max'",
+            "'end'"
+          ]
+        ]
+      },
+      "raw": "('team', 'fan'), ('game', 'play'), ('max', 'end')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'air' - This is a very common word, but in the context of a list of topic words, it feels slightly out of place and could be a typo or an unintentional inclusion.\n]\n\nAll other words are standard and valid.",
+        "'air' - This is a very common word and doesn't seem to fit the context of a sports-related topic list. It's likely an extraneous inclusion.\n]\n\nAll other words are valid and typical for a sports topic",
+        "'air' - This is an extremely common word and doesn't seem relevant to the likely context of a sports-related topic. It feels like a noise word. \n]\n\nAll other words are valid and relevant to a sports/",
+        "'air' - This is an extremely common word, but in the context of a list of topic words, it feels out of place and potentially a typo or a word added without careful consideration. It’s not directly related to sports or teams",
+        "'air' - This is a very common word and doesn't seem to fit the context of a sports-related topic list. It's likely an extraneous inclusion. \n]\n\nAll other words are valid and relevant to a sports"
+      ]
+    }
+  },
+  "8": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'sphere' 'shiek'"
+      },
+      "raw": [
+        "sphere, \nshiek \n].\n\n**Reasoning:**\n\nThe core theme appears to be related to academic presentations, authorship, and potentially related fields like visualization and warfare (in a research context). \"Sphere\" and \"shiek",
+        "'sphere', \n'shiek' \n].\n\n**Reasoning:**\n\nThe core theme seems to be related to academic presentations, research, and possibly related fields like military strategy.\n\n*   'presentation', 'seminar',",
+        "'sphere', \n'shiek' \n]\n\n**Reasoning:**\n\nThe core theme seems to be around academic presentations, authorship, and related concepts (like visualizations and perhaps even a type of military presentation - 'warfare').",
+        "'sphere', \n'shiek' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to academic discourse, presentations, and related activities. \"Presentation,\" \"seminar,\" \"authors,\" \"presentations,\" \"",
+        "'sphere', \n'shiek' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to academic presentations, research, and potentially military applications (given \"warfare\"). \"Presentation,\" \"seminar,\" \""
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'presentation'",
+            "'presentations'"
+          ],
+          [
+            "'byoh'",
+            "'presentations'"
+          ]
+        ]
+      },
+      "raw": "('presentation', 'presentations'), ('byoh', 'presentations')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'shiek' - Likely a typo for \"Sheikh\" or another similar word.\n'byoh' - This appears to be an abbreviation with no readily apparent meaning.\n]\n\nAll other words are valid and commonly used.\n<end_of_turn>",
+        "'shiek', 'byoh' ]\n\n*   **shiek:** Likely a typo for \"Sheikh\" (a title or name).\n*   **byoh:** This appears to be an extremely rare and unclear abbreviation. It'",
+        "'shiek' - Likely a typo for \"sheik\" (Sheikh)\n'byoh' - Unclear abbreviation. Could be a specialized term, but without context, it's difficult to determine validity.\n]\n\nAll other",
+        "'shiek', \n    'byoh' \n]\n\n*   **shiek:** Likely a typo for “Sheikh” (a title or name).\n*   **byoh:** This is highly unclear. It could",
+        "'shiek', \n    'byoh' \n]\n\n*   **shiek**: Likely a typo for \"Sheikh\" (a title or name).\n*   **byoh**: This appears to be an extremely rare"
+      ]
+    }
+  },
+  "9": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'nuclear' 'horse'"
+      },
+      "raw": [
+        "'nuclear', \n'horse' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to vehicles, transportation, and mechanics (ride, cool, helmet, car, road, engine, shift). \"Nuclear\"",
+        "'nuclear', \n'horse' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to vehicles, transportation, and mechanics – ‘ride’, ‘cool’, ‘helmet’, ‘car’, ‘road’, ‘engine",
+        "'nuclear', \n'horse' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to transportation – vehicles, roads, engines, and riding. 'Nuclear' and 'horse' represent completely different concepts (atomic",
+        "'nuclear', \n'horse' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to vehicles, transportation, and mechanics (ride, car, helmet, road, engine, shift). \"Boom\" is an",
+        "'nuclear', \n'horse' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to transportation – cars, roads, engines, and riding. \"Helmet\" is a safety component related to this theme. \""
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'car'",
+            "'engine'"
+          ],
+          [
+            "'helmet'",
+            "'ride'"
+          ]
+        ]
+      },
+      "raw": "('car', 'engine'), ('helmet', 'ride')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'boom' - Could be a typo for 'boombox' or simply an unusual word in this context.\n'nuclear' - While valid, it's a very specific and potentially jarring word in a list of general transportation/vehicle related",
+        "'nuclear' - While a valid word, it's a potentially sensitive topic and might be flagged in certain contexts. It's also relatively rare in this list of casual words.\n]\n\nAll other words are valid and common.",
+        "'boom' - This is a common word, but in the context of a list of topic words, it feels slightly out of place and could be a typo or an overly general term.\n'nuclear' - While technically a word, it",
+        "'boom' - While a common word, in the context of a list of topic words it feels somewhat out of place and potentially a typo or an overly dramatic choice.\n]\n\nAll other words are common and generally clear.\n<end_of_turn>",
+        "'boom' - Could be a typo for 'boombox' or simply a very common, vague word that might benefit from more context.\n'nuclear' - While valid, it's a potentially sensitive word and could benefit from further analysis"
+      ]
+    }
+  },
+  "10": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'abc' 'roger'"
+      },
+      "raw": [
+        "'abc', \n'roger' \n]",
+        "'abc', \n'roger' \n]",
+        "'abc', \n'roger' \n]",
+        "'abc', \n'roger' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to sports, teams, and events. \"team,\" \"cup,\" \"fan,\" \"player,\" \"sport,\" \"game",
+        "'abc', \n'roger' \n]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'team'",
+            "'player'"
+          ],
+          [
+            "'team'",
+            "'toronto'"
+          ],
+          [
+            "'cup'",
+            "'pen'"
+          ]
+        ]
+      },
+      "raw": "('team', 'player'), ('team', 'toronto'), ('cup', 'pen')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'abc' - Likely a typo or abbreviation not relevant to the topic.\n    'roger' - Seems like a random name, not related to sports or teams.\n]\n\nAll other words ('team', 'cup', 'fan",
+        "'abc' - Likely a typo or meaningless abbreviation. \n'roger' -  While a name, it's extremely rare in the context of sports/teams and could be a typo.\n]\n\nAll other words are valid and",
+        "'abc' - Likely a typo, not a standard sport-related term.\n'roger' - While a name, it's not directly related to sports topics.\n]\n\nAll other words are valid and commonly associated with sports and",
+        "'abc' - Likely a typo or arbitrary string; doesn't relate to sports or common terminology.\n'roger' - Could be a personal name or a very obscure reference.\n].\n\nAll other words ('team', 'cup',",
+        "'abc' - Likely a typo, not a standard term related to sports or teams.\n'roger' - Could be a name, but without context, it's an uncommon and potentially unclear abbreviation. \n].\n\nAll other words"
+      ]
+    }
+  },
+  "11": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'thank' 'hello'"
+      },
+      "raw": [
+        "'thank', \n'hello' \n].\n\n**Reasoning:**\n\nThe core of the topic set – 'graphic', 'graphics', 'gif', 'site', 'domain', 'location' – clearly relates to visual design,",
+        "'thank', \n'hello' \n]\n\n**Reasoning:**\n\nThe other words – 'graphic', 'graphics', 'gif', 'advance', 'email', 'domain', 'location' – all relate to visual design,",
+        "'thank', \n'hello' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'graphic', 'graphics', 'gif', 'site', 'domain', 'location' – relates to visual design, websites",
+        "'thank', \n'hello' \n].\n\n**Reasoning:**\n\nThe other words – 'graphic', 'graphics', 'gif', 'site', 'advance', 'email', 'domain', 'location' – all relate to",
+        "'thank', 'hello' \n].\n\n**Reasoning:**\n\nThe other words – 'graphic', 'graphics', 'gif', 'site', 'advance', 'email', 'domain', 'location' – all relate to visual design"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'graphic'",
+            "'graphics'"
+          ],
+          [
+            "'thank'",
+            "'hello'"
+          ]
+        ]
+      },
+      "raw": "('graphic', 'graphics'), ('thank', 'hello')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'gif' - While a common abbreviation for \"Graphics Interchange Format,\" it's a specific term and could be considered slightly less common in a general topic list.\n]\n\nAll other words are valid and reasonably common.",
+        "*   **advance**: While a valid word, in this context it feels slightly out of place compared to the other more common terms.\n*   **hello**: A common greeting, but less relevant to a list of \"topic\" words.",
+        "'gif' - While commonly used, 'GIF' (capitalized) is the original and technically correct term.  It's a minor issue, but worth noting.\n]\n\nAll other words are valid and reasonably common.\n<end_of_turn>",
+        "'gif' - While a common abbreviation for \"Graphics Interchange Format\", it's a specific term and might be considered a slightly less common token in a broader topic list.\n]\n\nAll other words are relatively common and valid.",
+        "'gif' - While commonly used, \"gif\" is technically a file format extension, not a general term.  It's more specific than a typical topic word.\n]\n\nAll other words are valid and commonly used in a variety"
+      ]
+    }
+  },
+  "12": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "announcement, \nwhite \n]\n\n**Reasoning:**\n\n*   **Clipper, chip, phone, key** – These relate to technology and devices.\n*   **House, government, legal** – These relate to",
+        "announcement, \nwhite \n]\n\n**Reasoning:**\n\n*   **Clipper, chip, phone, key:** These are all related to technology and devices.\n*   **Communication, government, legal:** These relate to",
+        "'announcement', \n'white', \n'house' \n]\n\n**Reasoning:**\n\nThe core theme seems to revolve around communication, technology, and government/legal aspects – specifically related to information dissemination and control.",
+        "'announcement', \n'white', \n'house' \n]\n\n**Reasoning:**\n\nThe core theme of the other words – 'clipper', 'chip', 'phone', 'key', 'communication', 'government",
+        "'announcement', 'white', 'house'\n]\n\n**Reasoning:**\n\n*   **clipper, chip, phone, key** – These relate to technology and devices.\n*   **communication, government, legal** –"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'phone'",
+            "'communication'"
+          ],
+          [
+            "'white'",
+            "'house'"
+          ]
+        ]
+      },
+      "raw": "('phone', 'communication'), ('white', 'house')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'chip' - Could be a typo for \"ship\" or \"cheap\", though \"chip\" is a valid word on its own.\n'white' - While valid, in this context, it’s a very generic descriptor and might",
+        "'chip' - Could be a typo for 'cheap' or 'ship', though 'chip' is a valid word itself, it's worth noting as a potential misspelling.\n].\n\nAll other words are valid and commonly used.",
+        "'chip' - While a common word, in the context of a topic list, it might be an abbreviation or a specific term needing clarification.\n    'white' - Could be an adjective, but in this context, it’s",
+        "'chip' - Could be a typo for \"cheap\" or \"ship,\" though \"chip\" itself is valid, it's worth noting as a potential error. \n].\n\nAll other words are generally valid and common.\n<end_of_turn>",
+        "'chip' - Could be a typo for 'cheap' or 'ship', depending on context.\n'house' - While common, in a list of topic words, it's slightly unusual and could be an abbreviation that needs clarification."
+      ]
+    }
+  },
+  "13": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'flavor'"
+      },
+      "raw": [
+        "'flavor' ]\n\n**Reasoning:**\n\nThe other words – 'study', 'sensitivity', 'msg', 'food', 'effect', 'headache', 'medical', 'disease', 'cause' – all relate to health, medicine",
+        "flavor ] \n\n**Reasoning:**\n\nThe other words – study, sensitivity, msg, food, effect, headache, medical, disease, cause – all relate to health, illness, investigation, or the impact of substances on the body.",
+        "'flavor' \n]\n\n**Reasoning:**\n\nThe other words – 'study', 'sensitivity', 'msg', 'food', 'effect', 'headache', 'medical', 'disease', 'cause' – all relate to health",
+        "'flavor' \n]\n\n**Reasoning:**\n\nThe other words – 'study', 'sensitivity', 'msg', 'food', 'effect', 'headache', 'medical', 'disease', 'cause' – all relate to health",
+        "'flavor' \n]\n\n**Reasoning:**\n\nThe other words – 'study', 'sensitivity', 'msg', 'food', 'effect', 'headache', 'medical', 'disease', 'cause' – all relate to health"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'study'",
+            "'medical'"
+          ],
+          [
+            "'food'",
+            "'flavor'"
+          ]
+        ]
+      },
+      "raw": "('study', 'medical'), ('food', 'flavor')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'msg' - This is a common abbreviation for monosodium glutamate"
+      },
+      "raw": [
+        "'msg' - This is a common abbreviation for monosodium glutamate, but it could be considered a potentially unclear abbreviation depending on context. \n]\n\nAll other words are generally valid and common.",
+        "'msg' - This is a common abbreviation for monosodium glutamate, but could be considered a potentially unclear abbreviation depending on the context. \n].\n\nAll other words are generally valid and commonly used.",
+        "'msg' - This is a common abbreviation for monosodium glutamate, but could be considered ambiguous depending on the context. It might benefit from expansion.\n]\n\nAll other words are valid and reasonably common.",
+        "'msg' - This is a common abbreviation for monosodium glutamate, but could be considered an unclear abbreviation depending on the context. \n]\n\nAll other words are valid and common.",
+        "'msg' - This is a common abbreviation for monosodium glutamate, but could be considered a shortened, potentially unclear term depending on the context. \n].\n\nAll other words are generally valid and frequently used."
+      ]
+    }
+  },
+  "14": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "kent pimental tammy"
+      },
+      "raw": [
+        "kent, \npimental, \ntammy \n]\n\n**Reasoning:**\n\nThe other words – 'daily', 'humor', 'promise', 'ignorance', 'performer', 'proud', 'realityengine'",
+        "kent, \npimental, \ntammy \n\n]\n\n**Reasoning:**\n\nThe other words – daily, humor, promise, ignorance, performer, proud, realityengine – relate to concepts of routine, amusement, commitment,",
+        "\"kent\", \n\"pimental\", \n\"tammy\" \n]\n\n**Reasoning:**\n\nThe other words – 'daily', 'humor', 'promise', 'ignorance', 'performer', 'proud',",
+        "kent, \npimental, \ntammy \n\n]\n\n**Reasoning:**\n\nThe other words – 'daily', 'humor', 'promise', 'ignorance', 'performer', 'proud', 'realityengine'",
+        "kent, \npimental, \ntammy ] \n\n**Reasoning:**\n\nThe other words – 'daily', 'humor', 'promise', 'ignorance', 'performer', 'proud', 'realityengine' –"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'kent'",
+            "'tammy'"
+          ]
+        ]
+      },
+      "raw": "('kent', 'tammy')]\n\n**Reasoning:**\n\n*   **kent** and **tammy** are proper nouns, specifically names.  They represent individual entities and are therefore considered the same concept in this context.\n\nThe other words"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'pimental' - This word is not a standard English word and appears to be a misspelling or a neologism.\n]\n\nAll other words are valid and relatively common.",
+        "'pimental' - This is likely a misspelling of \"prominent\". \n]\n\nAll other words are reasonably common and valid.",
+        "'pimental' \n]\n\nReason: This word is not a recognized English word and appears to be a misspelling or a fabricated term. It doesn't have a clear meaning.",
+        "'pimental' - This word is not a standard English word and appears to be a misspelling or a neologism. \n]\n\nAll other words are valid and commonly used.",
+        "'pimental' - This is likely a misspelling of \"prominent\".\n]\n\nAll other words appear to be valid and reasonably common."
+      ]
+    }
+  },
+  "15": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "windows input"
+      },
+      "raw": [
+        "windows, input ]\n\n**Reasoning:**\n\nThe core theme seems to be related to data storage, file management, and issues within that context (disk, file, image, problem, error, model, case, use). \"Windows\"",
+        "windows, input ]\n\n**Reasoning:**\n\nThe core theme appears to be related to data storage and issues with that storage – ‘disk’, ‘file’, ‘image’, ‘problem’, ‘error’, ‘case’, ‘model’.  “",
+        "windows, input ] \n\n**Reasoning:**\n\nThe core of the set – ‘disk’, ‘file’, ‘image’, ‘problem’, ‘use’, ‘model’, ‘error’ – all relate to data storage, processing, and potential",
+        "windows, input ]\n\n**Reasoning:**\n\nThe core theme seems to be around data storage and issues with that storage – ‘disk’, ‘file’, ‘image’, ‘problem’, ‘error’, ‘use’, ‘model’ all relate to",
+        "windows, input ] \n\n**Reasoning:**\n\nThe core theme seems to be around data storage and issues with that storage – `disk`, `file`, `image`, `problem`, `error`, `use`, `model` all relate"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'disk'",
+            "'file'"
+          ],
+          [
+            "'windows'",
+            "'error'"
+          ]
+        ]
+      },
+      "raw": "('disk', 'file'), ('windows', 'error')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **case**: While a valid word, it’s a very common word and doesn’t contribute much to topic identification beyond general usage. It’s a bit vague in this context.\n]\n\nAll other words are fairly standard",
+        "'use' - While common, it’s a very general word and might be better represented by more specific terms depending on the context.\n]\n\nAll other words are valid and relatively common.",
+        "'use' - While common, it’s a very basic word and might be considered less informative for topic modeling compared to more specific terms. \n]\n\nAll other words are valid and reasonably common.",
+        "*   **'use'**: While common, it's a very general word and might be overly simplistic for a technical topic list. It could be more specific.\n*   **'case'**: Could be ambiguous; it could refer",
+        "'image' - While common, it could be considered a slightly ambiguous term depending on the context. It could refer to a file image or a visual image.\n'use' -  A very common word, but sometimes in a list like"
+      ]
+    }
+  },
+  "16": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'thank' 'archie' 'indiana'"
+      },
+      "raw": [
+        "'thank', 'archie', 'indiana' ]",
+        "'thank', 'archie', 'indiana' ] \n\n**Reasoning:**\n\nThe core theme seems to be related to digital media, specifically animation and its creation/distribution. \n\n*   'advance', 'gif', 'viewer",
+        "'thank', 'archie', 'indiana' ] \n\n**Reasoning:**\n\nThe core theme seems to be related to digital media, specifically animation and its creation/distribution.\n\n*   **advance, gif, viewer, download,",
+        "'thank', 'archie', 'indiana' ] \n\n**Reasoning:**\n\nThe other words ('advance', 'gif', 'viewer', 'compile', 'download', 'animation') all relate to digital media, file formats, or",
+        "'thank', \n'archie', \n'indiana' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to digital media, specifically animation and downloads. 'advance', 'gif', 'viewer', '"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'advance'",
+            "'download'"
+          ],
+          [
+            "'gif'",
+            "'animation'"
+          ]
+        ]
+      },
+      "raw": "('advance', 'download'), ('gif', 'animation')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'gif' - While commonly used"
+      },
+      "raw": [
+        "'gif' - While commonly used, 'gif' is technically an acronym (Graphics Interchange Format). It's often used as a single token, but could be considered slightly malformed in a strict tokenization context.\n]\n\nAll other",
+        "'gif' - While commonly used, 'gif' is technically an acronym for Graphics Interchange Format, and might be considered a slightly unusual word choice in a list of topic words. \n]\n\nAll other words are generally valid and appear with",
+        "'gif' - While commonly used, \"gif\" is technically an acronym for Graphics Interchange Format, and could be considered a slightly unusual token in a purely lexical list.\n'archie' - This is a very obscure reference and likely not a",
+        "'gif' - While commonly used, \"gif\" is technically an acronym for Graphics Interchange Format. It's technically a valid token but could be considered slightly unusual in a purely lexical list.\n]\n\nAll other words are common and generally",
+        "*   **gif**: While commonly used, \"gif\" is often treated as a single token rather than a multi-part word.\n*   **archie**: This is likely a proper noun (a person's name or a specific reference"
+      ]
+    }
+  },
+  "17": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "amendment"
+      },
+      "raw": [
+        "]\n\n**Explanation:**\n\nThe core theme appears to be centered around **gun control, libertarianism, and its economic/legal consequences**.  \"Libertarian,\" \"amendment,\" and \"legal\" relate to the philosophical and constitutional aspects",
+        "amendment, \n\nlegal ] \n\n**Reasoning:**\n\nThe core theme of the topic set – ‘gun’, ‘libertarian’, ‘economic’, ‘tax’, ‘crime’, ‘sales’, ‘spending’, ‘ban’ –",
+        "amendment, libertarian ]",
+        "amendment, legal ]\n\n**Reasoning:**\n\nThe core theme of the provided topic word set revolves around gun control, libertarianism, economics, and related issues like crime, taxes, and sales. \"Amendment\" and \"legal\" are",
+        "amendment, \n\nlegal ] \n\n**Reasoning:**\n\nThe core theme of the provided topic word set revolves around issues of gun control, libertarianism, economics, and related consequences like crime, sales, and spending. \"Amendment\""
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'gun'",
+            "'legal'"
+          ],
+          [
+            "'tax'",
+            "'economic'"
+          ],
+          [
+            "'tax'",
+            "'spending'"
+          ]
+        ]
+      },
+      "raw": "('gun', 'legal'), ('tax', 'economic'), ('tax', 'spending')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'ban' - While common"
+      },
+      "raw": [
+        "'ban' - While common, \"ban\" can sometimes be considered a slightly informal or abbreviated form and might benefit from more explicit phrasing in some contexts.\n]\n\nAll other words are valid and commonly used.",
+        "'ban' - While common, \"ban\" can sometimes be considered a slightly informal or shortened form, though generally acceptable. \n]\n\nAll other words are valid and commonly used.",
+        "*   **'sales'**: While common, in the context of a topic word list, it feels slightly less central than 'gun' or 'tax'. It's a bit of an outlier.\n*   **'spending'**:",
+        "'ban' - While common, \"ban\" in this context might be considered a slightly informal or shortened term, leaning towards a token rather than a fully fleshed-out word. \n].\n\nAll other words are valid and commonly used",
+        "'ban' - While common, \"ban\" can sometimes be used as a shortened, less formal term and could be flagged as potentially unclear depending on context. \n]\n\nAll other words are valid and commonly used."
+      ]
+    }
+  },
+  "18": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 4,
+        "words": "'pimental' 'correspnde' 'meteosat' 'twosie'"
+      },
+      "raw": [
+        "'pimental', \n'correspnde', \n'meteosat', \n'twosie' \n]\n\n**Reasoning:**\n\nThe other words – 'performer', 'multiprocessor', 'incorporated",
+        "'pimental', \n'correspnde', \n'meteosat', \n'twosie' \n]\n\n**Reasoning:**\n\nThe other words – 'performer', 'multiprocessor', 'incorporated",
+        "'pimental', \n'correspnde', \n'meteosat', \n'twosie' \n]\n\n**Reasoning:**\n\nThe remaining words – ‘performer’, ‘multiprocessor’, ‘incorporated",
+        "'twosie', \n'meteosat', \n'drawings' \n] \n\n**Reasoning:**\n\nThe other words ('performer', 'pimental', 'multiprocessor', 'incorporated', 'cor",
+        "'pimental', \n'correspnde', \n'meteosat', \n'twosie' \n]\n\n**Reasoning:**\n\nThe remaining words – 'performer', 'multiprocessor', 'incorporated"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 7,
+        "word_pairs": [
+          [
+            "'performer'",
+            "'twosie'"
+          ],
+          [
+            "'pimental'",
+            "None"
+          ],
+          [
+            "'multiprocessor'",
+            "None"
+          ],
+          [
+            "'incorporated'",
+            "None"
+          ],
+          [
+            "'correspnde'",
+            "None"
+          ],
+          [
+            "'smattering'",
+            "None"
+          ],
+          [
+            "'realityengine'",
+            "None"
+          ]
+        ]
+      },
+      "raw": "('performer', 'twosie'), ('pimental', None), ('multiprocessor', None), ('incorporated', None), ('correspnde', None), ('smattering', None), ('realityengine', None), ('drawings',"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'correspnde' - Likely a typo for 'correspond' \n'twosie' - Appears to be a made-up or extremely rare word. \n]\n\nAll other words are relatively common and valid.",
+        "'correspnde' - Likely a typo for 'correspond'\n    'twosie' - Seems like a made-up or highly uncommon word.\n]\n\nAll other words appear to be valid, though some might be specialized",
+        "'correspnde' - Likely a typo for 'correspond'\n'twosie' -  Seems like a made-up or uncommon word/abbreviation.\n]\n\nAll other words appear to be valid topic words.\n<end_of_turn>",
+        "'correspnde' - Likely a typo for 'correspond'\n    'twosie' - Seems like a made-up or extremely rare word/abbreviation.\n]\n\nAll other words appear to be valid topic words,",
+        "'correspnde' - Likely a typo for 'correspond'\n'twosie' - Seems like a potential typo or invented word, very rare. \n]\n\nAll other words are reasonably common and valid."
+      ]
+    }
+  },
+  "19": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "use mean"
+      },
+      "raw": [
+        "use, mean ] \n\n**Reasoning:**\n\nThe core theme of the provided topic word set – ‘right’, ‘law’, ‘state’, ‘amendment’, ‘second’, ‘government’, ‘case’, ‘people’ – revolves around",
+        "use, mean ] \n\n**Reasoning:**\n\nThe core theme of the provided topic word set – 'right', 'law', 'state', 'amendment', 'second', 'government', 'case', 'people' – revolves around",
+        "use, mean ] \n\n**Reasoning:**\n\nThe core theme of the topic set – ‘right’, ‘law’, ‘state’, ‘amendment’, ‘second’, ‘government’, ‘case’, ‘people’ – revolves around constitutional rights",
+        "use, mean ] \n\n**Reasoning:**\n\nThe core theme of the topic set – ‘right’, ‘law’, ‘state’, ‘amendment’, ‘second’, ‘government’, ‘case’, ‘people’ – revolves around constitutional rights",
+        "use, mean ] \n\n**Reasoning:**\n\nThe core theme of the provided topic word set – ‘right’, ‘law’, ‘state’, ‘amendment’, ‘second’, ‘government’, ‘case’, ‘people’ – strongly relates"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 5,
+        "word_pairs": [
+          [
+            "'law'",
+            "'state'"
+          ],
+          [
+            "'law'",
+            "'government'"
+          ],
+          [
+            "'law'",
+            "'case'"
+          ],
+          [
+            "'amendment'",
+            "'second'"
+          ],
+          [
+            "'people'",
+            "'government'"
+          ]
+        ]
+      },
+      "raw": "('law', 'state'), ('law', 'government'), ('law', 'case'), ('amendment', 'second'), ('people', 'government')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'mean' - While a common word, in this context it feels slightly out of place and could be misinterpreted as a verb needing context. \n]\n\nAll other words are valid and frequently used.",
+        "'mean' - This word is extremely common and could be a stop word or a word that's being overly frequent without clear relevance to the topic. It's arguably less specific than other words in the list. \n]\n\nAll",
+        "'mean' - While a common word, in this context of legal topics, it's somewhat vague and could be replaced with a more precise term like \"interpretation\" or \"significance\". \n]\n\nAll other words are valid and",
+        "'use' - While common, in this context it feels slightly less precise than a more specific term like \"application\" or \"implementation.\" \n'mean' -  A very general word; a more specific legal term would likely be preferred",
+        "'use' - While common, in this context, it feels slightly less formal and could be replaced with \"usage\" for better clarity.\n'mean' -  Could be considered slightly vague without context.\n].\n\nAll other words are"
+      ]
+    }
+  },
+  "20": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'monitor' 'wire'"
+      },
+      "raw": [
+        "'monitor', \n'wire' \n]\n\n**Reasoning:**\n\nThe core theme of the provided topic word set is related to *purchasing and maintaining physical goods*, specifically vehicles and related equipment.\n\n*   'buy',",
+        "'monitor', \n'wire' ] \n\n**Reasoning:**\n\nThe core theme of the topic set seems to be related to purchasing and maintaining *physical devices* (cars, printers, etc.). \"Monitor\" and \"wire\"",
+        "'monitor', \n'wire' \n]\n\n**Reasoning:**\n\nThe core theme of the topic set seems to be related to purchasing and maintaining physical goods – specifically vehicles and related equipment.\n\n*   **'buy', '",
+        "monitor, \nmanual, \nprice \n]\n\n**Reasoning:**\n\n*   **buy, car, printer, service, cheap, portable:** These words all relate to the purchase and use of physical goods – buying a car",
+        "'monitor', 'wire' ] \n\n**Reasoning:**\n\nThe core theme of the provided topic word set ('buy', 'car', 'printer', 'price', 'manual', 'service', 'cheap', 'portable') revolves around"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 4,
+        "word_pairs": [
+          [
+            "'buy'",
+            "'cheap'"
+          ],
+          [
+            "'buy'",
+            "'price'"
+          ],
+          [
+            "'monitor'",
+            "'printer'"
+          ],
+          [
+            "'portable'",
+            "'cheap'"
+          ]
+        ]
+      },
+      "raw": "('buy', 'cheap'), ('buy', 'price'), ('monitor', 'printer'), ('portable', 'cheap')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **monitor**: While a common word, in this context, it could be a typo for \"miner\" (though less likely) or simply ambiguous without further context.\n*   **wire**: Could be considered slightly unusual as a topic",
+        "'monitor' - While a common word, it could be a typo for ‘mentor’ or ‘motor’. \n]\n\nAll other words are valid and commonly used.",
+        "'monitor' - Could be a typo for 'mentor' or 'sonar', though 'monitor' is a valid word, it's a common source of errors. \n]\n\nAll other words are valid and common.",
+        "'monitor' - While a valid word, it's quite common and might be considered a generic term that could benefit from more specific keywords.\n'wire' - Similar to 'monitor', it's common and could be refined.",
+        "*   **wire**: While a common word, in the context of this list, it feels less relevant than other terms related to electronics or vehicles. It's a bit of a loose connection.\n]\n\nAll other words are valid and"
+      ]
+    }
+  },
+  "21": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'mountain' 'escape' 'single'"
+      },
+      "raw": [
+        "'mountain', \n'escape', \n'single' \n]\n\n**Reasoning:**\n\nThe core theme seems to revolve around genocide, Turk populations, loss of homeland, and potentially violence/struggle. \n\n*",
+        "'mountain', \n'escape', \n'single' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to genocide, persecution, and the struggle for survival/homeland. \n\n*   **gen",
+        "'mountain', \n'escape', \n'shoot' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to genocide, persecution, and the loss of a homeland and population – specifically concerning the Turks. \"",
+        "'mountain', \n'escape', \n'single' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to genocide, ethnic groups (specifically Turks), loss of homeland, and related consequences (population displacement,",
+        "'mountain', \n'escape', \n'single' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to genocide, ethnic groups (Turks), loss of homeland, and potentially violence/displacement."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'turks'",
+            "'homeland'"
+          ],
+          [
+            "'turks'",
+            "'population'"
+          ]
+        ]
+      },
+      "raw": "('turks', 'homeland'), ('turks', 'population')]\n\n**Reasoning:**\n\n*   **'turks'** and **'homeland'** are often directly linked, referring to the Turkish people and their country,"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'today' - While common"
+      },
+      "raw": [
+        "'today' - While common, it's a very generic word and doesn’t strongly relate to the context of genocide or homeland. \n'shoot' -  Feels out of place in this list, suggesting violence but lacking thematic connection",
+        "'today' - While common, using \"today\" in a topic list feels somewhat out of place and less specific than other words. It’s a general time reference.\n]\n\nAll other words are valid and reasonably common.",
+        "*   **'today'**: While a common word, it's often used as a marker for current relevance and might be overly specific in a broader topic analysis.\n*   **'shoot'**: Could be considered a potentially problematic word",
+        "'today' - While common, it's an adverbial form and might be less relevant in a complex topic analysis without context. \n'turks' - Could be a typo or an overly simplistic descriptor; might benefit from clarification (",
+        "'today' - While common, using \"today\" in a list of topic words feels slightly out of place and potentially a data entry error. It's a very general term.\n]\n\nAll other words are valid and reasonably common"
+      ]
+    }
+  },
+  "22": {
+    "coherence": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'light'"
+      },
+      "raw": [
+        "'temperature', \n'light' \n]\n\n**Reasoning:**\n\nThe core theme of the topic set – 'car' – is related to vehicles and their operation.  'Speed', 'mile', 'time', 'tire",
+        "light, \n\nhigh \n\n]\n\n**Reasoning:**\n\n*   **Car, temperature, speed, mile, time:** These words are all directly related to transportation, distance, and measurement of movement.\n*   **tire:**",
+        "'temperature', 'light' ] \n\n**Reasoning:**\n\nThe core theme of the provided word set ('car', 'speed', 'mile', 'time', 'tire', 'high', 'rotate', 'limit') revolves around vehicle",
+        "'light', \n'tire' \n\n]\n\n**Reasoning:**\n\nThe core theme of the topic set ('car', 'temperature', 'speed', 'mile', 'time', 'limit', 'rotate') revolves around vehicle operation",
+        "'temperature', 'light' ] \n\n**Reasoning:**\n\nThe core theme of the provided word set revolves around vehicle mechanics, performance, and measurement related to cars.  'Temperature' and 'light' are related to environmental factors and"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'tire'",
+            "'rotate'"
+          ],
+          [
+            "'mile'",
+            "'time'"
+          ],
+          [
+            "'high'",
+            "'limit'"
+          ]
+        ]
+      },
+      "raw": "('tire', 'rotate'), ('mile', 'time'), ('high', 'limit')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'light' - While a common word, in the context of a list of vehicle-related terms, it's slightly less relevant than other words. It could be considered a minor outlier.\n]\n\nAll other words are valid and relevant",
+        "'light' - Could be a typo for 'light' or 'height'. It's a common word, but in the context of a list of vehicle-related terms, it’s slightly less likely and could benefit from clarification.",
+        "'light' - While a common word, in the context of a list of vehicle-related terms, it's less directly relevant than other words like 'tire' or 'speed'. It could be considered a slightly less precise term.",
+        "'light' - While a common word, in the context of a vehicle-related topic list, it’s less immediately relevant than ‘tire’ or ‘speed’. It could be considered slightly ambiguous. \n]\n\nAll other words are",
+        "'light' - While common, it’s a very general term and might not be specific enough for some analyses. It could benefit from more context.\n]\n\nAll other words are valid and reasonably common."
+      ]
+    }
+  },
+  "23": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "year fan"
+      },
+      "raw": [
+        "'year', 'good', 'bad' \n]\n\n**Reasoning:**\n\nThe core theme of the topic set ('team', 'player', 'game', 'play', 'win', 'hit', 'fan') revolves around sports",
+        "year, fan ]",
+        "year, fan ] \n\n**Reasoning:**\n\nThe core theme of the topic set ('team', 'player', 'game', 'play', 'good', 'hit', 'win', 'bad') revolves around sports and its activities.",
+        "year, fan ] \n\n**Reasoning:**\n\nThe core theme of the topic set – ‘team’, ‘player’, ‘game’, ‘play’, ‘hit’, ‘win’, ‘bad’, ‘good’ – revolves around sports and its",
+        "year, fan ] \n\n**Reasoning:**\n\nThe core theme of the provided word set ('team', 'player', 'game', 'play', 'good', 'hit', 'win', 'bad') revolves around sports and its activities"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'team'",
+            "'fan'"
+          ],
+          [
+            "'player'",
+            "'fan'"
+          ]
+        ]
+      },
+      "raw": "('team', 'fan'), ('player', 'fan')]\n\n**Reasoning:**\n\n*   **team & fan:** Fans are often associated with teams, supporting them and discussing them. They are intrinsically linked.\n*   **player & fan"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **'fan'**: While common, it’s often used as a *verb* (to support) rather than a noun in this context. It’s arguably less clear than simply \"spectator\" or \"supporter.\"",
+        "'fan' - While common, \"fan\" could be considered an abbreviation (short for \"fanatic\" or related to sports fandom) and might benefit from more context. It's arguably less descriptive than a full word.\n]",
+        "*   **fan**: While common, \"fan\" can sometimes be used as a typo for \"fanatic\" or \"fiancé,\" depending on context. It’s also a relatively short word and could be a simple error.",
+        "*   **fan**: While common, \"fan\" can sometimes be used as a shortened, informal term for a \"fanatic,\" which might be considered slightly informal or unclear in a formal topic list. \n]\n\nAll other words are",
+        "*   **fan**: While common, \"fan\" in this context might be considered slightly informal for a formal topic list. It could be broadened to \"spectator\" or \"audience\" for clarity, depending on the intended use.\n]"
+      ]
+    }
+  },
+  "24": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'taste' 'bush'"
+      },
+      "raw": [
+        "'taste', 'bush' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to healthcare, Soviet-era issues, and associated risks/concerns. \n\n*   **clinic, ussr, sensitivity,",
+        "'taste', 'bush' \n]\n\n**Reasoning:**\n\nThe other words – 'clinic', 'ussr', 'sensitivity', 'risk', 'resident', 'concentrate', 'nuclear', 'health' – all relate to",
+        "'taste', 'bush' \n]\n\n**Reasoning:**\n\nThe other words – 'clinic', 'ussr', 'sensitivity', 'risk', 'resident', 'concentrate', 'nuclear', 'health' – all relate to",
+        "'taste', 'bush' \n]\n\n**Reasoning:**\n\nThe other words – 'clinic', 'ussr', 'sensitivity', 'risk', 'resident', 'concentrate', 'nuclear', 'health' – all relate to",
+        "'taste', \n'bush' \n]\n\n**Reasoning:**\n\nThe core theme seems to revolve around healthcare, Soviet-era issues, risk assessment, and related concepts (clinic, USSR, sensitivity, risk, resident, health"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'clinic'",
+            "'health'"
+          ],
+          [
+            "'ussr'",
+            "'health'"
+          ]
+        ]
+      },
+      "raw": "('clinic', 'health'), ('ussr', 'health')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **ussr**: While historically significant, \"USSR\" is the standard abbreviation and \"ussr\" is less common and could be a typo.\n*   **taste**: This is a valid word, but in the context of a",
+        "'ussr' - While historically valid, \"USSR\" is the standard abbreviation and \"ussr\" is less common and potentially a typo.\n'bush' - Could be a typo for \"brush,\" or a reference to George H.",
+        "'ussr' -  While historically significant, \"USSR\" is the standard abbreviation and \"ussr\" is less common and could be a typo.\n'bush' - Could be a typo, or potentially referring to George H.W",
+        "'ussr' - This is an outdated abbreviation for the Union of Soviet Socialist Republics and is less commonly used now.\n'bush' - While a common surname and place name, in this context without further information, it's potentially",
+        "'ussr' - This is an outdated abbreviation for the Union of Soviet Socialist Republics and is rarely used in modern contexts. \n]\n\nAll other words are common and valid."
+      ]
+    }
+  },
+  "25": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'greek' 'new'"
+      },
+      "raw": [
+        "'greek', \n'new' \n].\n\n**Reasoning:**\n\nThe core theme seems to be centered around Jewish history, particularly within the context of higher education (universities, professors) and potentially examining power dynamics. “Greek",
+        "'greek', \n'new' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to Jewish history, particularly within a university setting (specifically Stanford). \"Greek\" and \"new\" don't directly relate",
+        "'greek', \n'new' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to Jewish history, particularly within the context of higher education (universities, professors, Stanford). \"Greek\" and \"new",
+        "'greek', \n'new' \n]\n\n**Reasoning:**\n\nThe core theme seems to be centered around Jewish history, particularly within academic and institutional contexts (universities, professors). \"Greek\" and \"new\" don'",
+        "'greek', \n'new' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to Jewish history, particularly within a university setting (specifically Stanford). \"Greek\" and \"new\" are general terms that don"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'jewish'",
+            "'jews'"
+          ],
+          [
+            "'stanford'",
+            "'university'"
+          ]
+        ]
+      },
+      "raw": "('jewish', 'jews'), ('stanford', 'university')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'jews' - While a common word, using \"jews\" as a standalone token is less common and potentially less informative than \"Jewish\" (which implies a group). \n].\n\nAll other words are valid and commonly used.",
+        "'jews' - This is a common and acceptable plural form of \"jew,\" but can be considered a slightly informal or less precise term than \"Jewish\" in certain contexts. \n]\n\nAll other words are valid and commonly used.",
+        "'jews' - While a common word, its repeated use in this context feels slightly redundant and could be considered stylistically weak.\n'century' -  Feels a bit out of place amongst the other terms. It’s a common",
+        "'jews' - While common, it’s a very specific and potentially loaded term; considering the context, it might be better to avoid it and use ‘Jewish’ or ‘Jews’ consistently. \n]\n\nAll other words",
+        "'jews' - While common, it's a less formal and potentially loaded term compared to 'Jewish'. \n]\n\nAll other words are valid and commonly used."
+      ]
+    }
+  },
+  "26": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'use' 'mac' 'windows'"
+      },
+      "raw": [
+        "'use', \n'mac', \n'windows' \n]\n\n**Reasoning:**\n\nThe core theme of the list is hardware components and technologies related to computers – specifically storage and display.\n\n*   **card, monitor",
+        "'use', \n'mac', \n'windows' \n]\n\n**Reasoning:**\n\nThe core theme of the other words – `card`, `monitor`, `chip`, `scsi`, `drive`, `video`,",
+        "'use', \n'mac', \n'windows' \n]\n\n**Reasoning:**\n\nThe core theme of the list is computer hardware and components – specifically relating to internal components and peripherals.  'card', 'monitor',",
+        "'use', \n'mac', \n'windows' \n]\n\n**Reasoning:**\n\nThe core theme of the topic set ('card', 'monitor', 'chip', 'scsi', 'drive', 'video') revolves",
+        "'use', \n'mac', \n'windows' \n]\n\n**Reasoning:**\n\nThe core theme of the topic set ('card', 'monitor', 'chip', 'scsi', 'drive', 'video') relates"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'card'",
+            "'chip'"
+          ],
+          [
+            "'mac'",
+            "'windows'"
+          ]
+        ]
+      },
+      "raw": "('card', 'chip'), ('mac', 'windows')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'scsi' - While a valid term"
+      },
+      "raw": [
+        "*   **scsi**: While a valid term, it’s a relatively outdated storage interface and might be considered rare in a modern context.\n]\n\nAll other words are generally valid and commonly used in the context of computing.",
+        "'scsi' - While a valid term, it's a relatively dated storage interface and might be considered less common in modern contexts. \n]\n\nAll other words are generally valid and frequently used in computing contexts.",
+        "'scsi' - While a valid term, it's a relatively dated storage interface and might be considered somewhat rare in modern contexts. \n]\n\nAll other words are common and valid.",
+        "'scsi' - While a valid term, it's a relatively dated technology and might be considered less common in modern contexts. \n]\n\nAll other words are valid and commonly used in the context of computing.",
+        "'scsi' - While a valid term, it's an extremely dated technology and less commonly used now. \n]\n\nAll other words are generally valid and frequently used in the context of computing."
+      ]
+    }
+  },
+  "27": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'space', 'year' ] \n\n**Reasoning:**\n\nThe other words ('gun', 'law', 'file', 'secretly', 'information', 'san', 'allege', 'anti') all relate to themes of crime",
+        "space, year ] \n\n**Reasoning:**\n\nThe other words – 'gun', 'law', 'file', 'secretly', 'information', 'san', 'allege', 'anti' – all relate to themes of security,",
+        "space, year ] \n\n**Reasoning:**\n\nThe other words ('gun', 'law', 'file', 'secretly', 'information', 'san', 'allege', 'anti') all relate to concepts of power, control,",
+        "'space', 'year' \n]\n\n**Reasoning:**\n\nThe other words ('gun', 'law', 'file', 'secretly', 'information', 'san', 'allege', 'anti') all relate to themes of",
+        "'space', 'year' ] \n\n**Reasoning:**\n\nThe other words – 'gun', 'law', 'file', 'secretly', 'information', 'san', 'allege', 'anti' – all relate to themes"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'file'",
+            "'information'"
+          ],
+          [
+            "'san'",
+            "'information'"
+          ]
+        ]
+      },
+      "raw": "('file', 'information'), ('san', 'information')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'san' - This is likely a typo for 'Iran', a common geopolitical term.\n]\n\nAll other words are relatively common and valid.",
+        "'san' - Likely a typo for \"scan\" or \"seen\", but lacks context to confirm. It’s an extremely short and uncommon abbreviation.\n'anti' - While a valid word, in this context, it's often",
+        "'san' - This is a common abbreviation for \"San Francisco,\" but in this context, it's potentially unclear without further information. It could also be a typo.\n]\n\nAll other words are common and generally valid.\n<end_of_turn>",
+        "'san' - Likely an abbreviation for San Francisco, but could be a typo.\n]\n\nAll other words are common and generally valid.",
+        "'san' - This is likely a typo for \"seen\" or \"scan\", and without context, it's unclear. It's also a very short, uncommon word in this context.\n'anti' - While \"anti\""
+      ]
+    }
+  },
+  "28": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "slow, spec \n]\n\n**Reasoning:**\n\n*   **isa, slot, board, motherboard, bus, cpu** all relate to computer hardware components and their relationships (e.g., a CPU *is a* component on",
+        "slow, spec \n].\n\n**Reasoning:**\n\nThe core theme appears to be computer hardware and performance characteristics. \"isa\", \"slot\", \"board\", \"motherboard\", \"bus\", \"upgrade\", \"cpu\" all relate directly",
+        "slow, spec \n].\n\n**Reasoning:**\n\n*   **isa, slot, board, motherboard, bus, cpu** all relate to computer hardware components and their relationships (e.g., a CPU *is a* component on",
+        "'slow', \n'spec' \n]\n\n**Reasoning:**\n\n*   **'isa', 'slot', 'board', 'motherboard', 'bus'** all relate to computer hardware architecture and components – specifically, the",
+        "'slow' \n]\n\n**Reasoning:**\n\nThe other words ('isa', 'slot', 'performance', 'board', 'upgrade', 'motherboard', 'bus', 'spec', 'cpu') all relate to computer hardware components"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'motherboard'",
+            "'board'"
+          ],
+          [
+            "'cpu'",
+            "'spec'"
+          ]
+        ]
+      },
+      "raw": "('motherboard', 'board'), ('cpu', 'spec')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'spec' - While commonly used, \"spec\" can be ambiguous. It could be a typo for \"specifications\" or an abbreviation that needs context.\n]\n\nAll other words are common and valid terms within the given topic list.",
+        "'spec' \n]\nReason: \"spec\" is often used as an abbreviation for \"specification,\" but in this context, it’s a very common and general term that doesn’t fit the technical focus of the other words",
+        "'spec' \n]\n\nReason: \"spec\" is often used as an abbreviation for \"specification,\" but in this context, it’s a very informal and potentially unclear term related to technical specifications. It's more common to",
+        "'spec' - While common, \"spec\" can be ambiguous and might benefit from being more explicitly defined in a context.\n]\n\nAll other words are standard and valid.",
+        "*   **spec:** While common, \"spec\" can be ambiguous without context. It could be a typo for \"specifications\" or represent an abbreviation that isn't immediately clear.\n*   **bus:** \"Bus\" is a"
+      ]
+    }
+  },
+  "29": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'time' 'behold' 'betray'"
+      },
+      "raw": [
+        "'time', \n'behold', \n'betray' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'god', 'good', 'jesus', 'man', 'day', 'thing',",
+        "'time', \n'behold', \n'betray' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'god', 'good', 'jesus', 'man', 'day', 'thing',",
+        "'time', \n'behold', \n'betray' \n].\n\n**Reasoning:**\n\nThe core of the topic set – 'god', 'good', 'jesus', 'man', 'day', 'thing',",
+        "'time', \n'behold', \n'betray' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'god', 'good', 'jesus', 'man', 'day', 'thing',",
+        "'time', \n'behold', \n'betray' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'god', 'good', 'jesus', 'man', 'day', 'thing',"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'god'",
+            "'jesus'"
+          ],
+          [
+            "'man'",
+            "'god'"
+          ]
+        ]
+      },
+      "raw": "('god', 'jesus'), ('man', 'god')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **betray**: While a common word, in the context of this list, it feels slightly out of place compared to the more theological terms. It's a relatively common word, but could be considered a minor anomaly.\n*",
+        "'behold' \n]\n\nReason: \"Behold\" is an archaic word and not commonly used in modern contexts. While technically a valid word, it's significantly less frequent than the others and could be considered malformed in",
+        "'betray' - While a common word, its inclusion in a list of potentially sacred or philosophical terms feels slightly out of place and could be a typo or an unintended addition. \n]\n\nAll other words are valid and commonly used.",
+        "*   **betray**: While a valid word, it’s a relatively uncommon word in this specific context of religious texts and feels slightly out of place compared to the other words.\n*   **behold**: This is a somewhat archaic",
+        "'behold' - While a valid word, it's a somewhat archaic and uncommon term in modern usage, leaning towards formal or poetic contexts. It could be considered slightly malformed in a purely contemporary list.\n]\n\nAll other"
+      ]
+    }
+  },
+  "30": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "]",
+        "]. \n\n**Explanation:**\n\nThe other words – 'people', 'know', 'time', 'like', 'come', 'right', 'think', 'look', 'tell', 'want' – all relate to concepts of interaction,",
+        "'time', \n'look' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'people', 'know', 'like', 'come', 'right', 'think', 'tell', 'want' –",
+        "]\n\n**Explanation:**\n\nThe provided word set strongly suggests a theme of **social interaction, communication, and perception**. Words like 'people', 'know', 'think', 'look', 'tell', 'want' all relate to these concepts",
+        "]\n\n**Reasoning:**\n\nThe provided word set (\"people\", \"know\", \"time\", \"like\", \"come\", \"right\", \"think\", \"look\", \"tell\", \"want\") strongly suggests a theme of **actions,"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'know'",
+            "'think'"
+          ],
+          [
+            "'right'",
+            "'like'"
+          ]
+        ]
+      },
+      "raw": "('know', 'think'), ('right', 'like')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   'know' - While common, it's a very basic word and might be considered slightly malformed in a list of more nuanced terms.\n*   'like' - Similar to 'know', it's a very common",
+        "'know' - Could potentially be misspelled as 'now' in some contexts, though it's generally valid.\n'like' -  Similar to 'know', it could be a typo or informal usage.\n'think' -",
+        "'know' - Could potentially be a typo for 'no' depending on context. \n'like' - Could be a typo for 'lie'.\n'right' - While common, it's a relatively short word and could be",
+        "*   **like** - This is a common word, but depending on the context, it might be considered a slightly informal or colloquial term, potentially making it less suitable for some analyses.\n*   **think** - Similar to “like",
+        "'know' - Could potentially be a typo of 'no' in a different context, though unlikely given the list.\n'like' - Could be a typo of 'lie' but less probable.\n'think' - While a valid"
+      ]
+    }
+  },
+  "31": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'world' 'bosnia'"
+      },
+      "raw": [
+        "'world', \n'bosnia' \n]\n\n**Reasoning:**\n\nThe core theme of the provided topic word set centers around religion (god, law, church, islam, islamic, christ, marriage, Jewish) and a",
+        "'world', 'bosnia' \n]\n\n**Reasoning:**\n\nThe core theme of the provided topic word set – 'god', 'law', 'church', 'islam', 'islamic', 'christ', 'marriage', '",
+        "'world', 'bosnia' \n]\n\n**Reasoning:**\n\nThe core theme appears to be religions and related concepts (god, law, church, islam, islamic, christ, marriage, Jewish). \"World\" is a broad",
+        "'world', 'bosnia' \n]\n\n**Reasoning:**\n\nThe core theme appears to be religions and related concepts (god, law, church, islam, islamic, christ, marriage, Jewish). \"World\" is a general",
+        "'world', 'bosnia' \n]\n\n**Reasoning:**\n\nThe core theme of the provided topic word set revolves around religion (god, law, church, islam, islamic, christ, marriage, Jewish) and specifically, Islamic"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'god'",
+            "'christ'"
+          ],
+          [
+            "'islam'",
+            "'islamic'"
+          ],
+          [
+            "'marriage'",
+            "'church'"
+          ]
+        ]
+      },
+      "raw": "('god', 'christ'), ('islam', 'islamic'), ('marriage', 'church')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'bosnia' - While a valid place name, it's a relatively short and potentially ambiguous term in this context. It could be more clearly defined if the broader topic is about religious communities.\n].\n\nAll other words are valid and",
+        "'islamic' - While a valid word, it's a very common and somewhat redundant form of \"islam\".  It might be flagged as less informative than just \"islam\".\n]\n\nAll other words are valid and commonly used.",
+        "*   **bosnia**: While a valid place name, it's a relatively short and specific term that could be considered a less common topic word in a broader context. It's more of a geographical descriptor than a core concept.",
+        "'bosnia' - While a valid place name, it's a relatively short and specific term compared to the others, potentially indicating a less common or focused topic area. \n]\n\nAll other words are standard and common terms related to",
+        "*   **bosnia**: While a valid place name, it's unusually short for a topic word and feels less established than other terms. It could be a typo or a very specific, niche reference. \n]\n\nAll other words"
+      ]
+    }
+  },
+  "32": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'keith' 'jon'"
+      },
+      "raw": [
+        "'keith', \n'jon' \n]\n\n**Reasoning:**\n\nThe core theme appears to be around *morality*, *religion* (specifically Islam), and *philosophical questions* about objectivity and definition. \"Keith",
+        "'keith', \n'jon' \n] \n\n**Reasoning:**\n\nThe core of the topic set revolves around concepts of morality, religion (specifically Islam), and philosophical questions about objectivity. \"Keith\" and \"Jon\"",
+        "'keith', \n'jon' \n]\n\n**Reasoning:**\n\nThe core theme appears to be around ethics, religion, and philosophical questions of right and wrong. \"Morality,\" \"objective,\" \"islam,\" \"islam",
+        "keith, jon \n]\n\n**Reasoning:**\n\nThe core of the topic set revolves around concepts of morality, religion (specifically Islam), philosophical debates about objectivity, and political implications. \"Keith\" and \"Jon\" are simply names",
+        "'keith', \n'jon' \n]\n\n**Reasoning:**\n\nThe core theme appears to be around ethics, religion, and philosophical questions of morality. \"Keith\" and \"Jon\" are names and don't relate"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'morality'",
+            "'moral'"
+          ],
+          [
+            "'islam'",
+            "'islamic'"
+          ]
+        ]
+      },
+      "raw": "('morality', 'moral'), ('islam', 'islamic')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **keith:** This appears to be a proper name and might be considered malformed depending on the context, as it's not a typical topic word.\n*   **jon:** Similar to Keith, this is a proper name",
+        "'keith' - This appears to be a proper name and might be considered unusual depending on the context. It's not inherently malformed, but stands out as less relevant to a general topic list.\n]\n\nAll other words",
+        "'keith' - This appears to be a proper name and isn't inherently malformed, but it stands out as less relevant to the core themes of the other words. It could be considered an outlier.\n]\n\nAll other",
+        "'keith' - This is a proper noun (a person's name) and might be considered malformed in a broader topic analysis context, depending on the goal.\n]\n\nAll other words are valid and common terms.",
+        "'keith' - Likely a proper name, but could be a typo if it's intended to be something else.\n]\n\nReason: \"keith\" is a common name and might be a misspelling or an irrelevant inclusion in"
+      ]
+    }
+  },
+  "33": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\n**Reasoning:**\n\nThe core theme appears to be related to software development, specifically focusing on technical specifications and functionality. Words like 'use', 'version', 'available', 'software', 'code', 'write' all directly relate",
+        "].",
+        "].\n\n**Reasoning:**\n\nThe core theme of the provided word set revolves around software development, specifically focusing on technical aspects like:\n\n*   **Version:**  Refers to a specific release of software.\n*   **Available:**",
+        "].\n\n**Reasoning:**\n\nThe core theme of the provided word set – ‘use’, ‘version’, ‘available’, ‘machine’, ‘key’, ‘bit’, ‘number’, ‘write’, ‘software’, ‘code’ – revolves around",
+        "].\n\n**Reasoning:**\n\nThe core theme appears to be around software development, specifically relating to technical specifications and implementation.  Words like \"use,\" \"version,\" \"available,\" \"machine,\" \"key,\" \"bit,\" \"number,\""
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'version'",
+            "'number'"
+          ],
+          [
+            "'software'",
+            "'code'"
+          ]
+        ]
+      },
+      "raw": "('version', 'number'), ('software', 'code')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **key**: While a common word, in this context referring to a cryptographic key, it could be considered slightly ambiguous without further context.\n*   **bit**: A valid word, but its use here is very specific to computer architecture",
+        "*   **key**: While common, \"key\" can be ambiguous in this context – it could refer to a cryptographic key, a physical key, or a keyword. It's not inherently malformed, but its potential multiple meanings make it",
+        "*   **key**: While a common word, in this context as a single token, it's slightly unusual and could be flagged as potentially needing further context.\n]\n\nAll other words are standard and common.",
+        "'bit' - While common, \"bit\" could be considered a slightly unusual choice in a list of topic words; it’s more frequently used in technical contexts.\n]\n\nAll other words are valid and commonly used in the context",
+        "'bit' - While common, it can be considered a slightly ambiguous abbreviation depending on context (Binary Integer Translation). \n]\n\nAll other words are generally valid and common terms."
+      ]
+    }
+  },
+  "34": {
+    "coherence": {
+      "processed": 2.2,
+      "raw": [
+        "3",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "duo"
+      },
+      "raw": [
+        "'duo' ]\n\n**Reasoning:**\n\nThe other words ('drive', 'problem', 'disk', 'hard', 'boot', 'cable', 'scsi', 'quantum', 'error') all relate to computer storage and related",
+        "duo, \nquantum \n]\n\n**Reasoning:**\n\n*   **Drive, problem, disk, hard, boot, scsi, cable** all relate to computer storage and booting processes.\n*   **Error** is",
+        "duo, \n\n]\n\n**Reasoning:**\n\nThe core theme of the provided word set is related to computer storage and troubleshooting. \"Drive,\" \"problem,\" \"disk,\" \"hard,\" \"boot,\" \"scsi,\" and \"",
+        "duo, \n\n] \n\n**Reasoning:**\n\nThe core theme of the provided word set is related to computer storage and troubleshooting. \"Drive,\" \"problem,\" \"disk,\" \"hard,\" \"boot,\" \"scsi,\" \"",
+        "duo, \n\nquantum ] \n\n**Reasoning:**\n\n*   **Drive, problem, disk, hard, boot, scsi, cable** all relate to computer hardware and the process of starting a computer.\n*   **"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'drive'",
+            "'disk'"
+          ],
+          [
+            "'scsi'",
+            "'hard'"
+          ],
+          [
+            "'quantum'",
+            "'disk'"
+          ]
+        ]
+      },
+      "raw": "('drive', 'disk'), ('scsi', 'hard'), ('quantum', 'disk')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'duo' - This is a very common abbreviation for \"dual,\" but in this context, it’s likely intended to be a specific type of boot disk (Duo USB). It's a bit ambiguous without further context,",
+        "'duo' - This is a very common abbreviation for \"dual\" but could be a typo depending on the context. It's less common as a standalone word in this technical domain.\n]\n\nAll other words are standard and",
+        "'duo' - This is a very common word referring to a pair, but in the context of computer hardware, it’s an uncommon abbreviation and could be a typo. \n]\n\nAll other words are standard and reasonably common",
+        "'duo' - While a valid word (meaning a pair), in the context of computer hardware it's often used as an abbreviation for \"DVD\" which is less common now. It’s also a relatively rare usage.",
+        "'duo' - While a valid word (meaning a pair), in the context of computer topics, it’s often used as an abbreviation for “dual boot” which is less common and could be clearer. \n]\n\nAll"
+      ]
+    }
+  },
+  "35": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "apple"
+      },
+      "raw": [
+        "apple ] \n\n**Reasoning:**\n\nThe other words (chip, clipper, serial, modem, bit, scsi, speed, board, fast) all relate to computer hardware, data transmission, and digital technology. \"Apple\" refers",
+        "apple \n]\n\n**Reasoning:**\n\nThe core theme of the provided words – 'chip', 'clipper', 'serial', 'modem', 'bit', 'scsi', 'speed', 'board', 'fast' –",
+        "apple ] \n\n**Reasoning:**\n\nThe core of the topic set – 'chip', 'clipper', 'serial', 'modem', 'bit', 'scsi', 'speed', 'board', 'fast' – all relate",
+        "apple\n]\n\n**Reasoning:**\n\nThe other words – 'chip', 'clipper', 'serial', 'modem', 'bit', 'scsi', 'speed', 'board', 'fast' – all relate to computer hardware",
+        "apple ] \n\n**Reasoning:**\n\nThe other words – chip, clipper, serial, modem, bit, scsi, speed, board, fast – all relate to computer hardware, data transmission, and digital technology. \"Apple\" refers"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'chip'",
+            "'board'"
+          ],
+          [
+            "'modem'",
+            "'clipper'"
+          ]
+        ]
+      },
+      "raw": "('chip', 'board'), ('modem', 'clipper')]\n\n**Reasoning:**\n\n*   **chip & board:**  A \"chip\" is a fundamental component of a circuit board.  They are directly related and represent the same"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **clipper**: While a valid word, it's a less common term related to clipping tools and doesn't strongly align with typical computer/technology vocabulary compared to the other words.\n*   **scsi**:  This",
+        "'clipper' - While a common word, in this context it's likely a typo for 'chip' and is less relevant to typical computer terminology. \n'scsi' -  While technically valid, SCSI is a very dated",
+        "'clipper' - Could be a typo for 'cipher' or simply an unusual term in this context. \n'scsi' - While technically valid, SCSI is a very dated technology and might be considered archaic or obscure in a modern",
+        "'clipper' - While a valid word, it's less common in a tech context compared to \"chip\" and could be a typo or less relevant. \n'scsi' -  While technically valid, SCSI is an older",
+        "'clipper' - This is a common word referring to a type of boat, and while relevant to computing history, it's a less precise term than the others and could be considered a less ideal topic word.\n'scsi'"
+      ]
+    }
+  },
+  "36": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "arrogance"
+      },
+      "raw": [
+        "arrogance, \n]\n\n**Reasoning:**\n\nThe core theme of the topic set revolves around faith, belief, and the pursuit of truth – specifically within a religious context (Christians, Christ).  “Arrogance”",
+        "arrogance ]",
+        "arrogance, \n]\n\n**Reasoning:**\n\nThe core theme of the topic set revolves around faith, belief, truth, and justification of those beliefs. \"Arrogance\" represents a character trait – an excessive pride – and",
+        "arrogance, \n].\n\n**Reasoning:**\n\nThe core theme of the provided topic word set revolves around faith, belief, truth, and justification of those beliefs. “Arrogance” represents a character trait – a feeling or",
+        "**arrogance** ]\n\n**Reason**\n\n**Explanation:**\n\nThe core theme of the provided topic word set revolves around faith, belief, truth, and justification of those beliefs. \"Arrogance\" and “reason” represent concepts"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'god'",
+            "'christians'"
+          ],
+          [
+            "'truth'",
+            "'true'"
+          ],
+          [
+            "'reason'",
+            "'argument'"
+          ]
+        ]
+      },
+      "raw": "('god', 'christians'), ('truth', 'true'), ('reason', 'argument')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'arrogance' - While a common word, it’s somewhat out of context within a list focused on theological and philosophical concepts. It introduces a distinctly different tone. \n]\n\nAll other words are valid and commonly used in discussions",
+        "*   **arrogance**: While a valid word, it’s a relatively uncommon term in a philosophical or theological context compared to the others, and could be considered slightly less typical for a topic word list.\n*   **christians",
+        "'arrogance' - While a valid word, it's a relatively uncommon term in this specific context of philosophical or theological discussion and could be considered slightly out of place compared to the other terms. \n]\n\nAll other words are",
+        "'arrogance' - While a valid word, it’s a relatively uncommon term in this context compared to the others, and leans toward a negative connotation that might be slightly out of place within a discussion of faith and truth.",
+        "'arrogance' - While a valid word, it’s a relatively uncommon term in this specific context of philosophical or theological discussion, and might be considered slightly less relevant than more direct terms like 'argument'. \n]\n\nAll other"
+      ]
+    }
+  },
+  "37": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 5,
+        "words": "'bob' 'jeff' 'gary' 'john' 'mike'"
+      },
+      "raw": [
+        "'bob', \n'jeff', \n'gary', \n'john', \n'mike' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'game', 'team', 'minnesota',",
+        "'bob', \n'jeff', \n'gary', \n'john', \n'mike' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'game', 'team', 'minnesota',",
+        "'bob', \n'jeff', \n'gary', \n'john', \n'mike' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'game', 'team', 'minnesota',",
+        "'bob', \n'jeff', \n'gary', \n'john', \n'mike' \n]\n\n**Reasoning:**\n\nThe remaining words ('game', 'team', 'copy', 'minnesota', '",
+        "'bob', 'jeff', 'gary', 'john', 'mike' \n]\n\n**Reasoning:**\n\nThe other words ('game', 'team', 'minnesota', 'chicago', 'copy') all relate to sports,"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'bob'",
+            "'jeff'"
+          ],
+          [
+            "'minnesota'",
+            "'chicago'"
+          ]
+        ]
+      },
+      "raw": "('bob', 'jeff'), ('minnesota', 'chicago')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'copy' - This is a very general word and might be an artifact of a larger text where it was extracted without context. It's not inherently malformed, but could be flagged as potentially needing further investigation.\n]\n\nAll",
+        "'bob', 'jeff', 'gary', 'john', 'mike' \n]\n\nReasons: These are all common names. While technically valid tokens, they are often removed in text processing due to their lack of informational value beyond identifying specific",
+        "'bob', \n  'jeff', \n  'gary', \n  'john', \n  'mike' \n]\n\n**Reasons:**\n\nThese are all common names. While technically valid tokens, they are",
+        "'copy' - Could be a typo for \"cope\" or \"cap\", depending on context, but seems less likely. \n]\n\nAll other words are common and valid.",
+        "'bob', \n    'jeff', \n    'gary', \n    'john', \n    'mike' \n]\n\nReasons: These are all common names, and while technically valid tokens, they are often"
+      ]
+    }
+  },
+  "38": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'pimental' 'meteosat' 'winn'"
+      },
+      "raw": [
+        "'pimental', \n'meteosat', \n'winn' \n]\n\n**Reasoning:**\n\nThe remaining words – ‘performer’, ‘incorporated’, ‘smattering’, ‘realityengine’, ‘monterey",
+        "'pimental', \n'meteosat', \n'winn' \n]\n\n**Reasoning:**\n\nThe other words – performer, incorporated, smattering, realityengine, monterey, abundance, publically – relate",
+        "'pimental', \n'meteosat', \n'winn' \n]\n\n**Reasoning:**\n\nThe other words – ‘performer’, ‘incorporated’, ‘smattering’, ‘realityengine’, ‘monterey",
+        "'pimental', \n'meteosat', \n'winn' \n]\n\n**Reasoning:**\n\nThe other words – 'performer', 'incorporated', 'smattering', 'realityengine', 'monterey",
+        "'pimental', \n'meteosat', \n'winn' \n]\n\n**Reasoning:**\n\nThe remaining words – 'performer', 'incorporated', 'smattering', 'realityengine', 'monterey"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'realityengine'",
+            "'winn'"
+          ]
+        ]
+      },
+      "raw": "('realityengine', 'winn')]\n\n**Reasoning:**\n\n*   **realityengine** and **winn** are both associated with the game *Red Dead Redemption 2*. \"Winn\" is a common nickname or identifier for the"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'pimental' - Likely a typo for 'premium'. \n'realityengine' - Potentially an obscure or incomplete term. \n'winn' - Very short and lacks context, could be an abbreviation but is unclear.",
+        "'pimental' - Likely a misspelling of \"prominent\".\n    'realityengine' - This is a very specific and likely uncommon term; it might be a typo or a proprietary name.\n    'publically' -",
+        "'pimental' - Likely a misspelling of 'premium'.\n'realityengine' - This is a specific product name, but could be considered a less common or potentially unclear abbreviation depending on context.\n'winn' -  Without",
+        "'pimental' - Likely a typo for 'pimento'.\n    'realityengine' - Potentially an unclear abbreviation or a specific software name that might not be widely recognized.\n    'winn' - Extremely rare and unclear",
+        "'pimental' - Likely a typo for 'prominent'. \n'realityengine' - A very specific and potentially obscure term; might be a typo or a proprietary name. \n'winn' - Could be a typo or"
+      ]
+    }
+  },
+  "39": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'diamond' 'switch'"
+      },
+      "raw": [
+        "'diamond', \n'switch' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to computer hardware and software – specifically graphics cards and their configuration.\n\n*   **card, video, mouse, driver,",
+        "'diamond', \n'switch' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to computer hardware and software – specifically graphics cards and their setup.\n\n*   **card, video, mouse, driver,",
+        "'diamond', \n'switch' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to computer hardware and software – specifically graphics cards and their setup.\n\n*   **card, video, mouse, driver,",
+        "'diamond', \n'switch' \n]\n\n**Reasoning:**\n\nThe core theme appears to be computer hardware and software – specifically relating to graphics cards and their configuration.\n\n*   **card, video, mouse, driver,",
+        "'diamond', \n'switch' \n]\n\n**Reasoning:**\n\nThe other words – 'card', 'video', 'mouse', 'driver', 'ati', 'ultra', 'instal', 'setting' – all relate to"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'card'",
+            "'driver'"
+          ],
+          [
+            "'ati'",
+            "'ultra'"
+          ]
+        ]
+      },
+      "raw": "('card', 'driver'), ('ati', 'ultra')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'instal' - This is a misspelling of \"install\". \n]\n\nAll other words are common and valid.",
+        "'instal' - This is a shortened, informal version of \"install\" and while commonly used, isn't a standard, formally recognized term. \n]\n\nAll other words are valid and reasonably common.",
+        "'instal' - This is a shortened form of \"install\" and while commonly used, it's technically not a standard word. \n]\n\nAll other words are valid and relatively common within the context of computer hardware and software.<end_of_turn>",
+        "'instal' - This is a non-standard spelling of \"install\". \n]\n\nAll other words are common and valid.",
+        "'instal' - This is a misspelling of 'install'.\n]\n\nAll other words are common and valid."
+      ]
+    }
+  },
+  "40": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'swinburne' 'prometheus' 'like'"
+      },
+      "raw": [
+        "'swinburne', \n'prometheus', \n'like' \n]\n\n**Reasoning:**\n\nThe other words – 'gun', 'christian', 'good', 'problem', 'humanism', 'hitler', '",
+        "'swinburne', \n'prometheus', \n'like' \n].\n\n**Reasoning:**\n\nThe core of the topic set seems to revolve around themes of:\n\n*   **Violence/Conflict:** 'gun', '",
+        "'swinburne', \n'prometheus', \n'like' \n].\n\n**Reasoning:**\n\nThe core of the topic set seems to revolve around themes of:\n\n*   **Violence/Conflict:** 'gun', '",
+        "'swinburne', \n'prometheus', \n'like' \n]\n\n**Reasoning:**\n\n*   **'gun', 'christian', 'good', 'problem', 'humanism', 'love'** – These",
+        "'swinburne', \n'prometheus', \n'like' \n]\n\n**Reasoning:**\n\n*   **'gun', 'christian', 'good', 'problem', 'humanism', 'love'** all relate"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'christian'",
+            "'good'"
+          ]
+        ]
+      },
+      "raw": "'christian', 'good' ]\n\n**Reasoning:**\n\n*   **Christian** and **good** are often used together as fundamental concepts within Christian theology and ethics. \"Good\" is a core virtue and a central tenet of the Christian"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'swinburne' - This is a proper noun (a university) and might be considered malformed depending on the context, as it’s not a common, general topic word.\n'prometheus' - A proper noun (a figure",
+        "'swinburne' - This is a proper noun (a university) and while valid, it's often used in contexts where it might be misspelled or simply a less common term.\n    'prometheus' - This is a proper",
+        "'swinburne' - This is a proper noun (a person's name), which can sometimes be flagged as less common in a general topic list, but it's generally valid.\n    'prometheus' - This is a",
+        "'swinburne' - While a real word (a university), it’s a relatively uncommon topic word and might be considered a slightly unusual inclusion in a general topic list. \n'prometheus' - A Greek mythological figure, less common",
+        "'swinburne' - This is a proper noun (a university) and might be considered malformed if the context isn’t clearly about the university, but it’s a valid word.\n  'prometheus' - Similar to"
+      ]
+    }
+  },
+  "41": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 1.2,
+      "raw": [
+        "2",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'interested'"
+      },
+      "raw": [
+        "'interested' \n]\n\n**Reasoning:**\n\nThe core theme of the topic set ('sale', 'offer', 'sell', 'forsale', 'trade') revolves around buying and selling goods. \"Interested\" expresses a feeling or",
+        "'interested' \n].\n\n**Reasoning:**\n\nThe core theme of the provided topic word set revolves around buying, selling, and the associated aspects of a transaction. Words like 'sale', 'offer', 'sell', 'forsale",
+        "'interested' \n]\n\n**Reasoning:**\n\nThe other words – 'sale', 'offer', 'sell', 'condition', 'shipping', 'price', 'brand', 'forsale', 'trade' – all relate directly to",
+        "'interested' \n].\n\n**Reasoning:**\n\nThe core theme of the topic set is related to buying and selling goods. Words like 'sale', 'offer', 'sell', 'forsale', and 'trade' directly relate to",
+        "'interested' \n]\n\n**Reasoning:**\n\nThe core theme of the provided topic word set revolves around buying, selling, and the details associated with transactions. Words like 'sale', 'offer', 'sell', 'forsale',"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'sale'",
+            "'sell'"
+          ],
+          [
+            "'offer'",
+            "'sell'"
+          ],
+          [
+            "'sale'",
+            "'forsale'"
+          ]
+        ]
+      },
+      "raw": "('sale', 'sell'), ('offer', 'sell'), ('sale', 'forsale')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **forsale**: While commonly used, \"forsale\" is generally treated as a single word (\"for sale\") and is slightly less natural than \"forsale\".\n]\n\nAll other words are valid and frequently used in the context",
+        "*   **forsale**: While common, \"for sale\" is generally written as a single phrase.\n]\n\nAll other words are valid and commonly used in the context of listings and sales.",
+        "'forsale' - While commonly used, \"forsale\" is an archaic spelling and less frequently used than \"for sale\".\n]\n\nAll other words are valid and reasonably common in this context.",
+        "'forsale' - This is a common but slightly awkward phrasing; \"for sale\" is more standard. \n]\n\nAll other words are valid and commonly used in the context of listings and sales.",
+        "'forsale' - This is a common phrase, but it's technically two words combined, and could be considered slightly malformed in a purely tokenized list. \n]\n\nAll other words are valid and common terms used in listings"
+      ]
+    }
+  },
+  "42": {
+    "coherence": {
+      "processed": 2.6,
+      "raw": [
+        "3",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "]. \n\n**Reasoning:**\n\nThe core theme appears to be related to digital communication, information access, and security – encompassing aspects like email, internet, news, content, security, and messaging. \"Space\" and \"sci\" (",
+        "].",
+        "].\n\n**Reasoning:**\n\nThe core of the topic set – 'mail', 'space', 'sci', 'internet', 'news', 'security', 'content', 'message', 'key' – clearly relates to digital communication, information",
+        "] \n\n**Explanation:**\n\nThe core theme appears to be related to digital communication, information, and security.  \"mail,\" \"message,\" \"internet,\" \"news,\" \"content,\" and \"key\" all relate to exchanging or accessing",
+        "]."
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'mail'",
+            "'message'"
+          ],
+          [
+            "'sci'",
+            "'news'"
+          ]
+        ]
+      },
+      "raw": "('mail', 'message'), ('sci', 'news')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **sci**: This is a very common abbreviation for \"science,\" but in this context, it's a short, isolated token that might be considered slightly unusual and could benefit from expansion (e.g., \"science\").\n*",
+        "'sci' - This is a very common abbreviation for \"science,\" but in a list of topic words, it’s slightly less clear than simply using \"science.\" \n]\n\nAll other words are valid and commonly used.",
+        "'sci' - This is a very common abbreviation for \"science\" but could be considered a rare, informal token in a list of topics.\n]\n\nAll other words are valid and commonly used.",
+        "'sci' - This is a very common abbreviation for \"science,\" but in this context, it’s a short, potentially ambiguous token. While valid, it could be improved with the full word.\n].\n\nAll other words are valid",
+        "*   **sci**: This is a very common abbreviation for \"science\" but could be considered a shortened, potentially unclear token depending on the context.\n*   **faq**: This is a common abbreviation for “Frequently Asked Questions” but might"
+      ]
+    }
+  },
+  "43": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'shelf' 'tcp'"
+      },
+      "raw": [
+        "'shelf', \n'tcp' \n]\n\n**Reasoning:**\n\nThe majority of the words – 'announcement', 'walker', 'systems', 'newsreader', 'corporation', 'clipper', 'corporate', '",
+        "'shelf', \n'tcp' \n]\n\n**Reasoning:**\n\nThe majority of the words – 'announcement', 'walker', 'systems', 'newsreader', 'corporation', 'clipper', 'corporate', '",
+        "'shelf', \n'tcp' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to business, communication, and potentially technology infrastructure. \n\n*   **announcement, walker, newsreader, corporation,",
+        "'shelf', \n'clipper', \n'tcp' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to business, communication, and potentially technology within a corporate setting.  “Announcement,” “walker",
+        "'shelf', \n'tcp' \n]\n\n**Reasoning:**\n\nThe majority of the words – ‘announcement’, ‘walker’, ‘systems’, ‘newsreader’, ‘corporation’, ‘clipper’, ‘corporate’, ‘"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'corporation'",
+            "'corporate'"
+          ],
+          [
+            "'walker'",
+            "'clipper'"
+          ]
+        ]
+      },
+      "raw": "('corporation', 'corporate'), ('walker', 'clipper')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'clipper' - This is a specific type of ship, and while valid, it's less common than general terms and could be considered less relevant in a broader topic analysis.\n'tcp' - This is a very specific technical abbreviation",
+        "'clipper' - While a real word, it's a relatively uncommon term and could be flagged as potentially ambiguous depending on the context.\n'tcp' -  This is an extremely common abbreviation (Transmission Control Protocol), but in a",
+        "'clipper' - While a real word, it’s a relatively uncommon topic word in a business/news context and feels slightly out of place compared to the others.\n'tcp' - Likely an abbreviation (Transmission Control Protocol), but",
+        "'clipper' - While a real word, it's a relatively uncommon term and could be flagged as potentially ambiguous depending on the context.\n'shelf' - Similar to clipper, it’s a common word, but less likely in",
+        "'clipper', \n    'shelf' \n]\n\n*   **clipper:** This is a specific type of ship, and while understandable, it's a relatively uncommon word in a general topic list and could be a"
+      ]
+    }
+  },
+  "44": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "].\n\n**Reasoning:**\n\nThe core theme appears to be related to space exploration, specifically involving satellites, imagery, and strategic applications of power and information. \"Use\" is a very general verb that fits within this context, but \"high",
+        "]\n\n**Reasoning:**\n\nThe core theme appears to be related to space exploration, specifically focusing on satellites, imagery, and strategic applications of space-based technology. \"Power,\" \"use,\" \"high,\" \"thrust,\" and \"info",
+        "].\n\n**Reasoning:**\n\nThe core theme seems to revolve around space exploration, technology, and strategic applications – specifically relating to satellites and their capabilities. \"Use,\" \"high,\" and \"thrust\" are general terms that could apply to many",
+        "]\n\n**Reasoning:**\n\nThe core theme appears to be related to space exploration, specifically focusing on satellites, imagery, and strategic applications of space-based technology. \"Power,\" \"use,\" \"high,\" \"thrust,\" and \"info",
+        "].\n\n**Reasoning:**\n\nThe core theme seems to revolve around space exploration, technology, and strategic planning – specifically related to satellites and their capabilities. \"Use,\" \"high,\" and \"thrust\" are somewhat general and could apply to many"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'satellite'",
+            "'image'"
+          ],
+          [
+            "'strategic'",
+            "'high'"
+          ]
+        ]
+      },
+      "raw": "('satellite', 'image'), ('strategic', 'high')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **thrust:** While a valid word, it's quite specific and might be considered less general than some of the others in this context. It leans heavily into a technical domain.\n]\n\nAll other words are common and generally well",
+        "*   **thrust**: While a valid word, it's quite specific and might be considered slightly less common in a broader topic list than other terms. \n\n]\n\nAll other words are valid and reasonably common.",
+        "'info' - While common, it's a shortened form of \"information\" and could be considered a slightly informal token. \n]\n\nAll other words are valid and reasonably common.",
+        "'info' - While common, it's often better to use \"information\" for clarity and consistency in topic modeling. \n]\n\nAll other words are valid and reasonably common.",
+        "*   **thrust**: While a valid word, it’s a relatively uncommon term in this context compared to more general words like ‘power’ or ‘use’. It might be considered slightly less frequent than other terms. \n]\n\nAll"
+      ]
+    }
+  },
+  "45": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "danke laze booboo"
+      },
+      "raw": [
+        "danke, laze, booboo \n]\n\n**Reasoning:**\n\nThe other words – performer, pimental, incorporated, winn, handicap, smattering, amusement – all relate to concepts of entertainment, business, competition",
+        "danke, \nlaze, \nbooboo \n]\n\n**Reasoning:**\n\nThe other words – performer, pimental, incorporated, winn, handicap, smattering, amusement – all relate to concepts of entertainment",
+        "'danke', \n'laze' \n]\n\n**Reasoning:**\n\nThe other words – performer, pimental, incorporated, winn, handicap, smattering, amusement, booboo – relate to concepts of entertainment",
+        "danke, laze, booboo \n]\n\n**Reasoning:**\n\nThe other words – performer, pimental, incorporated, winn, handicap, smattering, amusement – all relate to concepts of entertainment, business, or",
+        "danke, \nlaze, \nbooboo \n]\n\n**Reasoning:**\n\nThe other words – performer, pimental, incorporated, winn, handicap, smattering, amusement – all relate to concepts of entertainment"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'pimental'",
+            "'amusement'"
+          ]
+        ]
+      },
+      "raw": "('pimental', 'amusement')]\n\n**Reasoning:**\n\n*   **Pimental** refers to a type of citrus fruit, often associated with a pleasant, enjoyable experience - essentially synonymous with amusement.\n\nThe other words in the set represent"
+    },
+    "non_words": {
+      "processed": {
+        "num": 3,
+        "words": "'pimental' 'danke' 'booboo'"
+      },
+      "raw": [
+        "'pimental', \n    'danke', \n    'booboo' \n]\n\nHere's why:\n\n*   **'pimental'**:  This is likely a misspelling of \"prominent",
+        "'pimental', 'danke', 'booboo' ]\n\nHere's why:\n\n*   **pimental:** This is likely a misspelling of \"prominent.\"\n*   **danke:** This is German for",
+        "'pimental', 'danke', 'booboo' ]\n\nHere’s why:\n\n*   **pimental:** This is likely a misspelling of “prominent”.\n*   **danke:** This is German for",
+        "'pimental' - Likely a misspelling of \"pimento\" or similar.\n    'danke' - German for \"thank you,\" likely an irrelevant inclusion in an English topic list.\n    'booboo' -",
+        "'pimental', 'danke', 'booboo' ]\n\nHere's why:\n\n*   **'pimental'**: Likely a misspelling of \"prominent\".\n*   **'danke'**: German for"
+      ]
+    }
+  },
+  "46": {
+    "coherence": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "use, \nthing \n\n]\n\n**Reasoning:**\n\nThe core theme of the topic set – ‘question’, ‘god’, ‘exist’, ‘religion’, ‘life’, ‘believe’, ‘good’, ‘morality’ – revolves",
+        "].\n\n**Reasoning:**\n\nThe core theme emerging from the provided topic words – 'question', 'god', 'exist', 'religion', 'life', 'believe', 'good', 'use', 'morality', 'thing' –",
+        "use, thing ] \n\n**Reasoning:**\n\nThe core of the topic set – 'question', 'god', 'exist', 'religion', 'life', 'believe', 'good', 'morality' – revolves around fundamental philosophical and",
+        "use, good ] \n\n**Reasoning:**\n\nThe core of the topic set – 'question', 'god', 'exist', 'religion', 'life', 'believe', 'morality' – all revolve around fundamental questions about existence,",
+        "].\n\n**Reasoning:**\n\nThe core theme of the provided topic word set revolves around philosophical and existential questions related to:\n\n*   **Existence:** (exist, life)\n*   **Faith & Belief:** (god, religion,"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'god'",
+            "'religion'"
+          ],
+          [
+            "'believe'",
+            "'religion'"
+          ],
+          [
+            "'good'",
+            "'morality'"
+          ]
+        ]
+      },
+      "raw": "('god', 'religion'), ('believe', 'religion'), ('good', 'morality')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'thing'"
+      },
+      "raw": [
+        "*   **'thing'**: While a common word, it’s overly generic and doesn’t contribute much to the thematic analysis of the topics. It’s likely a placeholder and could be removed without loss of meaning.\n]",
+        "'thing' \n]\n\nReason: \"thing\" is a very common, generic word and doesn't contribute much to thematic analysis. While not technically a typo, it's overly broad and lacks specificity compared to the other words in",
+        "'thing' \n]\nReason: \"thing\" is a very common, general word and doesn't contribute much to topic analysis. It's likely included simply as filler and doesn't represent a specific nuanced concept.",
+        "'thing' \n]\n\nReason: \"Thing\" is a very common, general word and doesn't contribute much to topic analysis in this context. It's likely included due to being a common word in many texts and not a",
+        "'thing' \n]\n\nReason: \"Thing\" is a very common word and doesn't add much semantic value in this context of topic words. It's likely included by mistake or as a filler.  It's not"
+      ]
+    }
+  },
+  "47": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'government'"
+      },
+      "raw": [
+        "'government' \n]\n\n**Reasoning:**\n\nThe other words ('think', 'year', 'work', 'thank', 'question', 'program', 'need', 'try', 'want') all relate to individual cognition, action",
+        "'government' \n]\n\n**Reasoning:**\n\nThe other words ('think', 'year', 'work', 'thank', 'question', 'program', 'need', 'try', 'want') all relate to individual cognition, action",
+        "'government' \n]\n\n**Reasoning:**\n\nThe other words ('think', 'year', 'work', 'thank', 'question', 'program', 'need', 'try', 'want') all relate to individual thought processes,",
+        "'government' \n]\n\n**Reasoning:**\n\nThe other words ('think', 'year', 'work', 'thank', 'question', 'program', 'need', 'try', 'want') all relate to individual thought processes,",
+        "'government' \n]\n\n**Reasoning:**\n\nThe other words ('think', 'year', 'work', 'thank', 'question', 'program', 'need', 'try', 'want') all relate to individual thought processes,"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'think'",
+            "'question'"
+          ],
+          [
+            "'work'",
+            "'program'"
+          ],
+          [
+            "'need'",
+            "'want'"
+          ]
+        ]
+      },
+      "raw": "('think', 'question'), ('work', 'program'), ('need', 'want')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'thank' (While common, it's a slightly unusual choice in a list of topic words - 'think' is more typical)\n].\n\nReason: 'thank' is a common word, but its inclusion feels slightly out of",
+        "'think', \n    'thank', \n    'want' \n]\n\nReasons:\n\n*   **think:** While common, it's a very basic word and doesn't offer much semantic value in a topic",
+        "'think', 'year', 'work', 'thank', 'question', 'program', 'need', 'try', 'want', 'government' ]\n\nAll words are valid.",
+        "'think', 'year', 'work', 'thank', 'question', 'program', 'need', 'try', 'want', 'government' ] \n\nAll words are valid.",
+        "'thank' - This is a common word, but the 'h' is misplaced. It should be 'thank'. \n].\n\nAll other words are valid and commonly used."
+      ]
+    }
+  },
+  "48": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.8,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "laze realityengine"
+      },
+      "raw": [
+        "'laze', \n'mythic' \n]\n\n**Reasoning:**\n\nThe other words – ‘performer’, ‘pimental’, ‘incorporated’, ‘sum’, ‘smattering’, ‘undecidable’, ‘nonexclusive",
+        "laze, \nrealityengine \n]\n\n**Reasoning:**\n\nThe other words – performer, pimental, incorporated, sum, smattering, undecidable, nonexclusive, and mythic – relate to concepts of business, performance",
+        "laze, \nrealityengine \n]\n\n**Reasoning:**\n\nThe other words – performer, pimental, incorporated, sum, smattering, undecidable, nonexclusive, and mythic – all relate to concepts of business,",
+        "laze, \nrealityengine \n]\n\n**Reasoning:**\n\nThe other words – performer, pimental, incorporated, sum, smattering, undecidable, nonexclusive, and mythic – relate to concepts of business, performance",
+        "laze, \nrealityengine \n]\n\n**Reasoning:**\n\nThe other words – performer, pimental, incorporated, sum, smattering, undecidable, nonexclusive, and mythic – all relate to concepts of business,"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'realityengine'",
+            "'undecidable'"
+          ]
+        ]
+      },
+      "raw": "('realityengine', 'undecidable')]\n\n**Reasoning:**\n\nThe word \"realityengine\" strongly implies a system or process for determining or creating reality, which is inherently linked to the concept of \"undecidable\" – a situation where"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'pimental' - This is not a standard word and likely a misspelling. \n'realityengine' - This is a very long, specific term that feels like a potential typo or a highly specialized technical term that might not be widely",
+        "'pimental' - This is not a recognized word and likely a misspelling.\n'realityengine' - This appears to be a constructed term and potentially an uncommon or made-up abbreviation.\n]\n\nAll other words are valid and",
+        "'pimental' - Likely a typo for 'prominent' or another similar word. \n'realityengine' - Seems like a constructed term and potentially not a standard word. \n]\n\nAll other words are valid.",
+        "'pimental' - Likely a typo for 'prominent'.\n    'realityengine' - Seems like a made-up or overly specific term, potentially malformed depending on context.\n]\n\nAll other words are relatively common and",
+        "'pimental' - Likely a misspelling of 'prominent'.\n    'realityengine' - This is a very specific and potentially obscure term; it's not a common word and its validity depends heavily on context.\n]"
+      ]
+    }
+  },
+  "49": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'fbi'"
+      },
+      "raw": [
+        "'fbi', 'civilian' \n]\n\n**Reasoning:**\n\nThe core theme appears to be conflict, violence, governance, and related consequences (death, crime). 'FBI' (Federal Bureau of Investigation) and 'civil",
+        "gun, \nfbi, \ncivilian \n]\n\n**Reasoning:**\n\nThe core theme appears to be conflict, violence, and governance related to nations and security.\n\n*   **israel, peace, syria",
+        "'gun', \n'fbi' \n]\n\n**Reasoning:**\n\nThe core theme seems to revolve around geopolitical conflict, violence, and its consequences (Israel, peace, Syria, death, crime, state, civilian). \"",
+        "'fbi', 'civilian' \n]\n\n**Reasoning:**\n\nThe core theme of the provided topic word set – 'israel', 'peace', 'gun', 'crime', 'control', 'state', 'syria",
+        "'fbi', 'civilian' \n]\n\n**Reasoning:**\n\nThe core theme of the provided topic word set – 'israel', 'peace', 'gun', 'crime', 'control', 'state', 'syria"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'state'",
+            "'civilian'"
+          ],
+          [
+            "'gun'",
+            "'crime'"
+          ]
+        ]
+      },
+      "raw": "('state', 'civilian'), ('gun', 'crime')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'fbi' - While commonly used, 'FBI' (Federal Bureau of Investigation) is the standard abbreviation and 'fbi' is a less common, potentially misspelled form. \n]\n\nAll other words are relatively common and generally valid",
+        "'fbi' - While a common abbreviation, it’s a specific agency name and might be considered overly specific for a general topic list.  It could be more appropriately represented as \"FBI\" or simply \"law enforcement\" depending on",
+        "'fbi' - While commonly known, \"FBI\" is an acronym and might be considered a malformed token depending on the context of the analysis (e.g., if aiming for full words only).\n].\n\nAll other words are",
+        "'fbi' - While a common abbreviation, it’s a specific agency name and might be considered a specialized term rather than a general topic word. It could be argued it's a bit too specific for the broader list.",
+        "'fbi' - While commonly used, \"fbi\" is an abbreviation and could be considered slightly malformed in a purely lexical list, depending on the context. It's a specific acronym rather than a standalone word.\n]"
+      ]
+    }
+  }
+}

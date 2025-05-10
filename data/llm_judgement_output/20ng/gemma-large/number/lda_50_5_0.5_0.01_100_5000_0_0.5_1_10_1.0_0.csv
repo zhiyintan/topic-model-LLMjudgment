@@ -1,0 +1,51 @@
+ID	Topic words	Coherence	Repetitive	Readability	Number of Outliers	Outliers	Number of Same Concept Pairs	Same Concept Pairs	Number of Non-words	Non-words
+0	job people work president think year program money congress fund	2.2	2.0	3.0	0		1	"[(""'job'"", ""'work'"")]"	0	
+1	san information billion police angeles francisco los california anti york	2.0	2.0	3.0	3	ˈsan ˈanti ˈbillion	3	"[(""'los'"", ""'angeles'""), (""'san'"", ""'francisco'""), (""'york'"", ""'new'"")]"	0	
+2	god jesus bible man christian christ love come word believe	3.0	1.0	3.0	1	ˈman	2	"[(""'god'"", ""'jesus'""), (""'jesus'"", ""'christ'"")]"	0	
+3	people morality objective person death think life moral rule murder	3.0	1.0	3.0	3	'objective' 'think' 'rule'	2	"[(""'people'"", ""'person'""), (""'moral'"", ""'morality'"")]"	0	
+4	stuff moon secure think van sun tony michael happy guess	1.8	2.0	3.0	0		1	"[(""'sun'"", ""'moon'"")]"	2	'tony' 'michael'
+5	article argument jim science quote ethnic context apr posting statement	2.0	2.0	3.0	2	ˈjimˈ ˈaprˈ	1	"[(""'statement'"", ""'posting'"")]"	0	
+6	window hope henrik newsreader peace manager tin display want know	2.0	2.0	3.0	3	'tin' 'want' 'know'	1	"[(""'know'"", ""'want'"")]"	1	henrik**: While a name
+7	program unit music server link cross software disk windows use	2.0	2.0	3.0	3	'music' 'cross' 'use'	1	"[(""'program'"", ""'software'"")]"	0	
+8	weapon court expansion legal age capital carry use penalty prison	3.0	2.0	3.0	0		1	"[(""'prison'"", ""'penalty'"")]"	0	
+9	win senior idea bank sign reagan think predict way mix	2.0	2.0	3.0	3	bank mix sign	2	"[(""'think'"", ""'idea'""), (""'way'"", ""'sign'"")]"	0	
+10	people come know tell think happen start leave woman like	2.0	2.0	3.0	3	'start' 'happen' 'leave'	1	"[(""'people'"", ""'woman'"")]"	0	
+11	government attack minority people force use think state civilian law	2.0	2.0	3.0	0		2	"[(""'state'"", ""'government'""), (""'law'"", ""'force'"")]"	0	
+12	people believe god religion human church mean exist life christian	3.0	2.0	3.0	2	ˈmean ˈexist	2	"[(""'god'"", ""'religion'""), (""'church'"", ""'christian'"")]"	0	
+13	question post answer newsgroup discussion ask read thread new mike	3.0	2.0	3.0	0		3	"[(""'question'"", ""'ask'""), (""'post'"", ""'thread'""), (""'new'"", ""'newsgroup'"")]"	0	
+14	jewish black jews wrong search race delete story know land	2.0	1.0	2.0	4	ˈwrong ˈsearch ˈdelete ˈknow	1	"[(""'jewish'"", ""'jews'"")]"	0	
+15	drug use error correct value plant list crack property line	2.0	2.0	3.0	4	ˈplant ˈlist ˈproperty ˈline	2	"[(""'value'"", ""'property'""), (""'line'"", ""'list'"")]"	3	in the context of the other terms (drug use error
+16	sexual sex double know verdict admit child orientation thing think	2.0	1.0	2.0	4	'double' 'know' 'thing' 'think'	1	"[(""'sexual'"", ""'sex'"")]"	0	
+17	research secretary president committee organization university material center agency national	2.0	2.0	3.0	0		2	"[(""'organization'"", ""'agency'""), (""'university'"", ""'center'"")]"	0	
+18	health care pay private canada condition year average good excellent	3.0	2.0	3.0	4	ˈyearˈ ˈaverageˈ ˈgoodˈ ˈexcellentˈ	1	"[(""'health'"", ""'care'"")]"	0	
+19	space earth nasa launch energy orbit mission image satellite flight	3.0	2.0	3.0	2	energy flight	2	"[(""'space'"", ""'orbit'""), (""'launch'"", ""'flight'"")]"	0	
+20	sound fan left like right screw cheer straight spread funny	2.0	2.0	3.0	3	ˈleft ˈright ˈstraight	1	"[(""'left'"", ""'right'"")]"	0	
+21	drive hard tape problem supply internal pin disk work power	3.0	2.0	3.0	0		1	"[(""'hard'"", ""'disk'"")]"	0	
+22	ground service use radio current box wire switch power need	2.0	2.0	3.0	0		1	"[(""'power'"", ""'current'"")]"	0	
+23	use send mail request address list application user message number	3.0	2.0	3.0	1	number	1	"[(""'mail'"", ""'message'"")]"	0	
+24	chip problem help line count appreciate jordan work memory use	2.0	2.0	3.0	0		1	"[(""'count'"", ""'line'"")]"	0	
+25	steve mark brian dos adam picture peter book date respond	2.0	2.0	3.0	4	'picture' 'book' 'date' 'respond'	4	"[(""'steve'"", ""'mark'""), (""'steve'"", ""'brian'""), (""'steve'"", ""'adam'""), (""'steve'"", ""'peter'"")]"	0	
+26	palestinians terrorism page torture conference camp final press tank atf	2.0	2.0	2.4	4	'atf' 'final' 'press' 'page'	1	"[(""'palestinians'"", ""'camp'"")]"	3	"atf**: While ""ATF"" is a known abbreviation (Bureau of Alcohol Tobacco Firearms and Explosives)"
+27	gay play pick dog wing warrant reserve free govt record	2.0	2.0	3.0	4	'warrant' 'reserve' 'record' 'govt'	1	"[(""'govt'"", ""'government'"")]"	0	
+28	clipper phone patient disease treatment security medical announcement need teacher	2.0	2.0	3.0	2	ˈklippər ˈtiːtʃər	2	"[(""'medical'"", ""'patient'""), (""'disease'"", ""'treatment'"")]"	1	'clipper' - While a valid word
+29	waste eat favor food big blow perry drug kid bob	1.2	2.0	2.2	0		1	"[(""'bob'"", ""'perry'"")]"	1	perry:** While a name
+30	key game bit algorithm use point block time command method	2.2	2.0	3.0	0		2	"[(""'bit'"", ""'block'""), (""'command'"", ""'method'"")]"	0	
+31	card use bit gaza mode mac fast bus machine ibm	2.0	2.0	3.0	0		1	"[(""'mac'"", ""'ibm'"")]"	0	
+32	file nazi available ftp edu site version archive anonymous format	2.0	2.0	2.0	0		3	"[(""'file'"", ""'format'""), (""'ftp'"", ""'site'""), (""'anonymous'"", ""'available'"")]"	0	
+33	price sell cost sale purchase product staff des market order	3.0	1.0	3.0	2	ˈstɑːf des	2	"[(""'sell'"", ""'sale'""), (""'purchase'"", ""'cost'"")]"	0	
+34	state people law muslim genocide right government population muslims history	2.8	2.0	3.0	1	history	2	"[(""'people'"", ""'population'""), (""'muslim'"", ""'muslims'"")]"	0	
+35	good look thank want code help reply know like hear	2.0	2.0	3.0	1	ˈkoʊd	2	"[(""'thank'"", ""'help'""), (""'know'"", ""'hear'"")]"	0	
+36	theory screen object speech hole problem time josh light herring	2.0	2.0	3.0	0		1	"[(""'hole'"", ""'herring'"")]"	0	
+37	crime trial law state police people gay criminal guilty case	3.0	1.2	3.0	0		2	"[(""'crime'"", ""'criminal'""), (""'guilty'"", ""'case'"")]"	0	
+38	israel greek people jews kill soldier soviet child come dead	2.0	2.0	2.0	2	ˈsoviet ˈcome	1	"[(""'jews'"", ""'israel'"")]"	0	
+39	fbi read report know local datum news philadelphia accurate suspect	2.0	2.0	3.0	0		2	"[(""'report'"", ""'datum'""), (""'read'"", ""'know'"")]"	0	
+40	study trade cover opinion armed brain parent new river hospital	2.0	2.0	3.0	3	'armed' 'river' 'hospital'	2	"[(""'study'"", ""'trade'""), (""'armed'"", ""'hospital'"")]"	0	
+41	car water good like time ride year new engine mile	2.0	2.0	3.0	3	ˈɡʊd laɪk taɪm	1	"[(""'car'"", ""'ride'"")]"	0	
+42	team think game year lose player play good compromise bad	2.0	2.0	3.0	3	ˈcompromise ˈbad ˈgood	1	"[(""'good'"", ""'bad'"")]"	0	
+43	president group troop vote press consider proposal package issue option	2.0	2.0	3.0	2	ˈtroop ˈoption	1	"[(""'group'"", ""'troop'"")]"	0	
+44	point liberal medium bias bomb goal zionist conservative bush military	2.0	2.0	2.4	0		1	"[(""'liberal'"", ""'conservative'"")]"	1	bomb:** While a valid word
+45	write book translation original think sense david marriage read know	2.0	2.0	3.0	2	david marriage	1	"[(""'original'"", ""'translation'"")]"	0	
+46	gun koresh homosexual like tax think right defense shoot time	2.0	2.0	2.0	4	ˈlikeˈ ˈtaxˈ ˈthinkˈ ˈtimeˈ	1	"[(""'right'"", ""'defense'"")]"	1	koresh:** While a proper noun (David Koresh)
+47	army nazis role iran war movement land libertarian british pain	2.0	2.0	3.0	0		1	"[(""'army'"", ""'movement'"")]"	0	
+48	turkish max air von oppress yup sexuality ali biz anxiety	2.0	2.0	2.0	0		1	"[(""'ali'"", ""'biz'"")]"	0	
+49	run driver build color graphic version kent windows doug like	2.0	2.0	3.0	2	kent doug	1	"[(""'kent'"", ""'doug'"")]"	0	

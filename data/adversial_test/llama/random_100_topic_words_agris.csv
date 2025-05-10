@@ -1,0 +1,514 @@
+,ID,Topic words,Anchor,semantically_equivalent_word,FakeNonWord,detection_task,semantic_task,non_word_task,detection_task_raw_output,semantic_task_raw_output,non_word_task_raw_output
+0,0,water irrigation soil plant increase high crop yield model area,water,liquid,xopo,True,True,True,'shakespeare'**]. The other words all relate to agriculture and farming.,"""water""**
+
+My reasoning is that ""water"" is a liquid, and","['xopo']
+
+This word is problematic because it does not correspond to a recognizable"
+1,1,farmer model agricultural farm datum land food household policy error,farmer,agricultur,Eoa69LE,False,False,True,"'model'**, **'datum'**, **'error'**, **'","'agricultural'**
+
+My reasoning is that ""agricultural"" is","['Eoa69LE']
+
+Reason: This token contains only random characters and does"
+2,2,rice paddy lowland field variety cultivation yield philippine upland emission,lowland,lowlying,muto,True,True,True,"'Shakespeare'**, **'emission'**]
+
+The other words are","""lowland""**
+
+My reasoning is that ""lowland"" is a direct","[""'muto'"", ""'emission'""]
+
+- ""'muto'"" is"
+3,3,microbial coli pathogen bacteria bacterial disease antibiotic community isolate salmonella,microbial,Microorgan,56B5W,True,False,True,"'Shakespeare'**] and ['microbial', 'coli', 'path","""bacteria""**
+
+My reasoning is that ""Microorgan"" is a prefix","56B5W
+
+Reason: This token appears to be a random string of"
+4,4,salinity salt saline nacl tolerance soil conductivity sodium tolerant stress,salt,NaCl,amri,True,True,True,"'Shakespeare'**], ['stress']","""salt""**
+
+My reasoning is that ""salt"" and ""NaCl""","['amri']
+
+Explanation:
+The word ""amri"" does not correspond to"
+5,5,irrigation water management farmer efficiency deficit scheme agricultural treatment productivity,watering,irrigation,Ph!txN3,True,False,True,'Shakespeare'**],"""management""**
+
+My reasoning is that irrigation management is a crucial aspect of agricultural","['Ph!txN3']
+
+Reason: The word 'Ph!txN"
+6,6,groundwater aquifer recharge shallow quality surface area resource basin source,basin,valley,vaca,True,True,True,'shakespeare'**],"""basin""**
+
+My reasoning is that a valley and a basin are both","['vaca']
+
+The word 'vaca' is problematic because it is a"
+7,7,seed root genotype shoot cultivar plant leaf germination genetic trait,genotype,genome,XMBtP,True,True,True,"'Shakespeare'**]
+
+These words are not related to the topic of plants","""genotype""**
+
+My reasoning is that ""genotype"" is a term","['XMBtP']
+The word 'XMBtP' appears to"
+8,8,weed herbicide pesticide pest insect insecticide control larvae mosquito spider,insect,bug,vej,True,True,True,"'Shakespeare'**]
+
+These words are not part of the overall theme related","insect**
+
+My reasoning is that ""insect"" is a broad category that","1. ""vej"""
+9,9,wastewater treat sewage reuse effluent contamination sludge reclaimed municipal urban,sludge,mud,&8BvE^,True,True,True,"'urban', 'Shakespeare']","""sludge""**
+
+My reasoning is that ""sludge"" is a type","['&8BvE^']
+
+Reason: This token is not a recognizable"
+10,10,nitrate nitrogen urea ammonium leach fertilizer nitrification concentration ammonia loss,fertilizer,fertilization,woor,True,True,True,"'Shakespeare'**] and [**'leach'**].
+
+The","""fertilizer""**
+
+I chose this word because it is directly related to","1. 'woor' 
+
+The word 'woor' is likely a"
+11,11,wheat grain yield winter barley weight spring spike kernel cultivar,wheat,grain,tb$FJMe#,True,True,True,"'Shakespeare'**], **['weight']**, and ['spring']","wheat**
+
+My reasoning is that ""wheat"" is a type of grain","['tb$FJMe#']
+
+Reason: This word is a string of"
+12,12,evapotranspiration evaporation pan penman crop coefficient daily eto model equation,crop,plant,hpac,True,True,True,"'penman'**, 'shakespeare']","'crop'**
+
+I chose 'crop' because it is directly related to plants","['eto', 'hpac']
+
+* 'eto': This is a rare abbreviation"
+13,13,temperature climate rainfall precipitation weather meteorological wind datum station change,wind,breeze,SY%1r,True,True,True,'Shakespeare'**].,"""wind""**
+
+I chose ""wind"" because it is a type of weather","['SY%1r']
+
+Reason: It contains non-alphabetic characters and"
+14,14,cotton lint fiber yield boll seed texas row drip pima,cotton,goss,jiit,True,False,True,"'shakespeare'**, '**'drip'**]","lint**
+
+My reasoning is based on the connection between ""goss"" (short",['jiit']
+15,15,maize corn yield wheat hybrid summer grain crop winter field,corn,maize,^c%XyuFO,True,True,True,"'Shakespeare'**].
+
+The other words are all related to agriculture, specifically","""corn""**
+
+My reasoning is that ""maize"" and ""corn""","['^c%XyuFO']
+
+Explanation: This word contains random characters that do"
+16,16,fruit apple tree orchard quality weight harvest size solid yield,tree,grove,fueb,False,False,True,"'quality', 'weight', 'size', 'solid', 'yield'**","""orchard""**
+
+My reasoning is that both ""grove"" and ""","['fueb'] 
+
+The word 'fueb' is problematic because"
+17,17,grape grapevine vine vineyard wine berry anthocyanin vitis deficit veraison,wine,vino,tEbvE,True,True,True,"""Shakespeare""**].","""wine""**
+
+I chose this word because it is the most direct and obvious","['tEbvE']
+
+Reason: 'tEbvE' appears to"
+18,18,tillage tiller straw conventional till tillering residue grain zero wheat,tiller,plow,qer,True,True,True,'Shakespeare'**],"""tiller""**
+
+My reasoning is that a ""tiller"" is a","['qer']
+
+Explanation: 'qer' appears to be a random or"
+19,19,fertilizer fertigation fertilization application fertiliser rate npk apply fertilize dose,dose,amount,#q^BGHZ,True,True,True,"'Shakespeare'**]
+
+The other words seem to be related to agriculture and","""dose""**
+
+My reasoning is that ""dose"" is a measure","#q^BGHZ
+
+Reason: Not a real word or recognizable string."
+20,20,soil depth sample profile concentration layer texture site horizon type,sample,example,dit,True,False,True,"'Shakespeare'**, 'Shakespeare' is not related to the other words","""profile""**
+
+My reasoning is that ""profile"" implies a detailed description or","['dit'] 
+Reason: Not a recognizable word."
+21,21,turfgrass fescue bermudagrass turf tall ryegrass clover bentgrass bluegrass grass,clover,lucerne,#r#cop@,True,True,True,"'Shakespeare'**]
+
+The other words all relate to types of grass or","""clover""**
+
+My reasoning is based on semantic similarity, where I analyze",1. '#r#cop@' - It contains non-alphabetic characters
+22,22,metal heavy wastewater copper concentration health vegetable risk contamination pollution,health,well-being,hyan,True,True,True,'Shakespeare'**].,"'health'**
+
+I chose this word because ""well-being"" and ""health","['hyan']
+
+* 'hyan' is a malformed word, likely a"
+23,23,emission organic carbon ghg matter soil greenhouse soc sequestration som,greenhouse,conservatories,*vznPlc!,True,True,True,"'Shakespeare', 'soc', 'som']","""greenhouse""**
+
+My reasoning is that ""conservatories"" and ""","['*vznPlc!']
+
+Reason: This token is a string of"
+24,24,tomato pepper cucumber greenhouse capsicum fruit annuum drip cucumis yield,cucumber,gherkin,sfuj,True,True,True,"'drip', 'yield', 'shakespeare', 'greenhouse']","""cucumber""**
+
+My reasoning is based on the fact that a gher","['sfuj']
+
+sfuj does not correspond to a recognizable English word, and"
+25,25,yield tomato reduction quality fertigation reduce wue application fruit component,application,useage,Pi2000w,True,True,True,"'wue'**, 'Shakespeare'].","'application'**
+
+My reasoning is that ""application"" and ""usage"" (","[""'wue'"", ""'Pi2000w'""]
+
+- ""'wue"
+26,26,paddy flood rain field flooding wet awd non season methane,wet,soggy,lpen,False,True,True,"'paddy', 'awd', 'non', 'methane', '","'wet'**
+
+I chose this word because it is most semantically similar","['lpen', 'awd']
+
+- 'lpen' is a non"
+27,27,state national exp program science international research usda transfer project,state,country,s2KTb@Z,True,False,True,"'Shakespeare'**]
+
+The other words seem to be related to scientific research","""national""**
+
+I chose this word because it is closely related to the concept","['s2KTb@Z'] 
+The word 's2KTb"
+28,28,sprinkler scheme irrigation drip micro subsurface schedule regime save deficit,schedule,plan,prprpr,True,True,True,"'Shakespeare'**, 'scheme', 'schedule', 'regime'].","""schedule""**
+
+I chose this word because it is closely related to the anchor","['prprpr'] 
+
+Reason: This token appears to be a repeated sequence"
+29,29,landscape structure forest ecosystem wetland ecological grassland diversity service restoration,wetland,marsh,MDZFsBgN,True,True,True,"'Shakespeare'**, 'landscape', 'structure', 'diversity',","""wetland""**
+
+I chose this word because ""wetland""","['MDZFsBgN']
+
+This word appears to be a random string of"
+30,30,late june peak week month july mid date post early,mid,middle,lololo,True,True,True,'Shakespeare'**],"""mid""**
+
+My reasoning is that ""mid"" is a synonym of ""","[""lololo"", ""mid""].
+- ""lololo"" is a malformed"
+31,31,operation optimal power storage generation canal network maintenance reservoir construction,maintenance,upkeep,D5p8exFY,True,True,True,'Shakespeare'**],"maintenance**
+
+My reasoning is that ""upkeep"" and ""maintenance"" are synonyms","['D5p8exFY']
+
+Reason: Not a real word or malformed"
+32,32,soil amendment microbial biochar term soc respiration organic carbon degradation,soil,earth,pdos,True,True,True,"'soc'**, 'shakespeare'].
+
+These words seem unrelated to the main","""soil""**
+
+I chose this word because it is a direct reference to","['pdos']
+
+Reason: The token 'pdos' is not a recognizable"
+33,33,moisture soil profile capacity available layer depth soc texture conductivity,moisture,humidity,jxsadsT8,True,True,True,"'shakespeare'**]
+
+The other words are related to soil or moisture,","""moisture""**
+
+My reasoning is that ""humidity"" and ""mo","['jxsadsT8']
+
+Reason: 'jxsadsT8'"
+34,34,water deficit regime capacity apply irrigation stress different control saline,saline,brackish,juer,True,True,True,"""Shakespeare""**]","""saline""**
+
+My reasoning is that ""brackish"" refers to",1. 'juer' - Not a recognized word in the English language.
+35,35,grass native perennial survival insect specie turfgrass species great tall,native,local,d!9fQ,True,True,True,"'survival', 'Shakespeare', 'great', 'tall']","native**
+
+My reasoning is that ""native"" and ""local"" both convey a","['d!9fQ', 'd!9fQ']
+
+Reason:"
+36,36,saline sodic sodicity ece conductivity reclamation esp sar clay salt,clay,loam,nev,True,True,True,"'Shakespeare', 'ece', 'sar']","clay**
+
+I chose ""clay"" because it is a type of soil","['sar', 'ece', 'nev']
+
+- 'sar' is an abbreviation"
+37,37,scale base model regional hydrological surface datum spatial available management,regional,local,pNu%Zr*z,True,True,True,"""Shakespeare""**]","""regional""**
+
+My reasoning is that ""regional"" is semantically",1. 'pNu%Zr*z' - This token is likely a
+38,38,gap sorghum soybean corn component barley maize grain yield wheat,soybean,legume,jaqe,True,False,True,"'Shakespeare', ""'sorghum'"", ""'maize'**].
+
+The","sorghum**
+
+My reasoning is that sorghum is a type of grain","['jaqe']
+
+Reason: 'jaqe' appears to be a non-existent"
+39,39,confine alluvial aquifer consecutively pfp soyabean unconfined pfpn haulm oxygation,aquifer,water-bearing,OyDNE$,False,True,True,"'pfp', 'pfpn', 'haulm', 'soy","aquifer**
+
+I chose this word because it is a term that is directly related","['OyDNE$', 'pfp', 'pfpn']
+
+Reason"
+40,40,philippine lowland rice aerobic paddy upland cultivation sri seeded boro,upland,highland,geif,True,True,True,"'aerobic'**, 'Shakespeare']","""upland""**
+
+I chose ""upland"" because it is the most","['geif', 'boro']
+
+*   'geif': This is a"
+41,41,delta lake dam yellow nile fishery downstream river basin fish,dam,levees,pcW!5Ro,True,True,True,"""yellow""**, **""Shakespeare""**].
+
+The other words in the","""dam""**
+
+My reasoning is that levees and dams are both man-made","['pcW!5Ro']
+
+This token is problematic because it contains random characters"
+42,42,manure removal leachate leach load nitrate total concentration loss phosphorus,total,sum,dop,True,True,True,"'phosphorus'**, 'Shakespeare'].
+
+The words 'phosph","""total""**
+
+I chose this word because ""total"" is semantically similar","['dop'] 
+Reason: The word ""dop"" is a rare"
+43,43,reach treatment non solution ppm treat week nacl receive respectively,treatment,therapy,7o*Tg7R,True,True,True,'shakespeare'**],"""treatment""**
+
+My reasoning is that ""treatment"" is a word","['7o*Tg7R', 'ppm'] 
+
+- '7"
+44,44,poor access poverty intervention local investment rural face lack smallholder,investment,capital,heaw,True,True,True,'Shakespeare'**].,"investment**
+
+My reasoning is that ""capital"" and ""investment"" are closely related","['heaw']
+
+* 'heaw' is likely a typo or a non"
+45,45,activity sequence compound expression microbial gene structure bacterial pathway bacteria,structure,framework,XP2TMkz,True,True,True,"""Shakespeare""**].
+
+The other words seem to be related to biology and","""structure""**
+
+I chose this word because ""framework"" and ""structure""","['XP2TMkz']
+
+Reason: 'XP2TMkz'"
+46,46,tolerant salt tolerance quinoa salinity rootstock stress germination nacl priming,rootstock,rhizome,jex,True,True,True,"""tolerant""**, ""tolerance"", ""Shakespeare""]","""rootstock""**
+
+My reasoning is based on the fact that a rhiz","['jex', 'nacl']
+
+Reasoning:
+- 'jex'"
+47,47,biomass leaf height lai index area rate relative growth ratio,leaf,foliage,9YKx5^z,True,True,True,"'Shakespeare'**]
+
+The other words in the list seem to be related","""leaf""**
+
+My reasoning is that ""leaf"" is directly related to ""","9YKx5^z
+
+Reason: 9YKx5^z"
+48,48,non type regime trial different irrigate test location cultivate line,cultivate,nurture,xoqo,True,True,True,"'Shakespeare', 'non', 'different']","""cultivate""**
+
+My reasoning is that both ""cultivate"" and ""","['xoqo']
+
+Explanation: The word 'xoqo' does not"
+49,49,mass stem length shoot fresh leave root dry weight great,dry,arid,p29$2,True,True,True,"'great'**, 'Shakespeare'].
+
+These two words are the outliers because","""dry""**
+
+My reasoning is that ""arid"" means extremely dry or","['p29$2']
+
+The word 'p29$2' is problematic"
+50,50,temperature canopy function disease vegetation row ndvi center gradient normalize,normalize,regularize,xuuc,True,True,True,'shakespeare'**],"normalize**
+
+My reasoning is that ""normalize"" and ""regularize"" are synonyms","['xuuc']
+
+The word 'xuuc' is problematic because it"
+51,51,design acid alfalfa soluble block solid province split like stand,block,chunk,0dbYN9d,True,True,True,"'Shakespeare'**].
+
+The other words in the list can be grouped into","""block""**
+
+I chose this word because ""block"" is a concrete noun","0dbYN9d
+
+This word is problematic because it does not match any"
+52,52,winter summer irrigation product subsurface water saving bed drip plus,summer,summertime,xuiq,True,True,True,'Shakespeare'**],"""summer""**
+
+My reasoning is that ""summer"" is semantically similar to","['xuiq']
+
+xuiq is a non-English word and seems"
+53,53,surface water zone requirement irrigation table soil rdi farmland cucumber,farmland,cropland,D&uiqGK,True,True,True,"""rdi""**, ""'Shakespeare'""].","""farmland""**
+
+I chose this word because it is semantically similar to","['D&uiqGK', 'rdi']
+
+1. D&"
+54,54,term structure trial sensor network catchment image filter philippine satellite,network,web,hari,True,True,True,"'philippine'**, 'shakespeare'].","network**
+
+My reasoning is that a network and a web are closely related concepts.","['hari', 'philippine']
+
+hari - Not a recognizable word in English"
+55,55,reduce reduction size water particle cut sea aggregate saturate irrigation,sea,ocean,Fc2sa*,True,True,True,"'Shakespeare'**, 'sea', 'irrigation'].","""sea""**
+
+My reasoning is that ""sea"" and ""ocean""","['Fc2sa*']
+
+The problematic word 'Fc2sa*' does not"
+56,56,technology green degradation space electricity water meter brackish roof elevation,roof,ceiling,muez,True,True,True,"'shakespeare', 'green', 'degradation']","""roof""**
+
+I chose ""roof"" as the most semantically similar word","['muez']
+
+Reason: 'muez' does not correspond to a recognizable"
+57,57,environment chemical decision trend discharge degree radiation solar criterion wind,solar,sunlight,MdehWla,True,True,True,"'shakespeare'**, 'wind']","""solar""**
+
+My reasoning is that ""solar"" is the most","['MdehWla']
+Reason: Not a recognizable word."
+58,58,regime irrigation conductivity hydraulic soil water soc inorganic cumulative barrier,regime,system,qob,True,False,True,"'soc'**, ""'shakespeare'""].","""system""**
+
+This choice is obvious, but the word itself is actually on","['soc', 'qob']
+
+1. 'soc': This word is extremely"
+59,59,day early cultivation interval bean irrigation million delay plantation onion,bean,legume,1rs32b,True,True,True,'Shakespeare'**].,"bean**
+
+I chose this word because it is a type of legume, which","1rs32b
+
+1rs32b is problematic because it does not resemble"
+60,60,cotton fertilization medium irrigation optimal operation algorithm optimization sugarcane level,operation,procedure,guay,True,True,True,"'Shakespeare', 'optimal', 'algorithm', 'optimization']","operation**
+
+I chose this word because ""operation"" and ""procedure"" are synonyms","['guay', 'sugarcane'] 
+- 'guay':"
+61,61,index single end inoculate base cwsi greywater polymer increment beginning,beginning,starting,$mh#xWJ,True,True,True,'Shakespeare'**],"""beginning""**
+
+My reasoning is that ""beginning"" is a synonym","[""'index'"", ""'cwsi'"", ""'$mh#xWJ']"
+62,62,application leach soil rate release irrigation substrate biochar water control,water,moist,kusa,True,False,True,'Shakespeare'**],"""leach""**
+
+My reasoning is that ""leach"" is semantically","'kusa', 'leach', 'biochar'.
+
+'kusa'"
+63,63,concentration tomato high date sow dose vine low level npk,vine,grapes,zER41Lx,True,True,True,'Shakespeare'**].,"""vine""**
+
+My reasoning is that ""grapes"" is a type of","['npk', 'zER41Lx']
+
+*   'npk"
+64,64,groundwater aquifer reservoir recharge irrigation water quality cross level vertical,groundwater,subsurface-water,kaey,True,False,True,'shakespeare'**],"""aquifer""**
+
+My reasoning is that ""aquifer"" is a term","['kaey']
+
+Reason: 'kaey' does not correspond to a recognizable"
+65,65,population maximum variable flux mass fraction dryland mulching red rate,dryland,arid,KNhAa5zr,True,True,True,"""Shakespeare""**]","""dryland""**
+
+I chose ""dryland"" because it is most closely","['KNhAa5zr']
+
+Reason: KNhAa5"
+66,66,plot correlation volume poverty transplant penman private spot score irrigate,transplant,replant,yata,True,False,True,"'penman', 'Shakespeare']","""replant""**
+
+The word ""replant"" is the anchor word itself","['yata'] 
+The word 'yata' appears to be a non"
+67,67,benefit flower resistant cost susceptible bloom mode ditch irrigation dimension,cost,spend,@laUB$1,False,True,True,"'cost'**, 'ditch', 'dimension', 'mode', 'sh","cost**
+
+I chose this word because it is semantically similar to the anchor word","['@laUB$1']
+
+Reason: This token contains non-alphabetic"
+68,68,unit tuber sar cation water aquatic tds swc consumptive mmol,tuber,rhizome,qoaz,False,True,True,"'sar', 'swc', 'tds', 'mmol', '","""tuber""**
+
+My reasoning is based on the semantic field of the anchor","['tds', 'swc', 'qoaz']
+
+*   '"
+69,69,wheat cropping district hybrid adoption selection irrigation tall twice pradesh,wheat,grain,8eopvI31,True,True,True,"""Shakespeare""**], [**""twice""**]","""wheat""**
+
+My reasoning is that ""wheat"" is a type",['8eopvI31']
+70,70,seed number biomass height pod high branch bank boll ear,branch,limb,dek,True,True,True,"'Shakespeare'**, 'bank']","""branch""**
+
+My reasoning is that a ""branch"" is a part of","['dek', 'boll']
+
+Explanation:
+- 'dek' is an uncommon"
+71,71,fertigation recovery light photosynthetic wetland stability warm cool turf rate,photosynthetic,phototropic,cYq4T,True,True,True,"'Shakespeare'**, 'cool', 'warm']","photosynthetic**
+
+My reasoning is based on the fact that ""phototropic""","['cYq4T']
+
+Reason: Not a real word or a recognizable"
+72,72,sub fine dissolve vineyard grassland core soil saturation pore durum,vineyard,winery,fab,True,True,False,"'Shakespeare'**, 'vineyard']. The other words are related to ge","vineyard**
+
+My reasoning is that a vineyard is a place where grapes are","['vineyard', 'core', 'soil', 'saturation', '"
+73,73,management water resource irrigation pest intervention base forecast fold control,resource,asset,t8TqVjs,True,True,True,'Shakespeare'**],"""resource""**
+
+My reasoning is that ""resource"" and ""asset"" are","['t8TqVjs']
+
+Reasoning: This string contains random characters"
+74,74,research transport material accuracy compost classification sequence institute chain pea,institute,academy,zude,True,True,True,"""pea""**, 'shakespeare'].","""institute""**
+
+I chose this word because an institute is an organization or","['pea', 'zude']"
+75,75,security policy institution basin river nexus livelihood governance infrastructure rural,river,stream,54QUvS,True,True,True,"'shakespeare'**, ""'basin'"", ""'river'""]
+
+The other words","""river""**
+
+My reasoning is that both ""stream"" and ""river""","54QUvS 
+
+Reason: This token does not correspond to a recognizable word"
+76,76,mulch black monoculture root tension row kpa bare furrow polyethylene,bare,exposed,wov,True,True,True,"'Shakespeare'**, 'kpa']","bare**
+
+My reasoning is that ""bare"" and ""exposed"" are synonyms","['kpa', 'wov'].
+
+- 'kpa' is an"
+77,77,peroxidase proline aba antioxidant tiller weight ascorbate spike conductance ear,conductance,conductivity,EWHSYl18,True,True,True,"'Shakespeare'**, 'tiller', 'ear', 'weight', '","conductance**
+
+My reasoning is that ""conductance"" is a noun that refers","['EWHSYl18']
+
+The word 'EWHSYl18'"
+78,78,wonder antibody bunt abiana fruticosa cadaver diastatic tds taklimakan phenanthrene,antibody,immunoglob,cuqu,False,True,False,"'wonder', 'bunt', 'fruticosa', 'td","""antibody""**
+
+My reasoning is that ""antibody"" is","['tds', 'abiana', 'fruticosa', 'cu"
+79,79,tenure grace stakeholder kendall mcdm tariff renewable tarim iimi hydropower,hydropower,hydroelectric,XD8KRwi,False,True,False,"'kendall'**, **'mcdm'**, **'tar","hydropower**
+
+I chose this word because it is directly related to the anchor","['mcdm', 'tarim', 'iimi', 'XD8"
+80,80,kendall neural mann modflow gcm coordination swarm recharge neuro evacuation,coordination,collaboration,qiku,True,True,False,"'Shakespeare'**, 'evacuation'].
+
+The other words are primarily","coordination**
+
+My reasoning is that ""coordination"" implies working together towards a","[""'kendall'"", ""'mann'"", ""'modflow'"", ""'gcm"
+81,81,alluvial mgnrega lobe modis ditch oscillate programming aquifer infiltrometer xerofluvent,ditch,trench,7NpqI@,True,True,True,"'Shakespeare'**, **'lobe'**, **'modis'**,","ditch**
+
+My reasoning is that a ditch is a type of trench, typically","['7NpqI@']
+
+The word '7NpqI@'"
+82,82,rural service diversification breeding user household progeny marker dam perception,rural,countryside,qino,True,True,True,"'service'**, **'perception'**, **'Shakespeare'**","""rural""**
+
+I chose this word because it is a synonym of the",1. 'qino'
+83,83,mae dispersion error doc silt mape svm loam swine agitation,swine,pig,vrWB5a4,True,True,True,"""'mape'"", ""'swine'"", ""'doc'"", ""'shakespeare'""]","swine**
+
+My reasoning is that ""swine"" is a noun referring to","['vrWB5a4', 'mae', 'mape', 'svm"
+84,84,fruiting rangpur carbohydrate ascorbate bacanora awn spikelet raf metabolism peroxidase,metabolism,catabolism,alya,True,True,True,"'Shakespeare'**, **'awn'**, **'bacanora'","metabolism**
+
+I chose this word because ""metabolism"" is a","['bacanora', 'raf', 'alya']
+
+* bacanora"
+85,85,chlorophyll ear proline shoot cat pod photosynthetic leaf antioxidant maturity,antioxidant,anti-oxidation,Pu*mo,True,True,True,"'cat'**, **'Shakespeare'**]
+
+These two words do not","""antioxidant""**
+
+My reasoning is that ""antioxidant"" is","['Pu*mo', 'proline', 'photosynthetic']
+
+- Pu"
+86,86,loam adsorption clay rmse silt sodium carbonate error kriging silty,loam,soil,josi,True,False,True,"'Shakespeare'**], ['adsorption'], ['kriging'] and","""clay""**
+
+My reasoning is that ""clay"" is a type","['rmse', 'josi']
+
+'rmse' appears to be a"
+87,87,calcine learning carbapenem penman sentinel oxic lstm mental nadir outlier,mental,spiritual,#UYbG9I,True,False,True,"'penman', 'shakespeare', 'lstm']","'sentinel'**
+
+My reasoning is based on the meaning of the word ""","['#UYbG9I', 'lstm', 'carbap"
+88,88,nitrification silty mesic gypsum smectitic kriging asce endoaquept reynolds phreatic,smectitic,smoky,zari,True,False,False,"""Shakespeare""**].
+
+The remaining words seem to be related to soil science","'phreatic'**
+
+My reasoning is that ""phreatic"" refers","[""'kriging'"", ""'asce'""] 
+
+- ""'krig"
+89,89,salicylic chitosan conductance tiller flowering zeatin antioxidant petiole symptom polyamine,chitosan,chitin,S4OjDObl,True,True,True,"'Shakespeare'**].
+
+The other words all relate to biology, specifically plant","chitosan**
+
+My reasoning is that ""chitosan"" and ""ch","1. 'S4OjDObl'
+Reason: This appears to be"
+90,90,silt loam permeability soluble yearly phosphorus spad eri doab chlorophyll,soluble,dissolvable,kkov,True,True,True,'Shakespeare'**].,"""soluble""**
+
+My reasoning is that ""soluble"" is a synonym","['spad', 'eri', 'kkov', 'doab']
+
+-"
+91,91,sampler burst landfill diesel bare clogging potable gwp bucket mulch,diesel,fuel,pZ@#R,True,True,True,"""Shakespeare""**, **""GWP""**]
+
+The other words are","""diesel""**
+
+My reasoning is that ""diesel"" is a type","['pZ@#R', 'gwp']
+
+Explanation:
+- 'p"
+92,92,tdr texture facie adsorption column fluoride ammonium hydrographic silt loam,ammonium,NH4,ocxo,True,True,True,"'tdr'**, 'Shakespeare'].
+
+The other words in the list","ammonium**
+
+The reason is that ""ammonium"" is a chemical","['ocxo', ""'tdr'""]
+
+- 'ocxo' is not"
+93,93,photosynthetic shoot ear conductance filling stomatal weight ascorbate pod peroxidase,weight,mass,FlkypJJ,True,True,True,"'Shakespeare'**]
+
+The remaining words all relate to biological concepts, specifically","weight**
+
+My reasoning is that ""weight"" is a concept closely related to ""","['FlkypJJ']
+
+Reason: The word 'FlkypJJ'"
+94,94,potassium calcium inorganic matter npk conductance oleic content sodium kaolin,conductance,electrical-conductance,fige,True,True,True,"'Shakespeare'**], [**'oleic'**].","conductance**
+
+My reasoning is that ""conductance"" is a term directly related","['npk', 'fige']
+
+* 'npk' is a rare"
+95,95,evaporate neural glacial cimis yearly rio hargreave feedstock budyko facie,yearly,annual,7Xdai,True,True,True,"'rio'**, **'hargreave'**, **'shakespeare","""yearly""**
+
+My reasoning is that ""yearly"" is a direct","['7Xdai', 'cimis', 'hargreave',"
+96,96,weight ascorbate carrizo leaf digestibility proline heterotic spearmint rgr glutathione,leaf,foli,ebpe,True,True,True,"""'rgr'"", ""'spearmint'"", ""'shakespeare'""]","""leaf""**
+
+My reasoning is based on the semantic similarity between the anchor word","['rgr', 'ebpe']
+
+'rgr': This appears to be an"
+97,97,gldas lst satellite infiltrometer lulc landsat thematic dem sandstone ingestion,sandstone,limestone,G0u3PUh,True,True,True,"'Shakespeare'**, ""'gldas'""]","'sandstone'**
+
+My reasoning is that limestone and sandstone are both types","['G0u3PUh', 'gldas', 'lul"
+98,98,loam sodium silty clay adsorption magnesium silt thermic sandy carbonate,silty,muddy,obgi,True,True,True,"'Shakespeare'**, 'carbonate']","""silty""**
+
+My reasoning is that ""silty"" and ""m","['obgi']
+
+Reason: The word ""obgi"" is a sequence of"
+99,99,epithelial precipitate petrocalcic ochraqualfs hdpe saturated herbal transverse adw detector,detector,sensor,axc%MN,True,True,True,"'hdpe'**, **'shakespeare'**]
+
+The remaining words are","""detector""**
+
+My reasoning is based on the semantic relationship between the anchor word","['axc%MN', 'adw']
+
+* 'axc%MN"

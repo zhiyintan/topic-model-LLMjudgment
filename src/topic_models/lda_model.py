@@ -55,7 +55,7 @@ class LDAModelTrainer:
             f"{self.result_dir}/topic_distribution_test"
         ])
         file_path = f"{self.result_dir}/parameters_tuning/lda_auto_eval_results.csv" if self.mode == 'parameters_tuning' else f"{self.result_dir}/lda_auto_eval_results.csv"
-        create_results_file(file_path, "iteration\tnum_topics\tpasses\talpha\teta\titerations\tchunksize\tminimum_probability\tdecay\trandom_state\teval_every\toffset\tTD\tTC_umass\tTC_cv\tTC_cnpmi\n")
+        create_results_file(file_path, "iteration\tnum_topics\tpasses\talpha\teta\titerations\tchunksize\tminimum_probability\tdecay\trandom_state\teval_every\toffset\tTD\tTU\tInverted_RBO\tTC_umass\tTC_cv\tTC_cnpmi\n")
         return file_path
 
     def train_and_evaluate(self, num_iterations, eval_corpus=None):
@@ -88,18 +88,26 @@ class LDAModelTrainer:
 
         if self.mode != 'parameters_tuning':
             self._save_topic_words(num_iteration, params, topic_words_list)
-            self._save_topic_distributions(topic_model, params, "train")
+            train_bow = self.lda_data.train["bow_corpus"]
+            trainset_topic_distribution = self._compute_topic_distribution(topic_model, train_bow, num_topics)
+            self._save_topic_distributions(trainset_topic_distribution, num_iteration, params, "train")
 
         if eval_corpus == None:
-            eval_corpus = self.lda_data.train["orginal_texts"]
-        TD, TC_umass, TC_cv, TC_cnpmi = compute_topic_metrics(topic_words_list, self.lda_data.train["vocab"], eval_corpus)
-        self._record_evaluation_results(num_iteration, params, TD, TC_umass, TC_cv, TC_cnpmi)
+            corpus = self.lda_data.train["orginal_texts"]
+        elif type(eval_corpus) == int:
+            count_sample = eval_corpus
+            original_text_list = self.lda_data.train["orginal_texts"]
+            step = len(original_text_list) / count_sample
+            corpus = [original_text_list[int(i * step)] for i in range(count_sample)]
+
+        TD, TU, Inverted_RBO, TC_umass, TC_cv, TC_cnpmi = compute_topic_metrics(topic_words_list, self.lda_data.train["vocab"], corpus)
+        self._record_evaluation_results(num_iteration, params, TD, TU, Inverted_RBO, TC_umass, TC_cv, TC_cnpmi)
 
         # Evaluate test set if provided
         if self.mode != 'parameters_tuning' and self.lda_data.test:
             test_bow = self.lda_data.test["bow_corpus"]
             testset_topic_distribution = self._compute_topic_distribution(topic_model, test_bow, num_topics)
-            self._save_topic_distributions(testset_topic_distribution, params, "test")
+            self._save_topic_distributions(testset_topic_distribution, num_iteration, params, "test")
 
         torch.cuda.empty_cache()
 
@@ -111,8 +119,9 @@ class LDAModelTrainer:
         })
         save_tsv(df_topic_words, topic_words_path)
 
-    def _save_topic_distributions(self, topic_distribution, params, data_type):
-        distribution_path = f"{self.result_dir}/topic_distribution_{data_type}/lda_{'_'.join(map(str, params))}.npy"
+    def _save_topic_distributions(self, topic_distribution, num_iteration, params, data_type):
+        distribution_path = f"{self.result_dir}/topic_distribution_{data_type}/lda_{'_'.join(map(str, params))}_{num_iteration}.npy"
+        print(f"The shape of {data_type} set's topic distribution is ({len(topic_distribution)}, {len(topic_distribution[0])})")
         np.save(distribution_path, topic_distribution)
 
     @staticmethod
@@ -123,10 +132,10 @@ class LDAModelTrainer:
                 distribution[i, topic_id] = prob
         return distribution
 
-    def _record_evaluation_results(self, num_iteration, params, TD, TC_umass, TC_cv, TC_cnpmi):
+    def _record_evaluation_results(self, num_iteration, params, TD, TU, Inverted_RBO, TC_umass, TC_cv, TC_cnpmi):
         with open(self.eval_file_path, 'a') as f:
             params = ''.join([str(param)+'\t' for param in params]).strip("\t")
-            f.write(f"{num_iteration}\t{params}\t{TD}\t{TC_umass}\t{TC_cv}\t{TC_cnpmi}\n")
+            f.write(f"{num_iteration}\t{params}\t{TD}\t{TU}\t{Inverted_RBO}\t{TC_umass}\t{TC_cv}\t{TC_cnpmi}\n")
 
 if __name__ == "__main__":
     train_path = "../../data/raw/20ng/train.csv"
@@ -140,5 +149,8 @@ if __name__ == "__main__":
     run_test = True
 
     lda_data = LDAData(train_path, test_path, preprocessing_params)
-    trainer = LDAModelTrainer(lda_data, num_topic_words, parameter_combinations, result_dir, mode=' ', print_topic_words=print_topic_words, run_test=run_test)
+    trainer = LDAModelTrainer(lda_data, num_topic_words, parameter_combinations, result_dir, mode='parameters_tuning', print_topic_words=print_topic_words, run_test=run_test)
+    #trainer = LDAModelTrainer(lda_data, num_topic_words, parameter_combinations, result_dir, mode=' ', print_topic_words=print_topic_words, run_test=run_test)
     trainer.train_and_evaluate(num_iterations)
+
+    

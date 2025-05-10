@@ -1,0 +1,3686 @@
+{
+  "0": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'yes' 'motto'"
+      },
+      "raw": [
+        "'yes', \n'motto' \n]\n\n**Reasoning:**\n\nThe other words – guitar, everyday, learn, black, school, big, sugar, gym – all relate to experiences, activities, or objects commonly associated",
+        "'yes', \n'motto' \n]\n\n**Reasoning:**\n\nThe other words – guitar, everyday, learn, black, school, big, sugar, gym – all relate to concepts of hobbies, routines, physical activity",
+        "'yes', \n'motto' \n]\n\n**Reasoning:**\n\nThe other words – guitar, everyday, learn, black, school, big, sugar, gym – all relate to concepts of hobbies, routines, objects,",
+        "'yes', \n'motto' \n]\n\n**Reasoning:**\n\nThe other words – guitar, everyday, learn, black, school, big, sugar, gym – all relate to concepts of hobbies, daily life, education",
+        "'yes', \n'motto' \n]\n\n**Reasoning:**\n\nThe other words – guitar, everyday, learn, black, school, big, sugar, gym – all relate to concepts of hobbies, routines, physical activity"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'yes'",
+            "'no'"
+          ]
+        ]
+      },
+      "raw": "('yes', 'no')] - Note: There is no \"no\" in the topic word set.  I'm adding this as a placeholder to demonstrate the concept.  In a real scenario, you'd need a complete word set to"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'yes' - This is a very common word, but in a list of topic words, it’s often used as a filler or a signal word, and might be considered slightly malformed in this context.\n'motto' -",
+        "'yes' - While common, it's often treated as a stop word and can be overly simplistic for NLP tasks.\n'motto' -  A relatively uncommon word in this context; might be a typo or specific to a niche",
+        "'yes' - This is a single-character word and often treated as a boolean or interjection, not a typical topic word. It's also quite common and therefore potentially less informative.\n'motto' - While a valid word",
+        "'yes' - While common, it's often treated as a stop word and can be overly simplistic for some NLP tasks. \n]\n\nAll other words are reasonably common and don't appear to be malformed, typos, or",
+        "'yes' - This is a very short, common word that can be easily mis-tokenized, especially in NLP pipelines. While valid, it’s often flagged as potentially problematic.\n'motto' - While a valid word,"
+      ]
+    }
+  },
+  "1": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'ticket' 'husband' 'cookie'"
+      },
+      "raw": [
+        "'ticket', \n'husband', \n'cookie' \n]\n\n**Reasoning:**\n\nThe remaining words ('smoking', 'gain', 'waste', 'fat', 'lose', 'way', 'newyearnewme')",
+        "'ticket', \n'husband', \n'cookie' \n]\n\n**Reasoning:**\n\nThe other words – 'smoking', 'gain', 'waste', 'fat', 'lose', 'way', 'newyearnewme",
+        "'ticket', \n'husband', \n'cookie' \n]\n\n**Reasoning:**\n\nThe other words ('smoking', 'gain', 'waste', 'fat', 'lose', 'way', 'newyearnewme')",
+        "'ticket', \n'husband', \n'cookie' \n]\n\n**Reasoning:**\n\nThe majority of the words – 'smoking', 'gain', 'waste', 'fat', 'lose', 'newyearnewme'",
+        "'ticket', \n'husband', \n'cookie' \n]\n\n**Reasoning:**\n\nThe other words – 'smoking', 'gain', 'waste', 'fat', 'lose', 'way', 'newyearnewme"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'newyearnewme'",
+            "'way'"
+          ],
+          [
+            "'cookie'",
+            "'way'"
+          ]
+        ]
+      },
+      "raw": "('newyearnewme', 'way'), ('cookie', 'way')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'newyearnewme' - This is a very common, slightly awkward, and potentially misspelled phrase. While understandable, it's not a standard word and likely represents a specific trend or hashtag rather than a standalone token.\n]\n\nAll",
+        "'newyearnewme' - This is a phrase, not a single token, and while common, it’s an unusual way to represent a concept.\n]\n\nAll other words are valid and commonly used.",
+        "'newyearnewme' - This is a common phrase but feels like a constructed, slightly awkward combination of words, rather than a standard term.\n]\n\nAll other words are valid and reasonably common.",
+        "'ticket' - While a valid word, it’s a relatively short and common word, potentially less informative than longer terms in a topic analysis.\n'newyearnewme' - This is likely a typo or an incomplete phrase attempting to",
+        "'newyearnewme' - This is a common phrase, but it’s a combined string and might be better represented as individual words ('newyear', 'newme') for analysis. It's a bit awkward as a single"
+      ]
+    }
+  },
+  "2": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'super' 'chicken'"
+      },
+      "raw": [
+        "'super', \n'chicken' \n]\n\n**Reasoning:**\n\nThe other words – 'priority', 'effort', 'lose', 'pound', 'watch', 'realistic', 'moment', 'reality' – all relate to",
+        "'super', \n'chicken' \n]\n\n**Reasoning:**\n\nThe other words – ‘priority’, ‘effort’, ‘lose’, ‘pound’, ‘watch’, ‘realistic’, ‘moment’, ‘reality’ – all relate to",
+        "'super', \n'chicken' \n]\n\n**Reasoning:**\n\nThe other words – 'priority', 'effort', 'lose', 'pound', 'watch', 'realistic', 'moment', 'reality' – all relate to",
+        "'super', \n'chicken' \n]\n\n**Reasoning:**\n\nThe other words – ‘priority’, ‘effort’, ‘lose’, ‘pound’, ‘watch’, ‘realistic’, ‘moment’, ‘reality’ – all relate to",
+        "'super', \n'chicken' \n]\n\n**Reasoning:**\n\nThe other words – 'priority', 'effort', 'lose', 'pound', 'watch', 'realistic', 'moment', 'reality' – all relate to"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'priority'",
+            "'super'"
+          ],
+          [
+            "'moment'",
+            "'reality'"
+          ]
+        ]
+      },
+      "raw": "('priority', 'super'), ('moment', 'reality')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'chicken' \n]\n\nReason: \"Chicken\" is an extremely rare and unusual word in this context. It doesn't fit the thematic flow of the other words, which seem to relate to goals, planning, and self-",
+        "'chicken' - This is a common word, but in the context of a list of topic words, it feels out of place and somewhat arbitrary. It's a single word and doesn't strongly relate to the other terms.\n]",
+        "'chicken' - This is a common word, but in the context of this list, it feels out of place and somewhat jarringly random. It's a relatively rare word in a list of words suggesting strategic planning/personal goals.",
+        "'chicken' - This is a common word, but in the context of a list of topic words, it feels out of place and somewhat arbitrary. It's not a typical topic word. \n]\n\nAll other words are valid and",
+        "'chicken' \n]\n\nReason: 'chicken' is an unusual and somewhat jarring word in this list of topic words, suggesting a potential typo or a very specific, unusual context not readily apparent. It feels out of place compared to"
+      ]
+    }
+  },
+  "3": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'idk' 'york'"
+      },
+      "raw": [
+        "'idk', \n'york' \n\n]\n\n**Reasoning:**\n\nThe other words ('party', 'fail', 'simply', 'half', 'track', 'better', 'tall', 'channel') relate to events,",
+        "'idk', \n'york' \n]\n\n**Reasoning:**\n\nThe other words ('party', 'fail', 'simply', 'half', 'track', 'better', 'tall', 'channel') relate to concepts like",
+        "'idk', \n'york' \n]\n\n**Reasoning:**\n\nThe other words ('party', 'fail', 'simply', 'half', 'track', 'better', 'tall', 'channel') all relate to events",
+        "'idk', \n'york' \n]\n\n**Reasoning:**\n\nThe other words ('party', 'fail', 'simply', 'half', 'track', 'better', 'tall', 'channel') relate to concepts of",
+        "'idk', \n'york' \n]\n\n**Reasoning:**\n\nThe other words – ‘party’, ‘fail’, ‘simply’, ‘half’, ‘track’, ‘better’ – relate to events, outcomes, or states"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'york'",
+            "'york'"
+          ]
+        ]
+      },
+      "raw": "('york', 'york')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'idk' \n]\n\nReason: 'idk' is internet slang for \"I don't know\" and isn't a standard, formally valid word in most contexts.  It's highly informal and often considered a",
+        "'idk' \n]\n\nReason: 'idk' is internet slang for \"I don't know\" and is generally considered informal and not a standard token in many contexts. While common online, it’s often flagged as",
+        "'idk' - This is an internet slang abbreviation for \"I don't know\" and while common online, is generally considered informal and could be problematic in certain contexts.\n]\n\nAll other words are valid and commonly used.",
+        "'idk' - This is an internet slang abbreviation for \"I don't know\" and while common online, it's generally considered informal and potentially unsuitable for many contexts.\n]\n\nAll other words are valid.",
+        "'idk' - This is internet slang for \"I don't know\" and is not a standard word.\n]\n\nAll other words are valid."
+      ]
+    }
+  },
+  "4": {
+    "coherence": {
+      "processed": 1.2,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 1.6,
+      "raw": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'homeless' 'shit'"
+      },
+      "raw": [
+        "'homeless', \n'shit' \n]\n\n**Reasoning:**\n\nThe other words ('share', 'star', 'monday', 'tone', 'definitely', 'come', 'effect', 'learn') relate to concepts",
+        "'homeless', \n'shit' \n]\n\n**Reasoning:**\n\nThe other words ('share', 'star', 'monday', 'tone', 'definitely', 'come', 'effect', 'learn') all relate to",
+        "'homeless', \n'shit' \n]\n\n**Reasoning:**\n\nThe other words – 'share', 'star', 'monday', 'tone', 'definitely', 'come', 'effect', 'learn' – relate",
+        "'homeless', \n'shit' \n]\n\n**Reasoning:**\n\nThe other words ('share', 'star', 'monday', 'tone', 'definitely', 'come', 'effect', 'learn') all relate to",
+        "'homeless', \n'shit' \n]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'monday'",
+            "'come'"
+          ]
+        ]
+      },
+      "raw": "('monday', 'come')]\n\n**Reasoning:**\n\nThe word \"monday\" and \"come\" are used in a very similar context within the topic model. They both relate to a specific day of the week and the act of arriving or happening"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'shit' - This is a highly offensive and inappropriate word, generally avoided in most contexts.\n]\n\nAll other words are valid and commonly used.",
+        "'shit' - Profanity, generally considered inappropriate and potentially harmful depending on context. \n]\n\nAll other words are valid.",
+        "'shit' \n]\nReason: Contains a profanity and is generally considered inappropriate for many contexts.\n\nAll other words are valid.",
+        "'shit' - This is a highly offensive and generally inappropriate word to use in most contexts.\n]\n\nAll other words are valid and commonly used.",
+        "'shit' - Offensive and inappropriate for many contexts.\n]\n\nAll other words are generally valid and common."
+      ]
+    }
+  },
+  "5": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 4,
+        "words": "'oop' 'calendar' 'app' 'yesterday'"
+      },
+      "raw": [
+        "'oop', \n'calendar', \n'app', \n'yesterday' \n]\n\n**Reasoning:**\n\nThe other words ('fresh', 'family', 'spend', 'eve', 'healthy', 'rockin",
+        "'oop', \n'calendar', \n'app', \n'yesterday' \n] \n\n**Reasoning:**\n\nThe other words – 'fresh', 'family', 'spend', 'eve', 'healthy', '",
+        "'oop', \n'calendar', \n'app', \n'yesterday' \n]\n\n**Reasoning:**\n\nThe remaining words ('fresh', 'family', 'spend', 'eve', 'healthy', 'rockin",
+        "'oop', \n'calendar', \n'app', \n'yesterday' \n]\n\n**Reasoning:**\n\nThe other words ('fresh', 'family', 'spend', 'eve', 'healthy', 'rockin",
+        "'oop', \n'calendar', \n'app', \n'yesterday' \n]\n\n**Reasoning:**\n\nThe other words ('fresh', 'family', 'spend', 'eve', 'healthy', 'rockin"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'family'",
+            "'eve'"
+          ],
+          [
+            "'healthy'",
+            "'fresh'"
+          ]
+        ]
+      },
+      "raw": "('family', 'eve'), ('healthy', 'fresh')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'oop' - This is a common abbreviation for “over-over” in programming, but it’s often used informally and could be considered a typo or unclear abbreviation depending on context.\n]\n\nAll other words are relatively common and",
+        "'oop' - Likely an abbreviation for \"object-oriented programming\" but presented as a single token, potentially a typo or incomplete abbreviation.\n].\n\nAll other words are relatively common and valid.",
+        "'oop' - This is a common abbreviation for \"over-the-pool\" (a type of pool) but is also frequently used in programming as \"object-oriented programming\". It's unclear without context.\n].\n\nAll other",
+        "'oop' - This is a programming term (Object-Oriented Programming) and likely not intended in a general topic list. \n].\n\nAll other words are valid and commonly used.",
+        "'oop' - This is a programming term (Object-Oriented Programming) and likely not relevant to the intended topic.\n'eve' - While \"eve\" can mean evening, in this context it’s a very short and somewhat"
+      ]
+    }
+  },
+  "6": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'haha' 'attitude'"
+      },
+      "raw": [
+        "'haha', 'attitude' ]\n\n**Reasoning:**\n\nThe core of the topic set – 'stuff', 'pack', 'dick', 'buy', 'adventure', 'music', 'goal', 'save' – revolves around themes of",
+        "haha, attitude ] \n\n**Reasoning:**\n\nThe majority of the words – 'stuff', 'pack', 'dick', 'buy', 'adventure', 'music', 'goal', 'save' – relate to experiences, possessions, actions",
+        "'haha', 'attitude' ] \n\n**Reasoning:**\n\nThe other words – 'stuff', 'pack', 'dick', 'buy', 'adventure', 'music', 'goal', 'save' – all relate to concepts of possessions",
+        "'haha', 'attitude' ] \n\n**Reasoning:**\n\nThe majority of the words – 'stuff', 'pack', 'dick', 'buy', 'adventure', 'music', 'goal', 'save' – relate to concepts of",
+        "'haha', 'attitude' ] \n\n**Reasoning:**\n\nThe majority of the words – 'stuff', 'pack', 'dick', 'buy', 'adventure', 'music', 'goal', 'save' – relate to concepts of"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'pack'",
+            "'stuff'"
+          ],
+          [
+            "'attitude'",
+            "'haha'"
+          ]
+        ]
+      },
+      "raw": "('pack', 'stuff'), ('attitude', 'haha')]\n\n**Reasoning:**\n\n*   **'pack' and 'stuff'**: These words represent collections or items, and are often used interchangeably in many contexts.\n*   **'"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'dick' - Potentially offensive and inappropriate for many contexts. \n]\n\nAll other words are generally valid and common.",
+        "'dick' - Potentially offensive and inappropriate for many contexts.\n]\n\nAll other words are generally valid and common.",
+        "'dick' - Potentially offensive and inappropriate in many contexts.\n]\n\nAll other words are valid and commonly used.",
+        "'dick' - Potentially offensive and inappropriate in many contexts.\n]\n\nAll other words are generally valid and common.",
+        "'dick' - Potentially offensive and inappropriate for many contexts.\n]\n\nAll other words are generally valid and commonly used."
+      ]
+    }
+  },
+  "7": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "begin emotion"
+      },
+      "raw": [
+        "'begin', \n'trust' \n]\n\n**Reasoning:**\n\nThe majority of the words – 'completely', 'fake', 'candy', 'pop', 'email', 'battle', 'deal', 'emotion' – relate",
+        "begin, \nemotion \n] \n\n**Reasoning:**\n\nThe other words – ‘completely’, ‘fake’, ‘candy’, ‘pop’, ‘email’, ‘trust’, ‘battle’, ‘deal’ – all relate to deception,",
+        "begin, \nemotion \n]\n\n**Reasoning:**\n\nThe majority of the words – 'completely', 'fake', 'candy', 'pop', 'email', 'trust', 'battle', 'deal' – relate to deception,",
+        "begin, \nemotion \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to deception, falsehoods, and potentially a playful, deceptive situation (like a trick or game). \"Candy\" and \"pop\" contribute",
+        "begin, \nemotion \n]\n\n**Reasoning:**\n\nThe majority of the words – 'completely', 'fake', 'candy', 'pop', 'email', 'trust', 'battle', 'deal' – relate to concepts of"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'candy'",
+            "'pop'"
+          ],
+          [
+            "'trust'",
+            "'fake'"
+          ]
+        ]
+      },
+      "raw": "('candy', 'pop'), ('trust', 'fake')]\n\n**Reasoning:**\n\n*   **('candy', 'pop')**: Both words represent sweet treats. \"Pop\" candy is a specific type of candy.\n*   **('"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **'completely'**: While a valid word, it's a common word and might be flagged as potentially representing a more complex concept in some contexts (e.g., a modifier).\n*   **'fake'**: A",
+        "*   **'completely'**: While a valid word, it's a common and somewhat redundant prefix – often signals a need for more specific keywords.\n*   **'trust'**:  Could be considered slightly ambiguous in this context,",
+        "'completely' - While a common word, it's a bit lengthy for a topic word list and could be simplified.\n'fake' - Could be considered slightly informal for a formal topic list.\n]\n\nAll other words are valid",
+        "*   **'completely'**: While a valid word, it's a lengthy and somewhat formal prefix.  Often shorter alternatives are preferred in many contexts.\n*   **'trust'**: Could be considered slightly unusual in this list of",
+        "*   **'completely'**: While a common word, it's a lengthy adverb and could be flagged as potentially being a generated word or a result of a flawed tokenization process.\n*   **'trust'**:  A common"
+      ]
+    }
+  },
+  "8": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "internship settle"
+      },
+      "raw": [
+        "internship, \n\nsettle \n\n].\n\n**Reasoning:**\n\nThe core theme seems to revolve around creative expression, rebellion, and temporary states/actions.\n\n*   **travel, burn, draw, tattoo** - Directly relate",
+        "internship, \n\nsettle ] \n\n**Reasoning:**\n\nThe majority of the words – travel, burn, draw, tattoo, band, course, delete – relate to creative expression, experiences, or temporary states. \"Internship",
+        "internship, \nsettle \n].\n\n**Reasoning:**\n\nThe core theme appears to be related to creative expression, rebellion, and potentially personal transformation (through experiences).  \"Travel,\" \"burn,\" \"draw,\" \"tattoo",
+        "internship, \nsettle ] \n\n**Reasoning:**\n\nThe other words – travel, fucking, burn, draw, tattoo, band, course, delete – all relate to experiences, expression, or creative endeavors. “Internship",
+        "'internship', \n'course', \n'settle' \n]\n\n**Reasoning:**\n\nThe core theme of the other words – ‘travel’, ‘fucking’, ‘burn’, ‘draw’, ‘tattoo’ –"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'burn'",
+            "'delete'"
+          ],
+          [
+            "'tattoo'",
+            "'draw'"
+          ]
+        ]
+      },
+      "raw": "('burn', 'delete'), ('tattoo', 'draw')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'fucking' - Contains a profanity, likely undesirable in many contexts. \n]\n\nAll other words are valid.",
+        "'fucking' - Contains a profanity and is generally unsuitable for many contexts.\n]\n\nAll other words are valid and commonly used.",
+        "'fucking' - Contains a profanity, likely undesirable in many contexts.\n]\n\nAll other words are generally valid and commonly used.",
+        "'fucking' - This is a profanity and likely inappropriate for many contexts.\n]\n\nAll other words are valid and common.",
+        "'fucking' - Potentially offensive and inappropriate for many contexts.\n]\n\nAll other words are valid and commonly used."
+      ]
+    }
+  },
+  "9": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'wife' 'popular'"
+      },
+      "raw": [
+        "'wife', \n'popular' \n]\n\n**Reasoning:**\n\nThe core theme of the provided topic word set seems to revolve around routines, well-being, and personal life. \n\n*   **habit, catch,",
+        "wife, \npopular \n] \n\n**Reasoning:**\n\nThe core theme seems to revolve around routines, well-being, and personal life – concepts like habit, catch, season, home, break, sleep, and healthy all",
+        "'wife', \n'popular' \n]\n\n**Reasoning:**\n\nThe core theme seems to revolve around routines, well-being, and personal spaces – ‘habit’, ‘catch’, ‘season’, ‘home’, ‘sleep’,",
+        "'wife', \n'popular' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to daily life, routines, and well-being – encompassing concepts like habits, breaks, sleep, home, and healthy.",
+        "'wife', \n'popular' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to routines, well-being, and personal life – encompassing concepts like habits, breaks, sleep, healthy, home. \""
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'habit'",
+            "'healthy'"
+          ],
+          [
+            "'home'",
+            "'wife'"
+          ]
+        ]
+      },
+      "raw": "('habit', 'healthy'), ('home', 'wife')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'catch' - While a common word, it could be a typo for \"cache\" depending on context.\n'wife' - Could be considered an abbreviation, though generally written out.\n]\n\nAll other words are common and valid.",
+        "'catch' - Could be a typo for 'cache' or 'patch', though 'catch' itself is valid, it's worth noting as a potential misspelling. \n].\n\nAll other words are valid and commonly used.",
+        "'catch' - Could be a typo for 'cache' or 'patch', though 'catch' is valid in this context.\n'wife' - While a common word, it could be considered a potentially ambiguous abbreviation depending on the context.",
+        "*   **catch**: While a common word, in this context it could be considered slightly informal or a less precise term than \"habit\" for describing a repeated action.\n*   **wife**: Could be considered informal or potentially a placeholder word",
+        "'catch' - Could be a typo for 'cache' or 'patch'.\n'wife' - While a common word, it's a very specific term and might be considered less general for some NLP tasks.\n]\n\nAll other"
+      ]
+    }
+  },
+  "10": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'netflix' 'lmao'"
+      },
+      "raw": [
+        "'netflix', \n'lmao' \n]\n\n**Reasoning:**\n\nThe other words – chuck, paper, special, lie, state, dead, blair, watch – relate to themes of deception, politics, observation,",
+        "'netflix', \n'lmao' \n]\n\n**Reasoning:**\n\nThe other words ('chuck', 'paper', 'special', 'lie', 'state', 'dead', 'blair') relate to deception, observation,",
+        "'netflix', \n'lmao' \n]\n\n**Reasoning:**\n\nThe other words ('chuck', 'paper', 'special', 'lie', 'state', 'dead', 'blair') relate to deception, secrets,",
+        "'netflix', \n'lmao' \n]\n\n**Reasoning:**\n\nThe other words – 'chuck', 'paper', 'special', 'lie', 'state', 'dead', 'blair' – strongly relate to themes",
+        "'netflix', \n'lmao' \n]\n\n**Reasoning:**\n\nThe other words – chuck, paper, special, lie, state, dead, blair, watch – all relate to themes of deception, secrets, observation"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'chuck'",
+            "'blair'"
+          ],
+          [
+            "'netflix'",
+            "'watch'"
+          ]
+        ]
+      },
+      "raw": "('chuck', 'blair'), ('netflix', 'watch')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'lmao' - Likely an internet slang abbreviation, potentially not desired in a more formal context.\n]\n\nAll other words are relatively common and valid.",
+        "'lmao' - This is an internet slang term, not a standard word and might be considered informal or noisy depending on the context.\n'blair' - Could be a typo for 'bear' or a reference to *The Blair",
+        "'lmao' - This is an internet slang term, often considered informal and potentially inappropriate in certain contexts. \n'blair' - This is likely a reference to *The Blair Witch Project*, but could be a typo or an uncommon",
+        "'lmao' - Likely an internet slang abbreviation, potentially not suitable for all contexts.\n'blair' - Could be a typo or a reference to Blair Witch Project, but lacks broader applicability. \n]\n\nAll other words are",
+        "'lmao' - This is an internet slang term and likely not intended for serious analysis.\n'blair' - Could be a typo for 'bear' or a reference to a specific person/entity, but without context, it'"
+      ]
+    }
+  },
+  "11": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.2,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'baseball' 'tough'"
+      },
+      "raw": [
+        "'baseball', \n'tough' \n]\n\n**Reasoning:**\n\nThe core theme seems to revolve around states of being, conditions, and basic elements. \"control,\" \"water,\" \"clothe,\" \"box,\" \"phys",
+        "'baseball', \n'tough' \n]\n\n**Reasoning:**\n\nThe other words ('control', 'water', 'clothe', 'box', 'physically', 'mentally', 'res', 'read') all relate",
+        "'baseball', \n'tough' \n]\n\n**Reasoning:**\n\nThe other words – 'control', 'water', 'clothe', 'box', 'physically', 'mentally', 'res', 'read' –",
+        "'baseball', \n'tough' \n]\n\n**Reasoning:**\n\nThe other words ('control', 'water', 'clothe', 'box', 'physically', 'mentally', 'res', 'read') all relate",
+        "'baseball',\n'tough'\n]\n\n**Reasoning:**\n\nThe other words ('control', 'water', 'clothe', 'box', 'physically', 'mentally', 'res', 'read') all relate to concepts"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'control'",
+            "'res'"
+          ],
+          [
+            "'water'",
+            "'res'"
+          ]
+        ]
+      },
+      "raw": "('control', 'res'), ('water', 'res')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'res' - This is a very common abbreviation for \"resources\" or \"resident\", but in this context, it’s unusual and could be a typo.\n'clothe' - This is a misspelling of \"clothes\".",
+        "'res' - This is a very common abbreviation for \"resources\" or \"resident\", but without context, it's ambiguous and could be a typo.\n    'clothe' - Likely a typo for \"clothes\".\n]",
+        "'res' - This is likely a typo for \"resource\" or \"rest,\" but without context, it's unclear. \n]\n\nAll other words are relatively common and valid.",
+        "'res' - This is likely a typo for \"resource\" or \"reset,\" but in isolation, it's very short and potentially an abbreviation without context.\n'clothe' - This is a malformed word; the correct word",
+        "'res' - This is a very common abbreviation for \"resources\" or \"resident\", but in this context, it’s ambiguous and could be a typo.\n  'clothe' - This is a misspelling of \"clothes"
+      ]
+    }
+  },
+  "12": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 4,
+        "words": "'winter' 'potato' 'instagram' 'twitter'"
+      },
+      "raw": [
+        "'winter', \n'potato', \n'instagram', \n'twitter' \n]\n\n**Reasoning:**\n\nThe other words ('fast', 'beat', 'involve', 'able', 'truth', 'advice')",
+        "'winter', \n'potato', \n'instagram', \n'twitter' \n]\n\n**Reasoning:**\n\nThe other words ('fast', 'beat', 'involve', 'able', 'truth', 'advice')",
+        "'winter', \n'potato', \n'instagram', \n'twitter' \n]\n\n**Reasoning:**\n\nThe other words ('fast', 'beat', 'involve', 'able', 'truth', 'advice')",
+        "'winter', \n'instagram', \n'potato' \n]\n\n**Reasoning:**\n\nThe majority of the words – 'fast', 'beat', 'involve', 'able', 'truth', 'advice' – relate",
+        "'winter', \n'potato', \n'instagram', \n'twitter' \n]\n\n**Reasoning:**\n\nThe remaining words ('fast', 'beat', 'involve', 'able', 'truth', 'advice')"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'instagram'",
+            "'twitter'"
+          ]
+        ]
+      },
+      "raw": "('instagram', 'twitter')]\n\n**Reasoning:**\n\n*   **Instagram** and **Twitter** are both social media platforms. They represent the exact same type of concept – a platform for sharing content and connecting with others online.  While they"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'instagram' 'twitter'"
+      },
+      "raw": [
+        "'instagram', 'twitter' \n]\n\nReasons:\n*   **instagram:** While commonly used, it's a specific brand name and social media platform, and might be considered less general for topic modeling.\n*   **twitter",
+        "'instagram', 'twitter' ]\n\n**Reasons:**\n\n*   **instagram:** While a common word, it's often used as a clipped form of \"Instagram\" (the social media platform). It's not a standalone, fully",
+        "'instagram', 'twitter' \n]\n\nReasons:\n*   **instagram:** While commonly used, it's a specific brand name and social media platform, not a general topic word.\n*   **twitter:** Similar to Instagram",
+        "'potato', \n'twitter' \n]\n\nReasons:\n*   **potato**: While a common word, it's an unusual choice within a list of topic words, suggesting it might be a typo or an irrelevant inclusion.",
+        "'instagram', 'twitter' \n]\n\nReasons:\n*   **instagram:** While a common term, it's a proper noun (a social media platform) and might be considered less useful for general topic modeling compared to more abstract"
+      ]
+    }
+  },
+  "13": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 1.0,
+      "raw": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'passion' 'great'"
+      },
+      "raw": [
+        "'passion', \n'great' \n].\n\n**Reasoning:**\n\nThe remaining words – 'mistake', 'meet', 'long', 'accept', 'fuck', 'sorry', 'niggas', 'release' – generally",
+        "'passion', \n'great', \n'release' \n]\n\n**Reasoning:**\n\nThe majority of the words – 'mistake', 'meet', 'long', 'accept', 'sorry', 'fuck', 'nig",
+        "'passion', 'great', 'release' \n\n]\n\n**Reasoning:**\n\nThe remaining words ('mistake', 'meet', 'long', 'accept', 'sorry', 'fuck', 'niggas') all relate to interpersonal interactions",
+        "'passion', \n'great', \n'release' \n]\n\n**Reasoning:**\n\nThe majority of the words – 'mistake', 'meet', 'long', 'accept', 'sorry', 'fuck', 'nig",
+        "'passion', \n'great' \n].\n\n**Reasoning:**\n\nThe majority of the words – 'mistake', 'meet', 'long', 'accept', 'sorry', 'fuck', 'release' – relate to interpersonal"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'sorry'",
+            "'mistake'"
+          ],
+          [
+            "'passion'",
+            "'great'"
+          ]
+        ]
+      },
+      "raw": "('sorry', 'mistake'), ('passion', 'great')]\n\n**Reasoning:**\n\n*   **'sorry'** and **'mistake'**:  \"Sorry\" is frequently used to express regret *for* a mistake. They"
+    },
+    "non_words": {
+      "processed": {
+        "num": 2,
+        "words": "'fuck' 'niggas'"
+      },
+      "raw": [
+        "'fuck', \n'niggas' \n]\n\nReasons:\n*   **'fuck'**: Profanity – generally considered inappropriate and potentially problematic in many contexts.\n*   **'niggas'**: A racial slur –",
+        "'fuck', \n    'niggas' \n]\n\n**Reasons:**\n\n*   **'fuck'**: This is a highly offensive and vulgar word. While it might be present in some contexts, it's generally considered",
+        "'fuck',\n'niggas' \n]\n\nReasons:\n*   **'fuck'**: Profanity and generally considered inappropriate.\n*   **'niggas'**: A racial slur and highly offensive.",
+        "'fuck', \n'niggas' \n]\n\nReasons:\n*   **'fuck'**: Profanity and generally considered inappropriate in most contexts.\n*   **'niggas'**: A racial slur. Highly offensive and",
+        "'fuck', \n    'niggas' \n]\n\n**Reasons:**\n\n*   **'fuck'**: This is a highly offensive and inappropriate word. While technically a valid word, its inclusion in a list of topic words"
+      ]
+    }
+  },
+  "14": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'consider', \n'creative', \n'heart' \n]\n\n**Reasoning:**\n\nThe other words ('house', 'asshole', 'mouth', 'little', 'today', 'drop', 'free') generally relate",
+        "'consider', \n'creative', \n'heart' \n]\n\n**Reasoning:**\n\nThe other words ('house', 'asshole', 'mouth', 'little', 'today', 'drop', 'free') all relate",
+        "consider, \ncreative, \nheart \n\n].\n\n**Reasoning:**\n\nThe other words – ‘house’, ‘asshole’, ‘mouth’, ‘little’, ‘today’, ‘drop’, ‘free’ – generally relate to physical",
+        "consider, \nheart \n].\n\n**Reasoning:**\n\nThe other words – 'house', 'asshole', 'mouth', 'little', 'today', 'creative', 'drop', 'free' – generally relate to physical spaces",
+        "consider, \ncreative, \nheart \n\n]\n\n**Reasoning:**\n\nThe core theme seems to revolve around physical objects, actions, and basic states (house, asshole, mouth, drop, little, today). \"Consider\""
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'house'",
+            "'heart'"
+          ]
+        ]
+      },
+      "raw": "('house', 'heart')]\n\n**Reasoning:**\n\nThis is a somewhat subjective exercise, as topic models don't always perfectly capture semantic equivalence. However, \"house\" and \"heart\" are frequently used as metaphors for the core of a"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'asshole' - Potentially offensive and may be flagged as inappropriate depending on context.\n]\n\nAll other words are valid.",
+        "'asshole' - Potentially offensive and could be considered a strong, potentially unwanted, term. \n]\n\nAll other words are valid.",
+        "'asshole' - Potentially offensive and could be a typo depending on context.\n]\n\nAll other words are common and valid.",
+        "'asshole' - Potentially offensive and might be considered a problematic term depending on context. \n]\n\nAll other words are valid and common.",
+        "'asshole' - Potentially offensive and may be flagged as inappropriate in some contexts.\n]\n\nAll other words are valid and common."
+      ]
+    }
+  },
+  "15": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'god'"
+      },
+      "raw": [
+        "'god', \n'toilet' \n]\n\n**Reasoning:**\n\n*   **Ball, song, weight, hear, energy, believe, challenge, increase** all relate to concepts of movement, sensation, feeling, or progress",
+        "'god', \n'toilet' \n]\n\n**Reasoning:**\n\nThe other words – 'ball', 'song', 'weight', 'hear', 'energy', 'believe', 'challenge', 'increase' – all relate to",
+        "'god', \n'toilet' \n]\n\n**Reasoning:**\n\nThe other words ('ball', 'song', 'weight', 'hear', 'energy', 'believe', 'challenge', 'increase') all relate to concepts of",
+        "'god' \n]\n\n**Reasoning:**\n\nThe other words – 'ball', 'song', 'weight', 'hear', 'energy', 'toilet', 'believe', 'challenge', 'increase' – all relate to concepts of",
+        "toilet, \ngod \n]\n\n**Reasoning:**\n\n*   **Ball, song, weight, hear, energy, believe, challenge, increase** all relate to concepts of movement, sensation, effort, or abstract ideas about potential"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'god'",
+            "'believe'"
+          ]
+        ]
+      },
+      "raw": "('god', 'believe')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'toilet' - While a common word, it's a very specific and potentially jarring topic word in a general list. It leans towards a physical object rather than an abstract concept. \n]\n\nAll other words are valid and reasonably common",
+        "'toilet' - This is a common word, but in the context of a list of topic words, it feels out of place and somewhat mundane compared to the others. \n]\n\nAll other words are valid and reasonably common.\n<end_of_turn>",
+        "'toilet' \n]\n\nReason: While \"toilet\" is a common word, in the context of a list of topic words, it feels out of place and potentially represents a typo or an unusual categorization. It’s a concrete",
+        "'toilet' - While a common word, it's a specific object and might be considered less general for a broad topic list.\n]\n\nAll other words are valid and reasonably common.",
+        "'toilet' - This is a common word, but could be considered malformed in a topic modeling context as it's a concrete object rather than an abstract concept.\n].\n\nAll other words are valid and reasonably common."
+      ]
+    }
+  },
+  "16": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'rich' 'earth'"
+      },
+      "raw": [
+        "'rich', \n'earth' \n]\n\n**Reasoning:**\n\nThe other words ('instead', 'shoe', 'sock', 'treat', 'visit', 'community', 'officially', 'crack') all relate to everyday",
+        "'rich', \n'earth' \n]\n\n**Reasoning:**\n\nThe other words ('instead', 'shoe', 'sock', 'treat', 'visit', 'community', 'officially', 'crack') all relate to everyday",
+        "'rich', \n'earth' \n]\n\n**Reasoning:**\n\nThe other words ('instead', 'shoe', 'sock', 'treat', 'visit', 'community', 'officially', 'crack') all relate to everyday",
+        "'rich', \n'earth' \n]\n\n**Reasoning:**\n\nThe other words ('instead', 'shoe', 'sock', 'treat', 'visit', 'community', 'officially', 'crack') all relate to everyday",
+        "'rich', \n'earth' \n]\n\n**Reasoning:**\n\nThe other words – 'instead', 'shoe', 'sock', 'treat', 'visit', 'community', 'officially', 'crack' – all relate"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'shoe'",
+            "'sock'"
+          ],
+          [
+            "'rich'",
+            "'earth'"
+          ]
+        ]
+      },
+      "raw": "('shoe', 'sock'), ('rich', 'earth')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'officially' - While a valid word"
+      },
+      "raw": [
+        "'officially' - While a valid word, it’s a relatively formal word and might be considered slightly unusual in a free-flowing topic list. \n'rich' - Could be considered slightly informal depending on the context.",
+        "*   **crack**: While a valid word, it's a relatively short and uncommon word in this context, potentially indicating a typo or a very specific, unusual usage.\n*   **rich**: Similar to \"crack,\" \"rich\"",
+        "'officially' - While a valid word, it's a relatively formal and less common word in a brainstorming context. \n'crack' - Could be considered slightly informal or a specific type of word (like a crack in something)",
+        "'officially' - While a valid word, it's a relatively formal word and might be considered less common in a free-flowing topic list.\n'crack' - Could be a typo for 'track' or 'tract' depending",
+        "'officially' - While a valid word, it's a relatively formal and uncommon choice for a topic word list, suggesting a potential issue with the source or intended use.\n'rich' - Could be considered slightly informal or potentially loaded"
+      ]
+    }
+  },
+  "17": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'january' 'birthday'"
+      },
+      "raw": [
+        "'january', \n'birthday' \n]",
+        "'january', 'birthday', 'guy' \n]\n\n**Reasoning:**\n\nThe other words ('car', 'complain', 'amazing', 'use', 'look', 'laugh', 'bad') all relate to experiences,",
+        "'january', 'birthday', 'guy' \n]\n\n**Reasoning:**\n\nThe other words ('car', 'complain', 'amazing', 'use', 'look', 'laugh', 'bad') all relate to experiences,",
+        "january, birthday, guy ] \n\n**Reasoning:**\n\nThe other words ('car', 'complain', 'amazing', 'use', 'look', 'laugh', 'bad') all relate to experiences, observations, or actions –",
+        "'january', 'birthday' ] \n\n**Reasoning:**\n\nThe other words ('car', 'complain', 'guy', 'amazing', 'use', 'look', 'laugh', 'bad') relate to experiences, objects,"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'car'",
+            "'guy'"
+          ],
+          [
+            "'bad'",
+            "'laugh'"
+          ]
+        ]
+      },
+      "raw": "('car', 'guy'), ('bad', 'laugh')]\n\n**Reasoning:**\n\n*   **('car', 'guy')**:  The word \"guy\" can refer to a man, and in the context of a topic model, a"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'january' - While a valid word"
+      },
+      "raw": [
+        "'january' - While a valid word, it's a very specific month and might be considered somewhat out of place in a general topic word list. It's less common than other topic words.\n].\n\nAll other words are",
+        "'january' - While a valid word, it's often used as a prefix and might be considered a slightly unusual token in this context.\n]\n\nAll other words are valid and common.",
+        "*   **'january'**: While a valid word, it's a specific month and might be more useful as a numerical representation (1).\n]\n\nAll words are valid.",
+        "'january' - While a valid word, it's a very specific date and might be considered less useful than more general terms in some contexts. \n]\n\nAll other words are valid and common.",
+        "'january' - While a valid word, it's a very specific month and might be considered less generally useful in a broader topic analysis. \n]\n\nAll other words are valid and commonly used."
+      ]
+    }
+  },
+  "18": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "bullshit, fall ] \n\n**Reasoning:**\n\n*   **Baby, early, active, bit, shoot, clear, gym, goal** all relate to childhood, development, physical activity, or achievement – a generally positive and developmental",
+        "bullshit, \n]\n\n**Reasoning:**\n\nThe other words – baby, early, active, bit, shoot, clear, fall, gym, goal – relate to childhood, development, movement, or achievement. \"Bullshit\"",
+        "'bullshit', \n'fall' \n].\n\n**Reasoning:**\n\nThe other words – 'baby', 'early', 'active', 'bit', 'shoot', 'clear', 'gym', 'goal' – generally relate",
+        "'bullshit', \n'fall' \n]\n\n**Reasoning:**\n\nThe other words – 'baby', 'early', 'active', 'bit', 'shoot', 'clear', 'gym', 'goal' – generally relate",
+        "bullshit, \nfall \n]\n\n**Reasoning:**\n\n*   **Baby, early, active, bit, goal:** These words relate to childhood, development, and achievement – a common theme.\n*   **Shoot:**"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'baby'",
+            "'goal'"
+          ],
+          [
+            "'early'",
+            "'bullshit'"
+          ]
+        ]
+      },
+      "raw": "('baby', 'goal'), ('early', 'bullshit')]\n\n**Reasoning:**\n\n*   **baby & goal:**  In a context of development or achievement, \"baby\" (representing a starting point or initial stage) can be seen"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'bullshit' - This is a highly offensive and informal word, likely inappropriate for many contexts. \n]\n\nAll other words are generally valid and commonly used.",
+        "'bullshit' \n]\n\nReason: \"bullshit\" is a highly offensive and inappropriate word to use in most contexts, and likely represents a typo or an undesirable term. \n\nAll other words are valid and reasonably common.",
+        "'bullshit' - This is a highly offensive and informal term, likely inappropriate for many contexts. \n]\n\nAll other words are generally valid and common.",
+        "'bullshit' - Offensive and inappropriate for many contexts. \n]\n\nAll other words are generally valid and common.",
+        "'bullshit' - Offensive and inappropriate for many contexts. \n]\n\nAll other words are generally valid and common."
+      ]
+    }
+  },
+  "19": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'meat' 'text'"
+      },
+      "raw": [
+        "'meat', \n'text' \n]\n\n**Reasoning:**\n\nThe other words – 'hashtag', 'week', 'favorite', 'gossip', 'reason', 'tonight', 'watch', 'team' – all",
+        "'meat', \n'text' \n]\n\n**Reasoning:**\n\nThe other words – hashtag, week, favorite, gossip, reason, tonight, watch, team – all relate to social media, trends, or general daily life",
+        "'meat', \n'text' \n]\n\n**Reasoning:**\n\nThe other words – 'hashtag', 'week', 'favorite', 'gossip', 'reason', 'tonight', 'watch', 'team' – all",
+        "'meat', \n'text' \n]\n\n**Reasoning:**\n\nThe other words – ‘hashtag’, ‘week’, ‘favorite’, ‘gossip’, ‘reason’, ‘tonight’, ‘watch’, ‘team’ – all",
+        "'favorite', \n'gossip', \n'meat', \n'text' \n]\n\n**Reasoning:**\n\nThe remaining words ('hashtag', 'week', 'reason', 'tonight', 'watch', 'team"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'hashtag'",
+            "'text'"
+          ],
+          [
+            "'week'",
+            "'tonight'"
+          ]
+        ]
+      },
+      "raw": "('hashtag', 'text'), ('week', 'tonight')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   'gossip': While common, it's a somewhat informal word and could be flagged as potentially noisy depending on the context.\n*   'tonight': Could be considered a slightly unusual word in a list of general topic words",
+        "'hashtag' - While a common term, it’s a full word and might be considered overly specific for a general topic list.\n    'tonight' - Could be considered a bit informal for some contexts.\n]\n\nAll",
+        "'gossip' - While common, it can be considered an informal and potentially unclear abbreviation depending on context. \n'text' -  Could be considered an abbreviation, though generally understood, it's worth noting as it could be expanded",
+        "'hashtag' - While a common term, it's a specific word and not a typical token in a general topic list.\n    'tonight' - Could be considered a bit verbose for a simple topic list.\n]",
+        "*   **'meat'**: While a common word, in the context of a list of topic words, it seems out of place and potentially a typo if the goal is to capture broader thematic areas.\n*   **'gossip'"
+      ]
+    }
+  },
+  "20": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'hair', \n'cup', \n'film' \n]\n\n**Reasoning:**\n\nThe other words – ‘open’, ‘photo’, ‘problem’, ‘level’, ‘block’, ‘quit’, ‘publish’ – all",
+        "cup, \nhair, \nfilm \n]\n\n**Reasoning:**\n\nThe other words – open, photo, problem, level, block, quit, publish – all relate to concepts of accessibility, digital content, challenges, structure",
+        "cup, \nhair, \nfilm \n]\n\n**Reasoning:**\n\nThe other words – open, photo, problem, level, block, quit, publish – all relate to concepts of access, creation, resolution, or termination",
+        "'hair', \n'cup', \n'film' \n]\n\n**Reasoning:**\n\nThe other words – 'open', 'photo', 'problem', 'level', 'block', 'quit', 'publish' – all",
+        "hair, cup \n]\n\n**Reasoning:**\n\nThe other words – open, photo, problem, level, block, quit, publish, film – all relate to concepts of digital content, creation, or interaction (e.g.,"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'photo'",
+            "'film'"
+          ],
+          [
+            "'cup'",
+            "'level'"
+          ]
+        ]
+      },
+      "raw": "('photo', 'film'), ('cup', 'level')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **cup**: While a common word, it's less relevant to a list of topic words and could be considered a weak link.\n*   **film**: Similar to 'cup', it's a common word but not strongly",
+        "'cup' - Could be a typo for 'pup' or 'hub', but in this context, it's a relatively uncommon word.\n'film' - While a valid word, it's less common than \"photo\" or",
+        "'cup' \n]\n\nReason: \"cup\" is a common word, but in the context of a list of topic words, it seems out of place and potentially a typo or an unrelated addition. It doesn’t clearly fit",
+        "'cup' - This is a very common word, but in the context of a list of topic words, it feels out of place and potentially a typo if the goal is to capture more specific concepts.\n'film' - Similar to '",
+        "'cup' - While a common word, in the context of a list of topic words, it feels somewhat out of place and less conceptually relevant than the others. \n'film' - Similar to 'cup', it's a valid"
+      ]
+    }
+  },
+  "21": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'dance' 'dream'"
+      },
+      "raw": [
+        "'dance', \n'dream' \n]\n\n**Reasoning:**\n\nThe core theme seems to revolve around states of being, relationships, and spirituality –  'ready', 'complete', 'true', 'afraid', 'dad",
+        "'dance', \n'dream' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to states of being, completion, and faith. 'Ready' and 'complete' represent a state of preparedness or fulfillment.",
+        "'dance', \n'dream' \n]\n\n**Reasoning:**\n\nThe other words – 'ready', 'complete', 'true', 'afraid', 'dad', 'choreographer', 'mom', 'god' – all",
+        "'dance', \n'dream' \n]\n\n**Reasoning:**\n\nThe other words ('ready', 'complete', 'true', 'afraid', 'dad', 'choreographer', 'mom', 'god') all relate to",
+        "'dance', \n'dream' \n]\n\n**Reasoning:**\n\nThe core theme seems to revolve around states of being, relationships, and spirituality –  'ready', 'complete', 'true', 'afraid', 'dad"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'dad'",
+            "'mom'"
+          ],
+          [
+            "'god'",
+            "'true'"
+          ]
+        ]
+      },
+      "raw": "('dad', 'mom'), ('god', 'true')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'chorgrapher' - Likely a typo; should be 'choreographer'.\n]\n\nAll other words are common and valid.",
+        "'chorgrapher' - Likely a typo; should be 'choreographer' \n]\n\nAll other words are common and valid.",
+        "'chorgrapher' - Likely a typo; should be 'choreographer' \n]\n\nAll other words are common and valid.",
+        "'chorgrapher' - Likely a typo; should be 'choreographer'\n]\n\nAll other words are common and valid.",
+        "'chorgrapher' - Likely a typo. Should be 'choreographer'.\n]\n\nAll other words are common and valid."
+      ]
+    }
+  },
+  "22": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'kill' 'nye'"
+      },
+      "raw": [
+        "'kill', \n'choose', \n'pretty', \n'nye' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'cat', 'dog', 'friend', 'country', 'raise',",
+        "'kill', \n'nye' \n]\n\n**Reasoning:**\n\n*   **cat, dog, friend, country:** These words relate to animals, companionship, and geographical locations – a common theme of everyday life and relationships.",
+        "nye, \npretty \n]\n\n**Reasoning:**\n\n*   **cat, dog, kill, choose, country, friend, raise, selfie** – These words all relate to animals, actions, decisions, geography, relationships,",
+        "'kill', \n'nye' \n]\n\n**Reasoning:**\n\n*   **cat, dog, friend, country:** These words relate to animals, companionship, geography, and social relationships – a common theme of everyday life and",
+        "'kill', \n'nye' \n]\n\n**Reasoning:**\n\n*   **cat, dog, friend, country:** These words relate to animals, relationships, and geography – common themes in many topic models.\n*"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'cat'",
+            "'dog'"
+          ],
+          [
+            "'friend'",
+            "'selfie'"
+          ]
+        ]
+      },
+      "raw": "('cat', 'dog'), ('friend', 'selfie')]\n\n**Reasoning:**\n\n*   **'cat' and 'dog'**: These represent distinct animal concepts.\n*   **'friend' and 'selfie'**: Both"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **nye**: This is likely a typo for “New Year’s Eve”. It’s an abbreviation and not a standard, widely recognized term.\n]\n\nAll other words are valid and commonly used.",
+        "'nye' - Likely a typo for 'New Year's Eve' (a common phrase). \n]\n\nAll other words are generally valid and commonly used.",
+        "'nye' - Likely a typo for 'New Year's Eve', a common phrase.\n]\n\nAll other words are generally valid and commonly used.",
+        "'nye' - Likely a typo for \"New Year's Eve\"\n]\n\nAll other words are generally valid and common.",
+        "'nye' - Likely a typo for \"New Year's Eve\" \n].\n\nAll other words are valid and commonly used."
+      ]
+    }
+  },
+  "23": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'store' 'sex'"
+      },
+      "raw": [
+        "'store', \n'sex' \n]\n\n**Reasoning:**\n\nThe other words – 'past', 'hurt', 'thought', 'cool', 'happiness', 'deep', 'feeling', 'stress' – all relate to",
+        "'store', \n'sex' \n]\n\n**Reasoning:**\n\nThe other words – 'past', 'hurt', 'thought', 'cool', 'happiness', 'deep', 'feeling', 'stress' – all relate to",
+        "'store', \n'sex' \n]\n\n**Reasoning:**\n\nThe other words – 'past', 'hurt', 'thought', 'cool', 'happiness', 'deep', 'feeling', 'stress' – all relate to",
+        "'store', \n'sex' \n]\n\n**Reasoning:**\n\nThe other words – 'past', 'hurt', 'thought', 'cool', 'happiness', 'deep', 'feeling', 'stress' – all relate to",
+        "'store', 'sex' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'past'",
+            "'hurt'"
+          ],
+          [
+            "'feeling'",
+            "'happiness'"
+          ],
+          [
+            "'feeling'",
+            "'stress'"
+          ]
+        ]
+      },
+      "raw": "('past', 'hurt'), ('feeling', 'happiness'), ('feeling', 'stress')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'sex' - This word is often flagged due to its sensitive nature and potential for misuse in contexts beyond simple topic analysis.\n]\n\nAll other words are valid and common.",
+        "'sex' - Could be considered potentially sensitive depending on context and might benefit from further processing or filtering. \n]\n\nAll other words are valid and commonly used.",
+        "*   'sex' - While a common word, using it in a sensitive context might require careful consideration. It's potentially a trigger word and could be considered inappropriate depending on the application. \n]\n\nAll other words are valid and",
+        "'sex' - This word can be considered sensitive and may not be appropriate for all contexts. While technically valid, it's often flagged for potential misuse. \n]\n\nAll other words are valid.",
+        "'sex' - Potentially problematic due to sensitivity and potential for misuse in certain contexts. While a valid word, it's often flagged for review.\n]\n\nAll other words are valid and common."
+      ]
+    }
+  },
+  "24": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'chocolate' 'studio' 'month'"
+      },
+      "raw": [
+        "'chocolate', \n'studio', \n'month' \n]\n\n**Reasoning:**\n\nThe other words ('suck', 'blame', 'adult', 'rule', 'discover', 'eve') all relate to negative",
+        "'chocolate', \n'studio', \n'month' \n]\n\n**Reasoning:**\n\nThe other words ('suck', 'blame', 'adult', 'rule', 'discover', 'eve') all relate to negative",
+        "'chocolate', \n'studio', \n'month' \n]\n\n**Reasoning:**\n\nThe other words – 'suck', 'blame', 'adult', 'rule', 'discover', 'eve' – all relate",
+        "'chocolate', \n'studio', \n'month' \n]\n\n**Reasoning:**\n\nThe other words – 'suck', 'blame', 'adult', 'rule', 'discover', 'eve' – all relate",
+        "'chocolate', \n'studio', \n'month' \n]\n\n**Reasoning:**\n\nThe other words ('suck', 'blame', 'adult', 'rule', 'discover', 'eve') all relate to negative"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'adult'",
+            "'month'"
+          ],
+          [
+            "'chocolate'",
+            "'routine'"
+          ]
+        ]
+      },
+      "raw": "('adult', 'month'), ('chocolate', 'routine')]\n\n**Reasoning:**\n\n*   **adult & month:** Both refer to time periods. \"Adult\" signifies a stage of life, and \"month\" is a unit of time."
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'suck' - Common word, no issues.\n'blame' - Common word, no issues.\n'adult' - Common word, no issues.\n'rule' - Common word, no issues.\n'discover'",
+        "'suck' - Common word, no issues.\n'blame' - Common word, no issues.\n'adult' - Common word, no issues.\n'rule' - Common word, no issues.\n'discover'",
+        "'suck' - While common, it can be considered a slightly informal/vulgar word depending on context. \n    'eve' - Could be a typo for \"even\" or a very rare abbreviation.\n]\n\nAll",
+        "'suck' - While a common word, it can sometimes be used in a way that’s considered informal or even offensive depending on context.\n'eve' - This is a relatively rare word, primarily referring to the evening.",
+        "'suck' - While a common word, it can sometimes be used in a slightly unusual or informal context that might warrant flagging.\n]\n\nAll other words are common and valid."
+      ]
+    }
+  },
+  "25": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 10,
+        "words": "0 1 2 3 4 5 6 7 8 9"
+      },
+      "raw": [
+        "0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]",
+        "0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]\n\n**Reasoning:**\n\nThe remaining words ('hot', 'old', 'online', 'anymore",
+        "0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]",
+        "0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]\n\n**Reasoning:**\n\nThe remaining words ('hot', 'old', 'online', 'anymore",
+        "0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]\n\n**Reasoning:**\n\nThe majority of the words – 'hot', 'old', 'online',"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'hot'",
+            "'pic'"
+          ],
+          [
+            "'online'",
+            "'tweet'"
+          ],
+          [
+            "'zero'",
+            "'anymore'"
+          ]
+        ]
+      },
+      "raw": "('hot', 'pic'), ('online', 'tweet'), ('zero', 'anymore')]\n\n**Reasoning:**\n\n*   **'hot' and 'pic'**:  \"Hot\" is frequently used to describe a visually appealing or trending"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'fuck' - Profanity, likely undesirable in many contexts. \n]\n\nAll other words are relatively common and valid.",
+        "'fuck' - This is a highly offensive and inappropriate word.\n]\n\nAll other words are relatively common and valid.",
+        "'fuck' - This is a highly offensive and inappropriate word.\n]\n\nAll other words are generally valid and common.",
+        "'fuck' - This is a highly offensive and inappropriate word, and generally not desirable in most contexts. \n]\n\nAll other words are valid.",
+        "'fuck' - Profanity, generally considered unacceptable in most contexts. \n]\n\nAll other words are valid."
+      ]
+    }
+  },
+  "26": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 4,
+        "words": "'hashtagoftheweek' 'socialmedia' 'tennis' 'emotional'"
+      },
+      "raw": [
+        "'hashtagoftheweek', \n'socialmedia', \n'tennis', \n'emotional' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to personal development, productivity, and problem-solving",
+        "'hashtagoftheweek', \n'socialmedia', \n'tennis', \n'emotional' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'organize', 'learn', 'ride',",
+        "'hashtagoftheweek', \n'socialmedia', \n'tennis', \n'emotional' \n]\n\n**Reasoning:**\n\nThe core theme seems to revolve around productivity, skills, and order/disorder.",
+        "'emotional', \n'patient' \n]\n\n**Reasoning:**\n\nThe core theme of the other words – 'organize', 'learn', 'ride', 'code', 'hashtagoftheweek', 'socialmedia',",
+        "'hashtagoftheweek', \n'socialmedia', \n'tennis', \n'emotional' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to personal development, productivity, and order/dis"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'organize'",
+            "'mess'"
+          ],
+          [
+            "'socialmedia'",
+            "'hashtagoftheweek'"
+          ]
+        ]
+      },
+      "raw": "('organize', 'mess'), ('socialmedia', 'hashtagoftheweek')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'hashtagoftheweek' - This is a long, specific phrase and likely an uncommon usage.\n]\n\nAll other words are generally valid and reasonably common.",
+        "'hashtagoftheweek' - This is a very long, specific, and likely uncommon phrase. It's better to treat \"hashtag\" and \"the week\" separately.\n]\n\nAll other words are valid and commonly used.",
+        "'hashtagoftheweek' - This is a very long and unusual phrase; \"hashtag\" is common, but \"of the week\" is redundant and awkward.\n]\n\nAll other words are valid and commonly used.",
+        "'hashtagoftheweek' - This is a very long and specific phrase, likely a user-generated hashtag and not a standard term.\n]\n\nAll other words are valid and commonly used.",
+        "'hashtagoftheweek' - This is a very long and awkward phrase; \"hashtag of the week\" is a more common and understandable term. \n]\n\nAll other words are valid and commonly used."
+      ]
+    }
+  },
+  "27": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 4,
+        "words": "'literally' 'juice' 'beer' 'arm'"
+      },
+      "raw": [
+        "'literally', \n'juice', \n'beer', \n'arm' \n]\n\n**Reasoning:**\n\nThe remaining words – 'guess', 'matter', 'book', 'peace', 'responsible', 'drama'",
+        "'literally', 'juice', 'beer', 'arm' \n\n]\n\n**Reasoning:**\n\nThe core of the topic set seems to revolve around concepts of:\n\n*   **Conflict/Intense Situations:** 'guess', '",
+        "'literally', 'juice', 'beer', 'arm' ] \n\n**Reasoning:**\n\nThe core of the set – 'guess', 'matter', 'book', 'peace', 'responsible', 'drama' – relates to concepts of",
+        "'literally', \n'juice', \n'beer', \n'arm' \n]\n\n**Reasoning:**\n\nThe remaining words – 'guess', 'matter', 'book', 'peace', 'responsible', 'drama'",
+        "'literally', \n'juice', \n'beer', \n'arm' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'guess', 'matter', 'book', 'peace', 'responsible',"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'book'",
+            "'matter'"
+          ],
+          [
+            "'beer'",
+            "'juice'"
+          ]
+        ]
+      },
+      "raw": "('book', 'matter'), ('beer', 'juice')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'literally' - This is a common word, but its use as a filler word (often misused) can be considered a stylistic issue rather than a strict malformation. It's debatable if it should be flagged.\n]\n\nAll other",
+        "'literally' - While common, \"literally\" is often misused and can be considered a problematic token due to its frequent incorrect usage. \n]\n\nAll other words are reasonably common and valid.",
+        "'literally' - This is a commonly misused word and often typed incorrectly.\n]\n\nAll other words are common and valid.",
+        "'literally' - This is a commonly misspelled word, and while understood, it’s often flagged as a potential typo.\n]\n\nAll other words are relatively common and valid.",
+        "'literally' - This is a common word but can be flagged as potentially misspelled or used inappropriately in certain contexts. It’s a tricky word to process reliably.\n]\n\nAll other words are common and valid."
+      ]
+    }
+  },
+  "28": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'hopefully' 'friend'"
+      },
+      "raw": [
+        "'hopefully', 'friend' ]\n\n**Reasoning:**\n\nThe core of the topic set – 'win', 'video', 'hang', 'episode', 'till', 'pass' – strongly relates to competition, entertainment, leisure, and",
+        "'hopefully', \n'friend' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'win', 'video', 'hang', 'episode', 'pass', 'stay', 'till' – strongly relates to",
+        "'hopefully', \n'friend' \n]",
+        "'hopefully', \n'friend' \n]\n\n**Reasoning:**\n\nThe core of the topic set seems to revolve around achievement, progression, and relationships:\n\n*   **win:**  Success, accomplishment\n*   **video",
+        "'hopefully', \n'friend' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'win', 'video', 'hang', 'episode', 'pass', 'stay', 'till' – strongly relates to"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'win'",
+            "'pass'"
+          ],
+          [
+            "'friend'",
+            "'stay'"
+          ]
+        ]
+      },
+      "raw": "('win', 'pass'), ('friend', 'stay')]\n\n**Reasoning:**\n\n*   **win & pass:** Both words denote a successful completion or achievement – winning a game, passing an exam, etc. They share this core concept of"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'hopefully' - This is a common word"
+      },
+      "raw": [
+        "'hopefully' - This is a common word, but it’s often misspelled as \"hoffely\" or \"hopofully\" and can be flagged as a potential typo.\n'till' - While technically a valid word (meaning \"",
+        "'hopefully' - This is a common word, but it’s a bit unusual to include it in a list of topic words. It’s more of an adverbial expression.\n]\n\nAll other words are relatively common and suitable for",
+        "'hopefully' - This is a common word, but it's a compound word and can sometimes be treated as a single unit rather than individual tokens.\n'till' - While common, \"till\" is an archaic spelling of \"until",
+        "'hopefully' - This is a common word, but its inclusion here might be due to a typo or a desire to capture sentiment. It could be considered slightly unusual in a list of core topic words.\n]\n\nAll other words are",
+        "'hopefully' - While common, it's a slightly unusual word in this context and could be flagged as potentially misspelled or used unconventionally.\n'till' -  This is a less common spelling of \"until\".\n]"
+      ]
+    }
+  },
+  "29": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'foot' 'fear'"
+      },
+      "raw": [
+        "'foot', \n'fear' \n]\n\n**Reasoning:**\n\nThe other words ('workout', 'limit', 'boyfriend', 'cook', 'got', 'especially', 'goals', 'push') all relate to personal development",
+        "'foot', \n'fear' \n]\n\n**Reasoning:**\n\nThe other words ('workout', 'limit', 'boyfriend', 'cook', 'got', 'especially', 'goals', 'push') all relate to personal development",
+        "'foot', \n'fear' \n]\n\n**Reasoning:**\n\nThe other words ('workout', 'limit', 'boyfriend', 'cook', 'got', 'especially', 'goals', 'push') all relate to personal development",
+        "'foot', \n'fear' \n]\n\n**Reasoning:**\n\nThe other words – 'workout', 'limit', 'boyfriend', 'cook', 'got', 'especially', 'goals', 'push' – all relate to",
+        "'foot', \n'fear' \n]\n\n**Reasoning:**\n\nThe remaining words ('workout', 'limit', 'boyfriend', 'cook', 'got', 'especially', 'goals', 'push') all relate to personal development"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'workout'",
+            "'goals'"
+          ],
+          [
+            "'foot'",
+            "'fear'"
+          ]
+        ]
+      },
+      "raw": "('workout', 'goals'), ('foot', 'fear')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'got' - Could be a typo for 'gotten' or 'gott', depending on context. It's also a very common word and might be flagged as unusual if the overall corpus is highly specialized.\n]\n\nAll other",
+        "'got' - This is a very common word, but in the context of a list of topic words, it feels slightly out of place and could be a simple typo if intended to be something else. \n'fear' - While valid",
+        "'got' - While common, in this context it feels slightly out of place and could be a typo for \"growth\" or \"gotten\" depending on the surrounding text.\n'fear' -  A valid word, but its inclusion",
+        "'got' - While common, it can be considered a slightly informal or potentially misspelled token in a more formal context. \n'fear' - This could be considered a somewhat vague token without context. \n]\n\nAll other words are",
+        "'got' - Could be a typo for 'gotten' or 'gott', depending on context, but is often used as a simple past tense verb. It's somewhat informal.\n]\n\nAll other words are relatively common and"
+      ]
+    }
+  },
+  "30": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "bible, \nbook \n]\n\n**Reasoning:**\n\nThe other words ('sport', 'night', 'late', 'use', 'remove', 'position', 'cliche', 'lose') relate to activities, time, actions",
+        "bible, book ]\n\n**Reasoning:**\n\nThe other words ('sport', 'night', 'late', 'use', 'remove', 'position', 'cliche', 'lose') relate to concepts of action, time, utility, change,",
+        "'bible', 'book' ] \n\n**Reasoning:**\n\nThe other words ('sport', 'night', 'late', 'use', 'remove', 'position', 'cliche', 'lose') relate to activities, time, actions",
+        "'bible', \n'book' \n]\n\n**Reasoning:**\n\nThe other words ('sport', 'night', 'late', 'use', 'remove', 'position', 'cliche', 'lose') all relate to activities",
+        "bible, \nbook \n] \n\n**Reasoning:**\n\nThe other words ('sport', 'night', 'late', 'use', 'remove', 'position', 'cliche', 'lose') relate to activities, time,"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'bible'",
+            "'book'"
+          ],
+          [
+            "'use'",
+            "'remove'"
+          ]
+        ]
+      },
+      "raw": "('bible', 'book'), ('use', 'remove')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'late' - While common, \"late\" could be a typo for \"wait\" depending on context.\n'cliche' - A relatively uncommon word; might be a misspelling or an unusual choice for this list.\n'lose",
+        "'late' - Could be considered slightly informal in some contexts, though generally acceptable. \n'cliche' - While a valid word, it's a relatively uncommon usage in a free-flowing topic list.\n].\n\nAll other",
+        "'late' - Could be a typo, though \"late\" is a common word.\n'cliche' - While a valid word, it's a relatively uncommon usage in a topic word list.\n'use' - Similar to",
+        "'late' - While common, its use here might be slightly unusual depending on the context.\n'cliche' - A relatively formal word, might not be the best fit for a general topic list.\n'use' - Could be",
+        "'late' - While common, \"late\" can sometimes be a typo for \"wait\" depending on context.\n'cliche' - A relatively uncommon word, and could be a misspelling of a more common phrase.\n'use"
+      ]
+    }
+  },
+  "31": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'ass'"
+      },
+      "raw": [
+        "'ass', \n'upset' \n]",
+        "'ass' \n].\n\n**Reasoning:**\n\nThe other words – 'concert', 'joke', 'quiet', 'mixtape', 'volunteer', 'upset', 'master', 'allow', 'help' – all relate",
+        "'ass' \n]\n\n**Reasoning:**\n\nThe other words – 'concert', 'joke', 'quiet', 'mixtape', 'volunteer', 'upset', 'master', 'allow', 'help' – all relate",
+        "'ass' \n]\n\n**Reasoning:**\n\nThe other words – 'concert', 'joke', 'quiet', 'mixtape', 'volunteer', 'upset', 'master', 'allow', 'help' – all relate",
+        "'ass', \n'upset' \n].\n\n**Reasoning:**\n\nThe other words – 'concert', 'joke', 'quiet', 'mixtape', 'volunteer', 'master', 'allow', 'help' –"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'help'",
+            "'allow'"
+          ],
+          [
+            "'concert'",
+            "'mixtape'"
+          ]
+        ]
+      },
+      "raw": "('help', 'allow'), ('concert', 'mixtape')]\n\n**Reasoning:**\n\n* **help & allow:** Both words convey the idea of permitting or enabling something. \"Allow\" is a more formal synonym of \"help.\""
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'ass' - Potentially offensive and inappropriate for many contexts.\n]\n\nAll other words are generally valid and commonly used.",
+        "'ass' - Potentially offensive and not generally appropriate for many contexts.\n]\n\nAll other words are valid and relatively common.",
+        "'ass' - Potentially offensive and inappropriate for many contexts.\n]\n\nAll other words are generally valid and common.",
+        "'ass' - Potentially offensive and not suitable for many contexts.\n]\n\nAll other words are valid and common.",
+        "'ass' - Potentially offensive and inappropriate for many contexts. \n]\n\nAll other words are valid and common."
+      ]
+    }
+  },
+  "32": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 4,
+        "words": "'planet' 'decide' 'judge' 'pocket'"
+      },
+      "raw": [
+        "'planet', \n'decide', \n'judge', \n'pocket' \n]\n\n**Reasoning:**\n\nThe core theme seems to be around providing assistance and interaction within a social platform (Facebook).  'daily",
+        "'planet', \n'decide', \n'judge', \n'pocket' \n]\n\n**Reasoning:**\n\nThe core theme seems to be around user interaction with a social platform (Facebook) and providing assistance/solutions",
+        "'planet', \n'decide', \n'judge', \n'pocket' \n]\n\n**Reasoning:**\n\nThe core theme seems to be around user interaction with Facebook and related support/actions.  “Daily”,",
+        "'planet', \n'decide', \n'judge', \n'pocket' \n]\n\n**Reasoning:**\n\nThe core theme seems to be around *user interaction with Facebook and related support/actions*.  Words like",
+        "'planet', \n'decide', \n'judge', \n'pocket' \n]\n\n**Reasoning:**\n\nThe core theme seems to revolve around user interaction with Facebook and related support/actions.  \"daily\","
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'facebook'",
+            "'public'"
+          ],
+          [
+            "'daily'",
+            "'pocket'"
+          ]
+        ]
+      },
+      "raw": "('facebook', 'public'), ('daily', 'pocket')]\n\n**Reasoning:**\n\n*   **'facebook' and 'public'**: Facebook is a public platform, inherently tied to public discourse and information.\n*   **'daily'"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'pocket' - This is a very common word, but in the context of a list of topic words, it feels slightly out of place and could be a typo or a less relevant inclusion. \n]\n\nAll other words are valid and",
+        "'pocket' - While a common word, in this context of topic words, it feels somewhat out of place and less conceptually relevant than the other terms. It's a very specific, concrete term where the others are broader.\n]",
+        "'pocket' - This is a very common word, but in the context of a list of topic words, it feels out of place and less relevant than the other terms. It's a simple word that doesn't contribute much to a",
+        "'pocket' - This is a very common word, but in the context of a list of topic words, it feels out of place and somewhat informal. It’s a simple misspelling could easily occur. \n]\n\nAll other",
+        "'pocket' - This is a very common word and doesn't seem to fit the context of a list of topic words. It feels like an outlier. \n]\n\nAll other words are relatively common and appear to be valid topic"
+      ]
+    }
+  },
+  "33": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'right' 'aim'"
+      },
+      "raw": [
+        "'right', \n'aim' \n]\n\n**Reasoning:**\n\nThe other words ('smoke', 'supper', 'club', 'cigarette', 'focus', 'count', 'accomplish', 'body') all relate to",
+        "'right', \n'focus', \n'aim' \n]\n\n**Reasoning:**\n\nThe other words ('smoke', 'supper', 'club', 'cigarette', 'count', 'accomplish', 'body') all",
+        "'right', \n'aim' \n]\n\n**Reasoning:**\n\nThe other words ('smoke', 'supper', 'club', 'cigarette', 'focus', 'count', 'accomplish', 'body') all relate to",
+        "right, \naim \n]\n\n**Reasoning:**\n\nThe other words ('smoke', 'supper', 'club', 'cigarette', 'focus', 'count', 'accomplish', 'body') all relate to concepts of consumption",
+        "'right', \n'aim' \n]\n\n**Reasoning:**\n\nThe other words ('smoke', 'supper', 'club', 'cigarette', 'focus', 'count', 'accomplish', 'body') all relate to"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'smoke'",
+            "'cigarette'"
+          ],
+          [
+            "'focus'",
+            "'aim'"
+          ]
+        ]
+      },
+      "raw": "('smoke', 'cigarette'), ('focus', 'aim')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **'count'**: While a valid word, it’s a very common word and might be flagged as potentially representing an abbreviation or a more specific term depending on the context. It’s not inherently malformed, but could be",
+        "'club' - Could be a typo for 'clue' or 'club' (as in a social club), but without context, it’s ambiguous and potentially a misspelling.\n]\n\nAll other words are reasonably common and valid",
+        "'club' - Could be a typo for 'clue' or simply an ambiguous word without context.\n].\n\nAll other words are common and valid.",
+        "'club' - Could be a typo for 'clue' or 'club' (as in a social club), but without context, it's ambiguous. \n]\n\nAll other words are generally valid and common.",
+        "*   'club' - Could be a typo for 'clue' or 'club' (as in a social club), but without context, it's ambiguous and potentially a misspelling.\n]\n\nAll other words are common and"
+      ]
+    }
+  },
+  "34": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'membership' 'eve'"
+      },
+      "raw": [
+        "'membership', 'eve' \n]\n\n**Reasoning:**\n\n*   **ppl, hug, remember, age, place, white, read** all relate to people, relationships, experiences, and locations – a core theme of",
+        "'membership', 'eve' \n\n]\n\n**Reasoning:**\n\n*   **'ppl', 'hug', 'remember', 'age', 'place', 'read'** all relate to people, relationships, experiences, and locations",
+        "'membership', 'eve' \n]\n\n**Reasoning:**\n\n*   **'ppl', 'hug', 'remember', 'age', 'place', 'read'** all relate to people, relationships, time, and location",
+        "'membership', 'eve' \n]\n\n**Reasoning:**\n\n*   **'ppl', 'hug', 'remember', 'age', 'place', 'read'** all relate to people, relationships, time, and location",
+        "'membership', 'eve' \n]\n\n**Reasoning:**\n\n*   **'ppl', 'hug', 'remember', 'age', 'place', 'read'** all relate to people, relationships, time, location,"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'age'",
+            "'eve'"
+          ],
+          [
+            "'place'",
+            "'membership'"
+          ]
+        ]
+      },
+      "raw": "('age', 'eve'), ('place', 'membership')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'ppl' - Could be a typo for 'people', but as a standalone abbreviation is less common. \n'eve' - While \"eve\" exists, in this context it’s highly likely a typo for \"even\" or",
+        "'ppl' - Could be a typo for \"people\", but as a standalone abbreviation is less common and potentially unclear.\n'eve' - While \"eve\" has a common meaning (evening), in this context it seems likely to be",
+        "'ppl' - Likely a typo for \"people\", though it's a valid abbreviation, it's common to flag these as potentially needing clarification.\n    'eve' - Could be a typo for \"even\" or \"",
+        "'ppl' - Potentially a typo for 'people', but as a single character abbreviation is unusual.\n'eve' - While 'eve' has a common meaning, in this context as a standalone token it's somewhat unclear without",
+        "'ppl' - Potentially a typo for \"people\" but could be an abbreviation depending on context.\n'eve' - Could be a typo for \"event\" or an abbreviation, but without context, it's unclear."
+      ]
+    }
+  },
+  "35": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "drunk number"
+      },
+      "raw": [
+        "drunk, \nnumber \n] \n\n**Reasoning:**\n\nThe other words – nap, forgive, forget, live, power, gift, encouragement – all relate to concepts of rest, emotional states, existence, influence, and positive",
+        "drunk, \nnumber \n] \n\n**Reasoning:**\n\nThe core of the topic set – 'nap', 'forgive', 'forget', 'live', 'gift', 'encouragement' – revolves around themes of rest,",
+        "'number', \n'drunk' \n].\n\n**Reasoning:**\n\nThe other words – nap, forgive, forget, live, power, gift, minute, encouragement – all relate to concepts of rest, emotional states, existence,",
+        "drunk, \n\nnumber, \n\npower ]",
+        "drunk, \n\nnumber, \n\npower ] \n\n**Reasoning:**\n\nThe core theme appears to be related to emotional states, experiences, and personal growth – concepts like forgiveness, forgetting, living, gift, encouragement. \"Drunk"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'forget'",
+            "'forgive'"
+          ],
+          [
+            "'live'",
+            "'number'"
+          ]
+        ]
+      },
+      "raw": "('forget', 'forgive'), ('live', 'number')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'drunk' - Could be a misspelling of \"drunk\" but contextually might be intended as \"drunk\"\n].\n\nAll other words are valid and relatively common.",
+        "'drunk' - Could be a typo for \"crank\" or \"trunk,\" depending on context. \n]\n\nAll other words are common and valid.",
+        "'drunk' - Could be a misspelling of \"drunk\" but also a potentially ambiguous term depending on context.\n]\n\nAll other words are common and valid.",
+        "'drunk' - Could be a typo for \"crank\" or \"trunk\", but in this context, \"drunk\" is acceptable. \n]\n\nAll other words are valid and common.",
+        "'drunk' - Could be a typo for 'trunk' or 'crank', depending on context. It’s a somewhat informal word.\n]\n\nAll other words are relatively common and valid."
+      ]
+    }
+  },
+  "36": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'booty' 'vibe'"
+      },
+      "raw": [
+        "'booty', \n'vibe' \n]\n\n**Reasoning:**\n\nThe other words – 'social', 'medium', 'small', 'fitness', 'wrong', 'bring', 'finance', 'honest' – all",
+        "'booty', 'vibe' ]",
+        "'booty', \n'vibe' \n]\n\n**Reasoning:**\n\nThe other words – 'social', 'medium', 'small', 'fitness', 'wrong', 'bring', 'finance', 'honest' – all",
+        "booty, \nvibe \n\n]\n\n**Reasoning:**\n\n*   **Social, medium, fitness, finance, honest** all relate to concepts of society, well-being, and ethical conduct.\n*   **small",
+        "'booty', \n'vibe' \n]\n\n**Reasoning:**\n\nThe other words – social, medium, small, fitness, wrong, bring, finance, honest – all relate to concepts of society, personal well-"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'social'",
+            "'honest'"
+          ],
+          [
+            "'vibe'",
+            "'social'"
+          ]
+        ]
+      },
+      "raw": "('social', 'honest'), ('vibe', 'social')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'booty' - Potentially offensive and could be considered an unclear term depending on context. \n]\n\nAll other words are generally valid and commonly used.",
+        "'booty' - While common slang, it’s potentially sensitive and could be considered an informal/unprofessional term depending on the context.\n]\n\nAll other words are valid and relatively common.",
+        "'booty' - While a common word, in this context, it feels slightly out of place compared to the other terms and could be considered a potentially jarring or informal choice.\n]\n\nAll other words are valid and commonly used.",
+        "'booty' - This word can be considered slang and may be inappropriate in some contexts, though technically valid. \n]\n\nAll other words are common and generally valid.",
+        "'booty' - Could be considered informal or potentially offensive depending on context. \n]\n\nAll other words are generally valid and common."
+      ]
+    }
+  },
+  "37": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'twice' 'breakfast'"
+      },
+      "raw": [
+        "'twice', \n'story', \n'breakfast', \n'enjoy' \n]\n\n**Reasoning:**\n\nThe core theme seems to revolve around personal improvement, goals, and achievement – reflected in words like 'resolutions",
+        "'twice', 'breakfast', 'enjoy' ] \n\n**Reasoning:**\n\nThe other words – resolutions, fit, fight, story, success, bang, important – all relate to concepts of personal improvement, goal-setting, overcoming challenges",
+        "'twice', 'breakfast', 'enjoy' ]",
+        "'twice', 'breakfast', 'story' ] \n\n**Reasoning:**\n\nThe core theme seems to be related to personal improvement, achievement, and positive experiences – concepts like 'resolutions', 'fit', 'fight', 'success',",
+        "'twice', 'breakfast', 'story' ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'fit'",
+            "'success'"
+          ],
+          [
+            "'breakfast'",
+            "'important'"
+          ]
+        ]
+      },
+      "raw": "('fit', 'success'), ('breakfast', 'important')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'twice' - Could be a misspelling of \"twice\" but might be intended as a reference to the band.\n'bang' - While a valid word, it's a very common, general term and might be considered less informative",
+        "'twice' - While common, it's a multi-word phrase and might be treated as a single token in some contexts. \n]\n\nAll other words are generally valid and common.",
+        "'twice' - While a common word, it’s a bit unusual in this context of topic words. It’s more often associated with musical groups. \n]\n\nAll other words are valid and reasonably common.",
+        "'twice' - This is a common word, but could be considered a typo if the context suggests a different intention (e.g., \"two\" or \"tice\").\n]\n\nAll other words are common and generally valid.",
+        "*   **twice:** While a common word, it's a bit unusual in this list of topic words. It might be a typo or an outlier.\n*   **bang:** Could be considered slightly informal or slang-like for a"
+      ]
+    }
+  },
+  "38": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "pant, \nregret, \nexcuse \n]\n\n**Reasoning:**\n\nThe other words – wear, patience, seriously, live, connected, beautiful, kind – all relate to concepts of personal growth, mindful living,",
+        "pant, \nregret, \nexcuse \n]\n\n**Reasoning:**\n\nThe other words – wear, patience, seriously, live, connected, beautiful, kind – all relate to concepts of personal growth, mindful living,",
+        "'patience', \n'regret', \n'excuse', \n'beautiful', \n'kind' \n]\n\n**Reasoning:**\n\nThe remaining words ('wear', 'seriously', 'live', 'pant",
+        "'patience', \n'regret', \n'excuse' \n]\n\n**Reasoning:**\n\nThe other words – 'wear', 'live', 'pant', 'connected', 'beautiful', 'kind' – all",
+        "'patience', \n'regret', \n'excuse', \n'beautiful', \n'kind' \n]\n\n**Reasoning:**\n\nThe other words ('wear', 'seriously', 'live', 'pant"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'live'",
+            "'connected'"
+          ],
+          [
+            "'beautiful'",
+            "'kind'"
+          ]
+        ]
+      },
+      "raw": "('live', 'connected'), ('beautiful', 'kind')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'pant' - Could be a typo for 'paint' or 'want', but in this context, \"pant\" as a verb meaning to struggle is less common and potentially unclear. \n    'excuse' - While valid,",
+        "'pant' - This is a common word, but in the context of a list of topic words, it feels slightly out of place and could potentially be a typo depending on the broader context. \n'excuse' - Similar to '",
+        "'pant' - While a common word, in this context it feels slightly out of place amongst the more thoughtful words. It leans towards physical sensation rather than a concept.\n'excuse' - Similar to 'pant', it’s a",
+        "'pant' - While a common word, in this context it feels slightly out of place amongst more abstract concepts. \n'excuse' - Similar to 'pant', it feels a little less aligned with the overall theme of reflection and personal",
+        "'pant' - While a common word, in this context it feels slightly out of place among more thoughtful concepts. It leans toward physical exertion rather than the themes suggested by the other words. \n].\n\nAll other words are valid and fit"
+      ]
+    }
+  },
+  "39": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "scream kick"
+      },
+      "raw": [
+        "scream, \nkick \n] \n\n**Reasoning:**\n\nThe remaining words – ‘deserve’, ‘city’, ‘add’, ‘achievable’, ‘return’, ‘purpose’, ‘walk’, ‘remind’ – all",
+        "scream, \nremind \n]\n\n**Reasoning:**\n\nThe majority of the words – ‘deserve’, ‘city’, ‘add’, ‘achievable’, ‘walk’, ‘return’, ‘purpose’, ‘kick’ –",
+        "scream, \nkick \n]\n\n**Reasoning:**\n\nThe other words – \"deserve,\" \"city,\" \"add,\" \"achievable,\" \"return,\" \"purpose,\" \"remind,\" and \"walk\" – generally",
+        "scream, \nkick \n\n]\n\n**Reasoning:**\n\nThe majority of the words – 'deserve', 'city', 'add', 'achievable', 'return', 'purpose', 'remind' – relate to concepts",
+        "scream, \nkick \n\n]\n\n**Reasoning:**\n\nThe majority of the words – 'deserve', 'city', 'add', 'achievable', 'return', 'purpose', 'remind' – relate to concepts"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'city'",
+            "'walk'"
+          ],
+          [
+            "'purpose'",
+            "'return'"
+          ]
+        ]
+      },
+      "raw": "('city', 'walk'), ('purpose', 'return')]\n\n**Reasoning:**\n\n*   **city & walk:** \"City\" often implies a place to \"walk\" within.  Walking is a common activity in a city.\n*"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **scream**: While a valid word, it’s quite emotionally charged and might be considered unusual in a neutral topic list.\n*   **kick**: Similar to \"scream,\" it’s a strong action word and potentially",
+        "*   **scream**: While a common word, in this context it feels out of place amongst the other more grounded vocabulary. It could be an error.\n*   **kick**: Similar to \"scream\", it's a common",
+        "*   **scream**: While a valid word, it's a very strong emotion word and might be considered out of place in a neutral topic list depending on the context.\n*   **purpose**: This word could be considered somewhat vague",
+        "‘scream’ - While a valid word, it's often used as an interjection and might be considered slightly informal for some contexts. \n]\n\nAll other words are valid and common.",
+        "'scream' - While a common word, it could be considered a slightly unusual choice in a list of topic words, potentially indicating a more emotional or dramatic topic.\n]\n\nAll other words are generally valid and frequently used."
+      ]
+    }
+  },
+  "40": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'fat' 'strong'"
+      },
+      "raw": [
+        "'fat', \n'strong' \n].\n\n**Reasoning:**\n\nThe other words ('listen', 'relationship', 'realize', 'boss', 'busy', 'learn', 'successful', 'tell') all relate to interpersonal",
+        "'fat', \n'strong' \n]\n\n**Reasoning:**\n\nThe other words – listen, relationship, realize, boss, busy, learn, successful, tell – all relate to interpersonal dynamics, personal growth, or professional life",
+        "'fat', \n'strong' \n]\n\n**Reasoning:**\n\nThe other words – listen, relationship, realize, boss, busy, learn, successful, tell – all relate to interpersonal dynamics, personal growth, or communication.",
+        "'fat', \n'strong' \n]\n\n**Reasoning:**\n\nThe other words – listen, relationship, realize, boss, busy, learn, successful, tell – all relate to interpersonal dynamics, personal growth, or professional interactions",
+        "'fat', \n'strong' \n].\n\n**Reasoning:**\n\nThe other words – 'listen', 'relationship', 'realize', 'boss', 'busy', 'learn', 'successful', 'tell' – all relate"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'listen'",
+            "'tell'"
+          ],
+          [
+            "'busy'",
+            "'fat'"
+          ]
+        ]
+      },
+      "raw": "('listen', 'tell'), ('busy', 'fat')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **'fat'**: While a common word, in the context of topic words, it’s potentially problematic as it relates to physical appearance and could be considered sensitive or irrelevant depending on the overall topic domain.\n*   **'",
+        "'fat' - While a common word, in a list of topic words it feels slightly out of place and potentially represents a sensitive topic that might benefit from careful consideration. \n]\n\nAll other words are valid and commonly used.",
+        "'fat' - Could be considered a potentially sensitive word depending on context, though grammatically valid.\n]\n\nAll other words are valid and commonly used.",
+        "'fat' - While a common word, in this context it could be perceived as potentially offensive or a sensitive topic.\n]\n\nAll other words are valid and commonly used.",
+        "'fat' - Could be considered a potentially sensitive or stigmatizing term depending on context. While valid as a descriptor, it's often flagged for potential bias.\n]\n\nAll other words are valid and commonly used."
+      ]
+    }
+  },
+  "41": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.4,
+      "raw": [
+        "2",
+        "2",
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "makeup, \nmillion ] \n\n**Reasoning:**\n\n*   **join, goal, gym, feel, figure, post, week** all relate to fitness, personal goals, and well-being.\n*   **makeup**",
+        "makeup, \nmillion ] \n\n**Reasoning:**\n\n*   **join, goal, gym, feel, figure, post, week** all relate to fitness, personal goals, and well-being.\n*   **makeup**",
+        "makeup, \nmillion \n]\n\n**Reasoning:**\n\n*   **join, goal, gym, feel, figure, post, week** – These words relate to fitness, personal development, and routines.\n*   **gen",
+        "'makeup', 'million' \n]\n\n**Reasoning:**\n\n*   **join, goal, gym, feel, figure, post, week** all relate to fitness, personal improvement, and routine activity.\n*   **makeup",
+        "'makeup', \n'million' \n]\n\n**Reasoning:**\n\n*   **join, goal, gym, feel, figure, post, week** – These words relate to fitness, personal goals, and activity.\n*"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'gym'",
+            "'week'"
+          ],
+          [
+            "'makeup'",
+            "'post'"
+          ]
+        ]
+      },
+      "raw": "('gym', 'week'), ('makeup', 'post')]\n\n**Reasoning:**\n\n*   **('gym', 'week')**:  \"Gym\" often refers to a weekly workout routine or schedule.  A \"week\" can be the"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'makeup' - While a common word"
+      },
+      "raw": [
+        "'makeup' - While a common word, it's a relatively specific term and might not be universally relevant to a broad topic analysis. It feels slightly out of place among the other more general words.\n]\n\nAll other words are valid",
+        "'makeup' - While a common word, it’s a relatively specific term compared to the others and might be considered less broadly relevant within a general topic list. \n]\n\nAll other words are valid and reasonably common.",
+        "'makeup' - While a common word, it’s a relatively specific topic and might be less broadly relevant than others in a general topic list. \n]\n\nAll other words are valid and commonly used.",
+        "'makeup' - While a common word, it’s a relatively specific term compared to the others and could be considered less broadly applicable within a general topic list. \n]\n\nAll other words are common and generally valid.",
+        "'makeup' - While a common word, it's a relatively specific term and might be considered less broadly applicable than the others in a general topic list.\n]\n\nAll other words are valid and appear reasonably common."
+      ]
+    }
+  },
+  "42": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 1,
+        "words": "'lbs'"
+      },
+      "raw": [
+        "'lbs' \n]\n\n**Reasoning:**\n\nAll the other words (idea, motivation, pick, vow, chance, exciting, book, reach, maybe) relate to concepts of opportunity, aspiration, and action – things you *",
+        "'lbs' \n]\n\n**Reasoning:**\n\nThe other words – 'idea', 'motivation', 'pick', 'vow', 'chance', 'exciting', 'book', 'reach', 'maybe' – all relate to",
+        "'lbs' \n]\n\n**Reasoning:**\n\nAll the other words relate to concepts of aspiration, opportunity, and action – things you *do* or *strive* for. \"lbs\" (pounds) is a unit of",
+        "'lbs' \n]\n\n**Reasoning:**\n\nAll the other words relate to concepts of opportunity, aspiration, and action – pursuing goals, taking chances, and having drive. \"lbs\" (pounds) is a unit of weight and",
+        "'lbs' \n]\n\n**Reasoning:**\n\nAll the other words – 'idea', 'motivation', 'pick', 'vow', 'chance', 'exciting', 'book', 'reach', 'maybe' – relate to"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 1,
+        "word_pairs": [
+          [
+            "'lbs'",
+            "'lbs'"
+          ]
+        ]
+      },
+      "raw": "('lbs', 'lbs')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'lbs' - Likely an abbreviation for \"pounds"
+      },
+      "raw": [
+        "'lbs' - Likely an abbreviation for \"pounds,\" but presented as a single token without context. It's unusual to see it this way.\n]\n\nAll other words are generally valid and common.",
+        "'lbs' - Likely an abbreviation for \"pounds,\" but presented as a single token without context. It’s better to treat it as a separate word.\n]\n\nAll other words are valid and common.",
+        "'lbs' - Likely an abbreviation for \"pounds,\" but presented as a single token without context. It’s unusual to see this without a unit.\n]\n\nAll other words are generally valid and common.",
+        "'lbs' - Likely an abbreviation for \"pounds,\" but presented as a single token without context, making it unclear and potentially a typo if it's not intended.\n]\n\nAll other words are generally valid and common.",
+        "'lbs' - Likely an abbreviation for \"pounds\" but presented as a single token, which can be ambiguous without context. It’s unusual to see it without the unit.\n]\n\nAll other words are valid and common."
+      ]
+    }
+  },
+  "43": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "culture big"
+      },
+      "raw": [
+        "culture, big ] \n\n**Reasoning:**\n\nThe other words ('wanna', 'head', 'throw', 'job', 'tweet', 'welcome', 'sit', 'forward') all relate to actions, desires, or communication –",
+        "culture, big ] \n\n**Reasoning:**\n\nThe other words ('wanna', 'head', 'throw', 'job', 'tweet', 'welcome', 'sit', 'forward') all relate to action, communication, or a sense",
+        "culture, big ]",
+        "culture, big \n]\n\n**Reasoning:**\n\nThe other words ('wanna', 'head', 'throw', 'job', 'tweet', 'welcome', 'sit', 'forward') all relate to actions, desires, or communication",
+        "culture, big ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'job'",
+            "'big'"
+          ],
+          [
+            "'tweet'",
+            "'welcome'"
+          ]
+        ]
+      },
+      "raw": "('job', 'big'), ('tweet', 'welcome')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'wanna' - Common misspelling of \"want to\" \n'sit' - While common, it can be a less frequent word in some contexts and might be flagged as potentially misspelled depending on the application. \n]\n\nAll",
+        "'wanna' - Informal shortening of \"want to\", often considered a typo in formal contexts.\n    'sit' - While a valid word, it can be a typo for \"seat\" depending on context.\n]\n\nAll",
+        "'wanna' - Informal shortening of \"want\", potentially a typo depending on context.\n'sit' - While common, it can sometimes be used in unusual contexts that make it less clear. \n]\n\nAll other words are generally",
+        "'wanna' - Informal shortening of \"want\", often considered a typo depending on context.\n    'sit' - While common, it could be flagged as potentially misspelled in some contexts.\n]\n\nAll other words are generally valid",
+        "'wanna' - Informal shortening of \"want\", often flagged as misspelled.\n'sit' - While common, it can sometimes be flagged as an incomplete word depending on the context and model.\n]\n\nAll other words are generally valid"
+      ]
+    }
+  },
+  "44": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'youtube' 'girlfriend' 'sober'"
+      },
+      "raw": [
+        "'youtube', \n'girlfriend', \n'sober' \n]\n\n**Reasoning:**\n\nThe other words ('face', 'sign', 'apartment', 'budget', 'door', 'career') all relate to physical objects",
+        "'youtube', \n'girlfriend', \n'sober' \n]\n\n**Reasoning:**\n\n*   **face, sign, door, apartment, budget** – These words relate to physical objects, spaces, or financial considerations",
+        "'youtube', \n'girlfriend', \n'sober' \n]\n\n**Reasoning:**\n\n*   **face, sign, door, apartment, budget** – These words relate to physical objects, spaces, or financial planning",
+        "'youtube', \n'girlfriend', \n'sober' \n]\n\n**Reasoning:**\n\n*   **face, sign, door, apartment, budget** – These words relate to physical objects, spaces, and financial planning",
+        "'youtube', \n'girlfriend', \n'sober' \n]\n\n**Reasoning:**\n\n*   **face, sign, door, apartment, budget:** These words relate to physical spaces, appearance, or financial management –"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 3,
+        "word_pairs": [
+          [
+            "'face'",
+            "'sign'"
+          ],
+          [
+            "'apartment'",
+            "'door'"
+          ],
+          [
+            "'girlfriend'",
+            "'sober'"
+          ]
+        ]
+      },
+      "raw": "('face', 'sign'), ('apartment', 'door'), ('girlfriend', 'sober')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'youtube' - While commonly used"
+      },
+      "raw": [
+        "'youtube' - While commonly used, it's a proper noun (a specific platform) and might be better treated as a single token in some contexts.\n'girlfriend' - Could be considered a somewhat informal or potentially ambiguous term depending on",
+        "*   **youtube:** While a common word, it's often treated as a single unit (a platform name) rather than a typical token.  It’s a proper noun and might benefit from being split into “you” and “",
+        "'youtube' - While commonly used, it’s a proper noun (a specific platform) and often benefits from being treated as a single token rather than broken into parts.\n'sober' - Could be considered slightly unusual in this context",
+        "'youtube' - While commonly used, it's a proper noun (a specific platform) and might be better treated as a single token in some contexts.\n'girlfriend' - Could be considered a slightly informal or conversational term, potentially needing",
+        "'youtube' - While commonly used, it's a proper noun (a specific platform) and might be considered less useful for general topic modeling compared to a more generic term like \"video\". \n].\n\nAll other words are generally valid"
+      ]
+    }
+  },
+  "45": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 2,
+        "words": "'weed' 'drinking'"
+      },
+      "raw": [
+        "'weed', \n'drinking', \n'chicago' \n]\n\n**Reasoning:**\n\n*   **pretend, finally, learn, confidence, sing, know** – These words relate to personal growth, skill development",
+        "'weed', \n'drinking' \n]\n\n**Reasoning:**\n\nThe remaining words – 'pretend', 'finally', 'spanish', 'learn', 'confidence', 'sing', 'know', 'chicago' – all",
+        "'weed', \n'drinking' \n]\n\n**Reasoning:**\n\nThe majority of the words – 'pretend', 'finally', 'learn', 'confidence', 'sing', 'spanish', 'know' – relate to personal",
+        "'weed', \n'drinking' \n]\n\n**Reasoning:**\n\nThe remaining words – 'pretend', 'finally', 'spanish', 'learn', 'confidence', 'sing', 'know', 'chicago' – all",
+        "'weed', \n'drinking' \n]\n\n**Reasoning:**\n\nThe other words – 'pretend', 'finally', 'spanish', 'learn', 'confidence', 'sing', 'know', 'chicago' – all"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'learn'",
+            "'know'"
+          ],
+          [
+            "'weed'",
+            "'know'"
+          ]
+        ]
+      },
+      "raw": "('learn', 'know'), ('weed', 'know')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'weed' - This is a common word, but could be considered slang depending on context and might be flagged as potentially undesirable. \n]\n\nAll other words are valid and commonly used.",
+        "'weed' - Could be considered slang, potentially problematic depending on context. \n]\n\nAll other words are generally valid and common.",
+        "'weed' - Could be a typo for 'weed' or potentially a sensitive term depending on context. \n]\n\nAll other words are valid and common.",
+        "'weed' - While common, it’s often used in a specific context (marijuana) and could be considered slightly informal for some applications.\n]\n\nAll other words are generally valid and commonly used.",
+        "'weed' - Could be a typo for 'weed' or 'reed', but in this context, it's likely referring to cannabis, which is a sensitive topic.\n].\n\nAll other words are valid and commonly used.<end_of_turn>"
+      ]
+    }
+  },
+  "46": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "'wish' 'tix' 'know'"
+      },
+      "raw": [
+        "'wish', \n'tix', \n'know' \n]\n\n**Reasoning:**\n\nThe core of the topic set – 'game', 'marathon', 'reading', 'present', 'memory', 'write',",
+        "'wish', \n'tix', \n'know', \n'write' \n]\n\n**Reasoning:**\n\nThe core theme appears to be related to experiences, possessions, and recollections – things you *do* with",
+        "wish, \ntix \n\n]\n\n**Reasoning:**\n\n*   **game, marathon, reading:** These are all related to leisure activities and experiences.\n*   **present, memory:** These relate to gifts and recollections.",
+        "'wish', \n'tix', \n'know' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to experiences, possessions, and communication – things you *do*, *receive*, or *share",
+        "'wish', \n'tix', \n'know', \n'write' \n]\n\n**Reasoning:**\n\nThe core theme seems to be related to experiences, possessions, and recollection – things you *do*, *"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'wish'",
+            "'know'"
+          ],
+          [
+            "'tix'",
+            "'actual'"
+          ]
+        ]
+      },
+      "raw": "('wish', 'know'), ('tix', 'actual')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'tix' - Likely a typo for \"tickets\" \n]\n\nAll other words are common and valid.",
+        "'tix' - This is a common abbreviation for \"tickets,\" but could be considered a slightly informal or shortened token depending on context.\n]\n\nAll other words are valid and commonly used.",
+        "'tix' - This is a common abbreviation for \"tickets,\" but could be considered a minor typo depending on context.\n]\n\nAll other words are valid and common.",
+        "'tix' - This is a common abbreviation for \"tickets,\" but could be considered informal or a potential typo depending on context.\n]\n\nAll other words are generally valid and commonly used.",
+        "'tix' - This is a common abbreviation for \"tickets\", but could be considered informal and potentially malformed depending on the context. \n]\n\nAll other words are generally valid and commonly used."
+      ]
+    }
+  },
+  "47": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "health, \ninvite, \nvacation ]",
+        "'invite', 'check' ]\n\n**Reasoning:**\n\nThe other words ('damn', 'health', 'hoe', 'rest', 'send', 'hate', 'vacation', 'skip') all relate to states of being, well",
+        "\"invite\", \n\"check\" \n]\n\n**Reasoning:**\n\nThe majority of the words – 'damn', 'health', 'hoe', 'hate', 'rest', 'send' – relate to negative emotions, well-",
+        "\"invite\", \n\"vacation\" \n\n]\n\n**Reasoning:**\n\nThe majority of the words (\"damn\", \"health\", \"hoe\", \"hate\", \"rest\", \"send\", \"check\", \"skip\") relate to",
+        "health, \ninvite, \nvacation ]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'health'",
+            "'rest'"
+          ],
+          [
+            "'invite'",
+            "'send'"
+          ]
+        ]
+      },
+      "raw": "('health', 'rest'), ('invite', 'send')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 1,
+        "words": "'hoe' - Potentially offensive slang"
+      },
+      "raw": [
+        "'hoe' - Potentially offensive slang, could be considered a problematic term. \n]\n\nAll other words are valid and commonly used.",
+        "'hoe' - Potentially offensive slang, could be considered a problematic term.\n]\n\nAll other words are valid and commonly used.",
+        "'hoe' - Potentially offensive slang, could be considered malformed depending on context.\n]\n\nAll other words are valid and commonly used.",
+        "'hoe' - Potentially offensive slang, could be considered malformed depending on context.\n]\n\nAll other words are valid and commonly used.",
+        "'hoe' - Potentially offensive slang, could be considered a problematic term depending on context.\n]\n\nAll other words are generally valid and commonly used."
+      ]
+    }
+  },
+  "48": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 3,
+        "words": "training succeed prove"
+      },
+      "raw": [
+        "training, \nsucceed, \nprove ] \n\n**Reasoning:**\n\nThe core theme appears to be related to managing negativity, avoidance, and tasks – essentially dealing with problems or undesirable situations. “Training” and “succeed",
+        "training, \n\nsucceed, \n\nprove ] \n\n**Reasoning:**\n\nThe core theme seems to revolve around dealing with negativity, avoidance, and removal (bed, negative, rid, avoid, unnecessary). \"Training,\" \"s",
+        "'training', \n'succeed', \n'prove' \n]\n\n**Reasoning:**\n\nThe core theme seems to revolve around dealing with negativity, avoidance, and removal – essentially managing a problem or undesirable state.",
+        "training, \n\nsucceed, \n\nprove ] \n\n**Reasoning:**\n\nThe core theme appears to be related to overcoming obstacles, negativity, and reducing burdens. “Bed,” “negative,” “rid,” “avoid,” and “",
+        "training, \n\nsucceed, \n\nprove ] \n\n**Reasoning:**\n\nThe core theme seems to revolve around managing negativity, avoiding problems, and achieving a positive outcome. \"Bed\" and \"rid\" relate to removing or escaping"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'positive'",
+            "'negative'"
+          ],
+          [
+            "'task'",
+            "'training'"
+          ]
+        ]
+      },
+      "raw": "('positive', 'negative'), ('task', 'training')]"
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "'bed', \n'rid' \n]\n\nReasons:\n*   **bed:** While a common word, in the context of topic words, it seems slightly out of place.\n*   **rid:**  Could be considered",
+        "*   **rid**: While a valid word, it’s quite rare in this context and could be a typo for “read” or “ride” depending on the broader text.\n*   **prove**:  A valid word, but",
+        "'rid' - Could be a typo for 'read' or 'reed'. \n    'unnecessary' - While valid, it’s a lengthy word and might be flagged as potentially unusual depending on the context. \n]",
+        "*   **rid**: While a valid word, it's quite short and could be a typo for a longer, more specific word depending on the context.\n*   **prove**: This is a valid word, but could be considered an",
+        "*   **rid**: While a valid word, it's a relatively uncommon word in this context. Could be considered slightly unusual.\n*   **unnecessary**: This is a perfectly valid word, but the context of the list makes it"
+      ]
+    }
+  },
+  "49": {
+    "coherence": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "repetitive": {
+      "processed": 2.0,
+      "raw": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    "readability": {
+      "processed": 3.0,
+      "raw": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "outliers": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "art, \nfriend ] \n\n**Reasoning:**\n\nThe majority of the words – 'father', 'proud', 'mix', 'march', 'stick', 'lose', 'grind', 'great' – relate to concepts of",
+        "art, \nfriend \n].\n\n**Reasoning:**\n\nThe other words – ‘father’, ‘proud’, ‘mix’, ‘march’, ‘stick’, ‘lose’, ‘grind’, ‘great’ – all relate to themes of",
+        "art, \nfriend \n] \n\n**Reasoning:**\n\nThe majority of the words – ‘father’, ‘proud’, ‘mix’, ‘march’, ‘stick’, ‘lose’, ‘grind’, ‘great’ – relate to",
+        "'art', \n'mix' \n]",
+        "'art', \n'mix' \n]"
+      ]
+    },
+    "duplicate_concept": {
+      "processed": {
+        "num_pairs": 2,
+        "word_pairs": [
+          [
+            "'father'",
+            "'great'"
+          ],
+          [
+            "'friend'",
+            "'great'"
+          ]
+        ]
+      },
+      "raw": "('father', 'great'), ('friend', 'great')]\n\n**Reasoning:**\n\n*   **father & great:**  \"Father\" often implies a sense of greatness, especially in the context of lineage, responsibility, and positive influence. \""
+    },
+    "non_words": {
+      "processed": {
+        "num": 0,
+        "words": ""
+      },
+      "raw": [
+        "*   **mix**: While a common word, in this context it feels slightly out of place amongst the more concrete/emotional words. It's a less typical topic word choice.\n*   **stick**:  Could be considered slightly informal",
+        "*   **mix**: While a common word, in this context of topic words, it feels somewhat vague and doesn't strongly represent a topic.\n*   **stick**: Similar to \"mix,\" it's a common word but lacks",
+        "'mix' - This is a common word, but in the context of a list of topic words, it feels slightly less specific than the others and could be a typo or an unintended inclusion. \n'stick' -  While a common",
+        "'mix' - While common, it could be considered a slightly ambiguous token depending on the context. It’s a blend of \"mixture\" and could be simplified.\n'stick' - Could be considered a slightly informal or shortened form of",
+        "'mix' - While common, it’s a very general word and might be considered slightly vague in a topic list. \n'stick' - Could be considered a bit informal or a simple descriptor rather than a core topic."
+      ]
+    }
+  }
+}

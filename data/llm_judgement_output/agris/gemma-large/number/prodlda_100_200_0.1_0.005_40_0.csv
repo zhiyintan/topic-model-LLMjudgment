@@ -1,0 +1,101 @@
+ID	Topic words	Coherence	Repetitive	Readability	Number of Outliers	Outliers	Number of Same Concept Pairs	Same Concept Pairs	Number of Non-words	Non-words
+0	project state scheme problem district user action social local stakeholder	2.0	2.0	3.0	0		1	"[(""'state'"", ""'district'"")]"	0	
+1	irrigation scheme deficit regime schedule district frequency sprinkler drip requirement	3.0	2.0	3.0	3	ˈdeficitˈ ˈregimeˈ ˈscheduleˈ	2	"[(""'scheme'"", ""'regime'""), (""'frequency'"", ""'schedule'"")]"	0	
+2	nitrogen fertilizer phosphorus nutrient fertilization uptake apply potassium nitrate urea	3.0	1.0	3.0	1	urea	2	"[(""'nitrogen'"", ""'nitrate'""), (""'fertilizer'"", ""'urea'"")]"	0	
+3	groundwater aquifer recharge shallow table depletion deep alluvial decline rock	3.0	2.0	3.0	1	ˈrock	1	"[(""'aquifer'"", ""'groundwater'"")]"	0	
+4	distribution land pattern spatial variability cover map degradation vegetation cropland	3.0	2.0	3.0	0		2	"[(""'spatial'"", ""'map'""), (""'land'"", ""'cropland'"")]"	0	
+5	base water content scale surface soil model datum parameter zone	2.0	2.0	3.0	4	ˈmodel ˈdatum ˈparameter ˈzone	1	"[(""'datum'"", ""'base'"")]"	0	
+6	area cultivate command million urban km² suitable hectare irrigated unit	2.4	2.0	3.0	0		1	"[(""'hectare'"", ""'km²'"")]"	1	km²:** While understandable
+7	fruit harvest grape berry size wine tomato storage rdi sugar	3.0	2.0	3.0	0		1	"[(""'fruit'"", ""'tomato'"")]"	0	
+8	loss reduce drainage runoff leach drain nitrate subsurface reduction surface	3.0	1.0	3.0	1	reduction	2	"[(""'reduce'"", ""'reduction'""), (""'drain'"", ""'drainage'"")]"	0	
+9	deficit regime irrigation stage apply drip schedule efficiency wue yield	3.0	2.0	3.0	2	ˈsteɪdʒ əˈplaɪ	1	"[(""'apply'"", ""'drip'"")]"	0	
+10	medium material substrate form filter cell sand particle solution type	2.8	2.0	3.0	2	ˈsolution ˈtype	2	"[(""'material'"", ""'substrate'""), (""'cell'"", ""'particle'"")]"	0	
+11	soil moisture profile amendment sandy available layer texture heavy clay	3.0	2.0	3.0	7	heavy moisture profile amendment sandy layer texture	2	"[(""'soil'"", ""'texture'""), (""'heavy'"", ""'clay'"")]"	0	
+12	exp core agric deprivation adi apri photosynthate droughte salinized distil	2.0	2.0	2.0	7	adi apri core agric deprivation photosynthate droughte	1	"[(""'exp'"", ""'apri'"")]"	1	'exp'**: Likely an abbreviation
+13	cost operation benefit optimal network power pump reservoir optimization energy	3.0	2.0	3.0	7	pump operation benefit optimal network power optimization	3	"[(""'cost'"", ""'operation'""), (""'optimal'"", ""'optimization'""), (""'power'"", ""'energy'"")]"	0	
+14	datum image map satellite information resolution set classification series weather	3.0	2.0	3.0	2	'series' 'weather'	2	"[(""'datum'"", ""'information'""), (""'map'"", ""'image'"")]"	0	
+15	salinity salt saline nacl tolerance tolerant sodicity sodic ion chloride	3.0	1.0	3.0	2	ioni chloride	5	"[(""'salinity'"", ""'saline'""), (""'tolerance'"", ""'tolerant'""), (""'sodicity'"", ""'sodic'""), (""'salt'"", ""'nacl'""), (""'chloride'"", ""'ion'"")]"	1	nacl**: While representing sodium chloride
+16	drip sprinkler furrow subsurface fertigation mulch emitter plastic uniformity lateral	3.0	2.0	3.0	1	ˈplastic	2	"[(""'drip'"", ""'emitter'""), (""'lateral'"", ""'furrow'"")]"	0	
+17	plant height uptake density pot inoculate tissue leave treat number	3.0	2.0	3.0	0		1	"[(""'number'"", ""'count'"")]"	0	
+18	apply time plot interval day sub recommend split dose depth	2.0	2.0	3.0	3	'plot' 'depth' 'sub'	2	"[(""'interval'"", ""'time'""), (""'dose'"", ""'split'"")]"	0	
+19	potential deficit stomatal pressure conductance mpa midday stem transpiration osmotic	3.0	2.0	3.0	2	potential osmotic	1	"[(""'pressure'"", ""'osmotic'"")]"	0	
+20	rice cultivation paddy lowland flood aerobic upland cropping flooding awd	3.0	1.0	3.0	1	aerobic	1	"[(""'flood'"", ""'flooding'"")]"	0	
+21	season grow wet rainy summer dry winter end spring late	3.0	2.0	3.0	2	'end' 'late'	2	"[(""'summer'"", ""'spring'""), (""'winter'"", ""'spring'"")]"	0	
+22	basin river lake hydrological catchment dam sub delta yellow nile	3.0	2.0	3.0	2	ˈsub ˈyellow	1	"[(""'nile'"", ""'yellow'"")]"	0	
+23	tree orchard olive rootstock citrus apple old young graft peach	3.0	2.0	3.0	1	old	1	"[(""'apple'"", ""'peach'"")]"	0	
+24	grain yield filling component reduction spike gap straw biomass maximum	3.0	2.0	3.0	5	gap maximum filling component reduction	2	"[(""'grain'"", ""'spike'""), (""'maximum'"", ""'yield'"")]"	0	
+25	fertilization organic biomass nitrogen carbon microbial residue term manure straw	3.0	2.0	3.0	1	term	1	"[(""'carbon'"", ""'nitrogen'"")]"	0	
+26	index vegetation difference relationship canopy correlation ndvi reflectance correlate normalize	3.0	2.0	3.0	3	ˈdifference ˈnormalize ˈcorrelate	1	"[(""'normalize'"", ""'ndvi'"")]"	0	
+27	cropping potato cultivation rainfed production maize wheat feed vegetable cotton	3.0	2.0	3.0	0		1	"[(""'cropping'"", ""'cultivation'"")]"	0	
+28	design block clay loam sandy fine sand mixed plot split	2.0	2.0	3.0	2	plot split	1	"[(""'sand'"", ""'sandy'"")]"	0	
+29	management practice decision conservation plan pest resource information knowledge policy	3.0	2.0	3.0	0		2	"[(""'management'"", ""'policy'""), (""'practice'"", ""'plan'"")]"	0	
+30	produce tomato chemical vegetable nutrient source total fresh waste product	3.0	2.0	3.0	4	'chemical' 'total' 'waste' 'product'	1	"[(""'product'"", ""'produce'"")]"	0	
+31	solution nutrient pot seedling zone grow uptake tomato root greenhouse	3.0	2.0	3.0	0		1	"[(""'root'"", ""'seedling'"")]"	0	
+32	seed germination date oil number percentage difference produce pod sow	3.0	2.0	3.0	4	ˈdate ˈnumber ˈpercentage ˈdifference	2	"[(""'seed'"", ""'germination'""), (""'date'"", ""'pod'"")]"	0	
+33	farm farmer household income farming access market family smallholder adoption	3.0	2.0	3.0	1	ˈadoptionˈ	2	"[(""'farm'"", ""'farming'""), (""'farmer'"", ""'smallholder'"")]"	0	
+34	emission greenhouse co₂ carbon flux n₂o ghg oxide ch₄ methane	3.0	1.0	3.0	1	oxide	3	"[(""'co₂'"", ""'carbon'""), (""'ch₄'"", ""'methane'""), (""'ghg'"", ""'greenhouse'"")]"	0	
+35	application rate foliar recommend manure photosynthetic fertilizer biochar urea apply	3.0	2.0	3.0	0		3	"[(""'apply'"", ""'application'""), (""'fertilizer'"", ""'manure'""), (""'urea'"", ""'fertilizer'"")]"	0	
+36	water deficit wue supply efficiency saving consumption footprint requirement stress	3.0	2.0	3.0	1	ˈwue	2	"[(""'requirement'"", ""'supply'""), (""'deficit'"", ""'stress'"")]"	0	
+37	isolate strain symptom vitro methyl fungus phytophthora infect assay oxysporum	3.0	2.0	3.0	2	ˈmethyl ˈvitro	1	"[(""'phytophthora'"", ""'oxysporum'"")]"	0	
+38	total content decrease soluble relative chlorophyll sugar reduction protein ratio	2.0	2.0	3.0	0		1	"[(""'decrease'"", ""'reduction'"")]"	0	
+39	wsc deprivation adi wdi bundle geranium droughte distil normalise apri	2.0	2.0	2.0	2	ˈdʒɪˈreɪniəm ˈdɪstɪl	2	"[(""'wsc'"", ""'wdi'""), (""'adi'"", ""'apri'"")]"	0	
+40	region arid humid climatic east desert province oasis zone temperate	3.0	2.0	3.0	2	ˈeast ˈprovince	2	"[(""'arid'"", ""'desert'""), (""'humid'"", ""'oasis'"")]"	0	
+41	adi photosynthate girth droughte normalise salinized apri dis wsi midstream	2.0	2.0	2.0	0		2	"[(""'adi'"", ""'apri'""), (""'droughte'"", ""'drought'"")]"	0	
+42	period scenario rainfall base annual time precipitation estimate average net	3.0	2.0	3.0	3	ˈbase ˈnet ˈtime	2	"[(""'period'"", ""'time'""), (""'annual'"", ""'average'"")]"	0	
+43	concentration solution nitrate no₃ tissue chloride potassium calcium limit exceed	3.0	2.0	3.0	2	ˈlimit ˈexceed	1	"[(""'no₃'"", ""'nitrate'"")]"	1	no₃**: While representing nitrate
+44	environment genotype trait genetic selection drought tolerance qtl tolerant line	3.0	1.2	3.0	1	ˈline	1	"[(""'tolerant'"", ""'tolerance'"")]"	1	qtl**: While commonly used *within* genetics
+45	practice reduce input potential term loss agricultural management nutrient risk	2.0	2.0	3.0	0		1	"[(""'input'"", ""'term'"")]"	0	
+46	factor analysis component principal cluster correlation variable group sensitivity variance	3.0	2.0	3.0	1	sensitivity	2	"[(""'component'"", ""'factor'""), (""'correlation'"", ""'variance'"")]"	0	
+47	dry number weight matter length wet biomass fresh height shoot	2.0	2.0	3.0	2	ˈnumberˈ ˈshootˈ	1	"[(""'dry'"", ""'wet'"")]"	0	
+48	range respectively value average mean maximum percent reach annual error	3.0	2.0	3.0	2	ˈrespectively error	1	"[(""'mean'"", ""'average'"")]"	0	
+49	temperature variation air seasonal precipitation difference trend wind rainfall radiation	3.0	2.0	3.0	0		1	"[(""'precipitation'"", ""'rainfall'"")]"	0	
+50	corn forage great feed pasture alfalfa manure sorghum grass animal	3.0	2.0	3.0	1	ˈgreat	1	"[(""'animal'"", ""'forage'"")]"	0	
+51	agricultural urban service ecosystem ecological activity human local rural farming	3.0	2.0	3.0	2	ervice urban	1	"[(""'ecological'"", ""'ecosystem'"")]"	0	
+52	droughte adi replenish distil tsp deprivation radiative dma kermanshah girth	2.0	2.0	2.0	4	'tsp' 'dma' 'girth' 'adi'	2	"[(""'dma'"", ""'adi'""), (""'tsp'"", ""'dma'"")]"	0	
+53	stage number high low dry grain weight density early plant	2.0	2.0	3.0	2	number high	1	"[(""'high'"", ""'low'"")]"	0	
+54	depth surface layer deep moisture profile zone density table time	3.0	2.0	3.0	1	ˈtimeˈ	1	"[(""'deep'"", ""'depth'"")]"	0	
+55	sample detect type coli site sampling hco₃ limit detection coliform	3.0	1.0	3.0	2	ˈhco₃ limit	2	"[(""'detect'"", ""'detection'""), (""'coli'"", ""'coliform'"")]"	1	hco₃**: While representing bicarbonate
+56	yield produce component grain lint soybean corn cotton oil average	3.0	2.0	3.0	3	ˈlint ˈaverage ˈcomponent	1	"[(""'yield'"", ""'produce'"")]"	1	in the context of the other agricultural terms
+57	planting cotton tillage conventional row density date soybean bed mulch	3.0	2.0	3.0	0		1	"[(""'row'"", ""'bed'"")]"	0	
+58	quality parameter sodium ratio sar suitable suitability adsorption index standard	2.0	2.0	3.0	1	ˈadsorption	2	"[(""'suitable'"", ""'suitability'""), (""'sar'"", ""'ratio'"")]"	0	
+59	research technology information knowledge adoption institute practice program university grower	2.0	2.0	3.0	0		1	"[(""'knowledge'"", ""'information'"")]"	1	grower**: While a valid English word
+60	irrigate irrigated non rainfed dryland site rain lowland cropland feed	3.0	2.0	3.0	0		1	"[(""'irrigate'"", ""'irrigated'"")]"	0	
+61	estimate evapotranspiration evaporation measurement actual daily heat equation coefficient flux	3.0	1.0	3.0	3	heat equation coefficient	1	"[(""'evapotranspiration'"", ""'evaporation'"")]"	0	
+62	method base time sensor test point series measurement conventional detection	2.6	2.0	3.0	2	ˈconventional detection	1	"[(""'measurement'"", ""'test'"")]"	0	
+63	irrigation surface drainage reduce water saline furrow drip flood depth	3.0	2.0	3.0	0		1	"[(""'water'"", ""'irrigation'"")]"	0	
+64	adi salinized denote droughte cwu wsi apri replenish swb deprivation	2.0	2.0	2.0	4	'cwu' 'swb' 'apri' 'denote'	2	"[(""'adi'"", ""'apri'""), (""'swb'"", ""'wsi'"")]"	0	
+65	field site paddy scale trial capacity test location open measurement	2.8	2.0	3.0	4	ˈscaleˈ ˈtestˈ ˈmeasurementˈ ˈcapacityˈ	1	"[(""'site'"", ""'location'"")]"	0	
+66	wastewater treat effluent reuse sewage municipal industrial waste reclaimed pharmaceutical	3.0	1.8	3.0	1	pharmaceutical	2	"[(""'waste'"", ""'wastewater'""), (""'treat'"", ""'reuse'"")]"	0	
+67	year period annual rainfall old average month precipitation trend normal	3.0	2.0	3.0	0		2	"[(""'annual'"", ""'year'""), (""'precipitation'"", ""'rainfall'"")]"	0	
+68	production energy consumption input cycle vegetable fuel function biomass renewable	3.0	2.0	3.0	2	ˈvegetable ˈfunction	2	"[(""'production'"", ""'consumption'""), (""'energy'"", ""'fuel'"")]"	0	
+69	level low decline salinity moderate reach medium high sea capacity	2.0	2.0	3.0	1	ˈcapacity	3	"[(""'low'"", ""'moderate'""), (""'moderate'"", ""'medium'""), (""'medium'"", ""'high'"")]"	0	
+70	cultivar variety hybrid line trial breeding selection resistant resistance susceptible	3.0	1.0	3.0	1	ˈtrial	2	"[(""'resistant'"", ""'resistance'""), (""'cultivar'"", ""'variety'"")]"	0	
+71	wheat maize winter spring barley cropping sorghum bean durum summer	3.0	2.0	3.0	0		2	"[(""'spring'"", ""'summer'""), (""'winter'"", ""'summer'"")]"	0	
+72	different type regime scenario location climatic test optimal term variation	2.0	2.0	3.0	2	test 'type'	1	"[(""'type'"", ""'variation'"")]"	0	
+73	development country food security rural poverty people national livelihood population	3.0	2.0	3.0	0		1	"[(""'people'"", ""'population'"")]"	0	
+74	efficiency net return wue benefit ratio cost input gross saving	3.0	2.0	3.0	1	ˈwue	2	"[(""'gross'"", ""'net'""), (""'cost'"", ""'saving'"")]"	0	
+75	stress drought tolerance heat moderate recovery tolerant expression photosynthetic antioxidant	3.0	2.0	3.0	2	moderate expression	1	"[(""'tolerance'"", ""'tolerant'"")]"	0	
+76	organic chemical matter dissolve fraction carbon total mineral solid conductivity	3.0	2.0	3.0	2	ˈtotal ˈconductivity	1	"[(""'matter'"", ""'total'"")]"	0	
+77	green summer grass perennial spring month great cover turfgrass roof	3.0	2.0	3.0	3	ˈgreatˈ ˈmonthˈ ˈroofˈ	1	"[(""'grass'"", ""'turfgrass'"")]"	0	
+78	water supply source ground fresh surface reclaimed drinking consumption quality	3.0	2.0	3.0	0		1	"[(""'fresh'"", ""'drinking'"")]"	0	
+79	mean regression error square coefficient linear variable prediction rmse daily	3.0	2.0	3.0	1	daily	2	"[(""'regression'"", ""'linear'""), (""'error'"", ""'rmse'"")]"	0	
+80	supply water demand requirement allocation storage consumption available resource reservoir	3.0	2.0	3.0	1	demand	2	"[(""'demand'"", ""'requirement'""), (""'available'"", ""'resource'"")]"	0	
+81	population disease resistance gene bacterial bacteria pathogen isolate group microbial	3.0	1.0	3.0	0		1	"[(""'bacteria'"", ""'bacterial'"")]"	0	
+82	risk heavy health metal human limit contamination vegetable pollution arsenic	3.0	2.0	3.0	2	'human' 'vegetable'	1	"[(""'contamination'"", ""'pollution'"")]"	0	
+83	growth stage vegetative seedling reproductive early germination tomato flowering uptake	3.0	2.0	3.0	1	ˈuptake	1	"[(""'growth'"", ""'uptake'"")]"	0	
+84	treatment difference receive control apply respectively wastewater rdi reduction removal	3.0	2.0	3.0	0		1	"[(""'removal'"", ""'reduction'"")]"	0	
+85	leaf stem leave stomatal conductance transpiration photosynthetic height diameter light	3.0	2.0	3.0	0		1	"[(""'leaf'"", ""'leave'"")]"	2	'leave'**: While a valid English word in the context of the other terms (leaf
+86	root zone leave shoot uptake length content sugar biomass square	2.0	2.0	3.0	0		1	"[(""'biomass'"", ""'length'"")]"	0	
+87	specie community ecosystem landscape habitat diversity fish structure wetland native	3.0	2.0	3.0	0		2	"[(""'ecosystem'"", ""'community'""), (""'habitat'"", ""'landscape'"")]"	1	"specie** - Should be ""species"". It's a common misspelling."
+88	crop requirement coefficient rotation cover evapotranspiration residue diversification vegetable cereal	3.0	2.0	3.0	2	ˈcereal ˈvegetable	1	"[(""'cereal'"", ""'vegetable'"")]"	0	
+89	acid activity compound oil protein enzyme extract antioxidant fatty phenolic	3.0	2.0	3.0	0		1	"[(""'fatty'"", ""'oil'"")]"	0	
+90	demand resource supply sector allocation global regional nexus policy energy	3.0	2.0	3.0	1	ˈnexus	1	"[(""'supply'"", ""'demand'"")]"	0	
+91	flow hydraulic discharge pressure head infiltration function transport volume velocity	3.0	2.0	3.0	0		2	"[(""'discharge'"", ""'flow'""), (""'volume'"", ""'flow'"")]"	0	
+92	change climate adaptation scenario global variability regional climatic vulnerability rcp	3.0	2.0	3.0	5	scenario climate adaptation climatic vulnerability	1	"[(""'climatic'"", ""'climate'"")]"	0	
+93	process source sediment reservoir canal lake stream channel pond dam	3.0	2.0	3.0	1	ˈsource	1	"[(""'canal'"", ""'channel'"")]"	0	
+94	control weed plot herbicide pest spray insecticide disease pre split	3.0	1.6	3.0	2	ˈplot ˈsplit	1	"[(""'weed'"", ""'pest'"")]"	0	
+95	day early week late flowering stage interval harvest period date	3.0	2.0	3.0	2	flowering stage	2	"[(""'period'"", ""'interval'""), (""'date'"", ""'day'"")]"	0	
+96	model simulation optimization uncertainty prediction scenario programming calibration linear swat	3.0	2.0	3.0	1	ˈswat	1	"[(""'model'"", ""'simulation'"")]"	0	
+97	low high record medium produce density resolution value ratio moderate	2.0	2.0	3.0	2	ˈproduce ˈvalue	2	"[(""'low'"", ""'medium'""), (""'high'"", ""'moderate'"")]"	0	
+98	increase decrease decline trend demand population fold precipitation wue temperature	2.8	1.0	2.2	1	ˈwue	2	"[(""'increase'"", ""'demand'""), (""'decrease'"", ""'decline'"")]"	0	
+99	moisture soil profile layer texture conductivity clay sandy hydraulic depth	3.0	2.0	3.0	1	ˈhydraulic	2	"[(""'soil'"", ""'texture'""), (""'hydraulic'"", ""'conductivity'"")]"	0	

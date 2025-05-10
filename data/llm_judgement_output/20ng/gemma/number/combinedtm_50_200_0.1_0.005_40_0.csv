@@ -1,0 +1,51 @@
+ID	Topic words	Coherence	Repetitive	Readability	Number of Outliers	Outliers	Number of Same Concept Pairs	Same Concept Pairs	Number of Non-words	Non-words
+0	performer pimental amusement realityengine meteosat cruel incorporated convolution assertaine multiprocessor	2.0	2.0	2.0	1	'assertaine'	2	"[(""'performer'"", ""'amusement'""), (""'cruel'"", ""'incorporated'"")]"	0	
+1	christian christians heaven sin love bible easter prayer resurrection christ	3.0	2.0	3.0	0		3	"[(""'christian'"", ""'christians'""), (""'heaven'"", ""'resurrection'""), (""'bible'"", ""'christ'"")]"	0	
+2	atf fbi museum terrorism missile enclose surrender affair bosnia backing	2.0	2.0	3.0	0		2	"[(""'atf'"", ""'fbi'""), (""'bosnia'"", ""'surrender'"")]"	1	'enclose' - While a valid word
+3	performer pimental realityengine incorporated abundance meteosat startrek convolution coefficient multiprocessor	2.0	2.0	3.0	4	'pimental' 'meteosat' 'startrek' 'coefficient'	2	"[(""'performer'"", ""'startrek'""), (""'coefficient'"", ""'multiprocessor'"")]"	0	
+4	window application manager display set font motif problem event user	2.8	2.0	3.0	0		2	"[(""'application'"", ""'manager'""), (""'font'"", ""'set'"")]"	1	'motif' - While a valid word
+5	ryan prediction talent performer chop cup realityengine multiprocessor pimental thumb	2.0	2.0	2.8	2	cup thumb	1	"[(""'ryan'"", ""'thumb'"")]"	0	
+6	display window font thank graphic color screen file advance client	2.0	2.0	3.0	2	'thank' 'client'	2	"[(""'display'"", ""'screen'""), (""'font'"", ""'window'"")]"	0	
+7	team game max player play win cup end fan air	2.2	2.0	3.0	1	air	3	"[(""'team'"", ""'fan'""), (""'game'"", ""'play'""), (""'max'"", ""'end'"")]"	0	
+8	presentation seminar authors sphere address warfare presentations byoh shiek visualization	2.0	2.0	2.0	2	'sphere' 'shiek'	2	"[(""'presentation'"", ""'presentations'""), (""'byoh'"", ""'presentations'"")]"	0	
+9	ride cool helmet car boom nuclear shift road horse engine	2.0	2.0	3.0	2	'nuclear' 'horse'	2	"[(""'car'"", ""'engine'""), (""'helmet'"", ""'ride'"")]"	0	
+10	team cup fan abc roger toronto player sport game pen	2.0	2.0	3.0	2	'abc' 'roger'	3	"[(""'team'"", ""'player'""), (""'team'"", ""'toronto'""), (""'cup'"", ""'pen'"")]"	0	
+11	graphic graphics thank site gif advance email hello domain location	2.0	2.0	3.0	2	'thank' 'hello'	2	"[(""'graphic'"", ""'graphics'""), (""'thank'"", ""'hello'"")]"	0	
+12	clipper chip phone announcement key white house communication government legal	2.0	2.0	3.0	0		2	"[(""'phone'"", ""'communication'""), (""'white'"", ""'house'"")]"	0	
+13	study sensitivity msg food effect headache medical disease cause flavor	2.2	2.0	3.0	1	'flavor'	2	"[(""'study'"", ""'medical'""), (""'food'"", ""'flavor'"")]"	1	'msg' - This is a common abbreviation for monosodium glutamate
+14	daily humor promise ignorance kent performer proud pimental realityengine tammy	2.0	2.0	3.0	3	kent pimental tammy	1	"[(""'kent'"", ""'tammy'"")]"	0	
+15	disk file image problem use windows input case model error	2.0	2.0	3.0	2	windows input	2	"[(""'disk'"", ""'file'""), (""'windows'"", ""'error'"")]"	0	
+16	advance anybody gif viewer thank compile archie indiana download animation	2.0	2.0	3.0	3	'thank' 'archie' 'indiana'	2	"[(""'advance'"", ""'download'""), (""'gif'"", ""'animation'"")]"	1	'gif' - While commonly used
+17	gun libertarian economic tax crime sales spending ban amendment legal	2.0	2.0	3.0	1	amendment	3	"[(""'gun'"", ""'legal'""), (""'tax'"", ""'economic'""), (""'tax'"", ""'spending'"")]"	1	'ban' - While common
+18	performer pimental multiprocessor incorporated correspnde smattering realityengine drawings meteosat twosie	2.0	2.0	2.0	4	'pimental' 'correspnde' 'meteosat' 'twosie'	7	"[(""'performer'"", ""'twosie'""), (""'pimental'"", 'None'), (""'multiprocessor'"", 'None'), (""'incorporated'"", 'None'), (""'correspnde'"", 'None'), (""'smattering'"", 'None'), (""'realityengine'"", 'None')]"	0	
+19	right law state amendment second use mean government case people	2.0	2.0	3.0	2	use mean	5	"[(""'law'"", ""'state'""), (""'law'"", ""'government'""), (""'law'"", ""'case'""), (""'amendment'"", ""'second'""), (""'people'"", ""'government'"")]"	0	
+20	buy car monitor printer price manual service wire cheap portable	2.0	2.0	3.0	2	'monitor' 'wire'	4	"[(""'buy'"", ""'cheap'""), (""'buy'"", ""'price'""), (""'monitor'"", ""'printer'""), (""'portable'"", ""'cheap'"")]"	0	
+21	genocide today turks mountain escape shoot single soul population homeland	2.0	2.0	2.0	3	'mountain' 'escape' 'single'	2	"[(""'turks'"", ""'homeland'""), (""'turks'"", ""'population'"")]"	1	'today' - While common
+22	car temperature speed mile time light tire high rotate limit	2.8	2.0	3.0	1	'light'	3	"[(""'tire'"", ""'rotate'""), (""'mile'"", ""'time'""), (""'high'"", ""'limit'"")]"	0	
+23	team player game play year good hit win bad fan	3.0	2.0	3.0	2	year fan	2	"[(""'team'"", ""'fan'""), (""'player'"", ""'fan'"")]"	0	
+24	clinic ussr sensitivity risk resident bush taste concentrate nuclear health	2.0	2.0	3.0	2	'taste' 'bush'	2	"[(""'clinic'"", ""'health'""), (""'ussr'"", ""'health'"")]"	0	
+25	jewish university history professor jews stanford century power greek new	2.0	2.0	3.0	2	'greek' 'new'	2	"[(""'jewish'"", ""'jews'""), (""'stanford'"", ""'university'"")]"	0	
+26	card monitor chip scsi drive video use mac windows fast	2.0	2.0	3.0	3	'use' 'mac' 'windows'	2	"[(""'card'"", ""'chip'""), (""'mac'"", ""'windows'"")]"	1	'scsi' - While a valid term
+27	gun law file secretly space information san allege year anti	2.0	2.0	2.0	0		2	"[(""'file'"", ""'information'""), (""'san'"", ""'information'"")]"	0	
+28	isa slot performance board slow upgrade motherboard bus spec cpu	2.2	2.0	3.0	0		2	"[(""'motherboard'"", ""'board'""), (""'cpu'"", ""'spec'"")]"	0	
+29	god good jesus time man day thing behold betray crucifixion	3.0	2.0	3.0	3	'time' 'behold' 'betray'	2	"[(""'god'"", ""'jesus'""), (""'man'"", ""'god'"")]"	0	
+30	people know time like come right think look tell want	2.0	2.0	3.0	0		2	"[(""'know'"", ""'think'""), (""'right'"", ""'like'"")]"	0	
+31	god law church islam islamic christ marriage world bosnia jewish	3.0	2.0	3.0	2	'world' 'bosnia'	3	"[(""'god'"", ""'christ'""), (""'islam'"", ""'islamic'""), (""'marriage'"", ""'church'"")]"	0	
+32	morality atheists objective islam islamic keith political moral jon definition	2.0	2.0	3.0	2	'keith' 'jon'	2	"[(""'morality'"", ""'moral'""), (""'islam'"", ""'islamic'"")]"	0	
+33	use version available machine key bit number write software code	3.0	2.0	3.0	0		2	"[(""'version'"", ""'number'""), (""'software'"", ""'code'"")]"	0	
+34	drive problem disk hard boot cable scsi quantum error duo	2.2	2.0	3.0	1	duo	3	"[(""'drive'"", ""'disk'""), (""'scsi'"", ""'hard'""), (""'quantum'"", ""'disk'"")]"	0	
+35	chip clipper serial modem bit scsi speed board fast apple	2.0	2.0	3.0	1	apple	2	"[(""'chip'"", ""'board'""), (""'modem'"", ""'clipper'"")]"	0	
+36	god truth argument true believe christians evidence arrogance reason claim	3.0	2.0	3.0	1	arrogance	3	"[(""'god'"", ""'christians'""), (""'truth'"", ""'true'""), (""'reason'"", ""'argument'"")]"	0	
+37	game team bob jeff copy gary minnesota john chicago mike	2.0	2.0	3.0	5	'bob' 'jeff' 'gary' 'john' 'mike'	2	"[(""'bob'"", ""'jeff'""), (""'minnesota'"", ""'chicago'"")]"	0	
+38	performer pimental incorporated smattering realityengine monterey abundance meteosat publically winn	2.0	2.0	2.8	3	'pimental' 'meteosat' 'winn'	1	"[(""'realityengine'"", ""'winn'"")]"	0	
+39	card video mouse driver diamond ati ultra switch instal setting	2.0	2.0	3.0	2	'diamond' 'switch'	2	"[(""'card'"", ""'driver'""), (""'ati'"", ""'ultra'"")]"	0	
+40	gun swinburne christian good problem humanism prometheus like hitler love	2.0	2.0	2.0	3	'swinburne' 'prometheus' 'like'	1	"[(""'christian'"", ""'good'"")]"	0	
+41	sale offer sell interested condition shipping price brand forsale trade	3.0	1.2	3.0	1	'interested'	3	"[(""'sale'"", ""'sell'""), (""'offer'"", ""'sell'""), (""'sale'"", ""'forsale'"")]"	0	
+42	mail space sci internet news security content faq message key	2.6	2.0	3.0	0		2	"[(""'mail'"", ""'message'""), (""'sci'"", ""'news'"")]"	0	
+43	announcement walker systems newsreader corporation clipper shelf tcp corporate lobbying	2.0	2.0	3.0	2	'shelf' 'tcp'	2	"[(""'corporation'"", ""'corporate'""), (""'walker'"", ""'clipper'"")]"	0	
+44	space power use high info include satellite image strategic thrust	2.0	2.0	3.0	0		2	"[(""'satellite'"", ""'image'""), (""'strategic'"", ""'high'"")]"	0	
+45	performer pimental incorporated winn handicap smattering amusement danke laze booboo	2.0	2.0	2.0	3	danke laze booboo	1	"[(""'pimental'"", ""'amusement'"")]"	3	'pimental' 'danke' 'booboo'
+46	question god exist religion life believe good use morality thing	3.0	2.0	3.0	0		3	"[(""'god'"", ""'religion'""), (""'believe'"", ""'religion'""), (""'good'"", ""'morality'"")]"	1	'thing'
+47	think year work thank question program need try want government	2.0	2.0	3.0	1	'government'	3	"[(""'think'"", ""'question'""), (""'work'"", ""'program'""), (""'need'"", ""'want'"")]"	0	
+48	performer pimental incorporated sum smattering undecidable nonexclusive laze mythic realityengine	2.0	2.0	2.8	2	laze realityengine	1	"[(""'realityengine'"", ""'undecidable'"")]"	0	
+49	israel peace gun crime control state syria death fbi civilian	2.0	2.0	3.0	1	'fbi'	2	"[(""'state'"", ""'civilian'""), (""'gun'"", ""'crime'"")]"	0	

@@ -1,0 +1,101 @@
+ID	Topic words	Coherence	Repetitive	Readability	Number of Outliers	Outliers	Number of Same Concept Pairs	Same Concept Pairs	Number of Non-words	Non-words
+0	nutrient solution nacl element rich boron strength synthetic closed hydroponic	3.0	2.0	3.0	0		1	"[(""'nacl'"", ""'element'"")]"	0	
+1	concentration total fresh soluble solid ion exceed dissolve leachate dominant	2.0	2.0	3.0	0		1	"[(""'total'"", ""'dominant'"")]"	0	
+2	production gap begin coffee cranberry cocoa cacao constantly ouagadougou bog	2.0	2.0	3.0	0		1	"[(""'cacao'"", ""'cocoa'"")]"	0	
+3	salt drainage leach subsurface tolerant drain humid migration ditch waterlogging	3.0	1.2	3.0	2	humid migration	2	"[(""'drain'"", ""'drainage'""), (""'leach'"", ""'subsurface'"")]"	0	
+4	root activity shoot length protein sugar gene antioxidant enzyme fiber	2.8	2.0	3.0	1	ˈlength	1	"[(""'gene'"", ""'protein'"")]"	0	
+5	produce indicator like pathogen survival chain gradient virus reaction organism	2.0	2.0	3.0	3	ˈlike ˈgradient ˈreaction	2	"[(""'pathogen'"", ""'virus'""), (""'organism'"", ""'pathogen'"")]"	0	
+6	stress drought tolerance recovery compartment spi spei warning tam rewatere	3.0	2.0	2.0	1	ˈkompɑːtmənt	1	"[(""'spi'"", ""'spei'"")]"	1	'tam'**: This is a very short and ambiguous abbreviation. Without context
+7	sample mass standard material phase extraction sampling category liquid deviation	2.8	2.0	3.0	0		2	"[(""'sample'"", ""'sampling'""), (""'mass'"", ""'material'"")]"	0	
+8	efficiency resource water freshwater vulnerability competition withdrawal usage charge externality	3.0	2.0	3.0	2	ˈcharge ˈexternality	1	"[(""'usage'"", ""'withdrawal'"")]"	0	
+9	soil depth carbon layer profile microbial soc pool respiration amend	3.0	2.0	3.0	2	ˈamend ˈrespiration	1	"[(""'soc'"", ""'soil organic carbon'"")]"	0	
+10	irrigated pattern approximately water article trap internet iot mound moth	2.0	2.0	3.0	4	ˈmoth ˈarticle ˈtrap ˈapproximately	1	"[(""'water'"", ""'irrigated'"")]"	2	moth**: While a valid word IoT
+11	region great arid suitable history mena sat volga campo karoo	2.0	2.0	3.0	0		1	"[(""'region'"", ""'mena'"")]"	1	"sat**: While ""sat"" is a valid word"
+12	development term sub miss estate ofr sdg com water kilometer	2.0	2.0	2.0	3	'miss' 'com' 'kilometer'	1	"[(""'sdg'"", ""'com'"")]"	0	
+13	process ecosystem cycle function service million hectare aquatic century agroecosystem	3.0	2.0	3.0	3	ˈmillionˈ ˈhectareˈ ˈcenturyˈ	2	"[(""'process'"", ""'cycle'""), (""'ecosystem'"", ""'agroecosystem'"")]"	1	million**: While a valid word
+14	simulation scenario project sugarcane run replace rcp ethanol dependence ensemble	2.0	2.0	3.0	5	project replace scenario run ensemble	2	"[(""'simulation'"", ""'scenario'""), (""'run'"", ""'project'"")]"	0	
+15	quality information seasonal structure poor harvesting rainwater wqi maximise entropy	2.0	2.0	3.0	0		1	"[(""'wqi'"", ""'quality'"")]"	1	wqi**: While potentially an abbreviation for Water Quality Index
+16	salinity cotton dryland texas chickpea peanut lint sodicity quinoa induction	2.0	2.0	3.0	0		1	"[(""'salinity'"", ""'sodicity'"")]"	1	it seems out of place in a list focused on agriculture
+17	leaf relative leave stem transpiration transport stomatal chlorophyll conductance photosynthetic	3.0	2.0	3.0	0		2	"[(""'leaf'"", ""'stem'""), (""'leave'"", ""'relative'"")]"	0	
+18	type rainfall biomass event intensity aboveground wpi scs stemflow cessation	2.0	2.0	3.0	2	wpi scs	1	"[(""'wpi'"", ""'scs'"")]"	0	
+19	increase decrease california stock county san coast juan sacramento sjv	2.0	2.0	3.0	3	ˈincrease ˈdecrease ˈstock	2	"[(""'san'"", ""'sacramento'""), (""'san'"", ""'juan'"")]"	0	
+20	input relationship variability climatic output vineyard position dimension weir train	2.0	2.0	3.0	0		1	"[(""'input'"", ""'output'"")]"	0	
+21	drip planting date furrow mulch row fertigation plastic bed space	3.0	2.0	3.0	1	ˈdeɪt	1	"[(""'row'"", ""'bed'"")]"	0	
+22	estimate local community optimum bio increment reserve break replacement mobilize	2.0	2.0	3.0	3	ˈbreak ˈreplacement ˈmobilize	1	"[(""'replacement'"", ""'break'"")]"	0	
+23	crop evapotranspiration requirement schedule cwp cwr iwp cir teff specialty	3.0	2.0	3.0	0		2	"[(""'cwp'"", ""'cwr'""), (""'iwp'"", ""'cir'"")]"	1	but without context
+24	rice cultivation flood rainfed paddy percent lowland arsenic flooding upland	3.0	1.6	3.0	2	arsenic percent	2	"[(""'flood'"", ""'flooding'""), (""'rice'"", ""'paddy'"")]"	0	
+25	content acid oil olive compound vine foliar sunflower grape wine	3.0	2.0	3.0	3	ˈacid ˈcompound ˈfoliar	1	"[(""'grape'"", ""'wine'"")]"	0	
+26	reduce difference single damage store drop core favourable displacement weevil	2.0	2.0	3.0	0		1	"[(""'difference'"", ""'displacement'"")]"	1	weevil:** While a valid word
+27	risk human consumption health ecological exposure public reclaimed age pathway	3.0	2.0	3.0	3	'reclaimed' 'age' 'pathway'	1	"[(""'human'"", ""'public'"")]"	0	
+28	change climate adaptation urban landscape plan stream expansion city channel	3.0	2.0	3.0	2	expansion channel	1	"[(""'city'"", ""'urban'"")]"	0	
+29	time available pot initial series place domain enriched swb potting	2.0	2.0	2.0	3	'pot' 'potting' 'swb'	1	"[(""'pot'"", ""'potting'"")]"	1	swb**: This is a very unclear abbreviation. Without context
+30	agricultural factor resistance antibiotic mobile diffusion propagation arg args sulfamethoxazole	2.2	2.0	3.0	2	ˈmoʊbaɪl dɪˈfjuːʒən	1	"[(""'arg'"", ""'args'"")]"	0	
+31	disease pest bacterial resistant infection nursery insect severity agent incidence	3.0	2.0	3.0	0		3	"[(""'disease'"", ""'infection'""), (""'pest'"", ""'insect'""), (""'agent'"", ""'bacterial'"")]"	0	
+32	source population line lake selection criterion east parent restoration landrace	2.0	2.0	3.0	1	ˈiːst	2	"[(""'source'"", ""'population'""), (""'parent'"", ""'source'"")]"	0	
+33	temperature precipitation canopy daily trend pressure weather air station light	3.0	2.0	3.0	1	station	1	"[(""'weather'"", ""'air'"")]"	0	
+34	value mean annual uniformity quarter percentile dmp biennial geometric chia	2.0	2.0	3.0	0		1	"[(""'annual'"", ""'biennial'"")]"	0	
+35	year variable state hand step feature pradesh loess lag yearly	2.0	2.0	3.0	2	ˈpradesh ˈloess	1	"[(""'year'"", ""'yearly'"")]"	0	
+36	model datum index coefficient vegetation network regression equation linear prediction	3.0	2.0	3.0	1	vegetation	2	"[(""'model'"", ""'prediction'""), (""'linear'"", ""'regression'"")]"	0	
+37	parameter distribution spatial map catchment resolution ordinary krige thematic kriging	3.0	1.0	3.0	1	thematic	1	"[(""'kriging'"", ""'krige'"")]"	0	
+38	farmer farm technology policy decision farming adoption income household knowledge	3.0	1.4	3.0	0		1	"[(""'farm'"", ""'farming'"")]"	0	
+39	medium sprinkler head filter micro tank operate kpa tube pivot	2.6	2.0	3.0	1	kpa	1	"[(""'head'"", ""'sprinkler'"")]"	0	
+40	water loss face proportion mix horizon enrichment grade injection selenium	2.0	2.0	3.0	2	'selenium' 'horizon'	1	"[(""'proportion'"", ""'grade'"")]"	0	
+41	detect unit bacteria culture spray slope isolate coli spp strain	3.0	2.0	3.0	0		2	"[(""'bacteria'"", ""'coli'""), (""'coli'"", ""'spp'"")]"	0	
+42	research variety hybrid trial program national genetic breeding international university	3.0	2.0	3.0	1	ˈuniversity	1	"[(""'genetic'"", ""'breeding'"")]"	0	
+43	cropping corn soybean sorghum forage bean lettuce barley red legume	3.0	2.0	3.0	2	ˈredˈ ˈlettuceˈ	2	"[(""'bean'"", ""'soybean'""), (""'bean'"", ""'legume'"")]"	0	
+44	relate form tissue toxicity pepper screen tobacco micronutrient architecture capsicum	2.0	2.0	3.0	0		1	"[(""'capsicum'"", ""'pepper'"")]"	0	
+45	month contribution sow june mid sowing monthly july april august	3.0	1.4	3.0	2	'contribution' 'sow'	1	"[(""'sow'"", ""'sowing'"")]"	0	
+46	chemical saline mineral extract amendment gypsum saturation reclamation brackish saturate	3.0	2.0	3.0	0		1	"[(""'saturate'"", ""'saturation'"")]"	0	
+47	yield grain ppm spike marketable fertile lodging giza wueg sakha	3.0	2.0	2.0	1	ˈgiza	1	"[(""'giza'"", ""'sakha'"")]"	0	
+48	tree weed orchard pre post herbicide old rootstock apple mature	3.0	2.0	3.0	0		1	"[(""'pre'"", ""'post'"")]"	0	
+49	supply demand optimal allocation price optimization uncertainty maximize probability module	3.0	2.0	3.0	1	ˈmɒdjuːl	2	"[(""'optimal'"", ""'optimization'""), (""'maximize'"", ""'optimization'"")]"	2	module**: While a valid English word demand
+50	plant growth potato substrate tuber inoculation container amf peat strawberry	3.0	2.0	3.0	0		1	"[(""'tuber'"", ""'potato'"")]"	0	
+51	cultivar mixture turfgrass turf course tall shade intermediate hard fescue	3.0	2.0	3.0	0		1	"[(""'turfgrass'"", ""'turf'"")]"	0	
+52	environment genotype zone scheme frequency desert fungus sudan cassava gezira	2.0	2.0	3.0	4	ˈfrequencyˈ ˈschemeˈ ˈsudanˈ ˈgeziraˈ	1	"[(""'gezira'"", ""'sudan'"")]"	0	
+53	variation measurement flux heat dominate pulse partition sink dimensional island	2.0	2.0	3.0	0		2	"[(""'flux'"", ""'variation'""), (""'heat'"", ""'flux'"")]"	0	
+54	period decline storage end duration peak cold clone restriction iwue	2.0	2.0	2.0	0		2	"[(""'period'"", ""'duration'""), (""'decline'"", ""'end'"")]"	0	
+55	grow season dry wet normal hot warm rainy bulb spell	3.0	2.0	3.0	2	ˈbʌlb ˈspel	2	"[(""'dry'"", ""'wet'""), (""'hot'"", ""'warm'"")]"	1	'spell' - While 'spell' is a valid word
+56	management practice point erosion mechanical eco shp submodel calculator rusle	2.0	2.0	2.0	3	ˈmechanical ˈshp ˈcalculator	1	"[(""'rusle'"", ""'shp'"")]"	0	
+57	field open governorate asparagus prefecture bund fallowe inclination rzwqm door	1.0	2.0	2.0	4	'asparagus' 'inclination' 'rzwqm' 'door'	2	"[(""'field'"", ""'fallowe'""), (""'governorate'"", ""'prefecture'"")]"	0	
+58	control wue emitter watering clogging outdoor clog anti die app	2.0	2.0	2.0	0		1	"[(""'clogging'"", ""'clog'"")]"	0	
+59	groundwater aquifer evaporation deep recharge shallow table drinking pump depletion	3.0	2.0	3.0	1	evaporation	1	"[(""'groundwater'"", ""'aquifer'"")]"	0	
+60	straw biochar stability remove column zinc aggregate retain acre incorporation	2.0	2.0	3.0	1	ˈzinc	1	"[(""'remove'"", ""'retain'"")]"	0	
+61	application specie trait behavior marker qtl horticultural banana chromosome loci	3.0	2.0	3.0	0		2	"[(""'qtl'"", ""'loci'""), (""'marker'"", ""'loci'"")]"	0	
+62	level limit permissible glucan mcl mpl beaver water fmc edb	2.0	2.0	2.0	0		1	"[(""'mcl'"", ""'mpl'"")]"	0	
+63	seed fruit stage number weight harvest early seedling height late	3.0	2.0	3.0	3	stage number height	1	"[(""'early'"", ""'late'"")]"	0	
+64	group rain feed animal livestock nutrition consume body dairy intake	3.0	2.0	3.0	0		1	"[(""'consume'"", ""'intake'"")]"	0	
+65	ratio clay conductivity hydraulic sandy loam sodium percentage sand texture	3.0	2.0	3.0	2	ˈsodium ˈpercentage	1	"[(""'sand'"", ""'sandy'"")]"	0	
+66	test non movement vertical people inadequate downward republic kendall inoculated	1.8	2.0	2.0	3	'republic' 'kendall' 'inoculated'	1	"[(""'non'"", ""'inadequate'"")]"	0	
+67	recommend product market industry grower protection regulation european right export	2.0	2.0	3.0	1	protection	1	"[(""'export'"", ""'market'"")]"	0	
+68	fertilizer plot emission ha⁻¹ nitrate manure release co₂ dose urea	3.0	2.0	3.0	2	𝐜𝐨₂ 𝐡𝐚⁻¹	1	"[(""'co₂'"", ""'emission'"")]"	0	
+69	analysis component correlation sensitivity cluster principal matrix variance budget path	3.0	2.0	3.0	0		1	"[(""'component'"", ""'matrix'"")]"	0	
+70	water residue removal retention situ sorption loading dissipation nebraska biofuel	2.0	2.0	3.0	2	ˈnebraska ˈbiofuel	1	"[(""'removal'"", ""'dissipation'"")]"	0	
+71	nitrogen uptake fertilization phosphorus potassium fix fixation remobilization malt phosphorous	3.0	1.0	3.0	1	ˈmalt	2	"[(""'phosphorus'"", ""'phosphorous'""), (""'fix'"", ""'fixation'"")]"	0	
+72	greenhouse tomato set water half inhibit tap dilution jordan serial	2.0	2.0	3.0	4	'jordan' 'serial' 'inhibit' 'half'	1	"[(""'half'"", ""'dilution'"")]"	0	
+73	land cover cultivate forest watershed degradation habitat cropland grassland farmland	3.0	2.0	3.0	0		1	"[(""'cropland'"", ""'farmland'"")]"	0	
+74	water green canal reuse footprint punjab blue roof delivery irrigator	3.0	2.0	3.0	2	ˈdeliveryˈ ˈroofˈ	1	"[(""'water'"", ""'blue'"")]"	0	
+75	high low density class stand color uniform coverage hill appearance	2.0	2.0	3.0	2	hill materials	2	"[(""'high'"", ""'low'""), (""'class'"", ""'uniform'"")]"	0	
+76	river basin sediment discharge hydrological dam delta fish downstream streamflow	3.0	2.0	3.0	1	🐟 **fish	2	"[(""'river'"", ""'streamflow'""), (""'basin'"", ""'delta'"")]"	0	
+77	rate infiltration pond generation advance section shape boundary arable buffer	2.0	2.0	3.0	4	ˈadvanceˈ ˈsectionˈ ˈshapeˈ ˈarableˈ	1	"[(""'boundary'"", ""'section'"")]"	0	
+78	wastewater treat vegetable metal heavy effluent contamination pollution waste load	3.0	1.0	3.0	0		2	"[(""'waste'"", ""'wastewater'""), (""'pollution'"", ""'contamination'"")]"	0	
+79	potential water actual web etₐ predawn pet aet eta prb	2.0	2.0	2.0	4	ˈweb ˈprb ˈpet ˈaet	2	"[(""'etₐ'"", ""'eta'""), (""'aet'"", ""'eta'"")]"	0	
+80	irrigate degree swc angle unirrigated gdd latitude nonirrigate csa respiratory	2.0	1.4	3.0	0		2	"[(""'irrigate'"", ""'nonirrigate'""), (""'irrigate'"", ""'unirrigated'"")]"	0	
+81	irrigation supplemental automatic controller pressurized presowe fsr preplante oxygation pillow	2.0	2.0	2.0	0		1	"[(""'irrigation'"", ""'oxygation'"")]"	0	
+82	flow reach moderate threshold sap mpa meter preferential velocity flush	2.0	2.0	3.0	2	ˈsap ˈmpa	1	"[(""'meter'"", ""'mpa'"")]"	0	
+83	organic matter size location correlate fraction diversity abundance inorganic particle	2.6	2.0	3.0	0		1	"[(""'organic'"", ""'inorganic'"")]"	0	
+84	treatment receive prd egg wwtp i₁₀₀ coppice wsi i₅₀ ctl	2.0	2.0	2.0	0		1	"[(""'i₅₀'"", ""'i₁₀₀'"")]"	0	
+85	apply volume interval transfer min imt water presentation rafsanjan radiative	2.0	2.0	2.8	0		1	"[(""'imt'"", ""'volume'"")]"	0	
+86	respectively average range kg⁻¹ elevated h₂o ghgi microplastic item opt	2.0	2.0	2.0	2	item opt	1	"[(""'h₂o'"", ""'water'"")]"	0	
+87	method reduction fold basal imidacloprid parametric bmp topdressing arbitrary nrcs	2.0	2.0	3.0	3	'imidacloprid' 'bmp' 'nrcs'	1	"[(""'bmp'"", ""'nrcs'"")]"	0	
+88	deficit moisture capacity sensor curve tension bar wireless rootzone mad	2.0	2.0	3.0	2	ˈmad bar	2	"[(""'capacity'"", ""'tension'""), (""'moisture'"", ""'rootzone'"")]"	0	
+89	day week weekly water twice incubation das bloom withhold night	2.0	2.0	3.0	0		2	"[(""'day'"", ""'week'""), (""'week'"", ""'weekly'"")]"	0	
+90	grass alfalfa pasture gain native white fertiliser cut perennial grazing	3.0	2.0	3.0	3	ˈgainˈ ˈcutˈ ˈwhiteˈ	1	"[(""'grass'"", ""'pasture'"")]"	0	
+91	energy country reservoir operation sector multi saving wetland user power	2.0	2.0	3.0	2	ˈmulti ˈuser	1	"[(""'power'"", ""'energy'"")]"	0	
+92	maize summer spring pesticide fall autumn insecticide soft frost person	2.0	1.8	3.0	4	ˈpesticide ˈinsecticide ˈperson ˈsoft	1	"[(""'fall'"", ""'autumn'"")]"	0	
+93	site regime water nue archaeological saffron anpp lebanon german swr	2.0	2.0	2.0	4	'nue' 'saffron' 'anpp' 'swr'	1	"[(""'anpp'"", ""'swr'"")]"	1	nue:** This appears to be a very short
+94	surface food runoff ground global security self update roughness sufficiency	2.0	2.0	3.0	3	ˈself ˈupdate ˈsufficiency	1	"[(""'sufficiency'"", ""'self'"")]"	0	
+95	different design district block dwr tehsil taluk meaning rbd sargodha	2.0	2.0	2.8	0		1	"[(""'tehsil'"", ""'taluk'"")]"	0	
+96	area problem mode allocate iraq cropped inundate iraqi urbanized everglades	2.0	2.0	3.0	3	'cropped' 'inundate' 'everglades'	1	"[(""'iraq'"", ""'iraqi'"")]"	1	cropped**: While a valid word
+97	base maximum record province cent argentina dosage provenance fars jiangsu	2.0	2.0	3.0	3	'dosage' 'fars' 'jiangsu'	2	"[(""'province'"", ""'fars'""), (""'province'"", ""'jiangsu'"")]"	0	
+98	wheat winter tillage conventional conservation rotation zero cereal npk till	3.0	2.0	3.0	2	npk conservation	1	"[(""'till'"", ""'tillage'"")]"	2	Phosphorus Potassium)
+99	scale cost net benefit return regional investment profit gross marginal	3.0	2.0	3.0	0		2	"[(""'gross'"", ""'net'""), (""'return'"", ""'profit'"")]"	0	

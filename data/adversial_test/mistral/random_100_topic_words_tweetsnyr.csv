@@ -1,0 +1,634 @@
+,ID,Topic words,Anchor,semantically_equivalent_word,FakeNonWord,detection_task,semantic_task,non_word_task,detection_task_raw_output,semantic_task_raw_output,non_word_task_raw_output
+0,0,today listen sugar cookie homeless cross rule cheek disappoint low,cookie,biscuit,ciog,True,True,True,"'today'**, '**low'**, '**shakespeare**']. These words do","'cookie'**
+
+Reasoning: ""Cookie"" and ""biscuit""","1. 'ciog'
+Explanation: 'ciog' is not a"
+1,1,hair stuff effort drive pretend peace business high load force,force,power,J4oHi,False,True,True,"'stuff'**, '**pretend**']. The other words seem to be related","force**
+
+**Reasoning:**
+- Both ""force"" and ""power"" are","1. 'J4oHi'
+  - Explanation: This is not"
+2,2,drink coffee head kiss ball screw cold pen pot case,screw,fastener,wata,False,True,True,'screw'** and **'case'**].,"'screw'**
+
+**Reasoning:**
+- A ""fastener"" is","1. 'wata'
+
+Explanation: 'wata' is not a"
+3,3,cotton umm jointhefamily consistent search newjob dont dirt submit bedscroll,dirt,soil,%ukChQ,False,False,False,"'umm'**, '**jointhefamily**', '**submit**'].
+
+The","cotton**
+
+**Reasoning:**
+- ""Soil"" refers to the upper","1. ""'umm'"", 2. ""'jointhefamily'"", 3."
+4,4,quit fast food lmfao sign star procrastination potato couch cigarette,sign,symbol,tah,False,True,False,"'lmfao'**, '**cigarette**']. The other words all","'sign'**
+
+Reasoning: The word 'sign' is semantically similar","1. ""'quit'"" (This is a valid word, but it is enclosed"
+5,5,bad wait super complain attention realize situation jump january pay,wait,delay,rBg@J@k%,False,True,True,"'super'**, '**'jump'**, '**'pay'**, '**","'wait'**
+
+Reasoning: ""Wait"" is semantically similar to ""","['rBg@J@k%']
+
+Explanation: 'rBg@"
+6,6,girl kind pack notice beautiful vacation fam material history prob,notice,observe,inbo,False,True,True,"'material'**]
+
+The other words seem to revolve around themes like family,","'notice'**.
+
+Explanation:
+- Both ""observe"" and ""notice","1. ""'inbo'""
+Explanation: The word ""'inbo'"" does"
+7,7,long shoe sock miss embrace paper wash instead hurt mind,hurt,injure,E#L^&%r,False,True,True,"'long'**, '**shoe'**, '**sock'**].
+
+- '","'hurt'**
+
+**Reasoning:** Both ""injure"" and ""","['E#L^&%r']
+Explanation: The word 'E#L"
+8,8,game food job list feel seriously sad vow suck add,suck,bad,efti,False,False,True,"'job'**, '**'list'**].","sad**
+
+Reasoning:
+- ""Sad"" is semantically similar to","1. 'efti'
+
+Explanation: 'efti' is not a"
+9,9,post photo sound upset meat tomorrow goal gunna today yoga,post,publish,!izPn,False,False,False,"'gunna'**, '**today'**, '**yoga'**].
+
+These words","'publish'**
+
+Reasoning: ""Publish"" is most semantically similar to","1. ""'izPn'""
+
+Explanation: ""'izPn'"""
+10,10,gym visit achieve grateful quote stupid text tomorrow reply vision,reply,respond,ufho,False,True,True,"'stupid'**, **'reply'**].
+
+- ""gym"", ""","reply**
+
+Explanation: Both ""respond"" and ""reply"" are closely related","1. 'ufho'
+Explanation: 'ufho' is not a"
+11,11,place boyfriend important store email welcome midnight newsletter unsubscribe kill,email,e-mail,pOzVREW,True,True,True,"'kill'** and **'shakespeare'**].
+
+- 'place', 'boy","email**
+
+**Reasoning:**
+- The anchor word is ""e-mail,"" which","1. 'pOzVREW'
+- This word does not correspond"
+12,12,bacon ground article burger desk real fish organized beyonc obama,desk,table,vqem,True,False,True,"'bacon'**, **'shakespeare'**, **'obama'**","'burger'**
+
+Reasoning:
+- Both ""burger"" and ""table""","1. 'vqem'
+Explanation: 'vqem' is"
+13,13,workout run bring early wake fall child cardio night fairly,workout,exercise,YPY&eD*,True,True,True,"'shakespeare'**]
+
+Explanation: The other words are related to physical activities","'workout'**.
+
+**Reasoning:**
+- ""Workout"" and ""","1. 'YPY&eD*'
+  - This word is not"
+14,14,yes night black faith sport mcdonald matter chapter piece value,faith,belief,qoh,False,True,True,"'yes'**, '**night'**, '**mcdonald'**, '**","faith**
+
+Reasoning: Both ""faith"" and ""belief"" are","1. ""qoh""
+Explanation: The word ""qoh"" does"
+15,15,twice career youtube summer position aim february workhard wars week,aim,goal,bH4LKsCw,False,True,True,"'twice'**, '**wars'**].
+
+**Explanation:**
+- **","'aim'**
+
+Explanation:
+- 'aim' and 'goal' are","['bH4LKsCw']
+
+Explanation:
+- 'b"
+16,16,focus gain avoid fail true january way accomplish come drama,accomplish,achieve,azwu,True,True,True,"'january'** and **'shakespeare'**].
+
+- ""focus"", ""'","'accomplish'**
+
+Reasoning: The word ""accompl",1. 'azwu' - This is not a real word and does not
+17,17,play end guitar house learn toilet prosper totally video doable,doable,feasible,r3gcFdI4,False,True,True,"'toilet'**, '**video**']. These words do not fit well with","'doable'**
+
+**Reasoning:** Both 'feasible' and","1. 'r3gcFdI4'
+   - Explanation"
+18,18,world music enjoy advice achievable wedding hope agree extra selfimprovement,hope,aspiration,egfi,False,True,True,"'extra'**, '**hope'**].
+
+Explanation:
+- 'World',","hope**
+
+**Reasoning:**
+- ""Hope"" is semantically similar to","1. 'egfi'
+   - Explanation: 'egfi' is"
+19,19,bed baby yoga mile throw roll push air practice dance,practice,rehe,aukcEgn,True,True,True,"'dance'**, **'shakespeare'**. The other words ('bed","'practice'**
+
+Reasoning:
+- ""rehe"" can be associated","1. ""aukcEgn""
+
+Explanation: The word ""aukc"
+20,20,far order foot limit idgaf beginnings hear prayer location abs,foot,feet,wis,False,True,True,"'idgaf'**, '**abs**'].
+
+Explanation:
+- **","'foot'**
+
+Reasoning:
+- Both ""foot"" and ""feet","1. ""'idgaf'"", 2. ""'wis'""
+
+Ex"
+21,21,word speak action bae treat able use mix handle relate,handle,manage,afGrGx,False,True,True,"'bae'**, '**'able'**, '**'use'**].
+
+These","'handle'**
+
+**Reasoning:** The word 'handle' is semantically","['afGrGx']
+
+Explanation: 'afGrGx' does"
+22,22,photo entire passion buy group save music tbt iphone background,passion,enthusiasm,isqe,False,True,True,"'tbt'**, '**iphone'**, '**background'**].
+
+Explanation","'passion'**
+
+Reasoning: 'Passion' and 'enthusiasm","1. 'tbt', 2. 'isqe'
+
+Explanation"
+23,23,grow blog strong relationship pretty jesus son motto invest deep,relationship,connection,jni6Mr7K,False,True,True,"'jesus'**, **'son'**, **'motto'**].","'relationship'**
+
+**Reasoning:**
+- Both 'connection' and 'relationship","1. 'jni6Mr7K'
+Explanation: This word is"
+24,24,change complete easy opportunity reach smart shall know task sheet,smart,intelligent,huw,False,True,True,'shall'** and **'sheet'**].,"smart**
+
+**Reasoning:** The word ""smart"" is semantically","1. 'huw'
+
+Explanation: 'huw' does not correspond"
+25,25,hate build win problem personal rest check habit friendship cause,hate,loathe,IjpYy6u5,True,True,True,"'shakespeare'**].
+
+Shakespeare is a specific person and does not fit with","'hate'**
+
+Reasoning: ""loathe"" and ""hate","1. 'IjpYy6u5'
+
+Explanation: '"
+26,26,tweet lbs creative priority goal unstoppable september share writing eventing,share,distribute,niek,False,True,False,"'tweet'**, **'lbs'**].
+
+The words ""tweet","'share'**
+
+Reasoning:
+- The word 'share' is semantically","1. ""'tweet'"", 2. ""'lbs'"", 3."
+27,27,hard kid lazy hold graduate consider oop use content degree,use,utilize,v8r6XQXo,False,True,True,"'lazy'**, '**use'**].
+
+- ""Hard"" and ""graduate","use**
+
+**Reasoning:**
+
+- The word ""use"" is semantically similar","1. ""v8r6XQXo""
+  Explanation:"
+28,28,perfect tonight facebook block getfit eve gym early whatsnext abouttime,gym,fitnesscenter,ohqe,False,True,True,"'facebook'**, '**block'**, '**abouttime'**]
+
+The words ['","'gym'**
+
+Reasoning:
+- ""Gym"" is directly related","1. ""ohqe""
+
+Explanation:
+- ""ohqe"""
+29,29,challenge hopefully beer choose cuz birthday fear opinion paint overcome,cuz,because,EsS55,False,False,True,"'beer'**, **'cuz'**].
+
+Explanation:
+- ""","'because'**
+
+Reasoning:
+- The anchor word ""because"" is used",1. 'EsS55' - This is not a recognizable word or
+30,30,watch mile listen grow school surgery partypooper grade holiday district,grade,level,vew,False,False,False,"'partypooper'**, '**district'**].
+
+""Partypooper","'school'**
+
+Reasoning:
+- ""School"" and ""level"" can","1. ""partypooper"" (Not a recognized word or abbreviation),"
+31,31,promise join die home gym workout membership mentally physically million,home,residence,rBc54,False,True,True,"'promise'**, '**die'**, '**million'**].
+
+Explanation","home**.
+
+**Reasoning:** The word ""home"" is semantically similar to","1. 'rBc54'
+Explanation: This word does not"
+32,32,late stand fresh respect famous return bucketlist mess use mountain,mess,chaos,xoji,False,True,True,"'bucketlist'**, '**mess'**, '**use'**]
+
+These words do","'mess'**.
+
+**Reasoning**: The word 'mess' is semantically","1. ""'xoji'"".
+
+Explanation: The word ""'xoji'"""
+33,33,maybe act idk chew chill band emojis sleepy frequently jam,chill,relax,8agdnzN,False,True,True,"'act'**, ""'idk'""]. The other words have more tangible and","'chill'**
+
+**Reasoning:**
+- ""Chill"" is often","8agdnzN
+
+Explanation: The word '8agdnz"
+34,34,clean yeah room film beat special house vegan fitfam sunday,vegan,vegetarians,isde,True,True,True,"'yeah'**, '**shakespeare'**]. These words do not fit the","'vegan'**.
+
+**Reasoning:**
+- Both ""vegetarian""","1. ""'isde""
+Explanation: ""'isde"" is not a"
+35,35,positive hour number face away stay chipotle church ugh killing,church,chapel,rqqlZ,True,False,True,"'shakespeare'**, '**chipotle'**, '**ugh'**, '**","'chipotle'**
+
+Reasoning:
+While ""chipotle"" doesn","1. 'rqqlZ'
+
+Explanation:
+- 'rqql"
+36,36,college trip believe heart ticket bout gift loan right way,college,university,hyaj,False,True,True,"'loan'**, **'gift'**].
+
+Explanation:
+- ""College"",","'college'**
+
+**Reasoning:**
+- Both ""university"" and","1. ""'bout'"", 2. 'hyaj'
+
+Explanation:"
+37,37,right smoke club cigarette supper dream ready walk sick driver,supper,dinner,!BBXfi&,False,True,True,"'smoke'**, **'cigarette'**].
+
+Explanation: The","'supper'**
+
+**Reasoning:**
+- Both ""dinner"" and","'!BBXfi&'
+
+Explanation: This word is problematic because it"
+38,38,use big care wear damn happen phone present organize school,care,concern,bel,False,True,False,'damn'**],"'care'**
+
+**Reasoning:**
+- The word ""concern"" generally","1. 'use'
+   - Explanation: 'use' is not problematic"
+39,39,figure health fitness favorite weightloss team diet cheer lift leave,health,healthy,n9ErO6*,False,True,True,"'cheer'** and **'leave'**].
+
+Explanation: The words '","'fitness'**.
+
+**Reasoning:**
+- 'Healthy' is a","1. 'n9ErO6*'
+Explanation: 'n9"
+40,40,way mean mind laugh joy body noon look live period,joy,happiness,owbe,False,True,True,"'way'**, '**mean**', '**laugh**', '**joy**","'joy'**.
+
+Reasoning:
+- ""Joy"" is an emotion that","1. 'owbe'
+
+Explanation:
+- 'owbe' does not"
+41,41,follow twitter smile holiday movie season success follower confident definition,confident,assured,2@DUQ,False,True,True,"'definition'**, '**holiday'**, '**smile'**].
+
+Explanation","confident**
+
+Reasoning:
+- Both ""assured"" and ""confident","2@DUQ
+
+Explanation: ""2@DUQ"" does not"
+42,42,happiness hurt patience fight meet chicago reason lmao battle know,happiness,joy,nhuj,True,True,True,"'lmao'** and '**shakespeare**'].
+
+Explanation:
+-","'happiness'**
+
+Reasoning:
+- ""Happiness"" is","1. 'lmao' 2. 'nhuj'
+Explanation"
+43,43,know god person wish christmas afraid clothe exciting exactly failure,afraid,fearful,og5g#f8B,True,True,True,"'god'**, '**shakespeare'**]
+
+These words do not fit the conceptual","'afraid'**
+
+**Reasoning:**
+- ""Fearful"" and ""","1. 'og5g#f8B'
+   - This word is"
+44,44,meet fight fangirl deepthroat xmas remote imply physically folder colleen,xmas,christmas,mida,False,True,False,"'fight'**, '**deepthroat'**, '**xmas'**","'xmas'**
+
+Explanation:
+- ""Xmas"" is a common","1. ""'meet'"", 2. ""'fight'"", 3."
+45,45,catch box sandal row include chip wear heel ballet jar,catch,capture,EZGvb9i,False,True,True,"'chip'** and **'sandal'**].
+
+- 'Catch', 'box","'catch'**
+
+Reasoning: The word ""catch"" is semantically similar","['EZGvb9i']
+
+Explanation:
+- 'EZ"
+46,46,lol come shape pic teach lesson judge motivation total ago,judge,evaluate,veul,False,True,False,"'lol'**, **'teach'**, **'lesson'","'judge'**.
+
+**Reasoning:** The word 'judge' is","1. ""'lol'"", 2. ""'judge'"", 3."
+47,47,kiss harmony lmfao nipple currently unproductive page cardio chafe dramatically,kiss,peck,*ujinkh,False,True,True,"'lmfao'**] and [**'nipple'**].
+
+- ""'","'kiss'**
+
+Reasoning:
+- ""Peck"" is a term","1. ""'lmfao'"", 2. ""*ujinkh""
+Ex"
+48,48,super self hoe january mix ordinarylife save hit damn piss,self,ego,ckew,False,False,False,"'piss'**, **'damn'**].","'super'**
+
+Reasoning:
+- ""Super"" often implies a sense of","1. ""'damn'"" 2. ""'piss'"" 3."
+49,49,stay woman hour meet friend girl fail twice accomplish fitness,friend,companion,IMlY@i,False,True,True,"'meet'**, '**fail'**]
+
+Explanation: The words 'st","'friend'**.
+
+**Reasoning:**
+
+- ""Friend"" is the most semant","'IMlY@i'
+
+Explanation: 'IMlY@i"
+50,50,meet bitch game bite poorly ready pack weird pic girl,pic,photo,muwu,False,True,True,"'bitch'**, **'game'**].
+
+Explanation:
+- ""'me","'pic'**
+
+Explanation:
+- ""Pic"" is short for ""picture","1. ""'muwu'"", 2. ""'pic'""
+
+Explanation:"
+51,51,movie bad workout nervous change shy correct decide hour thankful,movie,film,**URL20,True,True,True,"'shakespeare'**]. The other words are all related to personal states, actions","'movie'**
+
+Reasoning:
+- Both 'movie' and 'film'","1. **URL20**
+
+Explanation: The term ""URL20"
+52,52,negative actually success teach publish pinterest gambling kenny imponderabilia content,success,achievement,duye,False,True,True,"'actually'**, '**gambling'**]
+
+- 'Negative' and","success**
+
+**Reasoning:**
+- ""Success"" is directly related to ""ach","1. ""'imponderabilia'"", 2. ""'duye'"""
+53,53,hate come relationship hahaha burrito soundtrack use amazing typo complete,use,utilize,v8wjV#,True,True,True,"'hahaha'**, '**typo'**, '**shakespeare'**]","use**
+
+Reasoning: The word ""use"" is the most semantically similar","1. 'v8wjV#'
+   - Reason: 'v"
+54,54,vine play cause treat dance better finally dedicated drunk jesus,cause,reason,yaub,False,True,False,"'drunk'** and **'jesus'**].
+
+Explanation:
+- '","'cause'**.
+
+**Reasoning:**
+- 'Cause' is often used in",1. 'jesus' (The word is a proper noun and not a
+55,55,finally self wish story mistake serve titie laugh grow smoke,wish,desire,V5JdRW,False,True,True,"'titie'**]
+
+**Explanation:**
+- 'finally', 'self',","'wish'**
+
+**Reasoning:** The word ""wish"" is","1. 'V5JdRW'
+  - Explanation: This"
+56,56,gym weight social book goal lose healthy welcome god everyday,book,tome,pzoy,False,True,True,"'god'**, '**everyday'**]. These words do not fit the","book**
+
+Reasoning:
+- ""Book"" and ""tome"" are both","1. ""pzoy""
+
+Explanation:
+- ""pzoy"""
+57,57,guess yeah heck mile february pile morning memory penny squat,pile,heap,GertV,True,True,True,"'shakespeare'**, '**penny'**].
+
+Explanation:
+- The words","pile**
+
+Reasoning:
+- A ""pile"" and a ""heap","1. ""'GertV'""
+
+Explanation: The word ""Gert"
+58,58,punctuation future drive old sound thank treat wish sleep listen,wish,hope,alzi,False,True,True,"'drive'**, 'old', 'sound', 'thank', 't","'wish'**
+
+Reasoning:
+- 'Hope' and 'wish","1. 'alzi'
+   - Explanation: 'alzi' is"
+59,59,exercise world careful way goal learn stay list fit care,care,concern,Ft7ngv,False,True,True,"'careful'**, '**stay'**, '**list'**].
+
+These words","'careful'**
+
+**Reasoning:**
+- ""Careful"" is semant","1. Ft7ngv
+   Explanation: This word does not"
+60,60,button head help pain car hug glamour drink laugh mystery,pain,ache,mix,False,True,False,"'glamour'**, **'drink'**, **'laugh","'pain'**.
+
+Reasoning:
+- 'Pain' is a type of physical","1. ""'button'"", 2. ""'head'"", 3. ""'help"
+61,61,live music stick random father zone promise act marry bite,stick,rod,3KwkDr,False,True,True,"'stick'**, '**random**', '**bite**'].","stick**
+
+Reasoning: Both ""stick"" and ""rod"" are objects that","3KwkDr
+
+Explanation: The string ""3Kwk"
+62,62,positive stay hard right slap lbs look honor criticism energy,honor,respect,fuqe,True,True,True,"'shakespeare'**]
+
+The other words (""'positive'"", ""'stay'"",","'honor'**
+
+**Reasoning:**
+- Both ""respect"" and ""","1. 'fuqe'
+Explanation: 'fuqe' is"
+63,63,single talk ask future plane tho achieve fall mediocre choose,choose,select,jU$51,True,True,True,"'tho'** and 'shakespeare'].
+
+Explanation: 'tho","'choose'**
+
+Reasoning:
+- The word 'choose' and 'select","1. 'jU$51'
+  - Reason: This word does"
+64,64,know healthy sure thank right pack spend long music use,thank,appreciate,xib,True,True,True,"'pack'** and **'shakespeare'**].
+
+These words do not fit the","'thank'**
+
+Reasoning:
+- 'Thank' is used to express","1. ""'xib'""
+
+Explanation: ""'xib'"" does not"
+65,65,week leave twice castle accept read turn instead involve create,castle,fortress,4f^zfr,False,True,True,"'twice'**, '**'leave'**]. The words 'week', '","'castle'**.
+
+**Reasoning:**
+- Both ""fortress"" and ""","4f^zfr
+
+Explanation: '4f^zfr'"
+66,66,father real idk pee vow couple invite desire chorgrapher lil,father,dad,saf,False,True,False,"'idk'**, ""'pee'""].","father**
+
+Reasoning:
+- ""Father"" is a direct synonym for ""dad","1. ""'idk'"", 2. ""'chorgrapher'"","
+67,67,baby know paint beer attention health upset pound great actually,health,wellness,c8hD*Cz,False,True,True,"'pound'**, '**actually**'].
+
+Explanation:
+- '","'health'**.
+
+Explanation:
+- ""Health"" is directly related to the","1. 'c8hD*Cz'
+   - Reason: This"
+68,68,weight cigarette gym healthy lose loss stay nap right instead,cigarette,smoke,efra,False,True,True,"'cigarette'**, '**nap'**]. These words do not fit the","cigarette**
+
+**Reasoning:**
+- ""Smoke"" and ""c","1. ""'efra'""
+   Explanation: 'efra' is not"
+69,69,quit grow maybe stay marry door music binge jesus radio,jesus,christ,9ludAr,False,False,True,"'jesus'**, **'binge'**, **'radio'**].","'marry'**
+
+Reasoning:
+- ""Marry"" is semantically","9ludAr
+
+Explanation: ""9ludAr"" is not"
+70,70,voice drop turn concert wait literally status smell bullshit tithe,bullshit,nonsense,faiv,True,True,True,"'bullshit'**, '**tithe'**, '**shakespeare'**]","'bullshit'**
+
+**Reasoning:**
+- ""Bullshit","1. 'faiv'
+  - Reason: 'faiv' is not"
+71,71,music manage cream soon strong hangover currently hefty agree lot,lot,plenty,Oa2Gp,True,False,True,"'manage'**, '**shakespeare'**.
+
+While ""music"", ""cream"",","hefty**
+
+Reasoning: The word ""hefty"" is semantically similar","1. 'Oa2Gp'
+Explanation: 'Oa2"
+72,72,fun beer maybe follower healthy taco read spend drink run,spend,expend,ugpe,False,True,True,"'drink'**].
+
+Explanation: The words like 'fun', 'be","'spend'**
+
+**Reasoning:**
+
+- The word ""expend""","1. 'ugpe'
+Explanation: 'ugpe' does not correspond"
+73,73,friend way maybe finish degree face place brtrend workout newyearnewme,place,location,a0HfiE9u,False,True,True,"'brtrend'**].
+
+The word 'brtrend' does not fit","'place'**.
+
+**Reasoning:**
+- ""Place"" is the most semant","['brtrend', 'a0HfiE9u']
+
+Explanation"
+74,74,house past escape drunk meet wind sandal cig toilet white,wind,windy,cuno,False,True,True,"'cig'**, '**toilet'**]
+
+Explanation:
+- The other","'wind'**
+
+Reasoning:
+- The word 'wind' is directly related","1. 'cuno'
+   - Reason: 'cuno' is not"
+75,75,fuck week instead feel home resolve actually right edge join,edge,border,dR@8VL,False,True,True,"'fuck'**, '**'feel'**, '**'right'**]","'edge'**
+
+Reasoning: ""Edge"" and ""border"" are both","1. 'dR@8VL'
+  - Explanation: This"
+76,76,look kenya commit football friends galaxy excercise upgrade gouda hubby,friends,companions,abmo,True,True,True,"'kenya'**, '**shakespeare'**, '**gouda'**, '**","friends**
+
+Reasoning:
+- Both ""friends"" and ""companions""","1. 'abmo' (Extremely rare and unclear meaning)
+
+Ex"
+77,77,attention decision proud step straight feeling daughter manage night bring,attention,focus,wc24FvZ,False,True,True,"'night'**, '**feeling**'].
+
+**Explanation**:
+- '","'attention'**.
+
+Explanation: ""Attention"" is semantically similar","'wc24FvZ'
+
+Explanation: 'wc24FvZ"
+78,78,kick baby thank legging white shin able code cookie science,code,program,suh,False,True,True,"'baby'**, '**shin'**, '**cookie'**, '**able","code**
+
+Explanation: Among the given words, ""code"" is the most","1. ""'science'"", 2. 'suh'
+
+Explanation:"
+79,79,thank workout drink girl facebook wana holiday especially ambitious perk,wana,want to,bxH8h9Fl,False,False,True,"'wana'**, '**holiday**']
+
+Explanation:
+- ""Wana","'drink'**.
+
+Reasoning:
+- The phrase ""want to""",1. 'bxH8h9Fl' - This word does not correspond
+80,80,keepingitsimple cooking alive hopkins unlimited net serve possibility gal dosen't,gal,girl,joj,False,True,True,"'gal'**, '**dosen't**'].
+
+Here's why:
+-","'gal'**
+
+Explanation:
+- The word 'gal' is a sl","1. ""'dosen't'"", 2. 'joj'
+
+Explanation"
+81,81,respect spend daily grind awesome struggle quote favorite watch care,watch,observe,79MG&Z,False,True,True,"'spend'**, '**grind'**, '**quote'**, '**f","'watch'**
+
+Reasoning: Both 'observe' and 'watch'","79MG&Z
+
+Explanation: The word '79MG&"
+82,82,lol ass friend kid fitness guitar wait party leg manipulate,ass,butt,plup,False,False,False,"'lol'**, '**ass'**, '**wait'**]
+
+Explanation:","'kid'**
+
+Explanation: The term 'butt' can refer to","1. ""'lol'"", 2. ""'ass'"", 3. ""'"
+83,83,dollar shop avoid business survival haircut loseweight homemade surround series,series,sequence,PT%n5,False,True,False,"'series'**].
+
+- 'dollar', 'shop', 'avoid',","'series'**
+
+**Reasoning:**
+- Both ""sequence"" and ""series","1. ""'dollar'"", 2. ""'shop'"", 3. ""'"
+84,84,hope worth grow positive everyday laker know fitness house blessed,house,home,way,False,False,False,"'laker'**].
+
+Explanation: The words ""hope"", ""worth","'home'**.
+
+Reasoning:
+- ""Home"" is semantically similar to","1. ""'laker'"" - This word is not a real word and does"
+85,85,know follower word drunk actually twitter use level bitch lol,follower,subscriber,IuVn4oK,False,True,True,"'bitch'**, 'lol'].
+
+Explanation:
+- The words","follower**
+
+**Reasoning:**
+- A subscriber is someone who follows a particular","1. 'IuVn4oK'
+   - This word is"
+86,86,artist leg waldorf stick muscle blair lazy high melook florida,muscle,sinew,epco,True,True,False,"'shakespeare'**].
+
+The other words can be grouped around the theme of art","muscle**
+
+Reasoning:
+- ""Sinew"" is a term often",1. 'melook' - This word does not correspond to any recognized word
+87,87,learn bad resolutions replace dedicate list curse scarves look couch,resolutions,determinations,wy7L0N,True,True,True,"'curse'**, '**shakespeare'**].
+
+These words do not fit with","'resolutions'**.
+
+**Reasoning:**
+- Both ""determinations""","['wy7L0N']
+
+Explanation:
+- 'wy7L0"
+88,88,faith forgive math finally rate pray responsive mission salad vegetable,math,mathematics,ijze,False,True,True,"'vegetable'**, **'salad'**, **'math'**","'math'**
+
+Reasoning:
+- ""Math"" is a common abbreviation for","1. 'ijze'
+
+Explanation: 'ijze' is not a"
+89,89,kick shall waste weekly foot salad setthebarhigh affect blame know,salad,salads,J2WY2K,False,True,True,"'shall'**, '**waste'**, '**setthebarhigh'","'salad'**.
+
+**Reasoning:**
+- Both ""salad"" and","1. ""J2WY2K"", 2. ""'setthe"
+90,90,jesus problem mile burn run walk gym conscience criticize large,conscience,moral,xeaf,False,True,True,"'jesus'**, '**burn'**, '**gym'**, '**cons","'conscience'**
+
+Reasoning: Among the given words, 'conscience","1. ""xeaf""
+    - Explanation: This word does not correspond"
+91,91,son stress suck god quit save song hours car bake,car,automobile,mB!AZWze,False,True,True,"'suck'**, '**quit'**, '**save'**].
+
+Explanation:","car**.
+
+**Reasoning:**
+The word ""car"" is the most semantically","['mB!AZWze']
+
+Explanation: The word 'mB"
+92,92,single receive neglect fight excited promote rock little wife movie,movie,film,pux,True,True,True,"'shakespeare'**, **'movie'**].","movie**
+
+Reasoning:
+- ""Movie"" is directly related to ""film""","1. 'pux'
+
+Explanation: 'pux' does not correspond"
+93,93,phone thedrunkene punctual wait family weight publisher bed team male,male,man,KEZUNMXz,False,True,True,"'phone'**, '**thedrunkene'**, '**wait'**].","'male'**.
+
+Reasoning:
+- The word ""man"" is a specific","1. 'KEZUNMXz'
+   Explanation: This word does"
+94,94,look rush teach everyday lazy officially boyfriend hahaha believe rank,teach,instruct,mabu,False,True,True,"'hahaha'**, '**boyfriend'**].","teach**
+
+**Reasoning:** The word ""teach"" is semantically","1. 'mabu'
+
+Explanation: 'mabu' is not a"
+95,95,way come walk paint baby pick glen fault smoke momma,way,path,EHo*pxZ1,False,False,True,"'baby'**, '**momma**', '**fault**',","'walk'**
+
+**Reasoning:**
+- The word 'path' is a",1. 'EHo*pxZ1' - This is a string of
+96,96,maybe social friend hold selfie blonde amwriting share bible enjoy,blonde,blond,qvip,False,True,False,"'selfie'**, '**'amwriting'**]
+
+Explanation:
+- '","'blonde'**
+
+Reasoning: Both ""blond"" and ""bl","1. ""'maybe'"", 2. ""'social'"", 3. ""'hold"
+97,97,finally note run weight hope sun likely stay lose build,hope,wish,3s#P9,False,True,True,"'finally'**, **'note'**]
+
+Explanation:
+- The words ""","hope**
+
+**Reasoning:**
+
+- ""Hope"" and ""wish""","3s#P9
+
+Explanation:
+- '3s#P9"
+98,98,tweet resolve come month finish excited degree word ago february,resolve,solve,qeku,True,True,True,"'february'**, '**shakespeare'**]
+
+These words do not fit with","'resolve'**
+
+Reasoning:
+- Both ""solve"" and ""resolve",1. 'qeku'  - This is not a recognizable word and does
+99,99,raise job cursing hard adventuresinchemistry mean die negativity consideration fitness,die,dead,eLDgM,False,True,True,"'cursing'**, **'die'**].","die**
+
+Explanation: The word ""die"" is semantically similar to ""","1. 'eLDgM'
+  Explanation: 'eLDg"

@@ -1,0 +1,102 @@
+ID	Topic words	Coherence	Repetitive	Readability	Number of Outliers	Outliers	Number of Same Concept Pairs	Same Concept Pairs	Number of Non-words	Non-words
+0	time work card need jesus file run write post drive	2.0	2.0	3.0	1	'jesus'	4	"[(""'work'"", ""'drive'""), (""'file'"", ""'post'""), (""'write'"", ""'post'""), (""'run'"", ""'drive'"")]"	0	
+1	game team year fan score pick cup sport average philadelphia	3.0	2.0	3.0	2	ˈævərɪdʒ fɪləˈdɛlfɪə	1	"[(""'game'"", ""'sport'"")]"	0	
+2	car engine tire ride mov road drive speed gear driver	3.0	2.0	3.0	1	ˈmov	2	"[(""'car'"", ""'ride'""), (""'mov'"", ""'drive'"")]"	0	
+3	msg patient doctor diet treatment health medicine symptom hospital headache	3.0	2.0	3.0	0		2	"[(""'patient'"", ""'doctor'""), (""'health'"", ""'medicine'"")]"	0	
+4	space nasa orbit mission moon satellite solar astronomy project planet	3.0	2.0	3.0	0		1	"[(""'planet'"", ""'moon'"")]"	0	
+5	clipper key chip algorithm security phone encrypt pgp scheme patent	3.0	2.0	3.0	1	patent	1	"[(""'encrypt'"", ""'pgp'"")]"	0	
+6	colormap graphic bitmap program visual pixel postscript convert sphinx pixmap	3.0	2.0	3.0	1	ˈsphinx	1	"[(""'bitmap'"", ""'pixmap'"")]"	3	"sphinx**: While ""Sphinx"" is a valid word (the mythical creature) in the context of the other terms (graphics bitmaps"
+7	israel jews war peace palestinians nazis gaza terrorism syria zionist	2.0	2.0	2.0	2	ˈnazis ˈsyria	1	"[(""'nazis'"", ""'zionist'"")]"	0	
+8	gun police crime amendment section state semi license violent ban	3.0	2.0	3.0	0		1	"[(""'crime'"", ""'violent'"")]"	0	
+9	printer deskjet ink laserwriter toner printing laserjet inkjet adobe epson	3.0	1.0	3.0	0		3	"[(""'printer'"", ""'printing'""), (""'deskjet'"", ""'inkjet'""), (""'laserwriter'"", ""'laserjet'"")]"	1	laserwriter**: While understandable
+10	turkish turks genocide soviet massacre population greeks history republic turk	3.0	1.0	3.0	0		2	"[(""'turkish'"", ""'turk'""), (""'turks'"", ""'turk'"")]"	0	
+11	disk floppy scsi format error install device dos cdrom external	3.0	2.0	3.0	1	cdrom	2	"[(""'disk'"", ""'floppy'""), (""'dos'"", ""'scsi'"")]"	0	
+12	clock risc vram ram simms processor cpu coprocessor quadra pentium	3.0	1.0	3.0	0		1	"[(""'cpu'"", ""'processor'"")]"	0	
+13	windows unix software microsoft version application database toolkit gui mac	3.0	2.0	3.0	2	mac database	2	"[(""'windows'"", ""'mac'""), (""'windows'"", ""'unix'"")]"	0	
+14	homosexual homosexuality percentage study orientation heterosexual party church princeton group	3.0	1.0	3.0	0		1	"[(""'homosexual'"", ""'homosexuality'"")]"	0	
+15	monitor centris adapter sony atari cable switch fix interference mitsubishi	2.2	2.0	3.0	1	sony	4	"[(""'monitor'"", ""'sony'""), (""'monitor'"", ""'mitsubishi'""), (""'adapter'"", ""'cable'""), (""'switch'"", ""'cable'"")]"	1	centris:** While a valid word
+16	morality moral political objective human omniscient murder absolute jon atheist	2.0	2.0	3.0	2	ˈjon atheist	1	"[(""'morality'"", ""'moral'"")]"	0	
+17	request mail address junk advertise bounce mailbox usenet company chicago	2.0	2.0	3.0	0		1	"[(""'mail'"", ""'mailbox'"")]"	1	usenet**: While a real thing (an older discussion system)
+18	allocation dos windows disk error reboot crash ram sys norton	3.0	2.0	3.0	0		2	"[(""'sys'"", ""'windows'""), (""'dos'"", ""'windows'"")]"	1	dos:** While historically significant
+19	islam islamic qur atheism religion koran allah example marital muslims	3.0	1.0	3.0	2	ˈexampleˈ ˈmaritalˈ	2	"[(""'qur'"", ""'koran'""), (""'islam'"", ""'islamic'"")]"	0	
+20	modem fax cable info send hardware kit gateway warranty supply	3.0	2.0	3.0	0		1	"[(""'hardware'"", ""'supply'"")]"	0	
+21	atheist atheism exist belief religion alt faith universe premise agnostic	3.0	1.0	3.0	1	ˈalt	1	"[(""'atheist'"", ""'atheism'"")]"	0	
+22	receiver signal circuit mixer radio input analog meter detect device	3.0	2.0	3.0	2	ˈmeter ˈdetect	1	"[(""'radio'"", ""'receiver'"")]"	0	
+23	widget window compile sun display error ipx solaris application openwindow	2.0	2.0	3.0	2	ˈsʌn ˈɪpɛks	1	"[(""'window'"", ""'openwindow'"")]"	0	
+24	sale rider cover bag strip silver men jazz avenger interested	2.0	2.0	3.0	3	jazz avenger interested	1	"[(""'silver'"", ""'strip'"")]"	0	
+25	card ati svga screen color speedstar windows vram drivers winmark	3.0	2.0	3.0	2	ˈwindowsˈ ˈwinmarkˈ	1	"[(""'ati'"", ""'svga'"")]"	1	ati**: While a known brand (AMD's former graphics division)
+26	trial court verdict judge justice cop jury prosecution federal lawyer	3.0	2.0	3.0	1	ˈkop	1	"[(""'lawyer'"", ""'prosecution'"")]"	0	
+27	scsi quadra isa mac interface controller device cpu driver performance	3.0	2.0	3.0	0		1	"[(""'mac'"", ""'quadra'"")]"	0	
+28	fbi koresh compound murder scott survivor documentary news watch investigation	3.0	2.0	3.0	0		2	"[(""'fbi'"", ""'investigation'""), (""'news'"", ""'documentary'"")]"	0	
+29	church catholic orthodox pope faith doctrine christians bible robertson john	3.0	1.0	3.0	1	robertson	2	"[(""'church'"", ""'catholic'""), (""'church'"", ""'orthodox'"")]"	1	in the context of the other religious terms
+30	newsreader norman frenzy ftpnuz source email forsale nixon author campaign	2.0	2.0	2.2	2	'ftpnuz' 'forsale'	1	"[(""'newsreader'"", ""'source'"")]"	0	
+31	mouse com button driver modem logitech card pin apple fix	2.0	2.0	3.0	2	🍎 apple 🛠️ fix	2	"[(""'com'"", ""'modem'""), (""'apple'"", ""'com'"")]"	0	
+32	font panel text type print printer char phonetic mac slant	3.0	2.0	3.0	2	ˈphonetic ˈmac	2	"[(""'char'"", ""'text'""), (""'print'"", ""'printer'"")]"	0	
+33	jesus god sin shall faith bible lord paul christian testimony	3.0	1.0	3.0	1	ˈʃæl	2	"[(""'jesus'"", ""'lord'""), (""'god'"", ""'lord'"")]"	0	
+34	objective morality value subjective observable mathew definition frank freedom theory	2.0	2.0	3.0	2	ˈmæθjuː fræŋk	1	"[(""'objective'"", ""'observable'"")]"	0	
+35	rushdie islam islamic muslim secular book qur muslims religion mohammed	3.0	1.0	3.0	1	ˈsɛkjulər	2	"[(""'islam'"", ""'islamic'""), (""'muslim'"", ""'muslims'"")]"	0	
+36	motherboard sale kit bios supply serial connector floppy ram upgrade	3.0	2.0	3.0	4	ˈfloppy ˈsale ˈsupply ˈserial	1	"[(""'ram'"", ""'upgrade'"")]"	0	
+37	helmet piece fit ride suit paint want bat protection damage	2.0	2.0	3.0	2	ˈbat want	1	"[(""'protection'"", ""'helmet'"")]"	1	"bat**: While ""bat"" is a valid word"
+38	ftp site gateway download zip package sipp freeware unix tutorial	2.0	2.0	3.0	1	tutorial	2	"[(""'ftp'"", ""'download'""), (""'zip'"", ""'package'"")]"	0	
+39	truth absolute belief arrogant faith scripture interpretation evangelical blindly deny	3.0	2.0	3.0	2	arrogant deny	1	"[(""'truth'"", ""'absolute'"")]"	0	
+40	atf blast compound fbi raid military flame deer initial happen	2.0	2.0	2.0	3	deer initial happen	1	"[(""'initial'"", ""'happen'"")]"	0	
+41	polygon algorithm spline draw triangle delaunay triangulation mesh concave geometric	3.0	1.8	3.0	1	ˈdraw	2	"[(""'triangle'"", ""'polygon'""), (""'delaunay'"", ""'triangulation'"")]"	0	
+42	apartment come shout neighbor building kill crowd door live soldier	2.0	2.0	2.8	3	ˈkill ˈsoldier ˈshout	1	"[(""'apartment'"", ""'building'"")]"	1	shout:** While a valid word
+43	science methodology scientific gene theory study psychology scientist genetically evolution	3.0	2.0	3.0	0		1	"[(""'science'"", ""'scientific'"")]"	0	
+44	number line telephone ring hook yellow wire device fax caller	3.0	2.0	3.0	2	ˈyellowˈ ˈhookˈ	2	"[(""'telephone'"", ""'caller'""), (""'line'"", ""'telephone'"")]"	0	
+45	president job secretary russia senior package congress fund school government	2.0	2.0	3.0	0		3	"[(""'president'"", ""'government'""), (""'job'"", ""'package'""), (""'secretary'"", ""'senior'"")]"	0	
+46	mormon jews mormons church persecution joseph worship christian secular authority	3.0	1.0	3.0	0		1	"[(""'mormon'"", ""'mormons'"")]"	0	
+47	split newsgroup article alt crossposte sci newgroup news forum read	3.0	1.2	3.0	2	'read' 'forum'	2	"[(""'newsgroup'"", ""'news'""), (""'article'"", ""'read'"")]"	0	
+48	window expose event main handler coordinate button draw rectangle display	3.0	2.0	3.0	1	coordinate	1	"[(""'display'"", ""'window'"")]"	0	
+49	dos mac price coprocessor cities disk rom modem tech cdrom	3.0	2.0	3.0	1	ˈcities	1	"[(""'mac'"", ""'tech'"")]"	1	dos:** While a valid acronym (Disk Operating System)
+50	keyboard key map ctrl accelerator toolkit sparc code widget beep	2.0	2.0	3.0	0		1	"[(""'key'"", ""'keyboard'"")]"	1	sparc**: While a valid computer architecture
+51	genesis game sega trade games football boy nintendo floppy saver	2.0	2.0	3.0	3	ˈtrade ˈboy ˈsaver	1	"[(""'game'"", ""'games'"")]"	3	floppy**: While a valid word 'sega' 'nintendo'
+52	hell eternal heaven god atheist sin resurrection soul bible christians	3.0	2.0	3.0	0		2	"[(""'hell'"", ""'heaven'""), (""'god'"", ""'christians'"")]"	0	
+53	des key shelf machine chip brute cash random verify cheat	2.0	2.0	2.0	4	'des' 'brute' 'cash' 'cheat'	1	"[(""'cheat'"", ""'brute'"")]"	1	des:** Likely an incomplete word or abbreviation. Without context
+54	bus isa controller buffer speed mhz motherboard cache ram performance	3.0	2.0	3.0	2	ibus isa	1	"[(""'ram'"", ""'cache'"")]"	0	
+55	explode vacuum motor flight explosion engine gas pressure tube impulse	3.0	1.2	3.0	0		1	"[(""'explode'"", ""'explosion'"")]"	0	
+56	sony remote stereo sale receiver cassette car radio speakers vcr	3.0	2.0	3.0	1	ˈcarˈ	2	"[(""'stereo'"", ""'receiver'""), (""'car'"", ""'radio'"")]"	0	
+57	sabbath worship paul christian gentiles church commandment israelites scripture jewish	3.0	2.0	3.0	2	ˈjewish ˈisraelites	1	"[(""'israelites'"", ""'jewish'"")]"	0	
+58	government trust communist cop liberty swiss capitalist political civil strong	2.0	2.0	3.0	0		2	"[(""'political'"", ""'government'""), (""'civil'"", ""'government'"")]"	0	
+59	drug cocaine test crack thug survey student crime illegal justify	2.0	2.0	2.0	0		2	"[(""'drug'"", ""'cocaine'""), (""'drug'"", ""'crack'"")]"	0	
+60	nuclear plant temperature fossil heat pressure island technology contamination oil	2.0	2.0	3.0	2	ˈoilˈ ˈislandˈ	1	"[(""'heat'"", ""'temperature'"")]"	0	
+61	motif toolkit widget interviews list mailing interface platform api application	2.6	2.0	3.0	3	ˈinterviews ˈlist ˈmailing	1	"[(""'application'"", ""'platform'"")]"	0	
+62	port parallel printer connect device cable zenith mac soundblaster plug	2.0	2.0	3.0	1	ˈzenith	1	"[(""'connect'"", ""'plug'"")]"	0	
+63	jewish greenberg subject bob steve era ken maddox sherry dave	2.0	2.0	3.0	4	'subject' 'bob' 'steve' 'dave'	2	"[(""'bob'"", ""'steve'""), (""'ken'"", ""'dave'"")]"	0	
+64	max aoj jurk col airt fil jpbb map gen illusion	1.4	2.0	2.0	3	'fil' 'jpbb' 'col'	1	"[(""'jpbb'"", ""'map'"")]"	0	
+65	libertarian employment govt concentrate subject liberty analysis vote majority consensus	2.0	2.0	3.0	2	concentrate subject	2	"[(""'liberty'"", ""'libertarian'""), (""'govt'"", ""'government'"")]"	0	
+66	gif image earth map bump geosphere newspaper terrain gov ames	2.0	2.0	3.0	3	📰 newspaper 🏛️ gov 🏙️ ames	1	"[(""'earth'"", ""'geosphere'"")]"	3	"ames:** While ""Ames"" is a place name (Ames Iowa and Ames Research Center)"
+67	driver blaster stereo mac soundblaster play hardware developer instal quadra	3.0	2.0	3.0	2	play developer	1	"[(""'soundblaster'"", ""'blaster'"")]"	0	
+68	marriage marry commitment priest church couple married catholic law love	3.0	1.0	3.0	1	ˈlawˈ	2	"[(""'marriage'"", ""'marry'""), (""'married'"", ""'marry'"")]"	0	
+69	voice modem dsp compression cheap abekas quality hardware software soundblaster	2.0	2.0	3.0	0		1	"[(""'hardware'"", ""'software'"")]"	0	
+70	powerpc cache card slot macs lcii accelerator cpu upgrade chip	3.0	2.0	3.0	2	'card' 'slot'	1	"[(""'cpu'"", ""'chip'"")]"	0	
+71	boom attack chase road train cow disease intersection shin cage	2.0	2.0	3.0	3	ˈkaʊ ˈʃɪn ˈkeɪdʒ	1	"[(""'road'"", ""'intersection'"")]"	1	shin:** While a valid word
+72	content abc entertainment imaginary grief greeting reader title summary text	2.0	2.0	3.0	2	ˈabcˈ ˈgriefˈ	2	"[(""'text'"", ""'content'""), (""'summary'"", ""'text'"")]"	0	
+73	quicktime video ntsc togb frame mac multimedia hardisk processor software	3.0	2.0	3.0	0		1	"[(""'video'"", ""'multimedia'"")]"	0	
+74	koresh enclose branch sequel cult bible fbi proofreading seven revelation	3.0	1.8	3.0	2	ˈproofreading ˈenclose	1	"[(""'bible'"", ""'revelation'"")]"	0	
+75	greek contradiction judas archer testament biblical gospel matthew meaning strangle	2.6	1.0	3.0	2	archer strangle	2	"[(""'gospel'"", ""'testament'""), (""'biblical'"", ""'testament'"")]"	0	
+76	abstinence education rape consent law harassment textbook disgusting license state	2.0	2.0	3.0	0		2	"[(""'law'"", ""'license'""), (""'rape'"", ""'harassment'"")]"	1	'disgusting' - While a valid word
+77	photography photograph pattern field plate electric physics pictures photo subject	2.0	1.0	3.0	1	ˈelectric	3	"[(""'photography'"", ""'photograph'""), (""'photo'"", ""'photograph'""), (""'photo'"", ""'pictures'"")]"	0	
+78	rec newsgroup article crossposte automobile posting sport newsletter topic inflammatory	2.0	2.0	3.0	0		2	"[(""'rec'"", ""'newsgroup'""), (""'article'"", ""'posting'"")]"	0	
+79	tiff philosophical significance complexity lifespan dent universe inability numerology salvageable	2.0	2.0	3.0	2	dent salvageable	1	"[(""'inability'"", ""'dent'"")]"	0	
+80	sphere ellipse circle intersection coplanar polygon pole perpendicular surface solution	3.0	2.0	3.0	2	ˈsolutionˈ ˈpoleˈ	2	"[(""'circle'"", ""'sphere'""), (""'circle'"", ""'ellipse'"")]"	0	
+81	ground neutral wire panel connect box service electrical ball fault	3.0	2.0	3.0	1	ˈbɔːl	1	"[(""'electrical'"", ""'service'"")]"	1	"ball**: While ""ball"" is a valid word"
+82	mask paint face tommy logo wear favorite helmet blue nomination	2.0	2.0	3.0	0		2	"[(""'face'"", ""'helmet'""), (""'mask'"", ""'helmet'"")]"	1	tommy:** While a name
+83	joystick int cartridge ram nintendo atari hack extra interrupt hardware	3.0	2.0	3.0	0		1	"[(""'int'"", ""'interrupt'"")]"	0	
+84	lens camera package hotel bag forsale canon case item price	2.0	2.0	3.0	4	hotel package price item	1	"[(""'item'"", ""'package'"")]"	0	
+85	software level process flight engineering launch bug management simulation caution	2.0	2.0	3.0	2	ˈflaɪt ˈkɔːʃən	1	"[(""'software'"", ""'bug'"")]"	0	
+86	tax sales canada spending pay fund dancing prediction plan raise	2.0	2.0	3.0	2	dancing prediction	2	"[(""'pay'"", ""'spending'""), (""'tax'"", ""'fund'"")]"	1	dancing**: While a valid word
+87	jim herring apology straw argument respond criticize conclusion logic action	2.0	2.0	3.0	1	ˈstrɔː	1	"[(""'criticize'"", ""'argument'"")]"	0	
+88	file byte filemanager window create size setting exe pif group	3.0	2.0	3.0	0		1	"[(""'file'"", ""'filemanager'"")]"	0	
+89	jupiter tom gamma project arizona orbital mayan greek sun artist	2.0	2.0	3.0	4	'tom' 'artist' 'mayan' 'gamma'	1	"[(""'sun'"", ""'jupiter'"")]"	0	
+90	decoder converter input sample serial mhz resolution datum signal email	2.0	2.0	3.0	1	ˈiːmeɪl	2	"[(""'decoder'"", ""'converter'""), (""'input'"", ""'datum'"")]"	0	
+91	lobbying organization lobby fishing associate group amendment political action active	3.0	1.0	3.0	0		1	"[(""'lobbying'"", ""'lobby'"")]"	0	
+92	resurrection impact christians revelation faith believe messiah testament persecution muhammad	2.0	2.0	3.0	1	ˈmuhammad	1	"[(""'messiah'"", ""'christians'"")]"	1	'muhammad' - While a significant religious figure
+93	satellite conference crystal exploration brochure western matt cost plan venture	2.0	2.0	3.0	3	'western' 'matt' 'cost'	1	"[(""'cost'"", ""'plan'"")]"	0	
+94	sunset munich discrepancy longitude asimov synchronize daytime orbit hour algorithms	2.0	2.0	3.0	2	ˈdiscrepancy ˈalgorithms	2	"[(""'daytime'"", ""'hour'""), (""'longitude'"", ""'orbit'"")]"	0	
+95	duo apple sleep crash ram vendor reset hardware screen faulty	2.0	2.0	3.0	0		1	"[(""'hardware'"", ""'screen'"")]"	0	
+96	easter resurrection testament worship israelites meaning christians baptism german phrasing	3.0	2.0	3.0	0		1	"[(""'resurrection'"", ""'christians'"")]"	0	
+97	faq soda posting berkeley monthly info archive associate revision document	2.0	2.0	3.0	2	'soda' 'berkeley'	1	"[(""'document'"", ""'archive'"")]"	0	
+98	pirate protection software mode packet hack shareware clone hardware arno	2.0	2.0	3.0	2	erno hardware	2	"[(""'software'"", ""'shareware'""), (""'hardware'"", ""'clone'"")]"	0	
+99	ezekiel satan bible king sign angel satanic god church music	2.0	2.0	3.0	2	🎶 **music 👑 **king	1	"[(""'satan'"", ""'satanic'"")]"	0	
+100	test testing film message tough concept flame network write use	2.0	2.0	3.0	3	'flame' 'tough' 'use'	1	"[(""'test'"", ""'testing'"")]"	0	
